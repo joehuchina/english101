@@ -9,3 +9,8 @@ output/
 .DS_Store
 .playwright-cli/
 *.tsbuildinfo
+
+# 大媒体文件 - 托管于 Cloudflare R2，不入 git
+public/atlas/audio/
+public/atlas/img/
+public/atlas/thumb/
