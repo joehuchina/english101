@@ -187,8 +187,9 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
 
       <WordSheet id={word} />
       <Palette open={palette} onClose={() => setPalette(false)} />
-      {!onboarded && route.page !== "about" && !splash && <Onboarding />}
-      {splash && <Splash onDone={() => setSplash(false)} />}
+      {/* Splash and Onboarding disabled - go straight to app */}
+      {/* {!onboarded && route.page !== "about" && !splash && <Onboarding />} */}
+      {/* {splash && <Splash onDone={() => setSplash(false)} />} */}
       <Toasts />
       <AmbienceController />
     </div>
