@@ -2,7 +2,9 @@ import type { Atlas, Entry, IndexRow, WordRef } from "./types";
 import { MEDIA } from "./types";
 
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const MEDIA_BASE = (import.meta.env.VITE_MEDIA_BASE || "").replace(/\/$/, "") || `${BASE}`;
 const url = (p: string) => `${BASE}/atlas/${p}`;
+const mediaUrl = (p: string) => `${MEDIA_BASE}/atlas/${p}`;
 
 interface IndexFile {
   id: string;
@@ -76,12 +78,12 @@ export async function loadOpenAtlas(): Promise<Atlas> {
     },
     img: (ref, size = "full") =>
       ("media" in ref && typeof ref.media === "number" ? ref.media : (ref as Entry).m) & MEDIA.img
-        ? url(`${size === "thumb" ? "thumb" : "img"}/${ref.id}.webp`)
+        ? mediaUrl(`${size === "thumb" ? "thumb" : "img"}/${ref.id}.webp`)
         : null,
     audio(ref, kind) {
       const m = "media" in ref && typeof ref.media === "number" ? ref.media : (ref as Entry).m;
       const bit = MEDIA[kind];
-      return m & bit ? url(`audio/${kind}/${ref.id}.mp3`) : null;
+      return m & bit ? mediaUrl(`audio/${kind}/${ref.id}.mp3`) : null;
     },
   };
 }
