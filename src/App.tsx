@@ -9,7 +9,6 @@ import { AtlasPage } from "./pages/Atlas";
 import { About } from "./pages/About";
 import { Learn } from "./pages/Learn";
 import { Me } from "./pages/Me";
-import { Onboarding } from "./pages/Onboarding";
 import { Practice } from "./pages/Practice";
 import { Today } from "./pages/Today";
 import { cue } from "./lib/sound";
@@ -19,7 +18,6 @@ import { AmbienceController, AmbiencePicker } from "./ui/Ambience";
 import { Logo } from "./ui/Logo";
 import { Palette } from "./ui/Palette";
 import { Sheet } from "./ui/Sheet";
-import { shouldShowSplash, Splash } from "./ui/Splash";
 import { Toasts } from "./ui/Toast";
 
 const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
@@ -93,10 +91,8 @@ export default function App() {
 
 function Shell({ privateAvailable }: { privateAvailable: boolean }) {
   const { route, word } = useLocation();
-  const onboarded = useStore((s) => s.settings.onboarded);
   const theme = useStore((s) => s.settings.theme);
   const [palette, setPalette] = useState(false);
-  const [splash, setSplash] = useState(shouldShowSplash);
   const focus = route.page === "learn";
 
   useEffect(() => {
