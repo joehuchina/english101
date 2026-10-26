@@ -678,7 +678,7 @@ code {
   right: 0;
   bottom: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
   background: color-mix(in oklab, var(--paper) 86%, transparent);
   backdrop-filter: saturate(1.4) blur(18px);
@@ -4119,4 +4119,422 @@ a:hover .mark-needle,
 }
 .streak-panel .mini-stats div:first-child dd {
   color: var(--ochre);
+}
+
+/* ---------- listen & pick (听图) ---------- */
+
+.lp-stars {
+  display: inline-flex;
+  gap: 2px;
+  color: var(--ink-4);
+}
+.lp-stars svg.is-on {
+  color: var(--ochre);
+  fill: var(--ochre);
+}
+.lp-summary {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 36px;
+}
+.lp-summary .mini-stats {
+  padding-top: 0;
+  border-top: 0;
+  max-width: 460px;
+}
+.lp-weak {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: var(--r-lg);
+  background: color-mix(in oklab, var(--terra-soft) 70%, var(--card));
+  border: 1px solid var(--line);
+  text-align: left;
+  max-width: 520px;
+  transition: transform 0.3s var(--spring);
+}
+.lp-weak:hover {
+  transform: translateY(-2px);
+}
+.lp-weak > span:nth-child(2) {
+  flex: 1;
+  display: grid;
+  gap: 2px;
+}
+.lp-weak small {
+  color: var(--ink-3);
+}
+.lp-weak-art {
+  display: flex;
+}
+.lp-weak-art .illo {
+  width: 44px;
+  border-radius: 12px;
+  border: 2px solid var(--card);
+}
+.lp-weak-art .illo + .illo {
+  margin-left: -14px;
+}
+.lp-round {
+  margin-bottom: 36px;
+}
+.lp-round-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.lp-round-head h2 {
+  font: 600 22px var(--serif);
+}
+.lp-round-head p {
+  color: var(--ink-3);
+  font-size: 14px;
+}
+.lp-stages {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: 12px;
+  padding: 0;
+  list-style: none;
+}
+.lp-stage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px;
+  border-radius: var(--r);
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  text-align: left;
+  transition: transform 0.3s var(--spring), box-shadow 0.3s var(--ease);
+}
+.lp-stage:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+.lp-stage.is-next {
+  border-color: var(--terra);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--terra) 18%, transparent);
+}
+.lp-stage-art {
+  width: 64px;
+  flex: none;
+  border-radius: 12px;
+}
+.lp-stage-body {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+.lp-stage-body b {
+  font-size: 15px;
+}
+.lp-stage-body small {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+.lp-next-tag {
+  position: absolute;
+  top: -9px;
+  right: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--terra);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+.lp-brief {
+  display: grid;
+  gap: 10px;
+}
+.lp-brief .display {
+  font-size: 30px;
+}
+.lp-brief-words {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  gap: 8px;
+  padding: 0;
+  margin: 8px 0;
+  list-style: none;
+}
+.lp-brief-words button {
+  width: 100%;
+  display: block;
+}
+.lp-brief-words .illo {
+  border-radius: 12px;
+}
+.lp-brief-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+@media (max-width: 559px) {
+  .lp-brief-actions {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lp-top-title {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.lp-top .learn-count {
+  min-width: 0;
+}
+.lp-score {
+  min-width: 44px;
+  text-align: right;
+  font: 600 16px var(--serif);
+  font-variant-numeric: tabular-nums;
+  color: var(--ochre);
+}
+@media (max-width: 559px) {
+  .lp-top-title {
+    display: none;
+  }
+}
+
+.lp-book {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+  padding: 0;
+  list-style: none;
+}
+@media (max-width: 559px) {
+  .lp-book {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+.lp-card {
+  position: relative;
+  width: 100%;
+  display: block;
+  border-radius: var(--r);
+  transition: transform 0.3s var(--spring), box-shadow 0.3s var(--ease);
+}
+.lp-card .illo {
+  box-shadow: var(--shadow-sm);
+}
+.lp-card:hover {
+  transform: translateY(-2px);
+}
+.lp-card.is-active .illo {
+  box-shadow: 0 0 0 3px var(--ochre), var(--shadow);
+}
+.lp-heard {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--sage);
+  color: #fff;
+}
+.lp-card-back {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  gap: 4px;
+  padding: 10px;
+  border-radius: var(--r);
+  text-align: center;
+  background: color-mix(in oklab, var(--card) 88%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: lp-flip 0.35s var(--ease);
+}
+@keyframes lp-flip {
+  from {
+    transform: rotateY(70deg);
+    opacity: 0;
+  }
+}
+.lp-card-back b {
+  font: 600 24px var(--serif);
+  overflow-wrap: anywhere;
+}
+.lp-card-back .ipa {
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.lp-card-back small {
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.lp-learn-actions {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 14px 0 calc(14px + env(safe-area-inset-bottom));
+  background: linear-gradient(transparent, var(--paper) 30%);
+}
+
+.lp-combo {
+  margin-left: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--ochre-soft);
+  color: color-mix(in oklab, var(--ochre) 70%, var(--ink));
+  animation: rise 0.3s var(--spring);
+}
+.lp-listen {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  margin: 4px 0 24px;
+}
+.lp-listen .listen-orb {
+  width: 112px;
+  height: 112px;
+}
+.lp-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  padding: 0;
+  margin: 0 0 16px;
+  list-style: none;
+}
+@media (max-width: 759px) {
+  .lp-options {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+.lp-option {
+  position: relative;
+  width: 100%;
+  display: block;
+  border-radius: var(--r);
+  transition: transform 0.3s var(--spring), opacity 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+.lp-option .illo {
+  box-shadow: var(--shadow);
+}
+.lp-option:hover:not(:disabled) {
+  transform: translateY(-3px);
+}
+.lp-option:disabled {
+  cursor: default;
+}
+.lp-option kbd {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  min-width: 22px;
+  padding: 1px 6px;
+  border-radius: 7px;
+  background: color-mix(in oklab, var(--card) 85%, transparent);
+  font: 600 12px var(--mono);
+  color: var(--ink-2);
+}
+.lp-option.is-answer .illo {
+  box-shadow: 0 0 0 4px var(--sage), var(--shadow);
+}
+.lp-option.is-chosen .illo {
+  box-shadow: 0 0 0 4px var(--terra), var(--shadow);
+}
+.lp-option.is-chosen {
+  animation: lp-shake 0.4s var(--ease);
+}
+.lp-option.is-dim {
+  opacity: 0.4;
+}
+@keyframes lp-shake {
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+.lp-option-word {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: color-mix(in oklab, var(--card) 90%, transparent);
+  font: 600 16px var(--serif);
+  text-align: center;
+  animation: rise 0.3s var(--ease);
+}
+.lp-option-mark {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 3px;
+  border-radius: 50%;
+  color: #fff;
+}
+.is-answer .lp-option-mark {
+  background: var(--sage);
+}
+.is-chosen .lp-option-mark {
+  background: var(--terra);
+}
+.lp-test .hint-keys {
+  align-self: center;
+}
+
+.lp-result {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  text-align: center;
+}
+.lp-result .mini-stats {
+  width: 100%;
+  max-width: 420px;
+}
+.lp-wrong-title {
+  color: var(--ink-2);
+  font-size: 14px;
+}
+.lp-result .summary-words li {
+  cursor: pointer;
+}
+/* The bar sits over the pictures here, so it must be opaque. */
+.lp-test .feedback .feedback-inner {
+  background-color: var(--card);
+}
+.lp-test .feedback.is-right .feedback-inner {
+  background-image: linear-gradient(var(--sage-soft), var(--sage-soft));
+}
+.lp-test .feedback.is-wrong .feedback-inner {
+  background-image: linear-gradient(var(--terra-soft), var(--terra-soft));
+}
+@media (max-width: 759px) {
+  /* After answering, keep all four pictures in view above the bar. */
+  .lp-test.is-right .lp-listen,
+  .lp-test.is-wrong .lp-listen {
+    display: none;
+  }
+  .lp-test .feedback-inner {
+    grid-template-columns: 1fr;
+    padding: 14px 16px;
+  }
+  .lp-test .feedback-art {
+    display: none;
+  }
 }

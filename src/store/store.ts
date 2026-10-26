@@ -1,5 +1,6 @@
 import { useSyncExternalStore } from "react";
 import type { Accent } from "../atlas/types";
+import { emptyListen, sanitizeListen, type ListenProgress } from "../listen/progress";
 import type { CardState, Grade } from "./srs";
 
 export type QuizKind = "meaning" | "picture" | "listen" | "spell";
@@ -44,6 +45,8 @@ export interface Progress {
   session: ActiveSession | null;
   /** Rolling list of recent mistakes, newest first. */
   mistakes: string[];
+  /** Listen-and-pick-the-picture game. */
+  listen: ListenProgress;
 }
 
 export interface Settings {
@@ -87,6 +90,7 @@ export const emptyProgress = (datasetId: string): Progress => ({
   typing: [],
   session: null,
   mistakes: [],
+  listen: emptyListen(),
 });
 
 export const dayKey = (d = new Date()) =>
@@ -151,6 +155,7 @@ export function sanitizeProgress(v: unknown, datasetId: string): Progress {
           isObj(t) && num(t.at, 0) && ["word", "sentence", "dictation"].includes(t.mode as string) && num(t.items, 0) && num(t.wpm, 0, 400) && num(t.accuracy, 0, 100),
       )
       .slice(-500);
+  out.listen = sanitizeListen(v.listen);
   const s = v.session;
   if (isObj(s) && typeof s.id === "string" && Array.isArray(s.steps) && num(s.index, 0) && isObj(s.graded))
     out.session = s as unknown as ActiveSession;
