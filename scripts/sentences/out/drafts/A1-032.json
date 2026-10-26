@@ -1,0 +1,206 @@
+{
+ "story": "Sara and Ivan talk about their big travel plans. They want to visit many different countries and continents. They plan to use many kinds of transport to travel.",
+ "title": "Big Travel Plans",
+ "title_zh": "宏大的旅行计划",
+ "setting": "A bright living room with a large world map on the wall.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "A young woman with long brown hair and a green sweater."
+  },
+  {
+   "name": "Ivan",
+   "look": "A young man with short black hair and a blue shirt."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara looks at a big world map.",
+   "zh": "萨拉看着一张巨大的世界地图。",
+   "scene_prompt": "Sara with long brown hair and a green sweater looks at a big world map on the wall."
+  },
+  {
+   "en": "She wants to visit Europe this summer.",
+   "zh": "她想在今年夏天游览欧洲。",
+   "scene_prompt": "Sara points her finger at Europe on the world map."
+  },
+  {
+   "en": "Ivan wants to go to Germany soon.",
+   "zh": "伊万想很快去德国。",
+   "scene_prompt": "Ivan with short black hair and a blue shirt looks at the map."
+  },
+  {
+   "en": "The trip to Australia is very far.",
+   "zh": "去澳大利亚的旅程非常遥远。",
+   "scene_prompt": "Ivan points to Australia on the map, which is far away."
+  },
+  {
+   "en": "They can travel by a fast train.",
+   "zh": "他们可以乘坐快速的火车旅行。",
+   "scene_prompt": "A small toy train sits on the table in front of them."
+  },
+  {
+   "en": "They might drive a car in America.",
+   "zh": "他们可能在美国开汽车。",
+   "scene_prompt": "Sara imagines a small car driving on a long road."
+  },
+  {
+   "en": "A bicycle is good for Mexico.",
+   "zh": "自行车很适合墨西哥。",
+   "scene_prompt": "Ivan imagines a bicycle leaning against a wall in Mexico."
+  },
+  {
+   "en": "They went to the airport yesterday.",
+   "zh": "他们昨天去了机场。",
+   "scene_prompt": "Sara and Ivan look at a picture of a large airport."
+  },
+  {
+   "en": "Mexico is a country in the south.",
+   "zh": "墨西哥是一个位于南方的国家。",
+   "scene_prompt": "Sara points to the south part of the map near Mexico."
+  },
+  {
+   "en": "They also see Asia and Canada.",
+   "zh": "他们也看到了亚洲和加拿大。",
+   "scene_prompt": "Ivan points to Asia and Canada on the large map."
+  },
+  {
+   "en": "The train station is very busy.",
+   "zh": "火车站非常繁忙。",
+   "scene_prompt": "A busy train station with many people and tracks."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "head",
+  "yesterday"
+ ],
+ "scene_id": "A1-032",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "europe",
+  "airport",
+  "far",
+  "australia",
+  "asia",
+  "mexico",
+  "south",
+  "train",
+  "germany",
+  "car",
+  "bicycle",
+  "visit",
+  "canada",
+  "america"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "europe",
+     "visit"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "germany"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "far",
+     "australia"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "train"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "car",
+     "america"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "mexico",
+     "bicycle"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "airport"
+    ],
+    "review_hits": [
+     "yesterday"
+    ]
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "mexico",
+     "south"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "asia",
+     "canada"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [
+     "train"
+    ],
+    "review_hits": [
+     "station"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "station",
+   "yesterday"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 48.4
+}

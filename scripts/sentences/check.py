@@ -19,9 +19,9 @@ POS_TAGS = {
     "adv.": {"ADV", "ADP", "PART", "SCONJ"},
     "prep.": {"ADP", "SCONJ", "ADV", "PART"},
     "conj.": {"CCONJ", "SCONJ", "ADV"},
-    "det.": {"DET", "PRON", "NUM"},
-    "pron.": {"PRON", "DET"},
-    "num.": {"NUM", "NOUN", "DET"},
+    "det.": {"DET", "PRON", "NUM", "ADJ"},
+    "pron.": {"PRON", "DET", "ADJ"},
+    "num.": {"NUM", "NOUN", "DET", "ADJ"},
     "int.": None,
     "phr.": None,
 }
@@ -88,6 +88,9 @@ def target_hit(word, doc, tokens_norm, lemmas_norm):
             return True
         if "v." in word["pos"] and tok.text.lower().endswith("ing"):
             return True
+        # Gerund headwords (swimming, reading) are tagged as verbs.
+        if "n." in word["pos"] and key.endswith("ing") and tok.tag_ == "VBG":
+            return True
         # Participle adjectives (tired, broken, interesting) are often tagged as verbs.
         if "adj." in word["pos"] and tok.tag_ in ("VBN", "VBG"):
             return True
@@ -105,7 +108,8 @@ def check_sentence(s, level, lex, targets, review, max_rare=1):
     if not lo <= len(words) <= hi:
         problems.append(f"length {len(words)} not in {lo}-{hi}")
 
-    hits = [tid for tid in targets if target_hit(lex.by_id[tid], doc, toks, lems)]
+    hits = [tid for tid in dict.fromkeys([*targets, *review])
+            if tid in lex.by_id and target_hit(lex.by_id[tid], doc, toks, lems)]
     allowed = {norm(lex.by_id[i]["word"]) for i in [*targets, *review] if i in lex.by_id}
     cur = LEVELS.index(level)
     rare = []
@@ -152,10 +156,16 @@ def check_scene(scene, unit, lex, seen=()):
         if opening in openings:
             problems.append(f"same opening as sentence {openings[opening] + 1}")
         openings.setdefault(opening, i)
-        results.append({"i": i, "problems": problems, "hits": hits})
+        targets = set(unit["targets"])
+        results.append({"i": i, "problems": problems,
+                        "hits": [h for h in hits if h in targets],
+                        "review_hits": [h for h in hits if h not in targets]})
     used = {h for r in results for h in r["hits"]}
     missing = [t for t in unit["targets"] if t not in used]
-    return {"sentences": results, "missing": missing}
+    reviewed = {h for r in results for h in r["review_hits"]}
+    return {"sentences": results, "missing": missing,
+            "review_used": [w for w in review if w in reviewed],
+            "review_needed": min(2, len(review))}
 
 
 def main(paths):

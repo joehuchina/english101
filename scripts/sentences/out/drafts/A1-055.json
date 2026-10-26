@@ -1,0 +1,183 @@
+{
+ "story": "It is Dan's birthday today. He and Aiko sit near a small table to eat snacks. Aiko puts butter on the bread, and Dan finds a carrot under his chair. A small pig runs off the table. They just want to close the door and wait.",
+ "title": "A Birthday Snack",
+ "title_zh": "生日小吃",
+ "setting": "A bright kitchen with a wooden table.",
+ "characters": [
+  {
+   "name": "Dan",
+   "look": "a young man with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Aiko",
+   "look": "a young woman with long black hair and a yellow dress"
+  },
+  {
+   "name": "Finn",
+   "look": "a small pink pig"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Today is Dan's big birthday.",
+   "zh": "今天是Dan的大生日。",
+   "scene_prompt": "Dan, a young man with short brown hair and a blue shirt, smiles happily."
+  },
+  {
+   "en": "Aiko and Dan come into the kitchen.",
+   "zh": "Aiko和Dan一起走进厨房里。",
+   "scene_prompt": "Aiko, a young woman with long black hair and a yellow dress, and Dan walk into a kitchen."
+  },
+  {
+   "en": "They sit near a small wooden table.",
+   "zh": "他们坐在一个小木桌旁边。",
+   "scene_prompt": "Aiko and Dan sit on chairs near a small wooden table."
+  },
+  {
+   "en": "Aiko puts butter on the bread.",
+   "zh": "Aiko在面包上面涂黄油。",
+   "scene_prompt": "Aiko spreads yellow butter on a slice of bread on the table."
+  },
+  {
+   "en": "They eat all the small snacks.",
+   "zh": "他们吃掉了所有的这些小零食。",
+   "scene_prompt": "Dan and Aiko are eating snacks from plates on the table."
+  },
+  {
+   "en": "Dan finds a carrot under his chair.",
+   "zh": "Dan在他的椅子下面发现了一个胡萝卜。",
+   "scene_prompt": "Dan leans down to look under his wooden chair and sees an orange carrot."
+  },
+  {
+   "en": "A small pig runs off the table.",
+   "zh": "一只小猪从桌子上跑了下来。",
+   "scene_prompt": "A small pink pig jumps off the wooden table onto the floor."
+  },
+  {
+   "en": "They just want to close the door.",
+   "zh": "他们只是想要把门关上。",
+   "scene_prompt": "Dan and Aiko look at the open door and want to shut it."
+  },
+  {
+   "en": "They wait for the hungry animal.",
+   "zh": "他们等待着那只饥饿的动物。",
+   "scene_prompt": "Dan and Aiko sit quietly and look at the small pink pig on the floor."
+  }
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "pig",
+  "animal"
+ ],
+ "scene_id": "A1-055",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "all",
+  "come",
+  "eat",
+  "carrot",
+  "near",
+  "just",
+  "birthday",
+  "butter",
+  "close",
+  "off",
+  "wait",
+  "under",
+  "on"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "birthday"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "come"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "near"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "butter",
+     "on"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "all",
+     "eat"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "carrot",
+     "under"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "off"
+    ],
+    "review_hits": [
+     "pig"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "just",
+     "close"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "wait"
+    ],
+    "review_hits": [
+     "animal"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "pig",
+   "animal"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 65.9
+}

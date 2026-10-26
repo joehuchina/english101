@@ -1,0 +1,165 @@
+{
+ "story": "Zoe and Raj go to a large university in the spring. It is a rainy day outside. Raj studies the Spanish language at his college. He wants to write in his big book. He has a hundred pages to finish. Raj is angry about a mistake. He uses an eraser to fix it. Zoe helps him describe words using a dictionary.",
+ "title": "Studying at University",
+ "title_zh": "在大学学习",
+ "setting": "A library on a rainy spring day.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "A young woman with long brown hair and a green sweater."
+  },
+  {
+   "name": "Raj",
+   "look": "A young man with short black hair and glasses."
+  },
+  {
+   "name": "Lucy",
+   "look": "A young woman with blonde hair in a ponytail."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Zoe and Raj go to a large university.",
+   "zh": "Zoe和Raj去一所大型大学。",
+   "scene_prompt": "Zoe with long brown hair and Raj with glasses walk toward a large university building."
+  },
+  {
+   "en": "It is a rainy day in the spring.",
+   "zh": "这是一个下雨的春天日子。",
+   "scene_prompt": "Rain falls from the sky onto green trees and flowers in the spring."
+  },
+  {
+   "en": "Raj studies the Spanish language at college.",
+   "zh": "Raj在学院学习西班牙语。",
+   "scene_prompt": "Raj sits at a desk in a college classroom studying a Spanish book."
+  },
+  {
+   "en": "He wants to write in his big book.",
+   "zh": "他想在他的大书里写字。",
+   "scene_prompt": "Raj holds a pen and prepares to write in a large book."
+  },
+  {
+   "en": "He has a hundred pages to finish.",
+   "zh": "他有一百页要写完。",
+   "scene_prompt": "Raj looks at a very thick book with many pages."
+  },
+  {
+   "en": "Raj is angry about a mistake.",
+   "zh": "Raj因为一个错误而生气。",
+   "scene_prompt": "Raj looks angry and frowns at his paper."
+  },
+  {
+   "en": "He uses an eraser to fix it.",
+   "zh": "他用橡皮擦来修正它。",
+   "scene_prompt": "Raj uses a small pink eraser on his paper."
+  },
+  {
+   "en": "Zoe helps him describe words in a dictionary.",
+   "zh": "Zoe帮助他在词典里描述单词。",
+   "scene_prompt": "Zoe points to a word in a thick dictionary while talking to Raj."
+  }
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "rainy",
+  "spring"
+ ],
+ "scene_id": "A1-054",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "college",
+  "describe",
+  "language",
+  "write",
+  "spanish",
+  "book",
+  "hundred",
+  "dictionary",
+  "university",
+  "eraser",
+  "angry"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "university"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "rainy",
+     "spring"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "college",
+     "language",
+     "spanish"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "write",
+     "book"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "hundred"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "angry"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "eraser"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "describe",
+     "dictionary"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "rainy",
+   "spring"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 63.4
+}

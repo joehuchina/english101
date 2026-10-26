@@ -1,0 +1,187 @@
+{
+ "story": "Omar and Nina visit a large shop on the weekend. They look for a white sweater for Nina's mother. They find a different sweater that is free. They plan to keep it for a year. Before they go home, they play in the pool for one hour. They think about their happy future.",
+ "title": "A Weekend Trip",
+ "title_zh": "周末之旅",
+ "setting": "A large shopping mall and a swimming pool.",
+ "characters": [
+  {
+   "name": "Omar",
+   "look": "A young boy with short black hair and a blue t-shirt."
+  },
+  {
+   "name": "Nina",
+   "look": "A young girl with long brown hair and a yellow dress."
+  },
+  {
+   "name": "Mother",
+   "look": "A woman with glasses and a green coat."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar and Nina visit a large shop.",
+   "zh": "Omar和Nina去了一家大商店。",
+   "scene_prompt": "Omar, a boy with short black hair, and Nina, a girl with long brown hair, walk into a large shop."
+  },
+  {
+   "en": "They enjoy this fun weekend activity.",
+   "zh": "他们很享受这个有趣的周末活动。",
+   "scene_prompt": "Omar and Nina are smiling and walking through a bright shop."
+  },
+  {
+   "en": "They want a white sweater for mother.",
+   "zh": "他们想为妈妈买一件白色的毛衣。",
+   "scene_prompt": "Omar and Nina look at a white sweater on a hanger."
+  },
+  {
+   "en": "The sweater is different and very nice.",
+   "zh": "这件毛衣很不一样，非常好看。",
+   "scene_prompt": "Nina holds up a different colored sweater next to the white one."
+  },
+  {
+   "en": "This special sweater is free today.",
+   "zh": "这件特别的毛衣今天是免费的。",
+   "scene_prompt": "A sign on the sweater says it is free."
+  },
+  {
+   "en": "They will keep it for a year.",
+   "zh": "他们会把它保留一年。",
+   "scene_prompt": "Omar and Nina hold the white sweater carefully."
+  },
+  {
+   "en": "Before they go home, they play.",
+   "zh": "在回家之前，他们去玩耍。",
+   "scene_prompt": "Omar and Nina are running toward a swimming pool."
+  },
+  {
+   "en": "They swim in the pool one hour.",
+   "zh": "他们在游泳池里游了一个小时。",
+   "scene_prompt": "Omar and Nina are swimming in a large blue swimming pool."
+  },
+  {
+   "en": "They think about their happy future.",
+   "zh": "他们思考着他们幸福的未来。",
+   "scene_prompt": "Omar and Nina sit by the pool and look at the bright sky."
+  }
+ ],
+ "review_words": [
+  "activity",
+  "chips",
+  "keep",
+  "left"
+ ],
+ "scene_id": "A1-019",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "year",
+  "free",
+  "shop",
+  "weekend",
+  "sweater",
+  "mother",
+  "play",
+  "different",
+  "pool",
+  "before",
+  "white",
+  "large",
+  "hour",
+  "future"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "shop",
+     "large"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "weekend"
+    ],
+    "review_hits": [
+     "activity"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "sweater",
+     "mother",
+     "white"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "sweater",
+     "different"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "free",
+     "sweater"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "year"
+    ],
+    "review_hits": [
+     "keep"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "play",
+     "before"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "pool",
+     "hour"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "future"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "activity",
+   "keep"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 62.5
+}

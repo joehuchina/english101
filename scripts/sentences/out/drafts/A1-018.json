@@ -1,0 +1,175 @@
+{
+ "story": "Mia and Sam go to a bookshop on a hot day in February. Mia looks for a blue book, but Sam feels sad because he might lose his hat. Sam tells Mia that there is an egg on the floor below the table. They see nothing else near the egg.",
+ "title": "A Day at the Bookshop",
+ "title_zh": "书店里的一天",
+ "setting": "A small, bright bookshop with shelves of books.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "A young girl with short brown hair and a green shirt."
+  },
+  {
+   "name": "Sam",
+   "look": "A young boy with glasses and a yellow hat."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a hot day in February.",
+   "zh": "现在是二月一个炎热的日子。",
+   "scene_prompt": "Mia and Sam stand outside a small building under a bright sun in February."
+  },
+  {
+   "en": "Mia and Sam go to the bookshop.",
+   "zh": "Mia和Sam去书店。",
+   "scene_prompt": "Mia and Sam walk toward the door of a small bookshop."
+  },
+  {
+   "en": "Mia wants a blue book there.",
+   "zh": "Mia想在那里买一本蓝色的书。",
+   "scene_prompt": "Mia points to a blue book on a high shelf in the bookshop."
+  },
+  {
+   "en": "Sam feels sad about your lost hat.",
+   "zh": "Sam为你丢失的帽子感到难过。",
+   "scene_prompt": "Sam looks sad and touches his head where a hat should be."
+  },
+  {
+   "en": "Please tell me if you lose it.",
+   "zh": "如果你弄丢了，请告诉我。",
+   "scene_prompt": "Mia looks at Sam's face and speaks to him."
+  },
+  {
+   "en": "Sam sees an egg below the table.",
+   "zh": "Sam看到桌子下方有一个蛋。",
+   "scene_prompt": "Sam points to a small white egg on the floor under a wooden table."
+  },
+  {
+   "en": "He shows his face to Mia.",
+   "zh": "他把脸对着Mia。",
+   "scene_prompt": "Sam turns his face toward Mia to show her the egg."
+  },
+  {
+   "en": "They see nothing else near the egg.",
+   "zh": "他们在蛋的附近没有看到别的东西。",
+   "scene_prompt": "Mia and Sam look at the egg on the floor, but there is nothing else around it."
+  }
+ ],
+ "review_words": [
+  "activity",
+  "nothing",
+  "hat",
+  "chips"
+ ],
+ "scene_id": "A1-018",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "tell",
+  "below",
+  "there",
+  "face",
+  "hot",
+  "blue",
+  "tonight",
+  "february",
+  "lose",
+  "your",
+  "break",
+  "egg",
+  "bookshop",
+  "feel"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "hot",
+     "february"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [
+     "Chinese length looks wrong (4 chars for 7 words)"
+    ],
+    "hits": [
+     "bookshop"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "there",
+     "blue"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [
+     "above level: sad, lost"
+    ],
+    "hits": [
+     "your",
+     "feel"
+    ],
+    "review_hits": [
+     "hat"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "tell",
+     "lose"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "below",
+     "egg"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "face"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "egg"
+    ],
+    "review_hits": [
+     "nothing"
+    ]
+   }
+  ],
+  "missing": [
+   "tonight",
+   "break"
+  ],
+  "review_used": [
+   "nothing",
+   "hat"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 60.7
+}

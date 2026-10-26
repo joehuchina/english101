@@ -1,0 +1,192 @@
+{
+ "story": "Ivan is a policeman with a long beard. He and his husband, Maya, like to go shopping. They find a big box at a shop. The box has a real address on it. They do not have any more time. They see the rain fall down. The wet street is very dark. It is thirty minutes until they go home. This is the best fun now.",
+ "title": "A Day Out",
+ "title_zh": "出门的一天",
+ "setting": "A busy street with many shops.",
+ "characters": [
+  {
+   "name": "Ivan",
+   "look": "A tall policeman with a long brown beard and a blue uniform."
+  },
+  {
+   "name": "Maya",
+   "look": "A woman with short red hair and a green coat."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ivan is a policeman with a beard.",
+   "zh": "伊万是一个留着胡须的警察。",
+   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform, stands on a street."
+  },
+  {
+   "en": "He is a very good husband.",
+   "zh": "他是一个非常好的丈夫。",
+   "scene_prompt": "Ivan smiles and holds the hand of Maya."
+  },
+  {
+   "en": "They like to go shopping together.",
+   "zh": "他们喜欢一起去购物。",
+   "scene_prompt": "Ivan and Maya walk past many colorful shop windows."
+  },
+  {
+   "en": "Maya finds a big brown box.",
+   "zh": "玛雅发现了一个大棕色盒子。",
+   "scene_prompt": "Maya, a woman with short red hair and a green coat, points at a large box."
+  },
+  {
+   "en": "The box has a real address.",
+   "zh": "这个盒子有一个真实的地址。",
+   "scene_prompt": "Maya looks at a white paper address on the side of the box."
+  },
+  {
+   "en": "They do not have any more time.",
+   "zh": "他们没有更多的时间了。",
+   "scene_prompt": "Maya looks at her watch with a worried face."
+  },
+  {
+   "en": "They see the rain fall down.",
+   "zh": "他们看到雨落了下来。",
+   "scene_prompt": "Raindrops fall from the grey sky onto the street."
+  },
+  {
+   "en": "The wet street is very dark.",
+   "zh": "潮湿的街道非常暗。",
+   "scene_prompt": "The street is wet and shiny from the rain."
+  },
+  {
+   "en": "It is thirty minutes until they go home.",
+   "zh": "离他们回家还有三十分钟。",
+   "scene_prompt": "A large clock shows thirty minutes remaining."
+  },
+  {
+   "en": "This is the best fun now.",
+   "zh": "现在是最棒的乐趣。",
+   "scene_prompt": "Ivan and Maya laugh together under a big umbrella."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "policeman",
+  "poor",
+  "husband"
+ ],
+ "scene_id": "A1-048",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "like",
+  "fall",
+  "thirty",
+  "best",
+  "any",
+  "shopping",
+  "address",
+  "box",
+  "fun",
+  "beard",
+  "wet",
+  "now",
+  "real"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "beard"
+    ],
+    "review_hits": [
+     "policeman"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "husband"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "like"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "box"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "address",
+     "box",
+     "real"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "any"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "fall"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "wet"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "thirty"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "best",
+     "fun",
+     "now"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "shopping"
+  ],
+  "review_used": [
+   "policeman",
+   "husband"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 68.9
+}

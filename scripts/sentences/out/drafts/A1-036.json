@@ -1,0 +1,183 @@
+{
+ "story": "Emma and Rosa meet at a cafe in November. Emma wears a yellow dress and carries a bag. They talk about where they live and their trip in August.",
+ "title": "A Meeting in November",
+ "title_zh": "十一月的聚会",
+ "setting": "A cozy cafe during a cold autumn day.",
+ "characters": [
+  {
+   "name": "Emma",
+   "look": "a girl with short brown hair and a friendly smile"
+  },
+  {
+   "name": "Rosa",
+   "look": "a girl with long black hair and glasses"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a cold day in November.",
+   "zh": "现在是寒冷的十一月。",
+   "scene_prompt": "Emma with short brown hair and Rosa with long black hair walk outside on a cold day."
+  },
+  {
+   "en": "Emma and Rosa go to a small cafe.",
+   "zh": "Emma和Rosa去了一家小咖啡馆。",
+   "scene_prompt": "Emma and Rosa walk into a cozy cafe with windows."
+  },
+  {
+   "en": "Emma wears a beautiful yellow dress.",
+   "zh": "Emma穿着一件漂亮的黄色连衣裙。",
+   "scene_prompt": "Emma with short brown hair wears a bright yellow dress."
+  },
+  {
+   "en": "She carries a heavy blue bag.",
+   "zh": "她背着一个沉重的蓝色包。",
+   "scene_prompt": "Emma carries a large blue bag on her shoulder."
+  },
+  {
+   "en": "They eat breakfast at a small table.",
+   "zh": "她们在小桌子旁吃早餐。",
+   "scene_prompt": "Emma and Rosa sit at a table with plates of food and coffee."
+  },
+  {
+   "en": "Rosa asks her about the hot August.",
+   "zh": "Rosa问她关于炎热的八月。",
+   "scene_prompt": "Rosa looks at Emma and speaks to her."
+  },
+  {
+   "en": "Emma wants to catch a quick bus.",
+   "zh": "Emma想赶上一辆快速的公交车。",
+   "scene_prompt": "Emma looks out the cafe window at a bus passing by."
+  },
+  {
+   "en": "Four people stop at this nice place.",
+   "zh": "四个人在这个漂亮的地方停了下来。",
+   "scene_prompt": "Four people stop walking in front of the cafe."
+  },
+  {
+   "en": "They live in a place near Africa.",
+   "zh": "他们住在靠近非洲的一个地方。",
+   "scene_prompt": "A small map on the cafe wall shows a place near Africa."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "stop",
+  "ask",
+  "jacket"
+ ],
+ "scene_id": "A1-036",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "yellow",
+  "november",
+  "cafe",
+  "live",
+  "her",
+  "quick",
+  "august",
+  "bag",
+  "place",
+  "dress",
+  "breakfast",
+  "catch",
+  "four"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "november"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "cafe"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "yellow",
+     "dress"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "bag"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "breakfast"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "her",
+     "august"
+    ],
+    "review_hits": [
+     "ask"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "quick",
+     "catch"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "place",
+     "four"
+    ],
+    "review_hits": [
+     "stop"
+    ]
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "live",
+     "place"
+    ],
+    "review_hits": [
+     "africa"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "africa",
+   "stop",
+   "ask"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 58.7
+}

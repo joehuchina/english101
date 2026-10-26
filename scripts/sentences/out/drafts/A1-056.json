@@ -1,0 +1,168 @@
+{
+ "story": "Ivan and his grandfather go to a community club. They meet a friendly American woman there. Everybody in the club is very happy.",
+ "title": "The Community Club",
+ "title_zh": "社区俱乐部",
+ "setting": "A bright community center with many people.",
+ "characters": [
+  {
+   "name": "Ivan",
+   "look": "A young boy with short brown hair and a blue shirt."
+  },
+  {
+   "name": "Grandfather",
+   "look": "An old man with white hair and glasses."
+  },
+  {
+   "name": "Maya",
+   "look": "A kind woman with long black hair and a green sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ivan is at a new club.",
+   "zh": "伊万在一个新俱乐部里。",
+   "scene_prompt": "Ivan, a young boy with short brown hair and a blue shirt, stands in front of a community building."
+  },
+  {
+   "en": "His grandfather walks slowly beside him.",
+   "zh": "他的祖父慢慢地走在他身边。",
+   "scene_prompt": "An old man with white hair and glasses walks next to Ivan."
+  },
+  {
+   "en": "They invite a friendly American woman.",
+   "zh": "他们邀请了一位友好的美国女子。",
+   "scene_prompt": "Ivan and his grandfather talk to Maya, a woman with long black hair and a green sweater."
+  },
+  {
+   "en": "Maya is a kind Russian friend.",
+   "zh": "玛雅是一位善良的俄罗斯朋友。",
+   "scene_prompt": "Maya, a woman with long black hair and a green sweater, smiles at Ivan."
+  },
+  {
+   "en": "Everybody has a very big smile.",
+   "zh": "每个人都有一个灿烂的微笑。",
+   "scene_prompt": "A group of different people in a room are all smiling happily."
+  },
+  {
+   "en": "The British police officer visits them.",
+   "zh": "英国警察来拜访他们。",
+   "scene_prompt": "A police officer in a dark uniform stands near the group of people."
+  },
+  {
+   "en": "Her son plays with a tiger.",
+   "zh": "她的儿子玩着一只老虎。",
+   "scene_prompt": "A small boy plays with a small orange toy tiger on the floor."
+  },
+  {
+   "en": "He sees a very bright star.",
+   "zh": "他看到一颗非常明亮的星星。",
+   "scene_prompt": "A small boy looks up at a bright yellow star shape on the wall."
+  }
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "tiger",
+  "star"
+ ],
+ "scene_id": "A1-056",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "grandfather",
+  "friend",
+  "club",
+  "woman",
+  "police",
+  "everybody",
+  "son",
+  "invite",
+  "american",
+  "russian",
+  "british",
+  "smile"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "club"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "grandfather"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "woman",
+     "invite",
+     "american"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "friend",
+     "russian"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "everybody",
+     "smile"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "police",
+     "british"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "son"
+    ],
+    "review_hits": [
+     "tiger"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "star"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "tiger",
+   "star"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 59.8
+}

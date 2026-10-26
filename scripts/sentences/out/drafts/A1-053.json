@@ -1,0 +1,166 @@
+{
+ "story": "Kofi and his brother Max sit in the park. The evening air is warm because the sun is out. Max eats an apple, but he does not want other food. He thinks English is difficult, but Kofi helps him with everything.",
+ "title": "A Warm Evening",
+ "title_zh": "温暖的傍晚",
+ "setting": "A park at sunset.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "A young boy with short black hair and a blue shirt."
+  },
+  {
+   "name": "Max",
+   "look": "A young boy with glasses and a green sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and his brother Max sit outside.",
+   "zh": "Kofi和他的弟弟Max坐在外面。",
+   "scene_prompt": "Kofi, a boy in a blue shirt, and Max, a boy in a green sweater, sit on a park bench."
+  },
+  {
+   "en": "The evening air is very warm.",
+   "zh": "傍晚的空气非常温暖。",
+   "scene_prompt": "Kofi and Max sit in a park under a soft orange sky."
+  },
+  {
+   "en": "The air is warm because of the sun.",
+   "zh": "因为有太阳，空气很温暖。",
+   "scene_prompt": "A bright yellow sun shines in the orange sky above the park."
+  },
+  {
+   "en": "Max eats a big red apple.",
+   "zh": "Max吃着一个大红苹果。",
+   "scene_prompt": "Max, a boy with glasses, bites into a large red apple."
+  },
+  {
+   "en": "He does not want other food now.",
+   "zh": "他现在不想吃其他的食物。",
+   "scene_prompt": "Max looks at the apple in his hand and shakes his head."
+  },
+  {
+   "en": "English is more difficult than play.",
+   "zh": "英语比玩耍更困难。",
+   "scene_prompt": "Max looks at a book with a sad face."
+  },
+  {
+   "en": "Somebody helps him with everything now.",
+   "zh": "现在有人在帮他处理一切。",
+   "scene_prompt": "Kofi puts his hand on Max's shoulder."
+  },
+  {
+   "en": "The right answers include many words.",
+   "zh": "正确的答案包含很多单词。",
+   "scene_prompt": "Kofi points to a word in the book held by Max."
+  }
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "rainy",
+  "sun"
+ ],
+ "scene_id": "A1-053",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "other",
+  "apple",
+  "air",
+  "because",
+  "right",
+  "difficult",
+  "somebody",
+  "include",
+  "evening",
+  "everything",
+  "brother",
+  "than",
+  "warm"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "brother"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "air",
+     "evening",
+     "warm"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "air",
+     "because",
+     "warm"
+    ],
+    "review_hits": [
+     "sun"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "apple"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "difficult",
+     "than"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "somebody",
+     "everything"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "right",
+     "include"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "other"
+  ],
+  "review_used": [
+   "sun"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 60.0
+}

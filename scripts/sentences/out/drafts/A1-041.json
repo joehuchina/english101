@@ -1,0 +1,165 @@
+{
+ "story": "In June, Ben and Anna work in the garden. They see twelve pink flowers near the bath. Ben wants to eat each banana piece. He will turn around for a moment. He eats until it is nine. Anna eats another piece of fruit.",
+ "title": "A Day in the Garden",
+ "title_zh": "花园里的一天",
+ "setting": "A sunny garden with flowers and a small outdoor bath.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "A young boy with short brown hair and a blue t-shirt."
+  },
+  {
+   "name": "Anna",
+   "look": "A young girl with long blonde hair and a yellow dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a sunny day in June.",
+   "zh": "现在是阳光明媚的六月。",
+   "scene_prompt": "Ben and Anna stand in a sunny garden under a bright sun."
+  },
+  {
+   "en": "Ben and Anna work in the garden.",
+   "zh": "本和安娜在花园里工作。",
+   "scene_prompt": "Ben and Anna are planting small green plants in the garden."
+  },
+  {
+   "en": "Anna sees twelve beautiful pink flowers.",
+   "zh": "安娜看到了十二朵美丽的粉红色的花。",
+   "scene_prompt": "Anna looks at twelve bright pink flowers in the garden."
+  },
+  {
+   "en": "The flowers are near the small bath.",
+   "zh": "这些花在小浴缸旁边。",
+   "scene_prompt": "Twelve pink flowers grow next to a small outdoor bath."
+  },
+  {
+   "en": "Ben wants to eat each banana piece.",
+   "zh": "本想要吃每一块香蕉。",
+   "scene_prompt": "Ben holds several small pieces of a yellow banana."
+  },
+  {
+   "en": "He will turn around for a moment.",
+   "zh": "他会转动身体一下下。",
+   "scene_prompt": "Ben turns his body around in the garden."
+  },
+  {
+   "en": "He eats until it is nine.",
+   "zh": "他一直吃到九点钟。",
+   "scene_prompt": "Ben eats a banana near a clock showing nine."
+  },
+  {
+   "en": "Anna eats another piece of fruit.",
+   "zh": "安娜吃了另一块水果。",
+   "scene_prompt": "Anna eats a small piece of fruit from a bowl."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "banana"
+ ],
+ "scene_id": "A1-041",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "june",
+  "turn",
+  "piece",
+  "pink",
+  "garden",
+  "until",
+  "each",
+  "bath",
+  "nine",
+  "twelve",
+  "moment",
+  "want",
+  "another"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "june"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "garden"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "pink",
+     "twelve"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "bath"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "piece",
+     "each",
+     "want"
+    ],
+    "review_hits": [
+     "banana"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "turn",
+     "moment"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "until",
+     "nine"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "piece",
+     "another"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "banana"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 57.4
+}

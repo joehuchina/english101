@@ -1,0 +1,164 @@
+{
+ "story": "Ben and Anna look at a large world map. They want to travel to many different countries. Ben wants to visit Japan, Sweden, or Switzerland. Anna wants to see Italy or Portugal. They talk about a long trip to Britain. Anna is a little afraid of the long flight, but a friendly driver can take them west.",
+ "title": "The Big Travel Plan",
+ "title_zh": "伟大的旅行计划",
+ "setting": "A bright living room with a large world map on the wall.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "A young boy with short brown hair and a blue shirt."
+  },
+  {
+   "name": "Anna",
+   "look": "A young girl with long blonde hair and a yellow sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Anna look at a large map.",
+   "zh": "本和安娜看一张大地图。",
+   "scene_prompt": "Ben and Anna look at a large world map on the wall."
+  },
+  {
+   "en": "They want to travel to many countries.",
+   "zh": "他们想去很多国家旅行。",
+   "scene_prompt": "Ben and Anna point at different places on the map."
+  },
+  {
+   "en": "Ben wants to visit Japan and Sweden.",
+   "zh": "本想去日本和瑞典。",
+   "scene_prompt": "Ben points to Japan and Sweden on the map."
+  },
+  {
+   "en": "He also wants to see Switzerland.",
+   "zh": "他也想看瑞士。",
+   "scene_prompt": "Ben points to Switzerland on the map."
+  },
+  {
+   "en": "Anna wants to see Italy and Portugal.",
+   "zh": "安娜想看意大利和葡萄牙。",
+   "scene_prompt": "Anna points to Italy and Portugal on the map."
+  },
+  {
+   "en": "They plan a trip to England in Britain.",
+   "zh": "他们计划去英国的英格兰旅行。",
+   "scene_prompt": "Ben and Anna look at the island of Britain on the map."
+  },
+  {
+   "en": "The friendly children are afraid of the trip.",
+   "zh": "这两个友好的孩子害怕这段旅行。",
+   "scene_prompt": "Ben and Anna look a little worried while looking at the map."
+  },
+  {
+   "en": "A driver can take them to the west.",
+   "zh": "一名司机可以带他们去西方。",
+   "scene_prompt": "A friendly man in a car waits near the children."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "poor",
+  "friendly",
+  "children"
+ ],
+ "scene_id": "A1-049",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "sweden",
+  "portugal",
+  "england",
+  "switzerland",
+  "italy",
+  "west",
+  "japan",
+  "travel",
+  "britain",
+  "trip",
+  "driver",
+  "afraid"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "travel"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "sweden",
+     "japan"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "switzerland"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "portugal",
+     "italy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "england",
+     "britain",
+     "trip"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "trip",
+     "afraid"
+    ],
+    "review_hits": [
+     "friendly",
+     "children"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "west",
+     "driver"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "friendly",
+   "children"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 30.4
+}

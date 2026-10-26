@@ -1,0 +1,172 @@
+{
+ "story": "Ben uses his technology to stay in touch with his friend Leo. He checks his computer and sends a digital message to Leo about a website.",
+ "title": "Ben and Technology",
+ "title_zh": "本与科技",
+ "setting": "A bright living room with a desk.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "A young boy with short brown hair and a blue shirt."
+  },
+  {
+   "name": "Leo",
+   "look": "A young boy with curly hair and a green sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben sits at his new computer.",
+   "zh": "本坐在他的新电脑前。",
+   "scene_prompt": "Ben with short brown hair and a blue shirt sits at a desk with a computer."
+  },
+  {
+   "en": "He uses the internet to find information.",
+   "zh": "他利用互联网寻找信息。",
+   "scene_prompt": "Ben looks at the computer screen showing many colorful web icons."
+  },
+  {
+   "en": "He finds a very interesting website.",
+   "zh": "他发现了一个非常有趣的网站。",
+   "scene_prompt": "Ben points at the computer screen showing a colorful webpage."
+  },
+  {
+   "en": "Ben sends an email to Leo.",
+   "zh": "本给利奥发了一封电子邮件。",
+   "scene_prompt": "Ben types on a keyboard to send a digital letter."
+  },
+  {
+   "en": "He also sends a short message.",
+   "zh": "他还发送了一条简短的消息。",
+   "scene_prompt": "A small chat box appears on the computer screen."
+  },
+  {
+   "en": "Leo is lucky to get it.",
+   "zh": "利奥很幸运收到了它。",
+   "scene_prompt": "Leo with curly hair and a green sweater smiles at his phone."
+  },
+  {
+   "en": "Leo uses his phone and a camera.",
+   "zh": "利奥使用他的手机和一台照相机。",
+   "scene_prompt": "Leo holds a small smartphone and a black camera in his hands."
+  },
+  {
+   "en": "The boy uses a telephone to call Ben.",
+   "zh": "这个男孩用电话给本打电话。",
+   "scene_prompt": "Leo holds a telephone to his ear and smiles."
+  },
+  {
+   "en": "The machine arrives at the hotel.",
+   "zh": "这台机器抵达了酒店。",
+   "scene_prompt": "A small electronic machine sits on a table inside a hotel room."
+  }
+ ],
+ "review_words": [
+  "sock",
+  "australian",
+  "hotel",
+  "arrive"
+ ],
+ "scene_id": "A1-025",
+ "level": "A1",
+ "topic": "technology",
+ "targets": [
+  "camera",
+  "website",
+  "telephone",
+  "internet",
+  "message",
+  "machine",
+  "email",
+  "computer",
+  "phone",
+  "lucky"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "computer"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "internet"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "website"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "email"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "message"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "lucky"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "camera",
+     "phone"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "telephone"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "machine"
+    ],
+    "review_hits": [
+     "hotel",
+     "arrive"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "hotel",
+   "arrive"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 35.0
+}

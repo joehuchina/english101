@@ -1,0 +1,167 @@
+{
+ "story": "Mia and Sam go to the cinema to watch a film. The film tells an exciting story about an Italian singer. After the movie, Sam wants to draw a picture of the dancing Lily. Sam is also a talented writer.",
+ "title": "A Day at the Cinema",
+ "title_zh": "电影院的一天",
+ "setting": "A dark cinema and a bright room after the movie.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "A young girl with short brown hair and a red sweater."
+  },
+  {
+   "name": "Sam",
+   "look": "A young boy with glasses and a blue shirt."
+  },
+  {
+   "name": "Lily",
+   "look": "A girl with long blonde hair wearing a yellow dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Mia and Sam go to the cinema.",
+   "zh": "Mia和Sam一起去电影院。",
+   "scene_prompt": "Mia with short brown hair and Sam with glasses walk toward a building with a large screen icon."
+  },
+  {
+   "en": "The film is an exciting story.",
+   "zh": "这部电影是一个令人兴奋的故事。",
+   "scene_prompt": "Mia and Sam sit in dark cinema seats watching a bright, colorful screen."
+  },
+  {
+   "en": "An Italian singer starts to sing.",
+   "zh": "一位意大利歌手开始唱歌。",
+   "scene_prompt": "On the cinema screen, a man in a suit sings into a silver microphone."
+  },
+  {
+   "en": "They watch a very long movie.",
+   "zh": "他们看了一部很长的电影。",
+   "scene_prompt": "Mia and Sam watch the large cinema screen with wide eyes."
+  },
+  {
+   "en": "Lily does a beautiful dance now.",
+   "zh": "Lily现在跳了一段美丽的舞蹈。",
+   "scene_prompt": "Lily with long blonde hair performs a graceful dance on a stage in the film."
+  },
+  {
+   "en": "Sam wants to draw the dancing Lily.",
+   "zh": "Sam想要画下正在跳舞的Lily。",
+   "scene_prompt": "Sam sits at a table with a pencil and paper, looking at Lily."
+  },
+  {
+   "en": "He is a very good writer.",
+   "zh": "他是一个非常好的作家。",
+   "scene_prompt": "Sam writes words in a small notebook with a pen."
+  },
+  {
+   "en": "He looks at the food menu.",
+   "zh": "他看着食物菜单。",
+   "scene_prompt": "Sam holds a paper menu in his hands while sitting at a table."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "menu"
+ ],
+ "scene_id": "A1-042",
+ "level": "A1",
+ "topic": "arts",
+ "targets": [
+  "singer",
+  "dance",
+  "draw",
+  "movie",
+  "film",
+  "story",
+  "italian",
+  "dancing",
+  "cinema",
+  "sing",
+  "writer",
+  "exciting"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "cinema"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "film",
+     "story",
+     "exciting"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "singer",
+     "italian",
+     "sing"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "movie"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "dance"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "dance",
+     "draw"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "writer"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "menu"
+    ]
+   }
+  ],
+  "missing": [
+   "dancing"
+  ],
+  "review_used": [
+   "menu"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 59.1
+}

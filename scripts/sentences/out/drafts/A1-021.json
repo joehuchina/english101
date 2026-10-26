@@ -1,0 +1,163 @@
+{
+ "story": "Kofi and Hana talk about their different jobs. Kofi works in a big office for a large company, while Hana works on a farm. They discuss their busy work lives.",
+ "title": "Different Jobs",
+ "title_zh": "不同的工作",
+ "setting": "A small cafe with a table and chairs.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "A young man with short black hair and a blue shirt."
+  },
+  {
+   "name": "Hana",
+   "look": "A young woman with long brown hair and a green sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi works in a large office.",
+   "zh": "Kofi 在一间大办公室里工作。",
+   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt, sits at a desk in a large office."
+  },
+  {
+   "en": "His new job is not boring.",
+   "zh": "他的新工作并不无聊。",
+   "scene_prompt": "Kofi looks happy and busy at his desk in the office."
+  },
+  {
+   "en": "He works for a big company.",
+   "zh": "他在一家大公司工作。",
+   "scene_prompt": "Kofi stands in front of a large building with a company logo."
+  },
+  {
+   "en": "He has a meeting with his team.",
+   "zh": "他要和他的团队开个会。",
+   "scene_prompt": "Kofi sits at a large table with three other workers for a meeting."
+  },
+  {
+   "en": "Hana is a hard worker on a farm.",
+   "zh": "Hana 是一个勤劳的农场工人。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater, stands on a green farm."
+  },
+  {
+   "en": "She is a farmer and loves her business.",
+   "zh": "她是一名农民，很热爱她的生意。",
+   "scene_prompt": "Hana holds a basket of vegetables on the farm."
+  },
+  {
+   "en": "A waiter and a waitress work here.",
+   "zh": "一名男服务员和一名女服务员在这里工作。",
+   "scene_prompt": "A male waiter and a female waitress carry plates in a pretty cafe."
+  },
+  {
+   "en": "The cafe is on the left side.",
+   "zh": "咖啡馆在左边。",
+   "scene_prompt": "A pretty cafe is located on the left side of a street."
+  }
+ ],
+ "review_words": [
+  "left",
+  "side",
+  "pretty",
+  "too"
+ ],
+ "scene_id": "A1-021",
+ "level": "A1",
+ "topic": "work",
+ "targets": [
+  "worker",
+  "waitress",
+  "job",
+  "farm",
+  "farmer",
+  "business",
+  "company",
+  "meeting",
+  "waiter",
+  "team",
+  "office",
+  "boring"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "office"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "job",
+     "boring"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "company"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "meeting",
+     "team"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "worker",
+     "farm"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "farmer",
+     "business"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "waitress",
+     "waiter"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "left",
+     "side"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "left",
+   "side"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 28.1
+}

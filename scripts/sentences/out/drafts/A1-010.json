@@ -1,0 +1,186 @@
+{
+ "story": "In October, Mia and Sam visit their aunt. They sit in her room and watch a movie. They make a plan for their life tomorrow.",
+ "title": "A Visit in October",
+ "title_zh": "十月的一次拜访",
+ "setting": "A cozy living room in a house during autumn.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "A young girl with short brown hair and a red sweater."
+  },
+  {
+   "name": "Sam",
+   "look": "A young boy with blond hair and a blue shirt."
+  },
+  {
+   "name": "Aunt",
+   "look": "A kind woman with long black hair and glasses."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a fine day in October.",
+   "zh": "这是十月里一个晴朗的日子。",
+   "scene_prompt": "Mia and Sam stand outside near a tree with orange leaves under a bright sun."
+  },
+  {
+   "en": "Mia and Sam visit their kind aunt.",
+   "zh": "Mia和Sam去拜访他们亲切的姨妈。",
+   "scene_prompt": "Mia and Sam walk toward a kind woman with long black hair and glasses standing at a door."
+  },
+  {
+   "en": "They sit in her small room.",
+   "zh": "他们坐在她的小房间里。",
+   "scene_prompt": "Mia and Sam sit on a soft rug in a small room with colorful pillows."
+  },
+  {
+   "en": "Sometimes they watch a funny movie.",
+   "zh": "有时他们会看一部有趣的电影。",
+   "scene_prompt": "Mia and Sam sit on a sofa and watch a large television screen."
+  },
+  {
+   "en": "They finish their snacks at four o'clock.",
+   "zh": "他们在四点钟吃完了零食。",
+   "scene_prompt": "Mia and Sam sit at a table with empty bowls next to a clock showing 4:00."
+  },
+  {
+   "en": "Aunt will let them play games.",
+   "zh": "姨妈会让他们玩游戏。",
+   "scene_prompt": "A kind woman with long black hair and glasses smiles at Mia and Sam."
+  },
+  {
+   "en": "Mia shows her pretty birthday card.",
+   "zh": "Mia展示她漂亮的生日卡片。",
+   "scene_prompt": "Mia holds up a small colorful rectangle card for Sam to see."
+  },
+  {
+   "en": "They plan our fun life for tomorrow.",
+   "zh": "他们计划我们明天的快乐生活。",
+   "scene_prompt": "Mia and Sam look at a large paper map on a table together."
+  },
+  {
+   "en": "They start to rest on the sofa.",
+   "zh": "他们开始在沙发上休息。",
+   "scene_prompt": "Mia and Sam lie down on a large sofa with blankets."
+  }
+ ],
+ "review_words": [
+  "let",
+  "o-clock",
+  "cut",
+  "wake"
+ ],
+ "scene_id": "A1-010",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "october",
+  "room",
+  "rest",
+  "aunt",
+  "watch",
+  "sometimes",
+  "fine",
+  "card",
+  "start",
+  "life",
+  "finish",
+  "our",
+  "tomorrow",
+  "plan"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "october",
+     "fine"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "aunt"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "room"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "watch",
+     "sometimes"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "finish"
+    ],
+    "review_hits": [
+     "o-clock"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "aunt"
+    ],
+    "review_hits": [
+     "let"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "card"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "life",
+     "our",
+     "tomorrow",
+     "plan"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "rest",
+     "start"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "let",
+   "o-clock"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 44.5
+}

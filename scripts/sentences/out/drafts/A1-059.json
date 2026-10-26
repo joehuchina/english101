@@ -1,0 +1,170 @@
+{
+ "story": "Omar and Nina go to the bookstore. They see many young people there. A photo of a horse is on a table. They feel hungry and walk away from the store. Nina cooks in the dining-room. She puts an orange over the plate and answers her phone.",
+ "title": "A Trip to the Bookstore",
+ "title_zh": "书店之旅",
+ "setting": "A bookstore and a dining room.",
+ "characters": [
+  {
+   "name": "Omar",
+   "look": "a young man with short black hair and a blue shirt"
+  },
+  {
+   "name": "Nina",
+   "look": "a young woman with long brown hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar and Nina go to the bookstore.",
+   "zh": "奥马尔和妮娜去书店。",
+   "scene_prompt": "Omar, a young man with short black hair and a blue shirt, and Nina, a young woman with long brown hair and a yellow dress, walk toward a bookstore."
+  },
+  {
+   "en": "They see many young people there.",
+   "zh": "他们在那里看到许多年轻人。",
+   "scene_prompt": "Omar and Nina stand inside the bookstore looking at many young people."
+  },
+  {
+   "en": "A photo of a horse is there.",
+   "zh": "那里有一张马的照片。",
+   "scene_prompt": "A photo of a large brown horse sits on a bookstore table."
+  },
+  {
+   "en": "They feel hungry two hours ago.",
+   "zh": "他们在两小时前感到饥饿。",
+   "scene_prompt": "Omar and Nina look at each other with hungry expressions."
+  },
+  {
+   "en": "They walk away from the bookstore.",
+   "zh": "他们离开书店。",
+   "scene_prompt": "Omar and Nina walk away from the bookstore entrance."
+  },
+  {
+   "en": "Nina cooks in the large dining-room.",
+   "zh": "妮娜在宽敞的餐厅里烹饪。",
+   "scene_prompt": "Nina is in a dining-room with a pot on the stove."
+  },
+  {
+   "en": "She puts an orange over the plate.",
+   "zh": "她把一个橙子放在盘子上方。",
+   "scene_prompt": "Nina holds an orange over a white plate in the dining-room."
+  },
+  {
+   "en": "She answers a call near the food.",
+   "zh": "她在食物附近接听电话。",
+   "scene_prompt": "Nina holds a phone to her ear while standing in the dining-room."
+  }
+ ],
+ "review_words": [
+  "horse",
+  "library",
+  "answer",
+  "practise"
+ ],
+ "scene_id": "A1-059",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "bookstore",
+  "young",
+  "photo",
+  "orange",
+  "dining-room",
+  "need",
+  "hungry",
+  "ago",
+  "over",
+  "they",
+  "many",
+  "cook",
+  "away"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "bookstore"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "young",
+     "they"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "photo"
+    ],
+    "review_hits": [
+     "horse"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "hungry",
+     "ago",
+     "they"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "bookstore",
+     "they",
+     "away"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "dining-room",
+     "cook"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "orange",
+     "over"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "answer"
+    ]
+   }
+  ],
+  "missing": [
+   "need",
+   "many"
+  ],
+  "review_used": [
+   "horse",
+   "answer"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 60.9
+}

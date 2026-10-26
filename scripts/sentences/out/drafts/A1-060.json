@@ -1,0 +1,194 @@
+{
+ "story": "Rosa and Ali are at the park. They want to eat lunch and enjoy the nice day. Ali gives Rosa a bowl of salad. They both sit inside a small tent to eat. After lunch, they walk to the library to practise French.",
+ "title": "A Great Lunch",
+ "title_zh": "极好的午餐",
+ "setting": "A sunny green park with a small tent and a library nearby.",
+ "characters": [
+  {
+   "name": "Rosa",
+   "look": "A girl with long brown hair and a yellow dress."
+  },
+  {
+   "name": "Ali",
+   "look": "A boy with short black hair and a blue shirt."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "The weather is very good today.",
+   "zh": "今天的天气非常好。",
+   "scene_prompt": "A bright sunny day in a green park with a blue sky."
+  },
+  {
+   "en": "Rosa and Ali are out in the park.",
+   "zh": "Rosa和Ali在公园外面玩耍。",
+   "scene_prompt": "Rosa with long brown hair and Ali with short black hair walking in a park."
+  },
+  {
+   "en": "Ali wears a clean blue shirt.",
+   "zh": "Ali穿着一件干净的蓝色衬衫。",
+   "scene_prompt": "Ali with short black hair wearing a blue shirt."
+  },
+  {
+   "en": "Ali gives Rosa a big salad.",
+   "zh": "Ali给Rosa一大份沙拉。",
+   "scene_prompt": "Ali handing a bowl of green salad to Rosa."
+  },
+  {
+   "en": "They both sit inside a small tent.",
+   "zh": "他们两个人都坐在一个小帐篷里面。",
+   "scene_prompt": "Rosa and Ali sitting together inside a small blue tent."
+  },
+  {
+   "en": "The salad is great and fresh.",
+   "zh": "这道沙拉很棒而且很新鲜。",
+   "scene_prompt": "A close up of a bowl of salad inside a tent."
+  },
+  {
+   "en": "They do not miss their lunch.",
+   "zh": "他们没有错过他们的午餐。",
+   "scene_prompt": "Rosa and Ali eating happily in the park."
+  },
+  {
+   "en": "Ali sits behind Rosa twice today.",
+   "zh": "Ali今天两次坐在Rosa后面。",
+   "scene_prompt": "Ali sitting on the grass behind Rosa."
+  },
+  {
+   "en": "They follow the path to the library.",
+   "zh": "他们沿着小路走向图书馆。",
+   "scene_prompt": "Rosa and Ali walking along a path towards a library building."
+  },
+  {
+   "en": "They practise French at the library.",
+   "zh": "他们在图书馆练习法语。",
+   "scene_prompt": "Rosa and Ali sitting at a table inside a library with books."
+  }
+ ],
+ "review_words": [
+  "library",
+  "practise",
+  "correct",
+  "french"
+ ],
+ "scene_id": "A1-060",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "salad",
+  "out",
+  "miss",
+  "follow",
+  "weather",
+  "twice",
+  "give",
+  "shirt",
+  "behind",
+  "great",
+  "good",
+  "both",
+  "inside"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "weather",
+     "good"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "out"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "shirt"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "salad",
+     "give"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "both",
+     "inside"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "salad",
+     "great"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "miss"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "twice",
+     "behind"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "follow"
+    ],
+    "review_hits": [
+     "library"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "library",
+     "practise",
+     "french"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "library",
+   "practise",
+   "french"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 63.3
+}

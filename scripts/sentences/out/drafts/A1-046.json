@@ -1,0 +1,179 @@
+{
+ "story": "Zoe and Raj are in a science class. They look at an old, green book. Zoe wears her glasses to read the long words slowly. Raj carries a very special lunch. The lunch has cheese and meat. Raj has short hair and kind eyes. Raj must pay for his food. He makes a call to a Japanese friend.",
+ "title": "A Science Class Lunch",
+ "title_zh": "科学课上的午餐",
+ "setting": "A bright classroom with desks and books.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "A girl with short black hair and round glasses."
+  },
+  {
+   "name": "Raj",
+   "look": "A boy with short brown hair and a blue shirt."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Zoe and Raj study science in class.",
+   "zh": "Zoe和Raj在课堂上学习科学。",
+   "scene_prompt": "Zoe and Raj sit at a desk in a bright classroom."
+  },
+  {
+   "en": "They look at an old, green book.",
+   "zh": "他们看一本又旧又绿的书。",
+   "scene_prompt": "Zoe and Raj look at an old green book on the desk."
+  },
+  {
+   "en": "Zoe wears her glasses to read.",
+   "zh": "Zoe戴着她的眼镜阅读。",
+   "scene_prompt": "Zoe with short black hair wears round glasses and looks at a book."
+  },
+  {
+   "en": "Zoe reads the long words slowly.",
+   "zh": "Zoe缓慢地读着那些长的单词。",
+   "scene_prompt": "Zoe points her finger at a word in the book."
+  },
+  {
+   "en": "Raj carries a very special lunch.",
+   "zh": "Raj端着一份非常特别的午餐。",
+   "scene_prompt": "Raj with short brown hair carries a small white plate."
+  },
+  {
+   "en": "The lunch has cheese and meat.",
+   "zh": "午餐里有奶酪和肉。",
+   "scene_prompt": "A close up of a plate with yellow cheese and red meat."
+  },
+  {
+   "en": "Raj has short hair and kind eyes.",
+   "zh": "Raj有短头发和善良的眼睛。",
+   "scene_prompt": "A close up of Raj's face showing his short hair and a kind smile."
+  },
+  {
+   "en": "Raj must pay for his food.",
+   "zh": "Raj必须为他的食物付钱。",
+   "scene_prompt": "Raj puts a coin on the table near his lunch."
+  },
+  {
+   "en": "He makes a call to a Japanese friend.",
+   "zh": "他给一位日本朋友打了个电话。",
+   "scene_prompt": "Raj holds a phone to his ear and smiles."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "japanese",
+  "kind",
+  "policeman"
+ ],
+ "scene_id": "A1-046",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "science",
+  "slowly",
+  "glasses",
+  "special",
+  "meat",
+  "carry",
+  "hair",
+  "green",
+  "call",
+  "cheese",
+  "long",
+  "pay",
+  "old"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "science"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "green",
+     "old"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "glasses"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "slowly",
+     "long"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "special",
+     "carry"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "meat",
+     "cheese"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "hair"
+    ],
+    "review_hits": [
+     "kind"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "pay"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "call"
+    ],
+    "review_hits": [
+     "japanese"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "japanese",
+   "kind"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 64.2
+}

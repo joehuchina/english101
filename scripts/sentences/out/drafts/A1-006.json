@@ -1,0 +1,170 @@
+{
+ "story": "On Thursday, Zoe and her sister Lucy prepare for a dinner party. They cook pizza and look at the menu. They must not forget the small details like the fire or the toothpaste.",
+ "title": "A Busy Thursday",
+ "title_zh": "忙碌的星期四",
+ "setting": "A cozy kitchen and dining room.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "A young girl with short brown hair and a green shirt."
+  },
+  {
+   "name": "Lucy",
+   "look": "A young girl with long blonde hair and a red sweater."
+  },
+  {
+   "name": "Mister Raj",
+   "look": "A tall man with glasses and a blue shirt."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a busy Thursday for Zoe.",
+   "zh": "这对 Zoe 来说是一个忙碌的星期四。",
+   "scene_prompt": "Zoe with short brown hair and a green shirt stands in a kitchen."
+  },
+  {
+   "en": "Zoe and her sister Lucy cook pizza.",
+   "zh": "Zoe 和她的妹妹 Lucy 做比萨饼。",
+   "scene_prompt": "Zoe and Lucy with long blonde hair are making pizza on a table."
+  },
+  {
+   "en": "Lucy looks at the food menu.",
+   "zh": "Lucy 看着食物菜单。",
+   "scene_prompt": "Lucy with long blonde hair holds a paper menu."
+  },
+  {
+   "en": "Mister Raj walks through the door.",
+   "zh": "Raj 先生走进门里。",
+   "scene_prompt": "Mister Raj, a tall man with glasses, enters through a wooden door."
+  },
+  {
+   "en": "He brings a pair of yellow bananas.",
+   "zh": "他带来了一双黄色的香蕉。",
+   "scene_prompt": "Mister Raj holds two yellow bananas in his hands."
+  },
+  {
+   "en": "Please do not forget the fire.",
+   "zh": "请不要忘记那团火。",
+   "scene_prompt": "A small orange fire burns in a kitchen stove."
+  },
+  {
+   "en": "Listen to the music by yourself.",
+   "zh": "你自己听听音乐吧。",
+   "scene_prompt": "Zoe sits alone and listens to a small radio."
+  },
+  {
+   "en": "He uses the last bit of toothpaste.",
+   "zh": "他用了最后一点牙膏。",
+   "scene_prompt": "Mister Raj squeezes a small tube of toothpaste."
+  }
+ ],
+ "review_words": [
+  "thursday",
+  "clothes",
+  "strong",
+  "month"
+ ],
+ "scene_id": "A1-006",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "fire",
+  "sister",
+  "pizza",
+  "pair",
+  "yourself",
+  "last",
+  "listen",
+  "toothpaste",
+  "banana",
+  "menu",
+  "line",
+  "mister",
+  "door",
+  "forget"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "thursday"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "sister",
+     "pizza"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "menu"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "mister",
+     "door"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "pair",
+     "banana"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "fire",
+     "forget"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "yourself",
+     "listen"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "last",
+     "toothpaste"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "line"
+  ],
+  "review_used": [
+   "thursday"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 52.2
+}

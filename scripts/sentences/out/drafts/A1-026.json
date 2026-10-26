@@ -1,0 +1,192 @@
+{
+ "story": "Mia and Sam live in a big city. They walk to the centre of the town to visit a post office. Sam wants to send a postcard to an Australian friend in London. They see many tall buildings and a green park in this area. After their walk, they go back to their flat.",
+ "title": "A Day in the City",
+ "title_zh": "城市一日游",
+ "setting": "A busy city street with tall buildings and a park.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "a young girl with short black hair and a red sweater"
+  },
+  {
+   "name": "Sam",
+   "look": "a young boy with brown hair and a blue jacket"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Mia and Sam live in a big city.",
+   "zh": "Mia和Sam住在一个大城市里。",
+   "scene_prompt": "Mia, a girl with short black hair and a red sweater, and Sam, a boy with brown hair and a blue jacket, stand in a busy city."
+  },
+  {
+   "en": "This city is much larger than their village.",
+   "zh": "这个城市比他们的村庄大得多。",
+   "scene_prompt": "A view of a large city with many buildings next to a small green village."
+  },
+  {
+   "en": "They walk to the centre of the town.",
+   "zh": "他们走向镇子的中心。",
+   "scene_prompt": "Mia and Sam walk toward the middle of a busy town square."
+  },
+  {
+   "en": "Sam wants to visit the post office.",
+   "zh": "Sam想要去邮局看看。",
+   "scene_prompt": "Sam and Mia stand in front of a building with a sign that shows a letter."
+  },
+  {
+   "en": "He sends a postcard to London.",
+   "zh": "他寄了一张明信片去伦敦。",
+   "scene_prompt": "Sam holds a colorful postcard in his hands."
+  },
+  {
+   "en": "An Australian friend will receive it.",
+   "zh": "一位澳大利亚朋友会收到它。",
+   "scene_prompt": "A picture of a friendly person in Australia looking at a postcard."
+  },
+  {
+   "en": "The area has many tall buildings.",
+   "zh": "这个地区有很多高大的建筑物。",
+   "scene_prompt": "A view of many tall buildings in a city area."
+  },
+  {
+   "en": "People build many houses in this area.",
+   "zh": "人们在这个地区建造许多房屋。",
+   "scene_prompt": "Workers are building a new house in a city area."
+  },
+  {
+   "en": "They see a green park near the street.",
+   "zh": "他们在街道附近看到一个绿色的公园。",
+   "scene_prompt": "Mia and Sam look at a green park with trees next to a street."
+  },
+  {
+   "en": "Finally, they go to their flat.",
+   "zh": "最后，他们回到了他们的公寓。",
+   "scene_prompt": "Mia and Sam walk toward the door of a modern apartment building."
+  }
+ ],
+ "review_words": [
+  "sock",
+  "australian",
+  "postcard",
+  "holiday"
+ ],
+ "scene_id": "A1-026",
+ "level": "A1",
+ "topic": "city",
+ "targets": [
+  "town",
+  "london",
+  "centre",
+  "city",
+  "village",
+  "house",
+  "area",
+  "build",
+  "building",
+  "flat",
+  "park",
+  "street",
+  "post-office"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "city"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "city",
+     "village"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "town",
+     "centre"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "post-office"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "london"
+    ],
+    "review_hits": [
+     "postcard"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "australian"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "area",
+     "building"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "house",
+     "area",
+     "build"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "park",
+     "street"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "flat"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "australian",
+   "postcard"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 68.8
+}

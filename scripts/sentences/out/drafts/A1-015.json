@@ -1,0 +1,170 @@
+{
+ "story": "Dan and Aiko are traveling to different countries. Dan goes to China by airplane, while Aiko goes to Spain to stay at a beach hotel. They both use different ways to travel.",
+ "title": "A Big Trip",
+ "title_zh": "一次大旅行",
+ "setting": "An airport and a sunny beach.",
+ "characters": [
+  {
+   "name": "Dan",
+   "look": "a tall man with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Aiko",
+   "look": "a young woman with long black hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Dan wakes up early for his big trip.",
+   "zh": "Dan为了他的大旅行早早醒来。",
+   "scene_prompt": "Dan, a tall man with short brown hair and a blue shirt, wakes up in a bed."
+  },
+  {
+   "en": "He buys a ticket for the airplane.",
+   "zh": "他买了一张飞机的票。",
+   "scene_prompt": "Dan holds a small paper ticket at an airport."
+  },
+  {
+   "en": "He will fly to China today.",
+   "zh": "他今天要去中国。",
+   "scene_prompt": "A large white airplane flies in the blue sky above Dan."
+  },
+  {
+   "en": "Aiko wants to stay in Spain.",
+   "zh": "Aiko想要留在西班牙。",
+   "scene_prompt": "Aiko, a young woman with long black hair and a yellow dress, looks at a map of Europe."
+  },
+  {
+   "en": "She looks at a map of the city.",
+   "zh": "她看着一张城市地图。",
+   "scene_prompt": "Aiko holds a large paper map in her hands."
+  },
+  {
+   "en": "She takes a taxi to the bus station.",
+   "zh": "她打车去公共汽车站。",
+   "scene_prompt": "Aiko sits in a yellow taxi car near a bus station."
+  },
+  {
+   "en": "The bus drives on a long road.",
+   "zh": "公共汽车行驶在一条长路上。",
+   "scene_prompt": "A large blue bus drives on a gray road next to the ocean."
+  },
+  {
+   "en": "Aiko will ride a bike quickly.",
+   "zh": "Aiko会很快地骑自行车。",
+   "scene_prompt": "Aiko rides a small red bike quickly on the sand near the blue sea."
+  }
+ ],
+ "review_words": [
+  "wake",
+  "coat",
+  "from",
+  "quickly"
+ ],
+ "scene_id": "A1-015",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "ride",
+  "bus",
+  "airplane",
+  "ticket",
+  "map",
+  "stay",
+  "china",
+  "fly",
+  "bike",
+  "beach",
+  "drive",
+  "road",
+  "taxi",
+  "spain"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "wake"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "airplane",
+     "ticket"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "china",
+     "fly"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "stay",
+     "spain"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "map"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "bus",
+     "taxi"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "bus",
+     "drive",
+     "road"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "ride",
+     "bike"
+    ],
+    "review_hits": [
+     "quickly"
+    ]
+   }
+  ],
+  "missing": [
+   "beach"
+  ],
+  "review_used": [
+   "wake",
+   "quickly"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 55.5
+}

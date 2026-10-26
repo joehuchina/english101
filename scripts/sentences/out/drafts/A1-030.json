@@ -1,0 +1,206 @@
+{
+ "story": "Zoe and Raj walk up a green hill. They see many animals like sheep, cows, and monkeys. They watch a small mouse and a cat. They look at the sea and see a plane flying north.",
+ "title": "A Day in Nature",
+ "title_zh": "自然的一天",
+ "setting": "A large farm near the sea with hills and trees.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "a young girl with long brown hair and a yellow shirt"
+  },
+  {
+   "name": "Raj",
+   "look": "a young boy with short black hair and a blue t-shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Zoe and Raj walk up a green hill.",
+   "zh": "Zoe和Raj走上一座绿色的山丘。",
+   "scene_prompt": "Zoe and Raj walk up a green hill."
+  },
+  {
+   "en": "The summer sun is very bright today.",
+   "zh": "今天的夏日阳光非常灿烂。",
+   "scene_prompt": "The bright summer sun shines over the green hill."
+  },
+  {
+   "en": "They see a white sheep near a tree.",
+   "zh": "他们在树旁看到一只白色的绵羊。",
+   "scene_prompt": "A white sheep stands near a tall tree."
+  },
+  {
+   "en": "A brown cow eats the green grass.",
+   "zh": "一只棕色的母牛在吃绿色的草。",
+   "scene_prompt": "A brown cow eats grass near the tree."
+  },
+  {
+   "en": "A small rabbit jumps near a tree.",
+   "zh": "一只小兔子在树附近跳。",
+   "scene_prompt": "A small rabbit jumps near a tall tree."
+  },
+  {
+   "en": "A monkey climbs a tall tree.",
+   "zh": "一只猴子爬上一棵高树。",
+   "scene_prompt": "A monkey climbs a tall tree."
+  },
+  {
+   "en": "The cat watches a small mouse.",
+   "zh": "猫看着一只小老鼠。",
+   "scene_prompt": "A cat watches a small mouse on the ground."
+  },
+  {
+   "en": "A fish swims in the blue sea.",
+   "zh": "一条鱼在蓝色的海里游。",
+   "scene_prompt": "A fish swims in the blue sea."
+  },
+  {
+   "en": "A plane flies to the north.",
+   "zh": "一架飞机向北飞。",
+   "scene_prompt": "A plane flies in the sky toward the north."
+  },
+  {
+   "en": "Dry leaves die in the autumn.",
+   "zh": "枯叶在秋天枯死。",
+   "scene_prompt": "Dry brown leaves lie on the ground in autumn."
+  },
+  {
+   "en": "The beautiful leaves fall from trees.",
+   "zh": "美丽的叶子从树上落下。",
+   "scene_prompt": "Beautiful colorful leaves fall from the trees."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "plane",
+  "north"
+ ],
+ "scene_id": "A1-030",
+ "level": "A1",
+ "topic": "nature",
+ "targets": [
+  "hill",
+  "beautiful",
+  "summer",
+  "fish",
+  "sheep",
+  "rabbit",
+  "sea",
+  "tree",
+  "cow",
+  "die",
+  "autumn",
+  "cat",
+  "mouse",
+  "monkey"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "hill"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "summer"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "sheep",
+     "tree"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "cow"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "rabbit",
+     "tree"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "tree",
+     "monkey"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "cat",
+     "mouse"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "fish",
+     "sea"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "plane",
+     "north"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "die",
+     "autumn"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [
+     "beautiful",
+     "tree"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "plane",
+   "north"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 64.4
+}

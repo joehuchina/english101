@@ -1,0 +1,179 @@
+{
+ "story": "Ben and Anna are at a party. Ben wants to talk to Anna about his personal news. They see a lot of bright light in the room. First, they walk to the table to find some wine. They look at the food and then run to the garden because it is cloudy.",
+ "title": "A Party in the Garden",
+ "title_zh": "花园里的聚会",
+ "setting": "A bright house with a garden under a cloudy sky.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "a young man with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Anna",
+   "look": "a young woman with long blonde hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Anna see a lot of bright light.",
+   "zh": "Ben和Anna看到大量明亮的光线。",
+   "scene_prompt": "Ben, a man with short brown hair, and Anna, a woman with long blonde hair, stand in a bright room."
+  },
+  {
+   "en": "The room is very busy with many people.",
+   "zh": "房间里非常忙碌，有很多人。",
+   "scene_prompt": "A large room filled with many people talking and moving."
+  },
+  {
+   "en": "Ben wants to talk to his wife, Anna.",
+   "zh": "Ben想和他妻子Anna说话。",
+   "scene_prompt": "Ben looks at Anna with a smile in the crowded room."
+  },
+  {
+   "en": "He wants to say something very important.",
+   "zh": "他想说一些非常重要的事情。",
+   "scene_prompt": "Ben leans toward Anna to speak to her."
+  },
+  {
+   "en": "He shares his personal news with her.",
+   "zh": "他向她分享他的个人消息。",
+   "scene_prompt": "Ben whispers something into Anna's ear."
+  },
+  {
+   "en": "First, they walk to the large table.",
+   "zh": "首先，他们走向那张大桌子。",
+   "scene_prompt": "Ben and Anna walk slowly toward a long table in the room."
+  },
+  {
+   "en": "They find a bottle of red wine.",
+   "zh": "他们找到了一瓶红葡萄酒。",
+   "scene_prompt": "Ben and Anna find a bottle of red wine on the table."
+  },
+  {
+   "en": "They look at the food on the table.",
+   "zh": "他们看着桌子上的食物。",
+   "scene_prompt": "Ben and Anna look down at the food on the table."
+  },
+  {
+   "en": "They run to the garden as it is cloudy.",
+   "zh": "因为天阴了，他们跑到花园里去。",
+   "scene_prompt": "Ben and Anna run quickly toward the garden under a cloudy sky."
+  }
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "flower",
+  "cloudy"
+ ],
+ "scene_id": "A1-057",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "personal",
+  "say",
+  "lot",
+  "find",
+  "walk",
+  "as",
+  "run",
+  "light",
+  "look",
+  "first",
+  "busy",
+  "wine",
+  "talk"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "lot",
+     "light"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "busy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "talk"
+    ],
+    "review_hits": [
+     "wife"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "say"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "personal"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "walk",
+     "first"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "find",
+     "wine"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "look"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "as",
+     "run"
+    ],
+    "review_hits": [
+     "cloudy"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "wife",
+   "cloudy"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 48.9
+}
