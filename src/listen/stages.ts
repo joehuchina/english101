@@ -1,6 +1,7 @@
 import categoriesJson from "./categories.json";
+import confusableJson from "./confusable.json";
 
-/** A picture category; only words whose illustration shows the thing itself are listed. */
+/** A picture category; look-alike pictures are grouped in confusable.json. */
 export interface ListenCategory {
   id: string;
   zh: string;
@@ -9,13 +10,10 @@ export interface ListenCategory {
   words: string[];
 }
 
-export type Round = 1 | 2 | 3;
-
 export interface ListenStage {
   id: string;
-  round: Round;
   category: ListenCategory;
-  /** Part number when a category is split within a round. */
+  /** Part number when a category is split into several stages. */
   part: number;
   parts: number;
   words: string[];
@@ -23,31 +21,11 @@ export interface ListenStage {
 
 export const CATEGORIES = categoriesJson as ListenCategory[];
 
-export const ROUNDS: Record<
-  Round,
-  { title: string; desc: string; level: string }
-> = {
-  1: {
-    title: "第一轮 · 入门词",
-    desc: "A1 最常见的实物，一听就能指出来。",
-    level: "A1",
-  },
-  2: {
-    title: "第二轮 · 常用词",
-    desc: "A2 生活里天天见到的东西。",
-    level: "A2",
-  },
-  3: {
-    title: "第三轮 · 进阶词",
-    desc: "B1 更具体的物品，按兴趣挑着学。",
-    level: "B1",
-  },
-};
+/** Groups of words whose pictures look alike; they never share a question. */
+export const CONFUSABLE = confusableJson as string[][];
 
 /** Stages larger than this are split into near-equal parts. */
 export const MAX_STAGE = 12;
-/** A picture test needs at least this many words of its own. */
-export const MIN_STAGE = 4;
 
 /** Stage ids with this prefix are ad-hoc practice sets and keep no stars. */
 export const REVIEW_PREFIX = "review-";
@@ -62,57 +40,32 @@ function chunk<T>(items: T[], max: number): T[][] {
 }
 
 /**
- * Stages per round (A1, A2, B1) and category. A round with too few words for a
- * picture test joins the category's previous round (or the next one).
+ * Stages per category, common words first. `rank` orders words (lower is more
+ * common) and returns undefined for words missing from the atlas.
  */
 export function buildStages(
   categories: ListenCategory[],
-  cefrOf: (id: string) => number | undefined,
+  rank: (id: string) => number | undefined,
 ): ListenStage[] {
-  const byRound: Record<Round, Map<string, string[]>> = {
-    1: new Map(),
-    2: new Map(),
-    3: new Map(),
-  };
-  for (const cat of categories) {
-    const groups: Record<Round, string[]> = { 1: [], 2: [], 3: [] };
-    for (const id of cat.words) {
-      const level = cefrOf(id);
-      if (level === undefined) continue;
-      groups[Math.min(3, Math.max(1, level + 1)) as Round].push(id);
-    }
-    for (const r of [1, 2, 3] as Round[]) {
-      if (groups[r].length === 0 || groups[r].length >= MIN_STAGE) continue;
-      const into = ([r - 1, r + 1, r - 2, r + 2] as number[]).find(
-        (o) => o >= 1 && o <= 3 && groups[o as Round].length > 0,
-      ) as Round | undefined;
-      if (!into) continue;
-      groups[into] =
-        into < r
-          ? [...groups[into], ...groups[r]]
-          : [...groups[r], ...groups[into]];
-      groups[r] = [];
-    }
-    for (const r of [1, 2, 3] as Round[])
-      if (groups[r].length) byRound[r].set(cat.id, groups[r]);
-  }
   const stages: ListenStage[] = [];
-  for (const r of [1, 2, 3] as Round[])
-    for (const cat of categories) {
-      const words = byRound[r].get(cat.id);
-      if (!words) continue;
-      const parts = chunk(words, MAX_STAGE);
-      parts.forEach((part, i) =>
-        stages.push({
-          id: `${r}-${cat.id}-${i + 1}`,
-          round: r,
-          category: cat,
-          part: i + 1,
-          parts: parts.length,
-          words: part,
-        }),
-      );
-    }
+  for (const cat of categories) {
+    const words = cat.words
+      .map((id) => [id, rank(id)] as const)
+      .filter((x): x is readonly [string, number] => x[1] !== undefined)
+      .sort((a, b) => a[1] - b[1])
+      .map(([id]) => id);
+    if (!words.length) continue;
+    const parts = chunk(words, MAX_STAGE);
+    parts.forEach((part, i) =>
+      stages.push({
+        id: `${cat.id}-${i + 1}`,
+        category: cat,
+        part: i + 1,
+        parts: parts.length,
+        words: part,
+      }),
+    );
+  }
   return stages;
 }
 
@@ -120,21 +73,34 @@ export const stageTitle = (
   s: Pick<ListenStage, "category" | "part" | "parts">,
 ) => (s.parts > 1 ? `${s.category.zh} ${s.part}` : s.category.zh);
 
-/** Three wrong pictures: from the same stage first, then from other categories. */
+/** Words whose pictures could be mistaken for the target's. */
+export function lookAlikes(target: string, groups = CONFUSABLE): Set<string> {
+  const out = new Set<string>();
+  for (const g of groups) if (g.includes(target)) g.forEach((w) => out.add(w));
+  return out;
+}
+
+/**
+ * Three wrong pictures: from the same stage first, then from other categories,
+ * never one that looks like the target.
+ */
 export function pickDistractors(
   target: string,
   stageWords: string[],
   pool: string[],
   random = Math.random,
+  groups = CONFUSABLE,
 ): string[] {
   const shuffled = (xs: string[]) =>
     xs
       .map((x) => [random(), x] as const)
       .sort((a, b) => a[0] - b[0])
       .map(([, x]) => x);
-  const out = shuffled(stageWords.filter((w) => w !== target)).slice(0, 3);
+  const blocked = lookAlikes(target, groups);
+  blocked.add(target);
+  const out = shuffled(stageWords.filter((w) => !blocked.has(w))).slice(0, 3);
   if (out.length < 3) {
-    const used = new Set([target, ...out, ...stageWords]);
+    const used = new Set([...blocked, ...out, ...stageWords]);
     out.push(
       ...shuffled(pool.filter((w) => !used.has(w))).slice(0, 3 - out.length),
     );

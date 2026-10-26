@@ -19,10 +19,8 @@ import {
   CATEGORIES,
   pickDistractors,
   REVIEW_PREFIX,
-  ROUNDS,
   stageTitle,
   type ListenStage,
-  type Round,
 } from "../listen/stages";
 import { play, stopAudio } from "../lib/audio";
 import { go, type Route } from "../lib/router";
@@ -43,7 +41,12 @@ const AUTO_GAP_MS = 900;
 function useStages() {
   const atlas = useAtlas();
   return useMemo(
-    () => buildStages(CATEGORIES, (id) => atlas.byId.get(id)?.cefr),
+    () =>
+      // Easier words first: by level, then by the atlas's learning order.
+      buildStages(CATEGORIES, (id) => {
+        const w = atlas.byId.get(id);
+        return w && w.cefr * 100000 + w.order;
+      }),
     [atlas],
   );
 }
@@ -66,7 +69,6 @@ function useStage(id: string): ListenStage | null {
     };
     return {
       id: WEAK_ID,
-      round: 1,
       category: cat,
       part: 1,
       parts: 1,
@@ -207,14 +209,23 @@ function Hub() {
           )}
         </div>
 
-        {([1, 2, 3] as Round[]).map((r) => {
-          const list = stages.filter((s) => s.round === r);
+        {CATEGORIES.map((cat) => {
+          const list = stages.filter((s) => s.category.id === cat.id);
           if (!list.length) return null;
+          const stars = list.reduce(
+            (n, s) => n + (listen.stages[s.id]?.stars ?? 0),
+            0,
+          );
           return (
-            <section key={r} className="lp-round">
+            <section key={cat.id} className="lp-round">
               <div className="lp-round-head">
-                <h2>{ROUNDS[r].title}</h2>
-                <p>{ROUNDS[r].desc}</p>
+                <h2>
+                  {cat.icon} {cat.zh}
+                </h2>
+                <p>
+                  {cat.en} · {list.reduce((n, s) => n + s.words.length, 0)} 词 ·{" "}
+                  {stars}/{list.length * 3} 星
+                </p>
               </div>
               <ul className="lp-stages">
                 {list.map((s) => {
@@ -235,12 +246,8 @@ function Hub() {
                           />
                         )}
                         <span className="lp-stage-body">
-                          <b>
-                            {s.category.icon} {stageTitle(s)}
-                          </b>
-                          <small>
-                            {s.category.en} · {s.words.length} 词
-                          </small>
+                          <b>第 {s.part} 关</b>
+                          <small>{s.words.length} 词</small>
                           <Stars n={rec?.stars ?? 0} />
                         </span>
                         {s === next && (
@@ -276,7 +283,8 @@ function Briefing({ stage }: { stage: ListenStage }) {
   return (
     <div className="lp-brief">
       <p className="eyebrow">
-        {ROUNDS[stage.round].title} · {ROUNDS[stage.round].level}
+        {stage.category.en}
+        {stage.parts > 1 ? ` · 第 ${stage.part} / ${stage.parts} 关` : ""}
       </p>
       <h2 className="display">
         {stage.category.icon} {stageTitle(stage)}

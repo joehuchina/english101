@@ -4195,7 +4195,8 @@ a:hover .mark-needle,
 }
 .lp-stages {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  margin: 0;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 12px;
   padding: 0;
   list-style: none;
@@ -4223,7 +4224,7 @@ a:hover .mark-needle,
   box-shadow: 0 0 0 3px color-mix(in oklab, var(--terra) 18%, transparent);
 }
 .lp-stage-art {
-  width: 64px;
+  width: 56px;
   flex: none;
   border-radius: 12px;
 }

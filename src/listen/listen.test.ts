@@ -5,8 +5,8 @@ import {
   buildStages,
   CATEGORIES,
   computeStars,
+  CONFUSABLE,
   MAX_STAGE,
-  MIN_STAGE,
   pickDistractors,
   type ListenCategory,
 } from "./stages";
@@ -24,56 +24,67 @@ test("categories list each word once", () => {
   assert.equal(new Set(all).size, all.length);
 });
 
-test("stages follow CEFR rounds and stay within size limits", () => {
-  const level: Record<string, number> = {
-    a: 0,
-    b: 0,
-    c: 0,
-    d: 0,
-    e: 1,
-    f: 1,
-    g: 1,
-    h: 1,
-    i: 2,
-  };
-  const stages = buildStages([cat("x", Object.keys(level))], (id) => level[id]);
+test("stages follow categories, common words first, at most 12 each", () => {
+  const rank: Record<string, number> = { a: 3, b: 1, c: 2 };
+  const stages = buildStages(
+    [cat("x", ["a", "b", "c", "gone"])],
+    (id) => rank[id],
+  );
+  // Words missing from the atlas are skipped.
   assert.deepEqual(
     stages.map((s) => [s.id, s.words]),
-    [
-      ["1-x-1", ["a", "b", "c", "d"]],
-      // A lone B1 word joins A2 so the test still has four pictures of its own.
-      ["2-x-1", ["e", "f", "g", "h", "i"]],
-    ],
+    [["x-1", ["b", "c", "a"]]],
   );
   const many = Array.from({ length: 30 }, (_, i) => `w${i}`);
-  const split = buildStages([cat("y", many)], () => 0);
-  assert.equal(split.length, 3);
-  assert.ok(
-    split.every(
-      (s) =>
-        s.words.length <= MAX_STAGE &&
-        s.words.length >= MIN_STAGE &&
-        s.parts === 3,
-    ),
-  );
-});
-
-test("words missing from the atlas are skipped", () => {
+  const split = buildStages([cat("y", many)], (id) => Number(id.slice(1)));
   assert.deepEqual(
-    buildStages([cat("z", ["a", "gone"])], (id) =>
-      id === "a" ? 0 : undefined,
-    )[0].words,
-    ["a"],
+    split.map((s) => [s.id, s.words.length, s.parts]),
+    [
+      ["y-1", 10, 3],
+      ["y-2", 10, 3],
+      ["y-3", 10, 3],
+    ],
   );
+  assert.ok(split.every((s) => s.words.length <= MAX_STAGE));
 });
 
 test("distractors come from the stage, then the pool", () => {
-  const d = pickDistractors("a", ["a", "b", "c", "d", "e"], ["p", "q"]);
+  const d = pickDistractors(
+    "a",
+    ["a", "b", "c", "d", "e"],
+    ["p", "q"],
+    Math.random,
+    [],
+  );
   assert.equal(d.length, 3);
   assert.ok(d.every((w) => ["b", "c", "d", "e"].includes(w)));
-  const small = pickDistractors("a", ["a", "b"], ["a", "b", "p", "q"]);
+  const small = pickDistractors(
+    "a",
+    ["a", "b"],
+    ["a", "b", "p", "q"],
+    Math.random,
+    [],
+  );
   assert.equal(small.length, 3);
   assert.ok(small.includes("b") && !small.includes("a"));
+});
+
+test("look-alike pictures never share a question", () => {
+  const groups = [["a", "b", "c"]];
+  for (let i = 0; i < 20; i++) {
+    const d = pickDistractors(
+      "a",
+      ["a", "b", "c", "d", "e"],
+      ["p", "q", "r"],
+      Math.random,
+      groups,
+    );
+    assert.equal(d.length, 3);
+    assert.ok(!d.includes("b") && !d.includes("c"));
+  }
+  // The real groups only name listed words.
+  const listed = new Set(CATEGORIES.flatMap((c) => c.words));
+  assert.ok(CONFUSABLE.flat().every((w) => listed.has(w)));
 });
 
 test("stars", () => {
