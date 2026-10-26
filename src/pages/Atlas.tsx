@@ -1,9 +1,7 @@
-import { Grid3x3, List, Search, Sparkles, X } from "lucide-react";
-import { Galaxy } from "../galaxy/Galaxy";
+import { Grid3x3, List, Search, X } from "lucide-react";
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { useAtlas } from "../atlas/context";
 import type { WordRef } from "../atlas/types";
-import { morphFrom } from "../lib/motion";
 import { go, openWord, type Route } from "../lib/router";
 import { isMastered } from "../store/srs";
 import { useStore } from "../store/store";
@@ -20,57 +18,38 @@ const STATUS: [Status, string][] = [
   ["saved", "收藏"],
 ];
 
-type View = "grid" | "list" | "galaxy";
+type View = "grid" | "list";
 function readView(): View {
   try {
     const v = localStorage.getItem("word-atlas:view");
-    return v === "list" || v === "galaxy" ? v : "grid";
+    return v === "list" ? "list" : "grid";
   } catch {
     return "grid";
   }
 }
 
-export function AtlasPage({
-  route,
-}: {
-  route: Extract<Route, { page: "atlas" }>;
-}) {
+export function AtlasPage({ route }: { route: Extract<Route, { page: "atlas" }> }) {
   const atlas = useAtlas();
   const cards = useStore((s) => s.progress.cards);
   const bookmarks = useStore((s) => s.progress.bookmarks);
   const [q, setQ] = useState(route.q ?? "");
   const [status, setStatus] = useState<Status>("all");
   const [view, setViewState] = useState<View>(() =>
-    route.view === "galaxy" || route.view === "list" || route.view === "grid"
-      ? route.view
-      : readView(),
+    route.view === "list" ? "list" : readView()
   );
-  // Follow the URL when a link switches views while this page is already open.
   useEffect(() => {
-    if (route.view === "grid" || route.view === "list" || route.view === "galaxy") setViewState(route.view);
+    if (route.view === "grid" || route.view === "list") setViewState(route.view);
+    // galaxy view falls back to grid
   }, [route.view]);
   const setView = (v: View) => {
     setViewState(v);
-    go(
-      {
-        page: "atlas",
-        topic: route.topic,
-        level: route.level,
-        view: v === "grid" ? undefined : v,
-      },
-      null,
-      true,
-    );
+    go({ page: "atlas", topic: route.topic, level: route.level, view: v === "grid" ? undefined : v }, null, true);
   };
   const topic = route.topic;
   const level = route.level;
 
   useEffect(() => {
-    try {
-      localStorage.setItem("word-atlas:view", view);
-    } catch {
-      /* optional */
-    }
+    try { localStorage.setItem("word-atlas:view", view); } catch { /* optional */ }
   }, [view]);
 
   const list = useMemo(() => {
@@ -94,143 +73,44 @@ export function AtlasPage({
     go({ page: "atlas", topic, level, view: route.view, ...patch }, null, true);
 
   return (
-    <div className={`page atlas ${view === "galaxy" ? "is-galaxy" : ""}`}>
+    <div className="page atlas">
       <header className="atlas-head">
-        <div>
-          <p className="eyebrow">图鉴 · {atlas.count.toLocaleString()} 词</p>
-          <h1 className="display">
-            每个词，
-            <br className="br-sm" />
-            都有一幅画。
-          </h1>
-          <p className="lede">
-            {atlas.examples.toLocaleString()} 条原创例句 · 英美发音 · 按难度和 {atlas.topics.length} 个雅思话题整理
-          </p>
-        </div>
-        <label className="search">
-          <Search size={19} />
-          <input
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder="搜索单词或中文释义"
-            spellCheck={false}
-            autoComplete="off"
-          />
-          {q && (
-            <button
-              className="icon-btn"
-              onClick={() => setQ("")}
-              aria-label="清空搜索"
-            >
-              <X size={16} />
-            </button>
-          )}
+        <label className="search-bar">
+          <Search size={16} />
+          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="搜索单词或中文释义" spellCheck={false} autoComplete="off" />
+          {q && <button className="icon-btn" onClick={() => setQ("")} aria-label="清空搜索"><X size={15} /></button>}
         </label>
       </header>
 
       <div className="filters">
-        {view !== "galaxy" && (
-          <>
-            <div className="chips chips-scroll" role="group" aria-label="难度">
-              <button
-                className={`chip-btn ${!level ? "is-on" : ""}`}
-                onClick={() => setFilter({ level: undefined })}
-              >
-                所有难度
-              </button>
-              {atlas.cefr.map((l) => (
-                <button
-                  key={l}
-                  className={`chip-btn lv lv-${l} ${level === l ? "is-on" : ""}`}
-                  onClick={() =>
-                    setFilter({ level: level === l ? undefined : l })
-                  }
-                >
-                  {l}
-                </button>
-              ))}
-            </div>
-            <div className="chips chips-scroll" role="group" aria-label="主题">
-              <button
-                className={`chip-btn ${!topic ? "is-on" : ""}`}
-                onClick={() => setFilter({ topic: undefined })}
-              >
-                所有主题
-              </button>
-              {atlas.topics.map(([k, name]) => (
-                <button
-                  key={k}
-                  className={`chip-btn ${topic === k ? "is-on" : ""}`}
-                  onClick={() =>
-                    setFilter({ topic: topic === k ? undefined : k })
-                  }
-                >
-                  {name}
-                </button>
-              ))}
-            </div>
-          </>
-        )}
+        <div className="chips" role="group" aria-label="难度">
+          <button className={`chip-btn ${!level ? "is-on" : ""}`} onClick={() => setFilter({ level: undefined })}>所有</button>
+          {atlas.cefr.map((l) => (
+            <button key={l} className={`chip-btn ${level === l ? "is-on" : ""}`} onClick={() => setFilter({ level: level === l ? undefined : l })}>{l}</button>
+          ))}
+        </div>
+        <div className="chips" role="group" aria-label="主题">
+          <button className={`chip-btn ${!topic ? "is-on" : ""}`} onClick={() => setFilter({ topic: undefined })}>所有话题</button>
+          {atlas.topics.map(([k, name]) => (
+            <button key={k} className={`chip-btn ${topic === k ? "is-on" : ""}`} onClick={() => setFilter({ topic: topic === k ? undefined : k })}>{name}</button>
+          ))}
+        </div>
         <div className="filters-row">
-          {view !== "galaxy" && (
-            <div className="segmented" role="group" aria-label="学习状态">
-              {STATUS.map(([k, label]) => (
-                <button
-                  key={k}
-                  className={status === k ? "is-on" : ""}
-                  onClick={() => setStatus(k)}
-                  aria-pressed={status === k}
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
-          )}
-          <span className="result-count">
-            {view === "galaxy"
-              ? "搜索一个词，星图会带你飞过去"
-              : `${list.length.toLocaleString()} 个结果`}
-          </span>
-          <div
-            className="segmented segmented-icons"
-            role="group"
-            aria-label="视图"
-          >
-            <button
-              className={view === "grid" ? "is-on" : ""}
-              onClick={() => setView("grid")}
-              aria-label="图片视图"
-              aria-pressed={view === "grid"}
-            >
-              <Grid3x3 size={17} />
-            </button>
-            <button
-              className={view === "list" ? "is-on" : ""}
-              onClick={() => setView("list")}
-              aria-label="列表视图"
-              aria-pressed={view === "list"}
-            >
-              <List size={17} />
-            </button>
-            <button
-              className={view === "galaxy" ? "is-on" : ""}
-              onClick={() => setView("galaxy")}
-              aria-label="星图视图"
-              aria-pressed={view === "galaxy"}
-            >
-              <Sparkles size={17} />
-            </button>
+          <div className="segmented" role="group" aria-label="学习状态">
+            {STATUS.map(([k, label]) => (
+              <button key={k} className={status === k ? "is-on" : ""} onClick={() => setStatus(k)} aria-pressed={status === k}>{label}</button>
+            ))}
+          </div>
+          <span className="result-count">{list.length.toLocaleString()} 个结果</span>
+          <div className="segmented segmented-icons" role="group" aria-label="视图">
+            <button className={view === "grid" ? "is-on" : ""} onClick={() => setView("grid")} aria-label="图片视图" aria-pressed={view === "grid"}><Grid3x3 size={17} /></button>
+            <button className={view === "list" ? "is-on" : ""} onClick={() => setView("list")} aria-label="列表视图" aria-pressed={view === "list"}><List size={17} /></button>
           </div>
         </div>
       </div>
 
-      {view === "galaxy" ? (
-        <Galaxy mode="full" focus={q.trim() ? list[0]?.id : null} />
-      ) : list.length === 0 ? (
-        <div className="empty">
-          <img src={`${import.meta.env.BASE_URL}brand/empty.webp`} alt="" />
-          <p>这片星域还没有词。换个筛选条件试试。</p>
-        </div>
+      {list.length === 0 ? (
+        <div className="empty"><p>没有符合条件的词，换个筛选条件试试。</p></div>
       ) : view === "grid" ? (
         <VirtualGrid items={list} cards={cards} />
       ) : (
@@ -255,15 +135,10 @@ function useWindowRange(
       if (!el) return;
       const top = el.getBoundingClientRect().top;
       const first = Math.max(0, Math.floor(-top / rowHeight) - overscan);
-      const last = Math.min(
-        rows,
-        Math.ceil((window.innerHeight - top) / rowHeight) + overscan,
-      );
+      const last = Math.min(rows, Math.ceil((window.innerHeight - top) / rowHeight) + overscan);
       setRange((r) => (r[0] === first && r[1] === last ? r : [first, last]));
     };
-    const on = () => {
-      if (!raf) raf = requestAnimationFrame(update);
-    };
+    const on = () => { if (!raf) raf = requestAnimationFrame(update); };
     update();
     window.addEventListener("scroll", on, { passive: true });
     window.addEventListener("resize", on);
@@ -289,21 +164,12 @@ function useWidth(ref: React.RefObject<HTMLDivElement | null>) {
   return w;
 }
 
-function VirtualGrid({
-  items,
-  cards,
-}: {
-  items: WordRef[];
-  cards: Record<string, { s: number; st: number }>;
-}) {
+function VirtualGrid({ items, cards }: { items: WordRef[]; cards: Record<string, { s: number; st: number }> }) {
   const atlas = useAtlas();
   const box = useRef<HTMLDivElement>(null);
   const width = useWidth(box);
   const gap = width < 560 ? 10 : 16;
-  const cols = Math.max(
-    2,
-    Math.floor((width + gap) / ((width < 560 ? 150 : 188) + gap)),
-  );
+  const cols = Math.max(2, Math.floor((width + gap) / ((width < 560 ? 150 : 188) + gap)));
   const cell = (width - gap * (cols - 1)) / cols;
   const rowH = cell + (width < 560 ? 62 : 74) + gap;
   const rows = Math.ceil(items.length / cols);
@@ -315,56 +181,25 @@ function VirtualGrid({
         const w = items[r * cols + c];
         if (!w) break;
         const card = cards[w.id];
-        const st = card
-          ? card.st === 2 && card.s >= 21
-            ? "is-mastered"
-            : "is-learning"
-          : "";
+        const st = card ? (card.st === 2 && card.s >= 21 ? "is-mastered" : "is-learning") : "";
         visible.push(
-          <button
-            key={w.id}
-            className={`tile ${st}`}
-            style={{
-              transform: `translate(${c * (cell + gap)}px, ${r * rowH}px)`,
-              width: cell,
-              height: rowH - gap,
-            }}
-            onClick={(e) => morphFrom(e.currentTarget.querySelector<HTMLElement>(".illo"), () => openWord(w.id))}
+          <button key={w.id} className={`tile ${st}`}
+            style={{ transform: `translate(${c * (cell + gap)}px, ${r * rowH}px)`, width: cell, height: rowH - gap }}
+            onClick={() => openWord(w.id)}
           >
-            <Illustration
-              src={atlas.img(w, "thumb")}
-              word={w.word}
-              topic={w.topic}
-            />
-            <span className="tile-no">
-              № {String(w.order + 1).padStart(4, "0")}
-            </span>
+            <Illustration src={atlas.img(w, "thumb")} word={w.word} topic={w.topic} />
             <span className="tile-text">
-              <span className="tile-word" lang="en">
-                {w.word}
-              </span>
-              <span className={`tile-lv lv-${atlas.cefr[w.cefr]}`}>
-                {atlas.cefr[w.cefr]}
-              </span>
+              <span className="tile-word" lang="en">{w.word}</span>
+              <span className={`tile-lv lv-${atlas.cefr[w.cefr]}`}>{atlas.cefr[w.cefr]}</span>
               <span className="tile-zh">{w.zh}</span>
             </span>
           </button>,
         );
       }
-  return (
-    <div ref={box} className="vgrid" style={{ height: rows * rowH }}>
-      {visible}
-    </div>
-  );
+  return <div ref={box} className="vgrid" style={{ height: rows * rowH }}>{visible}</div>;
 }
 
-function VirtualList({
-  items,
-  cards,
-}: {
-  items: WordRef[];
-  cards: Record<string, { s: number; st: number }>;
-}) {
+function VirtualList({ items, cards }: { items: WordRef[]; cards: Record<string, { s: number; st: number }> }) {
   const atlas = useAtlas();
   const accent = useStore((s) => s.settings.accent);
   const box = useRef<HTMLDivElement>(null);
@@ -375,35 +210,14 @@ function VirtualList({
       {items.slice(a, b).map((w, i) => {
         const card = cards[w.id];
         return (
-          <div
-            key={w.id}
-            className="row"
-            style={{ transform: `translateY(${(a + i) * rowH}px)` }}
-            onClick={() => openWord(w.id)}
-            role="button"
-            tabIndex={0}
-            onKeyDown={(e) => e.key === "Enter" && openWord(w.id)}
-          >
-            <Illustration
-              src={atlas.img(w, "thumb")}
-              word={w.word}
-              topic={w.topic}
-              className="row-art"
-            />
-            <span className="row-word" lang="en">
-              {w.word}
-            </span>
+          <div key={w.id} className="row" style={{ transform: `translateY(${(a + i) * rowH}px)` }}
+            onClick={() => openWord(w.id)} role="button" tabIndex={0} onKeyDown={(e) => e.key === "Enter" && openWord(w.id)}>
+            <Illustration src={atlas.img(w, "thumb")} word={w.word} topic={w.topic} className="row-art" />
+            <span className="row-word" lang="en">{w.word}</span>
             <span className="row-ipa ipa">{w.ipa}</span>
             <span className="row-zh">{w.zh}</span>
-            <span
-              className={`row-dot ${card ? (card.st === 2 && card.s >= 21 ? "is-mastered" : "is-learning") : ""}`}
-            />
-            <Speak
-              url={atlas.audio(w, accent)}
-              text={w.word}
-              accent={accent}
-              size="sm"
-            />
+            <span className={`row-dot ${card ? (card.st === 2 && card.s >= 21 ? "is-mastered" : "is-learning") : ""}`} />
+            <Speak url={atlas.audio(w, accent)} text={w.word} accent={accent} size="sm" />
           </div>
         );
       })}

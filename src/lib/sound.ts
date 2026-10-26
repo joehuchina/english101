@@ -4,7 +4,7 @@
  */
 const BASE = `${import.meta.env.BASE_URL}sfx/`;
 
-export type Cue = "correct" | "wrong" | "flip" | "page" | "complete" | "streak" | "start" | "tap" | "key" | "twinkle" | "fly" | "ignite";
+export type Cue = "correct" | "wrong" | "flip" | "page" | "complete" | "streak" | "start" | "tap" | "key";
 export const AMBIENCE = [
   { id: "stars", label: "星空音乐" },
   { id: "rain", label: "雨天图书馆" },
@@ -26,9 +26,6 @@ const CUE_GAIN: Record<Cue, number> = {
   start: 0.5,
   tap: 0.3,
   key: 0.18,
-  twinkle: 0.22,
-  fly: 0.4,
-  ignite: 0.45,
 };
 
 let ctx: AudioContext | null = null;

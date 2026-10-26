@@ -1,4 +1,4 @@
-import { Bookmark, BookmarkCheck, Lightbulb, Share2 } from "lucide-react";
+import { Bookmark, BookmarkCheck, Lightbulb } from "lucide-react";
 import type { Entry, WordRef } from "../atlas/types";
 import { useAtlas } from "../atlas/context";
 import { splitHighlight, splitPair } from "../lib/text";
@@ -6,7 +6,6 @@ import { formatInterval, isMastered } from "../store/srs";
 import { toggleBookmark, useStore } from "../store/store";
 import { Illustration } from "./Illustration";
 import { Speak } from "./Speak";
-import { shareWord } from "./share";
 import { openWord } from "../lib/router";
 
 export function Highlight({ text, word }: { text: string; word: string }) {
@@ -82,9 +81,6 @@ export function EntryView({ entry, mode = "detail", eager = true }: { entry: Ent
             <div className="entry-actions">
               <button className={`icon-btn ${saved ? "is-on" : ""}`} onClick={() => toggleBookmark(entry.id)} aria-pressed={saved} aria-label={saved ? "取消收藏" : "收藏"} title={saved ? "取消收藏" : "收藏"}>
                 {saved ? <BookmarkCheck size={19} /> : <Bookmark size={19} />}
-              </button>
-              <button className="icon-btn" onClick={() => shareWord(atlas, entry)} aria-label="生成分享卡片" title="生成分享卡片">
-                <Share2 size={19} />
               </button>
             </div>
           )}
