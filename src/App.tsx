@@ -1,4 +1,4 @@
-import { BookOpen, ChevronLeft, ChevronRight, Compass, Github, Keyboard, Moon, Search, Sun, User } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, Compass, Ear, Github, Keyboard, Moon, Search, Sun, User } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { AtlasContext, useAtlas, useEntry } from "./atlas/context";
 import { loadOpenAtlas, loadPrivateAtlas } from "./atlas/data";
@@ -8,6 +8,7 @@ import { closeWord, currentLocation, go, openWord, useLocation, type Route } fro
 import { AtlasPage } from "./pages/Atlas";
 import { About } from "./pages/About";
 import { Learn } from "./pages/Learn";
+import { Listen } from "./pages/Listen";
 import { Me } from "./pages/Me";
 import { Practice } from "./pages/Practice";
 import { Today } from "./pages/Today";
@@ -23,6 +24,7 @@ import { Toasts } from "./ui/Toast";
 const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
   { page: "today", label: "今日", icon: Compass },
   { page: "atlas", label: "图鉴", icon: BookOpen },
+  { page: "listen", label: "听图", icon: Ear },
   { page: "practice", label: "练习", icon: Keyboard },
   { page: "me", label: "我的", icon: User },
 ];
@@ -93,7 +95,7 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
   const { route, word } = useLocation();
   const theme = useStore((s) => s.settings.theme);
   const [palette, setPalette] = useState(false);
-  const focus = route.page === "learn";
+  const focus = route.page === "learn" || (route.page === "listen" && !!route.stage);
 
   useEffect(() => {
     const on = (e: KeyboardEvent) => {
@@ -152,6 +154,7 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
         {route.page === "today" && <Today />}
         {route.page === "atlas" && <AtlasPage route={route} />}
         {route.page === "learn" && <Learn />}
+        {route.page === "listen" && <Listen route={route} />}
         {route.page === "practice" && <Practice />}
         {route.page === "me" && <Me privateAvailable={privateAvailable} />}
         {route.page === "about" && <About />}
