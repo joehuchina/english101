@@ -1,12 +1,10 @@
-import { BookOpen, ChevronLeft, ChevronRight, Compass, Ear, Github, Keyboard, Moon, Search, Sun, User } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, Ear, Keyboard, Search, User } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { AtlasContext, useAtlas, useEntry } from "./atlas/context";
 import { loadOpenAtlas, loadPrivateAtlas } from "./atlas/data";
 import type { Atlas } from "./atlas/types";
-import { REPO_URL } from "./config";
 import { closeWord, currentLocation, go, openWord, useLocation, type Route } from "./lib/router";
 import { AtlasPage } from "./pages/Atlas";
-import { About } from "./pages/About";
 import { Learn } from "./pages/Learn";
 import { Listen } from "./pages/Listen";
 import { Me } from "./pages/Me";
@@ -16,30 +14,17 @@ import { cue } from "./lib/sound";
 import { store, useStore } from "./store/store";
 import { EntryView } from "./ui/EntryView";
 import { AmbienceController, AmbiencePicker } from "./ui/Ambience";
-import { Logo } from "./ui/Logo";
 import { Palette } from "./ui/Palette";
 import { Sheet } from "./ui/Sheet";
 import { Toasts } from "./ui/Toast";
 
-const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
-  { page: "today", label: "今日", icon: Compass },
-  { page: "atlas", label: "图鉴", icon: BookOpen },
+const NAV: { page: Route["page"]; label: string; icon: typeof BookOpen }[] = [
+  { page: "today", label: "今日", icon: BookOpen },
   { page: "listen", label: "听图", icon: Ear },
-  { page: "practice", label: "练习", icon: Keyboard },
-  { page: "me", label: "我的", icon: User },
+  { page: "practice", label: "打字", icon: Keyboard },
+  { page: "atlas", label: "图鉴", icon: BookOpen },
+  { page: "me", label: "设置", icon: User },
 ];
-
-function useTheme() {
-  const theme = useStore((s) => s.settings.theme);
-  useEffect(() => {
-    const root = document.documentElement;
-    if (theme === "system") root.removeAttribute("data-theme");
-    else root.setAttribute("data-theme", theme);
-    const dark = theme === "dark" || (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
-    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", dark ? "#0D1120" : "#F6F1E7");
-  }, [theme]);
-  return theme;
-}
 
 export default function App() {
   const [atlas, setAtlas] = useState<Atlas | null>(null);
@@ -47,7 +32,6 @@ export default function App() {
   const [priv, setPriv] = useState<Atlas | null>(null);
   const [error, setError] = useState<string | null>(null);
   const dataset = useStore((s) => s.settings.dataset);
-  useTheme();
 
   useEffect(() => {
     loadOpenAtlas().then(
@@ -70,7 +54,7 @@ export default function App() {
   if (error)
     return (
       <div className="boot">
-        <Logo />
+        <span className="boot-logo">english101</span>
         <p>{error}</p>
         <button className="btn btn-primary" onClick={() => location.reload()}>
           重新加载
@@ -80,7 +64,7 @@ export default function App() {
   if (!atlas)
     return (
       <div className="boot" aria-busy="true">
-        <Logo />
+        <span className="boot-logo">english101</span>
         <span className="spinner" />
       </div>
     );
@@ -93,7 +77,6 @@ export default function App() {
 
 function Shell({ privateAvailable }: { privateAvailable: boolean }) {
   const { route, word } = useLocation();
-  const theme = useStore((s) => s.settings.theme);
   const [palette, setPalette] = useState(false);
   const focus = route.page === "learn" || (route.page === "listen" && !!route.stage);
 
@@ -114,38 +97,21 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
   }, [focus]);
 
   useEffect(() => {
-    if (!word) window.scrollTo({ top: 0 });
+    if (!word) { window.scrollTo({ top: 0 }); }
   }, [route.page]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  const dark = theme === "dark" || (theme === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
 
   return (
     <div className={`app ${focus ? "is-focus" : ""}`}>
       {!focus && (
         <header className="topbar">
-          <a className="topbar-logo" href="#/" aria-label="词光 Word Atlas 首页">
-            <Logo />
+          <a className="topbar-logo" href="#/" aria-label="english101 首页">
+            english101
           </a>
-          <nav className="topnav" aria-label="主导航">
-            {NAV.map(({ page, label }) => (
-              <a key={page} href={page === "today" ? "#/" : `#/${page}`} className={route.page === page ? "is-on" : ""} aria-current={route.page === page ? "page" : undefined}>
-                {label}
-              </a>
-            ))}
-          </nav>
           <div className="topbar-tools">
-            <button className="search-pill" onClick={() => setPalette(true)} aria-label="搜索单词">
-              <Search size={17} />
-              <span>搜索单词</span>
-              <kbd>⌘K</kbd>
+            <button className="icon-btn" onClick={() => setPalette(true)} aria-label="搜索单词">
+              <Search size={19} />
             </button>
             <AmbiencePicker />
-            <button className="icon-btn" onClick={() => store.settings({ theme: dark ? "light" : "dark" })} aria-label={dark ? "切换到浅色" : "切换到深色"}>
-              {dark ? <Sun size={19} /> : <Moon size={19} />}
-            </button>
-            <a className="icon-btn hide-sm" href="#/about" aria-label="关于与开源" title="关于与开源">
-              <Github size={19} />
-            </a>
           </div>
         </header>
       )}
@@ -157,19 +123,11 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
         {route.page === "listen" && <Listen route={route} />}
         {route.page === "practice" && <Practice />}
         {route.page === "me" && <Me privateAvailable={privateAvailable} />}
-        {route.page === "about" && <About />}
       </main>
 
       {!focus && (
         <footer className="footer">
-          <Logo compact />
-          <p>
-            一词一画，点亮雅思 · 免费开源 ·{" "}
-            <a href={REPO_URL} target="_blank" rel="noreferrer">
-              GitHub
-            </a>{" "}
-            · <a href="#/about">关于</a>
-          </p>
+          <p>Word Atlas contributors — CC BY 4.0</p>
         </footer>
       )}
 
@@ -186,9 +144,6 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
 
       <WordSheet id={word} />
       <Palette open={palette} onClose={() => setPalette(false)} />
-      {/* Splash and Onboarding disabled - go straight to app */}
-      {/* {!onboarded && route.page !== "about" && !splash && <Onboarding />} */}
-      {/* {splash && <Splash onDone={() => setSplash(false)} />} */}
       <Toasts />
       <AmbienceController />
     </div>

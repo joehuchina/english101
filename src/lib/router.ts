@@ -1,5 +1,4 @@
 import { useSyncExternalStore } from "react";
-import { transition } from "./motion";
 
 export type Route =
   | { page: "today" }
@@ -8,8 +7,7 @@ export type Route =
   | { page: "practice" }
   /** Listen-and-pick-the-picture game; a stage opens it full screen. */
   | { page: "listen"; stage?: string; mode?: "learn" | "test" }
-  | { page: "me" }
-  | { page: "about" };
+  | { page: "me" };
 
 export interface Location {
   route: Route;
@@ -32,7 +30,6 @@ function parse(hash: string): Location {
     route = { page: "listen", stage, mode: stage ? (params.get("mode") === "test" ? "test" : "learn") : undefined };
   }
   else if (seg[0] === "me") route = { page: "me" };
-  else if (seg[0] === "about") route = { page: "about" };
   else if (seg[0] === "w" && seg[1]) return { route: { page: "atlas" }, word: decodeURIComponent(seg[1]) };
   return { route, word };
 }
@@ -57,15 +54,8 @@ export function href(route: Route, word?: string | null) {
 let loc = parse(location.hash);
 const subs = new Set<() => void>();
 window.addEventListener("hashchange", () => {
-  const next = parse(location.hash);
-  const pageChange = next.route.page !== loc.route.page;
-  const update = () => {
-    loc = next;
-    subs.forEach((f) => f());
-  };
-  // Crossfade between pages; the word sheet animates on its own.
-  if (pageChange && !next.word) transition(update);
-  else update();
+  loc = parse(location.hash);
+  subs.forEach((f) => f());
 });
 
 export const useLocation = () =>
@@ -81,14 +71,8 @@ export function go(route: Route, word?: string | null, replace = false) {
   const h = href(route, word);
   if (replace) history.replaceState(null, "", h);
   else history.pushState(null, "", h);
-  const next = parse(h);
-  const pageChange = next.route.page !== loc.route.page;
-  const update = () => {
-    loc = next;
-    subs.forEach((f) => f());
-  };
-  if (pageChange && !replace) transition(update);
-  else update();
+  loc = parse(h);
+  subs.forEach((f) => f());
 }
 
 export const openWord = (id: string) => go(loc.route, id);
