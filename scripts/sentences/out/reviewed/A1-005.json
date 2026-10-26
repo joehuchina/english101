@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-005",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "letter",
+  "bad",
+  "upstairs",
+  "head",
+  "yesterday",
+  "something",
+  "pet",
+  "stop",
+  "front",
+  "night",
+  "ask",
+  "jacket",
+  "jeans",
+  "think"
+ ],
+ "review_words": [
+  "thursday",
+  "clothes",
+  "strong",
+  "month"
+ ],
+ "title": "The Letter About Max",
+ "title_zh": "关于小狗麦克斯的信",
+ "setting": "A family house with stairs and a front door.",
+ "characters": [
+  {
+   "name": "Sam",
+   "look": "Sam, a teenage boy in blue jeans and a brown jacket"
+  },
+  {
+   "name": "Lily",
+   "look": "Lily, his younger sister with long black hair"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Yesterday, Sam put on his jeans and jacket.",
+   "zh": "昨天，萨姆穿上了牛仔裤和夹克。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket zips up his jacket in the hallway."
+  },
+  {
+   "en": "He found a letter at the front door.",
+   "zh": "他在前门发现了一封信。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket picks up an envelope from the mat at the front door."
+  },
+  {
+   "en": "He thinks it is bad news.",
+   "zh": "他以为是坏消息。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket holds the letter with a worried face."
+  },
+  {
+   "en": "He runs upstairs to ask his sister.",
+   "zh": "他跑上楼去问妹妹。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket runs up the stairs holding the letter."
+  },
+  {
+   "en": "The letter is about their lost pet.",
+   "zh": "这封信是关于他们走丢的宠物的。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket and Lily, his younger sister with long black hair read the letter together; a photo of a small brown dog is on the wall."
+  },
+  {
+   "en": "A farmer found the dog last night.",
+   "zh": "一位农民昨晚找到了那只狗。",
+   "scene_prompt": "A farmer with a lantern finds a small brown dog in a barn at night."
+  },
+  {
+   "en": "Lily stops and puts her hands on her head.",
+   "zh": "莉莉停下来，双手抱头。",
+   "scene_prompt": "Lily, his younger sister with long black hair stands still with both hands on her head in surprise."
+  },
+  {
+   "en": "Then they hear something at the front door.",
+   "zh": "然后他们听到前门有动静。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket and Lily, his younger sister with long black hair turn toward the front door; a small brown dog's shadow shows through the glass."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,79 @@
+{
+ "scene_id": "A1-003",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "chips",
+  "keep",
+  "left",
+  "put",
+  "sunday",
+  "skirt",
+  "side",
+  "pretty",
+  "too",
+  "glass",
+  "or",
+  "once",
+  "sock",
+  "feeling"
+ ],
+ "review_words": [
+  "thursday",
+  "bedroom",
+  "clothes",
+  "strong"
+ ],
+ "title": "Lily Cleans Her Room",
+ "title_zh": "莉莉打扫房间",
+ "setting": "A small, bright bedroom on a Sunday morning.",
+ "characters": [
+  {
+   "name": "Lily",
+   "look": "Lily, a girl of nine with long brown hair"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "On Sunday, Lily cleans her small bedroom.",
+   "zh": "星期天，莉莉打扫她的小卧室。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair holds a broom in a small, untidy bedroom."
+  },
+  {
+   "en": "She puts a pretty skirt on the bed.",
+   "zh": "她把一条漂亮的裙子放在床上。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair lays a pretty flowered skirt on her bed."
+  },
+  {
+   "en": "One sock is on the left side.",
+   "zh": "有一只袜子在左边。",
+   "scene_prompt": "A single striped sock lies on the left side of the bed; Lily, a girl of nine with long brown hair points at it."
+  },
+  {
+   "en": "Should she keep this skirt or that one?",
+   "zh": "她该留下这条裙子还是那条？",
+   "scene_prompt": "Lily, a girl of nine with long brown hair holds up two different skirts, one in each hand, thinking."
+  },
+  {
+   "en": "The window glass is too dirty now.",
+   "zh": "窗户玻璃现在太脏了。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair looks at a dusty, smeared window pane."
+  },
+  {
+   "en": "She cleans it once, and it shines.",
+   "zh": "她擦了一遍，窗户就亮了。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair wipes the window with a cloth and the glass sparkles."
+  },
+  {
+   "en": "Then she sits down with some chips.",
+   "zh": "然后她拿着一些薯条坐下。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair sits on the bed with a small bowl of chips."
+  },
+  {
+   "en": "A clean room gives her a good feeling.",
+   "zh": "干净的房间让她心情很好。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair smiles happily in her clean, tidy bedroom."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

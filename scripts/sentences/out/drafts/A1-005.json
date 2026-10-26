@@ -1,0 +1,142 @@
+{
+ "title": "A Busy Day",
+ "title_zh": "忙碌的一天",
+ "setting": "A house and a garden",
+ "characters": [
+  {
+   "name": "Tom",
+   "look": "a young man in blue jeans and a brown jacket"
+  },
+  {
+   "name": "Lily",
+   "look": "a young woman with long black hair"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Yesterday, Tom wore his blue jeans.",
+   "zh": "昨天，汤姆穿着他的蓝色牛仔裤。",
+   "scene_prompt": "A young man in blue jeans stands in a living room."
+  },
+  {
+   "en": "He put on a brown jacket.",
+   "zh": "他穿上了一件棕色夹克。",
+   "scene_prompt": "A young man in blue jeans puts on a brown jacket."
+  },
+  {
+   "en": "Lily is upstairs in her room.",
+   "zh": "莉莉在楼上的房间里。",
+   "scene_prompt": "A young woman with long black hair sits in a bedroom upstairs."
+  },
+  {
+   "en": "She finds something in a letter.",
+   "zh": "她在信中发现了一些东西。",
+   "scene_prompt": "A young woman with long black hair holds a white letter in her hands."
+  },
+  {
+   "en": "The bad night is very dark.",
+   "zh": "糟糕的夜晚非常黑暗。",
+   "scene_prompt": "A dark window shows a very dark night outside."
+  },
+  {
+   "en": "Tom will ask about his pet.",
+   "zh": "汤姆会询问关于他的宠物的事。",
+   "scene_prompt": "A young man in a brown jacket looks at a small dog."
+  },
+  {
+   "en": "He puts his head in front.",
+   "zh": "他把头放在前面。",
+   "scene_prompt": "A young man in a brown jacket leans his head forward toward a table."
+  }
+ ],
+ "review_words": [
+  "thursday",
+  "clothes",
+  "strong",
+  "month"
+ ],
+ "scene_id": "A1-005",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "letter",
+  "bad",
+  "upstairs",
+  "head",
+  "yesterday",
+  "something",
+  "pet",
+  "stop",
+  "front",
+  "night",
+  "ask",
+  "jacket",
+  "jeans",
+  "think"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "yesterday",
+     "jeans"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "jacket"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "upstairs"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "letter",
+     "something"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "bad",
+     "night"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "pet",
+     "ask"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "head",
+     "front"
+    ]
+   }
+  ],
+  "missing": [
+   "stop",
+   "think"
+  ]
+ },
+ "attempts": 4,
+ "seconds": 41.0,
+ "review_hits": []
+}

@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-002",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "really",
+  "lunch",
+  "tall",
+  "also",
+  "coat",
+  "fast",
+  "from",
+  "quickly",
+  "activity",
+  "without",
+  "nothing",
+  "tuesday",
+  "hat",
+  "cry"
+ ],
+ "review_words": [
+  "thursday",
+  "bedroom",
+  "clothes",
+  "strong"
+ ],
+ "title": "A Day in the Park",
+ "title_zh": "公园里的一天",
+ "setting": "A green park on a cool spring day.",
+ "characters": [
+  {
+   "name": "Leo",
+   "look": "Leo, a tall boy with short brown hair"
+  },
+  {
+   "name": "Mia",
+   "look": "Mia, a small girl in a red coat and a red hat"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "On Tuesday, Leo and Mia go to the park.",
+   "zh": "星期二，里奥和米娅去公园。",
+   "scene_prompt": "Leo, a tall boy with short brown hair and Mia, a small girl in a red coat and a red hat walk through the gate of a green park."
+  },
+  {
+   "en": "He is really tall, and Mia is small.",
+   "zh": "他个子真高，米娅却很小。",
+   "scene_prompt": "Leo, a tall boy with short brown hair stands next to Mia, a small girl in a red coat and a red hat; he is twice her height."
+  },
+  {
+   "en": "Mia wears a red coat and a hat.",
+   "zh": "米娅穿着红外套，戴着帽子。",
+   "scene_prompt": "Close view of Mia, a small girl in a red coat and a red hat smiling in her red coat and red hat."
+  },
+  {
+   "en": "Their school has a fun activity there today.",
+   "zh": "他们学校今天在那里有一个有趣的活动。",
+   "scene_prompt": "Children in sports clothes line up for a race on the park grass, a teacher in front."
+  },
+  {
+   "en": "Leo is fast, and Mia also runs quickly.",
+   "zh": "里奥跑得快，米娅也跑得很快。",
+   "scene_prompt": "Leo, a tall boy with short brown hair and Mia, a small girl in a red coat and a red hat race across the grass with other children."
+  },
+  {
+   "en": "Mia falls down and starts to cry.",
+   "zh": "米娅摔倒了，哭了起来。",
+   "scene_prompt": "Mia, a small girl in a red coat and a red hat sits on the grass crying, holding her knee."
+  },
+  {
+   "en": "Leo gives her a sandwich from his lunch.",
+   "zh": "里奥把午饭里的一块三明治给了她。",
+   "scene_prompt": "Leo, a tall boy with short brown hair kneels and offers Mia, a small girl in a red coat and a red hat a sandwich from his lunch box."
+  },
+  {
+   "en": "Soon nothing hurts, and she runs without crying.",
+   "zh": "很快就不疼了，她又跑了起来，不再哭了。",
+   "scene_prompt": "Mia, a small girl in a red coat and a red hat runs again on the grass, smiling, Leo, a tall boy with short brown hair cheering beside her."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

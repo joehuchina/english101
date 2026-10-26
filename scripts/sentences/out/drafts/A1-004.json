@@ -1,0 +1,141 @@
+{
+ "title": "The Big Trip",
+ "title_zh": "伟大的旅行",
+ "setting": "Various travel locations including an airport and a hotel.",
+ "characters": [
+  {
+   "name": "Leo",
+   "look": "a young man with short brown hair and a blue backpack"
+  },
+  {
+   "name": "Mia",
+   "look": "a young woman with long black hair and a yellow sun hat"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Leo and Mia arrive at the station.",
+   "zh": "里奥和米娅到达了车站。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack, and Mia, a young woman with long black hair and a yellow sun hat, stand at a busy train station."
+  },
+  {
+   "en": "They start their holiday in France.",
+   "zh": "他们在法国开始了他们的假期。",
+   "scene_prompt": "Leo and Mia stand in front of a beautiful building in France with their bags."
+  },
+  {
+   "en": "A big aeroplane flies to the north.",
+   "zh": "一架大飞机向北飞去。",
+   "scene_prompt": "A large white aeroplane flies high in the blue sky above the clouds."
+  },
+  {
+   "en": "The plane travels far to Rome.",
+   "zh": "飞机飞向遥远的罗马。",
+   "scene_prompt": "Leo and Mia look out of an aeroplane window at the clouds below."
+  },
+  {
+   "en": "They see an Australian boat in Africa.",
+   "zh": "他们在非洲看到一艘澳大利亚的船。",
+   "scene_prompt": "A large boat with an Australian flag sails on the ocean near the African coast."
+  },
+  {
+   "en": "They stay at a nice hotel.",
+   "zh": "他们住在一间很棒的酒店里。",
+   "scene_prompt": "Leo and Mia walk into the lobby of a beautiful, sunny hotel."
+  },
+  {
+   "en": "Mia writes a postcard from the east.",
+   "zh": "米娅从东方写了一张明信片。",
+   "scene_prompt": "Mia, wearing a yellow sun hat, sits at a table and writes on a postcard."
+  }
+ ],
+ "review_words": [
+  "thursday",
+  "clothes",
+  "strong",
+  "month"
+ ],
+ "scene_id": "A1-004",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "australian",
+  "hotel",
+  "arrive",
+  "postcard",
+  "holiday",
+  "france",
+  "aeroplane",
+  "rome",
+  "east",
+  "africa",
+  "boat",
+  "station",
+  "plane",
+  "north"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "arrive",
+     "station"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "holiday",
+     "france"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "aeroplane",
+     "north"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "rome",
+     "plane"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "australian",
+     "africa",
+     "boat"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "hotel"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "postcard",
+     "east"
+    ]
+   }
+  ],
+  "missing": []
+ },
+ "attempts": 4,
+ "seconds": 47.2,
+ "review_hits": []
+}

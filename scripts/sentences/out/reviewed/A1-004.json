@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-004",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "australian",
+  "hotel",
+  "arrive",
+  "postcard",
+  "holiday",
+  "france",
+  "aeroplane",
+  "rome",
+  "east",
+  "africa",
+  "boat",
+  "station",
+  "plane",
+  "north"
+ ],
+ "review_words": [
+  "thursday",
+  "clothes",
+  "strong",
+  "month"
+ ],
+ "title": "A Holiday in Europe",
+ "title_zh": "欧洲度假",
+ "setting": "A train station, a plane, and a small hotel in Rome.",
+ "characters": [
+  {
+   "name": "Leo",
+   "look": "Leo, a young man with short brown hair and a blue backpack"
+  },
+  {
+   "name": "Mia",
+   "look": "Mia, a young woman with long black hair and a yellow sun hat"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Leo and Mia start their holiday at the station.",
+   "zh": "里奥和米娅在车站开始了他们的假期。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat wait with suitcases on a busy train platform."
+  },
+  {
+   "en": "They take a fast train north to France.",
+   "zh": "他们坐快车向北去法国。",
+   "scene_prompt": "A sleek train speeds through green fields; Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat look out of the window."
+  },
+  {
+   "en": "Then a big aeroplane carries them to Rome.",
+   "zh": "然后一架大飞机把他们送到罗马。",
+   "scene_prompt": "A large white aeroplane flies over old red-roofed buildings and a round dome."
+  },
+  {
+   "en": "They arrive at a small hotel near the river.",
+   "zh": "他们到达河边的一家小旅馆。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat pull suitcases up to a small hotel beside a river."
+  },
+  {
+   "en": "They meet a friendly Australian family there.",
+   "zh": "他们在那里遇到了友好的一家澳大利亚人。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat shake hands with a smiling family in the hotel garden; the father wears a wide-brimmed bush hat."
+  },
+  {
+   "en": "The family is going to Africa by boat.",
+   "zh": "这家人要坐船去非洲。",
+   "scene_prompt": "A white boat leaves a sunny harbour; the family waves from the deck."
+  },
+  {
+   "en": "Mia writes a postcard about the trip.",
+   "zh": "米娅写了一张关于这次旅行的明信片。",
+   "scene_prompt": "Mia, a young woman with long black hair and a yellow sun hat writes on a postcard at a café table."
+  },
+  {
+   "en": "Next week, their plane goes east to Greece.",
+   "zh": "下周，他们的飞机向东飞往希腊。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat look out of a plane window at blue sea and white islands."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

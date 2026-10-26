@@ -1,0 +1,268 @@
+[
+ {
+  "scene_id": "A1-001",
+  "i": 0,
+  "before": "Tom wakes up at seven o'clock.",
+  "after": "Ben wakes up at seven o'clock on Thursday.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 1,
+  "before": "It is a sunny Thursday morning.",
+  "after": "His clothes are all over the bedroom floor.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 2,
+  "before": "He picks clothes in his bedroom.",
+  "after": "He only has ten minutes for breakfast.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 3,
+  "before": "Anna will let him use fruit.",
+  "after": "His sister Anna cuts oranges for fresh juice.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 4,
+  "before": "She will cut fruit for juice.",
+  "after": "She lets him use her new blue cup.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 5,
+  "before": "They even love this new month.",
+  "after": "Ben loves orange juice, even in winter.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 6,
+  "before": "Strong men drink juice every minute.",
+  "after": "After a month, he feels very strong.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 0,
+  "before": "It is a sunny Tuesday morning.",
+  "after": "On Tuesday, Leo and Mia go to the park.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 1,
+  "before": "Leo is a really tall boy.",
+  "after": "He is really tall, and Mia is small.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 2,
+  "before": "Mia also wears a red hat.",
+  "after": "Mia wears a red coat and a hat.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 3,
+  "before": "They walk quickly from the house.",
+  "after": "Their school has a fun activity there today.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 4,
+  "before": "The park activity is really fun.",
+  "after": "Leo is fast, and Mia also runs quickly.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 5,
+  "before": "They eat lunch without any food.",
+  "after": "Mia falls down and starts to cry.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 6,
+  "before": "Mia starts to cry with nothing.",
+  "after": "Leo gives her a sandwich from his lunch.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 7,
+  "before": null,
+  "after": "Soon nothing hurts, and she runs without crying.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 0,
+  "before": "On Sunday, Lily stays in her bedroom.",
+  "after": "On Sunday, Lily cleans her small bedroom.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 2,
+  "before": "She finds a white sock or a blue one.",
+  "after": "One sock is on the left side.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 3,
+  "before": "Her left side feels a little cold.",
+  "after": "Should she keep this skirt or that one?",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 4,
+  "before": "She keeps a glass of water nearby.",
+  "after": "The window glass is too dirty now.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 5,
+  "before": "The chips are too hot to eat now.",
+  "after": "She cleans it once, and it shines.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 6,
+  "before": "She had a good feeling once today.",
+  "after": "Then she sits down with some chips.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 7,
+  "before": null,
+  "after": "A clean room gives her a good feeling.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 0,
+  "before": "Leo and Mia arrive at the station.",
+  "after": "Leo and Mia start their holiday at the station.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 1,
+  "before": "They start their holiday in France.",
+  "after": "They take a fast train north to France.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 2,
+  "before": "A big aeroplane flies to the north.",
+  "after": "Then a big aeroplane carries them to Rome.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 3,
+  "before": "The plane travels far to Rome.",
+  "after": "They arrive at a small hotel near the river.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 4,
+  "before": "They see an Australian boat in Africa.",
+  "after": "They meet a friendly Australian family there.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 5,
+  "before": "They stay at a nice hotel.",
+  "after": "The family is going to Africa by boat.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 6,
+  "before": "Mia writes a postcard from the east.",
+  "after": "Mia writes a postcard about the trip.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 7,
+  "before": null,
+  "after": "Next week, their plane goes east to Greece.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 0,
+  "before": "Yesterday, Tom wore his blue jeans.",
+  "after": "Yesterday, Sam put on his jeans and jacket.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 1,
+  "before": "He put on a brown jacket.",
+  "after": "He found a letter at the front door.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 2,
+  "before": "Lily is upstairs in her room.",
+  "after": "He thinks it is bad news.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 3,
+  "before": "She finds something in a letter.",
+  "after": "He runs upstairs to ask his sister.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 4,
+  "before": "The bad night is very dark.",
+  "after": "The letter is about their lost pet.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 5,
+  "before": "Tom will ask about his pet.",
+  "after": "A farmer found the dog last night.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 6,
+  "before": "He puts his head in front.",
+  "after": "Lily stops and puts her hands on her head.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 7,
+  "before": null,
+  "after": "Then they hear something at the front door.",
+  "reason": "通顺"
+ }
+]
