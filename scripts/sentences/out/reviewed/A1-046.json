@@ -48,51 +48,180 @@
    "en": "After science class, Mia and Ben feel hungry.",
    "zh": "上完科学课，米娅和本饿了。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) walk out of a school science room with test tubes on the tables, holding their tummies.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia and Ben walk out of a school science room with test tubes on the tables, holding their tummies.",
+   "sentence_targets": [
+    {
+     "id": "science",
+     "word": "science",
+     "pos": "n.",
+     "zh": "科学；自然科学",
+     "en": "Study of the natural world through observation and experiments"
+    }
+   ]
   },
   {
    "en": "The special today is bread with meat and cheese.",
    "zh": "今天的特色菜是夹肉和奶酪的面包。",
    "scene_prompt": "At the cafe counter, Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) proudly holds up a plate of bread with meat and cheese.",
    "draw": "partly",
-   "draw_note": "Shows Omar offering bread with meat and cheese; that it is today's special can't be shown."
+   "draw_note": "Shows Omar offering bread with meat and cheese; that it is today's special can't be shown.",
+   "narration": "At the cafe counter, Omar proudly holds up a plate of bread with meat and cheese.",
+   "sentence_targets": [
+    {
+     "id": "special",
+     "word": "special",
+     "pos": "adj./n.",
+     "zh": "特别的；特殊的",
+     "en": "Different from usual, often in an important or valued way."
+    },
+    {
+     "id": "meat",
+     "word": "meat",
+     "pos": "n.",
+     "zh": "肉；食用肉类",
+     "en": "The flesh of animals eaten as food."
+    },
+    {
+     "id": "cheese",
+     "word": "cheese",
+     "pos": "n.",
+     "zh": "奶酪；干酪",
+     "en": "A food made by pressing or ripening the solids of milk."
+    }
+   ]
   },
   {
    "en": "Ben pays for two plates at the counter.",
    "zh": "本在柜台付了两份的钱。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hands coins to Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) at the cafe counter while Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) waits.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben hands coins to Omar at the cafe counter while Mia waits.",
+   "sentence_targets": [
+    {
+     "id": "pay",
+     "word": "pay",
+     "pos": "n./v.",
+     "zh": "支付；付工资",
+     "en": "To give money for something or for someone's work"
+    }
+   ]
   },
   {
    "en": "He carries them slowly to a long green table.",
    "zh": "他慢慢地把它们端到一张长长的绿桌子旁。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) carefully carries two plates toward a long green table in the cafe.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben carefully carries two plates toward a long green table in the cafe.",
+   "sentence_targets": [
+    {
+     "id": "slowly",
+     "word": "slowly",
+     "pos": "adv.",
+     "zh": "缓慢地；慢慢地",
+     "en": "At a low speed or over a long time."
+    },
+    {
+     "id": "carry",
+     "word": "carry",
+     "pos": "v.",
+     "zh": "拿；提；搬运",
+     "en": "Hold or support something while moving it somewhere"
+    },
+    {
+     "id": "green",
+     "word": "green",
+     "pos": "adj./n.",
+     "zh": "绿色的",
+     "en": "Having the colour of grass and most leaves."
+    },
+    {
+     "id": "long",
+     "word": "long",
+     "pos": "adj./adv./v.",
+     "zh": "长的；长时间的",
+     "en": "Extending a great distance or lasting a great time."
+    }
+   ]
   },
   {
    "en": "An old policeman with white hair sits there.",
    "zh": "一位白发的老警察坐在那里。",
    "scene_prompt": "At the long green table sits an old policeman with white hair, glasses and a blue uniform, eating soup.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "At the long green table sits an old policeman with white hair, glasses and a blue uniform, eating soup.",
+   "sentence_targets": [
+    {
+     "id": "policeman",
+     "word": "policeman",
+     "pos": "n.",
+     "zh": "男警察",
+     "en": "a male police officer"
+    },
+    {
+     "id": "hair",
+     "word": "hair",
+     "pos": "n.",
+     "zh": "头发；毛发",
+     "en": "Thin strands growing on the skin of people and animals."
+    },
+    {
+     "id": "old",
+     "word": "old",
+     "pos": "adj.",
+     "zh": "年老的；古老的；旧的",
+     "en": "Having lived or existed for a long time."
+    }
+   ]
   },
   {
    "en": "His glasses fall on the floor.",
    "zh": "他的眼镜掉到了地上。",
    "scene_prompt": "A pair of glasses falls from the face of an old policeman with white hair, glasses and a blue uniform onto the cafe floor.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A pair of glasses falls from the face of an old policeman with white hair, glasses and a blue uniform onto the cafe floor.",
+   "sentence_targets": [
+    {
+     "id": "glasses",
+     "word": "glasses",
+     "pos": "n.",
+     "zh": "眼镜",
+     "en": "Two lenses in a frame worn to improve sight."
+    }
+   ]
   },
   {
    "en": "Mia picks them up for the kind man.",
    "zh": "米娅为这位和善的老人捡起眼镜。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) hands the glasses back to an old policeman with white hair, glasses and a blue uniform.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia hands the glasses back to an old policeman with white hair, glasses and a blue uniform.",
+   "sentence_targets": [
+    {
+     "id": "kind",
+     "word": "kind",
+     "pos": "adj./n.",
+     "zh": "善良的；体贴的",
+     "en": "Caring about others and willing to help them."
+    }
+   ]
   },
   {
    "en": "“Thank you!” he calls, with a big smile.",
    "zh": "“谢谢你！”他大声说，笑得很开心。",
    "scene_prompt": "An old policeman with white hair, glasses and a blue uniform smiles widely and waves at Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
    "draw": "partly",
-   "draw_note": "Shows the old man smiling and waving; his words can't be shown."
+   "draw_note": "Shows the old man smiling and waving; his words can't be shown.",
+   "narration": "An old policeman with white hair, glasses and a blue uniform smiles widely and waves at Mia and Ben.",
+   "sentence_targets": [
+    {
+     "id": "call",
+     "word": "call",
+     "pos": "n./v.",
+     "zh": "打电话；呼叫",
+     "en": "To telephone someone or shout to get their attention."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

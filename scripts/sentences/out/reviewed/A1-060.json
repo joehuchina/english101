@@ -43,51 +43,201 @@
    "en": "Ben and Mia go out in good weather.",
    "zh": "天气很好，本和米娅出门了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) step out of a house into bright sunny weather.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia step out of a house into bright sunny weather.",
+   "sentence_targets": [
+    {
+     "id": "out",
+     "word": "out",
+     "pos": "adv.",
+     "zh": "在外；向外；不在家",
+     "en": "Away from the inside of a place, or from home."
+    },
+    {
+     "id": "weather",
+     "word": "weather",
+     "pos": "n./v.",
+     "zh": "天气",
+     "en": "Conditions outside, such as rain, sunshine, wind, and temperature."
+    },
+    {
+     "id": "good",
+     "word": "good",
+     "pos": "adj./n.",
+     "zh": "好的；优质的",
+     "en": "Of a high or satisfactory standard."
+    }
+   ]
   },
   {
    "en": "Ben wears his new green shirt.",
    "zh": "本穿着他的新绿衬衫。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) proudly shows off his new green T-shirt.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben proudly shows off his new green T-shirt.",
+   "sentence_targets": [
+    {
+     "id": "shirt",
+     "word": "shirt",
+     "pos": "n.",
+     "zh": "衬衫",
+     "en": "an upper-body garment, usually with sleeves, a collar, and front buttons"
+    }
+   ]
   },
   {
    "en": "They follow a path to the park.",
    "zh": "他们沿着一条小路走到公园。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) walk along a path into a green park.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia walk along a path into a green park.",
+   "sentence_targets": [
+    {
+     "id": "follow",
+     "word": "follow",
+     "pos": "v.",
+     "zh": "跟随；沿着走",
+     "en": "To move behind someone or along a route."
+    }
+   ]
   },
   {
    "en": "Ben gives Mia a big bowl of salad.",
    "zh": "本给了米娅一大碗沙拉。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hands a big bowl of green salad to Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) on the grass.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben hands a big bowl of green salad to Mia on the grass.",
+   "sentence_targets": [
+    {
+     "id": "salad",
+     "word": "salad",
+     "pos": "n.",
+     "zh": "沙拉；凉拌菜",
+     "en": "a cold dish of vegetables or other mixed ingredients"
+    },
+    {
+     "id": "give",
+     "word": "give",
+     "pos": "v.",
+     "zh": "给；赠送",
+     "en": "to hand something to someone or let them have it"
+    }
+   ]
   },
   {
    "en": "They both smile and eat the great salad.",
    "zh": "他们俩都笑着吃这份很棒的沙拉。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) smile and eat salad from the bowl, both giving a thumbs up.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia smile and eat salad from the bowl, both giving a thumbs up.",
+   "sentence_targets": [
+    {
+     "id": "salad",
+     "word": "salad",
+     "pos": "n.",
+     "zh": "沙拉；凉拌菜",
+     "en": "a cold dish of vegetables or other mixed ingredients"
+    },
+    {
+     "id": "great",
+     "word": "great",
+     "pos": "adj.",
+     "zh": "极好的；出色的",
+     "en": "Very good or enjoyable."
+    },
+    {
+     "id": "both",
+     "word": "both",
+     "pos": "det./pron.",
+     "zh": "两者都",
+     "en": "referring to two people or things together"
+    }
+   ]
   },
   {
    "en": "They do not want to miss French class.",
    "zh": "他们不想错过法语课。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) looks at her watch and jumps up while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) quickly packs the salad bowl.",
    "draw": "partly",
-   "draw_note": "Shows Mia checking her watch and Ben packing up in a hurry; missing French class can't be shown."
+   "draw_note": "Shows Mia checking her watch and Ben packing up in a hurry; missing French class can't be shown.",
+   "narration": "Mia looks at her watch and jumps up while Ben quickly packs the salad bowl.",
+   "sentence_targets": [
+    {
+     "id": "french",
+     "word": "French",
+     "pos": "adj./n.",
+     "zh": "法国的；法语的",
+     "en": "relating to France, its people, or its language"
+    },
+    {
+     "id": "miss",
+     "word": "miss",
+     "pos": "v.",
+     "zh": "错过；未赶上",
+     "en": "to fail to catch, attend, or experience something"
+    }
+   ]
   },
   {
    "en": "So they run to the library behind the park.",
    "zh": "于是他们跑向公园后面的图书馆。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) run toward a library building behind the park trees.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia run toward a library building behind the park trees.",
+   "sentence_targets": [
+    {
+     "id": "library",
+     "word": "library",
+     "pos": "n.",
+     "zh": "图书馆；藏书室",
+     "en": "A place where people read or borrow books and other materials."
+    },
+    {
+     "id": "behind",
+     "word": "behind",
+     "pos": "adv./prep.",
+     "zh": "在……后面",
+     "en": "at or towards the back of someone or something"
+    }
+   ]
   },
   {
    "en": "Inside, they practise each French word twice.",
    "zh": "在里面，他们把每个法语单词都练了两遍。",
    "scene_prompt": "Inside a library, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit at a table and read aloud together from a book with a French flag on the cover.",
    "draw": "partly",
-   "draw_note": "Shows them reading aloud from a French book; 'each word twice' can't be shown."
+   "draw_note": "Shows them reading aloud from a French book; 'each word twice' can't be shown.",
+   "narration": "Inside a library, Ben and Mia sit at a table and read aloud together from a book with a French flag on the cover.",
+   "sentence_targets": [
+    {
+     "id": "french",
+     "word": "French",
+     "pos": "adj./n.",
+     "zh": "法国的；法语的",
+     "en": "relating to France, its people, or its language"
+    },
+    {
+     "id": "practise",
+     "word": "practise",
+     "pos": "v.",
+     "zh": "练习",
+     "en": "Do something repeatedly to improve your skill"
+    },
+    {
+     "id": "twice",
+     "word": "twice",
+     "pos": "adv.",
+     "zh": "两次",
+     "en": "On two occasions."
+    },
+    {
+     "id": "inside",
+     "word": "inside",
+     "pos": "adv./n./prep.",
+     "zh": "在……里面；向……里面",
+     "en": "in or into the inner part of something"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -50,52 +50,209 @@
    "zh": "这是一月里一个悠闲的星期天。",
    "scene_prompt": "A quiet kitchen in winter, snow outside the window; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit relaxed in pyjamas, Max (a small brown dog with floppy ears and a red collar) asleep on the floor.",
    "draw": "partly",
-   "draw_note": "Shows a lazy winter morning at home; 'Sunday' and 'January' can't be shown."
+   "draw_note": "Shows a lazy winter morning at home; 'Sunday' and 'January' can't be shown.",
+   "narration": "A quiet kitchen in winter, snow outside the window. Ben and Lily sit relaxed in pyjamas, Max asleep on the floor.",
+   "sentence_targets": [
+    {
+     "id": "sunday",
+     "word": "Sunday",
+     "pos": "n.",
+     "zh": "星期日；周日",
+     "en": "the day after Saturday and before Monday"
+    },
+    {
+     "id": "january",
+     "word": "January",
+     "pos": "n.",
+     "zh": "一月",
+     "en": "the first month of the year"
+    },
+    {
+     "id": "slow",
+     "word": "slow",
+     "pos": "adj./v.",
+     "zh": "缓慢的；耗时的",
+     "en": "Moving, happening, or taking place at a low speed."
+    }
+   ]
   },
   {
    "en": "Making sandwiches is Lily's favourite hobby.",
    "zh": "做三明治是莉莉最喜欢的爱好。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) happily spreads butter on bread at the kitchen counter.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily happily spreads butter on bread at the kitchen counter.",
+   "sentence_targets": [
+    {
+     "id": "hobby",
+     "word": "hobby",
+     "pos": "n.",
+     "zh": "业余爱好",
+     "en": "An activity you regularly do for pleasure in your free time"
+    },
+    {
+     "id": "sandwich",
+     "word": "sandwich",
+     "pos": "n./v.",
+     "zh": "三明治",
+     "en": "Two slices of bread with a filling between them."
+    },
+    {
+     "id": "make",
+     "word": "make",
+     "pos": "n./v.",
+     "zh": "制作；制造",
+     "en": "to create or produce something"
+    }
+   ]
   },
   {
    "en": "Today she makes a large number of them.",
    "zh": "今天她做了一大堆三明治。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stands proudly beside a tall pile of sandwiches.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily stands proudly beside a tall pile of sandwiches.",
+   "sentence_targets": [
+    {
+     "id": "make",
+     "word": "make",
+     "pos": "n./v.",
+     "zh": "制作；制造",
+     "en": "to create or produce something"
+    },
+    {
+     "id": "number",
+     "word": "number",
+     "pos": "n./v.",
+     "zh": "数；数字；号码",
+     "en": "a value used for counting, measuring, or identifying something"
+    }
+   ]
   },
   {
    "en": "Ben puts chips in his and enjoys it.",
    "zh": "本往自己的三明治里放了薯片，吃得很开心。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) pushes crisps into his sandwich and takes a happy bite.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben pushes crisps into his sandwich and takes a happy bite.",
+   "sentence_targets": [
+    {
+     "id": "put",
+     "word": "put",
+     "pos": "v.",
+     "zh": "放；安置",
+     "en": "to move something into a particular place or position"
+    },
+    {
+     "id": "chips",
+     "word": "chips",
+     "pos": "n.",
+     "zh": "炸薯条（英）；薯片（美）",
+     "en": "fried potato strips in British English; thin slices in American English"
+    },
+    {
+     "id": "enjoy",
+     "word": "enjoy",
+     "pos": "v.",
+     "zh": "享受；喜爱",
+     "en": "get pleasure from an activity or experience"
+    }
+   ]
   },
   {
    "en": "They stand by the window and talk about school.",
    "zh": "他们站在窗边，聊着学校的事。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stand by the window eating sandwiches and chatting, a school bag on a chair behind them.",
    "draw": "partly",
-   "draw_note": "Shows them chatting by the window; what they talk about can only be guessed."
+   "draw_note": "Shows them chatting by the window; what they talk about can only be guessed.",
+   "narration": "Ben and Lily stand by the window eating sandwiches and chatting, a school bag on a chair behind them.",
+   "sentence_targets": [
+    {
+     "id": "stand",
+     "word": "stand",
+     "pos": "n./v.",
+     "zh": "站立；起立",
+     "en": "To be upright on your feet, or get into this position."
+    },
+    {
+     "id": "about",
+     "word": "about",
+     "pos": "adv./prep.",
+     "zh": "关于",
+     "en": "concerning a particular subject"
+    }
+   ]
   },
   {
    "en": "They are full, so eating more is not possible.",
    "zh": "他们吃饱了，再也吃不下了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold their full bellies and shake their heads at a few sandwiches still on the plate.",
    "draw": "partly",
-   "draw_note": "Shows them too full to eat; 'not possible' is only implied."
+   "draw_note": "Shows them too full to eat; 'not possible' is only implied.",
+   "narration": "Ben and Lily hold their full bellies and shake their heads at a few sandwiches still on the plate.",
+   "sentence_targets": [
+    {
+     "id": "full",
+     "word": "full",
+     "pos": "adj.",
+     "zh": "满的；装满的",
+     "en": "Containing as much as possible, with no space left."
+    },
+    {
+     "id": "possible",
+     "word": "possible",
+     "pos": "adj.",
+     "zh": "可能的；可实现的",
+     "en": "able to happen, exist, or be done"
+    }
+   ]
   },
   {
    "en": "Then something funny happens: Max takes one!",
    "zh": "接着发生了一件好笑的事：麦克斯叼走了一个！",
    "scene_prompt": "Max (a small brown dog with floppy ears and a red collar) jumps up at the table and runs off with a sandwich in his mouth.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Max jumps up at the table and runs off with a sandwich in his mouth.",
+   "sentence_targets": [
+    {
+     "id": "happen",
+     "word": "happen",
+     "pos": "v.",
+     "zh": "发生",
+     "en": "to take place, often without being planned"
+    },
+    {
+     "id": "take",
+     "word": "take",
+     "pos": "v.",
+     "zh": "拿；取；带走",
+     "en": "To pick up, hold, or carry something away."
+    }
+   ]
   },
   {
    "en": "Lily laughs, \"Max must love sandwiches too!\"",
    "zh": "莉莉笑着说：“麦克斯一定也爱吃三明治！”",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laughs and points at Max (a small brown dog with floppy ears and a red collar) eating the sandwich on the floor while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) grins.",
    "draw": "partly",
-   "draw_note": "Shows Lily laughing at Max eating a sandwich; the spoken words can only be guessed."
+   "draw_note": "Shows Lily laughing at Max eating a sandwich; the spoken words can only be guessed.",
+   "narration": "Lily laughs and points at Max eating the sandwich on the floor while Ben grins.",
+   "sentence_targets": [
+    {
+     "id": "sandwich",
+     "word": "sandwich",
+     "pos": "n./v.",
+     "zh": "三明治",
+     "en": "Two slices of bread with a filling between them."
+    },
+    {
+     "id": "must",
+     "word": "must",
+     "pos": "n./v.",
+     "zh": "必须",
+     "en": "used to express a strong obligation or requirement"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

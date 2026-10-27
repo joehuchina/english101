@@ -43,51 +43,201 @@
    "en": "Ben and Lily spend the day with their uncle.",
    "zh": "本和莉莉跟叔叔一起过了一天。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk down a sunny street holding hands with their uncle (a tall man with glasses and a green shirt).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily walk down a sunny street holding hands with their uncle.",
+   "sentence_targets": [
+    {
+     "id": "day",
+     "word": "day",
+     "pos": "n.",
+     "zh": "一天；一日",
+     "en": "a period of twenty-four hours"
+    },
+    {
+     "id": "uncle",
+     "word": "uncle",
+     "pos": "n.",
+     "zh": "叔伯；舅舅；姑姨父",
+     "en": "a parent's brother or an aunt's husband"
+    }
+   ]
   },
   {
    "en": "The jeans Ben wears are too short now.",
    "zh": "本穿的牛仔裤现在太短了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), wearing old jeans instead of his shorts, looks down at the jeans, which end high above his ankles.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, wearing old jeans instead of his shorts, looks down at the jeans, which end high above his ankles.",
+   "sentence_targets": [
+    {
+     "id": "jeans",
+     "word": "jeans",
+     "pos": "n.",
+     "zh": "牛仔裤",
+     "en": "Trousers made from strong cotton cloth, usually denim."
+    },
+    {
+     "id": "short",
+     "word": "short",
+     "pos": "adj./adv.",
+     "zh": "短的；短暂的；矮的",
+     "en": "Having little length, height, or duration."
+    },
+    {
+     "id": "wear",
+     "word": "wear",
+     "pos": "n./v.",
+     "zh": "穿；戴",
+     "en": "to have clothes, jewellery, or accessories on your body"
+    }
+   ]
   },
   {
    "en": "So their uncle buys him a new pair.",
    "zh": "于是叔叔给他买了一条新的。",
    "scene_prompt": "In a clothes shop, their uncle (a tall man with glasses and a green shirt) pays for a folded pair of blue jeans while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles beside him.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "In a clothes shop, their uncle pays for a folded pair of blue jeans while Ben smiles beside him.",
+   "sentence_targets": [
+    {
+     "id": "pair",
+     "word": "pair",
+     "pos": "n./v.",
+     "zh": "一双；一对；一副",
+     "en": "Two matching things, or one object with two connected parts."
+    },
+    {
+     "id": "uncle",
+     "word": "uncle",
+     "pos": "n.",
+     "zh": "叔伯；舅舅；姑姨父",
+     "en": "a parent's brother or an aunt's husband"
+    },
+    {
+     "id": "buy",
+     "word": "buy",
+     "pos": "n./v.",
+     "zh": "购买",
+     "en": "to obtain something by paying money for it"
+    }
+   ]
   },
   {
    "en": "At home, their uncle has a big problem.",
    "zh": "到家后，叔叔遇到了一个大问题。",
    "scene_prompt": "their uncle (a tall man with glasses and a green shirt) stands at the closed front door of his small house, frowning and scratching his head, with Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) beside him.",
    "draw": "partly",
-   "draw_note": "Shows the uncle worried at a closed door; what the problem is only becomes clear in the next picture."
+   "draw_note": "Shows the uncle worried at a closed door; what the problem is only becomes clear in the next picture.",
+   "narration": "their uncle stands at the closed front door of his small house, frowning and scratching his head, with Ben and Lily beside him.",
+   "sentence_targets": [
+    {
+     "id": "uncle",
+     "word": "uncle",
+     "pos": "n.",
+     "zh": "叔伯；舅舅；姑姨父",
+     "en": "a parent's brother or an aunt's husband"
+    },
+    {
+     "id": "problem",
+     "word": "problem",
+     "pos": "n.",
+     "zh": "问题；困难",
+     "en": "a situation that causes difficulty and needs a solution"
+    }
+   ]
   },
   {
    "en": "But his key is wrong for the door.",
    "zh": "可是他的钥匙跟这扇门不配。",
    "scene_prompt": "Close-up: their uncle (a tall man with glasses and a green shirt) tries to push a big key that clearly does not fit into the small lock of the front door.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close-up: their uncle tries to push a big key that clearly does not fit into the small lock of the front door.",
+   "sentence_targets": [
+    {
+     "id": "wrong",
+     "word": "wrong",
+     "pos": "adj./adv.",
+     "zh": "错误的；不合适的",
+     "en": "Not correct, accurate, or suitable."
+    },
+    {
+     "id": "key",
+     "word": "key",
+     "pos": "adj./n.",
+     "zh": "钥匙",
+     "en": "An object shaped to open or close a particular lock."
+    }
+   ]
   },
   {
    "en": "Lily speaks up: “Look above the door!”",
    "zh": "莉莉大声说：“看门的上方！”",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points up excitedly at a small key lying on the frame above the front door, her mouth open as she calls out.",
    "draw": "partly",
-   "draw_note": "Shows Lily calling out and pointing at a key above the door; her exact words can't be shown."
+   "draw_note": "Shows Lily calling out and pointing at a key above the door; her exact words can't be shown.",
+   "narration": "Lily points up excitedly at a small key lying on the frame above the front door, her mouth open as she calls out.",
+   "sentence_targets": [
+    {
+     "id": "above",
+     "word": "above",
+     "pos": "adv./prep.",
+     "zh": "在……上方",
+     "en": "In a higher position than something else."
+    },
+    {
+     "id": "speak",
+     "word": "speak",
+     "pos": "v.",
+     "zh": "说话；交谈",
+     "en": "Use your voice to say words or communicate with someone."
+    }
+   ]
   },
   {
    "en": "They all go into the house and feel better.",
    "zh": "他们都走进屋里，感觉好多了。",
    "scene_prompt": "their uncle (a tall man with glasses and a green shirt), Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk happily through the open front door into the house.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "their uncle, Ben and Lily walk happily through the open front door into the house.",
+   "sentence_targets": [
+    {
+     "id": "better",
+     "word": "better",
+     "pos": "adj./adv.",
+     "zh": "更好的；更合适的",
+     "en": "Of higher quality or more suitable than something else."
+    },
+    {
+     "id": "into",
+     "word": "into",
+     "pos": "prep.",
+     "zh": "进入；到……里面",
+     "en": "towards and then inside something"
+    }
+   ]
   },
   {
    "en": "Ben shows Lily his new jeans with a smile.",
    "zh": "本笑着给莉莉看他的新牛仔裤。",
    "scene_prompt": "Inside the house, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now wearing his new blue jeans, proudly shows them to Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Inside the house, Ben, now wearing his new blue jeans, proudly shows them to Lily.",
+   "sentence_targets": [
+    {
+     "id": "jeans",
+     "word": "jeans",
+     "pos": "n.",
+     "zh": "牛仔裤",
+     "en": "Trousers made from strong cotton cloth, usually denim."
+    },
+    {
+     "id": "show",
+     "word": "show",
+     "pos": "n./v.",
+     "zh": "展示；给……看",
+     "en": "To let someone see something or demonstrate how something works."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

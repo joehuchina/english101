@@ -43,50 +43,193 @@
    "en": "Anna and her husband Dan go shopping.",
    "zh": "安娜和丈夫丹去购物。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and her husband Dan (a tall man of about forty with a short brown beard and a navy jumper) walk down a busy street of small shops carrying shopping bags.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna and her husband Dan walk down a busy street of small shops carrying shopping bags.",
+   "sentence_targets": [
+    {
+     "id": "husband",
+     "word": "husband",
+     "pos": "n./v.",
+     "zh": "丈夫",
+     "en": "a married man considered in relation to his spouse"
+    },
+    {
+     "id": "shopping",
+     "word": "shopping",
+     "pos": "n.",
+     "zh": "购物",
+     "en": "The activity of looking for and buying things."
+    }
+   ]
   },
   {
    "en": "They like the little shops on this street.",
    "zh": "他们喜欢这条街上的小商店。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) look happily into the bright windows of small shops.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna and Dan look happily into the bright windows of small shops.",
+   "sentence_targets": [
+    {
+     "id": "like",
+     "word": "like",
+     "pos": "prep./v.",
+     "zh": "喜欢；喜爱",
+     "en": "to enjoy something or feel positively about someone"
+    }
+   ]
   },
   {
    "en": "Then a big box falls from a car.",
    "zh": "这时，一个大箱子从一辆汽车上掉了下来。",
    "scene_prompt": "A big brown box falls from the roof of a passing car as Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) watch in surprise.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A big brown box falls from the roof of a passing car as Anna and Dan watch in surprise.",
+   "sentence_targets": [
+    {
+     "id": "fall",
+     "word": "fall",
+     "pos": "n./v.",
+     "zh": "落下；跌倒；下降",
+     "en": "To move downward, lose balance, or decrease."
+    },
+    {
+     "id": "box",
+     "word": "box",
+     "pos": "n./v.",
+     "zh": "盒子；箱子",
+     "en": "a container with firm sides, often with a lid"
+    }
+   ]
   },
   {
    "en": "The address on it is thirty houses away.",
    "zh": "箱子上的地址在三十栋房子以外。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) holds the brown box and points far down a long street of many houses, Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) beside him.",
    "draw": "partly",
-   "draw_note": "Shows Dan pointing far down a long street with the box; the address and the number can't be shown."
+   "draw_note": "Shows Dan pointing far down a long street with the box; the address and the number can't be shown.",
+   "narration": "Dan holds the brown box and points far down a long street of many houses, Anna beside him.",
+   "sentence_targets": [
+    {
+     "id": "thirty",
+     "word": "thirty",
+     "pos": "num.",
+     "zh": "三十",
+     "en": "The number equal to three groups of ten."
+    },
+    {
+     "id": "address",
+     "word": "address",
+     "pos": "n./v.",
+     "zh": "地址；网址",
+     "en": "Details identifying where someone lives or something can be found."
+    }
+   ]
   },
   {
    "en": "Now real rain falls, and the box is wet.",
    "zh": "这时真的下起雨来，箱子湿了。",
    "scene_prompt": "Heavy rain falls on the brown box in the arms of Dan (a tall man of about forty with a short brown beard and a navy jumper), next to Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan); the box is dark and wet.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Heavy rain falls on the brown box in the arms of Dan, next to Anna. the box is dark and wet.",
+   "sentence_targets": [
+    {
+     "id": "fall",
+     "word": "fall",
+     "pos": "n./v.",
+     "zh": "落下；跌倒；下降",
+     "en": "To move downward, lose balance, or decrease."
+    },
+    {
+     "id": "box",
+     "word": "box",
+     "pos": "n./v.",
+     "zh": "盒子；箱子",
+     "en": "a container with firm sides, often with a lid"
+    },
+    {
+     "id": "wet",
+     "word": "wet",
+     "pos": "adj./v.",
+     "zh": "湿的；潮湿的",
+     "en": "Covered with or containing water or another liquid"
+    },
+    {
+     "id": "now",
+     "word": "now",
+     "pos": "adv./conj.",
+     "zh": "现在；如今",
+     "en": "at the present time"
+    },
+    {
+     "id": "real",
+     "word": "real",
+     "pos": "adj.",
+     "zh": "真实的；实际存在的",
+     "en": "existing in fact rather than being imagined"
+    }
+   ]
   },
   {
    "en": "Without any umbrellas, they carry it there.",
    "zh": "他们没有伞，就这样把箱子送了过去。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) walk through the rain carrying the brown box together, with no umbrellas.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan and Anna walk through the rain carrying the brown box together, with no umbrellas.",
+   "sentence_targets": [
+    {
+     "id": "any",
+     "word": "any",
+     "pos": "adv./det./pron.",
+     "zh": "一些；任何一个",
+     "en": "Some in questions or negatives; whichever one, without restriction."
+    }
+   ]
   },
   {
    "en": "Poor Dan: water runs down his beard.",
    "zh": "可怜的丹：雨水顺着他的胡子往下流。",
    "scene_prompt": "Close-up of Dan (a tall man of about forty with a short brown beard and a navy jumper) in the rain, water dripping from his beard, with a funny face.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close-up of Dan in the rain, water dripping from his beard, with a funny face.",
+   "sentence_targets": [
+    {
+     "id": "poor",
+     "word": "poor",
+     "pos": "adj.",
+     "zh": "贫穷的",
+     "en": "Having very little money or few possessions"
+    },
+    {
+     "id": "beard",
+     "word": "beard",
+     "pos": "n.",
+     "zh": "胡须；络腮胡子",
+     "en": "Hair growing on a person's chin and cheeks."
+    }
+   ]
   },
   {
    "en": "They laugh: this is the best fun today.",
    "zh": "他们笑了：这是今天最开心的事。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), both soaking wet, laugh together at a front door after handing over the box.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan and Anna, both soaking wet, laugh together at a front door after handing over the box.",
+   "sentence_targets": [
+    {
+     "id": "best",
+     "word": "best",
+     "pos": "adj./adv./n.",
+     "zh": "最好的；最佳的",
+     "en": "Better than all others in quality or suitability."
+    },
+    {
+     "id": "fun",
+     "word": "fun",
+     "pos": "adj./n.",
+     "zh": "乐趣；快乐",
+     "en": "Enjoyment or pleasure from an activity or experience."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

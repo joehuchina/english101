@@ -43,51 +43,201 @@
    "en": "Omar wakes up and feels really tired.",
    "zh": "奥马尔醒来，觉得真的很累。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron), without his cap and apron and in striped pyjamas, sits up in bed, yawning and rubbing his eyes.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar, without his cap and apron and in striped pyjamas, sits up in bed, yawning and rubbing his eyes.",
+   "sentence_targets": [
+    {
+     "id": "wake",
+     "word": "wake",
+     "pos": "n./v.",
+     "zh": "醒来；唤醒",
+     "en": "to stop sleeping, or make someone stop sleeping"
+    },
+    {
+     "id": "really",
+     "word": "really",
+     "pos": "adv.",
+     "zh": "很；非常",
+     "en": "Used to make an adjective, adverb, or statement stronger."
+    },
+    {
+     "id": "tired",
+     "word": "tired",
+     "pos": "adj.",
+     "zh": "疲倦的；累的",
+     "en": "needing rest or sleep because of physical or mental effort"
+    }
+   ]
   },
   {
    "en": "He goes to see a doctor at the hospital.",
    "zh": "于是他去医院找医生看病。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) walks into a bright hospital entrance.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar walks into a bright hospital entrance.",
+   "sentence_targets": [
+    {
+     "id": "doctor",
+     "word": "doctor",
+     "pos": "n./v.",
+     "zh": "医生",
+     "en": "a trained professional who diagnoses and treats illnesses"
+    },
+    {
+     "id": "hospital",
+     "word": "hospital",
+     "pos": "n.",
+     "zh": "医院",
+     "en": "A place where ill or injured people receive medical treatment."
+    }
+   ]
   },
   {
    "en": "The doctor checks his nose and his tooth.",
    "zh": "医生检查了他的鼻子和牙齿。",
    "scene_prompt": "Nina (a woman of about thirty-five with short blonde hair and a white doctor's coat) looks at the nose and teeth of Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) with a small light.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Nina looks at the nose and teeth of Omar with a small light.",
+   "sentence_targets": [
+    {
+     "id": "doctor",
+     "word": "doctor",
+     "pos": "n./v.",
+     "zh": "医生",
+     "en": "a trained professional who diagnoses and treats illnesses"
+    },
+    {
+     "id": "nose",
+     "word": "nose",
+     "pos": "n.",
+     "zh": "鼻子",
+     "en": "The part of your face used for smelling and breathing."
+    },
+    {
+     "id": "tooth",
+     "word": "tooth",
+     "pos": "n.",
+     "zh": "牙齿",
+     "en": "a hard structure in the mouth used for biting and chewing"
+    }
+   ]
   },
   {
    "en": "\"You eat too much sugar,\" the doctor says.",
    "zh": "“你吃的糖太多了。”医生说。",
    "scene_prompt": "Nina (a woman of about thirty-five with short blonde hair and a white doctor's coat) points to a bowl of sugar and sweets while Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) looks guilty.",
    "draw": "partly",
-   "draw_note": "Shows the doctor pointing at sugar and sweets; her exact words can't be shown."
+   "draw_note": "Shows the doctor pointing at sugar and sweets; her exact words can't be shown.",
+   "narration": "Nina points to a bowl of sugar and sweets while Omar looks guilty.",
+   "sentence_targets": [
+    {
+     "id": "doctor",
+     "word": "doctor",
+     "pos": "n./v.",
+     "zh": "医生",
+     "en": "a trained professional who diagnoses and treats illnesses"
+    },
+    {
+     "id": "sugar",
+     "word": "sugar",
+     "pos": "n.",
+     "zh": "糖；食糖",
+     "en": "A sweet substance used to make food and drinks sweeter"
+    }
+   ]
   },
   {
    "en": "Walking is good for your body, too.",
    "zh": "散步对你的身体也有好处。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) walks briskly along a park path in the sunshine.",
    "draw": "partly",
-   "draw_note": "Shows Omar walking in the park; the advice that it is good for the body can't be shown."
+   "draw_note": "Shows Omar walking in the park; the advice that it is good for the body can't be shown.",
+   "narration": "Omar walks briskly along a park path in the sunshine.",
+   "sentence_targets": [
+    {
+     "id": "body",
+     "word": "body",
+     "pos": "n.",
+     "zh": "身体；躯体",
+     "en": "The whole physical structure of a person or animal."
+    },
+    {
+     "id": "walking",
+     "word": "walking",
+     "pos": "n.",
+     "zh": "步行；散步",
+     "en": "Moving on foot, especially for exercise or pleasure."
+    }
+   ]
   },
   {
    "en": "Now Omar loves going to the gym.",
    "zh": "现在奥马尔爱上了去健身房。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron), now in a grey tracksuit instead of his apron, lifts small weights in a gym and smiles.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar, now in a grey tracksuit instead of his apron, lifts small weights in a gym and smiles.",
+   "sentence_targets": [
+    {
+     "id": "love",
+     "word": "love",
+     "pos": "n./v.",
+     "zh": "爱；热爱；非常喜欢",
+     "en": "feel deep affection for someone or enjoy something very much"
+    },
+    {
+     "id": "gym",
+     "word": "gym",
+     "pos": "n.",
+     "zh": "健身房；体育馆",
+     "en": "A room or building equipped for exercise and sport."
+    }
+   ]
   },
   {
    "en": "He is thirsty, so he drinks lots of water.",
    "zh": "他口渴了，所以喝了很多水。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron), in a grey tracksuit, drinks from a big bottle of water in the gym.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar, in a grey tracksuit, drinks from a big bottle of water in the gym.",
+   "sentence_targets": [
+    {
+     "id": "thirsty",
+     "word": "thirsty",
+     "pos": "adj.",
+     "zh": "口渴的",
+     "en": "feeling that you need or want a drink"
+    }
+   ]
   },
   {
    "en": "After good food, he relaxes and feels wonderful.",
    "zh": "吃了健康的饭菜后，他放松下来，感觉好极了。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) relaxes on a sofa with a happy smile, an empty plate of salad on the table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar relaxes on a sofa with a happy smile, an empty plate of salad on the table.",
+   "sentence_targets": [
+    {
+     "id": "food",
+     "word": "food",
+     "pos": "n.",
+     "zh": "食物；食品",
+     "en": "Things people or animals eat to live and grow."
+    },
+    {
+     "id": "relax",
+     "word": "relax",
+     "pos": "v.",
+     "zh": "放松；休息",
+     "en": "To become calm and comfortable, or make someone feel this way."
+    },
+    {
+     "id": "wonderful",
+     "word": "wonderful",
+     "pos": "adj.",
+     "zh": "极好的；令人愉快的",
+     "en": "Extremely good or enjoyable."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -49,53 +49,189 @@
    "en": "Two students, Ben and Mia, enter the library.",
    "zh": "两个学生，本和米娅，走进图书馆。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), with school bags, walk into a quiet school library with tall shelves of books.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia, with school bags, walk into a quiet school library with tall shelves of books.",
+   "sentence_targets": [
+    {
+     "id": "library",
+     "word": "library",
+     "pos": "n.",
+     "zh": "图书馆；藏书室",
+     "en": "A place where people read or borrow books and other materials."
+    },
+    {
+     "id": "student",
+     "word": "student",
+     "pos": "n.",
+     "zh": "学生",
+     "en": "a person who studies at a school, college, or university"
+    }
+   ]
   },
   {
    "en": "Kofi lets them sit at a big desk.",
    "zh": "科菲让他们坐在一张大书桌旁。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles and points to a big wooden desk for Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi smiles and points to a big wooden desk for Ben and Mia.",
+   "sentence_targets": [
+    {
+     "id": "let",
+     "word": "let",
+     "pos": "v.",
+     "zh": "允许；让",
+     "en": "To allow someone to do something or something to happen."
+    },
+    {
+     "id": "desk",
+     "word": "desk",
+     "pos": "n.",
+     "zh": "书桌；办公桌",
+     "en": "A table used for studying, writing, or office work"
+    }
+   ]
   },
   {
    "en": "Mia does her French reading first.",
    "zh": "米娅先做她的法语阅读。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) reads a book with a picture of the Eiffel Tower on the cover at the desk.",
    "draw": "partly",
-   "draw_note": "Shows Mia reading a book about Paris; that it is French homework can't be shown exactly."
+   "draw_note": "Shows Mia reading a book about Paris; that it is French homework can't be shown exactly.",
+   "narration": "Mia reads a book with a picture of the Eiffel Tower on the cover at the desk.",
+   "sentence_targets": [
+    {
+     "id": "reading",
+     "word": "reading",
+     "pos": "n.",
+     "zh": "阅读",
+     "en": "The activity of understanding written words."
+    },
+    {
+     "id": "french",
+     "word": "French",
+     "pos": "adj./n.",
+     "zh": "法国的；法语的",
+     "en": "relating to France, its people, or its language"
+    }
+   ]
   },
   {
    "en": "Ben practises his English writing in a notebook.",
    "zh": "本在笔记本上练习英语写作。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) writes carefully in a notebook at the desk, a pencil in his hand.",
    "draw": "partly",
-   "draw_note": "Shows Ben writing in a notebook; that it is English can't be shown."
+   "draw_note": "Shows Ben writing in a notebook; that it is English can't be shown.",
+   "narration": "Ben writes carefully in a notebook at the desk, a pencil in his hand.",
+   "sentence_targets": [
+    {
+     "id": "writing",
+     "word": "writing",
+     "pos": "n.",
+     "zh": "写作；书写",
+     "en": "The activity or skill of producing words on a surface."
+    },
+    {
+     "id": "english",
+     "word": "English",
+     "pos": "adj./n.",
+     "zh": "英语",
+     "en": "the language originating in England and widely spoken internationally"
+    },
+    {
+     "id": "practise",
+     "word": "practise",
+     "pos": "v.",
+     "zh": "练习",
+     "en": "Do something repeatedly to improve your skill"
+    }
+   ]
   },
   {
    "en": "He writes each new word again and again.",
    "zh": "他把每个新单词写了一遍又一遍。",
    "scene_prompt": "Close view of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) writing; his notebook page is full of rows of small handwriting squiggles.",
    "draw": "partly",
-   "draw_note": "Shows Ben writing the same thing in many rows; the words themselves can't be shown."
+   "draw_note": "Shows Ben writing the same thing in many rows; the words themselves can't be shown.",
+   "narration": "Close view of Ben writing. his notebook page is full of rows of small handwriting squiggles.",
+   "sentence_targets": [
+    {
+     "id": "word",
+     "word": "word",
+     "pos": "n./v.",
+     "zh": "单词；词",
+     "en": "A unit of language with meaning."
+    }
+   ]
   },
   {
    "en": "Grammar is hard, and maths is even harder.",
    "zh": "语法很难，数学更难。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) scratches his head over an open maths book with triangles and circles, a grammar book beside it.",
    "draw": "partly",
-   "draw_note": "Shows Ben struggling with his books; the comparison 'even harder' can't be shown."
+   "draw_note": "Shows Ben struggling with his books; the comparison 'even harder' can't be shown.",
+   "narration": "Ben scratches his head over an open maths book with triangles and circles, a grammar book beside it.",
+   "sentence_targets": [
+    {
+     "id": "even",
+     "word": "even",
+     "pos": "adj./adv.",
+     "zh": "甚至；连……都",
+     "en": "Used to emphasise something surprising or unexpected."
+    },
+    {
+     "id": "grammar",
+     "word": "grammar",
+     "pos": "n.",
+     "zh": "语法；语法规则",
+     "en": "The rules for combining words and changing their forms."
+    },
+    {
+     "id": "maths",
+     "word": "maths",
+     "pos": "n.",
+     "zh": "数学",
+     "en": "The study of quantities, shapes, and relationships using logical rules"
+    }
+   ]
   },
   {
    "en": "Mia checks his answers, and they are correct.",
    "zh": "米娅检查了他的答案，都是对的。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) puts big red ticks next to his friend's work in the notebook while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) watches.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia puts big red ticks next to his friend's work in the notebook while Ben watches.",
+   "sentence_targets": [
+    {
+     "id": "answer",
+     "word": "answer",
+     "pos": "n./v.",
+     "zh": "回答；答案；解决办法",
+     "en": "a reply, correct result, or solution to a problem"
+    },
+    {
+     "id": "correct",
+     "word": "correct",
+     "pos": "adj./v.",
+     "zh": "正确的；准确的",
+     "en": "free from mistakes and matching the facts"
+    }
+   ]
   },
   {
    "en": "Ben cannot believe it and smiles at Mia.",
    "zh": "本简直不敢相信，冲着米娅笑了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks at the red ticks with wide eyes and a big smile, and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) smiles back.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben looks at the red ticks with wide eyes and a big smile, and Mia smiles back.",
+   "sentence_targets": [
+    {
+     "id": "believe",
+     "word": "believe",
+     "pos": "v.",
+     "zh": "相信；信以为真",
+     "en": "To accept that something is true or someone is truthful."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

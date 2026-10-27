@@ -45,44 +45,198 @@
    "zh": "四月一个下雨的星期六晚上，本去看望奶奶。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), in a raincoat, arrives at the door of Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) on a dark rainy night, and she opens it smiling.",
    "draw": "partly",
-   "draw_note": "Shows Ben visiting Grandma on a rainy night; the day and month can't be shown."
+   "draw_note": "Shows Ben visiting Grandma on a rainy night; the day and month can't be shown.",
+   "narration": "Ben, in a raincoat, arrives at the door of Grandma Rosa on a dark rainy night, and she opens it smiling.",
+   "sentence_targets": [
+    {
+     "id": "night",
+     "word": "night",
+     "pos": "n.",
+     "zh": "夜晚；夜间",
+     "en": "The dark part of each day when the sun is down."
+    },
+    {
+     "id": "april",
+     "word": "April",
+     "pos": "n.",
+     "zh": "四月",
+     "en": "The fourth month of the year."
+    },
+    {
+     "id": "saturday",
+     "word": "Saturday",
+     "pos": "n.",
+     "zh": "星期六",
+     "en": "the day after Friday and before Sunday"
+    }
+   ]
   },
   {
    "en": "Grandma Rosa makes hot soup from her home country.",
    "zh": "罗莎奶奶做了一道她家乡的热汤。",
    "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) stirs a big pot of hot soup on the stove.",
    "draw": "partly",
-   "draw_note": "Shows Grandma making hot soup; 'from her home country' can't be shown."
+   "draw_note": "Shows Grandma making hot soup; 'from her home country' can't be shown.",
+   "narration": "Grandma Rosa stirs a big pot of hot soup on the stove.",
+   "sentence_targets": [
+    {
+     "id": "country",
+     "word": "country",
+     "pos": "n.",
+     "zh": "国家",
+     "en": "An area of land governed as an independent political unit."
+    },
+    {
+     "id": "soup",
+     "word": "soup",
+     "pos": "n.",
+     "zh": "汤；羹",
+     "en": "A liquid food made by cooking ingredients in water or stock."
+    }
+   ]
   },
   {
    "en": "The plates are on a high shelf.",
    "zh": "盘子放在高高的架子上。",
    "scene_prompt": "Plates stand on a high kitchen shelf above the head of Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick), who looks up at them.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Plates stand on a high kitchen shelf above the head of Grandma Rosa, who looks up at them.",
+   "sentence_targets": [
+    {
+     "id": "plate",
+     "word": "plate",
+     "pos": "n./v.",
+     "zh": "盘子；碟子",
+     "en": "A flat, usually round dish used for serving food."
+    },
+    {
+     "id": "high",
+     "word": "high",
+     "pos": "adj./adv.",
+     "zh": "高的；高处的",
+     "en": "extending far upwards or positioned far above the ground"
+    }
+   ]
   },
   {
    "en": "Ben helps her get a few big plates.",
    "zh": "本帮她拿下几个大盘子。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stands on a stool and takes a few big plates from the high shelf.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben stands on a stool and takes a few big plates from the high shelf.",
+   "sentence_targets": [
+    {
+     "id": "plate",
+     "word": "plate",
+     "pos": "n./v.",
+     "zh": "盘子；碟子",
+     "en": "A flat, usually round dish used for serving food."
+    },
+    {
+     "id": "few",
+     "word": "few",
+     "pos": "det./pron.",
+     "zh": "很少的；几个",
+     "en": "Not many; a small number of countable things."
+    },
+    {
+     "id": "help",
+     "word": "help",
+     "pos": "n./v.",
+     "zh": "帮助；有助于",
+     "en": "Make something easier or better for someone."
+    },
+    {
+     "id": "big",
+     "word": "big",
+     "pos": "adj.",
+     "zh": "大的；大量的",
+     "en": "Large in size, amount, or degree."
+    }
+   ]
   },
   {
    "en": "He hands her the brown plates with care.",
    "zh": "他小心地把棕色的盘子递给她。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) carefully hands brown plates to Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben carefully hands brown plates to Grandma Rosa.",
+   "sentence_targets": [
+    {
+     "id": "plate",
+     "word": "plate",
+     "pos": "n./v.",
+     "zh": "盘子；碟子",
+     "en": "A flat, usually round dish used for serving food."
+    },
+    {
+     "id": "with",
+     "word": "with",
+     "pos": "prep.",
+     "zh": "和；与……一起",
+     "en": "Accompanied by another person or thing."
+    },
+    {
+     "id": "brown",
+     "word": "brown",
+     "pos": "adj./n./v.",
+     "zh": "棕色的；褐色的",
+     "en": "Having the colour of chocolate or dark wood."
+    },
+    {
+     "id": "hand",
+     "word": "hand",
+     "pos": "n./v.",
+     "zh": "手",
+     "en": "The body part at the arm's end, with fingers and thumb."
+    }
+   ]
   },
   {
    "en": "There is enough soup for everyone.",
    "zh": "汤够每个人喝。",
    "scene_prompt": "A big pot full of soup next to two filled brown plates on the table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A big pot full of soup next to two filled brown plates on the table.",
+   "sentence_targets": [
+    {
+     "id": "soup",
+     "word": "soup",
+     "pos": "n.",
+     "zh": "汤；羹",
+     "en": "A liquid food made by cooking ingredients in water or stock."
+    },
+    {
+     "id": "enough",
+     "word": "enough",
+     "pos": "adv./det./pron.",
+     "zh": "足够的",
+     "en": "as much or as many as needed"
+    }
+   ]
   },
   {
    "en": "Ben is excited and cannot stop smiling.",
    "zh": "本很兴奋，一直笑个不停。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits at the table with a plate of soup, smiling widely, Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) beside him.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben sits at the table with a plate of soup, smiling widely, Grandma Rosa beside him.",
+   "sentence_targets": [
+    {
+     "id": "stop",
+     "word": "stop",
+     "pos": "n./v.",
+     "zh": "停止；阻止",
+     "en": "To end an activity or prevent something from happening."
+    },
+    {
+     "id": "excited",
+     "word": "excited",
+     "pos": "adj.",
+     "zh": "兴奋的；激动的",
+     "en": "Feeling very happy and enthusiastic about something."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

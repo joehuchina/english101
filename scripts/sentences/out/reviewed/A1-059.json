@@ -43,50 +43,186 @@
    "en": "Sara and Kofi visit a small bookstore.",
    "zh": "萨拉和科菲去逛一家小书店。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) walk into a small cosy bookstore.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi walk into a small cosy bookstore.",
+   "sentence_targets": [
+    {
+     "id": "bookstore",
+     "word": "bookstore",
+     "pos": "n.",
+     "zh": "书店",
+     "en": "a store that sells books"
+    }
+   ]
   },
   {
    "en": "They see many young people reading there.",
    "zh": "他们看到那里有很多年轻人在看书。",
    "scene_prompt": "Many young people read books between the shelves while Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) look around.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Many young people read books between the shelves while Sara and Kofi look around.",
+   "sentence_targets": [
+    {
+     "id": "young",
+     "word": "young",
+     "pos": "adj./n.",
+     "zh": "年轻的；幼小的",
+     "en": "Having lived or existed for only a short time"
+    },
+    {
+     "id": "they",
+     "word": "they",
+     "pos": "pron.",
+     "zh": "他们；她们；它们",
+     "en": "Used for people or things already mentioned or understood."
+    },
+    {
+     "id": "many",
+     "word": "many",
+     "pos": "det./pron.",
+     "zh": "许多的",
+     "en": "a large number of, used with plural countable nouns"
+    }
+   ]
   },
   {
    "en": "Sara needs a book with horse photos.",
    "zh": "萨拉需要一本有马的照片的书。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holds a book with a photo of a horse on its cover.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara holds a book with a photo of a horse on its cover.",
+   "sentence_targets": [
+    {
+     "id": "horse",
+     "word": "horse",
+     "pos": "n.",
+     "zh": "马",
+     "en": "A large animal used for riding, racing, or pulling loads."
+    },
+    {
+     "id": "photo",
+     "word": "photo",
+     "pos": "n.",
+     "zh": "照片",
+     "en": "A picture made using a camera."
+    },
+    {
+     "id": "need",
+     "word": "need",
+     "pos": "n./v.",
+     "zh": "需要；必须",
+     "en": "To require something because it is necessary or important"
+    }
+   ]
   },
   {
    "en": "She read it at the library a week ago.",
    "zh": "一个星期前她在图书馆读过这本书。",
    "scene_prompt": "In the bookstore, Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holds up the horse book and points through the window at a library building across the street, Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) listening.",
    "draw": "partly",
-   "draw_note": "Shows Sara with the horse book pointing at the library; reading it there a week ago can't be shown."
+   "draw_note": "Shows Sara with the horse book pointing at the library; reading it there a week ago can't be shown.",
+   "narration": "In the bookstore, Sara holds up the horse book and points through the window at a library building across the street, Kofi listening.",
+   "sentence_targets": [
+    {
+     "id": "library",
+     "word": "library",
+     "pos": "n.",
+     "zh": "图书馆；藏书室",
+     "en": "A place where people read or borrow books and other materials."
+    },
+    {
+     "id": "ago",
+     "word": "ago",
+     "pos": "adv.",
+     "zh": "以前",
+     "en": "Before the present time, following an expression of time"
+    }
+   ]
   },
   {
    "en": "Soon they are hungry, so they walk away.",
    "zh": "很快他们饿了，于是就走了。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) rubs his stomach as he and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) walk away from the bookstore.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi rubs his stomach as he and Sara walk away from the bookstore.",
+   "sentence_targets": [
+    {
+     "id": "they",
+     "word": "they",
+     "pos": "pron.",
+     "zh": "他们；她们；它们",
+     "en": "Used for people or things already mentioned or understood."
+    },
+    {
+     "id": "hungry",
+     "word": "hungry",
+     "pos": "adj.",
+     "zh": "饥饿的",
+     "en": "Feeling the need or desire to eat."
+    },
+    {
+     "id": "away",
+     "word": "away",
+     "pos": "adv.",
+     "zh": "离开；远离",
+     "en": "Moving or staying at a distance from someone or something."
+    }
+   ]
   },
   {
    "en": "At home, Kofi cooks fish for dinner.",
    "zh": "回到家，科菲做鱼当晚饭。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) cooks fish in a pan in a home kitchen.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi cooks fish in a pan in a home kitchen.",
+   "sentence_targets": [
+    {
+     "id": "cook",
+     "word": "cook",
+     "pos": "n./v.",
+     "zh": "烹调；煮；烧",
+     "en": "to prepare food by heating it, or become ready through heating"
+    }
+   ]
   },
   {
    "en": "Sara puts a light over the dining-room table.",
    "zh": "萨拉在餐厅的桌子上方挂了一盏灯。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) hangs a lamp over a table in a dining room.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara hangs a lamp over a table in a dining room.",
+   "sentence_targets": [
+    {
+     "id": "dining-room",
+     "word": "dining-room",
+     "pos": "n.",
+     "zh": "餐厅；饭厅",
+     "en": "A room where people eat meals."
+    },
+    {
+     "id": "over",
+     "word": "over",
+     "pos": "adv./prep.",
+     "zh": "在……上方；越过",
+     "en": "above something or from one side to the other"
+    }
+   ]
   },
   {
    "en": "Then she puts a bowl of oranges on it.",
    "zh": "然后她在上面放了一碗橙子。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) puts a bowl of oranges on the dining room table under the lamp.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara puts a bowl of oranges on the dining room table under the lamp.",
+   "sentence_targets": [
+    {
+     "id": "orange",
+     "word": "orange",
+     "pos": "adj./n.",
+     "zh": "橙；橙子",
+     "en": "A round citrus fruit with orange skin and juicy flesh."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

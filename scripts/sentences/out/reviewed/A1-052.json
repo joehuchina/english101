@@ -35,44 +35,135 @@
    "en": "Grandma Rosa and Grandpa Joe sit by the river.",
    "zh": "罗莎奶奶和乔爷爷坐在河边。",
    "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) sit together on a bench on the grassy bank of a calm river.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Grandma Rosa and Grandpa Joe sit together on a bench on the grassy bank of a calm river.",
+   "sentence_targets": [
+    {
+     "id": "river",
+     "word": "river",
+     "pos": "n.",
+     "zh": "河；江",
+     "en": "a large natural stream of water flowing towards another water body"
+    }
+   ]
   },
   {
    "en": "They look at old photos and remember their trip.",
    "zh": "他们看着旧照片，回忆起那次旅行。",
    "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) smile over a small photo album open on their knees by the river; the photos show an elephant and a sunny hot land.",
    "draw": "partly",
-   "draw_note": "Shows them smiling over old trip photos; remembering itself can't be shown."
+   "draw_note": "Shows them smiling over old trip photos; remembering itself can't be shown.",
+   "narration": "Grandma Rosa and Grandpa Joe smile over a small photo album open on their knees by the river. the photos show an elephant and a sunny hot land.",
+   "sentence_targets": [
+    {
+     "id": "remember",
+     "word": "remember",
+     "pos": "v.",
+     "zh": "记得；想起",
+     "en": "Keep information in your mind or bring it back."
+    }
+   ]
   },
   {
    "en": "During the trip, they rode a big elephant.",
    "zh": "旅行期间，他们骑过一头大象。",
    "scene_prompt": "Close-up of a photo in the album: Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan), a little younger, ride on the back of a big elephant in a hot sunny land.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close-up of a photo in the album: Grandma Rosa and Grandpa Joe, a little younger, ride on the back of a big elephant in a hot sunny land.",
+   "sentence_targets": [
+    {
+     "id": "elephant",
+     "word": "elephant",
+     "pos": "n.",
+     "zh": "象；大象",
+     "en": "A very large animal with a long trunk and large ears."
+    },
+    {
+     "id": "during",
+     "word": "during",
+     "pos": "prep.",
+     "zh": "在……期间",
+     "en": "at some point within, or throughout, a particular period"
+    }
+   ]
   },
   {
    "en": "One day, Grandma Rosa also rode a white horse.",
    "zh": "有一天，罗莎奶奶还骑了一匹白马。",
    "scene_prompt": "Close-up of a photo in the album: Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick), without her walking stick, rides a white horse on a dusty path under a hot sun.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close-up of a photo in the album: Grandma Rosa, without her walking stick, rides a white horse on a dusty path under a hot sun.",
+   "sentence_targets": [
+    {
+     "id": "horse",
+     "word": "horse",
+     "pos": "n.",
+     "zh": "马",
+     "en": "A large animal used for riding, racing, or pulling loads."
+    },
+    {
+     "id": "one",
+     "word": "one",
+     "pos": "num./pron.",
+     "zh": "一；一个",
+     "en": "the smallest positive whole number"
+    }
+   ]
   },
   {
    "en": "They wore the same straw hats in every photo.",
    "zh": "每张照片里他们都戴着一样的草帽。",
    "scene_prompt": "Several photos in the open album show Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan), each wearing the same wide straw hat.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Several photos in the open album show Grandma Rosa and Grandpa Joe, each wearing the same wide straw hat.",
+   "sentence_targets": [
+    {
+     "id": "same",
+     "word": "same",
+     "pos": "adj./pron.",
+     "zh": "相同的；同一个的",
+     "en": "Exactly alike, or referring to one particular thing rather than another."
+    }
+   ]
   },
   {
    "en": "Their little house had only one big bed.",
    "zh": "他们住的小房子里只有一张大床。",
    "scene_prompt": "Close-up of a photo in the album: a small simple room with one big bed, Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) in straw hats laughing beside it.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close-up of a photo in the album: a small simple room with one big bed, Grandma Rosa and Grandpa Joe in straw hats laughing beside it.",
+   "sentence_targets": [
+    {
+     "id": "one",
+     "word": "one",
+     "pos": "num./pron.",
+     "zh": "一；一个",
+     "en": "the smallest positive whole number"
+    },
+    {
+     "id": "bed",
+     "word": "bed",
+     "pos": "n.",
+     "zh": "床",
+     "en": "A piece of furniture used for sleeping"
+    }
+   ]
   },
   {
    "en": "Grandpa Joe kisses his wife, and they laugh.",
    "zh": "乔爷爷亲了亲妻子，两人都笑了。",
    "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) kisses Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) on the cheek and they laugh together by the river at sunset.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Grandpa Joe kisses Grandma Rosa on the cheek and they laugh together by the river at sunset.",
+   "sentence_targets": [
+    {
+     "id": "wife",
+     "word": "wife",
+     "pos": "n.",
+     "zh": "妻子",
+     "en": "a woman who is married to someone"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

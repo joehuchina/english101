@@ -50,53 +50,196 @@
    "zh": "游泳是本和莉莉最喜欢的周末活动。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now in blue swimming trunks, and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now in a yellow swimsuit, jump happily into a big indoor swimming pool.",
    "draw": "partly",
-   "draw_note": "Shows the children happily jumping into a pool; 'weekend' and 'favourite' can't be shown."
+   "draw_note": "Shows the children happily jumping into a pool; 'weekend' and 'favourite' can't be shown.",
+   "narration": "Ben, now in blue swimming trunks, and Lily, now in a yellow swimsuit, jump happily into a big indoor swimming pool.",
+   "sentence_targets": [
+    {
+     "id": "activity",
+     "word": "activity",
+     "pos": "n.",
+     "zh": "活动",
+     "en": "Something people do for enjoyment, learning, or a particular purpose."
+    },
+    {
+     "id": "weekend",
+     "word": "weekend",
+     "pos": "n.",
+     "zh": "周末",
+     "en": "Saturday and Sunday, often a time away from work."
+    }
+   ]
   },
   {
    "en": "This year, the pool is free for children.",
    "zh": "今年，这个游泳池对儿童免费。",
    "scene_prompt": "Children, including Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) in swimsuits, run happily past an open gate into a big pool.",
    "draw": "partly",
-   "draw_note": "Shows children entering the pool; 'free' and 'this year' cannot be shown."
+   "draw_note": "Shows children entering the pool; 'free' and 'this year' cannot be shown.",
+   "narration": "Children, including Ben and Lily in swimsuits, run happily past an open gate into a big pool.",
+   "sentence_targets": [
+    {
+     "id": "year",
+     "word": "year",
+     "pos": "n.",
+     "zh": "年；一年",
+     "en": "A period of twelve months"
+    },
+    {
+     "id": "free",
+     "word": "free",
+     "pos": "adj./v.",
+     "zh": "免费的",
+     "en": "Costing no money."
+    },
+    {
+     "id": "pool",
+     "word": "pool",
+     "pos": "n./v.",
+     "zh": "游泳池；水塘",
+     "en": "An artificial swimming basin or a small area of still water"
+    }
+   ]
   },
   {
    "en": "They play in the water for an hour.",
    "zh": "他们在水里玩了一个小时。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now in blue swimming trunks, and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now in a yellow swimsuit, splash each other and play with a ball in the pool.",
    "draw": "partly",
-   "draw_note": "Shows them playing in the water; 'for an hour' can't be shown."
+   "draw_note": "Shows them playing in the water; 'for an hour' can't be shown.",
+   "narration": "Ben, now in blue swimming trunks, and Lily, now in a yellow swimsuit, splash each other and play with a ball in the pool.",
+   "sentence_targets": [
+    {
+     "id": "play",
+     "word": "play",
+     "pos": "n./v.",
+     "zh": "玩耍；参加游戏或运动",
+     "en": "Enjoy an activity or take part in a game"
+    },
+    {
+     "id": "hour",
+     "word": "hour",
+     "pos": "n.",
+     "zh": "小时",
+     "en": "a period of sixty minutes"
+    }
+   ]
   },
   {
    "en": "In the future, Lily wants to be a swimmer.",
    "zh": "将来，莉莉想当一名游泳运动员。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), in a swimsuit and goggles, races hard down a lane of the pool while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) cheers.",
    "draw": "partly",
-   "draw_note": "Shows Lily swimming hard; her wish for the future is not shown."
+   "draw_note": "Shows Lily swimming hard; her wish for the future is not shown.",
+   "narration": "Lily, in a swimsuit and goggles, races hard down a lane of the pool while Ben cheers.",
+   "sentence_targets": [
+    {
+     "id": "future",
+     "word": "future",
+     "pos": "adj./n.",
+     "zh": "未来；前途",
+     "en": "The time ahead, or what will happen to someone or something."
+    }
+   ]
   },
   {
    "en": "Before they go home, they visit the shop.",
    "zh": "回家之前，他们去了商店。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), all dressed with wet hair, walk into a small shop at the sports centre.",
    "draw": "partly",
-   "draw_note": "Shows the family, dressed again, going into the shop; 'before they go home' can't be shown."
+   "draw_note": "Shows the family, dressed again, going into the shop; 'before they go home' can't be shown.",
+   "narration": "Ben, Lily and Anna, all dressed with wet hair, walk into a small shop at the sports centre.",
+   "sentence_targets": [
+    {
+     "id": "shop",
+     "word": "shop",
+     "pos": "n./v.",
+     "zh": "商店；店铺",
+     "en": "A place where people buy goods or services."
+    },
+    {
+     "id": "before",
+     "word": "before",
+     "pos": "adv./conj./prep.",
+     "zh": "在……之前",
+     "en": "Earlier than a particular time or event."
+    }
+   ]
   },
   {
    "en": "The shop has sweaters in many different colours.",
    "zh": "这家店有很多不同颜色的毛衣。",
    "scene_prompt": "Shelves in the small shop are full of sweaters in red, blue, green and yellow.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Shelves in the small shop are full of sweaters in red, blue, green and yellow.",
+   "sentence_targets": [
+    {
+     "id": "shop",
+     "word": "shop",
+     "pos": "n./v.",
+     "zh": "商店；店铺",
+     "en": "A place where people buy goods or services."
+    },
+    {
+     "id": "sweater",
+     "word": "sweater",
+     "pos": "n.",
+     "zh": "毛衣；针织套衫",
+     "en": "A knitted garment worn over the upper body for warmth."
+    },
+    {
+     "id": "different",
+     "word": "different",
+     "pos": "adj.",
+     "zh": "不同的；不一样的",
+     "en": "not the same as someone or something else"
+    }
+   ]
   },
   {
    "en": "Ben buys a large white one for his mother.",
    "zh": "本给妈妈买了一件大号白毛衣。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) proudly holds up a large white sweater for Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben proudly holds up a large white sweater for Anna.",
+   "sentence_targets": [
+    {
+     "id": "mother",
+     "word": "mother",
+     "pos": "n./v.",
+     "zh": "母亲；妈妈",
+     "en": "A female parent."
+    },
+    {
+     "id": "white",
+     "word": "white",
+     "pos": "adj./n.",
+     "zh": "白色的",
+     "en": "having the colour of fresh snow or milk"
+    },
+    {
+     "id": "large",
+     "word": "large",
+     "pos": "adj.",
+     "zh": "大的；大量的",
+     "en": "greater than usual in size, amount, or number"
+    }
+   ]
   },
   {
    "en": "Anna keeps it on all the way home.",
    "zh": "安娜一路上都穿着它回家。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), now wearing the large white sweater, walks home smiling with Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna, now wearing the large white sweater, walks home smiling with Ben and Lily.",
+   "sentence_targets": [
+    {
+     "id": "keep",
+     "word": "keep",
+     "pos": "v.",
+     "zh": "保留；保存",
+     "en": "To continue having something rather than giving it away."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

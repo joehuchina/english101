@@ -43,51 +43,186 @@
    "en": "Ben and Lily read a big picture book.",
    "zh": "本和莉莉在看一本大图画书。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit at a table with a large open picture book.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily sit at a table with a large open picture book.",
+   "sentence_targets": []
   },
   {
    "en": "One page shows snow and ice on a mountain.",
    "zh": "有一页画着山上的雪和冰。",
    "scene_prompt": "An open picture book page showing a tall mountain covered in snow and ice, seen over the shoulders of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "An open picture book page showing a tall mountain covered in snow and ice, seen over the shoulders of Ben and Lily.",
+   "sentence_targets": [
+    {
+     "id": "snow",
+     "word": "snow",
+     "pos": "n./v.",
+     "zh": "雪；积雪",
+     "en": "Soft white frozen flakes falling from clouds or covering the ground."
+    },
+    {
+     "id": "ice",
+     "word": "ice",
+     "pos": "n./v.",
+     "zh": "冰",
+     "en": "water that has frozen solid"
+    },
+    {
+     "id": "mountain",
+     "word": "mountain",
+     "pos": "n.",
+     "zh": "山；高山",
+     "en": "a very high area of land with steep sides"
+    }
+   ]
   },
   {
    "en": "Next, a lion sleeps on the sunny grass.",
    "zh": "接着，一头狮子睡在洒满阳光的草地上。",
    "scene_prompt": "A picture book page showing a lion sleeping on green grass under bright sun, Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) pointing at it.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A picture book page showing a lion sleeping on green grass under bright sun, Lily pointing at it.",
+   "sentence_targets": [
+    {
+     "id": "sunny",
+     "word": "sunny",
+     "pos": "adj.",
+     "zh": "阳光充足的；晴朗的",
+     "en": "having plenty of bright sunlight"
+    },
+    {
+     "id": "grass",
+     "word": "grass",
+     "pos": "n.",
+     "zh": "草；草地",
+     "en": "A low plant with narrow green leaves covering the ground."
+    },
+    {
+     "id": "lion",
+     "word": "lion",
+     "pos": "n.",
+     "zh": "狮子",
+     "en": "A large wild cat, whose males usually have thick neck hair."
+    }
+   ]
   },
   {
    "en": "A tall giraffe eats leaves from a tree.",
    "zh": "一只高高的长颈鹿在吃树上的叶子。",
    "scene_prompt": "A picture book page showing a tall giraffe eating leaves from a tree.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A picture book page showing a tall giraffe eating leaves from a tree.",
+   "sentence_targets": [
+    {
+     "id": "giraffe",
+     "word": "giraffe",
+     "pos": "n.",
+     "zh": "长颈鹿",
+     "en": "A tall African animal with a long neck and spotted coat"
+    }
+   ]
   },
   {
    "en": "A little bird sits on the giraffe's head.",
    "zh": "一只小鸟停在长颈鹿的头上。",
    "scene_prompt": "A picture book page showing a small bird sitting on top of a giraffe's head.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A picture book page showing a small bird sitting on top of a giraffe's head.",
+   "sentence_targets": [
+    {
+     "id": "giraffe",
+     "word": "giraffe",
+     "pos": "n.",
+     "zh": "长颈鹿",
+     "en": "A tall African animal with a long neck and spotted coat"
+    },
+    {
+     "id": "bird",
+     "word": "bird",
+     "pos": "n.",
+     "zh": "鸟",
+     "en": "an animal with feathers, wings, and a beak that lays eggs"
+    }
+   ]
   },
   {
    "en": "In the rain, small plants grow very fast.",
    "zh": "在雨中，小植物长得很快。",
    "scene_prompt": "A picture book page showing rain falling on small green plants sprouting from the ground.",
    "draw": "partly",
-   "draw_note": "Shows rain on small sprouting plants; 'very fast' can't be shown."
+   "draw_note": "Shows rain on small sprouting plants; 'very fast' can't be shown.",
+   "narration": "A picture book page showing rain falling on small green plants sprouting from the ground.",
+   "sentence_targets": [
+    {
+     "id": "plant",
+     "word": "plant",
+     "pos": "n./v.",
+     "zh": "植物",
+     "en": "a living thing that usually grows in soil and has leaves"
+    },
+    {
+     "id": "grow",
+     "word": "grow",
+     "pos": "v.",
+     "zh": "生长；增长；发展",
+     "en": "To become bigger or develop over time."
+    },
+    {
+     "id": "rain",
+     "word": "rain",
+     "pos": "n./v.",
+     "zh": "雨；雨水",
+     "en": "Water that falls from clouds in drops"
+    }
+   ]
   },
   {
    "en": "A dog sleeps by a warm fire at Christmas.",
    "zh": "圣诞节时，一只狗睡在温暖的炉火旁。",
    "scene_prompt": "A picture book page showing a dog sleeping by a warm fireplace next to a Christmas tree.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A picture book page showing a dog sleeping by a warm fireplace next to a Christmas tree.",
+   "sentence_targets": [
+    {
+     "id": "fire",
+     "word": "fire",
+     "pos": "n./v.",
+     "zh": "火；火灾",
+     "en": "Burning that produces heat and light, sometimes causing damage."
+    },
+    {
+     "id": "christmas",
+     "word": "Christmas",
+     "pos": "n.",
+     "zh": "圣诞节；圣诞节期间",
+     "en": "the Christian festival celebrating Jesus's birth, or the surrounding period"
+    },
+    {
+     "id": "dog",
+     "word": "dog",
+     "pos": "n./v.",
+     "zh": "狗；犬",
+     "en": "An animal often kept as a pet or trained for work."
+    }
+   ]
   },
   {
    "en": "Ben helps Lily understand the long words.",
    "zh": "本帮莉莉弄懂那些长单词。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) points at the open book and explains while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) nods with a happy face.",
    "draw": "partly",
-   "draw_note": "Shows Ben explaining the book to a nodding Lily; understanding and the long words can't be shown."
+   "draw_note": "Shows Ben explaining the book to a nodding Lily; understanding and the long words can't be shown.",
+   "narration": "Ben points at the open book and explains while Lily nods with a happy face.",
+   "sentence_targets": [
+    {
+     "id": "understand",
+     "word": "understand",
+     "pos": "v.",
+     "zh": "理解；懂得",
+     "en": "to know what something means or how it works"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

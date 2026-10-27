@@ -44,53 +44,189 @@
    "en": "Sara comes home from work and opens the fridge.",
    "zh": "萨拉下班回家，打开了冰箱。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat, opens a fridge in her kitchen, still holding her bag.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara, in a blue coat, opens a fridge in her kitchen, still holding her bag.",
+   "sentence_targets": [
+    {
+     "id": "from",
+     "word": "from",
+     "pos": "prep.",
+     "zh": "从；来自",
+     "en": "showing where someone or something starts or originates"
+    },
+    {
+     "id": "fridge",
+     "word": "fridge",
+     "pos": "n.",
+     "zh": "冰箱",
+     "en": "An electrical appliance that keeps food and drinks cold."
+    }
+   ]
   },
   {
    "en": "She can see only one small potato.",
    "zh": "她只看到一个小土豆。",
    "scene_prompt": "Inside a nearly empty fridge sits one small potato.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Inside a nearly empty fridge sits one small potato.",
+   "sentence_targets": [
+    {
+     "id": "see",
+     "word": "see",
+     "pos": "v.",
+     "zh": "看见",
+     "en": "to notice something using your eyes"
+    },
+    {
+     "id": "potato",
+     "word": "potato",
+     "pos": "n.",
+     "zh": "土豆；马铃薯",
+     "en": "A round underground vegetable with brown, red, or yellow skin."
+    }
+   ]
   },
   {
    "en": "She writes a short shopping list.",
    "zh": "她写了一张简短的购物清单。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) writes on a small notepad at the kitchen table, the empty fridge open behind her.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara writes on a small notepad at the kitchen table, the empty fridge open behind her.",
+   "sentence_targets": [
+    {
+     "id": "list",
+     "word": "list",
+     "pos": "n./v.",
+     "zh": "清单；名单",
+     "en": "Related items or names written one below another."
+    }
+   ]
   },
   {
    "en": "Soon the sky is dark and grey.",
    "zh": "不久，天空变得又暗又灰。",
    "scene_prompt": "Dark grey clouds fill the sky over a street, seen from a kitchen window.",
    "draw": "partly",
-   "draw_note": "Shows a dark grey sky; 'soon' can't be shown."
+   "draw_note": "Shows a dark grey sky; 'soon' can't be shown.",
+   "narration": "Dark grey clouds fill the sky over a street, seen from a kitchen window.",
+   "sentence_targets": [
+    {
+     "id": "dark",
+     "word": "dark",
+     "pos": "adj./n.",
+     "zh": "黑暗的；昏暗的",
+     "en": "having little or no light"
+    },
+    {
+     "id": "soon",
+     "word": "soon",
+     "pos": "adv.",
+     "zh": "不久；很快",
+     "en": "After a short time from now or another stated time."
+    }
+   ]
   },
   {
    "en": "\"I hate rain,\" says Sara, and takes an umbrella.",
    "zh": "“我讨厌下雨。”萨拉说着，拿起了一把雨伞。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat, frowns at the rain and picks up an umbrella by the door.",
    "draw": "partly",
-   "draw_note": "Shows Sara frowning at the rain and taking an umbrella; the spoken words can only be guessed."
+   "draw_note": "Shows Sara frowning at the rain and taking an umbrella; the spoken words can only be guessed.",
+   "narration": "Sara, in a blue coat, frowns at the rain and picks up an umbrella by the door.",
+   "sentence_targets": [
+    {
+     "id": "umbrella",
+     "word": "umbrella",
+     "pos": "adj./n.",
+     "zh": "雨伞；阳伞",
+     "en": "a folding cover on a stick protecting against rain or sun"
+    },
+    {
+     "id": "hate",
+     "word": "hate",
+     "pos": "n./v.",
+     "zh": "憎恨；非常讨厌",
+     "en": "To dislike someone or something very strongly."
+    }
+   ]
   },
   {
    "en": "She walks around the corner in her coat.",
    "zh": "她穿着外套走过街角。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat, walks around a street corner under her umbrella in light rain.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara, in a blue coat, walks around a street corner under her umbrella in light rain.",
+   "sentence_targets": [
+    {
+     "id": "coat",
+     "word": "coat",
+     "pos": "n./v.",
+     "zh": "外套；大衣",
+     "en": "an outer garment worn for warmth or protection"
+    },
+    {
+     "id": "around",
+     "word": "around",
+     "pos": "adv./prep.",
+     "zh": "围绕；在…周围",
+     "en": "On different sides of something or surrounding it."
+    }
+   ]
   },
   {
    "en": "After a minute, she meets Omar by his shop.",
    "zh": "过了一会儿，她在奥马尔的店旁遇见了他。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat with an umbrella, meets Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) in front of his small food shop; they greet each other.",
    "draw": "partly",
-   "draw_note": "Shows Sara meeting Omar at his shop; 'after a minute' can't be shown."
+   "draw_note": "Shows Sara meeting Omar at his shop; 'after a minute' can't be shown.",
+   "narration": "Sara, in a blue coat with an umbrella, meets Omar in front of his small food shop. they greet each other.",
+   "sentence_targets": [
+    {
+     "id": "meet",
+     "word": "meet",
+     "pos": "v.",
+     "zh": "遇见；会面；结识",
+     "en": "come together with someone, by arrangement or chance"
+    },
+    {
+     "id": "after",
+     "word": "after",
+     "pos": "conj./prep.",
+     "zh": "在……之后",
+     "en": "later than an event or time"
+    },
+    {
+     "id": "by",
+     "word": "by",
+     "pos": "prep.",
+     "zh": "由；被",
+     "en": "Shows who or what performs an action in passive sentences."
+    }
+   ]
   },
   {
    "en": "\"Come back later for my soup,\" says Omar.",
    "zh": "“晚点回来尝尝我的汤吧。”奥马尔说。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) hands Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) a paper bag of potatoes at the shop door and points inside to a big steaming pot of soup.",
    "draw": "partly",
-   "draw_note": "Shows Omar giving Sara potatoes and pointing to his soup; the invitation and 'later' can only be guessed."
+   "draw_note": "Shows Omar giving Sara potatoes and pointing to his soup; the invitation and 'later' can only be guessed.",
+   "narration": "Omar hands Sara a paper bag of potatoes at the shop door and points inside to a big steaming pot of soup.",
+   "sentence_targets": [
+    {
+     "id": "my",
+     "word": "my",
+     "pos": "det.",
+     "zh": "我的",
+     "en": "Belonging to or connected with the person speaking."
+    },
+    {
+     "id": "later",
+     "word": "later",
+     "pos": "adj./adv.",
+     "zh": "后来；稍后",
+     "en": "at a time after now or another mentioned time"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

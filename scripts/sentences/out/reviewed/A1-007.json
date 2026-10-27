@@ -53,52 +53,202 @@
    "en": "At Christmas, Anna and her husband help poor children.",
    "zh": "圣诞节时，安娜和她的丈夫帮助贫穷的孩子们。",
    "scene_prompt": "On a snowy street with Christmas lights, Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) hand out warm coats and scarves to children in thin, old clothes.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "On a snowy street with Christmas lights, Anna and Dan hand out warm coats and scarves to children in thin, old clothes.",
+   "sentence_targets": [
+    {
+     "id": "child",
+     "word": "child",
+     "pos": "n.",
+     "zh": "儿童；小孩",
+     "en": "a young person who has not yet become an adult"
+    },
+    {
+     "id": "poor",
+     "word": "poor",
+     "pos": "adj.",
+     "zh": "贫穷的",
+     "en": "Having very little money or few possessions"
+    },
+    {
+     "id": "husband",
+     "word": "husband",
+     "pos": "n./v.",
+     "zh": "丈夫",
+     "en": "a married man considered in relation to his spouse"
+    },
+    {
+     "id": "children",
+     "word": "children",
+     "pos": "n.",
+     "zh": "儿童；孩子们",
+     "en": "Young people who have not yet become adults."
+    },
+    {
+     "id": "christmas",
+     "word": "Christmas",
+     "pos": "n.",
+     "zh": "圣诞节；圣诞节期间",
+     "en": "the Christian festival celebrating Jesus's birth, or the surrounding period"
+    }
+   ]
   },
   {
    "en": "Their child Ben carries a bag of warm clothes.",
    "zh": "他们的孩子本提着一袋暖和的衣服。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now wearing a winter coat and a woolly hat, carries a big bag full of jumpers and scarves through the snow.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, now wearing a winter coat and a woolly hat, carries a big bag full of jumpers and scarves through the snow.",
+   "sentence_targets": [
+    {
+     "id": "clothes",
+     "word": "clothes",
+     "pos": "n.",
+     "zh": "衣服；服装",
+     "en": "items worn to cover the body"
+    },
+    {
+     "id": "child",
+     "word": "child",
+     "pos": "n.",
+     "zh": "儿童；小孩",
+     "en": "a young person who has not yet become an adult"
+    }
+   ]
   },
   {
    "en": "Ivan, a friendly policeman, shows them the way.",
    "zh": "友好的警察伊万给他们指路。",
    "scene_prompt": "Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform) smiles and points down a snowy street for Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), Dan (a tall man of about forty with a short brown beard and a navy jumper) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ivan smiles and points down a snowy street for Anna, Dan and Ben.",
+   "sentence_targets": [
+    {
+     "id": "policeman",
+     "word": "policeman",
+     "pos": "n.",
+     "zh": "男警察",
+     "en": "a male police officer"
+    },
+    {
+     "id": "friendly",
+     "word": "friendly",
+     "pos": "adj./n.",
+     "zh": "友好的；亲切的",
+     "en": "Kind, welcoming, and pleasant towards other people."
+    }
+   ]
   },
   {
    "en": "A Japanese mother holds her baby, born last week.",
    "zh": "一位日本妈妈抱着她上周刚出生的宝宝。",
    "scene_prompt": "A young Japanese mother in a worn coat holds a tiny newborn baby wrapped in a white blanket, in a doorway in the snow.",
    "draw": "partly",
-   "draw_note": "Shows a young mother holding a newborn baby; that she is Japanese and 'last week' can't be shown."
+   "draw_note": "Shows a young mother holding a newborn baby; that she is Japanese and 'last week' can't be shown.",
+   "narration": "A young Japanese mother in a worn coat holds a tiny newborn baby wrapped in a white blanket, in a doorway in the snow.",
+   "sentence_targets": [
+    {
+     "id": "born",
+     "word": "born",
+     "pos": "adj./v.",
+     "zh": "出生",
+     "en": "Brought into the world as a baby"
+    },
+    {
+     "id": "japanese",
+     "word": "Japanese",
+     "pos": "adj./n.",
+     "zh": "日本的；日语的",
+     "en": "Relating to Japan, its people, or its language."
+    }
+   ]
   },
   {
    "en": "Next to her, a little girl has no coat.",
    "zh": "她旁边，一个小女孩没有外套。",
    "scene_prompt": "A little girl in a thin dress stands in the snow beside her mother, shivering, with no coat.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A little girl in a thin dress stands in the snow beside her mother, shivering, with no coat.",
+   "sentence_targets": [
+    {
+     "id": "girl",
+     "word": "girl",
+     "pos": "n.",
+     "zh": "女孩；姑娘",
+     "en": "A female child or young woman"
+    }
+   ]
   },
   {
    "en": "Anna, Dan's wife, lets Ben give her a coat.",
    "zh": "丹的妻子安娜让本给了她一件外套。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) smiles and nods as Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hands a warm red coat to a little girl in the snow; Dan (a tall man of about forty with a short brown beard and a navy jumper) stands beside them.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna smiles and nods as Ben hands a warm red coat to a little girl in the snow. Dan stands beside them.",
+   "sentence_targets": [
+    {
+     "id": "let",
+     "word": "let",
+     "pos": "v.",
+     "zh": "允许；让",
+     "en": "To allow someone to do something or something to happen."
+    },
+    {
+     "id": "wife",
+     "word": "wife",
+     "pos": "n.",
+     "zh": "妻子",
+     "en": "a woman who is married to someone"
+    }
+   ]
   },
   {
    "en": "The girl smiles and says, \"You are so kind!\"",
    "zh": "女孩笑着说：“你们真好！”",
    "scene_prompt": "The little girl, now in the warm red coat, smiles widely and talks to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper).",
    "draw": "partly",
-   "draw_note": "Shows the girl smiling and talking to them; her exact words can't be shown."
+   "draw_note": "Shows the girl smiling and talking to them; her exact words can't be shown.",
+   "narration": "The little girl, now in the warm red coat, smiles widely and talks to Ben, Anna and Dan.",
+   "sentence_targets": [
+    {
+     "id": "girl",
+     "word": "girl",
+     "pos": "n.",
+     "zh": "女孩；姑娘",
+     "en": "A female child or young woman"
+    },
+    {
+     "id": "kind",
+     "word": "kind",
+     "pos": "adj./n.",
+     "zh": "善良的；体贴的",
+     "en": "Caring about others and willing to help them."
+    }
+   ]
   },
   {
    "en": "For Ben, this is a true Christmas.",
    "zh": "对本来说，这才是真正的圣诞节。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles warmly at the little girl in her new red coat under bright Christmas lights in the snow.",
    "draw": "partly",
-   "draw_note": "Shows Ben happy with the girl at Christmas; the idea of a 'true' Christmas can't be shown."
+   "draw_note": "Shows Ben happy with the girl at Christmas; the idea of a 'true' Christmas can't be shown.",
+   "narration": "Ben smiles warmly at the little girl in her new red coat under bright Christmas lights in the snow.",
+   "sentence_targets": [
+    {
+     "id": "christmas",
+     "word": "Christmas",
+     "pos": "n.",
+     "zh": "圣诞节；圣诞节期间",
+     "en": "the Christian festival celebrating Jesus's birth, or the surrounding period"
+    },
+    {
+     "id": "true",
+     "word": "TRUE",
+     "pos": "adj.",
+     "zh": "真实的；正确的",
+     "en": "matching the facts rather than being false or invented"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

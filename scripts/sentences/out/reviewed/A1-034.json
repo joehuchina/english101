@@ -45,54 +45,197 @@
    "zh": "九月，米娅和本开始野餐。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) spread a picnic blanket on green grass in a park with a few early autumn leaves.",
    "draw": "partly",
-   "draw_note": "Shows the children starting a picnic; the month can't be shown."
+   "draw_note": "Shows the children starting a picnic; the month can't be shown.",
+   "narration": "Mia and Ben spread a picnic blanket on green grass in a park with a few early autumn leaves.",
+   "sentence_targets": [
+    {
+     "id": "september",
+     "word": "September",
+     "pos": "n.",
+     "zh": "九月",
+     "en": "The month after August and before October."
+    },
+    {
+     "id": "picnic",
+     "word": "picnic",
+     "pos": "n./v.",
+     "zh": "野餐",
+     "en": "a meal eaten outdoors, usually with food brought from home"
+    },
+    {
+     "id": "begin",
+     "word": "begin",
+     "pos": "v.",
+     "zh": "开始；着手",
+     "en": "to start happening or start doing something"
+    }
+   ]
   },
   {
    "en": "Mia brings forty small chocolates and cool drinks.",
    "zh": "米娅带来了四十块小巧克力和清凉的饮料。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) opens a box full of small chocolates next to cold drinks on the blanket.",
    "draw": "partly",
-   "draw_note": "Shows many small chocolates and cold drinks; the exact number can't be counted."
+   "draw_note": "Shows many small chocolates and cold drinks; the exact number can't be counted.",
+   "narration": "Mia opens a box full of small chocolates next to cold drinks on the blanket.",
+   "sentence_targets": [
+    {
+     "id": "cool",
+     "word": "cool",
+     "pos": "adj./v.",
+     "zh": "凉的；凉爽的",
+     "en": "slightly cold, often in a pleasant way"
+    },
+    {
+     "id": "forty",
+     "word": "forty",
+     "pos": "num.",
+     "zh": "四十",
+     "en": "the number equal to four times ten"
+    },
+    {
+     "id": "chocolate",
+     "word": "chocolate",
+     "pos": "n.",
+     "zh": "巧克力",
+     "en": "A sweet food made from cocoa, often with milk and sugar."
+    },
+    {
+     "id": "small",
+     "word": "small",
+     "pos": "adj.",
+     "zh": "小的；少的",
+     "en": "Limited in size, amount, or degree."
+    }
+   ]
   },
   {
    "en": "Ben sees something in the middle of the grass.",
    "zh": "本看见草地中间有个东西。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) points at something small in the middle of the grass.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben points at something small in the middle of the grass.",
+   "sentence_targets": [
+    {
+     "id": "something",
+     "word": "something",
+     "pos": "pron.",
+     "zh": "某事；某物",
+     "en": "A thing that is not named or specified."
+    },
+    {
+     "id": "middle",
+     "word": "middle",
+     "pos": "adj./n.",
+     "zh": "中间；中部",
+     "en": "The central part, point, or position of something"
+    }
+   ]
   },
   {
    "en": "Maybe it is a lost pet.",
    "zh": "也许它是一只走丢的宠物。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) look curiously at a small animal shape half hidden in the grass.",
    "draw": "partly",
-   "draw_note": "Shows the children looking at a small animal; 'maybe' and 'lost' can't be shown."
+   "draw_note": "Shows the children looking at a small animal; 'maybe' and 'lost' can't be shown.",
+   "narration": "Mia and Ben look curiously at a small animal shape half hidden in the grass.",
+   "sentence_targets": [
+    {
+     "id": "pet",
+     "word": "pet",
+     "pos": "n./v.",
+     "zh": "宠物",
+     "en": "An animal kept at home for company and pleasure."
+    },
+    {
+     "id": "maybe",
+     "word": "maybe",
+     "pos": "adv.",
+     "zh": "也许；可能",
+     "en": "Used to say that something is possible but not certain."
+    }
+   ]
   },
   {
    "en": "It is a puppy the size of a shoe.",
    "zh": "那是一只只有鞋子大小的小狗。",
    "scene_prompt": "A tiny puppy, as small as a shoe, sits on the grass next to the shoe of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A tiny puppy, as small as a shoe, sits on the grass next to the shoe of Ben.",
+   "sentence_targets": [
+    {
+     "id": "size",
+     "word": "size",
+     "pos": "n./v.",
+     "zh": "大小；规模",
+     "en": "How big or small someone or something is."
+    }
+   ]
   },
   {
    "en": "A girl runs over, too happy to say anything.",
    "zh": "一个女孩跑过来，高兴得说不出话。",
    "scene_prompt": "A little girl in a blue dress runs across the grass toward the puppy with a big happy face.",
    "draw": "partly",
-   "draw_note": "Shows a happy girl running to the puppy; 'too happy to say anything' is only in her face."
+   "draw_note": "Shows a happy girl running to the puppy; 'too happy to say anything' is only in her face.",
+   "narration": "A little girl in a blue dress runs across the grass toward the puppy with a big happy face.",
+   "sentence_targets": [
+    {
+     "id": "anything",
+     "word": "anything",
+     "pos": "pron.",
+     "zh": "任何事物",
+     "en": "Any thing at all, without limits on choice"
+    }
+   ]
   },
   {
    "en": "She never wants to lose her puppy again.",
    "zh": "她再也不想弄丢她的小狗了。",
    "scene_prompt": "The little girl in a blue dress hugs the tiny puppy tightly, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiling.",
    "draw": "partly",
-   "draw_note": "Shows the girl hugging the puppy tightly; 'never again' can't be shown."
+   "draw_note": "Shows the girl hugging the puppy tightly; 'never again' can't be shown.",
+   "narration": "The little girl in a blue dress hugs the tiny puppy tightly, Mia and Ben smiling.",
+   "sentence_targets": [
+    {
+     "id": "never",
+     "word": "never",
+     "pos": "adv.",
+     "zh": "从不；从未",
+     "en": "Not at any time."
+    }
+   ]
   },
   {
    "en": "Sharing chocolate with her is an easy thing.",
    "zh": "和她分享巧克力是件很容易的事。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) give chocolates to the little girl in a blue dress on the picnic blanket, the puppy beside them.",
    "draw": "partly",
-   "draw_note": "Shows the children sharing chocolates; 'easy thing' can't be shown."
+   "draw_note": "Shows the children sharing chocolates; 'easy thing' can't be shown.",
+   "narration": "Mia and Ben give chocolates to the little girl in a blue dress on the picnic blanket, the puppy beside them.",
+   "sentence_targets": [
+    {
+     "id": "chocolate",
+     "word": "chocolate",
+     "pos": "n.",
+     "zh": "巧克力",
+     "en": "A sweet food made from cocoa, often with milk and sugar."
+    },
+    {
+     "id": "easy",
+     "word": "easy",
+     "pos": "adj.",
+     "zh": "容易的；不费力的",
+     "en": "Not difficult and requiring little effort."
+    },
+    {
+     "id": "thing",
+     "word": "thing",
+     "pos": "n.",
+     "zh": "东西；物品",
+     "en": "an object whose name is unknown or not specified"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

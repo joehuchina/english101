@@ -38,52 +38,159 @@
    "en": "Ben and Lily want to go to the beach.",
    "zh": "本和莉莉想去海滩。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold a beach ball and a bucket in the living room, looking excited.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily hold a beach ball and a bucket in the living room, looking excited.",
+   "sentence_targets": []
   },
   {
    "en": "Lily looks at the gray sky through the glass.",
    "zh": "莉莉透过玻璃望着灰色的天空。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) presses her hands against the large window glass and looks up at a cloudy gray sky, holding a bucket.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily presses her hands against the large window glass and looks up at a cloudy gray sky, holding a bucket.",
+   "sentence_targets": [
+    {
+     "id": "glass",
+     "word": "glass",
+     "pos": "n.",
+     "zh": "玻璃",
+     "en": "A hard, usually transparent material used for windows and containers."
+    }
+   ]
   },
   {
    "en": "Ben looks in the newspaper but finds nothing.",
    "zh": "本翻了翻报纸，但什么也没找到。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) turns the pages of a big newspaper with a puzzled face.",
    "draw": "partly",
-   "draw_note": "Shows Ben puzzled over a newspaper; 'finds nothing' is only implied."
+   "draw_note": "Shows Ben puzzled over a newspaper; 'finds nothing' is only implied.",
+   "narration": "Ben turns the pages of a big newspaper with a puzzled face.",
+   "sentence_targets": [
+    {
+     "id": "newspaper",
+     "word": "newspaper",
+     "pos": "n.",
+     "zh": "报纸",
+     "en": "A publication containing news, articles, and advertisements, usually printed daily."
+    }
+   ]
   },
   {
    "en": "Lily's magazine only has pretty pictures of clothes.",
    "zh": "莉莉的杂志里只有漂亮的衣服图片。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) flips through a magazine full of pictures of dresses and shoes.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily flips through a magazine full of pictures of dresses and shoes.",
+   "sentence_targets": [
+    {
+     "id": "pretty",
+     "word": "pretty",
+     "pos": "adj./adv.",
+     "zh": "漂亮的；秀丽的",
+     "en": "Attractive and pleasant to look at."
+    },
+    {
+     "id": "magazine",
+     "word": "magazine",
+     "pos": "n.",
+     "zh": "杂志；期刊",
+     "en": "A regularly published collection of articles and pictures."
+    }
+   ]
   },
   {
    "en": "Then they turn on the radio for the news.",
    "zh": "然后他们打开收音机听新闻。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) turns the knob of an old radio while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) listens closely.",
    "draw": "partly",
-   "draw_note": "Shows the children listening to a radio; that it is the news can't be shown."
+   "draw_note": "Shows the children listening to a radio; that it is the news can't be shown.",
+   "narration": "Ben turns the knob of an old radio while Lily listens closely.",
+   "sentence_targets": [
+    {
+     "id": "news",
+     "word": "news",
+     "pos": "n.",
+     "zh": "新闻；消息",
+     "en": "information about recent events or something previously unknown"
+    },
+    {
+     "id": "radio",
+     "word": "radio",
+     "pos": "n./v.",
+     "zh": "收音机",
+     "en": "a device used to receive and play broadcast sound"
+    }
+   ]
   },
   {
    "en": "The television news gives the same information: rain.",
    "zh": "电视新闻给出的信息也一样：要下雨。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watch a television showing a weather map full of rain clouds.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily watch a television showing a weather map full of rain clouds.",
+   "sentence_targets": [
+    {
+     "id": "news",
+     "word": "news",
+     "pos": "n.",
+     "zh": "新闻；消息",
+     "en": "information about recent events or something previously unknown"
+    },
+    {
+     "id": "television",
+     "word": "television",
+     "pos": "n.",
+     "zh": "电视；电视节目",
+     "en": "broadcast programmes with moving pictures and sound"
+    },
+    {
+     "id": "information",
+     "word": "information",
+     "pos": "n.",
+     "zh": "信息；资料",
+     "en": "Facts or details about someone or something"
+    }
+   ]
   },
   {
    "en": "\"Why does it always rain?\" asks Lily sadly.",
    "zh": "“为什么总是下雨呢？”莉莉难过地问。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sits sadly on the sofa with her chin in her hands, rain on the window.",
    "draw": "partly",
-   "draw_note": "Shows Lily sad about the rain; the question can only be guessed."
+   "draw_note": "Shows Lily sad about the rain; the question can only be guessed.",
+   "narration": "Lily sits sadly on the sofa with her chin in her hands, rain on the window.",
+   "sentence_targets": [
+    {
+     "id": "why",
+     "word": "why",
+     "pos": "adv.",
+     "zh": "为什么",
+     "en": "used to ask about the reason for something"
+    }
+   ]
   },
   {
    "en": "They watch a funny video or play games.",
    "zh": "他们看搞笑视频或者玩游戏。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laugh at a funny video on a tablet, board games on the table beside them.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily laugh at a funny video on a tablet, board games on the table beside them.",
+   "sentence_targets": [
+    {
+     "id": "or",
+     "word": "or",
+     "pos": "conj.",
+     "zh": "或者；还是",
+     "en": "Used to connect alternatives or choices"
+    },
+    {
+     "id": "video",
+     "word": "video",
+     "pos": "n./v.",
+     "zh": "视频；录像",
+     "en": "A recording of moving images, usually with sound."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -48,46 +48,179 @@
    "zh": "本的爷爷邀请他去自己的俱乐部。",
    "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) holds the hand of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and waves him in at the door of a bright club room.",
    "draw": "partly",
-   "draw_note": "Shows Grandpa Joe welcoming Ben in at the club door; the invitation itself is only suggested."
+   "draw_note": "Shows Grandpa Joe welcoming Ben in at the club door; the invitation itself is only suggested.",
+   "narration": "Grandpa Joe holds the hand of Ben and waves him in at the door of a bright club room.",
+   "sentence_targets": [
+    {
+     "id": "grandfather",
+     "word": "grandfather",
+     "pos": "n.",
+     "zh": "祖父；外祖父",
+     "en": "The father of your mother or father."
+    },
+    {
+     "id": "club",
+     "word": "club",
+     "pos": "n.",
+     "zh": "俱乐部；社团",
+     "en": "an organisation whose members share an interest or activity"
+    },
+    {
+     "id": "invite",
+     "word": "invite",
+     "pos": "v.",
+     "zh": "邀请",
+     "en": "to ask someone to attend something or do something"
+    }
+   ]
   },
   {
    "en": "His grandfather has friends from many countries.",
    "zh": "他的爷爷有来自许多国家的朋友。",
    "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) greets a group of friends of different looks in the club room, small flags of different countries on the tables, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) watching.",
    "draw": "partly",
-   "draw_note": "Shows Grandpa Joe greeting many different friends with flags on the tables; where they come from is only suggested."
+   "draw_note": "Shows Grandpa Joe greeting many different friends with flags on the tables; where they come from is only suggested.",
+   "narration": "Grandpa Joe greets a group of friends of different looks in the club room, small flags of different countries on the tables, Ben watching.",
+   "sentence_targets": [
+    {
+     "id": "grandfather",
+     "word": "grandfather",
+     "pos": "n.",
+     "zh": "祖父；外祖父",
+     "en": "The father of your mother or father."
+    },
+    {
+     "id": "friend",
+     "word": "friend",
+     "pos": "n.",
+     "zh": "朋友；友人",
+     "en": "someone you know well, like, and enjoy spending time with"
+    }
+   ]
   },
   {
    "en": "An American woman smiles and waves at Ben.",
    "zh": "一位美国女士微笑着向本挥手。",
    "scene_prompt": "A kind woman with a small American flag pin on her jacket smiles and waves at Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A kind woman with a small American flag pin on her jacket smiles and waves at Ben.",
+   "sentence_targets": [
+    {
+     "id": "woman",
+     "word": "woman",
+     "pos": "n.",
+     "zh": "成年女性；女子",
+     "en": "An adult female person."
+    },
+    {
+     "id": "american",
+     "word": "American",
+     "pos": "adj./n.",
+     "zh": "美国的；美国人的",
+     "en": "relating to the United States, its people, or its culture"
+    },
+    {
+     "id": "smile",
+     "word": "smile",
+     "pos": "n./v.",
+     "zh": "微笑",
+     "en": "To raise the corners of your mouth, showing happiness or friendliness."
+    }
+   ]
   },
   {
    "en": "Her son has a tiger on his shirt.",
    "zh": "她的儿子穿着一件印着老虎的衬衫。",
    "scene_prompt": "A small boy beside the kind woman with the American flag pin wears a T-shirt with a big tiger picture.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A small boy beside the kind woman with the American flag pin wears a T-shirt with a big tiger picture.",
+   "sentence_targets": [
+    {
+     "id": "tiger",
+     "word": "tiger",
+     "pos": "n.",
+     "zh": "老虎",
+     "en": "A large wild cat with dark stripes on orange fur"
+    },
+    {
+     "id": "son",
+     "word": "son",
+     "pos": "n.",
+     "zh": "儿子",
+     "en": "A male child in relation to his parents."
+    }
+   ]
   },
   {
    "en": "A Russian man and his wife dance together.",
    "zh": "一位俄罗斯男士和他的妻子一起跳舞。",
    "scene_prompt": "An older man and his wife dance together in the club room next to a table with a small Russian flag.",
    "draw": "partly",
-   "draw_note": "Shows a couple dancing by a Russian flag; that they are Russian and married is only suggested."
+   "draw_note": "Shows a couple dancing by a Russian flag; that they are Russian and married is only suggested.",
+   "narration": "An older man and his wife dance together in the club room next to a table with a small Russian flag.",
+   "sentence_targets": [
+    {
+     "id": "wife",
+     "word": "wife",
+     "pos": "n.",
+     "zh": "妻子",
+     "en": "a woman who is married to someone"
+    },
+    {
+     "id": "russian",
+     "word": "Russian",
+     "pos": "adj./n.",
+     "zh": "俄罗斯的；俄语的",
+     "en": "Relating to Russia, its people, or its language."
+    }
+   ]
   },
   {
    "en": "Ivan, a British police officer, tells a funny story.",
    "zh": "伊万是一位英国警官，他讲了一个有趣的故事。",
    "scene_prompt": "Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform) tells a story with big gestures in the club room, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) listening and grinning.",
    "draw": "partly",
-   "draw_note": "Shows Ivan telling a story with big gestures; the funny story itself can't be shown."
+   "draw_note": "Shows Ivan telling a story with big gestures; the funny story itself can't be shown.",
+   "narration": "Ivan tells a story with big gestures in the club room, Ben listening and grinning.",
+   "sentence_targets": [
+    {
+     "id": "police",
+     "word": "police",
+     "pos": "n./v.",
+     "zh": "警察；警方",
+     "en": "The official organisation responsible for preventing crime and maintaining order."
+    },
+    {
+     "id": "british",
+     "word": "British",
+     "pos": "adj./n.",
+     "zh": "英国的；英国人的",
+     "en": "Relating to the United Kingdom, its people, or their culture."
+    }
+   ]
   },
   {
    "en": "Everybody laughs and gives him a big smile.",
    "zh": "每个人都笑了，并对他露出大大的笑容。",
    "scene_prompt": "Everyone in the club room laughs and smiles at Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform), including Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Everyone in the club room laughs and smiles at Ivan, including Ben and Grandpa Joe.",
+   "sentence_targets": [
+    {
+     "id": "smile",
+     "word": "smile",
+     "pos": "n./v.",
+     "zh": "微笑",
+     "en": "To raise the corners of your mouth, showing happiness or friendliness."
+    },
+    {
+     "id": "everybody",
+     "word": "everybody",
+     "pos": "pron.",
+     "zh": "每个人；所有人",
+     "en": "Every person in a group, or all people generally."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

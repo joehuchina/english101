@@ -50,51 +50,187 @@
    "zh": "星期四，本和他的妹妹莉莉去买东西。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk hand in hand along the street towards a small corner shop.",
    "draw": "partly",
-   "draw_note": "Shows Ben and Lily going to the shop; the day Thursday can't be shown."
+   "draw_note": "Shows Ben and Lily going to the shop; the day Thursday can't be shown.",
+   "narration": "Ben and Lily walk hand in hand along the street towards a small corner shop.",
+   "sentence_targets": [
+    {
+     "id": "thursday",
+     "word": "Thursday",
+     "pos": "n.",
+     "zh": "星期四",
+     "en": "the day after Wednesday and before Friday"
+    },
+    {
+     "id": "sister",
+     "word": "sister",
+     "pos": "n.",
+     "zh": "姐姐；妹妹",
+     "en": "a female sibling"
+    }
+   ]
   },
   {
    "en": "Mister Omar opens the door of his shop.",
    "zh": "奥马尔先生打开了他小店的门。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) opens the glass door of his small corner shop with a smile.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar opens the glass door of his small corner shop with a smile.",
+   "sentence_targets": [
+    {
+     "id": "mister",
+     "word": "Mister",
+     "pos": "n.",
+     "zh": "先生",
+     "en": "A title used before a man's surname or full name"
+    },
+    {
+     "id": "door",
+     "word": "door",
+     "pos": "n.",
+     "zh": "门",
+     "en": "A movable barrier used to open or close an entrance."
+    }
+   ]
   },
   {
    "en": "A long line of people waits inside.",
    "zh": "店里有一长队人在等着。",
    "scene_prompt": "Inside the busy shop, a long line of customers waits at the food counter; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stand at the end.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Inside the busy shop, a long line of customers waits at the food counter. Ben and Lily stand at the end.",
+   "sentence_targets": [
+    {
+     "id": "line",
+     "word": "line",
+     "pos": "n.",
+     "zh": "线；线条",
+     "en": "a long, thin mark on a surface"
+    }
+   ]
   },
   {
    "en": "Lily buys toothpaste and a pair of socks.",
    "zh": "莉莉买了牙膏和一双袜子。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) puts a tube of toothpaste and a pair of striped socks on the counter.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily puts a tube of toothpaste and a pair of striped socks on the counter.",
+   "sentence_targets": [
+    {
+     "id": "pair",
+     "word": "pair",
+     "pos": "n./v.",
+     "zh": "一双；一对；一副",
+     "en": "Two matching things, or one object with two connected parts."
+    },
+    {
+     "id": "toothpaste",
+     "word": "toothpaste",
+     "pos": "n.",
+     "zh": "牙膏",
+     "en": "A substance used with a toothbrush to clean teeth."
+    }
+   ]
   },
   {
    "en": "Ben reads the menu and wants a pizza.",
    "zh": "本看了菜单，想要一个比萨饼。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks up at a menu board with pictures of pizzas and drinks and points at a pizza.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben looks up at a menu board with pictures of pizzas and drinks and points at a pizza.",
+   "sentence_targets": [
+    {
+     "id": "pizza",
+     "word": "pizza",
+     "pos": "n.",
+     "zh": "比萨饼",
+     "en": "Flat bread baked with toppings such as tomato sauce and cheese."
+    },
+    {
+     "id": "menu",
+     "word": "menu",
+     "pos": "n.",
+     "zh": "菜单",
+     "en": "A list of food and drinks available to order"
+    }
+   ]
   },
   {
    "en": "Omar bakes it over a strong fire.",
    "zh": "奥马尔在旺火上烤比萨饼。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) slides a pizza into a brick oven with big, bright flames.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Omar slides a pizza into a brick oven with big, bright flames.",
+   "sentence_targets": [
+    {
+     "id": "strong",
+     "word": "strong",
+     "pos": "adj.",
+     "zh": "强壮的；有力的",
+     "en": "having great physical power or force"
+    },
+    {
+     "id": "fire",
+     "word": "fire",
+     "pos": "n./v.",
+     "zh": "火；火灾",
+     "en": "Burning that produces heat and light, sometimes causing damage."
+    }
+   ]
   },
   {
    "en": "\"Help yourself to the last banana,\" he says.",
    "zh": "“最后一根香蕉你自己拿吧。”他说。",
    "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) smiles and holds out a fruit bowl with only one banana in it to Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
    "draw": "partly",
-   "draw_note": "Shows Omar offering the one banana left; his exact words can't be shown."
+   "draw_note": "Shows Omar offering the one banana left; his exact words can't be shown.",
+   "narration": "Omar smiles and holds out a fruit bowl with only one banana in it to Lily.",
+   "sentence_targets": [
+    {
+     "id": "yourself",
+     "word": "yourself",
+     "pos": "pron.",
+     "zh": "你自己；您自己",
+     "en": "Used when you are both the subject and object."
+    },
+    {
+     "id": "last",
+     "word": "last",
+     "pos": "adj./adv./v.",
+     "zh": "最后的；最近过去的",
+     "en": "Final in a sequence, or most recent before the present."
+    },
+    {
+     "id": "banana",
+     "word": "banana",
+     "pos": "n.",
+     "zh": "香蕉",
+     "en": "A long curved fruit with soft flesh and usually yellow skin"
+    }
+   ]
   },
   {
    "en": "\"Listen, Ben, do not forget your bag!\"",
    "zh": "“听着，本，别忘了你的包！”",
    "scene_prompt": "At the shop door, Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) calls out and holds up a school bag while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), holding a pizza box, turns round.",
    "draw": "partly",
-   "draw_note": "Shows Omar calling Ben back and holding up his bag; the spoken words can't be shown."
+   "draw_note": "Shows Omar calling Ben back and holding up his bag; the spoken words can't be shown.",
+   "narration": "At the shop door, Omar calls out and holds up a school bag while Ben, holding a pizza box, turns round.",
+   "sentence_targets": [
+    {
+     "id": "listen",
+     "word": "listen",
+     "pos": "v.",
+     "zh": "听；倾听",
+     "en": "to pay attention to sounds or what someone is saying"
+    },
+    {
+     "id": "forget",
+     "word": "forget",
+     "pos": "v.",
+     "zh": "忘记；记不起",
+     "en": "to fail to remember a fact, person, or experience"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

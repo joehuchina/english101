@@ -48,53 +48,182 @@
    "en": "Ben, Lily and their cousin arrive together.",
    "zh": "本、莉莉和他们的表姐一起到达。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and their cousin (a girl of about twelve with long black hair and a yellow shirt) walk hand in hand toward a bright decorated community hall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, Lily and their cousin walk hand in hand toward a bright decorated community hall.",
+   "sentence_targets": [
+    {
+     "id": "together",
+     "word": "together",
+     "pos": "adv.",
+     "zh": "一起；共同",
+     "en": "with another person or other people"
+    },
+    {
+     "id": "cousin",
+     "word": "cousin",
+     "pos": "n.",
+     "zh": "堂兄弟姐妹；表兄弟姐妹",
+     "en": "A child of your aunt or uncle"
+    }
+   ]
   },
   {
    "en": "At the door, Grandpa Joe welcomes them.",
    "zh": "乔爷爷在门口欢迎他们。",
    "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) opens the hall door wide and smiles at Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and their cousin (a girl of about twelve with long black hair and a yellow shirt).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Grandpa Joe opens the hall door wide and smiles at Ben, Lily and their cousin.",
+   "sentence_targets": [
+    {
+     "id": "door",
+     "word": "door",
+     "pos": "n.",
+     "zh": "门",
+     "en": "A movable barrier used to open or close an entrance."
+    },
+    {
+     "id": "welcome",
+     "word": "welcome",
+     "pos": "adj./n./v.",
+     "zh": "欢迎；欣然接受",
+     "en": "to greet someone warmly or accept something with pleasure"
+    }
+   ]
   },
   {
    "en": "Many people from different countries are inside.",
    "zh": "里面有很多来自不同国家的人。",
    "scene_prompt": "A busy decorated community hall full of people in clothes from many different countries, talking and laughing.",
    "draw": "partly",
-   "draw_note": "Shows a hall full of many different people; that they come from different countries can only be guessed."
+   "draw_note": "Shows a hall full of many different people; that they come from different countries can only be guessed.",
+   "narration": "A busy decorated community hall full of people in clothes from many different countries, talking and laughing.",
+   "sentence_targets": [
+    {
+     "id": "people",
+     "word": "people",
+     "pos": "n.",
+     "zh": "人；人们",
+     "en": "Human beings considered together or referred to in general."
+    }
+   ]
   },
   {
    "en": "Two Chinese women make dumplings at a table.",
    "zh": "两位中国女士在桌边包饺子。",
    "scene_prompt": "In the decorated hall, two Chinese women fold dumplings together at a long table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "In the decorated hall, two Chinese women fold dumplings together at a long table.",
+   "sentence_targets": [
+    {
+     "id": "women",
+     "word": "women",
+     "pos": "n.",
+     "zh": "成年女性（复数）",
+     "en": "More than one adult female person."
+    },
+    {
+     "id": "chinese",
+     "word": "Chinese",
+     "pos": "adj./n.",
+     "zh": "中国的；汉语的",
+     "en": "Relating to China, its people, or its languages."
+    }
+   ]
   },
   {
    "en": "Grandpa Joe was born in a small German town.",
    "zh": "乔爷爷出生在德国的一个小镇。",
    "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) shows Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) an old photo of a small German town with a church and a German flag.",
    "draw": "partly",
-   "draw_note": "Shows Grandpa Joe with a photo of a small German town; that he was born there can't be shown."
+   "draw_note": "Shows Grandpa Joe with a photo of a small German town; that he was born there can't be shown.",
+   "narration": "Grandpa Joe shows Ben and Lily an old photo of a small German town with a church and a German flag.",
+   "sentence_targets": [
+    {
+     "id": "born",
+     "word": "born",
+     "pos": "adj./v.",
+     "zh": "出生",
+     "en": "Brought into the world as a baby"
+    },
+    {
+     "id": "german",
+     "word": "German",
+     "pos": "adj./n.",
+     "zh": "德国的；德语的",
+     "en": "relating to Germany, its people, or its language"
+    }
+   ]
   },
   {
    "en": "Each parent brings a famous dish from their country.",
    "zh": "每位家长都带来一道自己国家的名菜。",
    "scene_prompt": "Mothers and fathers put many colourful dishes from around the world on a long table in the hall.",
    "draw": "partly",
-   "draw_note": "Shows parents bringing many dishes; 'famous' and 'their country' can't be shown."
+   "draw_note": "Shows parents bringing many dishes; 'famous' and 'their country' can't be shown.",
+   "narration": "Mothers and fathers put many colourful dishes from around the world on a long table in the hall.",
+   "sentence_targets": [
+    {
+     "id": "parent",
+     "word": "parent",
+     "pos": "n./v.",
+     "zh": "父亲或母亲",
+     "en": "a person's mother or father"
+    },
+    {
+     "id": "famous",
+     "word": "famous",
+     "pos": "adj.",
+     "zh": "著名的；出名的",
+     "en": "Known by many people."
+    }
+   ]
   },
   {
    "en": "Lily has an idea: a big dance for everyone.",
    "zh": "莉莉有个主意：大家一起跳个大舞。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) jumps up with a bright smile and spreads her arms wide in front of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan).",
    "draw": "partly",
-   "draw_note": "Shows Lily excited with a sudden idea; what the idea is only becomes clear in the next picture."
+   "draw_note": "Shows Lily excited with a sudden idea; what the idea is only becomes clear in the next picture.",
+   "narration": "Lily jumps up with a bright smile and spreads her arms wide in front of Ben and Grandpa Joe.",
+   "sentence_targets": [
+    {
+     "id": "everyone",
+     "word": "everyone",
+     "pos": "pron.",
+     "zh": "每个人；所有人",
+     "en": "Every person in a group, or all people."
+    },
+    {
+     "id": "idea",
+     "word": "idea",
+     "pos": "n.",
+     "zh": "主意；想法",
+     "en": "A thought or suggestion about what to do."
+    }
+   ]
   },
   {
    "en": "Every person in the room joins the dance.",
    "zh": "房间里的每个人都加入了舞蹈。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and all the people in the hall dance together in a big circle.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, Lily, Grandpa Joe and all the people in the hall dance together in a big circle.",
+   "sentence_targets": [
+    {
+     "id": "join",
+     "word": "join",
+     "pos": "v.",
+     "zh": "加入；参加",
+     "en": "To become a member or take part with others."
+    },
+    {
+     "id": "person",
+     "word": "person",
+     "pos": "n.",
+     "zh": "人；个人",
+     "en": "an individual human being"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

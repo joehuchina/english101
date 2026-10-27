@@ -43,51 +43,194 @@
    "en": "Mia and her brother Leo sit in the park.",
    "zh": "米娅和哥哥里奥坐在公园里。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and her brother Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) sit on a park bench at sunset.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia and her brother Leo sit on a park bench at sunset.",
+   "sentence_targets": [
+    {
+     "id": "brother",
+     "word": "brother",
+     "pos": "n.",
+     "zh": "兄；弟",
+     "en": "A male who has one or both parents in common with you."
+    }
+   ]
   },
   {
    "en": "The evening air is warm because the sun shines.",
    "zh": "因为阳光照耀，傍晚的空气很温暖。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) relax on the bench in the evening, a low orange sun shining warmly over the park.",
    "draw": "partly",
-   "draw_note": "Shows the low evening sun shining on the bench; the warm air and 'because' can't be shown."
+   "draw_note": "Shows the low evening sun shining on the bench; the warm air and 'because' can't be shown.",
+   "narration": "Mia and Leo relax on the bench in the evening, a low orange sun shining warmly over the park.",
+   "sentence_targets": [
+    {
+     "id": "sun",
+     "word": "sun",
+     "pos": "n./v.",
+     "zh": "太阳",
+     "en": "The star that gives Earth light and heat."
+    },
+    {
+     "id": "air",
+     "word": "air",
+     "pos": "n./v.",
+     "zh": "空气",
+     "en": "The mixture of gases surrounding Earth that people breathe."
+    },
+    {
+     "id": "because",
+     "word": "because",
+     "pos": "conj.",
+     "zh": "因为；由于",
+     "en": "Introduces the reason why something happens or is true."
+    },
+    {
+     "id": "evening",
+     "word": "evening",
+     "pos": "n.",
+     "zh": "傍晚；晚上",
+     "en": "The part of the day between afternoon and bedtime."
+    },
+    {
+     "id": "warm",
+     "word": "warm",
+     "pos": "adj./v.",
+     "zh": "温暖的；暖和的",
+     "en": "having a comfortable temperature that is not hot"
+    }
+   ]
   },
   {
    "en": "Mia's homework is very difficult today.",
    "zh": "米娅今天的作业很难。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) frowns at an open notebook on her lap and scratches her head.",
    "draw": "partly",
-   "draw_note": "Shows Mia frowning at her notebook; how difficult the homework is can only be guessed."
+   "draw_note": "Shows Mia frowning at her notebook; how difficult the homework is can only be guessed.",
+   "narration": "Mia frowns at an open notebook on her lap and scratches her head.",
+   "sentence_targets": [
+    {
+     "id": "difficult",
+     "word": "difficult",
+     "pos": "adj.",
+     "zh": "困难的；费力的",
+     "en": "Needing considerable effort or skill to do or understand."
+    }
+   ]
   },
   {
    "en": "Leo checks everything and finds the right answers.",
    "zh": "里奥检查了所有题目，找出了正确答案。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) looks over the notebook of Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and puts ticks on the page with a pencil.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo looks over the notebook of Mia and puts ticks on the page with a pencil.",
+   "sentence_targets": [
+    {
+     "id": "right",
+     "word": "right",
+     "pos": "adj./n.",
+     "zh": "正确的；合适的",
+     "en": "Correct, true, or suitable for a particular purpose."
+    },
+    {
+     "id": "everything",
+     "word": "everything",
+     "pos": "pron.",
+     "zh": "一切；所有事物",
+     "en": "All things or all the things in a particular situation."
+    }
+   ]
   },
   {
    "en": "Mia's lunch bag includes two red apples.",
    "zh": "米娅的午餐袋里有两个红苹果。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) opens a small lunch bag with two red apples inside.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia opens a small lunch bag with two red apples inside.",
+   "sentence_targets": [
+    {
+     "id": "apple",
+     "word": "apple",
+     "pos": "n.",
+     "zh": "苹果",
+     "en": "a round fruit with firm flesh and red or green skin"
+    },
+    {
+     "id": "include",
+     "word": "include",
+     "pos": "v.",
+     "zh": "包括；包含",
+     "en": "have someone or something as part of a whole"
+    }
+   ]
   },
   {
    "en": "Mia eats one apple, and Leo eats the other.",
    "zh": "米娅吃了一个苹果，里奥吃了另一个。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) each bite into a red apple on the bench.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia and Leo each bite into a red apple on the bench.",
+   "sentence_targets": [
+    {
+     "id": "apple",
+     "word": "apple",
+     "pos": "n.",
+     "zh": "苹果",
+     "en": "a round fruit with firm flesh and red or green skin"
+    },
+    {
+     "id": "other",
+     "word": "other",
+     "pos": "det./pron.",
+     "zh": "其他的；另外的",
+     "en": "Different from or additional to those already mentioned."
+    }
+   ]
   },
   {
    "en": "Somebody on a horse comes into the park.",
    "zh": "有人骑着马走进了公园。",
    "scene_prompt": "A rider on a brown horse comes along the park path in front of Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) on the bench.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A rider on a brown horse comes along the park path in front of Mia and Leo on the bench.",
+   "sentence_targets": [
+    {
+     "id": "horse",
+     "word": "horse",
+     "pos": "n.",
+     "zh": "马",
+     "en": "A large animal used for riding, racing, or pulling loads."
+    },
+    {
+     "id": "somebody",
+     "word": "somebody",
+     "pos": "pron.",
+     "zh": "某人；有人",
+     "en": "a person whose identity is unknown or not stated"
+    }
+   ]
   },
   {
    "en": "The horse is much taller than Mia.",
    "zh": "那匹马比米娅高得多。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) stands next to the brown horse and looks up at it; she is much shorter than the horse.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia stands next to the brown horse and looks up at it. she is much shorter than the horse.",
+   "sentence_targets": [
+    {
+     "id": "horse",
+     "word": "horse",
+     "pos": "n.",
+     "zh": "马",
+     "en": "A large animal used for riding, racing, or pulling loads."
+    },
+    {
+     "id": "than",
+     "word": "than",
+     "pos": "conj./prep.",
+     "zh": "比",
+     "en": "used to introduce the second thing in a comparison"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

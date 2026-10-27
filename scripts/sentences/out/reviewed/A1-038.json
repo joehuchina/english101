@@ -47,53 +47,182 @@
    "en": "Ben and his sister Lily go to the market.",
    "zh": "本和他的妹妹莉莉去集市。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and his little sister Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk into a busy outdoor market with fruit and clothes stalls.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and his little sister Lily walk into a busy outdoor market with fruit and clothes stalls.",
+   "sentence_targets": [
+    {
+     "id": "sister",
+     "word": "sister",
+     "pos": "n.",
+     "zh": "姐姐；妹妹",
+     "en": "a female sibling"
+    },
+    {
+     "id": "market",
+     "word": "market",
+     "pos": "n./v.",
+     "zh": "集市；市场",
+     "en": "a place where people buy and sell goods"
+    }
+   ]
   },
   {
    "en": "First, their mum Anna gets money from the bank.",
    "zh": "首先，妈妈安娜从银行取了钱。",
    "scene_prompt": "Outside a bank, Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) takes paper money from a cash machine while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wait beside her.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Outside a bank, Anna takes paper money from a cash machine while Ben and Lily wait beside her.",
+   "sentence_targets": [
+    {
+     "id": "bank",
+     "word": "bank",
+     "pos": "n./v.",
+     "zh": "银行",
+     "en": "an organisation that holds money and provides financial services"
+    },
+    {
+     "id": "money",
+     "word": "money",
+     "pos": "n.",
+     "zh": "钱；货币",
+     "en": "What people use to pay for goods and services."
+    }
+   ]
   },
   {
    "en": "Many people sell fruit and fresh bread here.",
    "zh": "很多人在这里卖水果和新鲜面包。",
    "scene_prompt": "Market stalls full of colourful fruit and fresh bread, with sellers handing bags to shoppers.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Market stalls full of colourful fruit and fresh bread, with sellers handing bags to shoppers.",
+   "sentence_targets": [
+    {
+     "id": "sell",
+     "word": "sell",
+     "pos": "v.",
+     "zh": "卖；出售",
+     "en": "to give something to someone in exchange for money"
+    }
+   ]
   },
   {
    "en": "Lily has a question about the price of apples.",
    "zh": "莉莉想问问苹果的价格。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points at a pile of red apples and looks up at the fruit seller with a curious face.",
    "draw": "partly",
-   "draw_note": "Shows Lily pointing at apples and asking the seller; the question about the price can't be shown."
+   "draw_note": "Shows Lily pointing at apples and asking the seller; the question about the price can't be shown.",
+   "narration": "Lily points at a pile of red apples and looks up at the fruit seller with a curious face.",
+   "sentence_targets": [
+    {
+     "id": "price",
+     "word": "price",
+     "pos": "n./v.",
+     "zh": "价格；价钱",
+     "en": "The amount of money needed to buy something."
+    },
+    {
+     "id": "question",
+     "word": "question",
+     "pos": "n./v.",
+     "zh": "问题；疑问",
+     "en": "Something you ask to obtain information or an answer"
+    }
+   ]
   },
   {
    "en": "The apples are cheap, only ten cents each.",
    "zh": "苹果很便宜，每个只要十美分。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) gives a few tiny coins to the smiling fruit seller and gets a big bag of red apples.",
    "draw": "partly",
-   "draw_note": "Shows Lily paying a few small coins for many apples; the exact price can't be shown."
+   "draw_note": "Shows Lily paying a few small coins for many apples; the exact price can't be shown.",
+   "narration": "Lily gives a few tiny coins to the smiling fruit seller and gets a big bag of red apples.",
+   "sentence_targets": [
+    {
+     "id": "cent",
+     "word": "cent",
+     "pos": "n.",
+     "zh": "分（货币单位）",
+     "en": "a monetary unit worth one hundredth of a dollar or euro"
+    },
+    {
+     "id": "cheap",
+     "word": "cheap",
+     "pos": "adj.",
+     "zh": "便宜的；价低的",
+     "en": "costing little money or less than usual"
+    }
+   ]
   },
   {
    "en": "Ben likes some jeans, but they are expensive.",
    "zh": "本喜欢一条牛仔裤，但是很贵。",
    "scene_prompt": "At a clothes stall, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up a pair of blue jeans and gasps as the seller holds out a hand for a thick pile of paper money.",
    "draw": "partly",
-   "draw_note": "Shows Ben liking the jeans and being shocked at the money asked; the price itself can't be shown."
+   "draw_note": "Shows Ben liking the jeans and being shocked at the money asked; the price itself can't be shown.",
+   "narration": "At a clothes stall, Ben holds up a pair of blue jeans and gasps as the seller holds out a hand for a thick pile of paper money.",
+   "sentence_targets": [
+    {
+     "id": "jeans",
+     "word": "jeans",
+     "pos": "n.",
+     "zh": "牛仔裤",
+     "en": "Trousers made from strong cotton cloth, usually denim."
+    },
+    {
+     "id": "expensive",
+     "word": "expensive",
+     "pos": "adj.",
+     "zh": "昂贵的；花钱多的",
+     "en": "costing a large amount of money"
+    }
+   ]
   },
   {
    "en": "So Ben keeps his dollars to spend on lunch.",
    "zh": "所以本留着他的美元，用来买午饭。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) puts the jeans back on the stall and holds a few green dollar notes, looking over at a pizza stall.",
    "draw": "partly",
-   "draw_note": "Shows Ben putting the jeans back and holding his money near a food stall; the plan to spend it on lunch can only be guessed."
+   "draw_note": "Shows Ben putting the jeans back and holding his money near a food stall; the plan to spend it on lunch can only be guessed.",
+   "narration": "Ben puts the jeans back on the stall and holds a few green dollar notes, looking over at a pizza stall.",
+   "sentence_targets": [
+    {
+     "id": "dollar",
+     "word": "dollar",
+     "pos": "n.",
+     "zh": "美元；元（货币单位）",
+     "en": "A currency unit used in the US and several other countries."
+    },
+    {
+     "id": "spend",
+     "word": "spend",
+     "pos": "v.",
+     "zh": "花费钱",
+     "en": "to use money to pay for something"
+    }
+   ]
   },
   {
    "en": "They share a rich cheese pizza for lunch.",
    "zh": "他们一起吃了一份浓郁的芝士比萨当午饭。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) share a big cheesy pizza at a market food stall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna, Ben and Lily share a big cheesy pizza at a market food stall.",
+   "sentence_targets": [
+    {
+     "id": "pizza",
+     "word": "pizza",
+     "pos": "n.",
+     "zh": "比萨饼",
+     "en": "Flat bread baked with toppings such as tomato sauce and cheese."
+    },
+    {
+     "id": "rich",
+     "word": "rich",
+     "pos": "adj.",
+     "zh": "富有的；富裕的",
+     "en": "Having a lot of money or valuable possessions."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

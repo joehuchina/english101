@@ -45,50 +45,186 @@
    "zh": "星期二，里奥和米娅去公园。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) walk through the gate of a green park on a cool spring day.",
    "draw": "partly",
-   "draw_note": "Shows Leo and Mia walking into the park; the day Tuesday can't be shown."
+   "draw_note": "Shows Leo and Mia walking into the park; the day Tuesday can't be shown.",
+   "narration": "Leo and Mia walk through the gate of a green park on a cool spring day.",
+   "sentence_targets": [
+    {
+     "id": "tuesday",
+     "word": "Tuesday",
+     "pos": "n.",
+     "zh": "星期二",
+     "en": "the day after Monday and before Wednesday"
+    }
+   ]
   },
   {
    "en": "He is really tall and strong; Mia is small.",
    "zh": "他又高又壮，米娅却很小。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stands next to Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) on the park path; he is twice her height.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo stands next to Mia on the park path. he is twice her height.",
+   "sentence_targets": [
+    {
+     "id": "strong",
+     "word": "strong",
+     "pos": "adj.",
+     "zh": "强壮的；有力的",
+     "en": "having great physical power or force"
+    },
+    {
+     "id": "really",
+     "word": "really",
+     "pos": "adv.",
+     "zh": "很；非常",
+     "en": "Used to make an adjective, adverb, or statement stronger."
+    },
+    {
+     "id": "tall",
+     "word": "tall",
+     "pos": "adj.",
+     "zh": "高的；高大的",
+     "en": "having greater than average height"
+    }
+   ]
   },
   {
    "en": "Mia wears a red coat and a hat.",
    "zh": "米娅穿着红外套，戴着帽子。",
    "scene_prompt": "Close view of Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), now wearing a red coat over her hoodie and a red woolly hat, smiling.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close view of Mia, now wearing a red coat over her hoodie and a red woolly hat, smiling.",
+   "sentence_targets": [
+    {
+     "id": "coat",
+     "word": "coat",
+     "pos": "n./v.",
+     "zh": "外套；大衣",
+     "en": "an outer garment worn for warmth or protection"
+    },
+    {
+     "id": "hat",
+     "word": "hat",
+     "pos": "n.",
+     "zh": "帽子",
+     "en": "a covering worn on the head for protection or decoration"
+    }
+   ]
   },
   {
    "en": "Their school has a fun activity there today.",
    "zh": "他们学校今天在那里有一个有趣的活动。",
    "scene_prompt": "Children in sports clothes line up for a race on the park grass, a teacher with a whistle in front, Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) among them.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Children in sports clothes line up for a race on the park grass, a teacher with a whistle in front, Leo and Mia among them.",
+   "sentence_targets": [
+    {
+     "id": "activity",
+     "word": "activity",
+     "pos": "n.",
+     "zh": "活动",
+     "en": "Something people do for enjoyment, learning, or a particular purpose."
+    }
+   ]
   },
   {
    "en": "Leo is fast, and Mia also runs quickly.",
    "zh": "里奥跑得快，米娅也跑得很快。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) race across the grass with other children, both running fast.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo and Mia race across the grass with other children, both running fast.",
+   "sentence_targets": [
+    {
+     "id": "also",
+     "word": "also",
+     "pos": "adv.",
+     "zh": "也；而且",
+     "en": "in addition to something already mentioned"
+    },
+    {
+     "id": "fast",
+     "word": "fast",
+     "pos": "adj./adv./v.",
+     "zh": "快速的",
+     "en": "moving or happening at high speed"
+    },
+    {
+     "id": "quickly",
+     "word": "quickly",
+     "pos": "adv.",
+     "zh": "迅速地；很快地",
+     "en": "At a fast speed or after only a short time."
+    }
+   ]
   },
   {
    "en": "Mia falls, and mud gets on her clothes.",
    "zh": "米娅摔倒了，衣服上沾满了泥。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), in her red coat, sits on the muddy grass after a fall, her coat and jeans dirty, about to cry.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia, in her red coat, sits on the muddy grass after a fall, her coat and jeans dirty, about to cry.",
+   "sentence_targets": [
+    {
+     "id": "clothes",
+     "word": "clothes",
+     "pos": "n.",
+     "zh": "衣服；服装",
+     "en": "items worn to cover the body"
+    }
+   ]
   },
   {
    "en": "Leo gives her a sandwich from his lunch.",
    "zh": "里奥把午饭里的一块三明治给了她。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) kneels and offers Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) a sandwich from his open lunch box.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo kneels and offers Mia a sandwich from his open lunch box.",
+   "sentence_targets": [
+    {
+     "id": "lunch",
+     "word": "lunch",
+     "pos": "n./v.",
+     "zh": "午餐",
+     "en": "a meal eaten around the middle of the day"
+    },
+    {
+     "id": "from",
+     "word": "from",
+     "pos": "prep.",
+     "zh": "从；来自",
+     "en": "showing where someone or something starts or originates"
+    }
+   ]
   },
   {
    "en": "Soon nothing hurts, and she runs without crying.",
    "zh": "很快就不疼了，她又跑了起来，不再哭了。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) runs again on the grass, smiling, her face dry, while Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) cheers beside her.",
    "draw": "partly",
-   "draw_note": "Shows Mia running again, happy and not crying; 'nothing hurts' can't be shown."
+   "draw_note": "Shows Mia running again, happy and not crying; 'nothing hurts' can't be shown.",
+   "narration": "Mia runs again on the grass, smiling, her face dry, while Leo cheers beside her.",
+   "sentence_targets": [
+    {
+     "id": "without",
+     "word": "without",
+     "pos": "prep.",
+     "zh": "没有；不带；不与……一起",
+     "en": "not having, using, or being accompanied by someone or something"
+    },
+    {
+     "id": "nothing",
+     "word": "nothing",
+     "pos": "adv./pron.",
+     "zh": "没有任何东西；毫无",
+     "en": "not anything; no thing at all"
+    },
+    {
+     "id": "cry",
+     "word": "cry",
+     "pos": "n./v.",
+     "zh": "哭；流泪",
+     "en": "Produce tears because of sadness, pain, or strong emotion."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

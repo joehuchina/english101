@@ -49,54 +49,190 @@
    "zh": "六月的一天，花园里很暖和。",
    "scene_prompt": "A sunny garden in early summer with green grass, pink flowers and a tub of water.",
    "draw": "partly",
-   "draw_note": "Shows a sunny summer garden; the month can't be shown."
+   "draw_note": "Shows a sunny summer garden; the month can't be shown.",
+   "narration": "A sunny garden in early summer with green grass, pink flowers and a tub of water.",
+   "sentence_targets": [
+    {
+     "id": "june",
+     "word": "June",
+     "pos": "n.",
+     "zh": "六月",
+     "en": "The sixth month of the year, between May and July."
+    },
+    {
+     "id": "garden",
+     "word": "garden",
+     "pos": "n./v.",
+     "zh": "花园；菜园",
+     "en": "an area of land where flowers or vegetables are grown"
+    }
+   ]
   },
   {
    "en": "Ben and Lily want to give Max a bath.",
    "zh": "本和莉莉想给麦克斯洗个澡。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold Max (a small brown dog with floppy ears and a red collar) next to a tub of soapy water in the garden.",
    "draw": "partly",
-   "draw_note": "Shows the children about to bath the dog; 'want' can only be guessed."
+   "draw_note": "Shows the children about to bath the dog; 'want' can only be guessed.",
+   "narration": "Ben and Lily hold Max next to a tub of soapy water in the garden.",
+   "sentence_targets": [
+    {
+     "id": "bath",
+     "word": "bath",
+     "pos": "n.",
+     "zh": "洗澡；泡澡",
+     "en": "Washing your body while sitting or lying in water."
+    },
+    {
+     "id": "want",
+     "word": "want",
+     "pos": "n./v.",
+     "zh": "想要；希望",
+     "en": "To desire something or wish for something to happen."
+    }
+   ]
   },
   {
    "en": "Wet Max runs twelve times around the pink flowers.",
    "zh": "湿漉漉的麦克斯绕着粉色的花跑了十二圈。",
    "scene_prompt": "Wet Max (a small brown dog with floppy ears and a red collar) races around a bed of pink flowers while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) chase him with a towel.",
    "draw": "partly",
-   "draw_note": "Shows Max running around the flowers; the number of times is not shown."
+   "draw_note": "Shows Max running around the flowers; the number of times is not shown.",
+   "narration": "Wet Max races around a bed of pink flowers while Ben and Lily chase him with a towel.",
+   "sentence_targets": [
+    {
+     "id": "pink",
+     "word": "pink",
+     "pos": "adj./n.",
+     "zh": "粉红色的",
+     "en": "having a pale red colour"
+    },
+    {
+     "id": "twelve",
+     "word": "twelve",
+     "pos": "num.",
+     "zh": "十二",
+     "en": "the number after eleven and before thirteen"
+    }
+   ]
   },
   {
    "en": "He is nine, but he runs like a puppy.",
    "zh": "它九岁了，可跑起来还像只小狗崽。",
    "scene_prompt": "Max (a small brown dog with floppy ears and a red collar) leaps in the air like a young puppy, water drops flying.",
    "draw": "partly",
-   "draw_note": "Shows Max jumping playfully; his age is not shown."
+   "draw_note": "Shows Max jumping playfully; his age is not shown.",
+   "narration": "Max leaps in the air like a young puppy, water drops flying.",
+   "sentence_targets": [
+    {
+     "id": "nine",
+     "word": "nine",
+     "pos": "num.",
+     "zh": "九",
+     "en": "The number after eight and before ten."
+    }
+   ]
   },
   {
    "en": "Lily waits for a moment until he stops.",
    "zh": "莉莉等了一会儿，直到它停下来。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) waits with a towel as Max (a small brown dog with floppy ears and a red collar) finally sits still on the grass.",
    "draw": "partly",
-   "draw_note": "Shows Lily waiting; 'until' is not shown."
+   "draw_note": "Shows Lily waiting; 'until' is not shown.",
+   "narration": "Lily waits with a towel as Max finally sits still on the grass.",
+   "sentence_targets": [
+    {
+     "id": "until",
+     "word": "until",
+     "pos": "conj./prep.",
+     "zh": "直到……为止",
+     "en": "Up to a particular time or event."
+    },
+    {
+     "id": "moment",
+     "word": "moment",
+     "pos": "n.",
+     "zh": "片刻；一会儿",
+     "en": "A very short period of time."
+    }
+   ]
   },
   {
    "en": "Each child takes a turn with the brush.",
    "zh": "每个孩子轮流用刷子给它刷毛。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) brushes Max (a small brown dog with floppy ears and a red collar) while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) waits with the brush ready for her turn.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben brushes Max while Lily waits with the brush ready for her turn.",
+   "sentence_targets": [
+    {
+     "id": "turn",
+     "word": "turn",
+     "pos": "n./v.",
+     "zh": "转动；转向",
+     "en": "Move around a centre or change direction."
+    },
+    {
+     "id": "each",
+     "word": "each",
+     "pos": "adv./det./pron.",
+     "zh": "每个；各个",
+     "en": "Every individual member of a group, considered separately."
+    }
+   ]
   },
   {
    "en": "Later, they share a banana, piece by piece.",
    "zh": "后来，他们一块一块地分吃一根香蕉。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit on the grass sharing pieces of a banana; Max (a small brown dog with floppy ears and a red collar) watches hopefully.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily sit on the grass sharing pieces of a banana. Max watches hopefully.",
+   "sentence_targets": [
+    {
+     "id": "banana",
+     "word": "banana",
+     "pos": "n.",
+     "zh": "香蕉",
+     "en": "A long curved fruit with soft flesh and usually yellow skin"
+    },
+    {
+     "id": "piece",
+     "word": "piece",
+     "pos": "n./v.",
+     "zh": "块；片；件",
+     "en": "a part of something or a single item"
+    }
+   ]
   },
   {
    "en": "\"Help yourself to another piece,\" Ben tells Max.",
    "zh": "“再吃一块吧。”本对麦克斯说。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds out a piece of banana to Max (a small brown dog with floppy ears and a red collar), who sniffs it.",
    "draw": "partly",
-   "draw_note": "Shows Ben offering banana to Max; the words are not shown."
+   "draw_note": "Shows Ben offering banana to Max; the words are not shown.",
+   "narration": "Ben holds out a piece of banana to Max, who sniffs it.",
+   "sentence_targets": [
+    {
+     "id": "yourself",
+     "word": "yourself",
+     "pos": "pron.",
+     "zh": "你自己；您自己",
+     "en": "Used when you are both the subject and object."
+    },
+    {
+     "id": "piece",
+     "word": "piece",
+     "pos": "n./v.",
+     "zh": "块；片；件",
+     "en": "a part of something or a single item"
+    },
+    {
+     "id": "another",
+     "word": "another",
+     "pos": "det./pron.",
+     "zh": "又一；另一",
+     "en": "one more, or a different one"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

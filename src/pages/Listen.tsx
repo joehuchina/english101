@@ -1,3 +1,4 @@
+import { StoryScenes } from "./StoryScenes";
 import {
   ArrowRight,
   BookOpen,
@@ -134,6 +135,7 @@ function Hub() {
   const atlas = useAtlas();
   const stages = useStages();
   const listen = useStore((s) => s.progress.listen);
+  const [subTab, setSubTab] = useState<"stories" | "words">("stories");
   const [briefing, setBriefing] = useState<ListenStage | null>(null);
   // Coming back from a stage stays on this page, so the shell does not reset the scroll.
   useEffect(() => {
@@ -152,13 +154,28 @@ function Hub() {
   return (
     <>
       <div className="page listen-hub">
-        <header className="page-head">
-          <p className="eyebrow">听图 · Listen & Pick</p>
-          <h1 className="display">先听见，再认出它。</h1>
-          <p className="lede">
-            每关先翻一遍有声画册，再听音选图。答错的词会在本轮最后再考一次，也会收进错词本。
-          </p>
-        </header>
+        <nav className="listen-tabs" aria-label="听图模式">
+          <div className="segmented">
+            <button className={subTab === "stories" ? "is-on" : ""} onClick={() => setSubTab("stories")} aria-pressed={subTab === "stories"}>
+              看图听话
+            </button>
+            <button className={subTab === "words" ? "is-on" : ""} onClick={() => setSubTab("words")} aria-pressed={subTab === "words"}>
+              听音选图
+            </button>
+          </div>
+        </nav>
+
+        {subTab === "stories" ? (
+          <StoryScenes />
+        ) : (
+          <>
+            <header className="page-head">
+              <p className="eyebrow">听图 · Listen & Pick</p>
+              <h1 className="display">先听见，再认出它。</h1>
+              <p className="lede">
+                每关先翻一遍有声画册，再听音选图。答错的词会在本轮最后再考一次，也会收进错词本。
+              </p>
+            </header>
 
         <div className="lp-summary">
           <dl className="mini-stats">
@@ -261,6 +278,8 @@ function Hub() {
             </section>
           );
         })}
+          </>
+        )}
       </div>
       {/* Outside .page: its entry animation would trap the fixed overlay. */}
       <Sheet

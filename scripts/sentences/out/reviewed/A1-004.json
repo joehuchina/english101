@@ -44,54 +44,190 @@
    "en": "Hana and Sara pack summer clothes for their holiday.",
    "zh": "哈娜和萨拉为假期收拾夏天的衣服。",
    "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) pack T-shirts, shorts and sun hats into two open suitcases.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Hana and Sara pack T-shirts, shorts and sun hats into two open suitcases.",
+   "sentence_targets": [
+    {
+     "id": "clothes",
+     "word": "clothes",
+     "pos": "n.",
+     "zh": "衣服；服装",
+     "en": "items worn to cover the body"
+    },
+    {
+     "id": "holiday",
+     "word": "holiday",
+     "pos": "n./v.",
+     "zh": "假期；度假",
+     "en": "A period away from work or study for rest or travel."
+    }
+   ]
   },
   {
    "en": "From the station, a train goes north to France.",
    "zh": "火车从车站出发，向北开往法国。",
    "scene_prompt": "A long train leaves a busy station, Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) waving from a window.",
    "draw": "partly",
-   "draw_note": "Shows the train leaving the station; 'north' and 'France' can't be shown."
+   "draw_note": "Shows the train leaving the station; 'north' and 'France' can't be shown.",
+   "narration": "A long train leaves a busy station, Hana and Sara waving from a window.",
+   "sentence_targets": [
+    {
+     "id": "france",
+     "word": "France",
+     "pos": "n.",
+     "zh": "法国",
+     "en": "a country in western Europe whose capital is Paris"
+    },
+    {
+     "id": "station",
+     "word": "station",
+     "pos": "n./v.",
+     "zh": "车站",
+     "en": "A place where trains or buses stop for passengers."
+    },
+    {
+     "id": "north",
+     "word": "north",
+     "pos": "adj./adv./n.",
+     "zh": "北；北方；北部",
+     "en": "the direction opposite south, or an area's northern part"
+    }
+   ]
   },
   {
    "en": "Then a big aeroplane carries them to Rome.",
    "zh": "然后一架大飞机把他们送到罗马。",
    "scene_prompt": "A big aeroplane flies over the old city of Rome, the round Colosseum below.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A big aeroplane flies over the old city of Rome, the round Colosseum below.",
+   "sentence_targets": [
+    {
+     "id": "aeroplane",
+     "word": "aeroplane",
+     "pos": "n.",
+     "zh": "飞机",
+     "en": "A powered flying vehicle with fixed wings."
+    },
+    {
+     "id": "rome",
+     "word": "Rome",
+     "pos": "n.",
+     "zh": "罗马（意大利首都）",
+     "en": "The capital city of Italy"
+    }
+   ]
   },
   {
    "en": "They arrive at a small hotel near the river.",
    "zh": "她们到达河边的一家小旅馆。",
    "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) pull their suitcases up to a small yellow hotel next to a river.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Hana and Sara pull their suitcases up to a small yellow hotel next to a river.",
+   "sentence_targets": [
+    {
+     "id": "hotel",
+     "word": "hotel",
+     "pos": "n.",
+     "zh": "酒店；旅馆",
+     "en": "a building where people pay to stay in rooms"
+    },
+    {
+     "id": "arrive",
+     "word": "arrive",
+     "pos": "v.",
+     "zh": "到达；抵达",
+     "en": "To reach the place you were travelling to."
+    }
+   ]
   },
   {
    "en": "A strong Australian man carries their bags.",
    "zh": "一位强壮的澳大利亚男人帮她们提包。",
    "scene_prompt": "A strong, sunburnt man in a wide-brimmed bush hat carries two suitcases into the hotel while Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) smile.",
    "draw": "partly",
-   "draw_note": "Shows a strong man carrying their bags; that he is Australian can't be shown."
+   "draw_note": "Shows a strong man carrying their bags; that he is Australian can't be shown.",
+   "narration": "A strong, sunburnt man in a wide-brimmed bush hat carries two suitcases into the hotel while Hana and Sara smile.",
+   "sentence_targets": [
+    {
+     "id": "strong",
+     "word": "strong",
+     "pos": "adj.",
+     "zh": "强壮的；有力的",
+     "en": "having great physical power or force"
+    },
+    {
+     "id": "australian",
+     "word": "Australian",
+     "pos": "adj./n.",
+     "zh": "澳大利亚的；澳大利亚人的",
+     "en": "Relating to Australia or its people."
+    }
+   ]
   },
   {
    "en": "His family goes to Africa by boat.",
    "zh": "他一家坐船去非洲。",
    "scene_prompt": "The strong man, his wife and two children wave from the deck of a big white boat leaving the harbour.",
    "draw": "partly",
-   "draw_note": "Shows the family leaving on a boat; 'Africa' can't be shown."
+   "draw_note": "Shows the family leaving on a boat; 'Africa' can't be shown.",
+   "narration": "The strong man, his wife and two children wave from the deck of a big white boat leaving the harbour.",
+   "sentence_targets": [
+    {
+     "id": "africa",
+     "word": "Africa",
+     "pos": "n.",
+     "zh": "非洲",
+     "en": "The continent south of Europe, between the Atlantic and Indian oceans."
+    },
+    {
+     "id": "boat",
+     "word": "boat",
+     "pos": "n.",
+     "zh": "船；小船",
+     "en": "a vessel for travelling on water, usually smaller than a ship"
+    }
+   ]
   },
   {
    "en": "Sara writes a postcard about the trip.",
    "zh": "萨拉写了一张关于这次旅行的明信片。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sits at a café table and writes on a postcard with a picture of the Colosseum.",
    "draw": "partly",
-   "draw_note": "Shows Sara writing a postcard; what it says about the trip can't be shown."
+   "draw_note": "Shows Sara writing a postcard; what it says about the trip can't be shown.",
+   "narration": "Sara sits at a café table and writes on a postcard with a picture of the Colosseum.",
+   "sentence_targets": [
+    {
+     "id": "postcard",
+     "word": "postcard",
+     "pos": "n.",
+     "zh": "明信片",
+     "en": "a card mailed without an envelope, often showing a picture"
+    }
+   ]
   },
   {
    "en": "Their plane flies east into the morning sun.",
    "zh": "她们的飞机向东飞去，迎着早晨的太阳。",
    "scene_prompt": "A plane flies over a blue sea towards a big orange sun rising on the horizon.",
    "draw": "partly",
-   "draw_note": "Shows a plane flying towards the rising sun; 'east' is only suggested by the sunrise."
+   "draw_note": "Shows a plane flying towards the rising sun; 'east' is only suggested by the sunrise.",
+   "narration": "A plane flies over a blue sea towards a big orange sun rising on the horizon.",
+   "sentence_targets": [
+    {
+     "id": "east",
+     "word": "east",
+     "pos": "adj./adv./n.",
+     "zh": "东方；东部",
+     "en": "the direction where the sun rises, opposite west"
+    },
+    {
+     "id": "plane",
+     "word": "plane",
+     "pos": "n./v.",
+     "zh": "飞机",
+     "en": "a flying vehicle with wings and at least one engine"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"
