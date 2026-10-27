@@ -9,7 +9,7 @@ from functools import lru_cache
 
 import spacy
 
-from lexicon import LENGTH, LEVELS, is_phrase, load_words
+from lexicon import LENGTH, LEVELS, OLD_NAMES, is_phrase, load_cast, load_words
 
 # Which spaCy coarse tags count as each dictionary part of speech.
 POS_TAGS = {
@@ -25,6 +25,8 @@ POS_TAGS = {
     "int.": None,
     "phr.": None,
 }
+# Contractions spaCy splits off ("Max's", "don't") are part of one written word.
+CLITICS = {"'s", "n't", "'re", "'ll", "'ve", "'d", "'m"}
 CJK = re.compile(r"[一-鿿]")
 
 
@@ -114,7 +116,7 @@ def check_sentence(s, level, lex, targets, review, max_rare=1):
     """Problems with one sentence, and which scene targets it actually uses."""
     problems = []
     doc = nlp()(s["en"])
-    words = [t for t in doc if not t.is_punct and not t.is_space]
+    words = [t for t in doc if not t.is_punct and not t.is_space and norm(t.text) not in CLITICS]
     toks = [norm(t.text) for t in doc]
     lems = [norm(t.lemma_) for t in doc]
     lo, hi = LENGTH[level]
@@ -183,6 +185,39 @@ def check_scene(scene, unit, lex, seen=()):
             "review_needed": min(2, len(review))}
 
 
+PROMPT_TEXT = re.compile(r"\d|o'clock|\bwritten\b|\bthe words?\b|\btext\b|\blabel", re.I)
+
+
+def check_art(scene, cast=None):
+    """Picture problems: cast characters, drawability marks, and prompts that would need text."""
+    cast = {c["id"]: c for c in (cast or load_cast())}
+    problems = []
+    used = set()
+    for c in scene.get("characters", []):
+        if c.get("id") not in cast:
+            problems.append(f"character {c.get('name') or c.get('id')} is not in the cast")
+        elif c.get("look") != cast[c["id"]]["tag"]:
+            problems.append(f"character {c['id']} look differs from cast.json")
+        else:
+            used.add(c["id"])
+    for i, s in enumerate(scene["sentences"]):
+        where = f"sentence {i + 1}"
+        if s.get("draw") not in ("yes", "partly"):
+            problems.append(f"{where}: draw must be yes or partly")
+        if s.get("draw") == "partly" and not s.get("draw_note"):
+            problems.append(f"{where}: partly drawable needs a draw_note")
+        sp = s.get("scene_prompt", "")
+        if PROMPT_TEXT.search(sp):
+            problems.append(f"{where}: scene prompt asks for text or numbers")
+        for c in cast.values():
+            if re.search(r"\b" + re.escape(c["name"]) + r"\b", sp) and c["tag"] not in sp:
+                problems.append(f"{where}: prompt names {c['name']} without the cast description")
+        for n in OLD_NAMES:
+            if re.search(r"\b" + n + r"\b", s["en"] + " " + sp):
+                problems.append(f"{where}: old name {n}")
+    return problems
+
+
 def main(paths):
     lex = Lexicon()
     units = {u["scene_id"]: u for u in json.load(open(lex_path("units.json")))}
@@ -197,6 +232,8 @@ def main(paths):
             print(f"  {'ok ' if not r['problems'] else 'BAD'} {s['en']}")
             for pr in r["problems"]:
                 print(f"      - {pr}")
+        for pr in check_art(scene):
+            print(f"  ART {pr}")
 
 
 def lex_path(name):

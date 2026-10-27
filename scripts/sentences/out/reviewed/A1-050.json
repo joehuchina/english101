@@ -28,49 +28,62 @@
  "setting": "A cosy family kitchen with a fireplace on Christmas morning.",
  "characters": [
   {
-   "name": "Sam",
-   "look": "Sam, a small boy with short brown hair and a blue shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Mia",
-   "look": "Mia, his mother with long black hair and a green apron"
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
   }
  ],
  "sentences": [
   {
-   "en": "On Christmas morning, Sam hears a terrible sound.",
-   "zh": "圣诞节早上，萨姆听到一个可怕的声音。",
-   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt covers his ears in a hallway decorated for Christmas, looking toward the kitchen."
+   "en": "On Christmas morning, Ben hears a terrible sound.",
+   "zh": "圣诞节早上，本听到一个可怕的声音。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) covers his ears in a hallway decorated for Christmas, looking toward the kitchen.",
+   "draw": "partly",
+   "draw_note": "Shows Ben covering his ears in a Christmas hallway; the sound itself can't be shown."
   },
   {
    "en": "Someone is in the kitchen near the fire.",
    "zh": "有人在厨房里，就在炉火旁边。",
-   "scene_prompt": "A shadowy figure stands near a warm fireplace in a kitchen while Sam, a small boy with short brown hair and a blue shirt peeks around the door."
+   "scene_prompt": "A shadowy figure stands near a warm fireplace in a kitchen while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) peeks around the door.",
+   "draw": "yes"
   },
   {
-   "en": "His mother Mia holds a single toy chicken.",
-   "zh": "他妈妈米娅手里拿着一只玩具鸡。",
-   "scene_prompt": "Mia, his mother with long black hair and a green apron holds up one yellow toy chicken, squeezing it, near the fireplace."
+   "en": "His mother Anna holds a single toy chicken.",
+   "zh": "他妈妈安娜手里拿着一只玩具鸡。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), wearing a green apron, holds up one yellow toy chicken and squeezes it near the fireplace.",
+   "draw": "yes"
   },
   {
    "en": "The poor boy laughs and hugs the toy.",
    "zh": "可怜的小男孩笑了，抱住了玩具。",
-   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt laughs with relief and hugs the yellow toy chicken."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) laughs with relief and hugs the yellow toy chicken.",
+   "draw": "yes"
   },
   {
    "en": "It is hard, but he loves it so much.",
    "zh": "它硬邦邦的，但他非常喜欢它。",
-   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt taps the hard plastic toy chicken and smiles widely."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) knocks on the hard plastic toy chicken with his knuckles and smiles widely.",
+   "draw": "partly",
+   "draw_note": "Shows Ben knocking on the plastic toy and smiling; how hard it is and how much he loves it can only be guessed."
   },
   {
    "en": "Of all his gifts, he likes it most.",
    "zh": "在所有礼物里，他最喜欢它。",
-   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt sits among opened Christmas gifts, holding the toy chicken above the others."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits among opened Christmas gifts and holds the toy chicken high above the others.",
+   "draw": "partly",
+   "draw_note": "Shows Ben holding the chicken above his other gifts; 'most' is only suggested."
   },
   {
-   "en": "\"Please drink your milk now,\" says Mia.",
-   "zh": "“现在请把牛奶喝了。”米娅说。",
-   "scene_prompt": "Mia, his mother with long black hair and a green apron hands a glass of milk to Sam, a small boy with short brown hair and a blue shirt, who still holds the toy chicken."
+   "en": "\"Please drink your milk now,\" says Anna.",
+   "zh": "“现在请把牛奶喝了。”安娜说。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hands a glass of milk to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), who still holds the toy chicken.",
+   "draw": "partly",
+   "draw_note": "Shows Anna handing Ben a glass of milk; the spoken request can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

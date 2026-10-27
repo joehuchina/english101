@@ -24,59 +24,79 @@
   "coat",
   "fast"
  ],
- "title": "Cleaning for Grandma",
- "title_zh": "为奶奶打扫屋子",
- "setting": "A bright living room with a wooden floor.",
+ "title": "Cleaning for Grandma Rosa",
+ "title_zh": "为罗莎奶奶打扫屋子",
+ "setting": "Grandma Rosa's bright living room with a wooden floor.",
  "characters": [
   {
-   "name": "Zoe",
-   "look": "Zoe, a young girl with short brown hair and a yellow T-shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Raj",
-   "look": "Raj, a young boy with black hair and a blue sweater"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "rosa",
+   "name": "Grandma Rosa",
+   "look": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick)"
   }
  ],
  "sentences": [
   {
-   "en": "At two p.m., Zoe and Raj start cleaning.",
-   "zh": "下午两点，佐伊和拉吉开始打扫。",
-   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt and Raj, a young boy with black hair and a blue sweater pick up brooms and cloths in a bright living room in the afternoon sun."
+   "en": "At two p.m., Ben and Lily clean after lunch.",
+   "zh": "下午两点，吃完午饭后，本和莉莉开始打扫。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) pick up a broom and a cloth in a bright living room in the afternoon sun; empty lunch plates sit on a side table.",
+   "draw": "partly",
+   "draw_note": "Shows the children starting to clean after lunch; the exact time can't be shown."
   },
   {
-   "en": "Grandma turns sixty tomorrow and will come for lunch.",
-   "zh": "奶奶明天六十岁，要来吃午饭。",
-   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt and Raj, a young boy with black hair and a blue sweater look at a framed photo of a smiling grandmother next to a birthday cake."
+   "en": "Grandma Rosa collects cups, and she has sixty.",
+   "zh": "罗莎奶奶收集杯子，她有六十个。",
+   "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) proudly shows a tall shelf full of many small colourful cups.",
+   "draw": "partly",
+   "draw_note": "Shows a shelf of many cups; the exact number is not shown."
   },
   {
-   "en": "At the beginning, Raj works very fast.",
-   "zh": "一开始，拉吉干得非常快。",
-   "scene_prompt": "Raj, a young boy with black hair and a blue sweater rushes around the living room with a duster in each hand."
+   "en": "At the beginning, Ben works very fast.",
+   "zh": "一开始，本干得非常快。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) rushes around the living room with a duster in each hand.",
+   "draw": "partly",
+   "draw_note": "Shows Ben working very fast; 'at the beginning' can't be shown."
   },
   {
    "en": "He moves the low table to clean the floor.",
    "zh": "他挪开矮桌子来打扫地板。",
-   "scene_prompt": "Raj, a young boy with black hair and a blue sweater pushes a low coffee table aside on a wooden floor."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) pushes a low coffee table aside on a wooden floor.",
+   "draw": "yes"
   },
   {
    "en": "He makes a mistake and drops a dirty cup.",
    "zh": "他一不小心，把一个脏杯子掉了下去。",
-   "scene_prompt": "A dirty cup slips from the hand of Raj, a young boy with black hair and a blue sweater and falls."
+   "scene_prompt": "A dirty cup slips from the hand of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and falls.",
+   "draw": "yes"
   },
   {
    "en": "The cup falls right on his left foot.",
    "zh": "杯子正好砸在他的左脚上。",
-   "scene_prompt": "Raj, a young boy with black hair and a blue sweater hops on one leg holding his left foot, a cup on the floor."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hops on one leg holding his left foot, a cup on the floor.",
+   "draw": "yes"
   },
   {
-   "en": "Zoe sends him to sit down for a second.",
-   "zh": "佐伊让他去坐一会儿。",
-   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt points to the sofa and Raj, a young boy with black hair and a blue sweater sits down with a sigh."
+   "en": "Lily sends him to sit down for a second.",
+   "zh": "莉莉让他去坐一会儿。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points to the sofa and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits down with a sigh.",
+   "draw": "partly",
+   "draw_note": "Shows Lily sending Ben to the sofa; 'for a second' can't be shown."
   },
   {
    "en": "\"That is the third cup today!\" she laughs.",
    "zh": "“这是今天的第三个杯子了！”她笑着说。",
-   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt laughs and holds up a cup while Raj, a young boy with black hair and a blue sweater smiles shyly on the sofa."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laughs and holds up a cup next to a tray with two other broken cups, while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles shyly on the sofa and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) laughs in her armchair.",
+   "draw": "partly",
+   "draw_note": "Shows Lily laughing with broken cups; the spoken words and 'third' can only be guessed."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

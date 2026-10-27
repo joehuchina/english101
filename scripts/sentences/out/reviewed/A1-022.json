@@ -23,54 +23,67 @@
  "setting": "A bright living room with a large window, a television and a radio.",
  "characters": [
   {
-   "name": "Zoe",
-   "look": "Zoe, a young girl with short black hair and a yellow shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Raj",
-   "look": "Raj, a young boy with glasses and a blue sweater"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
   }
  ],
  "sentences": [
   {
-   "en": "Zoe and Raj want to go to the beach.",
-   "zh": "佐伊和拉吉想去海滩。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Raj, a young boy with glasses and a blue sweater hold a beach ball and a bucket in the living room, looking excited."
+   "en": "Ben and Lily want to go to the beach.",
+   "zh": "本和莉莉想去海滩。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold a beach ball and a bucket in the living room, looking excited.",
+   "draw": "yes"
   },
   {
-   "en": "They need information about the weather tomorrow.",
-   "zh": "他们需要明天的天气信息。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Raj, a young boy with glasses and a blue sweater look out of the large window at a cloudy sky, thinking."
+   "en": "Lily looks at the gray sky through the glass.",
+   "zh": "莉莉透过玻璃望着灰色的天空。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) presses her hands against the large window glass and looks up at a cloudy gray sky, holding a bucket.",
+   "draw": "yes"
   },
   {
-   "en": "Raj looks in the newspaper but finds nothing.",
-   "zh": "拉吉翻了翻报纸，但什么也没找到。",
-   "scene_prompt": "Raj, a young boy with glasses and a blue sweater turns the pages of a big newspaper with a puzzled face."
+   "en": "Ben looks in the newspaper but finds nothing.",
+   "zh": "本翻了翻报纸，但什么也没找到。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) turns the pages of a big newspaper with a puzzled face.",
+   "draw": "partly",
+   "draw_note": "Shows Ben puzzled over a newspaper; 'finds nothing' is only implied."
   },
   {
-   "en": "Zoe's magazine only has pretty pictures of clothes.",
-   "zh": "佐伊的杂志里只有漂亮的衣服图片。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt flips through a magazine full of pictures of dresses and shoes."
+   "en": "Lily's magazine only has pretty pictures of clothes.",
+   "zh": "莉莉的杂志里只有漂亮的衣服图片。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) flips through a magazine full of pictures of dresses and shoes.",
+   "draw": "yes"
   },
   {
    "en": "Then they turn on the radio for the news.",
    "zh": "然后他们打开收音机听新闻。",
-   "scene_prompt": "Raj, a young boy with glasses and a blue sweater turns the knob of an old radio while Zoe, a young girl with short black hair and a yellow shirt listens closely."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) turns the knob of an old radio while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) listens closely.",
+   "draw": "partly",
+   "draw_note": "Shows the children listening to a radio; that it is the news can't be shown."
   },
   {
-   "en": "The television says rain is coming, too.",
-   "zh": "电视上也说要下雨了。",
-   "scene_prompt": "A television in the living room shows a map with big rain clouds; Zoe, a young girl with short black hair and a yellow shirt and Raj, a young boy with glasses and a blue sweater watch."
+   "en": "The television news gives the same information: rain.",
+   "zh": "电视新闻给出的信息也一样：要下雨。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watch a television showing a weather map full of rain clouds.",
+   "draw": "yes"
   },
   {
-   "en": "\"Why does it always rain?\" asks Zoe sadly.",
-   "zh": "“为什么总是下雨呢？”佐伊难过地问。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt sits sadly on the sofa with her chin in her hands, rain on the window."
+   "en": "\"Why does it always rain?\" asks Lily sadly.",
+   "zh": "“为什么总是下雨呢？”莉莉难过地问。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sits sadly on the sofa with her chin in her hands, rain on the window.",
+   "draw": "partly",
+   "draw_note": "Shows Lily sad about the rain; the question can only be guessed."
   },
   {
    "en": "They watch a funny video or play games.",
    "zh": "他们看搞笑视频或者玩游戏。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Raj, a young boy with glasses and a blue sweater laugh at a funny video on a tablet, board games on the table beside them."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laugh at a funny video on a tablet, board games on the table beside them.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

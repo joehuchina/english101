@@ -29,54 +29,73 @@
  "setting": "A bright family kitchen on a cold winter day.",
  "characters": [
   {
-   "name": "Ali",
-   "look": "Ali, a young boy with short black hair and a blue shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Rosa",
-   "look": "Rosa, a young girl with long brown hair and a yellow dress"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "max",
+   "name": "Max",
+   "look": "Max (a small brown dog with floppy ears and a red collar)"
   }
  ],
  "sentences": [
   {
    "en": "It is a slow Sunday in January.",
    "zh": "这是一月里一个悠闲的星期天。",
-   "scene_prompt": "A quiet kitchen in winter, snow outside the window; Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow dress sit relaxed in pyjamas."
+   "scene_prompt": "A quiet kitchen in winter, snow outside the window; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit relaxed in pyjamas, Max (a small brown dog with floppy ears and a red collar) asleep on the floor.",
+   "draw": "partly",
+   "draw_note": "Shows a lazy winter morning at home; 'Sunday' and 'January' can't be shown."
   },
   {
-   "en": "Making sandwiches is Rosa's favourite hobby.",
-   "zh": "做三明治是罗莎最喜欢的爱好。",
-   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow dress happily spreads butter on bread at the kitchen counter."
+   "en": "Making sandwiches is Lily's favourite hobby.",
+   "zh": "做三明治是莉莉最喜欢的爱好。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) happily spreads butter on bread at the kitchen counter.",
+   "draw": "yes"
   },
   {
    "en": "Today she makes a large number of them.",
    "zh": "今天她做了一大堆三明治。",
-   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow dress stands proudly beside a tall pile of sandwiches."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stands proudly beside a tall pile of sandwiches.",
+   "draw": "yes"
   },
   {
-   "en": "Ali puts chips in his and enjoys it.",
-   "zh": "阿里往自己的三明治里放了薯片，吃得很开心。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt pushes crisps into his sandwich and takes a happy bite."
+   "en": "Ben puts chips in his and enjoys it.",
+   "zh": "本往自己的三明治里放了薯片，吃得很开心。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) pushes crisps into his sandwich and takes a happy bite.",
+   "draw": "yes"
   },
   {
    "en": "They stand by the window and talk about school.",
    "zh": "他们站在窗边，聊着学校的事。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow dress stand by the window eating sandwiches and chatting."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stand by the window eating sandwiches and chatting, a school bag on a chair behind them.",
+   "draw": "partly",
+   "draw_note": "Shows them chatting by the window; what they talk about can only be guessed."
   },
   {
    "en": "They are full, so eating more is not possible.",
    "zh": "他们吃饱了，再也吃不下了。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow dress hold their full bellies, a few sandwiches still on the plate."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold their full bellies and shake their heads at a few sandwiches still on the plate.",
+   "draw": "partly",
+   "draw_note": "Shows them too full to eat; 'not possible' is only implied."
   },
   {
-   "en": "Then something funny happens: the cat takes one!",
-   "zh": "接着发生了一件好笑的事：猫叼走了一个！",
-   "scene_prompt": "A gray cat jumps onto the table and runs off with a sandwich in its mouth."
+   "en": "Then something funny happens: Max takes one!",
+   "zh": "接着发生了一件好笑的事：麦克斯叼走了一个！",
+   "scene_prompt": "Max (a small brown dog with floppy ears and a red collar) jumps up at the table and runs off with a sandwich in his mouth.",
+   "draw": "yes"
   },
   {
-   "en": "Rosa laughs, \"Our cat must love sandwiches too!\"",
-   "zh": "罗莎笑着说：“我们的猫一定也爱吃三明治！”",
-   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow dress laughs and points at the cat eating the sandwich while Ali, a young boy with short black hair and a blue shirt grins."
+   "en": "Lily laughs, \"Max must love sandwiches too!\"",
+   "zh": "莉莉笑着说：“麦克斯一定也爱吃三明治！”",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laughs and points at Max (a small brown dog with floppy ears and a red collar) eating the sandwich on the floor while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) grins.",
+   "draw": "partly",
+   "draw_note": "Shows Lily laughing at Max eating a sandwich; the spoken words can only be guessed."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

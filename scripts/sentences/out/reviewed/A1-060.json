@@ -28,54 +28,66 @@
  "setting": "A sunny green park with a path and a library behind it.",
  "characters": [
   {
-   "name": "Rosa",
-   "look": "Rosa, a girl with long brown hair and a yellow dress"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Ali",
-   "look": "Ali, a boy with short black hair and a blue shirt"
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   }
  ],
  "sentences": [
   {
-   "en": "Rosa and Ali go out in good weather.",
-   "zh": "天气很好，罗莎和阿里出门了。",
-   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt step out of a house into bright sunny weather."
+   "en": "Ben and Mia go out in good weather.",
+   "zh": "天气很好，本和米娅出门了。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) step out of a house into bright sunny weather.",
+   "draw": "yes"
   },
   {
-   "en": "Ali wears his new blue shirt.",
-   "zh": "阿里穿着他的新蓝衬衫。",
-   "scene_prompt": "Ali, a boy with short black hair and a blue shirt proudly shows his new blue shirt."
+   "en": "Ben wears his new green shirt.",
+   "zh": "本穿着他的新绿衬衫。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) proudly shows off his new green T-shirt.",
+   "draw": "yes"
   },
   {
    "en": "They follow a path to the park.",
    "zh": "他们沿着一条小路走到公园。",
-   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt walk along a path into a green park."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) walk along a path into a green park.",
+   "draw": "yes"
   },
   {
-   "en": "Ali gives Rosa a big bowl of salad.",
-   "zh": "阿里给了罗莎一大碗沙拉。",
-   "scene_prompt": "Ali, a boy with short black hair and a blue shirt hands a big bowl of green salad to Rosa, a girl with long brown hair and a yellow dress on the grass."
+   "en": "Ben gives Mia a big bowl of salad.",
+   "zh": "本给了米娅一大碗沙拉。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hands a big bowl of green salad to Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) on the grass.",
+   "draw": "yes"
   },
   {
-   "en": "They both think the salad is great.",
-   "zh": "他们俩都觉得沙拉很好吃。",
-   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt eat salad and give a thumbs up together."
+   "en": "They both smile and eat the great salad.",
+   "zh": "他们俩都笑着吃这份很棒的沙拉。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) smile and eat salad from the bowl, both giving a thumbs up.",
+   "draw": "yes"
   },
   {
    "en": "They do not want to miss French class.",
    "zh": "他们不想错过法语课。",
-   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress looks at her watch and jumps up, Ali, a boy with short black hair and a blue shirt packing the salad bowl."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) looks at her watch and jumps up while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) quickly packs the salad bowl.",
+   "draw": "partly",
+   "draw_note": "Shows Mia checking her watch and Ben packing up in a hurry; missing French class can't be shown."
   },
   {
    "en": "So they run to the library behind the park.",
    "zh": "于是他们跑向公园后面的图书馆。",
-   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt run toward a library building behind the park trees."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) run toward a library building behind the park trees.",
+   "draw": "yes"
   },
   {
    "en": "Inside, they practise each French word twice.",
    "zh": "在里面，他们把每个法语单词都练了两遍。",
-   "scene_prompt": "Inside a library, Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt sit at a table and say words aloud from a French book."
+   "scene_prompt": "Inside a library, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit at a table and read aloud together from a book with a French flag on the cover.",
+   "draw": "partly",
+   "draw_note": "Shows them reading aloud from a French book; 'each word twice' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

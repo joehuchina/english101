@@ -25,54 +25,67 @@
  "setting": "The lobby of a big hotel with a front desk and a guest computer.",
  "characters": [
   {
+   "id": "ben",
    "name": "Ben",
-   "look": "Ben, a young boy with short brown hair and a blue shirt"
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Dad",
-   "look": "his dad, a tall man with a short beard and a gray jacket"
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
   }
  ],
  "sentences": [
   {
-   "en": "Ben and his dad arrive at a big hotel.",
+   "en": "Ben and Dad arrive at a big hotel.",
    "zh": "本和爸爸到了一家大酒店。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and his dad, a tall man with a short beard and a gray jacket walk into a big hotel lobby pulling suitcases."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and his dad Dan (a tall man of about forty with a short brown beard and a navy jumper) walk into a big hotel lobby pulling suitcases.",
+   "draw": "yes"
   },
   {
    "en": "Ben's phone has no internet here.",
    "zh": "本的手机在这里上不了网。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt frowns at his phone in the hotel lobby."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) frowns at his phone in the hotel lobby, the phone screen grey and empty.",
+   "draw": "partly",
+   "draw_note": "Shows Ben frowning at a blank phone; 'no internet' is only hinted."
   },
   {
    "en": "He is lucky: the hotel has a computer.",
    "zh": "他运气不错：酒店有一台电脑。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt smiles and points at a computer on a desk in the lobby."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles and points at a computer on a desk in the lobby.",
+   "draw": "yes"
   },
   {
-   "en": "He sends Leo an email about the hotel website.",
-   "zh": "他给利奥发了一封电子邮件，介绍酒店的网站。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt types at the lobby computer, the screen showing the hotel's web page."
+   "en": "He sends Mia an email about the hotel website.",
+   "zh": "他给米娅发了一封电子邮件，介绍酒店的网站。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) types at the lobby computer, the screen showing a web page with a photo of the hotel.",
+   "draw": "partly",
+   "draw_note": "Shows Ben at the computer with a hotel web page; who receives the email can't be shown."
   },
   {
    "en": "Then he takes photos with his new camera.",
    "zh": "然后他用新相机拍照。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt takes a photo of the grand lobby with a small camera."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) takes a photo of the grand lobby with a small new camera.",
+   "draw": "yes"
   },
   {
-   "en": "Soon Leo sends him a happy message.",
-   "zh": "很快，利奥给他回了一条开心的消息。",
-   "scene_prompt": "The lobby computer screen shows a big smiley face; Ben, a young boy with short brown hair and a blue shirt grins."
+   "en": "Soon Mia sends him a happy message.",
+   "zh": "很快，米娅给他回了一条开心的消息。",
+   "scene_prompt": "The lobby computer screen shows a big yellow smiley face; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) grins at it.",
+   "draw": "partly",
+   "draw_note": "Shows a smiley face on the screen and Ben grinning; the sender and 'soon' can't be shown."
   },
   {
    "en": "Dad uses the desk telephone to call home.",
    "zh": "爸爸用前台的电话给家里打电话。",
-   "scene_prompt": "his dad, a tall man with a short beard and a gray jacket talks on an old telephone at the hotel front desk."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) talks on an old telephone at the hotel front desk.",
+   "draw": "yes"
   },
   {
    "en": "Next, Dad gets a hot drink from a machine.",
    "zh": "接着，爸爸从机器里买了一杯热饮。",
-   "scene_prompt": "his dad, a tall man with a short beard and a gray jacket takes a cup of hot coffee from a drinks machine while Ben, a young boy with short brown hair and a blue shirt watches."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) takes a cup of hot coffee from a drinks machine while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) watches.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -27,54 +27,67 @@
  "setting": "A bright living room in a British house with a large world map on the wall.",
  "characters": [
   {
+   "id": "ben",
    "name": "Ben",
-   "look": "Ben, a young boy with short brown hair and a blue shirt"
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Anna",
-   "look": "Anna, a young girl with long blonde hair and a yellow sweater"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
   }
  ],
  "sentences": [
   {
-   "en": "Ben and Anna are children in Britain.",
-   "zh": "本和安娜是住在英国的孩子。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater stand in front of a red-brick British house."
+   "en": "Ben and Lily are children in Britain.",
+   "zh": "本和莉莉是住在英国的孩子。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stand in front of a red-brick British house with a small British flag by the door.",
+   "draw": "yes"
   },
   {
    "en": "They look at a big map of the world.",
    "zh": "他们看着一张大大的世界地图。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater look at a large world map on the living room wall."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) look at a large world map without any writing on the living room wall.",
+   "draw": "yes"
   },
   {
-   "en": "They want to travel to many countries.",
-   "zh": "他们想去很多国家旅行。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater sit on the sofa with a suitcase, dreaming, in front of the world map."
+   "en": "They put clothes in a big bag to travel.",
+   "zh": "他们把衣服放进一个大包里，准备去旅行。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) put clothes into a big open travel bag on the floor in front of the world map.",
+   "draw": "partly",
+   "draw_note": "Shows the children filling a travel bag by the map; the plan to travel can only be guessed."
   },
   {
-   "en": "Ben wants to visit Japan and Sweden.",
-   "zh": "本想去日本和瑞典。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt points at Japan and then at Sweden on the world map."
+   "en": "Ben points at Japan and Sweden on the map.",
+   "zh": "本指着地图上的日本和瑞典。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) pins a small Japanese flag on Japan and a small Swedish flag on Sweden on the world map.",
+   "draw": "yes"
   },
   {
-   "en": "Anna likes Italy, Portugal and Switzerland.",
-   "zh": "安娜喜欢意大利、葡萄牙和瑞士。",
-   "scene_prompt": "Anna, a young girl with long blonde hair and a yellow sweater points at Italy, Portugal and Switzerland on the world map."
+   "en": "Lily points at Italy, Portugal and Switzerland.",
+   "zh": "莉莉指着意大利、葡萄牙和瑞士。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points at Italy, Portugal and Switzerland on the world map, each marked with a small flag of that country.",
+   "draw": "yes"
   },
   {
-   "en": "Their first trip goes west, across England.",
-   "zh": "他们的第一次旅行是向西穿过英格兰。",
-   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater trace a line westward across England on the map with their fingers."
+   "en": "Lily is a little afraid of flying.",
+   "zh": "莉莉有点害怕坐飞机。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) looks worried and holds a toy plane away from her, next to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
+   "draw": "partly",
+   "draw_note": "Shows Lily looking scared at a toy plane; 'a little' and the idea of flying are only suggested."
   },
   {
-   "en": "Anna is a little afraid of flying.",
-   "zh": "安娜有点害怕坐飞机。",
-   "scene_prompt": "Anna, a young girl with long blonde hair and a yellow sweater looks worried at a toy plane in her hand, next to Ben, a young boy with short brown hair and a blue shirt."
+   "en": "Their first trip goes west across England by car.",
+   "zh": "他们的第一次旅行是坐车向西穿过英格兰。",
+   "scene_prompt": "A small car drives along a green English country road toward the setting sun, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) waving from the back window.",
+   "draw": "partly",
+   "draw_note": "Shows the car driving toward the setting sun on an English road; 'first' and 'west' are only suggested."
   },
   {
-   "en": "A friendly driver takes them there by car.",
-   "zh": "一位友好的司机开车带他们去那里。",
-   "scene_prompt": "A friendly driver smiles at Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater in the back seat of a car on a country road."
+   "en": "A friendly driver smiles at them in the car.",
+   "zh": "一位友好的司机在车里冲他们微笑。",
+   "scene_prompt": "A friendly driver turns and smiles at Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) in the back seat of a car on a country road.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

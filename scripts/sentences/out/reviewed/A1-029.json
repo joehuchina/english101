@@ -29,54 +29,74 @@
  "setting": "A small house in the morning: a bathroom and a bright kitchen.",
  "characters": [
   {
-   "name": "Kofi",
-   "look": "Kofi, a young boy with short black hair and a blue shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Hana",
-   "look": "Hana, a young girl with long brown hair and a yellow dress"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
   }
  ],
  "sentences": [
   {
    "en": "The morning sun comes up in the east.",
    "zh": "早晨的太阳从东方升起。",
-   "scene_prompt": "The morning sun rises over the roofs, seen through a kitchen window."
+   "scene_prompt": "The morning sun rises over the roofs, seen through a kitchen window.",
+   "draw": "partly",
+   "draw_note": "Shows the sun rising; the direction 'east' can't be shown."
   },
   {
-   "en": "Kofi changes his wet socks in the bathroom.",
-   "zh": "科菲在卫生间换下湿袜子。",
-   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt sits in a small bathroom and pulls on dry socks, wet socks on the floor."
+   "en": "Ben changes his wet socks in the bathroom.",
+   "zh": "本在卫生间换下湿袜子。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits in a small bathroom and pulls on dry socks, wet socks on the floor.",
+   "draw": "yes"
   },
   {
-   "en": "Hana makes tea, her favorite morning drink.",
-   "zh": "哈娜泡茶，那是她早上最喜欢的饮料。",
-   "scene_prompt": "Hana, a young girl with long brown hair and a yellow dress pours hot tea from a teapot into a cup in the kitchen."
+   "en": "Mum makes tea, her favorite morning drink.",
+   "zh": "妈妈泡茶，那是她早上最喜欢的饮料。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) pours hot tea from a teapot into a cup in the kitchen, smiling.",
+   "draw": "partly",
+   "draw_note": "Shows Mum making tea; that it is her favorite can't be shown."
   },
   {
-   "en": "Kofi gets bread and a sharp knife.",
-   "zh": "科菲拿来面包和一把锋利的刀。",
-   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt takes a loaf of bread and a knife from the kitchen counter."
+   "en": "Ben gets bread and a sharp knife.",
+   "zh": "本拿来面包和一把锋利的刀。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) takes a loaf of bread and a knife from the kitchen counter.",
+   "draw": "yes"
   },
   {
    "en": "He cuts the bread into eighteen thin pieces.",
    "zh": "他把面包切成十八片薄片。",
-   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt cuts a loaf of bread into many thin slices on a wooden board."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) cuts a loaf of bread into many thin slices on a wooden board.",
+   "draw": "partly",
+   "draw_note": "Shows many thin slices; the exact number can't be read."
   },
   {
    "en": "Breakfast is ready, and it is time to eat.",
    "zh": "早餐准备好了，该吃饭了。",
-   "scene_prompt": "A kitchen table with bread, tea and plates, ready for breakfast."
+   "scene_prompt": "A kitchen table set with bread, tea, cups and plates, ready for breakfast.",
+   "draw": "partly",
+   "draw_note": "Shows a breakfast table ready; 'it is time' can't be shown."
   },
   {
-   "en": "Kofi sits down between Hana and the window.",
-   "zh": "科菲在哈娜和窗户之间坐下。",
-   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt sits down at the table between Hana, a young girl with long brown hair and a yellow dress and a sunny window."
+   "en": "Ben sits down between Lily and the window.",
+   "zh": "本在莉莉和窗户之间坐下。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits down at the table between Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and a sunny window.",
+   "draw": "yes"
   },
   {
-   "en": "Hana says thanks, and they both laugh.",
-   "zh": "哈娜说了声谢谢，两人都笑了。",
-   "scene_prompt": "Hana, a young girl with long brown hair and a yellow dress and Kofi, a young boy with short black hair and a blue shirt laugh together at the breakfast table."
+   "en": "Lily says thanks, and they both laugh.",
+   "zh": "莉莉说了声谢谢，两人都笑了。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) takes a slice of bread from Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and they laugh together at the breakfast table.",
+   "draw": "partly",
+   "draw_note": "Shows Lily taking bread and both laughing; the word 'thanks' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

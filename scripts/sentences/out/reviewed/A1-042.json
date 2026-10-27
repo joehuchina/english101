@@ -27,54 +27,65 @@
  "setting": "A cinema in town, then a cosy living room with a fireplace.",
  "characters": [
   {
+   "id": "mia",
    "name": "Mia",
-   "look": "Mia, a young girl with short brown hair and a red sweater"
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   },
   {
-   "name": "Sam",
-   "look": "Sam, a young boy with glasses and a blue shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   }
  ],
  "sentences": [
   {
-   "en": "Mia and Sam go to the cinema tonight.",
-   "zh": "米娅和萨姆今晚去电影院。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt walk into a bright cinema in the evening."
+   "en": "Mia and Ben go to the cinema tonight.",
+   "zh": "米娅和本今晚去电影院。",
+   "scene_prompt": "In the evening, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) walk into a bright cinema under a dark sky.",
+   "draw": "yes"
   },
   {
    "en": "First, they look at the snack menu.",
    "zh": "他们先看了看零食菜单。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt look up at a picture menu of popcorn and drinks at the cinema counter."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) look up at a picture menu of popcorn and drinks above the cinema counter.",
+   "draw": "yes"
   },
   {
    "en": "The film tells an exciting story.",
    "zh": "这部电影讲了一个精彩的故事。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt sit in the dark cinema with wide eyes, watching the big screen."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sit in the dark cinema with popcorn and wide, excited eyes, watching the big screen.",
+   "draw": "partly",
+   "draw_note": "Shows the children excited in the cinema; the story itself can't be shown."
   },
   {
    "en": "It is about a young Italian singer.",
    "zh": "电影讲的是一位年轻的意大利歌手。",
-   "scene_prompt": "On the big cinema screen, a young singer stands on a stage in a sunny Italian town."
+   "scene_prompt": "On the big cinema screen, a young woman singer stands on a stage in a sunny old Italian town square with Italian flags.",
+   "draw": "yes"
   },
   {
    "en": "She loves to sing and dance on stage.",
    "zh": "她喜欢在舞台上唱歌跳舞。",
-   "scene_prompt": "On the cinema screen, the young singer sings and dances on a stage under bright lights."
+   "scene_prompt": "On the cinema screen, the young singer sings and dances happily on a stage under bright lights.",
+   "draw": "yes"
   },
   {
    "en": "The dancing in the movie is beautiful.",
    "zh": "电影里的舞蹈很美。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt smile in their seats as dancers move across the cinema screen."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smile in their seats as many dancers move across the cinema screen.",
+   "draw": "yes"
   },
   {
-   "en": "By the fire, Sam draws the singer.",
-   "zh": "萨姆在炉火旁画那位歌手。",
-   "scene_prompt": "At home, Sam, a young boy with glasses and a blue shirt sits by a warm fireplace drawing a singer on paper."
+   "en": "At home, Ben draws the singer by the fire.",
+   "zh": "回到家，本在炉火边画那位歌手。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on the floor by a warm fireplace drawing a singer in a sketchbook.",
+   "draw": "yes"
   },
   {
-   "en": "Mia wants to be a movie writer one day.",
-   "zh": "米娅希望将来有一天成为电影编剧。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater sits by the fireplace writing in a notebook and dreaming, next to Sam, a young boy with glasses and a blue shirt."
+   "en": "Mia, a young writer, writes her own story.",
+   "zh": "米娅是个小作家，在写她自己的故事。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sits by the fireplace writing in a notebook with a pencil, next to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

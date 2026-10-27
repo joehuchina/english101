@@ -42,3 +42,11 @@ def load_words():
 
 def is_phrase(word):
     return bool(re.search(r"[\s\-'.]", word))
+
+
+def load_cast():
+    return json.loads((HERE / "cast.json").read_text())
+
+
+# Names earlier drafts used that are not in the cast; they must not appear any more.
+OLD_NAMES = {"Tom", "Mary", "Sam", "Jack", "Ali", "Emma", "Zoe", "Raj", "Lucy", "Aiko", "Finn", "Maya"}

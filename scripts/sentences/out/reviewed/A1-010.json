@@ -24,63 +24,73 @@
   "cut",
   "wake"
  ],
- "title": "A Visit to Aunt Lily",
- "title_zh": "看望莉莉姨妈",
- "setting": "Aunt Lily's cozy room in her house, on an autumn afternoon.",
+ "title": "A Visit to Their Aunt",
+ "title_zh": "看望姨妈",
+ "setting": "Their aunt's cozy room in her house, on an autumn afternoon.",
  "characters": [
   {
+   "id": "mia",
    "name": "Mia",
-   "look": "Mia, a young girl with short brown hair and a red sweater"
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   },
   {
-   "name": "Sam",
-   "look": "Sam, a young boy with blond hair and a blue shirt"
-  },
-  {
-   "name": "Aunt Lily",
-   "look": "Aunt Lily, a kind woman with long black hair and glasses"
+   "id": "leo",
+   "name": "Leo",
+   "look": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie)"
   }
  ],
  "sentences": [
   {
-   "en": "In October, Mia and Sam visit their aunt.",
-   "zh": "十月，米娅和萨姆去看望他们的姨妈。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with blond hair and a blue shirt walk up to a house with orange autumn leaves on the ground."
+   "en": "In October, Mia and Leo visit their aunt.",
+   "zh": "十月，米娅和里奥去看望他们的姨妈。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) walk up to a small house with orange autumn leaves on the ground.",
+   "draw": "partly",
+   "draw_note": "Shows Mia and Leo arriving at a house in autumn; 'October' can't be shown exactly."
   },
   {
    "en": "Their aunt is resting in her sunny room.",
    "zh": "他们的姨妈正在她阳光充足的房间里休息。",
-   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses rests in an armchair with a blanket in a sunny room."
+   "scene_prompt": "Their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) rests in an armchair with a blanket in a sunny room.",
+   "draw": "yes"
   },
   {
    "en": "She opens Mia's card and starts to smile.",
    "zh": "她打开米娅的贺卡，开始露出笑容。",
-   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses opens a handmade greeting card and smiles, Mia, a young girl with short brown hair and a red sweater beside her."
+   "scene_prompt": "In her armchair, their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) opens a handmade card with a flower picture and smiles; Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) stands beside her.",
+   "draw": "yes"
   },
   {
    "en": "\"I feel fine today,\" she says to them.",
    "zh": "“我今天感觉很好。”她对他们说。",
-   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses talks cheerfully to Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with blond hair and a blue shirt."
+   "scene_prompt": "Their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) sits up, looking well and cheerful, and talks to Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie).",
+   "draw": "partly",
+   "draw_note": "Shows the aunt looking well and talking to them; her spoken words can't be shown."
   },
   {
-   "en": "She lets Sam cut the cake for everyone.",
-   "zh": "她让萨姆给大家切蛋糕。",
-   "scene_prompt": "Sam, a young boy with blond hair and a blue shirt cuts a round cake on a small table while Aunt Lily, a kind woman with long black hair and glasses watches."
+   "en": "She lets Leo cut the cake for everyone.",
+   "zh": "她让里奥给大家切蛋糕。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) cuts a round cake on a small table while their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) watches.",
+   "draw": "yes"
   },
   {
    "en": "When they finish, they watch birds from the window.",
    "zh": "吃完以后，他们从窗户看鸟。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater, Sam, a young boy with blond hair and a blue shirt and Aunt Lily, a kind woman with long black hair and glasses look out of a window at birds in a tree, empty plates behind them."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) look out of a window at birds in a tree, empty plates behind them.",
+   "draw": "yes"
   },
   {
-   "en": "Aunt Lily sometimes tells funny stories about her life.",
-   "zh": "莉莉姨妈有时会讲她生活中的趣事。",
-   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses tells a story with lively hands while Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with blond hair and a blue shirt laugh."
+   "en": "Sometimes she tells funny stories about her life.",
+   "zh": "她有时会讲她生活中的趣事。",
+   "scene_prompt": "Their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) tells a story with lively hands while Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) laugh.",
+   "draw": "partly",
+   "draw_note": "Shows the aunt telling a story and the children laughing; 'sometimes' and the story itself can't be shown."
   },
   {
-   "en": "\"Our plan is to come back tomorrow,\" says Mia.",
-   "zh": "“我们打算明天再来。”米娅说。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater hugs Aunt Lily, a kind woman with long black hair and glasses goodbye at the door, Sam, a young boy with blond hair and a blue shirt waving."
+   "en": "\"Our plan for tomorrow is a picnic,\" says Mia.",
+   "zh": "“我们明天的计划是去野餐。”米娅说。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) shows their aunt (a kind woman of about fifty with grey curly hair, gold glasses and a long green dress) a crayon drawing of a picnic blanket and a basket under a tree; the aunt claps her hands.",
+   "draw": "partly",
+   "draw_note": "Shows Mia's drawing of a picnic and the happy aunt; 'tomorrow' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

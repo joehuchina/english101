@@ -24,49 +24,61 @@
  "setting": "A family house: a messy bedroom and a sunny kitchen.",
  "characters": [
   {
+   "id": "ben",
    "name": "Ben",
-   "look": "Ben, a boy of ten with short brown hair and a green T-shirt"
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
+   "id": "anna",
    "name": "Anna",
-   "look": "Anna, his older sister with long blonde hair in a ponytail"
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
   }
  ],
  "sentences": [
   {
    "en": "Ben wakes up at seven o'clock on Thursday.",
    "zh": "星期四，本七点钟醒来。",
-   "scene_prompt": "Ben, a boy of ten with short brown hair and a green T-shirt wakes up in bed, an alarm clock on the bedside table, morning light at the window."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) wakes up in bed and stretches, an alarm clock ringing on the bedside table, morning light at the window.",
+   "draw": "partly",
+   "draw_note": "Shows Ben waking up to a ringing alarm clock; the exact time and the day Thursday can't be shown."
   },
   {
    "en": "His clothes are all over the bedroom floor.",
    "zh": "他的衣服扔得卧室地板上到处都是。",
-   "scene_prompt": "A messy bedroom with shirts, trousers and socks all over the floor; Ben, a boy of ten with short brown hair and a green T-shirt stands in the middle."
+   "scene_prompt": "A messy bedroom with shirts, trousers and socks all over the floor; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stands in the middle of it.",
+   "draw": "yes"
   },
   {
    "en": "He only has ten minutes for breakfast.",
    "zh": "他只有十分钟吃早饭。",
-   "scene_prompt": "Ben, a boy of ten with short brown hair and a green T-shirt rushes into the kitchen, glancing at a wall clock."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) eats breakfast in a hurry at the kitchen table, his school bag already on his back.",
+   "draw": "partly",
+   "draw_note": "Shows Ben eating breakfast in a hurry; 'only ten minutes' can't be shown."
   },
   {
-   "en": "His sister Anna cuts oranges for fresh juice.",
-   "zh": "他姐姐安娜切橙子做鲜榨果汁。",
-   "scene_prompt": "Anna, his older sister with long blonde hair in a ponytail cuts oranges on a chopping board next to a juicer."
+   "en": "His mother Anna cuts oranges for juice.",
+   "zh": "他妈妈安娜切橙子榨果汁。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) cuts oranges on a chopping board next to a juicer in a sunny kitchen.",
+   "draw": "yes"
   },
   {
    "en": "She lets him use her new blue cup.",
    "zh": "她让他用她的新蓝杯子。",
-   "scene_prompt": "Anna, his older sister with long blonde hair in a ponytail hands a blue cup to Ben, a boy of ten with short brown hair and a green T-shirt at the kitchen table."
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hands a shiny new blue cup to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) at the kitchen table.",
+   "draw": "yes"
   },
   {
    "en": "Ben loves orange juice, even in winter.",
    "zh": "本很爱喝橙汁，就连冬天也喝。",
-   "scene_prompt": "Ben, a boy of ten with short brown hair and a green T-shirt happily drinks orange juice by a window with snow outside."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) happily drinks a big glass of orange juice by a window with snow falling outside.",
+   "draw": "yes"
   },
   {
    "en": "After a month, he feels very strong.",
    "zh": "一个月后，他觉得自己很强壮。",
-   "scene_prompt": "Ben, a boy of ten with short brown hair and a green T-shirt proudly shows the muscles of his arm next to a calendar."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) proudly shows the muscles of his arm and smiles, a glass of orange juice on the table beside him.",
+   "draw": "partly",
+   "draw_note": "Shows Ben proudly showing his strong arm; 'after a month' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

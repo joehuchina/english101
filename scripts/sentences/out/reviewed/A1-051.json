@@ -28,54 +28,66 @@
  "setting": "A bright living room with a large picture book on a table.",
  "characters": [
   {
-   "name": "Omar",
-   "look": "Omar, a young boy with short black hair and a blue shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Nina",
-   "look": "Nina, a young girl with long brown hair and a yellow dress"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
   }
  ],
  "sentences": [
   {
-   "en": "Omar and Nina read a big picture book.",
-   "zh": "奥马尔和妮娜在看一本大图画书。",
-   "scene_prompt": "Omar, a young boy with short black hair and a blue shirt and Nina, a young girl with long brown hair and a yellow dress sit at a table with a large open picture book."
+   "en": "Ben and Lily read a big picture book.",
+   "zh": "本和莉莉在看一本大图画书。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit at a table with a large open picture book.",
+   "draw": "yes"
   },
   {
    "en": "One page shows snow and ice on a mountain.",
    "zh": "有一页画着山上的雪和冰。",
-   "scene_prompt": "An open picture book page showing a tall mountain covered in snow and ice, seen over the shoulders of Omar, a young boy with short black hair and a blue shirt and Nina, a young girl with long brown hair and a yellow dress."
+   "scene_prompt": "An open picture book page showing a tall mountain covered in snow and ice, seen over the shoulders of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
+   "draw": "yes"
   },
   {
    "en": "Next, a lion sleeps on the sunny grass.",
    "zh": "接着，一头狮子睡在洒满阳光的草地上。",
-   "scene_prompt": "A picture book page showing a lion sleeping on green grass under bright sun, Nina, a young girl with long brown hair and a yellow dress pointing at it."
+   "scene_prompt": "A picture book page showing a lion sleeping on green grass under bright sun, Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) pointing at it.",
+   "draw": "yes"
   },
   {
    "en": "A tall giraffe eats leaves from a tree.",
    "zh": "一只高高的长颈鹿在吃树上的叶子。",
-   "scene_prompt": "A picture book page showing a tall giraffe eating leaves from a tree."
+   "scene_prompt": "A picture book page showing a tall giraffe eating leaves from a tree.",
+   "draw": "yes"
   },
   {
    "en": "A little bird sits on the giraffe's head.",
    "zh": "一只小鸟停在长颈鹿的头上。",
-   "scene_prompt": "A picture book page showing a small bird sitting on top of a giraffe's head."
+   "scene_prompt": "A picture book page showing a small bird sitting on top of a giraffe's head.",
+   "draw": "yes"
   },
   {
    "en": "In the rain, small plants grow very fast.",
    "zh": "在雨中，小植物长得很快。",
-   "scene_prompt": "A picture book page showing rain falling on small green plants sprouting from the ground."
+   "scene_prompt": "A picture book page showing rain falling on small green plants sprouting from the ground.",
+   "draw": "partly",
+   "draw_note": "Shows rain on small sprouting plants; 'very fast' can't be shown."
   },
   {
    "en": "A dog sleeps by a warm fire at Christmas.",
    "zh": "圣诞节时，一只狗睡在温暖的炉火旁。",
-   "scene_prompt": "A picture book page showing a dog sleeping by a warm fireplace next to a Christmas tree."
+   "scene_prompt": "A picture book page showing a dog sleeping by a warm fireplace next to a Christmas tree.",
+   "draw": "yes"
   },
   {
-   "en": "Nina helps Omar understand the long words.",
-   "zh": "妮娜帮奥马尔弄懂那些长单词。",
-   "scene_prompt": "Nina, a young girl with long brown hair and a yellow dress points at the book and explains while Omar, a young boy with short black hair and a blue shirt nods, understanding."
+   "en": "Ben helps Lily understand the long words.",
+   "zh": "本帮莉莉弄懂那些长单词。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) points at the open book and explains while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) nods with a happy face.",
+   "draw": "partly",
+   "draw_note": "Shows Ben explaining the book to a nodding Lily; understanding and the long words can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

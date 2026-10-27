@@ -26,61 +26,71 @@
  ],
  "title": "A Friday Evening",
  "title_zh": "一个星期五的晚上",
- "setting": "A bright, clean family home: a kitchen and a living room with a sofa.",
+ "setting": "A bright, clean family home: a kitchen and a living room with a sofa. Ben's baby cousin is visiting.",
  "characters": [
   {
-   "name": "Nina",
-   "look": "Nina, a girl of ten with long brown hair and a yellow shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Omar",
-   "look": "her dad Omar, a tall man with short black hair and glasses"
-  },
-  {
-   "name": "Baby",
-   "look": "her baby brother, a chubby baby in a white onesie"
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
   }
  ],
  "sentences": [
   {
-   "en": "On Friday evening, Nina cooks rice for dinner.",
-   "zh": "星期五晚上，妮娜煮米饭当晚餐。",
-   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt stirs a pot of rice on the stove in the evening."
+   "en": "On Friday evening, Ben cooks rice for dinner.",
+   "zh": "星期五晚上，本煮米饭当晚餐。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stirs a pot of rice on the stove, the kitchen window dark with evening sky.",
+   "draw": "partly",
+   "draw_note": "Shows Ben cooking rice in the evening; the day (Friday) can't be shown."
   },
   {
-   "en": "She spills some water on the clean floor.",
-   "zh": "她把一些水洒在了干净的地板上。",
-   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt looks surprised as water splashes from a jug onto a shiny clean floor."
+   "en": "He spills some water on the clean floor.",
+   "zh": "他把一些水洒在了干净的地板上。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks surprised as water splashes from a jug onto a shiny clean kitchen floor.",
+   "draw": "yes"
   },
   {
-   "en": "Nina is sorry, but Dad just smiles.",
-   "zh": "妮娜很抱歉，但爸爸只是笑了笑。",
-   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt looks sorry with her hands together while her dad Omar, a tall man with short black hair and glasses smiles kindly and holds a mop."
+   "en": "Ben is sorry, but Dad just smiles.",
+   "zh": "本很抱歉，但爸爸只是笑了笑。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks sorry with his hands together while his dad Dan (a tall man of about forty with a short brown beard and a navy jumper) smiles kindly and holds a mop.",
+   "draw": "yes"
   },
   {
    "en": "After dinner, Dad washes the baby's feet.",
    "zh": "晚饭后，爸爸给宝宝洗脚。",
-   "scene_prompt": "her dad Omar, a tall man with short black hair and glasses gently washes the little feet of her baby brother, a chubby baby in a white onesie in a small bowl of water."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) gently washes the little feet of a chubby baby in a white onesie in a small bowl of water, empty dinner plates on the table behind.",
+   "draw": "yes"
   },
   {
-   "en": "The baby often laughs when Nina says his name.",
-   "zh": "妮娜一叫宝宝的名字，他就常常咯咯笑。",
-   "scene_prompt": "her baby brother, a chubby baby in a white onesie laughs happily while Nina, a girl of ten with long brown hair and a yellow shirt leans in and calls to him."
+   "en": "The baby often laughs when Ben says his name.",
+   "zh": "本一叫宝宝的名字，他就常常咯咯笑。",
+   "scene_prompt": "A chubby baby in a white onesie laughs happily while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) leans in and calls to him.",
+   "draw": "partly",
+   "draw_note": "Shows Ben calling to a laughing baby; 'often' and the name can't be shown."
   },
   {
-   "en": "Then Nina sits on the sofa with a book.",
-   "zh": "然后妮娜拿着一本书坐到沙发上。",
-   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt sits on a soft sofa in the living room, opening a book."
+   "en": "Then Ben sits on the sofa with a book.",
+   "zh": "然后本拿着一本书坐到沙发上。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on a soft sofa in the living room, opening a book.",
+   "draw": "yes"
   },
   {
    "en": "It is a history book about France.",
    "zh": "这是一本关于法国历史的书。",
-   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt holds a book with an old French castle on the cover."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up a big book with the Eiffel Tower and an old French castle on the cover.",
+   "draw": "partly",
+   "draw_note": "Shows a book with French castle pictures; 'history' is only hinted by the old castle."
   },
   {
-   "en": "She reads half of it and dreams of holidays.",
-   "zh": "她读了一半，梦想着去那里度假。",
-   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt on the sofa with a half-read book, a dream bubble showing a sunny holiday in France."
+   "en": "He reads half of it in his warm socks.",
+   "zh": "他穿着暖和的袜子，读了一半。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) lies on the sofa with his feet up in thick warm striped socks, the book open at its middle.",
+   "draw": "partly",
+   "draw_note": "Shows Ben reading in warm socks with the book open in the middle; 'half' is only hinted."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

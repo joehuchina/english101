@@ -20,49 +20,59 @@
  "setting": "A quiet riverbank near a small wooden house.",
  "characters": [
   {
-   "name": "Rosa",
-   "look": "Rosa, a woman with long brown hair and a green shirt"
+   "id": "rosa",
+   "name": "Grandma Rosa",
+   "look": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick)"
   },
   {
-   "name": "Ali",
-   "look": "Ali, a man with short black hair and a blue shirt"
+   "id": "joe",
+   "name": "Grandpa Joe",
+   "look": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan)"
   }
  ],
  "sentences": [
   {
-   "en": "Ali and his wife Rosa sit by the river.",
-   "zh": "阿里和妻子罗莎坐在河边。",
-   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt sit together on the grassy bank of a calm river."
+   "en": "Grandma Rosa and Grandpa Joe sit by the river.",
+   "zh": "罗莎奶奶和乔爷爷坐在河边。",
+   "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) sit together on a bench on the grassy bank of a calm river.",
+   "draw": "yes"
   },
   {
-   "en": "They remember their trip to a hot country.",
-   "zh": "他们想起了去一个炎热国家的旅行。",
-   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt smile and look up dreamily by the river, a sunny hot land in a thought bubble."
+   "en": "They look at old photos and remember their trip.",
+   "zh": "他们看着旧照片，回忆起那次旅行。",
+   "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) smile over a small photo album open on their knees by the river; the photos show an elephant and a sunny hot land.",
+   "draw": "partly",
+   "draw_note": "Shows them smiling over old trip photos; remembering itself can't be shown."
   },
   {
    "en": "During the trip, they rode a big elephant.",
    "zh": "旅行期间，他们骑过一头大象。",
-   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt ride on the back of a big elephant in a hot sunny land."
+   "scene_prompt": "Close-up of a photo in the album: Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan), a little younger, ride on the back of a big elephant in a hot sunny land.",
+   "draw": "yes"
   },
   {
-   "en": "Rosa also rode a white horse one day.",
-   "zh": "有一天，罗莎还骑了一匹白马。",
-   "scene_prompt": "Rosa, a woman with long brown hair and a green shirt rides a white horse on a dusty path under a hot sun."
+   "en": "One day, Grandma Rosa also rode a white horse.",
+   "zh": "有一天，罗莎奶奶还骑了一匹白马。",
+   "scene_prompt": "Close-up of a photo in the album: Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick), without her walking stick, rides a white horse on a dusty path under a hot sun.",
+   "draw": "yes"
   },
   {
-   "en": "Each night, they slept in the same small house.",
-   "zh": "每天晚上，他们都睡在同一座小房子里。",
-   "scene_prompt": "A small house at night with lit windows, Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt walking toward its door."
+   "en": "They wore the same straw hats in every photo.",
+   "zh": "每张照片里他们都戴着一样的草帽。",
+   "scene_prompt": "Several photos in the open album show Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan), each wearing the same wide straw hat.",
+   "draw": "yes"
   },
   {
-   "en": "The house had only one big bed.",
-   "zh": "那座房子里只有一张大床。",
-   "scene_prompt": "Inside a small simple room with one big bed, Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt looking at it and laughing."
+   "en": "Their little house had only one big bed.",
+   "zh": "他们住的小房子里只有一张大床。",
+   "scene_prompt": "Close-up of a photo in the album: a small simple room with one big bed, Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) in straw hats laughing beside it.",
+   "draw": "yes"
   },
   {
-   "en": "Now they laugh and remember those happy days.",
-   "zh": "现在他们笑着回忆那些快乐的日子。",
-   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt laugh together by the river at sunset."
+   "en": "Grandpa Joe kisses his wife, and they laugh.",
+   "zh": "乔爷爷亲了亲妻子，两人都笑了。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) kisses Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) on the cheek and they laugh together by the river at sunset.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

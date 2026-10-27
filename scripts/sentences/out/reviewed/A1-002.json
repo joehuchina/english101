@@ -29,54 +29,66 @@
  "setting": "A green park on a cool spring day.",
  "characters": [
   {
+   "id": "leo",
    "name": "Leo",
-   "look": "Leo, a tall boy with short brown hair"
+   "look": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie)"
   },
   {
+   "id": "mia",
    "name": "Mia",
-   "look": "Mia, a small girl in a red coat and a red hat"
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   }
  ],
  "sentences": [
   {
    "en": "On Tuesday, Leo and Mia go to the park.",
    "zh": "星期二，里奥和米娅去公园。",
-   "scene_prompt": "Leo, a tall boy with short brown hair and Mia, a small girl in a red coat and a red hat walk through the gate of a green park."
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) walk through the gate of a green park on a cool spring day.",
+   "draw": "partly",
+   "draw_note": "Shows Leo and Mia walking into the park; the day Tuesday can't be shown."
   },
   {
    "en": "He is really tall and strong; Mia is small.",
    "zh": "他又高又壮，米娅却很小。",
-   "scene_prompt": "Leo, a tall boy with short brown hair, tall and broad-shouldered, stands next to Mia, a small girl in a red coat and a red hat; he is twice her height."
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stands next to Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) on the park path; he is twice her height.",
+   "draw": "yes"
   },
   {
    "en": "Mia wears a red coat and a hat.",
    "zh": "米娅穿着红外套，戴着帽子。",
-   "scene_prompt": "Close view of Mia, a small girl in a red coat and a red hat smiling in her red coat and red hat."
+   "scene_prompt": "Close view of Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), now wearing a red coat over her hoodie and a red woolly hat, smiling.",
+   "draw": "yes"
   },
   {
    "en": "Their school has a fun activity there today.",
    "zh": "他们学校今天在那里有一个有趣的活动。",
-   "scene_prompt": "Children in sports clothes line up for a race on the park grass, a teacher in front."
+   "scene_prompt": "Children in sports clothes line up for a race on the park grass, a teacher with a whistle in front, Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) among them.",
+   "draw": "yes"
   },
   {
    "en": "Leo is fast, and Mia also runs quickly.",
    "zh": "里奥跑得快，米娅也跑得很快。",
-   "scene_prompt": "Leo, a tall boy with short brown hair and Mia, a small girl in a red coat and a red hat race across the grass with other children."
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) race across the grass with other children, both running fast.",
+   "draw": "yes"
   },
   {
    "en": "Mia falls, and mud gets on her clothes.",
    "zh": "米娅摔倒了，衣服上沾满了泥。",
-   "scene_prompt": "Mia, a small girl in a red coat and a red hat sits on the muddy grass after a fall, her coat dirty, about to cry."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), in her red coat, sits on the muddy grass after a fall, her coat and jeans dirty, about to cry.",
+   "draw": "yes"
   },
   {
    "en": "Leo gives her a sandwich from his lunch.",
    "zh": "里奥把午饭里的一块三明治给了她。",
-   "scene_prompt": "Leo, a tall boy with short brown hair kneels and offers Mia, a small girl in a red coat and a red hat a sandwich from his lunch box."
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) kneels and offers Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) a sandwich from his open lunch box.",
+   "draw": "yes"
   },
   {
    "en": "Soon nothing hurts, and she runs without crying.",
    "zh": "很快就不疼了，她又跑了起来，不再哭了。",
-   "scene_prompt": "Mia, a small girl in a red coat and a red hat runs again on the grass, smiling, Leo, a tall boy with short brown hair cheering beside her."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) runs again on the grass, smiling, her face dry, while Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) cheers beside her.",
+   "draw": "partly",
+   "draw_note": "Shows Mia running again, happy and not crying; 'nothing hurts' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

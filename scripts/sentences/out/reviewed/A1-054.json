@@ -26,54 +26,66 @@
  "setting": "A university library on a rainy spring day.",
  "characters": [
   {
-   "name": "Zoe",
-   "look": "Zoe, a young woman with long brown hair and a green sweater"
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
   },
   {
-   "name": "Raj",
-   "look": "Raj, a young man with short black hair and glasses"
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
   }
  ],
  "sentences": [
   {
-   "en": "On a rainy spring day, Zoe and Raj study.",
-   "zh": "在一个下雨的春日，佐伊和拉吉在学习。",
-   "scene_prompt": "Zoe, a young woman with long brown hair and a green sweater and Raj, a young man with short black hair and glasses sit at a desk with books, rain on the window and spring blossoms outside."
+   "en": "On a rainy spring day, Sara and Kofi study.",
+   "zh": "在一个下雨的春日，萨拉和科菲在学习。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) sit at a desk with books, rain on the window and spring blossoms outside.",
+   "draw": "yes"
   },
   {
-   "en": "They sit in the library of their university.",
-   "zh": "他们坐在大学的图书馆里。",
-   "scene_prompt": "Zoe, a young woman with long brown hair and a green sweater and Raj, a young man with short black hair and glasses at a long table in a large university library with tall bookshelves."
+   "en": "They sit in the library of her university.",
+   "zh": "他们坐在她所在大学的图书馆里。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) at a long table in a large university library with tall bookshelves.",
+   "draw": "yes"
   },
   {
-   "en": "Raj learns the Spanish language at his college.",
-   "zh": "拉吉在他的学院学习西班牙语。",
-   "scene_prompt": "Raj, a young man with short black hair and glasses reads a Spanish textbook with a small Spanish flag on its cover."
+   "en": "Sara learns the Spanish language at her college.",
+   "zh": "萨拉在她的学院学习西班牙语。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) reads a textbook with a small Spanish flag on its cover.",
+   "draw": "yes"
   },
   {
-   "en": "He must describe his home in Spanish.",
-   "zh": "他得用西班牙语描述自己的家。",
-   "scene_prompt": "Raj, a young man with short black hair and glasses thinks about his home, a small house in a thought bubble, pencil in hand."
+   "en": "She must describe a photo of her home.",
+   "zh": "她得描述一张她家的照片。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holds a photo of a small white house next to her open notebook, pencil in hand.",
+   "draw": "partly",
+   "draw_note": "Shows Sara with a photo of her house and her notebook; the task of describing it can't be shown."
   },
   {
-   "en": "He writes a hundred words in his book.",
-   "zh": "他在本子上写了一百个词。",
-   "scene_prompt": "Raj, a young man with short black hair and glasses writes in a notebook filled with many lines of handwriting."
+   "en": "She writes a hundred words in her book.",
+   "zh": "她在本子上写了一百个词。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) writes in a notebook filled with many lines of small wavy handwriting.",
+   "draw": "partly",
+   "draw_note": "Shows Sara writing many lines in her notebook; the exact number can't be shown."
   },
   {
-   "en": "Raj makes a mistake and feels angry.",
-   "zh": "拉吉写错了，很生气。",
-   "scene_prompt": "Raj, a young man with short black hair and glasses looks angry at a mistake in his notebook, frowning."
+   "en": "Sara makes a mistake and feels angry.",
+   "zh": "萨拉写错了，很生气。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) frowns angrily at a crossed-out line in her notebook.",
+   "draw": "yes"
   },
   {
-   "en": "Zoe gives him her eraser with a smile.",
-   "zh": "佐伊笑着把她的橡皮递给他。",
-   "scene_prompt": "Zoe, a young woman with long brown hair and a green sweater smiles and hands a pink eraser to Raj, a young man with short black hair and glasses."
+   "en": "Kofi gives her his eraser with a smile.",
+   "zh": "科菲笑着把他的橡皮递给她。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles and hands a pink eraser to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt).",
+   "draw": "yes"
   },
   {
-   "en": "Then she helps him with her dictionary.",
-   "zh": "然后她用她的词典帮助他。",
-   "scene_prompt": "Zoe, a young woman with long brown hair and a green sweater opens a thick dictionary and shows a page to Raj, a young man with short black hair and glasses."
+   "en": "Then he helps her with his dictionary.",
+   "zh": "然后他用他的词典帮助她。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) opens a thick dictionary and shows a page to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt).",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

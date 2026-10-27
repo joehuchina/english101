@@ -24,63 +24,77 @@
   "strong",
   "month"
  ],
- "title": "Thursday at Mister Raj's Shop",
- "title_zh": "星期四在拉吉先生的小店",
+ "title": "Thursday at Mister Omar's Shop",
+ "title_zh": "星期四在奥马尔先生的小店",
  "setting": "A small, busy corner shop with a pizza oven and a food counter.",
  "characters": [
   {
-   "name": "Zoe",
-   "look": "Zoe, a young girl with short brown hair and a green shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Lucy",
-   "look": "Lucy, her sister, a young girl with long blonde hair and a red sweater"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
   },
   {
-   "name": "Mister Raj",
-   "look": "Mister Raj, a tall shopkeeper with glasses and a blue shirt"
+   "id": "omar",
+   "name": "Omar",
+   "look": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron)"
   }
  ],
  "sentences": [
   {
-   "en": "On Thursday, Zoe and her sister Lucy go shopping.",
-   "zh": "星期四，佐伊和她的妹妹露西去买东西。",
-   "scene_prompt": "Zoe, a young girl with short brown hair and a green shirt and Lucy, her sister, a young girl with long blonde hair and a red sweater walk happily down a street with shopping bags."
+   "en": "On Thursday, Ben and his sister Lily go shopping.",
+   "zh": "星期四，本和他的妹妹莉莉去买东西。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk hand in hand along the street towards a small corner shop.",
+   "draw": "partly",
+   "draw_note": "Shows Ben and Lily going to the shop; the day Thursday can't be shown."
   },
   {
-   "en": "Mister Raj opens the door of his shop.",
-   "zh": "拉吉先生打开了他小店的门。",
-   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt holds open the door of a small corner shop for Zoe, a young girl with short brown hair and a green shirt and Lucy, her sister, a young girl with long blonde hair and a red sweater."
+   "en": "Mister Omar opens the door of his shop.",
+   "zh": "奥马尔先生打开了他小店的门。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) opens the glass door of his small corner shop with a smile.",
+   "draw": "yes"
   },
   {
    "en": "A long line of people waits inside.",
    "zh": "店里有一长队人在等着。",
-   "scene_prompt": "A long queue of customers stands inside a small, busy corner shop."
+   "scene_prompt": "Inside the busy shop, a long line of customers waits at the food counter; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stand at the end.",
+   "draw": "yes"
   },
   {
-   "en": "Lucy buys toothpaste and a pair of socks.",
-   "zh": "露西买了牙膏和一双袜子。",
-   "scene_prompt": "Lucy, her sister, a young girl with long blonde hair and a red sweater puts a tube of toothpaste and a pair of striped socks on the counter."
+   "en": "Lily buys toothpaste and a pair of socks.",
+   "zh": "莉莉买了牙膏和一双袜子。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) puts a tube of toothpaste and a pair of striped socks on the counter.",
+   "draw": "yes"
   },
   {
-   "en": "Zoe reads the menu and wants a pizza.",
-   "zh": "佐伊看了菜单，想要一个比萨饼。",
-   "scene_prompt": "Zoe, a young girl with short brown hair and a green shirt looks up at a picture menu with pizzas above the food counter."
+   "en": "Ben reads the menu and wants a pizza.",
+   "zh": "本看了菜单，想要一个比萨饼。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks up at a menu board with pictures of pizzas and drinks and points at a pizza.",
+   "draw": "yes"
   },
   {
-   "en": "Raj bakes it over a strong fire.",
-   "zh": "拉吉在旺火上烤比萨饼。",
-   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt slides a pizza into a brick oven with a big, bright fire."
+   "en": "Omar bakes it over a strong fire.",
+   "zh": "奥马尔在旺火上烤比萨饼。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) slides a pizza into a brick oven with big, bright flames.",
+   "draw": "yes"
   },
   {
    "en": "\"Help yourself to the last banana,\" he says.",
    "zh": "“最后一根香蕉你自己拿吧。”他说。",
-   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt smiles and points Zoe, a young girl with short brown hair and a green shirt to a basket with one last banana."
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) smiles and holds out a fruit bowl with only one banana in it to Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
+   "draw": "partly",
+   "draw_note": "Shows Omar offering the one banana left; his exact words can't be shown."
   },
   {
-   "en": "\"Listen, Zoe, do not forget your bag!\"",
-   "zh": "“听着，佐伊，别忘了你的包！”",
-   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt holds up a shopping bag and calls after Zoe, a young girl with short brown hair and a green shirt at the door, Lucy, her sister, a young girl with long blonde hair and a red sweater beside her."
+   "en": "\"Listen, Ben, do not forget your bag!\"",
+   "zh": "“听着，本，别忘了你的包！”",
+   "scene_prompt": "At the shop door, Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) calls out and holds up a school bag while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), holding a pizza box, turns round.",
+   "draw": "partly",
+   "draw_note": "Shows Omar calling Ben back and holding up his bag; the spoken words can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -24,63 +24,78 @@
   "rome",
   "east"
  ],
- "title": "Ali's English Class",
- "title_zh": "阿里的英语课",
+ "title": "Ben's English Class",
+ "title_zh": "本的英语课",
  "setting": "A bright classroom in a school.",
  "characters": [
   {
-   "name": "Ali",
-   "look": "Ali, a young boy with short black hair and a blue shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Rosa",
-   "look": "Rosa, a young girl with long brown hair and a yellow sweater"
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   },
   {
-   "name": "Teacher",
-   "look": "the teacher, a kind woman with glasses and a white shirt"
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
   }
  ],
  "sentences": [
   {
-   "en": "Ali is a beginner in this English course.",
-   "zh": "阿里是这门英语课程的初学者。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt sits at a desk in a bright classroom with an English book."
+   "en": "Ben is a beginner in this English course.",
+   "zh": "本是这门英语课程的初学者。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits at a desk in a bright classroom with a new, unopened English book, looking a little unsure.",
+   "draw": "partly",
+   "draw_note": "Shows Ben with a new book in class; 'beginner' and 'course' can't really be shown."
   },
   {
    "en": "His class has English at school every morning.",
    "zh": "他们班每天早上在学校上英语课。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow sweater sit with other children in a school classroom in the morning sun."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit with other children in a school classroom in the morning sun.",
+   "draw": "partly",
+   "draw_note": "Shows the class in the morning; 'every morning' and 'English' can't be shown."
   },
   {
-   "en": "The teacher stands at the blackboard with chalk.",
-   "zh": "老师拿着粉笔站在黑板前。",
-   "scene_prompt": "the teacher, a kind woman with glasses and a white shirt stands at a big blackboard holding a piece of chalk."
+   "en": "Their teacher Kofi stands at the blackboard with chalk.",
+   "zh": "他们的老师科菲拿着粉笔站在黑板前。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) stands at a big clean blackboard holding a piece of white chalk.",
+   "draw": "yes"
   },
   {
-   "en": "Ali draws lines on paper with his ruler.",
-   "zh": "阿里用尺子在纸上画线。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt draws straight lines on a white sheet of paper with a ruler."
+   "en": "Ben draws lines on paper with his ruler.",
+   "zh": "本用尺子在纸上画线。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) draws straight lines on a white sheet of paper with a ruler.",
+   "draw": "yes"
   },
   {
    "en": "Then he writes the new words in his notebook.",
    "zh": "然后他把新单词写进笔记本。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt writes carefully in an open notebook on his desk."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) writes carefully in an open notebook on his desk.",
+   "draw": "yes"
   },
   {
-   "en": "Rosa helps him study and spell the words.",
-   "zh": "罗莎帮他学习和拼写这些单词。",
-   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow sweater points at Ali, a young boy with short black hair and a blue shirt's notebook and helps him, both smiling."
+   "en": "Mia helps him study and spell the words.",
+   "zh": "米娅帮他学习和拼写这些单词。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) points at the notebook of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and helps him, both smiling.",
+   "draw": "yes"
   },
   {
-   "en": "Ali wants to learn every word for the exam.",
-   "zh": "阿里想为考试学会每一个单词。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt reads his notebook with a serious face, Rosa, a young girl with long brown hair and a yellow sweater beside him."
+   "en": "Ben wants to learn every word for the exam.",
+   "zh": "本想为考试学会每一个单词。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) reads his notebook with a serious face, a pile of exam papers lying face down on the teacher's desk.",
+   "draw": "partly",
+   "draw_note": "Shows Ben studying hard with exam papers nearby; 'wants to learn every word' can't be shown."
   },
   {
-   "en": "If he does well, his holiday is in Rome.",
-   "zh": "如果他考得好，他就去罗马度假。",
-   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt dreams of a holiday in Rome, a picture of an old Roman building in a thought bubble."
+   "en": "Kofi asks if anyone had a holiday in Rome.",
+   "zh": "科菲问有没有人去罗马度过假。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) holds up a big photo of the old Colosseum in Rome; Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) raises her hand happily.",
+   "draw": "partly",
+   "draw_note": "Shows Kofi with a photo of Rome and Mia raising her hand; the question itself can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

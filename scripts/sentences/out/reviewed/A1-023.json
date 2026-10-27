@@ -29,54 +29,68 @@
  "setting": "A cozy kitchen with an open window on a gray day.",
  "characters": [
   {
-   "name": "Aiko",
-   "look": "Aiko, a young woman with short black hair and a white apron"
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
   },
   {
+   "id": "dan",
    "name": "Dan",
-   "look": "Dan, a tall man with brown hair and a blue shirt"
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
   }
  ],
  "sentences": [
   {
-   "en": "Aiko bakes a cake in her quiet kitchen.",
-   "zh": "爱子在安静的厨房里烤蛋糕。",
-   "scene_prompt": "Aiko, a young woman with short black hair and a white apron mixes cake batter in a bowl in a calm, cozy kitchen."
+   "en": "Anna is alone in her quiet kitchen.",
+   "zh": "安娜一个人在安静的厨房里。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) stands alone in a calm, tidy kitchen with a mixing bowl.",
+   "draw": "yes"
   },
   {
-   "en": "It is important: today is Dan's birthday.",
-   "zh": "今天很重要：是丹的生日。",
-   "scene_prompt": "Aiko, a young woman with short black hair and a white apron looks at a wall calendar with a big red heart drawn on it."
+   "en": "Dan's birthday is important to her every year.",
+   "zh": "丹的生日每年对她来说都很重要。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hangs birthday balloons in the kitchen.",
+   "draw": "partly",
+   "draw_note": "Shows birthday balloons; 'every year' cannot be shown."
   },
   {
-   "en": "She bakes this special cake once every year.",
-   "zh": "这种特别的蛋糕她每年只烤一次。",
-   "scene_prompt": "Aiko, a young woman with short black hair and a white apron takes a special old cake tin from a high shelf."
+   "en": "Once a year, she bakes him this nice cake.",
+   "zh": "她每年给他烤一次这种好吃的蛋糕。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) puts a round cake into the oven.",
+   "draw": "partly",
+   "draw_note": "Shows Anna baking; 'once a year' cannot be shown."
   },
   {
    "en": "She adds sugar, fruit and a glass of milk.",
    "zh": "她加入糖、水果和一杯牛奶。",
-   "scene_prompt": "Aiko, a young woman with short black hair and a white apron pours a glass of milk into a bowl with sugar and fruit beside it."
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), in a white apron, pours a glass of milk into a bowl with sugar and fruit beside it.",
+   "draw": "yes"
   },
   {
    "en": "Outside the open window, the sky is gray.",
    "zh": "敞开的窗外，天空灰蒙蒙的。",
-   "scene_prompt": "An open kitchen window shows a gray, cloudy sky; a cake cools on the sill."
+   "scene_prompt": "An open kitchen window shows a gray, cloudy sky; a cake cools on the sill.",
+   "draw": "yes"
   },
   {
    "en": "Dan is late, but he usually comes early.",
    "zh": "丹迟到了，可他通常都来得很早。",
-   "scene_prompt": "Aiko, a young woman with short black hair and a white apron waits by the finished cake, looking at the wall clock with a worried face."
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), in a white apron, waits by the finished cake and looks out of the window at an empty garden path with a worried face.",
+   "draw": "partly",
+   "draw_note": "Shows Anna waiting and worried; 'late' and 'usually early' can't be shown."
   },
   {
    "en": "Then she hears a sound: Dan is back!",
    "zh": "接着她听到一个声音：丹回来了！",
-   "scene_prompt": "Aiko, a young woman with short black hair and a white apron turns towards the opening front door as Dan, a tall man with brown hair and a blue shirt steps in."
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), in a white apron, turns with a smile towards the opening front door as Dan (a tall man of about forty with a short brown beard and a navy jumper) steps in.",
+   "draw": "yes"
   },
   {
-   "en": "\"My dear, your cakes are always nice,\" says Dan.",
-   "zh": "“亲爱的，你做的蛋糕总是很好吃。”丹说。",
-   "scene_prompt": "Dan, a tall man with brown hair and a blue shirt eats a piece of cake and smiles at Aiko, a young woman with short black hair and a white apron at the kitchen table."
+   "en": "\"Dear, your cakes are always the best!\" says Dan.",
+   "zh": "“亲爱的，你做的蛋糕总是最好吃！”丹说。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) eats a big piece of cake at the table and smiles at Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan).",
+   "draw": "partly",
+   "draw_note": "Shows Dan happily eating; the words are not shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

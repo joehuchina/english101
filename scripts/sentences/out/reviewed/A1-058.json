@@ -28,54 +28,67 @@
  "setting": "A cosy house with a living room and a small bathroom.",
  "characters": [
   {
+   "id": "lily",
    "name": "Lily",
-   "look": "Lily, a young girl with long brown hair and a yellow shirt"
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
   },
   {
-   "name": "Grandmother",
-   "look": "Grandmother, an old woman with grey hair and glasses"
+   "id": "rosa",
+   "name": "Grandma Rosa",
+   "look": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick)"
   }
  ],
  "sentences": [
   {
    "en": "Lily is at home with her grandmother.",
    "zh": "莉莉和奶奶在家里。",
-   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt and Grandmother, an old woman with grey hair and glasses sit together on a sofa in a cosy living room."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) sit together on a sofa in a cosy living room.",
+   "draw": "yes"
   },
   {
    "en": "A calendar with flowers is on the wall.",
    "zh": "墙上挂着一本印着花的日历。",
-   "scene_prompt": "A calendar decorated with flowers hangs on a living room wall."
+   "scene_prompt": "A calendar of plain empty squares decorated with flower pictures hangs on a living room wall.",
+   "draw": "yes"
   },
   {
-   "en": "Lily's next school trip is on that date.",
-   "zh": "莉莉下一次学校出游就在那一天。",
-   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt points at a circled day on the flower calendar, Grandmother, an old woman with grey hair and glasses watching."
+   "en": "Lily draws a red circle around a date.",
+   "zh": "莉莉在一个日期上画了个红圈。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) draws a red circle around one plain square on the flower calendar, Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) watching.",
+   "draw": "yes"
   },
   {
-   "en": "The student needs some new pants for it.",
-   "zh": "这个学生需要几条新裤子去出游。",
-   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt holds up old short pants that are too small for her, looking at Grandmother, an old woman with grey hair and glasses."
+   "en": "The student needs new pants for her next trip.",
+   "zh": "这个学生下次出游需要新裤子。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) holds up old pants against her legs that are far too short for her, looking at Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick).",
+   "draw": "partly",
+   "draw_note": "Shows Lily holding up pants that are too small; the next school trip can't be shown."
   },
   {
-   "en": "Grandmother holds two pairs of pants on her arm.",
-   "zh": "奶奶手臂上搭着两条裤子。",
-   "scene_prompt": "Grandmother, an old woman with grey hair and glasses holds a pair of blue pants and a pair of green pants over her arm."
+   "en": "Grandma has some new pants on her arm.",
+   "zh": "奶奶手臂上搭着几条新裤子。",
+   "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) holds a pair of blue pants and a pair of green pants over her arm.",
+   "draw": "yes"
   },
   {
    "en": "Lily cannot decide which pair she likes more.",
    "zh": "莉莉拿不定主意更喜欢哪一条。",
-   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt looks back and forth between the blue pants and the green pants."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) looks back and forth between the blue pants and the green pants, a finger on her chin.",
+   "draw": "partly",
+   "draw_note": "Shows Lily looking from one pair to the other; her choice and 'more' can only be guessed."
   },
   {
    "en": "She goes to the toilet to try them on.",
    "zh": "她走进洗手间去试穿这两条裤子。",
-   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt carries the blue pants into a small bathroom with a toilet."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) carries the blue pants into a small bathroom with a toilet.",
+   "draw": "yes"
   },
   {
-   "en": "They are very long, but Grandmother finds a way.",
+   "en": "They are very long, but Grandma finds a way.",
    "zh": "裤子太长了，但奶奶想到了办法。",
-   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt wears blue pants that cover her feet while Grandmother, an old woman with grey hair and glasses kneels and rolls up the legs."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wears blue pants that cover her feet while Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) kneels and rolls up the legs.",
+   "draw": "partly",
+   "draw_note": "Shows Grandma rolling up the too-long pants; 'finds a way' is shown only through her action."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

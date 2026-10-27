@@ -29,54 +29,67 @@
  "setting": "A small, bright bookshop with a little cafe corner, on a cold winter day.",
  "characters": [
   {
+   "id": "mia",
    "name": "Mia",
-   "look": "Mia, a young girl with short brown hair and a green shirt"
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   },
   {
-   "name": "Sam",
-   "look": "Sam, a young boy with glasses and a yellow hat"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   }
  ],
  "sentences": [
   {
-   "en": "In February, Mia and Sam visit a bookshop.",
-   "zh": "二月里，米娅和萨姆去逛一家书店。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a green shirt and Sam, a young boy with glasses and a yellow hat walk into a small bright bookshop, snowy street behind them."
+   "en": "In February, Mia and Ben visit a bookshop.",
+   "zh": "二月里，米娅和本去逛一家书店。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), in a winter coat, and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), in a winter coat and a yellow woolly hat, walk into a small bright bookshop, snowy street behind them.",
+   "draw": "partly",
+   "draw_note": "Shows a winter visit to a bookshop; the month can't be shown."
   },
   {
    "en": "Mia buys a blue book about birds there.",
    "zh": "米娅在那里买了一本讲鸟的蓝色书。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a green shirt holds up a blue book with a bird on the cover at the bookshop counter."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) holds up a blue book with a bird on the cover at the bookshop counter.",
+   "draw": "yes"
   },
   {
    "en": "Then they eat egg sandwiches and hot chips.",
    "zh": "然后他们吃鸡蛋三明治和热薯条。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a green shirt and Sam, a young boy with glasses and a yellow hat sit at a little table in the bookshop cafe with egg sandwiches and a bowl of hot chips."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), with a yellow woolly hat, sit at a little table in the bookshop cafe with egg sandwiches and a bowl of hot chips.",
+   "draw": "yes"
   },
   {
-   "en": "Sam drops his plate, and it breaks.",
-   "zh": "萨姆把盘子掉在地上，盘子摔碎了。",
-   "scene_prompt": "Sam, a young boy with glasses and a yellow hat looks shocked as his plate falls and breaks into pieces on the floor."
+   "en": "Ben drops his plate, and it breaks.",
+   "zh": "本把盘子掉在地上，盘子摔碎了。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks shocked as his plate falls and breaks into pieces on the cafe floor.",
+   "draw": "yes"
   },
   {
    "en": "He feels bad, and his face goes red.",
    "zh": "他觉得很过意不去，脸都红了。",
-   "scene_prompt": "Sam, a young boy with glasses and a yellow hat stands with a red, embarrassed face next to the broken plate."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stands with a red, embarrassed face next to the broken plate.",
+   "draw": "yes"
   },
   {
-   "en": "Mia finds Sam's hat below the table.",
-   "zh": "米娅在桌子下面找到了萨姆的帽子。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a green shirt bends down and picks up a yellow hat from under the cafe table."
+   "en": "Mia finds Ben's hat below the table.",
+   "zh": "米娅在桌子下面找到了本的帽子。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) bends down and picks up a yellow woolly hat from under the cafe table.",
+   "draw": "yes"
   },
   {
    "en": "\"Do not lose your hat,\" she tells him.",
    "zh": "“别把你的帽子弄丢了。”她对他说。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a green shirt hands the yellow hat back to Sam, a young boy with glasses and a yellow hat, wagging a finger kindly."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) hands the yellow woolly hat back to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), wagging a finger kindly.",
+   "draw": "partly",
+   "draw_note": "Shows Mia giving Ben his hat with a warning finger; the spoken words can only be guessed."
   },
   {
    "en": "Tonight, they will read the new book together.",
    "zh": "今晚，他们要一起读这本新书。",
-   "scene_prompt": "At night, Mia, a young girl with short brown hair and a green shirt and Sam, a young boy with glasses and a yellow hat sit on a sofa under a lamp reading the blue bird book."
+   "scene_prompt": "At night, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sit on a sofa under a lamp reading the blue book with a bird on the cover.",
+   "draw": "partly",
+   "draw_note": "Shows them reading the book together at night; the future 'will' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

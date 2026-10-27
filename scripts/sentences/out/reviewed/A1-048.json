@@ -28,54 +28,65 @@
  "setting": "A busy street with many small shops on a rainy day.",
  "characters": [
   {
-   "name": "Ivan",
-   "look": "Ivan, a tall policeman with a long brown beard and a blue uniform"
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
   },
   {
-   "name": "Maya",
-   "look": "Maya, a woman with short red hair and a green coat"
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
   }
  ],
  "sentences": [
   {
-   "en": "Maya and her husband Ivan go shopping.",
-   "zh": "玛雅和丈夫伊万去购物。",
-   "scene_prompt": "Maya, a woman with short red hair and a green coat and Ivan, a tall policeman with a long brown beard and a blue uniform walk down a busy street with shopping bags."
-  },
-  {
-   "en": "Ivan is a real policeman with a long beard.",
-   "zh": "伊万是一名真正的警察，留着长胡子。",
-   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform stands on the street, smiling, with Maya, a woman with short red hair and a green coat beside him."
+   "en": "Anna and her husband Dan go shopping.",
+   "zh": "安娜和丈夫丹去购物。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and her husband Dan (a tall man of about forty with a short brown beard and a navy jumper) walk down a busy street of small shops carrying shopping bags.",
+   "draw": "yes"
   },
   {
    "en": "They like the little shops on this street.",
    "zh": "他们喜欢这条街上的小商店。",
-   "scene_prompt": "Maya, a woman with short red hair and a green coat and Ivan, a tall policeman with a long brown beard and a blue uniform look happily into the windows of small shops."
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) look happily into the bright windows of small shops.",
+   "draw": "yes"
   },
   {
    "en": "Then a big box falls from a car.",
    "zh": "这时，一个大箱子从一辆汽车上掉了下来。",
-   "scene_prompt": "A big brown box falls from the roof of a passing car as Maya, a woman with short red hair and a green coat and Ivan, a tall policeman with a long brown beard and a blue uniform watch."
+   "scene_prompt": "A big brown box falls from the roof of a passing car as Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) watch in surprise.",
+   "draw": "yes"
   },
   {
    "en": "The address on it is thirty houses away.",
    "zh": "箱子上的地址在三十栋房子以外。",
-   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform holds the brown box and points far down the long street of houses, Maya, a woman with short red hair and a green coat beside him."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) holds the brown box and points far down a long street of many houses, Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) beside him.",
+   "draw": "partly",
+   "draw_note": "Shows Dan pointing far down a long street with the box; the address and the number can't be shown."
   },
   {
-   "en": "Now it is raining, and the box is wet.",
-   "zh": "现在下雨了，箱子湿了。",
-   "scene_prompt": "Rain falls on the wet brown box in the arms of Ivan, a tall policeman with a long brown beard and a blue uniform, next to Maya, a woman with short red hair and a green coat."
+   "en": "Now real rain falls, and the box is wet.",
+   "zh": "这时真的下起雨来，箱子湿了。",
+   "scene_prompt": "Heavy rain falls on the brown box in the arms of Dan (a tall man of about forty with a short brown beard and a navy jumper), next to Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan); the box is dark and wet.",
+   "draw": "yes"
   },
   {
    "en": "Without any umbrellas, they carry it there.",
    "zh": "他们没有伞，就这样把箱子送了过去。",
-   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform and Maya, a woman with short red hair and a green coat walk through the rain carrying the brown box, with no umbrellas."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) walk through the rain carrying the brown box together, with no umbrellas.",
+   "draw": "yes"
+  },
+  {
+   "en": "Poor Dan: water runs down his beard.",
+   "zh": "可怜的丹：雨水顺着他的胡子往下流。",
+   "scene_prompt": "Close-up of Dan (a tall man of about forty with a short brown beard and a navy jumper) in the rain, water dripping from his beard, with a funny face.",
+   "draw": "yes"
   },
   {
    "en": "They laugh: this is the best fun today.",
    "zh": "他们笑了：这是今天最开心的事。",
-   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform and Maya, a woman with short red hair and a green coat, both soaking wet, laugh together at a front door."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), both soaking wet, laugh together at a front door after handing over the box.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

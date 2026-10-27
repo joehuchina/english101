@@ -29,58 +29,73 @@
  "setting": "A bright classroom with desks, a big world map and a board.",
  "characters": [
   {
-   "name": "Nina",
-   "look": "Nina, a girl with long black hair and a blue sweater"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Omar",
-   "look": "Omar, a boy with short brown hair and a yellow shirt"
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   },
   {
-   "name": "Mister Jack",
-   "look": "Mister Jack, a tall man with glasses and a green tie"
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
   }
  ],
  "sentences": [
   {
-   "en": "Nina and Omar sit in the classroom.",
-   "zh": "尼娜和奥马尔坐在教室里。",
-   "scene_prompt": "Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt sit at their desks in a bright classroom."
+   "en": "Ben and Mia sit in the classroom.",
+   "zh": "本和米娅坐在教室里。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit at their desks in a bright classroom with a big world map on the wall.",
+   "draw": "yes"
   },
   {
-   "en": "Mister Jack teaches them the alphabet first.",
-   "zh": "杰克先生先教他们字母表。",
-   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie stands at the board pointing at a long row of letters in front of Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt."
+   "en": "Mister Kofi teaches them the alphabet first.",
+   "zh": "科菲先生先教他们字母表。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) stands at the board pointing at a long row of colourful cards in front of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans).",
+   "draw": "partly",
+   "draw_note": "Shows the teacher pointing at a row of cards on the board; the letters can't be shown."
   },
   {
    "en": "The children repeat each letter after him.",
    "zh": "孩子们跟着他重复每个字母。",
-   "scene_prompt": "Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt speak together with open mouths while Mister Jack, a tall man with glasses and a green tie points at the board."
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) speak together with open mouths while Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) points at the cards on the board.",
+   "draw": "partly",
+   "draw_note": "Shows the children speaking after the teacher; what they say can't be shown."
   },
   {
    "en": "Then he reads a sentence as an example.",
    "zh": "然后他读了一个句子作为例子。",
-   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie reads aloud from an open book in front of the class."
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) reads aloud from an open book in front of the class.",
+   "draw": "partly",
+   "draw_note": "Shows the teacher reading aloud; the sentence and 'example' can't be shown."
   },
   {
    "en": "Next is a geography lesson about rivers.",
    "zh": "接下来是一节关于河流的地理课。",
-   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie points at blue rivers on a big world map on the classroom wall."
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) points at long blue rivers on the big world map on the classroom wall.",
+   "draw": "yes"
   },
   {
-   "en": "Omar knows the names of many rivers.",
-   "zh": "奥马尔知道很多河流的名字。",
-   "scene_prompt": "Omar, a boy with short brown hair and a yellow shirt raises his hand eagerly in front of the big world map."
+   "en": "Mia knows the answer and raises her hand.",
+   "zh": "米娅知道答案，举起了手。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) raises her hand high and eagerly in front of the big world map.",
+   "draw": "yes"
   },
   {
-   "en": "Nina writes a note with her pencil.",
-   "zh": "尼娜用铅笔写下笔记。",
-   "scene_prompt": "Nina, a girl with long black hair and a blue sweater writes in her notebook with a yellow pencil."
+   "en": "Ben writes a note with his pencil.",
+   "zh": "本用铅笔写下笔记。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) writes in his notebook with a yellow pencil.",
+   "draw": "yes"
   },
   {
-   "en": "“For homework, test yourself,” says Mister Jack.",
-   "zh": "“回家作业是自己测验一下，”杰克先生说。",
-   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie smiles and speaks to Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt as they pack their bags."
+   "en": "“For homework, test yourself,” says Mister Kofi.",
+   "zh": "“回家作业是自己测验一下，”科菲先生说。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles and speaks to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) as they pack their bags.",
+   "draw": "partly",
+   "draw_note": "Shows the teacher talking to the children at the end of class; the homework he gives can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

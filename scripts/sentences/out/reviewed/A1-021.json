@@ -27,54 +27,66 @@
  "setting": "A pretty little cafe with small tables and a big window.",
  "characters": [
   {
-   "name": "Kofi",
-   "look": "Kofi, a young man with short black hair and a blue shirt"
+   "id": "hana",
+   "name": "Hana",
+   "look": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer)"
   },
   {
-   "name": "Hana",
-   "look": "Hana, a young woman with long brown hair and a green sweater"
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
   }
  ],
  "sentences": [
   {
-   "en": "Kofi and Hana have lunch in a pretty cafe.",
-   "zh": "科菲和哈娜在一家漂亮的咖啡馆吃午饭。",
-   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt and Hana, a young woman with long brown hair and a green sweater sit at a small table in a pretty cafe with flowers in the window."
+   "en": "Hana and Sara have lunch in a pretty cafe.",
+   "zh": "哈娜和萨拉在一家漂亮的咖啡馆吃午饭。",
+   "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sit at a small table in a pretty cafe with flowers in the window.",
+   "draw": "yes"
   },
   {
    "en": "A waiter brings them two cups of tea.",
    "zh": "一位男服务员给他们端来两杯茶。",
-   "scene_prompt": "A young waiter in a black apron puts two cups of tea in front of Kofi, a young man with short black hair and a blue shirt and Hana, a young woman with long brown hair and a green sweater."
+   "scene_prompt": "A young waiter in a black apron puts two cups of tea in front of Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt).",
+   "draw": "yes"
   },
   {
-   "en": "Kofi works in an office for a big company.",
-   "zh": "科菲在一家大公司的办公室上班。",
-   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt sits at a desk with a computer in a busy office of a big company."
+   "en": "Hana works in an office for a big company.",
+   "zh": "哈娜在一家大公司的办公室上班。",
+   "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) sits at a desk with a computer in a busy office of a big company.",
+   "draw": "yes"
   },
   {
-   "en": "His job is boring, with too many meetings.",
-   "zh": "他的工作很无聊，会议太多。",
-   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt yawns at a long meeting table with people in suits."
+   "en": "Her job is boring, with too many meetings.",
+   "zh": "她的工作很无聊，会议太多。",
+   "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) yawns at a long meeting table with people in suits.",
+   "draw": "yes"
   },
   {
-   "en": "Hana is a farmer, and she loves her farm.",
-   "zh": "哈娜是一位农场主，她很爱她的农场。",
-   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater stands smiling in a green field with cows and a red barn."
+   "en": "Sara is a farmer, and she loves her farm.",
+   "zh": "萨拉是一位农场主，她很爱她的农场。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now in rubber boots, stands smiling in a green field with cows and a red barn.",
+   "draw": "yes"
   },
   {
    "en": "She has a business selling eggs and milk.",
    "zh": "她做生意，卖鸡蛋和牛奶。",
-   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater sells eggs and bottles of milk at a little farm stall."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now in rubber boots, sells eggs and bottles of milk to customers at a little farm stall.",
+   "draw": "yes"
   },
   {
    "en": "Her small team of workers helps her every day.",
    "zh": "她的小团队里的工人们每天都帮她干活。",
-   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater and a few farm workers carry baskets of eggs together."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now in rubber boots, and a few farm workers carry baskets of eggs together.",
+   "draw": "partly",
+   "draw_note": "Shows Sara and her workers carrying eggs together; 'every day' can't be shown."
   },
   {
-   "en": "The young waitress wants to visit Hana's farm.",
-   "zh": "年轻的女服务员很想去哈娜的农场看看。",
-   "scene_prompt": "A young waitress in the cafe listens excitedly to Hana, a young woman with long brown hair and a green sweater, who shows her a photo of cows."
+   "en": "The young waitress wants to visit Sara's farm.",
+   "zh": "年轻的女服务员很想去萨拉的农场看看。",
+   "scene_prompt": "In the cafe, a young waitress looks excitedly at a photo of cows that Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) shows her, while Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) smiles.",
+   "draw": "partly",
+   "draw_note": "Shows the waitress excited by a photo of the farm; 'wants to visit' can only be guessed."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

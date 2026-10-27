@@ -29,58 +29,70 @@
  "setting": "A sunny park with green grass in September.",
  "characters": [
   {
+   "id": "mia",
    "name": "Mia",
-   "look": "Mia, a young girl with short brown hair and a yellow shirt"
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   },
   {
-   "name": "Sam",
-   "look": "Sam, a young boy with glasses and a blue t-shirt"
-  },
-  {
-   "name": "Lily",
-   "look": "Lily, a young girl with long black hair and a red dress"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   }
  ],
  "sentences": [
   {
-   "en": "Mia and Sam begin a picnic in September.",
-   "zh": "九月，米娅和萨姆开始野餐。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt and Sam, a young boy with glasses and a blue t-shirt spread a picnic blanket on green grass in a park with a few early autumn leaves."
+   "en": "Mia and Ben begin a picnic in September.",
+   "zh": "九月，米娅和本开始野餐。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) spread a picnic blanket on green grass in a park with a few early autumn leaves.",
+   "draw": "partly",
+   "draw_note": "Shows the children starting a picnic; the month can't be shown."
   },
   {
    "en": "Mia brings forty small chocolates and cool drinks.",
    "zh": "米娅带来了四十块小巧克力和清凉的饮料。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt opens a box full of small chocolates next to cold drinks on the blanket."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) opens a box full of small chocolates next to cold drinks on the blanket.",
+   "draw": "partly",
+   "draw_note": "Shows many small chocolates and cold drinks; the exact number can't be counted."
   },
   {
-   "en": "Sam sees something in the middle of the grass.",
-   "zh": "萨姆看见草地中间有个东西。",
-   "scene_prompt": "Sam, a young boy with glasses and a blue t-shirt points at something small in the middle of the grass."
+   "en": "Ben sees something in the middle of the grass.",
+   "zh": "本看见草地中间有个东西。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) points at something small in the middle of the grass.",
+   "draw": "yes"
   },
   {
    "en": "Maybe it is a lost pet.",
    "zh": "也许它是一只走丢的宠物。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt and Sam, a young boy with glasses and a blue t-shirt look curiously at a small animal shape in the grass."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) look curiously at a small animal shape half hidden in the grass.",
+   "draw": "partly",
+   "draw_note": "Shows the children looking at a small animal; 'maybe' and 'lost' can't be shown."
   },
   {
    "en": "It is a puppy the size of a shoe.",
    "zh": "那是一只只有鞋子大小的小狗。",
-   "scene_prompt": "A tiny puppy, as small as a shoe, sits on the grass in front of Sam, a young boy with glasses and a blue t-shirt."
+   "scene_prompt": "A tiny puppy, as small as a shoe, sits on the grass next to the shoe of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
+   "draw": "yes"
   },
   {
-   "en": "Lily runs over, too happy to say anything.",
-   "zh": "莉莉跑过来，高兴得说不出话。",
-   "scene_prompt": "Lily, a young girl with long black hair and a red dress runs across the grass toward the puppy with a big happy face."
+   "en": "A girl runs over, too happy to say anything.",
+   "zh": "一个女孩跑过来，高兴得说不出话。",
+   "scene_prompt": "A little girl in a blue dress runs across the grass toward the puppy with a big happy face.",
+   "draw": "partly",
+   "draw_note": "Shows a happy girl running to the puppy; 'too happy to say anything' is only in her face."
   },
   {
    "en": "She never wants to lose her puppy again.",
    "zh": "她再也不想弄丢她的小狗了。",
-   "scene_prompt": "Lily, a young girl with long black hair and a red dress hugs the tiny puppy tightly."
+   "scene_prompt": "The little girl in a blue dress hugs the tiny puppy tightly, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiling.",
+   "draw": "partly",
+   "draw_note": "Shows the girl hugging the puppy tightly; 'never again' can't be shown."
   },
   {
    "en": "Sharing chocolate with her is an easy thing.",
    "zh": "和她分享巧克力是件很容易的事。",
-   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt and Sam, a young boy with glasses and a blue t-shirt give chocolates to Lily, a young girl with long black hair and a red dress on the picnic blanket, the puppy beside them."
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) give chocolates to the little girl in a blue dress on the picnic blanket, the puppy beside them.",
+   "draw": "partly",
+   "draw_note": "Shows the children sharing chocolates; 'easy thing' can't be shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

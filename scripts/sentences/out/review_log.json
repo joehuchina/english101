@@ -3281,5 +3281,3941 @@
   "before": "Ali sits behind Rosa twice today.",
   "after": "Inside, they practise each French word twice.",
   "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 0,
+  "before": "Ben wakes up at seven o'clock on Thursday.",
+  "after": "Ben wakes up at seven o'clock on Thursday.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 1,
+  "before": "His clothes are all over the bedroom floor.",
+  "after": "His clothes are all over the bedroom floor.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 2,
+  "before": "He only has ten minutes for breakfast.",
+  "after": "He only has ten minutes for breakfast.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 3,
+  "before": "His sister Anna cuts oranges for fresh juice.",
+  "after": "His mother Anna cuts oranges for juice.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 4,
+  "before": "She lets him use her new blue cup.",
+  "after": "She lets him use her new blue cup.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 5,
+  "before": "Ben loves orange juice, even in winter.",
+  "after": "Ben loves orange juice, even in winter.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-001",
+  "i": 6,
+  "before": "After a month, he feels very strong.",
+  "after": "After a month, he feels very strong.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 0,
+  "before": "On Tuesday, Leo and Mia go to the park.",
+  "after": "On Tuesday, Leo and Mia go to the park.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 1,
+  "before": "He is really tall and strong; Mia is small.",
+  "after": "He is really tall and strong; Mia is small.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 2,
+  "before": "Mia wears a red coat and a hat.",
+  "after": "Mia wears a red coat and a hat.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 3,
+  "before": "Their school has a fun activity there today.",
+  "after": "Their school has a fun activity there today.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 4,
+  "before": "Leo is fast, and Mia also runs quickly.",
+  "after": "Leo is fast, and Mia also runs quickly.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 5,
+  "before": "Mia falls, and mud gets on her clothes.",
+  "after": "Mia falls, and mud gets on her clothes.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 6,
+  "before": "Leo gives her a sandwich from his lunch.",
+  "after": "Leo gives her a sandwich from his lunch.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-002",
+  "i": 7,
+  "before": "Soon nothing hurts, and she runs without crying.",
+  "after": "Soon nothing hurts, and she runs without crying.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 0,
+  "before": "On Sunday, Lily cleans her small bedroom.",
+  "after": "On Sunday, Lily cleans her small bedroom.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 1,
+  "before": "She puts her clothes on the bed.",
+  "after": "She puts her clothes on the bed.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 2,
+  "before": "One sock is on the left side.",
+  "after": "One sock is on the left side.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 3,
+  "before": "Should she keep this pretty skirt or that?",
+  "after": "Should she keep this pretty skirt or that?",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 4,
+  "before": "The window glass is too dirty now.",
+  "after": "The window glass is too dirty now.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 5,
+  "before": "She cleans it once, and it shines.",
+  "after": "She cleans it once, and it shines.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 6,
+  "before": "Then she sits down with some chips.",
+  "after": "Then she sits down with some chips.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-003",
+  "i": 7,
+  "before": "A clean room gives her a good feeling.",
+  "after": "A clean room gives her a good feeling.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 0,
+  "before": "Leo and Mia pack summer clothes for their holiday.",
+  "after": "Hana and Sara pack summer clothes for their holiday.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 1,
+  "before": "From the station, a train goes north to France.",
+  "after": "From the station, a train goes north to France.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 2,
+  "before": "Then a big aeroplane carries them to Rome.",
+  "after": "Then a big aeroplane carries them to Rome.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 3,
+  "before": "They arrive at a small hotel near the river.",
+  "after": "They arrive at a small hotel near the river.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 4,
+  "before": "They meet a friendly Australian family there.",
+  "after": "A strong Australian man carries their bags.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 5,
+  "before": "The family is going to Africa by boat.",
+  "after": "His family goes to Africa by boat.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 6,
+  "before": "Mia writes a postcard about the trip.",
+  "after": "Sara writes a postcard about the trip.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-004",
+  "i": 7,
+  "before": "Next month, their plane goes east to Greece.",
+  "after": "Their plane flies east into the morning sun.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 0,
+  "before": "Yesterday, Sam put on his jeans and jacket.",
+  "after": "Yesterday, Ben put on his jeans and jacket.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 1,
+  "before": "He found a letter at the front door.",
+  "after": "He found a letter at the front door.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 2,
+  "before": "He thinks it is bad news.",
+  "after": "He runs upstairs to ask his sister.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 3,
+  "before": "He runs upstairs to ask his sister.",
+  "after": "Lily is in bed with a bad cold.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 4,
+  "before": "Their pet was lost a month ago.",
+  "after": "Something falls out: a photo of their pet.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 5,
+  "before": "A strong farmer found the dog last night.",
+  "after": "A strong farmer holds Max in the photo.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 6,
+  "before": "Lily stops and puts her hands on her head.",
+  "after": "Lily thinks and puts her hands on her head.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 7,
+  "before": "Then they hear something at the front door.",
+  "after": "On Thursday night, a car stops at the door.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 0,
+  "before": "On Thursday, Zoe and her sister Lucy go shopping.",
+  "after": "On Thursday, Ben and his sister Lily go shopping.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 1,
+  "before": "Mister Raj opens the door of his shop.",
+  "after": "Mister Omar opens the door of his shop.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 2,
+  "before": "A long line of people waits inside.",
+  "after": "A long line of people waits inside.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 3,
+  "before": "Lucy buys toothpaste and a pair of socks.",
+  "after": "Lily buys toothpaste and a pair of socks.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 4,
+  "before": "Zoe reads the menu and wants a pizza.",
+  "after": "Ben reads the menu and wants a pizza.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 5,
+  "before": "Raj bakes it over a strong fire.",
+  "after": "Omar bakes it over a strong fire.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 6,
+  "before": "\"Help yourself to the last banana,\" he says.",
+  "after": "\"Help yourself to the last banana,\" he says.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 7,
+  "before": "\"Listen, Zoe, do not forget your bag!\"",
+  "after": "\"Listen, Ben, do not forget your bag!\"",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 0,
+  "before": "Aiko was born in a small Japanese town.",
+  "after": "At Christmas, Anna and her husband help poor children.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 1,
+  "before": "Dan is her husband, and Finn is their child.",
+  "after": "Their child Ben carries a bag of warm clothes.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 2,
+  "before": "At Christmas, they bring warm clothes for poor children.",
+  "after": "Ivan, a friendly policeman, shows them the way.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 3,
+  "before": "A friendly policeman shows them the way.",
+  "after": "A Japanese mother holds her baby, born last week.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 4,
+  "before": "A little girl in the snow has no coat.",
+  "after": "Her little girl in the snow has no coat.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 5,
+  "before": "Dan's wife lets Finn give her a coat.",
+  "after": "Dan's wife lets Ben give her a coat.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 6,
+  "before": "The girl smiles and says, \"You are so kind!\"",
+  "after": "The girl smiles and says, \"You are so kind!\"",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 7,
+  "before": "For Finn, this is a true Christmas.",
+  "after": "For Ben, this is a true Christmas.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 0,
+  "before": "It is a cloudy, rainy morning in spring.",
+  "after": "The sky is cloudy on a rainy spring morning.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 1,
+  "before": "A baby elephant plays in the river.",
+  "after": "Grandpa Joe still wears his winter clothes.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 2,
+  "before": "This winter baby is now the zoo's star.",
+  "after": "A baby elephant plays in the river.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 3,
+  "before": "A tiger sleeps among the red flowers.",
+  "after": "The baby elephant is the star of the zoo.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 4,
+  "before": "Ivan lets a little pig eat from his hand.",
+  "after": "A tiger sleeps among the red flowers.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 5,
+  "before": "Sara sits on a brown horse for ten minutes.",
+  "after": "He lets a little pig eat from his hand.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 6,
+  "before": "Then the sun comes out in the sky.",
+  "after": "Lily uses a carrot to feed a brown horse.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 7,
+  "before": "Sara and Ivan love every animal here.",
+  "after": "Then the sun comes out, and the animals play.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 0,
+  "before": "At four o'clock, two students enter the library.",
+  "after": "Two students, Ben and Mia, enter the library.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 1,
+  "before": "Ben and Anna sit at a big desk.",
+  "after": "Kofi lets them sit at a big desk.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 2,
+  "before": "Anna does her French reading first.",
+  "after": "Mia does her French reading first.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 3,
+  "before": "Ben practises his English writing in a notebook.",
+  "after": "Ben practises his English writing in a notebook.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 4,
+  "before": "He writes each new word again and again.",
+  "after": "He writes each new word again and again.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 5,
+  "before": "Grammar is hard, and maths is even harder.",
+  "after": "Grammar is hard, and maths is even harder.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 6,
+  "before": "Anna checks his answers, and they are correct.",
+  "after": "Mia checks his answers, and they are correct.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 7,
+  "before": "Ben cannot believe it and smiles at Anna.",
+  "after": "Ben cannot believe it and smiles at Mia.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 0,
+  "before": "In October, Mia and Sam visit their aunt.",
+  "after": "In October, Mia and Leo visit their aunt.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 1,
+  "before": "Their aunt is resting in her sunny room.",
+  "after": "Their aunt is resting in her sunny room.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 2,
+  "before": "She opens Mia's card and starts to smile.",
+  "after": "She opens Mia's card and starts to smile.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 3,
+  "before": "\"I feel fine today,\" she says to them.",
+  "after": "\"I feel fine today,\" she says to them.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 4,
+  "before": "She lets Sam cut the cake for everyone.",
+  "after": "She lets Leo cut the cake for everyone.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 5,
+  "before": "When they finish, they watch birds from the window.",
+  "after": "When they finish, they watch birds from the window.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 6,
+  "before": "Aunt Lily sometimes tells funny stories about her life.",
+  "after": "Sometimes she tells funny stories about her life.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 7,
+  "before": "\"Our plan is to come back tomorrow,\" says Mia.",
+  "after": "\"Our plan for tomorrow is a picnic,\" says Mia.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 0,
+  "before": "Omar wakes up and feels really tired.",
+  "after": "Omar wakes up and feels really tired.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 1,
+  "before": "He goes to see a doctor at the hospital.",
+  "after": "He goes to see a doctor at the hospital.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 2,
+  "before": "The doctor checks his nose and his tooth.",
+  "after": "The doctor checks his nose and his tooth.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 3,
+  "before": "\"You eat too much sugar,\" the doctor says.",
+  "after": "\"You eat too much sugar,\" the doctor says.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 4,
+  "before": "Walking is good for your body, too.",
+  "after": "Walking is good for your body, too.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 5,
+  "before": "Now Omar loves going to the gym.",
+  "after": "Now Omar loves going to the gym.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 6,
+  "before": "He is thirsty, so he drinks lots of water.",
+  "after": "He is thirsty, so he drinks lots of water.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 7,
+  "before": "After good food, he relaxes and feels wonderful.",
+  "after": "After good food, he relaxes and feels wonderful.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 0,
+  "before": "Rosa's father has a small restaurant in town.",
+  "after": "Omar has a small restaurant in town.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 1,
+  "before": "Today Rosa helps him in the kitchen.",
+  "after": "Today Lily and her father help in the kitchen.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 2,
+  "before": "Her father has long legs and a funny hat.",
+  "after": "Her father has long legs and a funny hat.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 3,
+  "before": "Rosa cuts the fourth and last tomato.",
+  "after": "Lily cuts the fourth and last tomato.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 4,
+  "before": "He tries the soup, but it needs more tomatoes.",
+  "after": "Omar tries the soup, but it needs more tomatoes.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 5,
+  "before": "Rosa takes a pen and writes a shopping list.",
+  "after": "Lily takes a pen and writes a shopping list.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 6,
+  "before": "They leave for the supermarket before lunch.",
+  "after": "They leave for the supermarket before lunch.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 7,
+  "before": "When they come back, people wait at the window.",
+  "after": "When they come back, people wait at the window.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 0,
+  "before": "Kofi and Hana visit the art museum today.",
+  "after": "Sara and Kofi visit the art museum today.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 1,
+  "before": "Hana is an artist, and she paints every day.",
+  "after": "Sara is an artist with paint on her hands.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 2,
+  "before": "Kofi is a tall actor with a big smile.",
+  "after": "One painting shows a tall actor on a stage.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 3,
+  "before": "One painting shows a band with a guitar.",
+  "after": "Another painting shows a band with a guitar.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 5,
+  "before": "Kofi also takes a photograph of the piano player.",
+  "after": "Kofi also takes a photograph of the piano player.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 6,
+  "before": "Hana draws a picture in her small book.",
+  "after": "Sara draws a picture in her small book.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 7,
+  "before": "Art is Hana's reason to wake up happy.",
+  "after": "Art is the reason for Sara's big smile.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 0,
+  "before": "At two p.m., Zoe and Raj start cleaning.",
+  "after": "At two p.m., Ben and Lily clean after lunch.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 1,
+  "before": "Grandma turns sixty tomorrow and will come for lunch.",
+  "after": "Grandma Rosa has sixty little cups on a shelf.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 2,
+  "before": "At the beginning, Raj works very fast.",
+  "after": "At the beginning, Ben works very fast.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 3,
+  "before": "He moves the low table to clean the floor.",
+  "after": "He moves the low table to clean the floor.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 4,
+  "before": "He makes a mistake and drops a dirty cup.",
+  "after": "He makes a mistake and drops a dirty cup.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 5,
+  "before": "The cup falls right on his left foot.",
+  "after": "The cup falls right on his left foot.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 6,
+  "before": "Zoe sends him to sit down for a second.",
+  "after": "Lily sends him to sit down for a second.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 7,
+  "before": "\"That is the third cup today!\" she laughs.",
+  "after": "\"That is the third cup today!\" she laughs.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 0,
+  "before": "Dan and Aiko wake up early at home.",
+  "after": "Dan and Anna wake up early at home.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 1,
+  "before": "They take a taxi to the airport quickly.",
+  "after": "They take a taxi to the airport quickly.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 2,
+  "before": "Aiko holds their airplane tickets in her hand.",
+  "after": "Anna holds their airplane tickets in her hand.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 3,
+  "before": "They fly from China to Spain.",
+  "after": "They fly from China to Spain.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 4,
+  "before": "A bus drives them along a sunny road.",
+  "after": "A bus drives them along a sunny road.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 5,
+  "before": "Dan looks at a map to find their hotel.",
+  "after": "Dan looks at a map to find their hotel.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 6,
+  "before": "They stay at a small hotel near the beach.",
+  "after": "They stay at a small hotel near the beach.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 7,
+  "before": "Every morning they ride bikes by the sea.",
+  "after": "Every morning they ride bikes by the sea.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 0,
+  "before": "Sara comes home from work and opens the fridge.",
+  "after": "Sara comes home from work and opens the fridge.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 2,
+  "before": "She writes a short shopping list.",
+  "after": "She writes a short shopping list.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 4,
+  "before": "\"I hate rain,\" says Sara, and takes an umbrella.",
+  "after": "\"I hate rain,\" says Sara, and takes an umbrella.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 5,
+  "before": "She walks around the corner in her coat.",
+  "after": "She walks around the corner in her coat.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 6,
+  "before": "After a minute, she meets Ivan by the shop.",
+  "after": "After a minute, she meets Omar by his shop.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 7,
+  "before": "\"Come for dinner at my house later,\" says Ivan.",
+  "after": "\"Come back later for my soup,\" says Omar.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 0,
+  "before": "Ben visits his grandparents every Tuesday morning.",
+  "after": "Ben visits his grandparents every Tuesday morning.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 1,
+  "before": "Grandpa drinks black coffee in the little kitchen.",
+  "after": "Grandpa Joe drinks black coffee in the little kitchen.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 2,
+  "before": "Ben loves the smell of the coffee.",
+  "after": "Ben loves the smell of the coffee.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 3,
+  "before": "It is cold outside, but Ben wants to play.",
+  "after": "It is cold outside, but Ben wants to play.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 4,
+  "before": "He puts on warm trousers and his shoes.",
+  "after": "He puts on warm trousers and his shoes.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 5,
+  "before": "Grandma opens the wide garden gate for him.",
+  "after": "Grandma Rosa opens the wide garden gate for him.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 6,
+  "before": "Later, they eat pasta and sweet apple cake.",
+  "after": "Later, they eat pasta and sweet apple cake.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 7,
+  "before": "They all agree that nothing is better than pasta.",
+  "after": "They all agree that nothing is better than pasta.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 0,
+  "before": "In February, Mia and Sam visit a bookshop.",
+  "after": "In February, Mia and Ben visit a bookshop.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 1,
+  "before": "Mia buys a blue book about birds there.",
+  "after": "Mia buys a blue book about birds there.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 2,
+  "before": "Then they eat egg sandwiches and hot chips.",
+  "after": "Then they eat egg sandwiches and hot chips.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 3,
+  "before": "Sam drops his plate, and it breaks.",
+  "after": "Ben drops his plate, and it breaks.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 4,
+  "before": "He feels bad, and his face goes red.",
+  "after": "He feels bad, and his face goes red.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 5,
+  "before": "Mia finds Sam's hat below the table.",
+  "after": "Mia finds Ben's hat below the table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 6,
+  "before": "\"Do not lose your hat,\" she tells him.",
+  "after": "\"Do not lose your hat,\" she tells him.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 7,
+  "before": "Tonight, they will read the new book together.",
+  "after": "Tonight, they will read the new book together.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 0,
+  "before": "Swimming is Omar and Nina's favourite weekend activity.",
+  "after": "Swimming is Ben and Lily's favourite weekend activity.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 1,
+  "before": "The pool is free for children this year.",
+  "after": "Ben feels free in the big pool.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 2,
+  "before": "They play in the water for an hour.",
+  "after": "They play in the water for an hour.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 3,
+  "before": "Nina wants to be a swimmer in the future.",
+  "after": "This year, Lily swims fast, like a future star.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 4,
+  "before": "Before they go home, they visit the shop.",
+  "after": "Before they go home, they visit the shop.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 6,
+  "before": "Omar buys a large white one for Mother.",
+  "after": "Ben buys a large white one for his mother.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 7,
+  "before": "Their mother keeps it on all the way home.",
+  "after": "Anna keeps it on all the way home.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 0,
+  "before": "It is a slow Sunday in January.",
+  "after": "It is a slow Sunday in January.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 1,
+  "before": "Making sandwiches is Rosa's favourite hobby.",
+  "after": "Making sandwiches is Lily's favourite hobby.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 2,
+  "before": "Today she makes a large number of them.",
+  "after": "Today she makes a large number of them.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 3,
+  "before": "Ali puts chips in his and enjoys it.",
+  "after": "Ben puts chips in his and enjoys it.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 4,
+  "before": "They stand by the window and talk about school.",
+  "after": "They stand by the window and talk about school.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 5,
+  "before": "They are full, so eating more is not possible.",
+  "after": "They are full, so eating more is not possible.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 6,
+  "before": "Then something funny happens: the cat takes one!",
+  "after": "Then something funny happens: Max takes one!",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 7,
+  "before": "Rosa laughs, \"Our cat must love sandwiches too!\"",
+  "after": "Lily laughs, \"Max must love sandwiches too!\"",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 0,
+  "before": "Kofi and Hana have lunch in a pretty cafe.",
+  "after": "Hana and Sara have lunch in a pretty cafe.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 1,
+  "before": "A waiter brings them two cups of tea.",
+  "after": "A waiter brings them two cups of tea.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 2,
+  "before": "Kofi works in an office for a big company.",
+  "after": "Hana works in an office for a big company.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 3,
+  "before": "His job is boring, with too many meetings.",
+  "after": "Her job is boring, with too many meetings.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 4,
+  "before": "Hana is a farmer, and she loves her farm.",
+  "after": "Sara is a farmer, and she loves her farm.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 5,
+  "before": "She has a business selling eggs and milk.",
+  "after": "She has a business selling eggs and milk.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 6,
+  "before": "Her small team of workers helps her every day.",
+  "after": "Her small team of workers helps her every day.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 7,
+  "before": "The young waitress wants to visit Hana's farm.",
+  "after": "The young waitress wants to visit Sara's farm.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 0,
+  "before": "Zoe and Raj want to go to the beach.",
+  "after": "Ben and Lily want to go to the beach.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 1,
+  "before": "They need information about the weather tomorrow.",
+  "after": "Lily looks at the gray sky through the glass.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 2,
+  "before": "Raj looks in the newspaper but finds nothing.",
+  "after": "Ben looks in the newspaper but finds nothing.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 3,
+  "before": "Zoe's magazine only has pretty pictures of clothes.",
+  "after": "Lily's magazine only has pretty pictures of clothes.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 4,
+  "before": "Then they turn on the radio for the news.",
+  "after": "Then they turn on the radio for the news.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 5,
+  "before": "The television says rain is coming, too.",
+  "after": "The television gives information: rain is coming, too.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 6,
+  "before": "\"Why does it always rain?\" asks Zoe sadly.",
+  "after": "\"Why does it always rain?\" asks Lily sadly.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 7,
+  "before": "They watch a funny video or play games.",
+  "after": "They watch a funny video or play games.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 0,
+  "before": "Aiko bakes a cake in her quiet kitchen.",
+  "after": "Anna bakes a cake in her quiet kitchen.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 1,
+  "before": "It is important: today is Dan's birthday.",
+  "after": "It is important: today is Dan's birthday.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 2,
+  "before": "She bakes this special cake once every year.",
+  "after": "She uses every egg in the box.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 3,
+  "before": "She adds sugar, fruit and a glass of milk.",
+  "after": "She adds sugar, fruit and a glass of milk.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 5,
+  "before": "Dan is late, but he usually comes early.",
+  "after": "Dan is late, but he usually comes early.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 6,
+  "before": "Then she hears a sound: Dan is back!",
+  "after": "Then she hears a sound: Dan is back!",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 7,
+  "before": "\"My dear, your cakes are always nice,\" says Dan.",
+  "after": "Dan eats too much: \"Dear, they are always nice!\"",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 0,
+  "before": "Sara and Ivan go to a club party.",
+  "after": "Sara and Kofi go to a club party.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 1,
+  "before": "The group has members from around the world.",
+  "after": "The group has members from around the world.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 2,
+  "before": "Anyone of any age or nationality can join.",
+  "after": "Anyone of any age or nationality can join.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 3,
+  "before": "Maya is a married lady with a funny husband.",
+  "after": "Sara meets Grandma Rosa, a kind married lady.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 4,
+  "before": "He is an Australian man who makes everyone laugh.",
+  "after": "Her husband, Grandpa Joe, is a funny Australian man.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 5,
+  "before": "Their adult daughter is at the party too.",
+  "after": "Their adult daughter, Anna, is at the party too.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 6,
+  "before": "Sara finds Maya's stories very interesting.",
+  "after": "Sara finds Grandma Rosa's stories very interesting.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 7,
+  "before": "Ivan has a good feeling about the club.",
+  "after": "Kofi has a good feeling about the club.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 0,
+  "before": "Ben and his dad arrive at a big hotel.",
+  "after": "Ben and Dad arrive at a big hotel.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 1,
+  "before": "Ben's phone has no internet here.",
+  "after": "Ben's phone has no internet here.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 2,
+  "before": "He is lucky: the hotel has a computer.",
+  "after": "He is lucky: the hotel has a computer.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 3,
+  "before": "He sends Leo an email about the hotel website.",
+  "after": "He sends Mia an email about the hotel website.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 4,
+  "before": "Then he takes photos with his new camera.",
+  "after": "Then he takes photos with his new camera.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 5,
+  "before": "Soon Leo sends him a happy message.",
+  "after": "Soon Mia sends him a happy message.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 6,
+  "before": "Dad uses the desk telephone to call home.",
+  "after": "Dad uses the desk telephone to call home.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 7,
+  "before": "Next, Dad gets a hot drink from a machine.",
+  "after": "Next, Dad gets a hot drink from a machine.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 0,
+  "before": "Mia and Sam are on holiday in London.",
+  "after": "Ben and Lily are on holiday in London.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 1,
+  "before": "At home, they live in a small village.",
+  "after": "At home, they live in a small village.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 2,
+  "before": "London is a very big and busy city.",
+  "after": "London is a very big and busy city.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 3,
+  "before": "They stay in a flat on a busy street.",
+  "after": "They stay in a flat on a busy street.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 4,
+  "before": "In the town centre, they find a post office.",
+  "after": "In the town centre, they find a post office.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 5,
+  "before": "Sam sends a postcard to Grandma's house.",
+  "after": "Ben sends a postcard to Grandma Rosa's house.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 6,
+  "before": "Workers build a tall building in this area.",
+  "after": "Workers build a tall building in this area.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 7,
+  "before": "Then they rest in a big green park.",
+  "after": "Then they rest in a big green park.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 0,
+  "before": "On Friday evening, Nina cooks rice for dinner.",
+  "after": "On Friday evening, Ben cooks rice for dinner.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 1,
+  "before": "She spills some water on the clean floor.",
+  "after": "He spills some water on the clean floor.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 2,
+  "before": "Nina is sorry, but Dad just smiles.",
+  "after": "Ben is sorry, but Dad just smiles.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 3,
+  "before": "After dinner, Dad washes the baby's feet.",
+  "after": "After dinner, Dad washes the baby's feet.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 4,
+  "before": "The baby often laughs when Nina says his name.",
+  "after": "The baby often laughs when Ben says his name.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 5,
+  "before": "Then Nina sits on the sofa with a book.",
+  "after": "Then Ben sits on the sofa with a book.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 6,
+  "before": "It is a history book about France.",
+  "after": "It is a history book about France.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 7,
+  "before": "She reads half of it and dreams of holidays.",
+  "after": "He reads half of it in his warm socks.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 0,
+  "before": "Ali is a beginner in this English course.",
+  "after": "Ben is a beginner in this English course.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 1,
+  "before": "His class has English at school every morning.",
+  "after": "His class has English at school every morning.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 2,
+  "before": "The teacher stands at the blackboard with chalk.",
+  "after": "Their teacher Kofi stands at the blackboard with chalk.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 3,
+  "before": "Ali draws lines on paper with his ruler.",
+  "after": "Ben draws lines on paper with his ruler.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 4,
+  "before": "Then he writes the new words in his notebook.",
+  "after": "Then he writes the new words in his notebook.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 5,
+  "before": "Rosa helps him study and spell the words.",
+  "after": "Mia helps him study and spell the words.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 6,
+  "before": "Ali wants to learn every word for the exam.",
+  "after": "Ben wants to learn every word for the exam.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 7,
+  "before": "If he does well, his holiday is in Rome.",
+  "after": "Kofi asks if anyone had a holiday in Rome.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 1,
+  "before": "Kofi changes his wet socks in the bathroom.",
+  "after": "Ben changes his wet socks in the bathroom.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 2,
+  "before": "Hana makes tea, her favorite morning drink.",
+  "after": "Mum makes tea, her favorite morning drink.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 3,
+  "before": "Kofi gets bread and a sharp knife.",
+  "after": "Ben gets bread and a sharp knife.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 4,
+  "before": "He cuts the bread into eighteen thin pieces.",
+  "after": "He cuts the bread into eighteen thin pieces.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 5,
+  "before": "Breakfast is ready, and it is time to eat.",
+  "after": "Breakfast is ready, and it is time to eat.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 6,
+  "before": "Kofi sits down between Hana and the window.",
+  "after": "Ben sits down between Lily and the window.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 7,
+  "before": "Hana says thanks, and they both laugh.",
+  "after": "Lily says thanks, and they both laugh.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 0,
+  "before": "In summer, Zoe and Raj walk up a hill.",
+  "after": "In summer, Ben and Mia walk up a hill.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 1,
+  "before": "Below them, men fish in the beautiful sea.",
+  "after": "Below them, men fish in the beautiful sea.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 2,
+  "before": "A plane flies north over the blue water.",
+  "after": "A plane flies north over the blue water.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 4,
+  "before": "A brown rabbit runs past their feet.",
+  "after": "A brown rabbit runs past their feet.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 6,
+  "before": "Raj shows his toy monkey to the sheep.",
+  "after": "Ben shows his toy monkey to the sheep.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 0,
+  "before": "Aiko and Dan have a conversation about dinner.",
+  "after": "Lily and Dad have a conversation about dinner.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 1,
+  "before": "That afternoon, Dan brings tomatoes up from the garden.",
+  "after": "That afternoon, Dad brings tomatoes up from the garden.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 2,
+  "before": "The tomato soup slowly becomes thick.",
+  "after": "The tomato soup slowly becomes thick.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 3,
+  "before": "Some soup falls on her red T-shirt.",
+  "after": "Some soup falls on her red T-shirt.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 4,
+  "before": "It is not bad; the colour is the same.",
+  "after": "It is not bad; the colour is the same.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 5,
+  "before": "But she runs upstairs for a clean shirt.",
+  "after": "But she runs upstairs for a clean shirt.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 6,
+  "before": "Dan fills two big bowls with hot soup.",
+  "after": "Dad fills two big bowls with hot soup.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 7,
+  "before": "In the end, Aiko is sure it is delicious.",
+  "after": "In the end, Lily is sure it is delicious.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 0,
+  "before": "Sara and Ivan look at a big world map.",
+  "after": "Sara and Kofi look at a big world map.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 1,
+  "before": "Sara wants to visit Germany in Europe.",
+  "after": "Sara wants to visit Germany in Europe.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 2,
+  "before": "Ivan shakes his head: Australia is very far.",
+  "after": "Kofi shakes his head: Australia is very far.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 3,
+  "before": "Mexico is to the south of America.",
+  "after": "Mexico is to the south of America.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 4,
+  "before": "Sara moves her finger from Canada to Asia.",
+  "after": "Sara moves her finger from Canada to Asia.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 5,
+  "before": "In Germany, trains leave from a big station.",
+  "after": "In Germany, trains leave from a big station.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 6,
+  "before": "Ivan also wants to ride a bicycle there.",
+  "after": "Kofi puts his bicycle in a big box.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 7,
+  "before": "Tomorrow, they drive their car to the airport.",
+  "after": "Then they drive their car to the airport.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 0,
+  "before": "Ben wakes up early and looks at the clock.",
+  "after": "Ben wakes up early and looks at the clock.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 1,
+  "before": "He takes a warm shower and washes his head.",
+  "after": "He takes a warm shower and washes his head.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 2,
+  "before": "Then he runs downstairs to the kitchen.",
+  "after": "Then he runs downstairs to the kitchen.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 3,
+  "before": "\"Hey, Ben, your meal is ready!\" says Anna.",
+  "after": "\"Hey, Ben, your meal is ready!\" says Mum.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 4,
+  "before": "Their grey pet cat sleeps on a chair.",
+  "after": "Their grey pet cat sleeps on a chair.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 5,
+  "before": "Ben is not interested in these eggs.",
+  "after": "Ben is not interested in these eggs.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 6,
+  "before": "He wants something else: cola, his favourite drink.",
+  "after": "He wants something else: cola, his favourite drink.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 7,
+  "before": "Anna says he can have some, but not much.",
+  "after": "Mum says he can have some, but not much.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 0,
+  "before": "Mia and Sam begin a picnic in September.",
+  "after": "Mia and Ben begin a picnic in September.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 1,
+  "before": "Mia brings forty small chocolates and cool drinks.",
+  "after": "Mia brings forty small chocolates and cool drinks.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 2,
+  "before": "Sam sees something in the middle of the grass.",
+  "after": "Ben sees something in the middle of the grass.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 3,
+  "before": "Maybe it is a lost pet.",
+  "after": "Maybe it is a lost pet.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 4,
+  "before": "It is a puppy the size of a shoe.",
+  "after": "It is a puppy the size of a shoe.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 5,
+  "before": "Lily runs over, too happy to say anything.",
+  "after": "A girl runs over, too happy to say anything.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 6,
+  "before": "She never wants to lose her puppy again.",
+  "after": "She never wants to lose her puppy again.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 7,
+  "before": "Sharing chocolate with her is an easy thing.",
+  "after": "Sharing chocolate with her is an easy thing.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 0,
+  "before": "It is a cold Saturday night in April.",
+  "after": "One rainy Saturday night in April, Ben visits Grandma.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 1,
+  "before": "Nina makes hot soup from her home country.",
+  "after": "Grandma Rosa makes hot soup from her home country.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 2,
+  "before": "The plates are on a high shelf.",
+  "after": "The plates are on a high shelf.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 3,
+  "before": "Omar helps her get a few big plates.",
+  "after": "Ben helps her get a few big plates.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 4,
+  "before": "He hands her the brown plates with care.",
+  "after": "He hands her the brown plates with care.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 5,
+  "before": "There is enough soup for everyone.",
+  "after": "There is enough soup for everyone.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 6,
+  "before": "Omar is excited and cannot stop smiling.",
+  "after": "Ben is excited and cannot stop smiling.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 0,
+  "before": "In November, Emma and Rosa meet at a cafe.",
+  "after": "In November, Sara and Hana meet at a cafe.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 1,
+  "before": "Emma wears a yellow dress and a warm jacket.",
+  "after": "Sara wears a yellow dress and a warm jacket.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 2,
+  "before": "They have a quick breakfast at a small table.",
+  "after": "They have a quick breakfast at a small table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 3,
+  "before": "Rosa asks Emma about her trip in August.",
+  "after": "Hana asks Sara about her trip in August.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 4,
+  "before": "Her grandma lives in a place by the sea.",
+  "after": "Her grandma lives in a place by the sea.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 5,
+  "before": "Emma stayed there for four happy weeks.",
+  "after": "Sara puts four beach photos on the table.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 6,
+  "before": "Then Emma takes her bag to catch a bus.",
+  "after": "Then Sara takes her bag to catch a bus.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 0,
+  "before": "Kofi, Hana and Max want to choose a sport.",
+  "after": "Ben, Mia and Leo choose a sport together.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 1,
+  "before": "Kofi is a fast football player.",
+  "after": "Leo is a fast football player.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 2,
+  "before": "Hana throws a ball for a basketball game.",
+  "after": "Mia throws a ball for a basketball game.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 3,
+  "before": "Max thinks a tennis match is too long.",
+  "after": "Ben thinks a tennis match is too long.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 4,
+  "before": "Then they climb a hill to a lake.",
+  "after": "Then they climb a hill to a lake.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 5,
+  "before": "Max takes off his red jacket to swim.",
+  "after": "Ben takes off his blue jacket to swim.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 6,
+  "before": "Swimming is fun on a hot day.",
+  "after": "Swimming is fun on a hot day.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 7,
+  "before": "Hana is the fastest and wins the race.",
+  "after": "Mia is the fastest and wins the race.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 0,
+  "before": "Zoe and her sister Lucy go to the market.",
+  "after": "Ben and his sister Lily go to the market.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 1,
+  "before": "First, they get money from the bank.",
+  "after": "First, their mum Anna gets money from the bank.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 2,
+  "before": "Many people sell fruit and fresh bread here.",
+  "after": "Many people sell fruit and fresh bread here.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 3,
+  "before": "Lucy has a question about the price of apples.",
+  "after": "Lily has a question about the price of apples.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 4,
+  "before": "The apples are cheap, only ten cents each.",
+  "after": "The apples are cheap, only ten cents each.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 5,
+  "before": "Zoe likes some jeans, but they are expensive.",
+  "after": "Ben likes some jeans, but they are expensive.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 6,
+  "before": "She does not want to spend forty dollars.",
+  "after": "So Ben keeps his dollars to spend on lunch.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 7,
+  "before": "They share a rich cheese pizza for lunch.",
+  "after": "They share a rich cheese pizza for lunch.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 0,
+  "before": "Dan and Aiko spend the day with their uncle.",
+  "after": "Ben and Lily spend the day with their uncle.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 1,
+  "before": "The jeans Dan wears are too short now.",
+  "after": "The jeans Ben wears are too short now.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 2,
+  "before": "So their uncle buys him a new pair.",
+  "after": "So their uncle buys him a new pair.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 3,
+  "before": "At home, their uncle has a big problem.",
+  "after": "At home, their uncle has a big problem.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 4,
+  "before": "But his key is wrong for the door.",
+  "after": "But his key is wrong for the door.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 5,
+  "before": "Aiko speaks up: “Look above the door!”",
+  "after": "Lily speaks up: “Look above the door!”",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 6,
+  "before": "They all go into the house and feel better.",
+  "after": "They all go into the house and feel better.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 7,
+  "before": "Dan shows Aiko his new jeans with a smile.",
+  "after": "Ben shows Lily his new jeans with a smile.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 0,
+  "before": "It is the last Monday in July.",
+  "after": "The cafe is busy on a hot July Monday.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 1,
+  "before": "Sara finds a seat at the cafe.",
+  "after": "Sara finds a seat at the cafe.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 2,
+  "before": "She sits down with a purple cup.",
+  "after": "She sits down with a purple cup.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 3,
+  "before": "Ivan comes in and says hello to her.",
+  "after": "Kofi comes in and says hello to her.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 4,
+  "before": "He opens the top of his water bottle.",
+  "after": "He opens the top of his water bottle.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 5,
+  "before": "Sadly, there is zero water inside.",
+  "after": "He looks in again, but there is zero water.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 6,
+  "before": "“Help yourself to my water,” says Sara.",
+  "after": "“Help yourself to my water,” says Sara.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 7,
+  "before": "Ivan thanks her again and wants nothing else.",
+  "after": "They listen to music; Kofi wants nothing else.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 0,
+  "before": "It is a warm June day in the garden.",
+  "after": "It is a warm June day in the garden.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 1,
+  "before": "They want to give their dog a bath.",
+  "after": "Ben and Lily want to give Max a bath.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 2,
+  "before": "The dog runs around the pink flowers.",
+  "after": "Wet Max runs around nine pink flowers.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 3,
+  "before": "Anna waits for a moment until it stops.",
+  "after": "Lily waits for a moment until he stops.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 4,
+  "before": "Each child takes a turn with the brush.",
+  "after": "Each child takes a turn with the brush.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 5,
+  "before": "Then they share a banana, piece by piece.",
+  "after": "Then they cut a banana into twelve pieces.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 6,
+  "before": "“Help yourself to another piece,” says Ben.",
+  "after": "“Help yourself to another piece,” Ben says to Max.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 1,
+  "before": "Ben is nine, and Anna is twelve.",
+  "after": "",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 0,
+  "before": "Mia and Sam go to the cinema tonight.",
+  "after": "Mia and Ben go to the cinema tonight.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 1,
+  "before": "First, they look at the snack menu.",
+  "after": "First, they look at the snack menu.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 2,
+  "before": "The film tells an exciting story.",
+  "after": "The film tells an exciting story.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 3,
+  "before": "It is about a young Italian singer.",
+  "after": "It is about a young Italian singer.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 4,
+  "before": "She loves to sing and dance on stage.",
+  "after": "She loves to sing and dance on stage.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 5,
+  "before": "The dancing in the movie is beautiful.",
+  "after": "The dancing in the movie is beautiful.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 6,
+  "before": "By the fire, Sam draws the singer.",
+  "after": "By the fire, Ben draws the singer.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 7,
+  "before": "Mia wants to be a movie writer one day.",
+  "after": "Mia, a young writer, writes her own story.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 0,
+  "before": "Nina and Omar sit in the classroom.",
+  "after": "Ben and Mia sit in the classroom.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 1,
+  "before": "Mister Jack teaches them the alphabet first.",
+  "after": "Mister Kofi teaches them the alphabet first.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 2,
+  "before": "The children repeat each letter after him.",
+  "after": "The children repeat each letter after him.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 3,
+  "before": "Then he reads a sentence as an example.",
+  "after": "Then he reads a sentence as an example.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 4,
+  "before": "Next is a geography lesson about rivers.",
+  "after": "Next is a geography lesson about rivers.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 5,
+  "before": "Omar knows the names of many rivers.",
+  "after": "Mia knows the answer and raises her hand.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 6,
+  "before": "Nina writes a note with her pencil.",
+  "after": "Ben writes a note with his pencil.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 7,
+  "before": "“For homework, test yourself,” says Mister Jack.",
+  "after": "“For homework, test yourself,” says Mister Kofi.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 0,
+  "before": "Emma and Ali want to be healthy.",
+  "after": "Anna and Dan want to be healthy.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 1,
+  "before": "They exercise with music in their ears.",
+  "after": "They exercise with music in their ears.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 2,
+  "before": "For breakfast, they eat fruit and vegetables.",
+  "after": "For breakfast, they eat fruit and vegetables.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 3,
+  "before": "Ali puts lots of salt on his eggs.",
+  "after": "Dan puts lots of salt on his eggs.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 4,
+  "before": "Emma's eyes go wide: “That is dangerous!”",
+  "after": "Anna's eyes go wide: “That is dangerous!”",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 5,
+  "before": "Here is a fact: water is the best drink.",
+  "after": "Here is a fact: water is the best drink.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 6,
+  "before": "Before bed, he never forgets his toothbrush and toothpaste.",
+  "after": "Before bed, he never forgets his toothbrush and toothpaste.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 7,
+  "before": "With a clean mouth, Ali goes to sleep.",
+  "after": "With a clean mouth, Dan goes to sleep.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 0,
+  "before": "Kofi and his cousin Hana arrive together.",
+  "after": "Ben, Lily and their cousin arrive together.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 1,
+  "before": "Max welcomes them at the door with a smile.",
+  "after": "At the door, Grandpa Joe welcomes them.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 2,
+  "before": "Many people from different countries are inside.",
+  "after": "Many people from different countries are inside.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 3,
+  "before": "Two Chinese women make dumplings at a table.",
+  "after": "Two Chinese women make dumplings at a table.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 4,
+  "before": "Max was born in a small German town.",
+  "after": "Grandpa Joe was born in a small German town.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 5,
+  "before": "Each parent brings a famous dish from their country.",
+  "after": "Each parent brings a famous dish from their country.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 6,
+  "before": "Hana has an idea: a big dance for everyone.",
+  "after": "Lily has an idea: a big dance for everyone.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 7,
+  "before": "Every person in the room joins the dance.",
+  "after": "Every person in the room joins the dance.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 0,
+  "before": "After science class, Zoe and Raj feel hungry.",
+  "after": "After science class, Mia and Ben feel hungry.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 1,
+  "before": "The special today is bread with meat and cheese.",
+  "after": "The special today is bread with meat and cheese.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 2,
+  "before": "Raj pays for two plates at the counter.",
+  "after": "Ben pays for two plates at the counter.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 3,
+  "before": "He carries them slowly to a long green table.",
+  "after": "He carries them slowly to a long green table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 4,
+  "before": "An old policeman with white hair sits there.",
+  "after": "An old policeman with white hair sits there.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 5,
+  "before": "His glasses fall on the floor.",
+  "after": "His glasses fall on the floor.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 6,
+  "before": "Zoe picks them up for the kind man.",
+  "after": "Mia picks them up for the kind man.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 7,
+  "before": "“Thank you!” he calls, with a big smile.",
+  "after": "“Thank you!” he calls, with a big smile.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 0,
+  "before": "This Wednesday in December is Aiko's birthday.",
+  "after": "This Wednesday in December is Leo's birthday.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 1,
+  "before": "Last week she was sixteen; today she is seventeen.",
+  "after": "His cake has seventeen candles, not sixteen.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 2,
+  "before": "At six a.m., she makes breakfast for her family.",
+  "after": "Each week, he cooks breakfast at six a.m.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 3,
+  "before": "Her new cooking pot is very useful.",
+  "after": "His new cooking pot is very useful.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 4,
+  "before": "She puts a bowl of strawberries on the table.",
+  "after": "He puts strawberries on the family table.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 5,
+  "before": "Her father Dan, a policeman, is two metres tall.",
+  "after": "At two metres tall, poor Leo hits the door.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 6,
+  "before": "Dan holds his birthday girl in his arms.",
+  "after": "His sister Mia, a little girl, hugs him.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 0,
+  "before": "Maya and her husband Ivan go shopping.",
+  "after": "Anna and her husband Dan go shopping.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 1,
+  "before": "They like the little shops on this street.",
+  "after": "They like the little shops on this street.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 2,
+  "before": "Then a big box falls from a car.",
+  "after": "Then a big box falls from a car.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 3,
+  "before": "The address on it is thirty houses away.",
+  "after": "The address on it is thirty houses away.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 4,
+  "before": "Now it is raining, and the box is wet.",
+  "after": "Now real rain falls, and the box is wet.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 5,
+  "before": "Without any umbrellas, they carry it there.",
+  "after": "Without any umbrellas, they carry it there.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 6,
+  "before": "Ivan is a real policeman with a long beard.",
+  "after": "Poor Dan: water runs down his beard.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 7,
+  "before": "They laugh: this is the best fun today.",
+  "after": "They laugh: this is the best fun today.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 0,
+  "before": "Ben and Anna are children in Britain.",
+  "after": "Ben and Lily are children in Britain.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 1,
+  "before": "They look at a big map of the world.",
+  "after": "They look at a big map of the world.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 2,
+  "before": "They want to travel to many countries.",
+  "after": "They put clothes in a big bag to travel.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 3,
+  "before": "Ben wants to visit Japan and Sweden.",
+  "after": "Ben points at Japan and Sweden on the map.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 4,
+  "before": "Anna likes Italy, Portugal and Switzerland.",
+  "after": "Lily points at Italy, Portugal and Switzerland.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 5,
+  "before": "Their first trip goes west, across England.",
+  "after": "Lily is a little afraid of flying.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 6,
+  "before": "Anna is a little afraid of flying.",
+  "after": "Their first trip goes west across England by car.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 7,
+  "before": "A friendly driver takes them there by car.",
+  "after": "A friendly driver smiles at them in the car.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 0,
+  "before": "On Christmas morning, Sam hears a terrible sound.",
+  "after": "On Christmas morning, Ben hears a terrible sound.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 1,
+  "before": "Someone is in the kitchen near the fire.",
+  "after": "Someone is in the kitchen near the fire.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 2,
+  "before": "His mother Mia holds a single toy chicken.",
+  "after": "His mother Anna holds a single toy chicken.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 3,
+  "before": "The poor boy laughs and hugs the toy.",
+  "after": "The poor boy laughs and hugs the toy.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 4,
+  "before": "It is hard, but he loves it so much.",
+  "after": "It is hard, but he loves it so much.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 5,
+  "before": "Of all his gifts, he likes it most.",
+  "after": "Of all his gifts, he likes it most.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 6,
+  "before": "\"Please drink your milk now,\" says Mia.",
+  "after": "\"Please drink your milk now,\" says Anna.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 0,
+  "before": "Omar and Nina read a big picture book.",
+  "after": "Ben and Lily read a big picture book.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 1,
+  "before": "One page shows snow and ice on a mountain.",
+  "after": "One page shows snow and ice on a mountain.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 2,
+  "before": "Next, a lion sleeps on the sunny grass.",
+  "after": "Next, a lion sleeps on the sunny grass.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 7,
+  "before": "Nina helps Omar understand the long words.",
+  "after": "Ben helps Lily understand the long words.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 0,
+  "before": "Ali and his wife Rosa sit by the river.",
+  "after": "Grandma Rosa and Grandpa Joe sit by the river.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 1,
+  "before": "They remember their trip to a hot country.",
+  "after": "They look at old photos and remember their trip.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 2,
+  "before": "During the trip, they rode a big elephant.",
+  "after": "During the trip, they rode a big elephant.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 3,
+  "before": "Rosa also rode a white horse one day.",
+  "after": "One day, Grandma Rosa also rode a white horse.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 4,
+  "before": "Each night, they slept in the same small house.",
+  "after": "They wore the same straw hats in every photo.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 5,
+  "before": "The house had only one big bed.",
+  "after": "Their little house had only one big bed.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 6,
+  "before": "Now they laugh and remember those happy days.",
+  "after": "Grandpa Joe kisses his wife, and they laugh.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 0,
+  "before": "Kofi and his brother Max sit in the park.",
+  "after": "Mia and her brother Leo sit in the park.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 1,
+  "before": "The evening air is warm because the sun shines.",
+  "after": "The evening air is warm because the sun shines.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 2,
+  "before": "Max's homework is very difficult today.",
+  "after": "Mia's homework is very difficult today.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 3,
+  "before": "Kofi checks everything and finds the right answers.",
+  "after": "Leo checks everything and finds the right answers.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 4,
+  "before": "Max's lunch bag includes two red apples.",
+  "after": "Mia's lunch bag includes two red apples.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 5,
+  "before": "Max eats one apple, and Kofi eats the other.",
+  "after": "Mia eats one apple, and Leo eats the other.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 6,
+  "before": "Somebody on a horse comes into the park.",
+  "after": "Somebody on a horse comes into the park.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 7,
+  "before": "The horse is much taller than Max.",
+  "after": "The horse is much taller than Mia.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 0,
+  "before": "On a rainy spring day, Zoe and Raj study.",
+  "after": "On a rainy spring day, Sara and Kofi study.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 1,
+  "before": "They sit in the library of their university.",
+  "after": "They sit in the library of her university.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 2,
+  "before": "Raj learns the Spanish language at his college.",
+  "after": "Sara learns the Spanish language at her college.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 3,
+  "before": "He must describe his home in Spanish.",
+  "after": "She must describe a photo of her home.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 4,
+  "before": "He writes a hundred words in his book.",
+  "after": "She writes a hundred words in her book.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 5,
+  "before": "Raj makes a mistake and feels angry.",
+  "after": "Sara makes a mistake and feels angry.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 6,
+  "before": "Zoe gives him her eraser with a smile.",
+  "after": "Kofi gives her his eraser with a smile.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 7,
+  "before": "Then she helps him with her dictionary.",
+  "after": "Then he helps her with his dictionary.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 0,
+  "before": "Aiko comes to Dan's house for his birthday.",
+  "after": "Mia comes to Ben's house for his birthday.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 1,
+  "before": "They wait for the cake at a garden table.",
+  "after": "They wait for the cake at a garden table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 2,
+  "before": "Aiko puts butter on warm bread for Dan.",
+  "after": "Mia puts butter on warm bread for Ben.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 3,
+  "before": "Just then, Finn the pig comes near them.",
+  "after": "Just then, a little pig comes near them.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 4,
+  "before": "The hungry animal finds a carrot under the table.",
+  "after": "The hungry animal finds a carrot under the table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 5,
+  "before": "It eats all of the carrot very fast.",
+  "after": "It eats all of the carrot very fast.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 6,
+  "before": "Then it pulls the bread off Dan's plate.",
+  "after": "Then it pulls the bread off Ben's plate.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 7,
+  "before": "Later, Dan closes the gate so it stays out.",
+  "after": "Later, Ben closes the gate so it stays out.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 0,
+  "before": "Ivan's grandfather invites him to his club.",
+  "after": "Ben's grandfather invites him to his club.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 1,
+  "before": "His grandfather has friends from many countries.",
+  "after": "His grandfather has friends from many countries.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 2,
+  "before": "Maya is an American woman with a kind face.",
+  "after": "An American woman smiles and waves at Ben.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 3,
+  "before": "Her son has a tiger on his shirt.",
+  "after": "Her son has a tiger on his shirt.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 4,
+  "before": "A Russian man and his wife dance together.",
+  "after": "A Russian man and his wife dance together.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 5,
+  "before": "A British police officer tells a funny story.",
+  "after": "Ivan, a British police officer, tells a funny story.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 6,
+  "before": "Everybody laughs and gives him a big smile.",
+  "after": "Everybody laughs and gives him a big smile.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 0,
+  "before": "Ben and his wife Anna are at a party.",
+  "after": "Dan and his wife Anna are at a party.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 1,
+  "before": "The house is busy and full of light.",
+  "after": "The house is busy and full of light.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 3,
+  "before": "First, they look for a glass of wine.",
+  "after": "First, they look for a glass of wine.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 4,
+  "before": "They find red wine on a long table.",
+  "after": "They find red wine on a long table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 5,
+  "before": "Ben wants to say something personal to Anna.",
+  "after": "Dan says something personal into Anna's ear.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 6,
+  "before": "As they walk outside, the sky is cloudy.",
+  "after": "As they walk outside, the sky is cloudy.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 7,
+  "before": "Happy Anna runs to hug him by the flowers.",
+  "after": "Happy Anna runs to hug him by the flowers.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 0,
+  "before": "Lily is at home with her grandmother.",
+  "after": "Lily is at home with her grandmother.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 1,
+  "before": "A calendar with flowers is on the wall.",
+  "after": "A calendar with flowers is on the wall.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 2,
+  "before": "Lily's next school trip is on that date.",
+  "after": "Lily draws a red circle around a date.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 3,
+  "before": "The student needs some new pants for it.",
+  "after": "The student needs new pants for her next trip.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 4,
+  "before": "Grandmother holds two pairs of pants on her arm.",
+  "after": "Grandma has some new pants on her arm.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 5,
+  "before": "Lily cannot decide which pair she likes more.",
+  "after": "Lily cannot decide which pair she likes more.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 6,
+  "before": "She goes to the toilet to try them on.",
+  "after": "She goes to the toilet to try them on.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 7,
+  "before": "They are very long, but Grandmother finds a way.",
+  "after": "They are very long, but Grandma finds a way.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 0,
+  "before": "Omar and Nina visit a small bookstore.",
+  "after": "Sara and Kofi visit a small bookstore.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 1,
+  "before": "They see many young people reading there.",
+  "after": "They see many young people reading there.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 2,
+  "before": "Nina needs a book with horse photos.",
+  "after": "Sara needs a book with horse photos.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 3,
+  "before": "She saw it at the library a week ago.",
+  "after": "She read it at the library a week ago.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 4,
+  "before": "Soon they are hungry, so they walk away.",
+  "after": "Soon they are hungry, so they walk away.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 5,
+  "before": "At home, Omar cooks fish for dinner.",
+  "after": "At home, Kofi cooks fish for dinner.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 6,
+  "before": "Nina puts a light over the dining-room table.",
+  "after": "Sara puts a light over the dining-room table.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 7,
+  "before": "Then she puts a bowl of oranges on it.",
+  "after": "Then she puts a bowl of oranges on it.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 0,
+  "before": "Rosa and Ali go out in good weather.",
+  "after": "Ben and Mia go out in good weather.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 1,
+  "before": "Ali wears his new blue shirt.",
+  "after": "Ben wears his new green shirt.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 2,
+  "before": "They follow a path to the park.",
+  "after": "They follow a path to the park.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 3,
+  "before": "Ali gives Rosa a big bowl of salad.",
+  "after": "Ben gives Mia a big bowl of salad.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 4,
+  "before": "They both think the salad is great.",
+  "after": "They both smile and eat the great salad.",
+  "reason": "画面",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 5,
+  "before": "They do not want to miss French class.",
+  "after": "They do not want to miss French class.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 6,
+  "before": "So they run to the library behind the park.",
+  "after": "So they run to the library behind the park.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 7,
+  "before": "Inside, they practise each French word twice.",
+  "after": "Inside, they practise each French word twice.",
+  "reason": "人物",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 0,
+  "before": "Yesterday, Ben put on his jeans and jacket.",
+  "after": "Yesterday, Ben found a letter at the front door.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 1,
+  "before": "He found a letter at the front door.",
+  "after": "He runs upstairs in his jeans and jacket.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 2,
+  "before": "He runs upstairs to ask his sister.",
+  "after": "\"Is it about Max?\" he asks Lily.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 3,
+  "before": "Lily is in bed with a bad cold.",
+  "after": "Their pet was lost a month ago.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 4,
+  "before": "Something falls out: a photo of their pet.",
+  "after": "Ben thinks it is bad news.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 5,
+  "before": "A strong farmer holds Max in the photo.",
+  "after": "Something falls out: a photo of Max!",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 6,
+  "before": "Lily thinks and puts her hands on her head.",
+  "after": "In the photo, a strong farmer pats Max's head.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-005",
+  "i": 7,
+  "before": "On Thursday night, a car stops at the door.",
+  "after": "That night, a car stops, and Max jumps out!",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 4,
+  "before": "Her little girl in the snow has no coat.",
+  "after": "Next to her, a little girl has no coat.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 5,
+  "before": "Dan's wife lets Ben give her a coat.",
+  "after": "Anna, Dan's wife, lets Ben give her a coat.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 1,
+  "before": "Grandma Rosa has sixty little cups on a shelf.",
+  "after": "Grandma Rosa collects cups, and she has sixty.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 1,
+  "before": "Ben feels free in the big pool.",
+  "after": "This year, the pool is free for children.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 3,
+  "before": "This year, Lily swims fast, like a future star.",
+  "after": "In the future, Lily wants to be a swimmer.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 5,
+  "before": "The television gives information: rain is coming, too.",
+  "after": "The television news gives the same information: rain.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 0,
+  "before": "Anna bakes a cake in her quiet kitchen.",
+  "after": "Anna is alone in her quiet kitchen.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 1,
+  "before": "It is important: today is Dan's birthday.",
+  "after": "Dan's birthday is important to her every year.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 2,
+  "before": "She uses every egg in the box.",
+  "after": "Once a year, she bakes him this nice cake.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 7,
+  "before": "Dan eats too much: \"Dear, they are always nice!\"",
+  "after": "\"Dear, your cakes are always the best!\" says Dan.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 2,
+  "before": "Wet Max runs around nine pink flowers.",
+  "after": "Wet Max runs twelve times around the pink flowers.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 3,
+  "before": "Lily waits for a moment until he stops.",
+  "after": "He is nine, but he runs like a puppy.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 4,
+  "before": "Each child takes a turn with the brush.",
+  "after": "Lily waits for a moment until he stops.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 5,
+  "before": "Then they cut a banana into twelve pieces.",
+  "after": "Each child takes a turn with the brush.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 6,
+  "before": "“Help yourself to another piece,” Ben says to Max.",
+  "after": "Later, they share a banana, piece by piece.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 7,
+  "before": null,
+  "after": "\"Help yourself to another piece,\" Ben tells Max.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 6,
+  "before": "By the fire, Ben draws the singer.",
+  "after": "At home, Ben draws the singer by the fire.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 0,
+  "before": "This Wednesday in December is Leo's birthday.",
+  "after": "This Wednesday in December is Leo's birthday.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 1,
+  "before": "His cake has seventeen candles, not sixteen.",
+  "after": "He is sixteen today and almost two metres tall.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 2,
+  "before": "Each week, he cooks breakfast at six a.m.",
+  "after": "Every week, he cooks breakfast at seven a.m.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 3,
+  "before": "His new cooking pot is very useful.",
+  "after": "His new cooking pot is very useful.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 4,
+  "before": "He puts strawberries on the family table.",
+  "after": "He puts strawberries on the family table.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 5,
+  "before": "At two metres tall, poor Leo hits the door.",
+  "after": "Then poor Leo hits his head on the door.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 6,
+  "before": "His sister Mia, a little girl, hugs him.",
+  "after": "His sister Mia, a kind girl, hugs him.",
+  "reason": "通顺",
+  "pass": "picture"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 7,
+  "before": null,
+  "after": "Next year, he wants seventeen candles on his cake.",
+  "reason": "通顺",
+  "pass": "picture"
  }
 ]

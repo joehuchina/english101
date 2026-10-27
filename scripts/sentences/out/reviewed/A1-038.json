@@ -27,54 +27,73 @@
  "setting": "A busy outdoor market with many food and clothes stalls.",
  "characters": [
   {
-   "name": "Zoe",
-   "look": "Zoe, a young girl with short black hair and a yellow shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Lucy",
-   "look": "Lucy, a young girl with long brown hair and a blue dress"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
   }
  ],
  "sentences": [
   {
-   "en": "Zoe and her sister Lucy go to the market.",
-   "zh": "佐伊和她的姐姐露西去集市。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Lucy, a young girl with long brown hair and a blue dress walk into a busy outdoor market."
+   "en": "Ben and his sister Lily go to the market.",
+   "zh": "本和他的妹妹莉莉去集市。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and his little sister Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk into a busy outdoor market with fruit and clothes stalls.",
+   "draw": "yes"
   },
   {
-   "en": "First, they get money from the bank.",
-   "zh": "首先，她们从银行取了钱。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Lucy, a young girl with long brown hair and a blue dress take money from a cash machine outside a bank."
+   "en": "First, their mum Anna gets money from the bank.",
+   "zh": "首先，妈妈安娜从银行取了钱。",
+   "scene_prompt": "Outside a bank, Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) takes paper money from a cash machine while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wait beside her.",
+   "draw": "yes"
   },
   {
    "en": "Many people sell fruit and fresh bread here.",
    "zh": "很多人在这里卖水果和新鲜面包。",
-   "scene_prompt": "Market stalls full of fruit and fresh bread, with sellers behind them."
+   "scene_prompt": "Market stalls full of colourful fruit and fresh bread, with sellers handing bags to shoppers.",
+   "draw": "yes"
   },
   {
-   "en": "Lucy has a question about the price of apples.",
-   "zh": "露西想问问苹果的价格。",
-   "scene_prompt": "Lucy, a young girl with long brown hair and a blue dress asks a fruit seller a question, pointing at red apples."
+   "en": "Lily has a question about the price of apples.",
+   "zh": "莉莉想问问苹果的价格。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points at a pile of red apples and looks up at the fruit seller with a curious face.",
+   "draw": "partly",
+   "draw_note": "Shows Lily pointing at apples and asking the seller; the question about the price can't be shown."
   },
   {
    "en": "The apples are cheap, only ten cents each.",
    "zh": "苹果很便宜，每个只要十美分。",
-   "scene_prompt": "Lucy, a young girl with long brown hair and a blue dress gives a few small coins to the fruit seller for apples."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) gives a few tiny coins to the smiling fruit seller and gets a big bag of red apples.",
+   "draw": "partly",
+   "draw_note": "Shows Lily paying a few small coins for many apples; the exact price can't be shown."
   },
   {
-   "en": "Zoe likes some jeans, but they are expensive.",
-   "zh": "佐伊喜欢一条牛仔裤，但是很贵。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt holds up a pair of jeans at a clothes stall with a surprised face."
+   "en": "Ben likes some jeans, but they are expensive.",
+   "zh": "本喜欢一条牛仔裤，但是很贵。",
+   "scene_prompt": "At a clothes stall, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up a pair of blue jeans and gasps as the seller holds out a hand for a thick pile of paper money.",
+   "draw": "partly",
+   "draw_note": "Shows Ben liking the jeans and being shocked at the money asked; the price itself can't be shown."
   },
   {
-   "en": "She does not want to spend forty dollars.",
-   "zh": "她不想花四十美元。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt puts the jeans back and shakes her head, holding her purse."
+   "en": "So Ben keeps his dollars to spend on lunch.",
+   "zh": "所以本留着他的美元，用来买午饭。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) puts the jeans back on the stall and holds a few green dollar notes, looking over at a pizza stall.",
+   "draw": "partly",
+   "draw_note": "Shows Ben putting the jeans back and holding his money near a food stall; the plan to spend it on lunch can only be guessed."
   },
   {
    "en": "They share a rich cheese pizza for lunch.",
-   "zh": "她们一起吃了一份浓郁的芝士比萨当午饭。",
-   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Lucy, a young girl with long brown hair and a blue dress share a cheesy pizza at a market food stall."
+   "zh": "他们一起吃了一份浓郁的芝士比萨当午饭。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) share a big cheesy pizza at a market food stall.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

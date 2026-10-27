@@ -23,54 +23,73 @@
   "poor",
   "girl"
  ],
- "title": "Aiko's Birthday Breakfast",
- "title_zh": "爱子的生日早餐",
+ "title": "Leo's Birthday Breakfast",
+ "title_zh": "里奥的生日早餐",
  "setting": "A bright family kitchen on a winter morning.",
  "characters": [
   {
-   "name": "Aiko",
-   "look": "Aiko, a young girl with black hair in two small buns"
+   "id": "leo",
+   "name": "Leo",
+   "look": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie)"
   },
   {
-   "name": "Dan",
-   "look": "Dan, her father, a very tall man with short brown hair in a police uniform"
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   }
  ],
  "sentences": [
   {
-   "en": "This Wednesday in December is Aiko's birthday.",
-   "zh": "十二月的这个星期三是爱子的生日。",
-   "scene_prompt": "Aiko, a young girl with black hair in two small buns smiles at a snowy window in the bright kitchen, with balloons around her."
+   "en": "This Wednesday in December is Leo's birthday.",
+   "zh": "这个十二月的星期三是里奥的生日。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) wakes up smiling; snow falls outside his bedroom window.",
+   "draw": "partly",
+   "draw_note": "Shows a happy winter morning; the day and month are not shown."
   },
   {
-   "en": "Last week she was sixteen; today she is seventeen.",
-   "zh": "上周她十六岁，今天她十七岁了。",
-   "scene_prompt": "Aiko, a young girl with black hair in two small buns looks proudly at herself in a mirror, a little older and taller."
+   "en": "He is sixteen today and almost two metres tall.",
+   "zh": "他今天十六岁，个子将近两米。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stands next to a door frame; his head almost touches the top.",
+   "draw": "partly",
+   "draw_note": "Shows how tall Leo is; his age and the exact height are not shown."
   },
   {
-   "en": "At six a.m., she makes breakfast for her family.",
-   "zh": "早上六点，她为家人做早饭。",
-   "scene_prompt": "Aiko, a young girl with black hair in two small buns cooks at the stove in the kitchen while it is still dark outside."
+   "en": "Every week, he cooks breakfast at seven a.m.",
+   "zh": "他每个星期都在早上七点做早饭。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) cooks eggs at the stove in the early morning light.",
+   "draw": "partly",
+   "draw_note": "Shows Leo cooking breakfast; 'every week' and the time are not shown."
   },
   {
-   "en": "Her new cooking pot is very useful.",
-   "zh": "她的新锅非常好用。",
-   "scene_prompt": "Aiko, a young girl with black hair in two small buns stirs porridge in a shiny new cooking pot."
+   "en": "His new cooking pot is very useful.",
+   "zh": "他的新锅非常好用。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stirs porridge in a shiny new cooking pot.",
+   "draw": "yes"
   },
   {
-   "en": "She puts a bowl of strawberries on the table.",
-   "zh": "她把一碗草莓放在桌子上。",
-   "scene_prompt": "Aiko, a young girl with black hair in two small buns puts a bowl of red strawberries on the kitchen table."
+   "en": "He puts strawberries on the family table.",
+   "zh": "他把草莓放到家里的餐桌上。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) puts a bowl of red strawberries on a long kitchen table set for the family.",
+   "draw": "yes"
   },
   {
-   "en": "Her father Dan, a policeman, is two metres tall.",
-   "zh": "她的爸爸丹是个警察，身高两米。",
-   "scene_prompt": "Dan, her father, a very tall man with short brown hair in a police uniform walks into the kitchen and has to bend his head under the door frame."
+   "en": "Then poor Leo hits his head on the door.",
+   "zh": "接着，可怜的里奥一头撞在了门上。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) rubs his head after bumping it on the top of a low door frame.",
+   "draw": "yes"
   },
   {
-   "en": "Dan holds his birthday girl in his arms.",
-   "zh": "丹把过生日的女儿抱在怀里。",
-   "scene_prompt": "Dan, her father, a very tall man with short brown hair in a police uniform holds Aiko, a young girl with black hair in two small buns in his arms next to the breakfast table."
+   "en": "His sister Mia, a kind girl, hugs him.",
+   "zh": "他的妹妹米娅是个善良的女孩，她抱了抱他。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) hugs Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) in the kitchen and laughs.",
+   "draw": "yes"
+  },
+  {
+   "en": "Next year, he wants seventeen candles on his cake.",
+   "zh": "明年，他想要蛋糕上插十七根蜡烛。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) look at a birthday cake covered in lit candles.",
+   "draw": "partly",
+   "draw_note": "Shows a cake with many candles; 'next year' and the number are not shown."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

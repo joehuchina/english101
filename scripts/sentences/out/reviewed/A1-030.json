@@ -29,54 +29,65 @@
  "setting": "A green hill by the sea, with a farm, trees and fields.",
  "characters": [
   {
-   "name": "Zoe",
-   "look": "Zoe, a young girl with long brown hair and a yellow shirt"
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
   },
   {
-   "name": "Raj",
-   "look": "Raj, a young boy with short black hair and a blue t-shirt"
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
   }
  ],
  "sentences": [
   {
-   "en": "In summer, Zoe and Raj walk up a hill.",
-   "zh": "夏天，佐伊和拉吉走上一座小山。",
-   "scene_prompt": "Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt walk up a green hill under a bright summer sun."
+   "en": "In summer, Ben and Mia walk up a hill.",
+   "zh": "夏天，本和米娅走上一座小山。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) walk up a green hill under a bright summer sun.",
+   "draw": "yes"
   },
   {
    "en": "Below them, men fish in the beautiful sea.",
    "zh": "在他们下方，人们在美丽的海里捕鱼。",
-   "scene_prompt": "From the hilltop, Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt look down at fishermen in a small boat on a beautiful blue sea."
+   "scene_prompt": "From the hilltop, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) look down at fishermen in a small boat on a beautiful blue sea.",
+   "draw": "yes"
   },
   {
    "en": "A plane flies north over the blue water.",
    "zh": "一架飞机飞过蓝色的海面向北飞去。",
-   "scene_prompt": "A plane flies high over the blue sea while Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt point at it."
+   "scene_prompt": "A plane flies high over the blue sea while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) point at it.",
+   "draw": "partly",
+   "draw_note": "Shows a plane over the sea; the direction 'north' can't be shown."
   },
   {
    "en": "Sheep and cows eat grass under a tree.",
    "zh": "绵羊和奶牛在一棵树下吃草。",
-   "scene_prompt": "White sheep and brown cows eat grass under a big tree on the hill."
+   "scene_prompt": "White sheep and brown cows eat grass under a big tree on the hill.",
+   "draw": "yes"
   },
   {
    "en": "A brown rabbit runs past their feet.",
    "zh": "一只棕色的兔子从他们脚边跑过。",
-   "scene_prompt": "A brown rabbit runs past the feet of Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt on the grass."
+   "scene_prompt": "A brown rabbit runs past the feet of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) on the grass.",
+   "draw": "yes"
   },
   {
    "en": "Near the farm, a cat watches a mouse.",
    "zh": "农场附近，一只猫盯着一只老鼠。",
-   "scene_prompt": "A cat crouches and watches a small mouse near a farm wall."
+   "scene_prompt": "A cat crouches and watches a small mouse near a farm wall.",
+   "draw": "yes"
   },
   {
-   "en": "Raj shows his toy monkey to the sheep.",
-   "zh": "拉吉把他的玩具猴子给绵羊看。",
-   "scene_prompt": "Raj, a young boy with short black hair and a blue t-shirt holds up a toy monkey in front of a curious sheep, Zoe, a young girl with long brown hair and a yellow shirt laughing."
+   "en": "Ben shows his toy monkey to the sheep.",
+   "zh": "本把他的玩具猴子给绵羊看。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up a toy monkey in front of a curious sheep, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) laughing.",
+   "draw": "yes"
   },
   {
    "en": "In autumn, all the flowers on the hill die.",
    "zh": "到了秋天，山上的花全都凋谢了。",
-   "scene_prompt": "The same hill in autumn, with dry brown flowers and orange leaves."
+   "scene_prompt": "The same hill in autumn, with dry brown flowers and orange leaves.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

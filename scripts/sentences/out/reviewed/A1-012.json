@@ -26,57 +26,75 @@
  ],
  "title": "No More Tomatoes",
  "title_zh": "番茄用完了",
- "setting": "The kitchen of a small family restaurant.",
+ "setting": "The kitchen of Omar's small restaurant.",
  "characters": [
   {
-   "name": "Rosa",
-   "look": "Rosa, a young girl with short brown hair and a yellow shirt"
+   "id": "omar",
+   "name": "Omar",
+   "look": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron)"
   },
   {
-   "name": "Father",
-   "look": "Rosa's father, a man with long legs, a moustache and a tall white chef's hat"
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
   }
  ],
  "sentences": [
   {
-   "en": "Rosa's father has a small restaurant in town.",
-   "zh": "罗莎的爸爸在镇上开了一家小餐馆。",
-   "scene_prompt": "Rosa's father, a man with long legs, a moustache and a tall white chef's hat stands proudly in front of a small restaurant with tables outside."
+   "en": "Omar has a small restaurant in town.",
+   "zh": "奥马尔在镇上开了一家小餐馆。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) stands smiling at the door of his small restaurant on a town street.",
+   "draw": "yes"
   },
   {
-   "en": "Today Rosa helps him in the kitchen.",
-   "zh": "今天罗莎在厨房帮他。",
-   "scene_prompt": "Rosa, a young girl with short brown hair and a yellow shirt puts on an apron next to Rosa's father, a man with long legs, a moustache and a tall white chef's hat in a restaurant kitchen."
+   "en": "Today Lily and her father help in the kitchen.",
+   "zh": "今天莉莉和她爸爸在厨房帮忙。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Dan (a tall man of about forty with a short brown beard and a navy jumper), both in aprons, help in a busy restaurant kitchen.",
+   "draw": "partly",
+   "draw_note": "Shows Lily and her father helping in the kitchen; 'today' can't be shown."
   },
   {
    "en": "Her father has long legs and a funny hat.",
    "zh": "她爸爸腿很长，戴着一顶滑稽的帽子。",
-   "scene_prompt": "Rosa's father, a man with long legs, a moustache and a tall white chef's hat bends down under a low shelf, his tall hat tipping, and Rosa, a young girl with short brown hair and a yellow shirt laughs."
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper), wearing a funny, very tall chef's hat, stands next to Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots); his long legs make her look tiny.",
+   "draw": "yes"
   },
   {
-   "en": "Rosa cuts the fourth and last tomato.",
-   "zh": "罗莎切了第四个，也是最后一个番茄。",
-   "scene_prompt": "Rosa, a young girl with short brown hair and a yellow shirt slices a tomato on a board next to three cut tomatoes."
+   "en": "Lily cuts the fourth and last tomato.",
+   "zh": "莉莉切了第四个，也是最后一个番茄。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) carefully cuts a tomato on a chopping board next to three tomatoes already cut; the bowl beside her is empty.",
+   "draw": "yes"
   },
   {
-   "en": "He tries the soup, but it needs more tomatoes.",
-   "zh": "他尝了尝汤，可是还需要更多番茄。",
-   "scene_prompt": "Rosa's father, a man with long legs, a moustache and a tall white chef's hat tastes soup from a spoon and makes a face; the tomato box is empty."
+   "en": "Omar tries the soup, but it needs more tomatoes.",
+   "zh": "奥马尔尝了尝汤，可是还需要更多番茄。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) tastes red soup from a big pot with a spoon and frowns; an empty tomato basket sits beside the pot.",
+   "draw": "partly",
+   "draw_note": "Shows Omar tasting the soup and an empty tomato basket; 'needs more' is only suggested."
   },
   {
-   "en": "Rosa takes a pen and writes a shopping list.",
-   "zh": "罗莎拿起一支笔，写了一张购物清单。",
-   "scene_prompt": "Rosa, a young girl with short brown hair and a yellow shirt writes on a small piece of paper with a pen at the kitchen table."
+   "en": "Lily takes a pen and writes a shopping list.",
+   "zh": "莉莉拿起一支笔，写了一张购物清单。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) holds a pen over a small sheet of paper with little drawings of tomatoes on it.",
+   "draw": "yes"
   },
   {
    "en": "They leave for the supermarket before lunch.",
    "zh": "他们在午饭前出发去超市。",
-   "scene_prompt": "Rosa, a young girl with short brown hair and a yellow shirt and Rosa's father, a man with long legs, a moustache and a tall white chef's hat walk out of the restaurant toward a supermarket."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Dan (a tall man of about forty with a short brown beard and a navy jumper) walk out of the restaurant towards a big supermarket across the street.",
+   "draw": "partly",
+   "draw_note": "Shows them leaving for the supermarket; 'before lunch' can't be shown."
   },
   {
    "en": "When they come back, people wait at the window.",
    "zh": "他们回来时，人们正在窗边等着。",
-   "scene_prompt": "Rosa, a young girl with short brown hair and a yellow shirt and Rosa's father, a man with long legs, a moustache and a tall white chef's hat return with bags of tomatoes; hungry people look in through the restaurant window."
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Dan (a tall man of about forty with a short brown beard and a navy jumper) come back with bags full of tomatoes while hungry people wait at the restaurant window.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"

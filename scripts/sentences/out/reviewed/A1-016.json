@@ -26,57 +26,71 @@
  ],
  "title": "A Rainy Shopping Trip",
  "title_zh": "雨天去购物",
- "setting": "Sara's kitchen and a street near a small food shop.",
+ "setting": "Sara's kitchen and a street near Omar's small food shop.",
  "characters": [
   {
+   "id": "sara",
    "name": "Sara",
-   "look": "Sara, a young woman with long brown hair and a blue coat"
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
   },
   {
-   "name": "Ivan",
-   "look": "Ivan, a tall man with short black hair and a green jacket"
+   "id": "omar",
+   "name": "Omar",
+   "look": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron)"
   }
  ],
  "sentences": [
   {
    "en": "Sara comes home from work and opens the fridge.",
    "zh": "萨拉下班回家，打开了冰箱。",
-   "scene_prompt": "Sara, a young woman with long brown hair and a blue coat opens a fridge in her kitchen, still holding her bag."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat, opens a fridge in her kitchen, still holding her bag.",
+   "draw": "yes"
   },
   {
    "en": "She can see only one small potato.",
    "zh": "她只看到一个小土豆。",
-   "scene_prompt": "Inside a nearly empty fridge sits one small potato."
+   "scene_prompt": "Inside a nearly empty fridge sits one small potato.",
+   "draw": "yes"
   },
   {
    "en": "She writes a short shopping list.",
    "zh": "她写了一张简短的购物清单。",
-   "scene_prompt": "Sara, a young woman with long brown hair and a blue coat writes a list on a small notepad at the kitchen table."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) writes on a small notepad at the kitchen table, the empty fridge open behind her.",
+   "draw": "yes"
   },
   {
    "en": "Soon the sky is dark and grey.",
    "zh": "不久，天空变得又暗又灰。",
-   "scene_prompt": "Dark grey clouds fill the sky over a street, seen from a kitchen window."
+   "scene_prompt": "Dark grey clouds fill the sky over a street, seen from a kitchen window.",
+   "draw": "partly",
+   "draw_note": "Shows a dark grey sky; 'soon' can't be shown."
   },
   {
    "en": "\"I hate rain,\" says Sara, and takes an umbrella.",
    "zh": "“我讨厌下雨。”萨拉说着，拿起了一把雨伞。",
-   "scene_prompt": "Sara, a young woman with long brown hair and a blue coat frowns at the rain and picks up an umbrella by the door."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat, frowns at the rain and picks up an umbrella by the door.",
+   "draw": "partly",
+   "draw_note": "Shows Sara frowning at the rain and taking an umbrella; the spoken words can only be guessed."
   },
   {
    "en": "She walks around the corner in her coat.",
    "zh": "她穿着外套走过街角。",
-   "scene_prompt": "Sara, a young woman with long brown hair and a blue coat walks around a street corner under her umbrella in light rain."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat, walks around a street corner under her umbrella in light rain.",
+   "draw": "yes"
   },
   {
-   "en": "After a minute, she meets Ivan by the shop.",
-   "zh": "过了一会儿，她在商店旁遇见了伊万。",
-   "scene_prompt": "Sara, a young woman with long brown hair and a blue coat meets Ivan, a tall man with short black hair and a green jacket in front of a small food shop; they greet each other."
+   "en": "After a minute, she meets Omar by his shop.",
+   "zh": "过了一会儿，她在奥马尔的店旁遇见了他。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), in a blue coat with an umbrella, meets Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) in front of his small food shop; they greet each other.",
+   "draw": "partly",
+   "draw_note": "Shows Sara meeting Omar at his shop; 'after a minute' can't be shown."
   },
   {
-   "en": "\"Come for dinner at my house later,\" says Ivan.",
-   "zh": "“晚点来我家吃晚饭吧。”伊万说。",
-   "scene_prompt": "Ivan, a tall man with short black hair and a green jacket smiles and invites Sara, a young woman with long brown hair and a blue coat, pointing down the street toward a house."
+   "en": "\"Come back later for my soup,\" says Omar.",
+   "zh": "“晚点回来尝尝我的汤吧。”奥马尔说。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) hands Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) a paper bag of potatoes at the shop door and points inside to a big steaming pot of soup.",
+   "draw": "partly",
+   "draw_note": "Shows Omar giving Sara potatoes and pointing to his soup; the invitation and 'later' can only be guessed."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -29,54 +29,69 @@
  "setting": "A train station, a plane, and a small hotel in Rome.",
  "characters": [
   {
-   "name": "Leo",
-   "look": "Leo, a young man with short brown hair and a blue backpack"
+   "id": "hana",
+   "name": "Hana",
+   "look": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer)"
   },
   {
-   "name": "Mia",
-   "look": "Mia, a young woman with long black hair and a yellow sun hat"
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
   }
  ],
  "sentences": [
   {
-   "en": "Leo and Mia pack summer clothes for their holiday.",
-   "zh": "里奥和米娅为假期收拾夏天的衣服。",
-   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat fold summer clothes into open suitcases on a bed."
+   "en": "Hana and Sara pack summer clothes for their holiday.",
+   "zh": "哈娜和萨拉为假期收拾夏天的衣服。",
+   "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) pack T-shirts, shorts and sun hats into two open suitcases.",
+   "draw": "yes"
   },
   {
    "en": "From the station, a train goes north to France.",
    "zh": "火车从车站出发，向北开往法国。",
-   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat sit in a train leaving a busy station, green fields ahead."
+   "scene_prompt": "A long train leaves a busy station, Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) waving from a window.",
+   "draw": "partly",
+   "draw_note": "Shows the train leaving the station; 'north' and 'France' can't be shown."
   },
   {
    "en": "Then a big aeroplane carries them to Rome.",
    "zh": "然后一架大飞机把他们送到罗马。",
-   "scene_prompt": "A large white aeroplane flies over old red-roofed buildings and a round dome."
+   "scene_prompt": "A big aeroplane flies over the old city of Rome, the round Colosseum below.",
+   "draw": "yes"
   },
   {
    "en": "They arrive at a small hotel near the river.",
-   "zh": "他们到达河边的一家小旅馆。",
-   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat pull suitcases up to a small hotel beside a river."
+   "zh": "她们到达河边的一家小旅馆。",
+   "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) pull their suitcases up to a small yellow hotel next to a river.",
+   "draw": "yes"
   },
   {
-   "en": "They meet a friendly Australian family there.",
-   "zh": "他们在那里遇到了友好的一家澳大利亚人。",
-   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat shake hands with a smiling family in the hotel garden; the father wears a wide-brimmed bush hat."
+   "en": "A strong Australian man carries their bags.",
+   "zh": "一位强壮的澳大利亚男人帮她们提包。",
+   "scene_prompt": "A strong, sunburnt man in a wide-brimmed bush hat carries two suitcases into the hotel while Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) smile.",
+   "draw": "partly",
+   "draw_note": "Shows a strong man carrying their bags; that he is Australian can't be shown."
   },
   {
-   "en": "The family is going to Africa by boat.",
-   "zh": "这家人要坐船去非洲。",
-   "scene_prompt": "A white boat leaves a sunny harbour; the family waves from the deck."
+   "en": "His family goes to Africa by boat.",
+   "zh": "他一家坐船去非洲。",
+   "scene_prompt": "The strong man, his wife and two children wave from the deck of a big white boat leaving the harbour.",
+   "draw": "partly",
+   "draw_note": "Shows the family leaving on a boat; 'Africa' can't be shown."
   },
   {
-   "en": "Mia writes a postcard about the trip.",
-   "zh": "米娅写了一张关于这次旅行的明信片。",
-   "scene_prompt": "Mia, a young woman with long black hair and a yellow sun hat writes on a postcard at a café table."
+   "en": "Sara writes a postcard about the trip.",
+   "zh": "萨拉写了一张关于这次旅行的明信片。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sits at a café table and writes on a postcard with a picture of the Colosseum.",
+   "draw": "partly",
+   "draw_note": "Shows Sara writing a postcard; what it says about the trip can't be shown."
   },
   {
-   "en": "Next month, their plane goes east to Greece.",
-   "zh": "下个月，他们的飞机将向东飞往希腊。",
-   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat look out of a plane window at blue sea and white islands."
+   "en": "Their plane flies east into the morning sun.",
+   "zh": "她们的飞机向东飞去，迎着早晨的太阳。",
+   "scene_prompt": "A plane flies over a blue sea towards a big orange sun rising on the horizon.",
+   "draw": "partly",
+   "draw_note": "Shows a plane flying towards the rising sun; 'east' is only suggested by the sunrise."
   }
  ],
  "reviewed_by": "claude-opus-5-5"

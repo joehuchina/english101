@@ -12,17 +12,14 @@ import time
 import urllib.request
 from collections import Counter
 
-from check import Lexicon, check_scene
-from lexicon import HERE, LENGTH, OUT
+from check import Lexicon, check_art, check_scene
+from lexicon import HERE, LENGTH, OUT, load_cast
 
 OLLAMA = "http://localhost:11434/api/chat"
 MODEL = "gemma4:26b"
 DRAFTS = OUT / "drafts"
 REVIEWED = OUT / "reviewed"
 REPAIR_ROUNDS = 3
-
-NAMES = ["Ben", "Anna", "Leo", "Mia", "Sam", "Lily", "Omar", "Nina", "Jack", "Rosa", "Ali", "Emma",
-         "Kofi", "Hana", "Max", "Zoe", "Raj", "Lucy", "Dan", "Aiko", "Finn", "Sara", "Ivan", "Maya"]
 
 SYSTEM = """You write graded English reading scenes for Chinese learners of English.
 
@@ -38,7 +35,7 @@ Rules:
 - Every sentence must make sense on its own and be true inside the story. A child should be able to picture it.
 - Other words must be very common and easy for the level.
 - Each sentence can be drawn as one picture: visible people, objects, actions, places. No text, signs, letters or numbers in the picture.
-- Use only the character names you are given. Vary sentence openings. Safe for all ages, no brands, no real people.
+- People: use 1-3 members of the fixed cast you are given, in roles that fit them. Minor people (a waiter, a farmer) stay unnamed. Vary sentence openings. Safe for all ages, no brands, no real people.
 
 Bad sentences (never write like this):
 - "Strong men drink juice every minute."  (strange claim, words forced together)
@@ -49,11 +46,15 @@ Good sentences:
 - "His clothes are all over the bedroom floor."
 - "Leo gives her a sandwich from his lunch."
 
-zh: a natural Chinese translation.
-scene_prompt: one English sentence describing the picture, naming each character with the same look every time.
+zh: a natural Chinese translation, using the cast's Chinese names.
+scene_prompt: one English sentence describing only what is visible. Whenever a cast member is in the picture, copy their "tag" exactly. No readable text, digits or clock times in the picture, no thought bubbles, no flashbacks.
+draw: "yes" if the picture shows what the sentence says; "partly" if some meaning (a time word, a thought, spoken words) can't be shown, with draw_note saying what the picture shows. If the core meaning can't be drawn at all, write a different sentence.
 Return JSON only:
-{"story": "...", "title": "...", "title_zh": "...", "setting": "...", "characters": [{"name": "...", "look": "..."}],
- "sentences": [{"en": "...", "zh": "...", "scene_prompt": "..."}]}"""
+{"story": "...", "title": "...", "title_zh": "...", "setting": "...", "characters": [{"id": "<cast id>"}],
+ "sentences": [{"en": "...", "zh": "...", "scene_prompt": "...", "draw": "yes|partly", "draw_note": "..."}]}"""
+
+CAST = load_cast()
+CAST_BY_ID = {c["id"]: c for c in CAST}
 
 
 def chat(messages, temperature):
@@ -75,24 +76,32 @@ def describe(lex, ids):
     return "\n".join(lines)
 
 
-def names_for(index):
-    return [NAMES[(index * 3 + k) % len(NAMES)] for k in range(3)]
-
-
-def request_text(unit, lex, review, names):
+def request_text(unit, lex, review):
     lo, hi = LENGTH[unit["level"]]
     n = unit["sentences"]
     text = (f"Level: CEFR {unit['level']}\nTopic: {unit['topic']}\n"
             f"Write {n} or {n + 1} sentences, each {lo}-{hi} words long.\n"
-            f"Character names you may use: {', '.join(names)}.\n\n"
+            "Fixed cast (id, Chinese name, role, tag):\n"
+            + "\n".join(f'- {c["id"]}, {c["zh"]}, {c["role"]}: {c["tag"]}' for c in CAST) + "\n\n"
             f"Target words (use every one):\n{describe(lex, unit['targets'])}\n")
     if review:
         text += f"\nReview words (use at least 2):\n{describe(lex, review)}\n"
     return text
 
 
+def fill_cast(scene):
+    """Replace the model's character entries with the exact cast records."""
+    chars = []
+    for c in scene.get("characters", []):
+        cid = c.get("id") if isinstance(c, dict) else c
+        if cid in CAST_BY_ID:
+            chars.append({"id": cid, "name": CAST_BY_ID[cid]["name"], "look": CAST_BY_ID[cid]["tag"]})
+    scene["characters"] = chars
+    return scene
+
+
 def problems_text(scene, res, lex):
-    lines = []
+    lines = [f"- {p}" for p in res.get("art", [])]
     for r in res["sentences"]:
         for p in r["problems"]:
             lines.append(f'- sentence {r["i"] + 1} "{scene["sentences"][r["i"]]["en"]}": {p}')
@@ -106,7 +115,7 @@ def problems_text(scene, res, lex):
 
 
 def count_bad(res):
-    return (sum(1 for r in res["sentences"] if r["problems"]) + len(res["missing"])
+    return (len(res.get("art", [])) + sum(1 for r in res["sentences"] if r["problems"]) + len(res["missing"])
             + max(0, res["review_needed"] - len(res["review_used"])))
 
 
@@ -146,22 +155,23 @@ def generate(unit, units, lex):
     counts, corpus = ledger(units, lex)
     review = pick_review(units, unit, counts)
     seen = corpus.get(unit["level"], [])
-    names = names_for(units.index(unit))
     messages = [{"role": "system", "content": SYSTEM},
-                {"role": "user", "content": request_text(unit, lex, review, names)}]
+                {"role": "user", "content": request_text(unit, lex, review)}]
     t0 = time.time()
-    scene = chat(messages, 0.7)
+    scene = fill_cast(chat(messages, 0.7))
     scene["review_words"] = review
     res = check_scene(scene, unit, lex, seen)
+    res["art"] = check_art(scene, CAST)
     attempts = 1
     while count_bad(res) and attempts <= REPAIR_ROUNDS:
         messages += [{"role": "assistant", "content": json.dumps(scene, ensure_ascii=False)},
                      {"role": "user", "content": "Fix these problems and return the whole scene again as JSON. "
                       "Keep the sentences that have no problems, and keep the story making sense.\n"
                       + problems_text(scene, res, lex)}]
-        fixed = chat(messages, 0.4)
+        fixed = fill_cast(chat(messages, 0.4))
         fixed["review_words"] = review
         fres = check_scene(fixed, unit, lex, seen)
+        fres["art"] = check_art(fixed, CAST)
         attempts += 1
         if count_bad(fres) <= count_bad(res):
             scene, res = fixed, fres

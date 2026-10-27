@@ -28,49 +28,61 @@
  "setting": "A cozy cafe on a cold November morning.",
  "characters": [
   {
-   "name": "Emma",
-   "look": "Emma, a girl with short brown hair and a friendly smile"
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
   },
   {
-   "name": "Rosa",
-   "look": "Rosa, a girl with long black hair and glasses"
+   "id": "hana",
+   "name": "Hana",
+   "look": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer)"
   }
  ],
  "sentences": [
   {
-   "en": "In November, Emma and Rosa meet at a cafe.",
-   "zh": "十一月，艾玛和罗莎在一家咖啡馆见面。",
-   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile and Rosa, a girl with long black hair and glasses meet at the door of a cozy cafe on a cold day."
+   "en": "In November, Sara and Hana meet at a cafe.",
+   "zh": "十一月，萨拉和哈娜在一家咖啡馆见面。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) meet at the door of a cozy cafe on a cold grey day, bare trees and fallen leaves outside.",
+   "draw": "partly",
+   "draw_note": "Shows the two friends meeting at a cafe on a cold day; the month can't be shown."
   },
   {
-   "en": "Emma wears a yellow dress and a warm jacket.",
-   "zh": "艾玛穿着一条黄色连衣裙和一件暖和的外套。",
-   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile in a yellow dress and a warm jacket stands inside the cafe."
+   "en": "Sara wears a yellow dress and a warm jacket.",
+   "zh": "萨拉穿着一条黄色连衣裙和一件暖和的外套。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now wearing a yellow dress and a warm brown jacket instead of her shirt and skirt, stands inside the cafe.",
+   "draw": "yes"
   },
   {
    "en": "They have a quick breakfast at a small table.",
    "zh": "她们在一张小桌旁匆匆吃了早餐。",
-   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile and Rosa, a girl with long black hair and glasses eat a quick breakfast of bread and coffee at a small cafe table."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) eat a quick breakfast of bread and coffee at a small cafe table.",
+   "draw": "yes"
   },
   {
-   "en": "Rosa asks Emma about her trip in August.",
-   "zh": "罗莎问艾玛八月的旅行怎么样。",
-   "scene_prompt": "Rosa, a girl with long black hair and glasses leans forward and asks Emma, a girl with short brown hair and a friendly smile a question across the table."
+   "en": "Hana asks Sara about her trip in August.",
+   "zh": "哈娜问萨拉八月的旅行怎么样。",
+   "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) leans forward with a curious face and asks Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) a question across the table.",
+   "draw": "partly",
+   "draw_note": "Shows Hana asking Sara something; the trip and the month can't be shown."
   },
   {
    "en": "Her grandma lives in a place by the sea.",
    "zh": "她的奶奶住在海边的一个地方。",
-   "scene_prompt": "A small house in a place by the sea, with an old woman waving at the door."
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) shows Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) a photo on her phone: an old woman waving at the door of a small house by the sea.",
+   "draw": "partly",
+   "draw_note": "Shows a photo of an old woman's house by the sea; 'her grandma' and 'lives' are only hinted."
   },
   {
-   "en": "Emma stayed there for four happy weeks.",
-   "zh": "艾玛在那里度过了快乐的四个星期。",
-   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile remembers a sunny beach day, smiling at the table."
+   "en": "Sara puts four beach photos on the table.",
+   "zh": "萨拉把四张海滩照片放在桌上。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) lays four printed photos of a sunny beach on the cafe table while Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) looks at them.",
+   "draw": "yes"
   },
   {
-   "en": "Then Emma takes her bag to catch a bus.",
-   "zh": "然后艾玛拿起包去赶公交车。",
-   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile picks up her bag and hurries out of the cafe toward a bus, Rosa, a girl with long black hair and glasses waving."
+   "en": "Then Sara takes her bag to catch a bus.",
+   "zh": "然后萨拉拿起包去赶公交车。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) picks up her bag and hurries out of the cafe toward a waiting bus, Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) waving.",
+   "draw": "yes"
   }
  ],
  "reviewed_by": "claude-opus-5-5"
