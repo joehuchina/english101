@@ -44,53 +44,196 @@
    "en": "Anna is alone in her quiet kitchen.",
    "zh": "安娜一个人在安静的厨房里。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) stands alone in a calm, tidy kitchen with a mixing bowl.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna stands alone in a calm, tidy kitchen with a mixing bowl.",
+   "sentence_targets": [
+    {
+     "id": "quiet",
+     "word": "quiet",
+     "pos": "adj./n.",
+     "zh": "安静的；轻声的",
+     "en": "making little or no noise"
+    }
+   ]
   },
   {
    "en": "Dan's birthday is important to her every year.",
    "zh": "丹的生日每年对她来说都很重要。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hangs birthday balloons in the kitchen.",
    "draw": "partly",
-   "draw_note": "Shows birthday balloons; 'every year' cannot be shown."
+   "draw_note": "Shows birthday balloons; 'every year' cannot be shown.",
+   "narration": "Anna hangs birthday balloons in the kitchen.",
+   "sentence_targets": [
+    {
+     "id": "every",
+     "word": "every",
+     "pos": "det.",
+     "zh": "每个；每一",
+     "en": "referring to all members of a group individually"
+    },
+    {
+     "id": "important",
+     "word": "important",
+     "pos": "adj.",
+     "zh": "重要的；重大的",
+     "en": "Having great value or a significant effect."
+    }
+   ]
   },
   {
    "en": "Once a year, she bakes him this nice cake.",
    "zh": "她每年给他烤一次这种好吃的蛋糕。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) puts a round cake into the oven.",
    "draw": "partly",
-   "draw_note": "Shows Anna baking; 'once a year' cannot be shown."
+   "draw_note": "Shows Anna baking; 'once a year' cannot be shown.",
+   "narration": "Anna puts a round cake into the oven.",
+   "sentence_targets": [
+    {
+     "id": "once",
+     "word": "once",
+     "pos": "adv./conj.",
+     "zh": "一次",
+     "en": "on one occasion only"
+    },
+    {
+     "id": "nice",
+     "word": "nice",
+     "pos": "adj.",
+     "zh": "令人愉快的；美好的",
+     "en": "pleasant or enjoyable"
+    },
+    {
+     "id": "cake",
+     "word": "cake",
+     "pos": "n./v.",
+     "zh": "蛋糕",
+     "en": "A sweet food baked from flour, eggs, sugar, and fat."
+    }
+   ]
   },
   {
    "en": "She adds sugar, fruit and a glass of milk.",
    "zh": "她加入糖、水果和一杯牛奶。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), in a white apron, pours a glass of milk into a bowl with sugar and fruit beside it.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna, in a white apron, pours a glass of milk into a bowl with sugar and fruit beside it.",
+   "sentence_targets": [
+    {
+     "id": "glass",
+     "word": "glass",
+     "pos": "n.",
+     "zh": "玻璃",
+     "en": "A hard, usually transparent material used for windows and containers."
+    },
+    {
+     "id": "add",
+     "word": "add",
+     "pos": "v.",
+     "zh": "添加；增加",
+     "en": "to put something with something else or increase an amount"
+    }
+   ]
   },
   {
    "en": "Outside the open window, the sky is gray.",
    "zh": "敞开的窗外，天空灰蒙蒙的。",
    "scene_prompt": "An open kitchen window shows a gray, cloudy sky; a cake cools on the sill.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "An open kitchen window shows a gray, cloudy sky. a cake cools on the sill.",
+   "sentence_targets": [
+    {
+     "id": "open",
+     "word": "open",
+     "pos": "adj./v.",
+     "zh": "敞开的；营业的",
+     "en": "Not closed, or available for people to enter and use."
+    },
+    {
+     "id": "gray",
+     "word": "gray",
+     "pos": "adj./n.",
+     "zh": "灰色的；灰白的",
+     "en": "having a colour between black and white"
+    }
+   ]
   },
   {
    "en": "Dan is late, but he usually comes early.",
    "zh": "丹迟到了，可他通常都来得很早。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), in a white apron, waits by the finished cake and looks out of the window at an empty garden path with a worried face.",
    "draw": "partly",
-   "draw_note": "Shows Anna waiting and worried; 'late' and 'usually early' can't be shown."
+   "draw_note": "Shows Anna waiting and worried; 'late' and 'usually early' can't be shown.",
+   "narration": "Anna, in a white apron, waits by the finished cake and looks out of the window at an empty garden path with a worried face.",
+   "sentence_targets": [
+    {
+     "id": "late",
+     "word": "late",
+     "pos": "adj./adv.",
+     "zh": "迟到的；晚期的",
+     "en": "after the expected time or near the end of a period"
+    },
+    {
+     "id": "usually",
+     "word": "usually",
+     "pos": "adv.",
+     "zh": "通常；一般地",
+     "en": "On most occasions, but not always."
+    }
+   ]
   },
   {
    "en": "Then she hears a sound: Dan is back!",
    "zh": "接着她听到一个声音：丹回来了！",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), in a white apron, turns with a smile towards the opening front door as Dan (a tall man of about forty with a short brown beard and a navy jumper) steps in.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna, in a white apron, turns with a smile towards the opening front door as Dan steps in.",
+   "sentence_targets": [
+    {
+     "id": "sound",
+     "word": "sound",
+     "pos": "adj./n./v.",
+     "zh": "声音；声响",
+     "en": "something you hear"
+    },
+    {
+     "id": "back",
+     "word": "back",
+     "pos": "adv./n./v.",
+     "zh": "背部；后部",
+     "en": "The rear part of your body or of something else."
+    }
+   ]
   },
   {
    "en": "\"Dear, your cakes are always the best!\" says Dan.",
    "zh": "“亲爱的，你做的蛋糕总是最好吃！”丹说。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) eats a big piece of cake at the table and smiles at Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan).",
    "draw": "partly",
-   "draw_note": "Shows Dan happily eating; the words are not shown."
+   "draw_note": "Shows Dan happily eating; the words are not shown.",
+   "narration": "Dan eats a big piece of cake at the table and smiles at Anna.",
+   "sentence_targets": [
+    {
+     "id": "cake",
+     "word": "cake",
+     "pos": "n./v.",
+     "zh": "蛋糕",
+     "en": "A sweet food baked from flour, eggs, sugar, and fat."
+    },
+    {
+     "id": "always",
+     "word": "always",
+     "pos": "adv.",
+     "zh": "总是；每次都",
+     "en": "every time or on every occasion"
+    },
+    {
+     "id": "dear",
+     "word": "dear",
+     "pos": "adj./int.",
+     "zh": "亲爱的；珍爱的",
+     "en": "loved or valued very much"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

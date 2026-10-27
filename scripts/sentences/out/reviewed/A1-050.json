@@ -44,46 +44,186 @@
    "zh": "圣诞节早上，本听到一个可怕的声音。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) covers his ears in a hallway decorated for Christmas, looking toward the kitchen.",
    "draw": "partly",
-   "draw_note": "Shows Ben covering his ears in a Christmas hallway; the sound itself can't be shown."
+   "draw_note": "Shows Ben covering his ears in a Christmas hallway; the sound itself can't be shown.",
+   "narration": "Ben covers his ears in a hallway decorated for Christmas, looking toward the kitchen.",
+   "sentence_targets": [
+    {
+     "id": "christmas",
+     "word": "Christmas",
+     "pos": "n.",
+     "zh": "圣诞节；圣诞节期间",
+     "en": "the Christian festival celebrating Jesus's birth, or the surrounding period"
+    },
+    {
+     "id": "hear",
+     "word": "hear",
+     "pos": "v.",
+     "zh": "听见；听到",
+     "en": "notice a sound through your ears"
+    },
+    {
+     "id": "terrible",
+     "word": "terrible",
+     "pos": "adj.",
+     "zh": "糟糕的；令人不快的",
+     "en": "Very bad or unpleasant."
+    }
+   ]
   },
   {
    "en": "Someone is in the kitchen near the fire.",
    "zh": "有人在厨房里，就在炉火旁边。",
    "scene_prompt": "A shadowy figure stands near a warm fireplace in a kitchen while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) peeks around the door.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A shadowy figure stands near a warm fireplace in a kitchen while Ben peeks around the door.",
+   "sentence_targets": [
+    {
+     "id": "fire",
+     "word": "fire",
+     "pos": "n./v.",
+     "zh": "火；火灾",
+     "en": "Burning that produces heat and light, sometimes causing damage."
+    },
+    {
+     "id": "someone",
+     "word": "someone",
+     "pos": "pron.",
+     "zh": "某人；有人",
+     "en": "a person whose identity is unknown or not stated"
+    }
+   ]
   },
   {
    "en": "His mother Anna holds a single toy chicken.",
    "zh": "他妈妈安娜手里拿着一只玩具鸡。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), wearing a green apron, holds up one yellow toy chicken and squeezes it near the fireplace.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna, wearing a green apron, holds up one yellow toy chicken and squeezes it near the fireplace.",
+   "sentence_targets": [
+    {
+     "id": "toy",
+     "word": "toy",
+     "pos": "n./v.",
+     "zh": "玩具",
+     "en": "An object that children use for play."
+    },
+    {
+     "id": "single",
+     "word": "single",
+     "pos": "adj.",
+     "zh": "单个的；仅一个的",
+     "en": "Only one, rather than several or many."
+    },
+    {
+     "id": "chicken",
+     "word": "chicken",
+     "pos": "n.",
+     "zh": "鸡",
+     "en": "A bird kept for its eggs or meat."
+    }
+   ]
   },
   {
    "en": "The poor boy laughs and hugs the toy.",
    "zh": "可怜的小男孩笑了，抱住了玩具。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) laughs with relief and hugs the yellow toy chicken.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben laughs with relief and hugs the yellow toy chicken.",
+   "sentence_targets": [
+    {
+     "id": "poor",
+     "word": "poor",
+     "pos": "adj.",
+     "zh": "贫穷的",
+     "en": "Having very little money or few possessions"
+    },
+    {
+     "id": "toy",
+     "word": "toy",
+     "pos": "n./v.",
+     "zh": "玩具",
+     "en": "An object that children use for play."
+    },
+    {
+     "id": "boy",
+     "word": "boy",
+     "pos": "n.",
+     "zh": "男孩",
+     "en": "a male child or young male person"
+    },
+    {
+     "id": "and",
+     "word": "and",
+     "pos": "conj.",
+     "zh": "和；并且",
+     "en": "Connects words or statements that belong together."
+    }
+   ]
   },
   {
    "en": "It is hard, but he loves it so much.",
    "zh": "它硬邦邦的，但他非常喜欢它。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) knocks on the hard plastic toy chicken with his knuckles and smiles widely.",
    "draw": "partly",
-   "draw_note": "Shows Ben knocking on the plastic toy and smiling; how hard it is and how much he loves it can only be guessed."
+   "draw_note": "Shows Ben knocking on the plastic toy and smiling; how hard it is and how much he loves it can only be guessed.",
+   "narration": "Ben knocks on the hard plastic toy chicken with his knuckles and smiles widely.",
+   "sentence_targets": [
+    {
+     "id": "hard",
+     "word": "hard",
+     "pos": "adj./adv.",
+     "zh": "坚硬的",
+     "en": "Firm and not easily bent, cut, or pressed"
+    },
+    {
+     "id": "so",
+     "word": "so",
+     "pos": "adv./conj.",
+     "zh": "这么；如此；非常",
+     "en": "to such a degree or extent"
+    }
+   ]
   },
   {
    "en": "Of all his gifts, he likes it most.",
    "zh": "在所有礼物里，他最喜欢它。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits among opened Christmas gifts and holds the toy chicken high above the others.",
    "draw": "partly",
-   "draw_note": "Shows Ben holding the chicken above his other gifts; 'most' is only suggested."
+   "draw_note": "Shows Ben holding the chicken above his other gifts; 'most' is only suggested.",
+   "narration": "Ben sits among opened Christmas gifts and holds the toy chicken high above the others.",
+   "sentence_targets": [
+    {
+     "id": "most",
+     "word": "most",
+     "pos": "adv./det./pron.",
+     "zh": "大多数的；最多的",
+     "en": "the majority of something, or the greatest amount or number"
+    }
+   ]
   },
   {
    "en": "\"Please drink your milk now,\" says Anna.",
    "zh": "“现在请把牛奶喝了。”安娜说。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hands a glass of milk to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), who still holds the toy chicken.",
    "draw": "partly",
-   "draw_note": "Shows Anna handing Ben a glass of milk; the spoken request can't be shown."
+   "draw_note": "Shows Anna handing Ben a glass of milk; the spoken request can't be shown.",
+   "narration": "Anna hands a glass of milk to Ben, who still holds the toy chicken.",
+   "sentence_targets": [
+    {
+     "id": "please",
+     "word": "please",
+     "pos": "adv./v.",
+     "zh": "请；劳驾",
+     "en": "Used to make a request or offer more polite."
+    },
+    {
+     "id": "milk",
+     "word": "milk",
+     "pos": "n./v.",
+     "zh": "奶；牛奶",
+     "en": "A white liquid female mammals produce to feed their young."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

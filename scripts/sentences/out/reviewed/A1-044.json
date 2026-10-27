@@ -44,52 +44,181 @@
    "zh": "安娜和丹想要保持健康。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper), now in sports clothes and trainers, stand smiling in the bright kitchen.",
    "draw": "partly",
-   "draw_note": "Shows the couple ready for sport; the wish to be healthy can only be guessed."
+   "draw_note": "Shows the couple ready for sport; the wish to be healthy can only be guessed.",
+   "narration": "Anna and Dan, now in sports clothes and trainers, stand smiling in the bright kitchen.",
+   "sentence_targets": [
+    {
+     "id": "healthy",
+     "word": "healthy",
+     "pos": "adj.",
+     "zh": "健康的",
+     "en": "physically well and not suffering from illness"
+    }
+   ]
   },
   {
    "en": "They exercise with music in their ears.",
    "zh": "他们戴着耳机听着音乐锻炼。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper), in sports clothes, jog in the garden wearing small earphones.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna and Dan, in sports clothes, jog in the garden wearing small earphones.",
+   "sentence_targets": [
+    {
+     "id": "ear",
+     "word": "ear",
+     "pos": "n.",
+     "zh": "耳朵",
+     "en": "One of the organs on your head used for hearing."
+    },
+    {
+     "id": "exercise",
+     "word": "exercise",
+     "pos": "n./v.",
+     "zh": "运动；练习",
+     "en": "Physical activity for health, or a task for practising skills."
+    }
+   ]
   },
   {
    "en": "For breakfast, they eat fruit and vegetables.",
    "zh": "早饭他们吃水果和蔬菜。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) sit at the kitchen table with plates of fruit and fresh vegetables.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna and Dan sit at the kitchen table with plates of fruit and fresh vegetables.",
+   "sentence_targets": [
+    {
+     "id": "fruit",
+     "word": "fruit",
+     "pos": "n./v.",
+     "zh": "水果；果实",
+     "en": "Plant products containing seeds, often sweet and eaten as food."
+    },
+    {
+     "id": "vegetable",
+     "word": "vegetable",
+     "pos": "n.",
+     "zh": "蔬菜",
+     "en": "a plant or plant part eaten as food"
+    }
+   ]
   },
   {
    "en": "Dan puts lots of salt on his eggs.",
    "zh": "丹在鸡蛋上撒了很多盐。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) shakes a salt shaker hard over a plate of eggs, making a little white pile.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan shakes a salt shaker hard over a plate of eggs, making a little white pile.",
+   "sentence_targets": [
+    {
+     "id": "salt",
+     "word": "salt",
+     "pos": "n./v.",
+     "zh": "盐；食盐",
+     "en": "a white substance used to flavour or preserve food"
+    }
+   ]
   },
   {
    "en": "Anna's eyes go wide: “That is dangerous!”",
    "zh": "安娜瞪大眼睛：“那很危险！”",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) stares with wide eyes and raises a hand in warning at the salt shaker in the hand of Dan (a tall man of about forty with a short brown beard and a navy jumper).",
    "draw": "partly",
-   "draw_note": "Shows Anna's wide eyes and her warning gesture; her words can't be shown."
+   "draw_note": "Shows Anna's wide eyes and her warning gesture; her words can't be shown.",
+   "narration": "Anna stares with wide eyes and raises a hand in warning at the salt shaker in the hand of Dan.",
+   "sentence_targets": [
+    {
+     "id": "dangerous",
+     "word": "dangerous",
+     "pos": "adj.",
+     "zh": "危险的",
+     "en": "Likely to cause harm, injury, or serious problems."
+    },
+    {
+     "id": "eye",
+     "word": "eye",
+     "pos": "n./v.",
+     "zh": "眼睛",
+     "en": "one of the two body parts used for seeing"
+    }
+   ]
   },
   {
    "en": "Here is a fact: water is the best drink.",
    "zh": "有个事实：水是最好的饮料。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hands a big glass of water to Dan (a tall man of about forty with a short brown beard and a navy jumper) at the kitchen table and pushes the salt away.",
    "draw": "partly",
-   "draw_note": "Shows Anna giving Dan water instead of salt; the 'fact' itself can't be shown."
+   "draw_note": "Shows Anna giving Dan water instead of salt; the 'fact' itself can't be shown.",
+   "narration": "Anna hands a big glass of water to Dan at the kitchen table and pushes the salt away.",
+   "sentence_targets": [
+    {
+     "id": "drink",
+     "word": "drink",
+     "pos": "n./v.",
+     "zh": "喝；饮",
+     "en": "to take liquid into your mouth and swallow it"
+    },
+    {
+     "id": "fact",
+     "word": "fact",
+     "pos": "n.",
+     "zh": "事实；真实情况",
+     "en": "Something known or proved to be true."
+    }
+   ]
   },
   {
    "en": "Before bed, he never forgets his toothbrush and toothpaste.",
    "zh": "睡觉前，他从不忘记牙刷和牙膏。",
    "scene_prompt": "In the bathroom at night, Dan (a tall man of about forty with a short brown beard and a navy jumper) puts toothpaste on his toothbrush.",
    "draw": "partly",
-   "draw_note": "Shows Dan brushing his teeth at night; 'never forgets' can't be shown."
+   "draw_note": "Shows Dan brushing his teeth at night; 'never forgets' can't be shown.",
+   "narration": "In the bathroom at night, Dan puts toothpaste on his toothbrush.",
+   "sentence_targets": [
+    {
+     "id": "toothpaste",
+     "word": "toothpaste",
+     "pos": "n.",
+     "zh": "牙膏",
+     "en": "A substance used with a toothbrush to clean teeth."
+    },
+    {
+     "id": "forget",
+     "word": "forget",
+     "pos": "v.",
+     "zh": "忘记；记不起",
+     "en": "to fail to remember a fact, person, or experience"
+    },
+    {
+     "id": "toothbrush",
+     "word": "toothbrush",
+     "pos": "n.",
+     "zh": "牙刷",
+     "en": "A small brush used for cleaning your teeth."
+    }
+   ]
   },
   {
    "en": "With a clean mouth, Dan goes to sleep.",
    "zh": "嘴巴干干净净，丹去睡觉了。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) sleeps peacefully in bed with a small smile.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan sleeps peacefully in bed with a small smile.",
+   "sentence_targets": [
+    {
+     "id": "mouth",
+     "word": "mouth",
+     "pos": "n./v.",
+     "zh": "嘴；口腔",
+     "en": "the opening in your face used for eating and speaking"
+    },
+    {
+     "id": "sleep",
+     "word": "sleep",
+     "pos": "n./v.",
+     "zh": "睡觉",
+     "en": "to rest with eyes closed and awareness reduced"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

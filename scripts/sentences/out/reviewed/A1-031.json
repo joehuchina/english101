@@ -45,53 +45,189 @@
    "zh": "莉莉和爸爸聊起了晚餐。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, talks with her dad Dan (a tall man of about forty with a short brown beard and a navy jumper) in a sunny kitchen, an empty pot on the table.",
    "draw": "partly",
-   "draw_note": "Shows Lily and Dad talking in the kitchen; what they say can't be shown."
+   "draw_note": "Shows Lily and Dad talking in the kitchen; what they say can't be shown.",
+   "narration": "Lily, now wearing a red T-shirt and jeans, talks with her dad Dan in a sunny kitchen, an empty pot on the table.",
+   "sentence_targets": [
+    {
+     "id": "conversation",
+     "word": "conversation",
+     "pos": "n.",
+     "zh": "交谈；谈话",
+     "en": "A talk in which people exchange ideas, feelings, or information."
+    },
+    {
+     "id": "dinner",
+     "word": "dinner",
+     "pos": "n.",
+     "zh": "正餐；晚餐",
+     "en": "The main meal of the day, usually eaten in the evening."
+    }
+   ]
   },
   {
    "en": "That afternoon, Dad brings tomatoes up from the garden.",
    "zh": "那天下午，爸爸从花园里拿上来一些番茄。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) carries a basket of red tomatoes up the garden steps into the kitchen in afternoon sun.",
    "draw": "partly",
-   "draw_note": "Shows Dad carrying tomatoes up from the garden; 'that afternoon' is only hinted by the light."
+   "draw_note": "Shows Dad carrying tomatoes up from the garden; 'that afternoon' is only hinted by the light.",
+   "narration": "Dan carries a basket of red tomatoes up the garden steps into the kitchen in afternoon sun.",
+   "sentence_targets": [
+    {
+     "id": "bring",
+     "word": "bring",
+     "pos": "v.",
+     "zh": "带来；拿来",
+     "en": "to carry someone or something to a place"
+    },
+    {
+     "id": "afternoon",
+     "word": "afternoon",
+     "pos": "n.",
+     "zh": "下午",
+     "en": "The time between midday and evening."
+    },
+    {
+     "id": "up",
+     "word": "up",
+     "pos": "adj./adv./prep.",
+     "zh": "向上；在高处",
+     "en": "Towards or in a higher position."
+    }
+   ]
   },
   {
    "en": "The tomato soup slowly becomes thick.",
    "zh": "番茄汤慢慢变稠了。",
    "scene_prompt": "A pot of thick red tomato soup bubbles on the stove, Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, stirring it.",
    "draw": "partly",
-   "draw_note": "Shows thick soup in the pot; the change over time can't be shown."
+   "draw_note": "Shows thick soup in the pot; the change over time can't be shown.",
+   "narration": "A pot of thick red tomato soup bubbles on the stove, Lily, now wearing a red T-shirt and jeans, stirring it.",
+   "sentence_targets": [
+    {
+     "id": "become",
+     "word": "become",
+     "pos": "v.",
+     "zh": "变得；成为",
+     "en": "to start to be something or develop a particular quality"
+    }
+   ]
   },
   {
    "en": "Some soup falls on her red T-shirt.",
    "zh": "一些汤洒在了她的红T恤上。",
    "scene_prompt": "A drop of soup falls from a spoon onto the red T-shirt of Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, and she looks down.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A drop of soup falls from a spoon onto the red T-shirt of Lily, now wearing a red T-shirt and jeans, and she looks down.",
+   "sentence_targets": [
+    {
+     "id": "red",
+     "word": "red",
+     "pos": "adj./n.",
+     "zh": "红色的",
+     "en": "having the colour of ripe tomatoes"
+    },
+    {
+     "id": "t-shirt",
+     "word": "T-shirt",
+     "pos": "n.",
+     "zh": "T恤衫",
+     "en": "A casual shirt, usually with short sleeves and no collar."
+    }
+   ]
   },
   {
    "en": "It is not bad; the colour is the same.",
    "zh": "这不要紧，颜色是一样的。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, smiles and shows her T-shirt; the soup stain is the same red as the shirt.",
    "draw": "partly",
-   "draw_note": "Shows the stain the same red as the shirt; 'not bad' is only in her smile."
+   "draw_note": "Shows the stain the same red as the shirt; 'not bad' is only in her smile.",
+   "narration": "Lily, now wearing a red T-shirt and jeans, smiles and shows her T-shirt. the soup stain is the same red as the shirt.",
+   "sentence_targets": [
+    {
+     "id": "bad",
+     "word": "bad",
+     "pos": "adj.",
+     "zh": "差的；劣质的",
+     "en": "Not good in quality or not satisfactory."
+    },
+    {
+     "id": "colour",
+     "word": "colour",
+     "pos": "n./v.",
+     "zh": "颜色；色彩",
+     "en": "The appearance of something as red, blue, green, and so on."
+    }
+   ]
   },
   {
    "en": "But she runs upstairs for a clean shirt.",
    "zh": "但她还是跑上楼去换一件干净的衬衫。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, runs up the stairs of the house.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily, now wearing a red T-shirt and jeans, runs up the stairs of the house.",
+   "sentence_targets": [
+    {
+     "id": "upstairs",
+     "word": "upstairs",
+     "pos": "adj./adv.",
+     "zh": "在楼上；往楼上",
+     "en": "On or towards a higher floor of a building."
+    },
+    {
+     "id": "but",
+     "word": "but",
+     "pos": "conj./prep.",
+     "zh": "但是；而是",
+     "en": "Used to connect contrasting ideas or correct an earlier statement."
+    }
+   ]
   },
   {
    "en": "Dad fills two big bowls with hot soup.",
    "zh": "爸爸把两大碗盛满热汤。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) fills two big bowls with hot red tomato soup at the table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan fills two big bowls with hot red tomato soup at the table.",
+   "sentence_targets": [
+    {
+     "id": "fill",
+     "word": "fill",
+     "pos": "v.",
+     "zh": "装满；充满",
+     "en": "Make or become full"
+    }
+   ]
   },
   {
    "en": "In the end, Lily is sure it is delicious.",
    "zh": "最后，莉莉确信这汤很好喝。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a clean white T-shirt and jeans, tastes the soup and smiles happily, Dan (a tall man of about forty with a short brown beard and a navy jumper) watching.",
    "draw": "partly",
-   "draw_note": "Shows Lily tasting soup happily; 'in the end' and 'sure' can't be shown."
+   "draw_note": "Shows Lily tasting soup happily; 'in the end' and 'sure' can't be shown.",
+   "narration": "Lily, now wearing a clean white T-shirt and jeans, tastes the soup and smiles happily, Dan watching.",
+   "sentence_targets": [
+    {
+     "id": "end",
+     "word": "end",
+     "pos": "n./v.",
+     "zh": "结束；末尾；尽头",
+     "en": "the final part or furthest point of something"
+    },
+    {
+     "id": "delicious",
+     "word": "delicious",
+     "pos": "adj.",
+     "zh": "美味的；可口的",
+     "en": "Having a very pleasant taste."
+    },
+    {
+     "id": "sure",
+     "word": "sure",
+     "pos": "adj./adv.",
+     "zh": "确信的；有把握的",
+     "en": "Feeling no doubt that something is true or correct."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

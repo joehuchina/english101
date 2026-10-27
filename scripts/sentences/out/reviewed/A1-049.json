@@ -42,52 +42,173 @@
    "en": "Ben and Lily are children in Britain.",
    "zh": "本和莉莉是住在英国的孩子。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stand in front of a red-brick British house with a small British flag by the door.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily stand in front of a red-brick British house with a small British flag by the door.",
+   "sentence_targets": [
+    {
+     "id": "children",
+     "word": "children",
+     "pos": "n.",
+     "zh": "儿童；孩子们",
+     "en": "Young people who have not yet become adults."
+    },
+    {
+     "id": "britain",
+     "word": "Britain",
+     "pos": "n.",
+     "zh": "英国；大不列颠",
+     "en": "the United Kingdom, or the island containing England, Scotland and Wales"
+    }
+   ]
   },
   {
    "en": "They look at a big map of the world.",
    "zh": "他们看着一张大大的世界地图。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) look at a large world map without any writing on the living room wall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily look at a large world map without any writing on the living room wall.",
+   "sentence_targets": []
   },
   {
    "en": "They put clothes in a big bag to travel.",
    "zh": "他们把衣服放进一个大包里，准备去旅行。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) put clothes into a big open travel bag on the floor in front of the world map.",
    "draw": "partly",
-   "draw_note": "Shows the children filling a travel bag by the map; the plan to travel can only be guessed."
+   "draw_note": "Shows the children filling a travel bag by the map; the plan to travel can only be guessed.",
+   "narration": "Ben and Lily put clothes into a big open travel bag on the floor in front of the world map.",
+   "sentence_targets": [
+    {
+     "id": "travel",
+     "word": "travel",
+     "pos": "n./v.",
+     "zh": "旅行；行进",
+     "en": "To go from one place to another."
+    }
+   ]
   },
   {
    "en": "Ben points at Japan and Sweden on the map.",
    "zh": "本指着地图上的日本和瑞典。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) pins a small Japanese flag on Japan and a small Swedish flag on Sweden on the world map.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben pins a small Japanese flag on Japan and a small Swedish flag on Sweden on the world map.",
+   "sentence_targets": [
+    {
+     "id": "sweden",
+     "word": "Sweden",
+     "pos": "n.",
+     "zh": "瑞典",
+     "en": "a country in northern Europe, with Stockholm as its capital"
+    },
+    {
+     "id": "japan",
+     "word": "Japan",
+     "pos": "n.",
+     "zh": "日本",
+     "en": "An island country in East Asia"
+    }
+   ]
   },
   {
    "en": "Lily points at Italy, Portugal and Switzerland.",
    "zh": "莉莉指着意大利、葡萄牙和瑞士。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points at Italy, Portugal and Switzerland on the world map, each marked with a small flag of that country.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily points at Italy, Portugal and Switzerland on the world map, each marked with a small flag of that country.",
+   "sentence_targets": [
+    {
+     "id": "portugal",
+     "word": "Portugal",
+     "pos": "n.",
+     "zh": "葡萄牙",
+     "en": "A country in southwestern Europe, west of Spain."
+    },
+    {
+     "id": "switzerland",
+     "word": "Switzerland",
+     "pos": "n.",
+     "zh": "瑞士",
+     "en": "a country in central Europe known for the Alps"
+    },
+    {
+     "id": "italy",
+     "word": "Italy",
+     "pos": "n.",
+     "zh": "意大利",
+     "en": "A country in southern Europe whose capital is Rome."
+    }
+   ]
   },
   {
    "en": "Lily is a little afraid of flying.",
    "zh": "莉莉有点害怕坐飞机。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) looks worried and holds a toy plane away from her, next to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
    "draw": "partly",
-   "draw_note": "Shows Lily looking scared at a toy plane; 'a little' and the idea of flying are only suggested."
+   "draw_note": "Shows Lily looking scared at a toy plane; 'a little' and the idea of flying are only suggested.",
+   "narration": "Lily looks worried and holds a toy plane away from her, next to Ben.",
+   "sentence_targets": [
+    {
+     "id": "afraid",
+     "word": "afraid",
+     "pos": "adj.",
+     "zh": "害怕的；担心的",
+     "en": "feeling fear or worry about something"
+    }
+   ]
   },
   {
    "en": "Their first trip goes west across England by car.",
    "zh": "他们的第一次旅行是坐车向西穿过英格兰。",
    "scene_prompt": "A small car drives along a green English country road toward the setting sun, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) waving from the back window.",
    "draw": "partly",
-   "draw_note": "Shows the car driving toward the setting sun on an English road; 'first' and 'west' are only suggested."
+   "draw_note": "Shows the car driving toward the setting sun on an English road; 'first' and 'west' are only suggested.",
+   "narration": "A small car drives along a green English country road toward the setting sun, Ben and Lily waving from the back window.",
+   "sentence_targets": [
+    {
+     "id": "england",
+     "word": "England",
+     "pos": "n.",
+     "zh": "英格兰",
+     "en": "A country forming part of the United Kingdom."
+    },
+    {
+     "id": "west",
+     "word": "west",
+     "pos": "adj./adv./n.",
+     "zh": "西；西方；西部",
+     "en": "the direction where the sun sets, opposite east"
+    },
+    {
+     "id": "trip",
+     "word": "trip",
+     "pos": "n./v.",
+     "zh": "旅行；出行",
+     "en": "a journey to a place and usually back again"
+    }
+   ]
   },
   {
    "en": "A friendly driver smiles at them in the car.",
    "zh": "一位友好的司机在车里冲他们微笑。",
    "scene_prompt": "A friendly driver turns and smiles at Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) in the back seat of a car on a country road.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A friendly driver turns and smiles at Ben and Lily in the back seat of a car on a country road.",
+   "sentence_targets": [
+    {
+     "id": "friendly",
+     "word": "friendly",
+     "pos": "adj./n.",
+     "zh": "友好的；亲切的",
+     "en": "Kind, welcoming, and pleasant towards other people."
+    },
+    {
+     "id": "driver",
+     "word": "driver",
+     "pos": "n.",
+     "zh": "司机；驾驶员",
+     "en": "A person who controls a car or another road vehicle."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

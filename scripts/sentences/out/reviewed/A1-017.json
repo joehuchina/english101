@@ -50,51 +50,201 @@
    "zh": "本每个星期二早上都去看望祖父母。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) rings the doorbell of a small house in the morning sun; Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) open the door with smiles.",
    "draw": "partly",
-   "draw_note": "Shows Ben visiting his grandparents in the morning; 'every Tuesday' can't be shown."
+   "draw_note": "Shows Ben visiting his grandparents in the morning; 'every Tuesday' can't be shown.",
+   "narration": "Ben rings the doorbell of a small house in the morning sun. Grandpa Joe and Grandma Rosa open the door with smiles.",
+   "sentence_targets": [
+    {
+     "id": "tuesday",
+     "word": "Tuesday",
+     "pos": "n.",
+     "zh": "星期二",
+     "en": "the day after Monday and before Wednesday"
+    },
+    {
+     "id": "grandparent",
+     "word": "grandparent",
+     "pos": "n.",
+     "zh": "祖父母或外祖父母之一",
+     "en": "The father or mother of one of your parents."
+    },
+    {
+     "id": "morning",
+     "word": "morning",
+     "pos": "n.",
+     "zh": "早晨；上午",
+     "en": "The part of the day between midnight and noon"
+    }
+   ]
   },
   {
    "en": "Grandpa Joe drinks black coffee in the little kitchen.",
    "zh": "乔爷爷在小厨房里喝黑咖啡。",
    "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) sits in a small cosy kitchen holding a cup of black coffee.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Grandpa Joe sits in a small cosy kitchen holding a cup of black coffee.",
+   "sentence_targets": [
+    {
+     "id": "coffee",
+     "word": "coffee",
+     "pos": "n.",
+     "zh": "咖啡；咖啡粉；咖啡豆",
+     "en": "A drink made from roasted beans, or the beans and powder."
+    },
+    {
+     "id": "little",
+     "word": "little",
+     "pos": "adj./adv./det.",
+     "zh": "小的；年幼的",
+     "en": "Small in size or young in age."
+    },
+    {
+     "id": "black",
+     "word": "black",
+     "pos": "adj./n.",
+     "zh": "黑色的",
+     "en": "having the darkest colour, like coal"
+    }
+   ]
   },
   {
    "en": "Ben loves the smell of the coffee.",
    "zh": "本很喜欢咖啡的香味。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) closes his eyes and sniffs happily near the steaming coffee cup of Grandpa Joe (an old man, bald with a white beard, in a brown cardigan).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben closes his eyes and sniffs happily near the steaming coffee cup of Grandpa Joe.",
+   "sentence_targets": [
+    {
+     "id": "coffee",
+     "word": "coffee",
+     "pos": "n.",
+     "zh": "咖啡；咖啡粉；咖啡豆",
+     "en": "A drink made from roasted beans, or the beans and powder."
+    },
+    {
+     "id": "smell",
+     "word": "smell",
+     "pos": "n./v.",
+     "zh": "气味；嗅觉",
+     "en": "a quality sensed through the nose, or that sensing ability"
+    }
+   ]
   },
   {
    "en": "It is cold outside, but Ben wants to play.",
    "zh": "外面很冷，但本想去玩。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) presses his face to the kitchen window, holding a ball; outside the garden is frosty and the trees are bare.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben presses his face to the kitchen window, holding a ball. outside the garden is frosty and the trees are bare.",
+   "sentence_targets": [
+    {
+     "id": "cold",
+     "word": "cold",
+     "pos": "adj./n.",
+     "zh": "冷的；寒冷的",
+     "en": "Having a low temperature or feeling a lack of warmth."
+    },
+    {
+     "id": "outside",
+     "word": "outside",
+     "pos": "adj./adv./prep.",
+     "zh": "在外面；向外面",
+     "en": "In or towards a place that is not inside."
+    }
+   ]
   },
   {
    "en": "He puts on warm trousers and his shoes.",
    "zh": "他穿上暖和的裤子和鞋子。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on the floor by the door, pulling thick warm trousers on over his shorts, a pair of shoes beside him.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben sits on the floor by the door, pulling thick warm trousers on over his shorts, a pair of shoes beside him.",
+   "sentence_targets": [
+    {
+     "id": "trousers",
+     "word": "trousers",
+     "pos": "n.",
+     "zh": "裤子；长裤",
+     "en": "Clothing covering the waist and legs, with separate leg sections."
+    },
+    {
+     "id": "shoe",
+     "word": "shoe",
+     "pos": "n.",
+     "zh": "鞋",
+     "en": "A covering for the foot, usually with a firm sole."
+    }
+   ]
   },
   {
    "en": "Grandma Rosa opens the wide garden gate for him.",
    "zh": "罗莎奶奶为他打开宽大的花园门。",
    "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) swings open a wide wooden garden gate while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now in warm trousers, runs out, frosty grass beyond.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Grandma Rosa swings open a wide wooden garden gate while Ben, now in warm trousers, runs out, frosty grass beyond.",
+   "sentence_targets": [
+    {
+     "id": "wide",
+     "word": "wide",
+     "pos": "adj./adv.",
+     "zh": "宽的；宽阔的",
+     "en": "measuring a large distance from one side to the other"
+    }
+   ]
   },
   {
    "en": "Later, they eat pasta and sweet apple cake.",
    "zh": "后来，他们吃意大利面和甜甜的苹果蛋糕。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) sit at the kitchen table with plates of pasta and an apple cake.",
    "draw": "partly",
-   "draw_note": "Shows them eating pasta and apple cake; 'later' and 'sweet' can't be shown."
+   "draw_note": "Shows them eating pasta and apple cake; 'later' and 'sweet' can't be shown.",
+   "narration": "Ben, Grandpa Joe and Grandma Rosa sit at the kitchen table with plates of pasta and an apple cake.",
+   "sentence_targets": [
+    {
+     "id": "sweet",
+     "word": "sweet",
+     "pos": "adj./n.",
+     "zh": "甜的",
+     "en": "Having a taste like sugar or honey."
+    },
+    {
+     "id": "pasta",
+     "word": "pasta",
+     "pos": "n.",
+     "zh": "意大利面食",
+     "en": "food made from flour and water, shaped and usually boiled"
+    }
+   ]
   },
   {
    "en": "They all agree that nothing is better than pasta.",
    "zh": "他们都同意，没有什么比意大利面更好吃了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) nod and smile at each other over empty pasta plates, giving a thumbs-up.",
    "draw": "partly",
-   "draw_note": "Shows them happily nodding over empty pasta plates; the exact opinion can only be guessed."
+   "draw_note": "Shows them happily nodding over empty pasta plates; the exact opinion can only be guessed.",
+   "narration": "Ben, Grandpa Joe and Grandma Rosa nod and smile at each other over empty pasta plates, giving a thumbs-up.",
+   "sentence_targets": [
+    {
+     "id": "nothing",
+     "word": "nothing",
+     "pos": "adv./pron.",
+     "zh": "没有任何东西；毫无",
+     "en": "not anything; no thing at all"
+    },
+    {
+     "id": "pasta",
+     "word": "pasta",
+     "pos": "n.",
+     "zh": "意大利面食",
+     "en": "food made from flour and water, shaped and usually boiled"
+    },
+    {
+     "id": "agree",
+     "word": "agree",
+     "pos": "v.",
+     "zh": "同意；赞成",
+     "en": "Have the same opinion or accept someone else's view"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

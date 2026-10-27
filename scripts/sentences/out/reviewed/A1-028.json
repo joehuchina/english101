@@ -50,52 +50,188 @@
    "zh": "本是这门英语课程的初学者。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits at a desk in a bright classroom with a new, unopened English book, looking a little unsure.",
    "draw": "partly",
-   "draw_note": "Shows Ben with a new book in class; 'beginner' and 'course' can't really be shown."
+   "draw_note": "Shows Ben with a new book in class; 'beginner' and 'course' can't really be shown.",
+   "narration": "Ben sits at a desk in a bright classroom with a new, unopened English book, looking a little unsure.",
+   "sentence_targets": [
+    {
+     "id": "course",
+     "word": "course",
+     "pos": "n.",
+     "zh": "课程",
+     "en": "A series of lessons about a particular subject."
+    },
+    {
+     "id": "beginner",
+     "word": "beginner",
+     "pos": "n.",
+     "zh": "初学者；新手",
+     "en": "someone who has just started learning or doing something"
+    }
+   ]
   },
   {
    "en": "His class has English at school every morning.",
    "zh": "他们班每天早上在学校上英语课。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit with other children in a school classroom in the morning sun.",
    "draw": "partly",
-   "draw_note": "Shows the class in the morning; 'every morning' and 'English' can't be shown."
+   "draw_note": "Shows the class in the morning; 'every morning' and 'English' can't be shown.",
+   "narration": "Ben and Mia sit with other children in a school classroom in the morning sun.",
+   "sentence_targets": [
+    {
+     "id": "school",
+     "word": "school",
+     "pos": "n.",
+     "zh": "学校；上学",
+     "en": "A place where children learn, or the time spent learning there."
+    },
+    {
+     "id": "class",
+     "word": "class",
+     "pos": "n./v.",
+     "zh": "班级；课",
+     "en": "A group learning together, or a lesson they attend."
+    }
+   ]
   },
   {
    "en": "Their teacher Kofi stands at the blackboard with chalk.",
    "zh": "他们的老师科菲拿着粉笔站在黑板前。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) stands at a big clean blackboard holding a piece of white chalk.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi stands at a big clean blackboard holding a piece of white chalk.",
+   "sentence_targets": [
+    {
+     "id": "teacher",
+     "word": "teacher",
+     "pos": "n.",
+     "zh": "教师；老师",
+     "en": "someone whose job is to help people learn"
+    },
+    {
+     "id": "blackboard",
+     "word": "blackboard",
+     "pos": "n.",
+     "zh": "黑板",
+     "en": "A dark classroom board used for writing or drawing with chalk."
+    }
+   ]
   },
   {
    "en": "Ben draws lines on paper with his ruler.",
    "zh": "本用尺子在纸上画线。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) draws straight lines on a white sheet of paper with a ruler.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben draws straight lines on a white sheet of paper with a ruler.",
+   "sentence_targets": [
+    {
+     "id": "ruler",
+     "word": "ruler",
+     "pos": "n.",
+     "zh": "尺子；直尺",
+     "en": "A straight tool for measuring lengths or drawing straight lines."
+    },
+    {
+     "id": "paper",
+     "word": "paper",
+     "pos": "n.",
+     "zh": "纸；纸张",
+     "en": "Thin material used for writing, printing, or wrapping."
+    }
+   ]
   },
   {
    "en": "Then he writes the new words in his notebook.",
    "zh": "然后他把新单词写进笔记本。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) writes carefully in an open notebook on his desk.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben writes carefully in an open notebook on his desk.",
+   "sentence_targets": [
+    {
+     "id": "notebook",
+     "word": "notebook",
+     "pos": "n.",
+     "zh": "笔记本；笔记簿",
+     "en": "A book of blank pages for writing notes."
+    }
+   ]
   },
   {
    "en": "Mia helps him study and spell the words.",
    "zh": "米娅帮他学习和拼写这些单词。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) points at the notebook of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and helps him, both smiling.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia points at the notebook of Ben and helps him, both smiling.",
+   "sentence_targets": [
+    {
+     "id": "study",
+     "word": "study",
+     "pos": "n./v.",
+     "zh": "学习；研究",
+     "en": "Spend time learning about or carefully examining a subject."
+    },
+    {
+     "id": "spell",
+     "word": "spell",
+     "pos": "n./v.",
+     "zh": "拼写",
+     "en": "To write or say the letters of a word in order."
+    }
+   ]
   },
   {
    "en": "Ben wants to learn every word for the exam.",
    "zh": "本想为考试学会每一个单词。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) reads his notebook with a serious face, a pile of exam papers lying face down on the teacher's desk.",
    "draw": "partly",
-   "draw_note": "Shows Ben studying hard with exam papers nearby; 'wants to learn every word' can't be shown."
+   "draw_note": "Shows Ben studying hard with exam papers nearby; 'wants to learn every word' can't be shown.",
+   "narration": "Ben reads his notebook with a serious face, a pile of exam papers lying face down on the teacher's desk.",
+   "sentence_targets": [
+    {
+     "id": "learn",
+     "word": "learn",
+     "pos": "v.",
+     "zh": "学习；学会",
+     "en": "To gain knowledge or a skill through study or experience."
+    },
+    {
+     "id": "exam",
+     "word": "exam",
+     "pos": "n.",
+     "zh": "考试；测验",
+     "en": "A formal test of knowledge or ability."
+    }
+   ]
   },
   {
    "en": "Kofi asks if anyone had a holiday in Rome.",
    "zh": "科菲问有没有人去罗马度过假。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) holds up a big photo of the old Colosseum in Rome; Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) raises her hand happily.",
    "draw": "partly",
-   "draw_note": "Shows Kofi with a photo of Rome and Mia raising her hand; the question itself can't be shown."
+   "draw_note": "Shows Kofi with a photo of Rome and Mia raising her hand; the question itself can't be shown.",
+   "narration": "Kofi holds up a big photo of the old Colosseum in Rome. Mia raises her hand happily.",
+   "sentence_targets": [
+    {
+     "id": "holiday",
+     "word": "holiday",
+     "pos": "n./v.",
+     "zh": "假期；度假",
+     "en": "A period away from work or study for rest or travel."
+    },
+    {
+     "id": "rome",
+     "word": "Rome",
+     "pos": "n.",
+     "zh": "罗马（意大利首都）",
+     "en": "The capital city of Italy"
+    },
+    {
+     "id": "if",
+     "word": "if",
+     "pos": "conj.",
+     "zh": "如果；假如",
+     "en": "introduces a condition for something to happen"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

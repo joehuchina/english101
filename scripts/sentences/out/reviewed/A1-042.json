@@ -42,50 +42,193 @@
    "en": "Mia and Ben go to the cinema tonight.",
    "zh": "米娅和本今晚去电影院。",
    "scene_prompt": "In the evening, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) walk into a bright cinema under a dark sky.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "In the evening, Mia and Ben walk into a bright cinema under a dark sky.",
+   "sentence_targets": [
+    {
+     "id": "cinema",
+     "word": "cinema",
+     "pos": "n.",
+     "zh": "电影院",
+     "en": "A place where people pay to watch films."
+    }
+   ]
   },
   {
    "en": "First, they look at the snack menu.",
    "zh": "他们先看了看零食菜单。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) look up at a picture menu of popcorn and drinks above the cinema counter.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia and Ben look up at a picture menu of popcorn and drinks above the cinema counter.",
+   "sentence_targets": [
+    {
+     "id": "menu",
+     "word": "menu",
+     "pos": "n.",
+     "zh": "菜单",
+     "en": "A list of food and drinks available to order"
+    }
+   ]
   },
   {
    "en": "The film tells an exciting story.",
    "zh": "这部电影讲了一个精彩的故事。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sit in the dark cinema with popcorn and wide, excited eyes, watching the big screen.",
    "draw": "partly",
-   "draw_note": "Shows the children excited in the cinema; the story itself can't be shown."
+   "draw_note": "Shows the children excited in the cinema; the story itself can't be shown.",
+   "narration": "Mia and Ben sit in the dark cinema with popcorn and wide, excited eyes, watching the big screen.",
+   "sentence_targets": [
+    {
+     "id": "film",
+     "word": "film",
+     "pos": "n./v.",
+     "zh": "电影",
+     "en": "a story or events recorded as moving pictures"
+    },
+    {
+     "id": "story",
+     "word": "story",
+     "pos": "n.",
+     "zh": "故事；经历的叙述",
+     "en": "an account of real or imagined events"
+    },
+    {
+     "id": "exciting",
+     "word": "exciting",
+     "pos": "adj.",
+     "zh": "令人兴奋的；刺激的",
+     "en": "Making someone feel eager, enthusiastic, or thrilled."
+    }
+   ]
   },
   {
    "en": "It is about a young Italian singer.",
    "zh": "电影讲的是一位年轻的意大利歌手。",
    "scene_prompt": "On the big cinema screen, a young woman singer stands on a stage in a sunny old Italian town square with Italian flags.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "On the big cinema screen, a young woman singer stands on a stage in a sunny old Italian town square with Italian flags.",
+   "sentence_targets": [
+    {
+     "id": "singer",
+     "word": "singer",
+     "pos": "n.",
+     "zh": "歌手；歌唱家",
+     "en": "A person who sings, especially as a job."
+    },
+    {
+     "id": "italian",
+     "word": "Italian",
+     "pos": "adj./n.",
+     "zh": "意大利的；意大利语的",
+     "en": "Relating to Italy, its people, culture, or language"
+    }
+   ]
   },
   {
    "en": "She loves to sing and dance on stage.",
    "zh": "她喜欢在舞台上唱歌跳舞。",
    "scene_prompt": "On the cinema screen, the young singer sings and dances happily on a stage under bright lights.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "On the cinema screen, the young singer sings and dances happily on a stage under bright lights.",
+   "sentence_targets": [
+    {
+     "id": "dance",
+     "word": "dance",
+     "pos": "n./v.",
+     "zh": "跳舞",
+     "en": "to move your body rhythmically, usually to music"
+    },
+    {
+     "id": "sing",
+     "word": "sing",
+     "pos": "v.",
+     "zh": "唱；唱歌",
+     "en": "To make musical sounds with your voice."
+    }
+   ]
   },
   {
    "en": "The dancing in the movie is beautiful.",
    "zh": "电影里的舞蹈很美。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smile in their seats as many dancers move across the cinema screen.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia and Ben smile in their seats as many dancers move across the cinema screen.",
+   "sentence_targets": [
+    {
+     "id": "dance",
+     "word": "dance",
+     "pos": "n./v.",
+     "zh": "跳舞",
+     "en": "to move your body rhythmically, usually to music"
+    },
+    {
+     "id": "movie",
+     "word": "movie",
+     "pos": "n.",
+     "zh": "电影",
+     "en": "a recorded story or sequence of moving images for watching"
+    },
+    {
+     "id": "dancing",
+     "word": "dancing",
+     "pos": "n.",
+     "zh": "跳舞；舞蹈",
+     "en": "the activity of moving your body rhythmically, usually to music"
+    }
+   ]
   },
   {
    "en": "At home, Ben draws the singer by the fire.",
    "zh": "回到家，本在炉火边画那位歌手。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on the floor by a warm fireplace drawing a singer in a sketchbook.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben sits on the floor by a warm fireplace drawing a singer in a sketchbook.",
+   "sentence_targets": [
+    {
+     "id": "fire",
+     "word": "fire",
+     "pos": "n./v.",
+     "zh": "火；火灾",
+     "en": "Burning that produces heat and light, sometimes causing damage."
+    },
+    {
+     "id": "singer",
+     "word": "singer",
+     "pos": "n.",
+     "zh": "歌手；歌唱家",
+     "en": "A person who sings, especially as a job."
+    },
+    {
+     "id": "draw",
+     "word": "draw",
+     "pos": "v.",
+     "zh": "画；绘制",
+     "en": "Make a picture using a pencil, pen, or similar tool."
+    }
+   ]
   },
   {
    "en": "Mia, a young writer, writes her own story.",
    "zh": "米娅是个小作家，在写她自己的故事。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sits by the fireplace writing in a notebook with a pencil, next to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia sits by the fireplace writing in a notebook with a pencil, next to Ben.",
+   "sentence_targets": [
+    {
+     "id": "story",
+     "word": "story",
+     "pos": "n.",
+     "zh": "故事；经历的叙述",
+     "en": "an account of real or imagined events"
+    },
+    {
+     "id": "writer",
+     "word": "writer",
+     "pos": "n.",
+     "zh": "作家；作者",
+     "en": "someone who writes books, articles, or other texts"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

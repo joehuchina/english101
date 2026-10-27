@@ -50,52 +50,188 @@
    "zh": "昨天，本在前门发现了一封信。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) picks up a white envelope from the mat at the front door of a house.",
    "draw": "partly",
-   "draw_note": "Shows Ben finding the letter; 'yesterday' cannot be shown."
+   "draw_note": "Shows Ben finding the letter; 'yesterday' cannot be shown.",
+   "narration": "Ben picks up a white envelope from the mat at the front door of a house.",
+   "sentence_targets": [
+    {
+     "id": "letter",
+     "word": "letter",
+     "pos": "n.",
+     "zh": "信；信函",
+     "en": "a written message sent to a person or organisation"
+    },
+    {
+     "id": "yesterday",
+     "word": "yesterday",
+     "pos": "adv./n.",
+     "zh": "在昨天",
+     "en": "On the day before today."
+    },
+    {
+     "id": "front",
+     "word": "front",
+     "pos": "adj./n.",
+     "zh": "前部；正面",
+     "en": "The forward part or outward-facing surface of something."
+    }
+   ]
   },
   {
    "en": "He runs upstairs in his jeans and jacket.",
    "zh": "他穿着牛仔裤和夹克跑上楼。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now wearing jeans and a jacket, runs up the stairs holding the envelope.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, now wearing jeans and a jacket, runs up the stairs holding the envelope.",
+   "sentence_targets": [
+    {
+     "id": "upstairs",
+     "word": "upstairs",
+     "pos": "adj./adv.",
+     "zh": "在楼上；往楼上",
+     "en": "On or towards a higher floor of a building."
+    },
+    {
+     "id": "jacket",
+     "word": "jacket",
+     "pos": "n.",
+     "zh": "夹克；短外套",
+     "en": "A short coat covering the upper body and arms."
+    },
+    {
+     "id": "jeans",
+     "word": "jeans",
+     "pos": "n.",
+     "zh": "牛仔裤",
+     "en": "Trousers made from strong cotton cloth, usually denim."
+    }
+   ]
   },
   {
    "en": "\"Is it about Max?\" he asks Lily.",
    "zh": "“是关于麦克斯的吗？”他问莉莉。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up the envelope and asks Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), who sits on her bed.",
    "draw": "partly",
-   "draw_note": "Shows Ben asking Lily; the words are not shown."
+   "draw_note": "Shows Ben asking Lily; the words are not shown.",
+   "narration": "Ben holds up the envelope and asks Lily, who sits on her bed.",
+   "sentence_targets": [
+    {
+     "id": "ask",
+     "word": "ask",
+     "pos": "v.",
+     "zh": "问；询问",
+     "en": "say something to get information or an answer"
+    }
+   ]
   },
   {
    "en": "Their pet was lost a month ago.",
    "zh": "他们的宠物一个月前走丢了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) look sadly at an empty dog basket with a red ball in it.",
    "draw": "partly",
-   "draw_note": "Shows the empty basket; 'a month ago' cannot be shown."
+   "draw_note": "Shows the empty basket; 'a month ago' cannot be shown.",
+   "narration": "Ben and Lily look sadly at an empty dog basket with a red ball in it.",
+   "sentence_targets": [
+    {
+     "id": "month",
+     "word": "month",
+     "pos": "n.",
+     "zh": "月；一个月",
+     "en": "one of twelve yearly divisions, or roughly four weeks"
+    },
+    {
+     "id": "pet",
+     "word": "pet",
+     "pos": "n./v.",
+     "zh": "宠物",
+     "en": "An animal kept at home for company and pleasure."
+    }
+   ]
   },
   {
    "en": "Ben thinks it is bad news.",
    "zh": "本以为是坏消息。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks worried as he holds the closed envelope; Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) bites her lip beside him.",
    "draw": "partly",
-   "draw_note": "Shows Ben's worried face; the thought itself is not shown."
+   "draw_note": "Shows Ben's worried face; the thought itself is not shown.",
+   "narration": "Ben looks worried as he holds the closed envelope. Lily bites her lip beside him.",
+   "sentence_targets": [
+    {
+     "id": "bad",
+     "word": "bad",
+     "pos": "adj.",
+     "zh": "差的；劣质的",
+     "en": "Not good in quality or not satisfactory."
+    },
+    {
+     "id": "think",
+     "word": "think",
+     "pos": "v.",
+     "zh": "认为；觉得",
+     "en": "To have an opinion or belief about something."
+    }
+   ]
   },
   {
    "en": "Something falls out: a photo of Max!",
    "zh": "有东西掉了出来：是麦克斯的照片！",
    "scene_prompt": "A photo falls out of the open envelope onto the bed; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) stare at it.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A photo falls out of the open envelope onto the bed. Ben and Lily stare at it.",
+   "sentence_targets": [
+    {
+     "id": "something",
+     "word": "something",
+     "pos": "pron.",
+     "zh": "某事；某物",
+     "en": "A thing that is not named or specified."
+    }
+   ]
   },
   {
    "en": "In the photo, a strong farmer pats Max's head.",
    "zh": "照片里，一位强壮的农民在拍麦克斯的头。",
    "scene_prompt": "Close-up of a photo: a strong farmer in a checked shirt pats the head of Max (a small brown dog with floppy ears and a red collar) in front of a barn.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Close-up of a photo: a strong farmer in a checked shirt pats the head of Max in front of a barn.",
+   "sentence_targets": [
+    {
+     "id": "strong",
+     "word": "strong",
+     "pos": "adj.",
+     "zh": "强壮的；有力的",
+     "en": "having great physical power or force"
+    },
+    {
+     "id": "head",
+     "word": "head",
+     "pos": "n./v.",
+     "zh": "头；头部",
+     "en": "the body part containing the brain, eyes, and mouth"
+    }
+   ]
   },
   {
    "en": "That night, a car stops, and Max jumps out!",
    "zh": "那天夜里，一辆车停下，麦克斯跳了出来！",
    "scene_prompt": "At night, a farm truck stops outside the house and Max (a small brown dog with floppy ears and a red collar) jumps out towards Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) at the front door.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "At night, a farm truck stops outside the house and Max jumps out towards Ben and Lily at the front door.",
+   "sentence_targets": [
+    {
+     "id": "stop",
+     "word": "stop",
+     "pos": "n./v.",
+     "zh": "停止；阻止",
+     "en": "To end an activity or prevent something from happening."
+    },
+    {
+     "id": "night",
+     "word": "night",
+     "pos": "n.",
+     "zh": "夜晚；夜间",
+     "en": "The dark part of each day when the sun is down."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

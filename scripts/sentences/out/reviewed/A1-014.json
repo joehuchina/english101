@@ -50,53 +50,189 @@
    "zh": "下午两点，吃完午饭后，本和莉莉开始打扫。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) pick up a broom and a cloth in a bright living room in the afternoon sun; empty lunch plates sit on a side table.",
    "draw": "partly",
-   "draw_note": "Shows the children starting to clean after lunch; the exact time can't be shown."
+   "draw_note": "Shows the children starting to clean after lunch; the exact time can't be shown.",
+   "narration": "Ben and Lily pick up a broom and a cloth in a bright living room in the afternoon sun. empty lunch plates sit on a side table.",
+   "sentence_targets": [
+    {
+     "id": "lunch",
+     "word": "lunch",
+     "pos": "n./v.",
+     "zh": "午餐",
+     "en": "a meal eaten around the middle of the day"
+    },
+    {
+     "id": "p-m",
+     "word": "p.m.",
+     "pos": "adv.",
+     "zh": "下午；午后至午夜前",
+     "en": "after noon and before midnight, used when stating a time"
+    }
+   ]
   },
   {
    "en": "Grandma Rosa collects cups, and she has sixty.",
    "zh": "罗莎奶奶收集杯子，她有六十个。",
    "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) proudly shows a tall shelf full of many small colourful cups.",
    "draw": "partly",
-   "draw_note": "Shows a shelf of many cups; the exact number is not shown."
+   "draw_note": "Shows a shelf of many cups; the exact number is not shown.",
+   "narration": "Grandma Rosa proudly shows a tall shelf full of many small colourful cups.",
+   "sentence_targets": [
+    {
+     "id": "sixty",
+     "word": "sixty",
+     "pos": "num.",
+     "zh": "六十",
+     "en": "the number equal to six times ten"
+    }
+   ]
   },
   {
    "en": "At the beginning, Ben works very fast.",
    "zh": "一开始，本干得非常快。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) rushes around the living room with a duster in each hand.",
    "draw": "partly",
-   "draw_note": "Shows Ben working very fast; 'at the beginning' can't be shown."
+   "draw_note": "Shows Ben working very fast; 'at the beginning' can't be shown.",
+   "narration": "Ben rushes around the living room with a duster in each hand.",
+   "sentence_targets": [
+    {
+     "id": "fast",
+     "word": "fast",
+     "pos": "adj./adv./v.",
+     "zh": "快速的",
+     "en": "moving or happening at high speed"
+    },
+    {
+     "id": "beginning",
+     "word": "beginning",
+     "pos": "n.",
+     "zh": "开始；开端",
+     "en": "The first part or starting point of something."
+    }
+   ]
   },
   {
    "en": "He moves the low table to clean the floor.",
    "zh": "他挪开矮桌子来打扫地板。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) pushes a low coffee table aside on a wooden floor.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben pushes a low coffee table aside on a wooden floor.",
+   "sentence_targets": [
+    {
+     "id": "floor",
+     "word": "floor",
+     "pos": "n.",
+     "zh": "地板；室内地面",
+     "en": "The surface inside a building that people walk on."
+    },
+    {
+     "id": "low",
+     "word": "low",
+     "pos": "adj./adv.",
+     "zh": "低的；少的",
+     "en": "Not high in position, amount, level, or degree."
+    },
+    {
+     "id": "move",
+     "word": "move",
+     "pos": "n./v.",
+     "zh": "移动；搬家",
+     "en": "To change position or go to live somewhere else."
+    }
+   ]
   },
   {
    "en": "He makes a mistake and drops a dirty cup.",
    "zh": "他一不小心，把一个脏杯子掉了下去。",
    "scene_prompt": "A dirty cup slips from the hand of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and falls.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A dirty cup slips from the hand of Ben and falls.",
+   "sentence_targets": [
+    {
+     "id": "dirty",
+     "word": "dirty",
+     "pos": "adj./v.",
+     "zh": "脏的",
+     "en": "Covered with dirt or other unwanted substances."
+    },
+    {
+     "id": "mistake",
+     "word": "mistake",
+     "pos": "n./v.",
+     "zh": "错误；失误",
+     "en": "Something incorrect that you do, say, or believe."
+    }
+   ]
   },
   {
    "en": "The cup falls right on his left foot.",
    "zh": "杯子正好砸在他的左脚上。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hops on one leg holding his left foot, a cup on the floor.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben hops on one leg holding his left foot, a cup on the floor.",
+   "sentence_targets": [
+    {
+     "id": "foot",
+     "word": "foot",
+     "pos": "n.",
+     "zh": "脚；足",
+     "en": "the body part below the ankle used for standing and walking"
+    }
+   ]
   },
   {
    "en": "Lily sends him to sit down for a second.",
    "zh": "莉莉让他去坐一会儿。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points to the sofa and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits down with a sigh.",
    "draw": "partly",
-   "draw_note": "Shows Lily sending Ben to the sofa; 'for a second' can't be shown."
+   "draw_note": "Shows Lily sending Ben to the sofa; 'for a second' can't be shown.",
+   "narration": "Lily points to the sofa and Ben sits down with a sigh.",
+   "sentence_targets": [
+    {
+     "id": "him",
+     "word": "him",
+     "pos": "pron.",
+     "zh": "他（宾格）",
+     "en": "used for a male person receiving an action or following a preposition"
+    },
+    {
+     "id": "second",
+     "word": "second",
+     "pos": "n./num./v.",
+     "zh": "第二",
+     "en": "Coming immediately after the first in an order."
+    },
+    {
+     "id": "send",
+     "word": "send",
+     "pos": "v.",
+     "zh": "发送；寄送",
+     "en": "To make something go or be delivered to another place."
+    }
+   ]
   },
   {
    "en": "\"That is the third cup today!\" she laughs.",
    "zh": "“这是今天的第三个杯子了！”她笑着说。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laughs and holds up a cup next to a tray with two other broken cups, while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles shyly on the sofa and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) laughs in her armchair.",
    "draw": "partly",
-   "draw_note": "Shows Lily laughing with broken cups; the spoken words and 'third' can only be guessed."
+   "draw_note": "Shows Lily laughing with broken cups; the spoken words and 'third' can only be guessed.",
+   "narration": "Lily laughs and holds up a cup next to a tray with two other broken cups, while Ben smiles shyly on the sofa and Grandma Rosa laughs in her armchair.",
+   "sentence_targets": [
+    {
+     "id": "that",
+     "word": "that",
+     "pos": "conj./det./pron.",
+     "zh": "那；那个",
+     "en": "used before a noun to identify something farther away"
+    },
+    {
+     "id": "third",
+     "word": "third",
+     "pos": "n./num.",
+     "zh": "第三",
+     "en": "Coming after the second and before the fourth."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

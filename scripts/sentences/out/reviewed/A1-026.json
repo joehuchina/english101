@@ -43,51 +43,187 @@
    "en": "Ben and Lily are on holiday in London.",
    "zh": "本和莉莉在伦敦度假。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) smile near a tall stone clock tower and a red double-decker bus.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily smile near a tall stone clock tower and a red double-decker bus.",
+   "sentence_targets": [
+    {
+     "id": "holiday",
+     "word": "holiday",
+     "pos": "n./v.",
+     "zh": "假期；度假",
+     "en": "A period away from work or study for rest or travel."
+    },
+    {
+     "id": "london",
+     "word": "London",
+     "pos": "n.",
+     "zh": "伦敦（英国首都）",
+     "en": "The capital city of the United Kingdom."
+    }
+   ]
   },
   {
    "en": "At home, they live in a small village.",
    "zh": "在家里，他们住在一个小村庄。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wave in front of a few small cottages among green fields.",
    "draw": "partly",
-   "draw_note": "Shows the children in a small village; 'at home' (as opposed to London) can't be shown."
+   "draw_note": "Shows the children in a small village; 'at home' (as opposed to London) can't be shown.",
+   "narration": "Ben and Lily wave in front of a few small cottages among green fields.",
+   "sentence_targets": [
+    {
+     "id": "village",
+     "word": "village",
+     "pos": "n.",
+     "zh": "村庄",
+     "en": "A small community of homes, usually in the countryside."
+    }
+   ]
   },
   {
    "en": "London is a very big and busy city.",
    "zh": "伦敦是一座又大又繁忙的城市。",
    "scene_prompt": "A wide view of a big busy city with tall buildings, many people, cars and red buses.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A wide view of a big busy city with tall buildings, many people, cars and red buses.",
+   "sentence_targets": [
+    {
+     "id": "london",
+     "word": "London",
+     "pos": "n.",
+     "zh": "伦敦（英国首都）",
+     "en": "The capital city of the United Kingdom."
+    },
+    {
+     "id": "city",
+     "word": "city",
+     "pos": "n.",
+     "zh": "城市；都市",
+     "en": "A large town where many people live and work."
+    }
+   ]
   },
   {
    "en": "They stay in a flat on a busy street.",
    "zh": "他们住在一条热闹街道上的一套公寓里。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) look out of a flat window at a busy street below.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily look out of a flat window at a busy street below.",
+   "sentence_targets": [
+    {
+     "id": "flat",
+     "word": "flat",
+     "pos": "adj./n.",
+     "zh": "公寓；一套住房",
+     "en": "a set of rooms forming a home within a building"
+    },
+    {
+     "id": "street",
+     "word": "street",
+     "pos": "n.",
+     "zh": "街道",
+     "en": "a public road in a town, usually lined with buildings"
+    }
+   ]
   },
   {
    "en": "In the town centre, they find a post office.",
    "zh": "在市中心，他们找到了一家邮局。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk up to a post office with a red post box outside, in the middle of a busy town square.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily walk up to a post office with a red post box outside, in the middle of a busy town square.",
+   "sentence_targets": [
+    {
+     "id": "town",
+     "word": "town",
+     "pos": "n.",
+     "zh": "城镇；市镇",
+     "en": "A settlement usually larger than a village but smaller than a city"
+    },
+    {
+     "id": "centre",
+     "word": "centre",
+     "pos": "n./v.",
+     "zh": "中心；中央",
+     "en": "The middle point or area of something."
+    },
+    {
+     "id": "post-office",
+     "word": "post office",
+     "pos": "n.",
+     "zh": "邮局",
+     "en": "a place where people send mail and buy stamps"
+    }
+   ]
   },
   {
    "en": "Ben sends a postcard to Grandma Rosa's house.",
    "zh": "本给罗莎奶奶家寄了一张明信片。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) drops a postcard with a picture of a red bus into a red post box while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watches.",
    "draw": "partly",
-   "draw_note": "Shows Ben posting a postcard; that it goes to Grandma Rosa's house can't be shown."
+   "draw_note": "Shows Ben posting a postcard; that it goes to Grandma Rosa's house can't be shown.",
+   "narration": "Ben drops a postcard with a picture of a red bus into a red post box while Lily watches.",
+   "sentence_targets": [
+    {
+     "id": "postcard",
+     "word": "postcard",
+     "pos": "n.",
+     "zh": "明信片",
+     "en": "a card mailed without an envelope, often showing a picture"
+    },
+    {
+     "id": "house",
+     "word": "house",
+     "pos": "n./v.",
+     "zh": "房屋；住宅",
+     "en": "A building where a person or family lives."
+    }
+   ]
   },
   {
    "en": "Workers build a tall building in this area.",
    "zh": "工人们在这个地区建一栋高楼。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watch workers in hard hats build a tall building with a crane.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily watch workers in hard hats build a tall building with a crane.",
+   "sentence_targets": [
+    {
+     "id": "area",
+     "word": "area",
+     "pos": "n.",
+     "zh": "地区；区域",
+     "en": "A particular part of a place or geographical region"
+    },
+    {
+     "id": "build",
+     "word": "build",
+     "pos": "n./v.",
+     "zh": "建造；建立",
+     "en": "to make structures or develop something over time"
+    },
+    {
+     "id": "building",
+     "word": "building",
+     "pos": "n.",
+     "zh": "建筑物；楼房",
+     "en": "a structure with walls and a roof"
+    }
+   ]
   },
   {
    "en": "Then they rest in a big green park.",
    "zh": "然后他们在一个绿油油的大公园里休息。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit on the grass under a tree in a big green park.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Lily sit on the grass under a tree in a big green park.",
+   "sentence_targets": [
+    {
+     "id": "park",
+     "word": "park",
+     "pos": "n./v.",
+     "zh": "公园",
+     "en": "An open area with grass and trees for public enjoyment."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

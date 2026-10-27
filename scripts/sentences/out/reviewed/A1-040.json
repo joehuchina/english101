@@ -44,52 +44,188 @@
    "zh": "七月一个炎热的星期一，咖啡馆里很热闹。",
    "scene_prompt": "A busy sunny outdoor cafe with small tables, striped umbrellas and many people fanning themselves in the summer heat.",
    "draw": "partly",
-   "draw_note": "Shows a busy cafe on a hot summer day; the month and the day of the week can't be shown."
+   "draw_note": "Shows a busy cafe on a hot summer day; the month and the day of the week can't be shown.",
+   "narration": "A busy sunny outdoor cafe with small tables, striped umbrellas and many people fanning themselves in the summer heat.",
+   "sentence_targets": [
+    {
+     "id": "july",
+     "word": "July",
+     "pos": "n.",
+     "zh": "七月",
+     "en": "The seventh month of the year, following June"
+    },
+    {
+     "id": "monday",
+     "word": "Monday",
+     "pos": "n.",
+     "zh": "星期一",
+     "en": "the day after Sunday and before Tuesday"
+    }
+   ]
   },
   {
    "en": "Sara finds a seat at the cafe.",
    "zh": "萨拉在咖啡馆找到一个座位。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) spots the only empty chair at a small table in the busy outdoor cafe.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara spots the only empty chair at a small table in the busy outdoor cafe.",
+   "sentence_targets": [
+    {
+     "id": "seat",
+     "word": "seat",
+     "pos": "n./v.",
+     "zh": "座位",
+     "en": "A place or object for someone to sit on."
+    }
+   ]
   },
   {
    "en": "She sits down with a purple cup.",
    "zh": "她拿着一个紫色杯子坐下。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sits down at the cafe table holding a purple cup.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara sits down at the cafe table holding a purple cup.",
+   "sentence_targets": [
+    {
+     "id": "sit",
+     "word": "sit",
+     "pos": "v.",
+     "zh": "坐；坐下",
+     "en": "to rest with your weight supported by your bottom"
+    },
+    {
+     "id": "cup",
+     "word": "cup",
+     "pos": "n./v.",
+     "zh": "杯子；一杯的量",
+     "en": "A small drinking container, or the amount it holds."
+    },
+    {
+     "id": "purple",
+     "word": "purple",
+     "pos": "adj./n.",
+     "zh": "紫色的",
+     "en": "Having a colour made by mixing red and blue"
+    }
+   ]
   },
   {
    "en": "Kofi comes in and says hello to her.",
    "zh": "科菲走进来，跟她打招呼。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) walks into the cafe and waves hello to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) at her table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi walks into the cafe and waves hello to Sara at her table.",
+   "sentence_targets": [
+    {
+     "id": "hello",
+     "word": "hello",
+     "pos": "int./n.",
+     "zh": "你好；喂",
+     "en": "used to greet someone or begin a phone conversation"
+    },
+    {
+     "id": "in",
+     "word": "in",
+     "pos": "adv./prep.",
+     "zh": "在……里面；在……中",
+     "en": "Inside a place, container, or larger area."
+    }
+   ]
   },
   {
    "en": "He opens the top of his water bottle.",
    "zh": "他打开水瓶的盖子。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt), sitting next to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), twists the top off his water bottle.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi, sitting next to Sara, twists the top off his water bottle.",
+   "sentence_targets": [
+    {
+     "id": "top",
+     "word": "top",
+     "pos": "adj./n./v.",
+     "zh": "顶部；顶端",
+     "en": "the highest part or surface of something"
+    },
+    {
+     "id": "bottle",
+     "word": "bottle",
+     "pos": "n./v.",
+     "zh": "瓶子；一瓶的量",
+     "en": "A narrow-necked container for liquids, or the amount it holds."
+    }
+   ]
   },
   {
    "en": "He looks in again, but there is zero water.",
    "zh": "他又往里看了看，可是一点水也没有。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) holds his empty water bottle upside down and peers into it with a sad face; not a drop comes out.",
    "draw": "partly",
-   "draw_note": "Shows Kofi looking into an empty bottle; 'again' can't be shown."
+   "draw_note": "Shows Kofi looking into an empty bottle; 'again' can't be shown.",
+   "narration": "Kofi holds his empty water bottle upside down and peers into it with a sad face. not a drop comes out.",
+   "sentence_targets": [
+    {
+     "id": "in",
+     "word": "in",
+     "pos": "adv./prep.",
+     "zh": "在……里面；在……中",
+     "en": "Inside a place, container, or larger area."
+    },
+    {
+     "id": "zero",
+     "word": "zero",
+     "pos": "n./num.",
+     "zh": "零",
+     "en": "The number representing no quantity."
+    },
+    {
+     "id": "again",
+     "word": "again",
+     "pos": "adv.",
+     "zh": "再一次；又",
+     "en": "One more time, or on another occasion."
+    }
+   ]
   },
   {
    "en": "“Help yourself to my water,” says Sara.",
    "zh": "“喝我的水吧，”萨拉说。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) smiles and pushes a big jug of water across the table toward Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt).",
    "draw": "partly",
-   "draw_note": "Shows Sara offering her jug of water to Kofi; her words can't be shown."
+   "draw_note": "Shows Sara offering her jug of water to Kofi; her words can't be shown.",
+   "narration": "Sara smiles and pushes a big jug of water across the table toward Kofi.",
+   "sentence_targets": [
+    {
+     "id": "yourself",
+     "word": "yourself",
+     "pos": "pron.",
+     "zh": "你自己；您自己",
+     "en": "Used when you are both the subject and object."
+    }
+   ]
   },
   {
    "en": "They listen to music; Kofi wants nothing else.",
    "zh": "他们听着音乐，科菲别的什么都不想要了。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) sit back and listen to a street musician playing a guitar near the cafe, Kofi happily holding his full bottle.",
    "draw": "partly",
-   "draw_note": "Shows them listening to music and Kofi happy with his water; 'wants nothing else' can't be shown."
+   "draw_note": "Shows them listening to music and Kofi happy with his water; 'wants nothing else' can't be shown.",
+   "narration": "Sara and Kofi sit back and listen to a street musician playing a guitar near the cafe, Kofi happily holding his full bottle.",
+   "sentence_targets": [
+    {
+     "id": "listen",
+     "word": "listen",
+     "pos": "v.",
+     "zh": "听；倾听",
+     "en": "to pay attention to sounds or what someone is saying"
+    },
+    {
+     "id": "else",
+     "word": "else",
+     "pos": "adv.",
+     "zh": "其他；另外",
+     "en": "In addition to or different from someone or something mentioned"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

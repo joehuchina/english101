@@ -41,51 +41,166 @@
    "en": "On a rainy spring day, Sara and Kofi study.",
    "zh": "在一个下雨的春日，萨拉和科菲在学习。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) sit at a desk with books, rain on the window and spring blossoms outside.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi sit at a desk with books, rain on the window and spring blossoms outside.",
+   "sentence_targets": [
+    {
+     "id": "rainy",
+     "word": "rainy",
+     "pos": "adj.",
+     "zh": "下雨的；多雨的",
+     "en": "Having rain, either now or frequently."
+    },
+    {
+     "id": "spring",
+     "word": "spring",
+     "pos": "n.",
+     "zh": "春天；春季",
+     "en": "the season between winter and summer"
+    }
+   ]
   },
   {
    "en": "They sit in the library of her university.",
    "zh": "他们坐在她所在大学的图书馆里。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) at a long table in a large university library with tall bookshelves.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi at a long table in a large university library with tall bookshelves.",
+   "sentence_targets": [
+    {
+     "id": "university",
+     "word": "university",
+     "pos": "n.",
+     "zh": "大学",
+     "en": "an institution offering degree courses and conducting advanced research"
+    }
+   ]
   },
   {
    "en": "Sara learns the Spanish language at her college.",
    "zh": "萨拉在她的学院学习西班牙语。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) reads a textbook with a small Spanish flag on its cover.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara reads a textbook with a small Spanish flag on its cover.",
+   "sentence_targets": [
+    {
+     "id": "college",
+     "word": "college",
+     "pos": "n.",
+     "zh": "学院；高等专科学校",
+     "en": "An institution offering education beyond school, including practical or academic courses."
+    },
+    {
+     "id": "language",
+     "word": "language",
+     "pos": "n.",
+     "zh": "语言",
+     "en": "a system of words or gestures used for communication"
+    },
+    {
+     "id": "spanish",
+     "word": "Spanish",
+     "pos": "adj./n.",
+     "zh": "西班牙语",
+     "en": "the language spoken in Spain and many Latin American countries"
+    }
+   ]
   },
   {
    "en": "She must describe a photo of her home.",
    "zh": "她得描述一张她家的照片。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holds a photo of a small white house next to her open notebook, pencil in hand.",
    "draw": "partly",
-   "draw_note": "Shows Sara with a photo of her house and her notebook; the task of describing it can't be shown."
+   "draw_note": "Shows Sara with a photo of her house and her notebook; the task of describing it can't be shown.",
+   "narration": "Sara holds a photo of a small white house next to her open notebook, pencil in hand.",
+   "sentence_targets": [
+    {
+     "id": "describe",
+     "word": "describe",
+     "pos": "v.",
+     "zh": "描述；形容",
+     "en": "to explain what someone or something is like"
+    }
+   ]
   },
   {
    "en": "She writes a hundred words in her book.",
    "zh": "她在本子上写了一百个词。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) writes in a notebook filled with many lines of small wavy handwriting.",
    "draw": "partly",
-   "draw_note": "Shows Sara writing many lines in her notebook; the exact number can't be shown."
+   "draw_note": "Shows Sara writing many lines in her notebook; the exact number can't be shown.",
+   "narration": "Sara writes in a notebook filled with many lines of small wavy handwriting.",
+   "sentence_targets": [
+    {
+     "id": "write",
+     "word": "write",
+     "pos": "v.",
+     "zh": "写；书写",
+     "en": "To form words on paper or a screen."
+    },
+    {
+     "id": "book",
+     "word": "book",
+     "pos": "n./v.",
+     "zh": "书；书籍",
+     "en": "A set of pages joined together for reading"
+    },
+    {
+     "id": "hundred",
+     "word": "hundred",
+     "pos": "num.",
+     "zh": "一百",
+     "en": "the number equal to ten times ten"
+    }
+   ]
   },
   {
    "en": "Sara makes a mistake and feels angry.",
    "zh": "萨拉写错了，很生气。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) frowns angrily at a crossed-out line in her notebook.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara frowns angrily at a crossed-out line in her notebook.",
+   "sentence_targets": [
+    {
+     "id": "angry",
+     "word": "angry",
+     "pos": "adj.",
+     "zh": "生气的；愤怒的",
+     "en": "feeling strong displeasure about something unfair, wrong, or unpleasant"
+    }
+   ]
   },
   {
    "en": "Kofi gives her his eraser with a smile.",
    "zh": "科菲笑着把他的橡皮递给她。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles and hands a pink eraser to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi smiles and hands a pink eraser to Sara.",
+   "sentence_targets": [
+    {
+     "id": "eraser",
+     "word": "eraser",
+     "pos": "n.",
+     "zh": "橡皮擦",
+     "en": "A small object used to remove pencil marks."
+    }
+   ]
   },
   {
    "en": "Then he helps her with his dictionary.",
    "zh": "然后他用他的词典帮助她。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) opens a thick dictionary and shows a page to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi opens a thick dictionary and shows a page to Sara.",
+   "sentence_targets": [
+    {
+     "id": "dictionary",
+     "word": "dictionary",
+     "pos": "n.",
+     "zh": "词典；字典",
+     "en": "a resource listing words with their meanings, pronunciations, or translations"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

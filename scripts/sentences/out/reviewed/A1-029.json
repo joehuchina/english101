@@ -50,53 +50,196 @@
    "zh": "早晨的太阳从东方升起。",
    "scene_prompt": "The morning sun rises over the roofs, seen through a kitchen window.",
    "draw": "partly",
-   "draw_note": "Shows the sun rising; the direction 'east' can't be shown."
+   "draw_note": "Shows the sun rising; the direction 'east' can't be shown.",
+   "narration": "The morning sun rises over the roofs, seen through a kitchen window.",
+   "sentence_targets": [
+    {
+     "id": "east",
+     "word": "east",
+     "pos": "adj./adv./n.",
+     "zh": "东方；东部",
+     "en": "the direction where the sun rises, opposite west"
+    }
+   ]
   },
   {
    "en": "Ben changes his wet socks in the bathroom.",
    "zh": "本在卫生间换下湿袜子。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits in a small bathroom and pulls on dry socks, wet socks on the floor.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben sits in a small bathroom and pulls on dry socks, wet socks on the floor.",
+   "sentence_targets": [
+    {
+     "id": "sock",
+     "word": "sock",
+     "pos": "n.",
+     "zh": "短袜；袜子",
+     "en": "a clothing item covering the foot and lower leg"
+    },
+    {
+     "id": "bathroom",
+     "word": "bathroom",
+     "pos": "n.",
+     "zh": "浴室；卫生间",
+     "en": "A room with a bath or shower, often including a toilet."
+    },
+    {
+     "id": "change",
+     "word": "change",
+     "pos": "n./v.",
+     "zh": "改变；更换；兑换",
+     "en": "to become different, replace something, or exchange money"
+    }
+   ]
   },
   {
    "en": "Mum makes tea, her favorite morning drink.",
    "zh": "妈妈泡茶，那是她早上最喜欢的饮料。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) pours hot tea from a teapot into a cup in the kitchen, smiling.",
    "draw": "partly",
-   "draw_note": "Shows Mum making tea; that it is her favorite can't be shown."
+   "draw_note": "Shows Mum making tea; that it is her favorite can't be shown.",
+   "narration": "Anna pours hot tea from a teapot into a cup in the kitchen, smiling.",
+   "sentence_targets": [
+    {
+     "id": "favorite",
+     "word": "favorite",
+     "pos": "adj./n.",
+     "zh": "最喜欢的",
+     "en": "Liked or preferred more than others"
+    },
+    {
+     "id": "tea",
+     "word": "tea",
+     "pos": "n.",
+     "zh": "茶；茶水",
+     "en": "a drink made by putting tea leaves in hot water"
+    }
+   ]
   },
   {
    "en": "Ben gets bread and a sharp knife.",
    "zh": "本拿来面包和一把锋利的刀。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) takes a loaf of bread and a knife from the kitchen counter.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben takes a loaf of bread and a knife from the kitchen counter.",
+   "sentence_targets": [
+    {
+     "id": "knife",
+     "word": "knife",
+     "pos": "n.",
+     "zh": "刀；餐刀",
+     "en": "a tool with a handle and blade used for cutting"
+    },
+    {
+     "id": "bread",
+     "word": "bread",
+     "pos": "n.",
+     "zh": "面包",
+     "en": "a food made from flour and water, usually baked"
+    },
+    {
+     "id": "get",
+     "word": "get",
+     "pos": "v.",
+     "zh": "获得；收到",
+     "en": "To obtain or receive something."
+    }
+   ]
   },
   {
    "en": "He cuts the bread into eighteen thin pieces.",
    "zh": "他把面包切成十八片薄片。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) cuts a loaf of bread into many thin slices on a wooden board.",
    "draw": "partly",
-   "draw_note": "Shows many thin slices; the exact number can't be read."
+   "draw_note": "Shows many thin slices; the exact number can't be read.",
+   "narration": "Ben cuts a loaf of bread into many thin slices on a wooden board.",
+   "sentence_targets": [
+    {
+     "id": "bread",
+     "word": "bread",
+     "pos": "n.",
+     "zh": "面包",
+     "en": "a food made from flour and water, usually baked"
+    },
+    {
+     "id": "eighteen",
+     "word": "eighteen",
+     "pos": "num.",
+     "zh": "十八",
+     "en": "The number after seventeen and before nineteen."
+    }
+   ]
   },
   {
    "en": "Breakfast is ready, and it is time to eat.",
    "zh": "早餐准备好了，该吃饭了。",
    "scene_prompt": "A kitchen table set with bread, tea, cups and plates, ready for breakfast.",
    "draw": "partly",
-   "draw_note": "Shows a breakfast table ready; 'it is time' can't be shown."
+   "draw_note": "Shows a breakfast table ready; 'it is time' can't be shown.",
+   "narration": "A kitchen table set with bread, tea, cups and plates, ready for breakfast.",
+   "sentence_targets": [
+    {
+     "id": "time",
+     "word": "time",
+     "pos": "n./v.",
+     "zh": "时间；时刻",
+     "en": "what clocks measure, or a particular point in its passage"
+    },
+    {
+     "id": "ready",
+     "word": "ready",
+     "pos": "adj.",
+     "zh": "准备好的；可用的",
+     "en": "Prepared or available for use or action."
+    }
+   ]
   },
   {
    "en": "Ben sits down between Lily and the window.",
    "zh": "本在莉莉和窗户之间坐下。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits down at the table between Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and a sunny window.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben sits down at the table between Lily and a sunny window.",
+   "sentence_targets": [
+    {
+     "id": "between",
+     "word": "between",
+     "pos": "adv./prep.",
+     "zh": "在……之间",
+     "en": "In the space or period separating people, things, or events."
+    },
+    {
+     "id": "down",
+     "word": "down",
+     "pos": "adj./adv./prep.",
+     "zh": "向下；在下面",
+     "en": "Towards or in a lower place or position."
+    }
+   ]
   },
   {
    "en": "Lily says thanks, and they both laugh.",
    "zh": "莉莉说了声谢谢，两人都笑了。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) takes a slice of bread from Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and they laugh together at the breakfast table.",
    "draw": "partly",
-   "draw_note": "Shows Lily taking bread and both laughing; the word 'thanks' can't be shown."
+   "draw_note": "Shows Lily taking bread and both laughing; the word 'thanks' can't be shown.",
+   "narration": "Lily takes a slice of bread from Ben and they laugh together at the breakfast table.",
+   "sentence_targets": [
+    {
+     "id": "thanks",
+     "word": "thanks",
+     "pos": "int./n.",
+     "zh": "谢谢",
+     "en": "used to tell someone you are grateful"
+    },
+    {
+     "id": "laugh",
+     "word": "laugh",
+     "pos": "n./v.",
+     "zh": "笑；发笑",
+     "en": "To make sounds showing amusement or happiness."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

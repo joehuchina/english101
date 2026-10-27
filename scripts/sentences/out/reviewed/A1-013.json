@@ -43,50 +43,214 @@
    "en": "Sara and Kofi visit the art museum today.",
    "zh": "萨拉和科菲今天去参观美术馆。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) walk up the steps of a big art museum.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi walk up the steps of a big art museum.",
+   "sentence_targets": [
+    {
+     "id": "art",
+     "word": "art",
+     "pos": "n.",
+     "zh": "艺术；美术",
+     "en": "creative expression through activities such as painting, sculpture, or drawing"
+    },
+    {
+     "id": "museum",
+     "word": "museum",
+     "pos": "n.",
+     "zh": "博物馆",
+     "en": "a building displaying objects of historical, scientific, or artistic interest"
+    }
+   ]
   },
   {
    "en": "Sara is an artist with paint on her hands.",
    "zh": "萨拉是一位画家，手上沾着颜料。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) stands in a bright museum hall holding a brush, her hands covered in colourful paint.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara stands in a bright museum hall holding a brush, her hands covered in colourful paint.",
+   "sentence_targets": [
+    {
+     "id": "paint",
+     "word": "paint",
+     "pos": "n./v.",
+     "zh": "油漆；颜料",
+     "en": "a coloured substance spread on surfaces for protection or decoration"
+    },
+    {
+     "id": "artist",
+     "word": "artist",
+     "pos": "n.",
+     "zh": "艺术家；画家",
+     "en": "a person who creates paintings, sculptures, or other art"
+    }
+   ]
   },
   {
    "en": "One painting shows a tall actor on a stage.",
    "zh": "有一幅画画的是舞台上一位高个子演员。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) look at a large painting on a white museum wall; the painting shows a tall actor in a costume on a theatre stage.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi look at a large painting on a white museum wall. the painting shows a tall actor in a costume on a theatre stage.",
+   "sentence_targets": [
+    {
+     "id": "tall",
+     "word": "tall",
+     "pos": "adj.",
+     "zh": "高的；高大的",
+     "en": "having greater than average height"
+    },
+    {
+     "id": "paint",
+     "word": "paint",
+     "pos": "n./v.",
+     "zh": "油漆；颜料",
+     "en": "a coloured substance spread on surfaces for protection or decoration"
+    },
+    {
+     "id": "painting",
+     "word": "painting",
+     "pos": "n.",
+     "zh": "绘画作品；画",
+     "en": "A picture made using paint."
+    },
+    {
+     "id": "actor",
+     "word": "actor",
+     "pos": "n.",
+     "zh": "演员",
+     "en": "Someone who performs characters in plays, films, or television"
+    }
+   ]
   },
   {
    "en": "Another painting shows a band with a guitar.",
    "zh": "另一幅画画的是一支有吉他的乐队。",
    "scene_prompt": "A large painting on a white museum wall shows a small band of musicians, one playing a guitar.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A large painting on a white museum wall shows a small band of musicians, one playing a guitar.",
+   "sentence_targets": [
+    {
+     "id": "paint",
+     "word": "paint",
+     "pos": "n./v.",
+     "zh": "油漆；颜料",
+     "en": "a coloured substance spread on surfaces for protection or decoration"
+    },
+    {
+     "id": "painting",
+     "word": "painting",
+     "pos": "n.",
+     "zh": "绘画作品；画",
+     "en": "A picture made using paint."
+    },
+    {
+     "id": "guitar",
+     "word": "guitar",
+     "pos": "n.",
+     "zh": "吉他",
+     "en": "A stringed musical instrument played by plucking or strumming."
+    },
+    {
+     "id": "band",
+     "word": "band",
+     "pos": "n.",
+     "zh": "乐队",
+     "en": "A group of musicians who perform together."
+    }
+   ]
   },
   {
    "en": "Next to it, a man plays piano music.",
    "zh": "在它旁边，一个男人在弹钢琴曲。",
    "scene_prompt": "A man plays a grand piano in a bright museum hall next to paintings.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A man plays a grand piano in a bright museum hall next to paintings.",
+   "sentence_targets": [
+    {
+     "id": "music",
+     "word": "music",
+     "pos": "n.",
+     "zh": "音乐；乐曲",
+     "en": "Sounds arranged with rhythm or melody for people to enjoy"
+    },
+    {
+     "id": "piano",
+     "word": "piano",
+     "pos": "n.",
+     "zh": "钢琴",
+     "en": "A large musical instrument played by pressing black and white keys."
+    }
+   ]
   },
   {
    "en": "Kofi also takes a photograph of the piano player.",
    "zh": "科菲还给弹钢琴的人拍了一张照片。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) holds up a camera toward a man at a grand piano.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi holds up a camera toward a man at a grand piano.",
+   "sentence_targets": [
+    {
+     "id": "also",
+     "word": "also",
+     "pos": "adv.",
+     "zh": "也；而且",
+     "en": "in addition to something already mentioned"
+    },
+    {
+     "id": "piano",
+     "word": "piano",
+     "pos": "n.",
+     "zh": "钢琴",
+     "en": "A large musical instrument played by pressing black and white keys."
+    },
+    {
+     "id": "photograph",
+     "word": "photograph",
+     "pos": "n./v.",
+     "zh": "照片；相片",
+     "en": "a picture made using a camera"
+    }
+   ]
   },
   {
    "en": "Sara draws a picture in her small book.",
    "zh": "萨拉在她的小本子上画了一幅画。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sits on a museum bench and sketches the piano player in a small sketchbook.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara sits on a museum bench and sketches the piano player in a small sketchbook.",
+   "sentence_targets": [
+    {
+     "id": "picture",
+     "word": "picture",
+     "pos": "n./v.",
+     "zh": "图片；图画；照片",
+     "en": "an image made by drawing, painting, or taking a photograph"
+    }
+   ]
   },
   {
    "en": "Art is the reason for Sara's big smile.",
    "zh": "艺术就是萨拉笑得这么开心的原因。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) smiles widely in front of colourful paintings while Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles at her.",
    "draw": "partly",
-   "draw_note": "Shows Sara beaming in front of the paintings; the idea of 'reason' can't be drawn."
+   "draw_note": "Shows Sara beaming in front of the paintings; the idea of 'reason' can't be drawn.",
+   "narration": "Sara smiles widely in front of colourful paintings while Kofi smiles at her.",
+   "sentence_targets": [
+    {
+     "id": "art",
+     "word": "art",
+     "pos": "n.",
+     "zh": "艺术；美术",
+     "en": "creative expression through activities such as painting, sculpture, or drawing"
+    },
+    {
+     "id": "reason",
+     "word": "reason",
+     "pos": "n./v.",
+     "zh": "原因；理由",
+     "en": "Something that explains why something happens or someone acts."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

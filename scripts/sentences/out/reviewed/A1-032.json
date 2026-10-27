@@ -44,53 +44,195 @@
    "en": "Sara and Kofi look at a big world map.",
    "zh": "萨拉和科菲看着一张大大的世界地图。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) stand in front of a large world map with no writing on the living room wall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi stand in front of a large world map with no writing on the living room wall.",
+   "sentence_targets": []
   },
   {
    "en": "Sara wants to visit Germany in Europe.",
    "zh": "萨拉想去欧洲的德国游玩。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) points at Germany in Europe on the world map, smiling.",
    "draw": "partly",
-   "draw_note": "Shows Sara pointing at Germany on the map; 'wants to visit' can't be shown."
+   "draw_note": "Shows Sara pointing at Germany on the map; 'wants to visit' can't be shown.",
+   "narration": "Sara points at Germany in Europe on the world map, smiling.",
+   "sentence_targets": [
+    {
+     "id": "europe",
+     "word": "Europe",
+     "pos": "n.",
+     "zh": "欧洲",
+     "en": "the continent west of Asia and north of Africa"
+    },
+    {
+     "id": "germany",
+     "word": "Germany",
+     "pos": "n.",
+     "zh": "德国",
+     "en": "a country in central Europe"
+    },
+    {
+     "id": "visit",
+     "word": "visit",
+     "pos": "n./v.",
+     "zh": "拜访；参观；游览",
+     "en": "To go to see a person or place."
+    }
+   ]
   },
   {
    "en": "Kofi shakes his head: Australia is very far.",
    "zh": "科菲摇摇头：澳大利亚太远了。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) shakes his head and points at Australia at the bottom of the map.",
    "draw": "partly",
-   "draw_note": "Shows Kofi shaking his head at Australia on the map; 'very far' is only hinted."
+   "draw_note": "Shows Kofi shaking his head at Australia on the map; 'very far' is only hinted.",
+   "narration": "Kofi shakes his head and points at Australia at the bottom of the map.",
+   "sentence_targets": [
+    {
+     "id": "head",
+     "word": "head",
+     "pos": "n./v.",
+     "zh": "头；头部",
+     "en": "the body part containing the brain, eyes, and mouth"
+    },
+    {
+     "id": "far",
+     "word": "far",
+     "pos": "adj./adv.",
+     "zh": "远；遥远地",
+     "en": "At, to, or over a great distance."
+    },
+    {
+     "id": "australia",
+     "word": "Australia",
+     "pos": "n.",
+     "zh": "澳大利亚",
+     "en": "a country occupying a continent between the Indian and Pacific Oceans"
+    }
+   ]
   },
   {
    "en": "Mexico is to the south of America.",
    "zh": "墨西哥在美国的南边。",
    "scene_prompt": "The finger of Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) moves down the map from the United States to Mexico.",
    "draw": "partly",
-   "draw_note": "Shows a finger moving down the map; country names can't be read."
+   "draw_note": "Shows a finger moving down the map; country names can't be read.",
+   "narration": "The finger of Kofi moves down the map from the United States to Mexico.",
+   "sentence_targets": [
+    {
+     "id": "mexico",
+     "word": "Mexico",
+     "pos": "n.",
+     "zh": "墨西哥",
+     "en": "A country in North America, south of the United States."
+    },
+    {
+     "id": "south",
+     "word": "south",
+     "pos": "adj./adv./n.",
+     "zh": "南；南方",
+     "en": "the direction opposite north"
+    },
+    {
+     "id": "america",
+     "word": "America",
+     "pos": "n.",
+     "zh": "美国",
+     "en": "the United States of America"
+    }
+   ]
   },
   {
    "en": "Sara moves her finger from Canada to Asia.",
    "zh": "萨拉的手指从加拿大移到亚洲。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) moves her finger across the world map from Canada to Asia.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara moves her finger across the world map from Canada to Asia.",
+   "sentence_targets": [
+    {
+     "id": "asia",
+     "word": "Asia",
+     "pos": "n.",
+     "zh": "亚洲",
+     "en": "The world's largest continent, lying mainly east of Europe."
+    },
+    {
+     "id": "canada",
+     "word": "Canada",
+     "pos": "n.",
+     "zh": "加拿大",
+     "en": "a country in North America, north of the United States"
+    }
+   ]
   },
   {
    "en": "In Germany, trains leave from a big station.",
    "zh": "在德国，火车从一个大车站出发。",
    "scene_prompt": "A fast train leaves a big busy station with a glass roof, a small German flag hanging on a pillar.",
    "draw": "partly",
-   "draw_note": "Shows a train leaving a big station; that it is in Germany is only hinted by the flag."
+   "draw_note": "Shows a train leaving a big station; that it is in Germany is only hinted by the flag.",
+   "narration": "A fast train leaves a big busy station with a glass roof, a small German flag hanging on a pillar.",
+   "sentence_targets": [
+    {
+     "id": "station",
+     "word": "station",
+     "pos": "n./v.",
+     "zh": "车站",
+     "en": "A place where trains or buses stop for passengers."
+    },
+    {
+     "id": "germany",
+     "word": "Germany",
+     "pos": "n.",
+     "zh": "德国",
+     "en": "a country in central Europe"
+    },
+    {
+     "id": "train",
+     "word": "train",
+     "pos": "n./v.",
+     "zh": "火车；列车",
+     "en": "Connected railway vehicles that carry passengers or goods."
+    }
+   ]
   },
   {
    "en": "Kofi puts his bicycle in a big box.",
    "zh": "科菲把他的自行车放进一个大箱子里。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) puts his bicycle into a big cardboard box in the living room, Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holding the box open.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi puts his bicycle into a big cardboard box in the living room, Sara holding the box open.",
+   "sentence_targets": [
+    {
+     "id": "bicycle",
+     "word": "bicycle",
+     "pos": "n./v.",
+     "zh": "自行车",
+     "en": "a two-wheeled vehicle moved by pushing pedals"
+    }
+   ]
   },
   {
    "en": "Then they drive their car to the airport.",
    "zh": "然后他们开车去机场。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) drive their car along a road toward an airport, a plane in the sky above.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara and Kofi drive their car along a road toward an airport, a plane in the sky above.",
+   "sentence_targets": [
+    {
+     "id": "airport",
+     "word": "airport",
+     "pos": "n.",
+     "zh": "机场",
+     "en": "A place where planes take off, land, and collect passengers"
+    },
+    {
+     "id": "car",
+     "word": "car",
+     "pos": "n.",
+     "zh": "汽车；轿车",
+     "en": "a road vehicle with wheels, usually carrying a few people"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

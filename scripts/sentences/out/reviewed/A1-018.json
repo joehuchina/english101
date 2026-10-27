@@ -45,51 +45,194 @@
    "zh": "二月里，米娅和本去逛一家书店。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), in a winter coat, and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), in a winter coat and a yellow woolly hat, walk into a small bright bookshop, snowy street behind them.",
    "draw": "partly",
-   "draw_note": "Shows a winter visit to a bookshop; the month can't be shown."
+   "draw_note": "Shows a winter visit to a bookshop; the month can't be shown.",
+   "narration": "Mia, in a winter coat, and Ben, in a winter coat and a yellow woolly hat, walk into a small bright bookshop, snowy street behind them.",
+   "sentence_targets": [
+    {
+     "id": "february",
+     "word": "February",
+     "pos": "n.",
+     "zh": "二月",
+     "en": "The second month of the year."
+    },
+    {
+     "id": "bookshop",
+     "word": "bookshop",
+     "pos": "n.",
+     "zh": "书店",
+     "en": "a shop where books are sold"
+    }
+   ]
   },
   {
    "en": "Mia buys a blue book about birds there.",
    "zh": "米娅在那里买了一本讲鸟的蓝色书。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) holds up a blue book with a bird on the cover at the bookshop counter.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia holds up a blue book with a bird on the cover at the bookshop counter.",
+   "sentence_targets": [
+    {
+     "id": "there",
+     "word": "there",
+     "pos": "adv./pron.",
+     "zh": "在那里；往那里",
+     "en": "In, at, or towards that place."
+    },
+    {
+     "id": "blue",
+     "word": "blue",
+     "pos": "adj./n.",
+     "zh": "蓝色的",
+     "en": "having the colour of a clear daytime sky"
+    }
+   ]
   },
   {
    "en": "Then they eat egg sandwiches and hot chips.",
    "zh": "然后他们吃鸡蛋三明治和热薯条。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), with a yellow woolly hat, sit at a little table in the bookshop cafe with egg sandwiches and a bowl of hot chips.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia and Ben, with a yellow woolly hat, sit at a little table in the bookshop cafe with egg sandwiches and a bowl of hot chips.",
+   "sentence_targets": [
+    {
+     "id": "chips",
+     "word": "chips",
+     "pos": "n.",
+     "zh": "炸薯条（英）；薯片（美）",
+     "en": "fried potato strips in British English; thin slices in American English"
+    },
+    {
+     "id": "hot",
+     "word": "hot",
+     "pos": "adj.",
+     "zh": "热的；温度高的",
+     "en": "Having a high temperature."
+    },
+    {
+     "id": "egg",
+     "word": "egg",
+     "pos": "n.",
+     "zh": "蛋；卵",
+     "en": "a rounded object laid by female birds and some other animals"
+    }
+   ]
   },
   {
    "en": "Ben drops his plate, and it breaks.",
    "zh": "本把盘子掉在地上，盘子摔碎了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks shocked as his plate falls and breaks into pieces on the cafe floor.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben looks shocked as his plate falls and breaks into pieces on the cafe floor.",
+   "sentence_targets": [
+    {
+     "id": "break",
+     "word": "break",
+     "pos": "n./v.",
+     "zh": "打破；折断；破裂",
+     "en": "To separate into pieces or damage something so it stops working."
+    }
+   ]
   },
   {
    "en": "He feels bad, and his face goes red.",
    "zh": "他觉得很过意不去，脸都红了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stands with a red, embarrassed face next to the broken plate.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben stands with a red, embarrassed face next to the broken plate.",
+   "sentence_targets": [
+    {
+     "id": "face",
+     "word": "face",
+     "pos": "n./v.",
+     "zh": "脸；面部",
+     "en": "The front of the head, including eyes, nose, and mouth."
+    },
+    {
+     "id": "feel",
+     "word": "feel",
+     "pos": "n./v.",
+     "zh": "感到；觉得",
+     "en": "Experience an emotion, physical sensation, or personal belief."
+    }
+   ]
   },
   {
    "en": "Mia finds Ben's hat below the table.",
    "zh": "米娅在桌子下面找到了本的帽子。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) bends down and picks up a yellow woolly hat from under the cafe table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia bends down and picks up a yellow woolly hat from under the cafe table.",
+   "sentence_targets": [
+    {
+     "id": "hat",
+     "word": "hat",
+     "pos": "n.",
+     "zh": "帽子",
+     "en": "a covering worn on the head for protection or decoration"
+    },
+    {
+     "id": "below",
+     "word": "below",
+     "pos": "adv./prep.",
+     "zh": "在……下方；低于",
+     "en": "At a lower position, level, or amount than something."
+    }
+   ]
   },
   {
    "en": "\"Do not lose your hat,\" she tells him.",
    "zh": "“别把你的帽子弄丢了。”她对他说。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) hands the yellow woolly hat back to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), wagging a finger kindly.",
    "draw": "partly",
-   "draw_note": "Shows Mia giving Ben his hat with a warning finger; the spoken words can only be guessed."
+   "draw_note": "Shows Mia giving Ben his hat with a warning finger; the spoken words can only be guessed.",
+   "narration": "Mia hands the yellow woolly hat back to Ben, wagging a finger kindly.",
+   "sentence_targets": [
+    {
+     "id": "hat",
+     "word": "hat",
+     "pos": "n.",
+     "zh": "帽子",
+     "en": "a covering worn on the head for protection or decoration"
+    },
+    {
+     "id": "tell",
+     "word": "tell",
+     "pos": "v.",
+     "zh": "告诉；讲述",
+     "en": "Give someone information or describe something in words."
+    },
+    {
+     "id": "lose",
+     "word": "lose",
+     "pos": "v.",
+     "zh": "丢失；遗失",
+     "en": "to become unable to find something you had"
+    },
+    {
+     "id": "your",
+     "word": "your",
+     "pos": "det.",
+     "zh": "你的；你们的",
+     "en": "Belonging or relating to the person or people being addressed"
+    }
+   ]
   },
   {
    "en": "Tonight, they will read the new book together.",
    "zh": "今晚，他们要一起读这本新书。",
    "scene_prompt": "At night, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sit on a sofa under a lamp reading the blue book with a bird on the cover.",
    "draw": "partly",
-   "draw_note": "Shows them reading the book together at night; the future 'will' can't be shown."
+   "draw_note": "Shows them reading the book together at night; the future 'will' can't be shown.",
+   "narration": "At night, Mia and Ben sit on a sofa under a lamp reading the blue book with a bird on the cover.",
+   "sentence_targets": [
+    {
+     "id": "tonight",
+     "word": "tonight",
+     "pos": "adv./n.",
+     "zh": "在今晚",
+     "en": "during the evening or night of today"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

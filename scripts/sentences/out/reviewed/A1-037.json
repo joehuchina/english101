@@ -48,50 +48,186 @@
    "en": "Ben, Mia and Leo choose a sport together.",
    "zh": "本、米娅和里奥一起挑选一项运动。",
    "scene_prompt": "In a sunny park, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stand around a pile of a football, a basketball and tennis rackets, each pointing at a different one.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "In a sunny park, Ben, Mia and Leo stand around a pile of a football, a basketball and tennis rackets, each pointing at a different one.",
+   "sentence_targets": [
+    {
+     "id": "sport",
+     "word": "sport",
+     "pos": "n./v.",
+     "zh": "体育运动",
+     "en": "Physical activities involving skill, effort, and often competition"
+    },
+    {
+     "id": "choose",
+     "word": "choose",
+     "pos": "v.",
+     "zh": "选择；挑选",
+     "en": "to decide which person or thing you want"
+    }
+   ]
   },
   {
    "en": "Leo is a fast football player.",
    "zh": "里奥是个跑得很快的足球运动员。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) runs fast and kicks a football across the green grass of the park.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo runs fast and kicks a football across the green grass of the park.",
+   "sentence_targets": [
+    {
+     "id": "football",
+     "word": "football",
+     "pos": "n.",
+     "zh": "足球；足球运动",
+     "en": "a game where teams kick a ball into opposing goals"
+    },
+    {
+     "id": "player",
+     "word": "player",
+     "pos": "n.",
+     "zh": "运动员；比赛参加者",
+     "en": "someone who takes part in a sport or game"
+    }
+   ]
   },
   {
    "en": "Mia throws a ball for a basketball game.",
    "zh": "米娅在篮球比赛中投球。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) throws a basketball toward a hoop in the park while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) tries to block her.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia throws a basketball toward a hoop in the park while Ben tries to block her.",
+   "sentence_targets": [
+    {
+     "id": "basketball",
+     "word": "basketball",
+     "pos": "n.",
+     "zh": "篮球运动",
+     "en": "a game where teams throw a ball through raised hoops"
+    },
+    {
+     "id": "ball",
+     "word": "ball",
+     "pos": "n.",
+     "zh": "球；球状物",
+     "en": "A round object used in games or shaped like one."
+    },
+    {
+     "id": "game",
+     "word": "game",
+     "pos": "adj./n.",
+     "zh": "游戏；比赛",
+     "en": "an activity or contest played according to rules"
+    }
+   ]
   },
   {
    "en": "Ben thinks a tennis match is too long.",
    "zh": "本觉得网球比赛太长了。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on a bench beside a tennis court and yawns while two players hit a ball back and forth.",
    "draw": "partly",
-   "draw_note": "Shows Ben yawning while he watches a tennis match; his opinion that it is too long can only be guessed."
+   "draw_note": "Shows Ben yawning while he watches a tennis match; his opinion that it is too long can only be guessed.",
+   "narration": "Ben sits on a bench beside a tennis court and yawns while two players hit a ball back and forth.",
+   "sentence_targets": [
+    {
+     "id": "think",
+     "word": "think",
+     "pos": "v.",
+     "zh": "认为；觉得",
+     "en": "To have an opinion or belief about something."
+    },
+    {
+     "id": "tennis",
+     "word": "tennis",
+     "pos": "n.",
+     "zh": "网球运动",
+     "en": "a sport involving hitting a ball over a net with rackets"
+    },
+    {
+     "id": "match",
+     "word": "match",
+     "pos": "n./v.",
+     "zh": "比赛",
+     "en": "a sports contest between two people or teams"
+    }
+   ]
   },
   {
    "en": "Then they climb a hill to a lake.",
    "zh": "然后他们爬上小山，来到一个湖边。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) climb a steep green hill, with a blue lake shining just over the top.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, Mia and Leo climb a steep green hill, with a blue lake shining just over the top.",
+   "sentence_targets": [
+    {
+     "id": "climb",
+     "word": "climb",
+     "pos": "n./v.",
+     "zh": "攀登；爬",
+     "en": "to move upwards using your feet and often your hands"
+    }
+   ]
   },
   {
    "en": "Ben takes off his blue jacket to swim.",
    "zh": "本脱下蓝色夹克去游泳。",
    "scene_prompt": "At the edge of the lake, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), wearing an open blue jacket over his T-shirt, pulls the jacket off, ready to jump into the water.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "At the edge of the lake, Ben, wearing an open blue jacket over his T-shirt, pulls the jacket off, ready to jump into the water.",
+   "sentence_targets": [
+    {
+     "id": "jacket",
+     "word": "jacket",
+     "pos": "n.",
+     "zh": "夹克；短外套",
+     "en": "A short coat covering the upper body and arms."
+    },
+    {
+     "id": "swim",
+     "word": "swim",
+     "pos": "n./v.",
+     "zh": "游泳；游过",
+     "en": "To move through water using your body."
+    }
+   ]
   },
   {
    "en": "Swimming is fun on a hot day.",
    "zh": "炎热的日子里游泳很有趣。",
    "scene_prompt": "Under a bright hot sun, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie), now in swimsuits, swim and splash in the lake, laughing.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Under a bright hot sun, Ben, Mia and Leo, now in swimsuits, swim and splash in the lake, laughing.",
+   "sentence_targets": [
+    {
+     "id": "swim",
+     "word": "swim",
+     "pos": "n./v.",
+     "zh": "游泳；游过",
+     "en": "To move through water using your body."
+    },
+    {
+     "id": "swimming",
+     "word": "swimming",
+     "pos": "n.",
+     "zh": "游泳",
+     "en": "The activity of moving through water using your body."
+    }
+   ]
   },
   {
    "en": "Mia is the fastest and wins the race.",
    "zh": "米娅游得最快，赢得了比赛。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), now in a swimsuit, reaches a big rock in the lake first and raises her arm, while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) swim behind her.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia, now in a swimsuit, reaches a big rock in the lake first and raises her arm, while Ben and Leo swim behind her.",
+   "sentence_targets": [
+    {
+     "id": "win",
+     "word": "win",
+     "pos": "n./v.",
+     "zh": "获胜；赢得",
+     "en": "To succeed in a competition or receive a prize."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -44,52 +44,181 @@
    "zh": "这个十二月的星期三是里奥的生日。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) wakes up smiling; snow falls outside his bedroom window.",
    "draw": "partly",
-   "draw_note": "Shows a happy winter morning; the day and month are not shown."
+   "draw_note": "Shows a happy winter morning; the day and month are not shown.",
+   "narration": "Leo wakes up smiling. snow falls outside his bedroom window.",
+   "sentence_targets": [
+    {
+     "id": "wednesday",
+     "word": "Wednesday",
+     "pos": "n.",
+     "zh": "星期三",
+     "en": "the day after Tuesday and before Thursday"
+    },
+    {
+     "id": "december",
+     "word": "December",
+     "pos": "n.",
+     "zh": "十二月",
+     "en": "the final month of the year, following November"
+    }
+   ]
   },
   {
    "en": "He is sixteen today and almost two metres tall.",
    "zh": "他今天十六岁，个子将近两米。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stands next to a door frame; his head almost touches the top.",
    "draw": "partly",
-   "draw_note": "Shows how tall Leo is; his age and the exact height are not shown."
+   "draw_note": "Shows how tall Leo is; his age and the exact height are not shown.",
+   "narration": "Leo stands next to a door frame. his head almost touches the top.",
+   "sentence_targets": [
+    {
+     "id": "sixteen",
+     "word": "sixteen",
+     "pos": "num.",
+     "zh": "十六",
+     "en": "the number after fifteen and before seventeen"
+    },
+    {
+     "id": "metre",
+     "word": "metre",
+     "pos": "n.",
+     "zh": "米；公尺",
+     "en": "A unit of length equal to one hundred centimetres."
+    }
+   ]
   },
   {
    "en": "Every week, he cooks breakfast at seven a.m.",
    "zh": "他每个星期都在早上七点做早饭。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) cooks eggs at the stove in the early morning light.",
    "draw": "partly",
-   "draw_note": "Shows Leo cooking breakfast; 'every week' and the time are not shown."
+   "draw_note": "Shows Leo cooking breakfast; 'every week' and the time are not shown.",
+   "narration": "Leo cooks eggs at the stove in the early morning light.",
+   "sentence_targets": [
+    {
+     "id": "week",
+     "word": "week",
+     "pos": "n.",
+     "zh": "周；星期",
+     "en": "a period of seven days"
+    },
+    {
+     "id": "a-m",
+     "word": "a.m.",
+     "pos": "adv.",
+     "zh": "午夜后至中午前",
+     "en": "During the time from midnight until just before midday."
+    }
+   ]
   },
   {
    "en": "His new cooking pot is very useful.",
    "zh": "他的新锅非常好用。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stirs porridge in a shiny new cooking pot.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo stirs porridge in a shiny new cooking pot.",
+   "sentence_targets": [
+    {
+     "id": "new",
+     "word": "new",
+     "pos": "adj.",
+     "zh": "新的；新近出现的",
+     "en": "Recently made, discovered, introduced, or begun."
+    },
+    {
+     "id": "cooking",
+     "word": "cooking",
+     "pos": "adj./n.",
+     "zh": "烹饪；烹调",
+     "en": "The activity of preparing food by heating it."
+    },
+    {
+     "id": "useful",
+     "word": "useful",
+     "pos": "adj.",
+     "zh": "有用的；有帮助的",
+     "en": "Helping you do something or achieve a purpose"
+    }
+   ]
   },
   {
    "en": "He puts strawberries on the family table.",
    "zh": "他把草莓放到家里的餐桌上。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) puts a bowl of red strawberries on a long kitchen table set for the family.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo puts a bowl of red strawberries on a long kitchen table set for the family.",
+   "sentence_targets": [
+    {
+     "id": "strawberry",
+     "word": "strawberry",
+     "pos": "n.",
+     "zh": "草莓",
+     "en": "a soft red fruit with tiny seeds on its surface"
+    },
+    {
+     "id": "family",
+     "word": "family",
+     "pos": "n.",
+     "zh": "家庭；家人；亲属",
+     "en": "a group of people related to one another"
+    },
+    {
+     "id": "table",
+     "word": "table",
+     "pos": "n.",
+     "zh": "桌子",
+     "en": "a piece of furniture with a flat top and legs"
+    }
+   ]
   },
   {
    "en": "Then poor Leo hits his head on the door.",
    "zh": "接着，可怜的里奥一头撞在了门上。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) rubs his head after bumping it on the top of a low door frame.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Leo rubs his head after bumping it on the top of a low door frame.",
+   "sentence_targets": [
+    {
+     "id": "poor",
+     "word": "poor",
+     "pos": "adj.",
+     "zh": "贫穷的",
+     "en": "Having very little money or few possessions"
+    }
+   ]
   },
   {
    "en": "His sister Mia, a kind girl, hugs him.",
    "zh": "他的妹妹米娅是个善良的女孩，她抱了抱他。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) hugs Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) in the kitchen and laughs.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia hugs Leo in the kitchen and laughs.",
+   "sentence_targets": [
+    {
+     "id": "girl",
+     "word": "girl",
+     "pos": "n.",
+     "zh": "女孩；姑娘",
+     "en": "A female child or young woman"
+    }
+   ]
   },
   {
    "en": "Next year, he wants seventeen candles on his cake.",
    "zh": "明年，他想要蛋糕上插十七根蜡烛。",
    "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) look at a birthday cake covered in lit candles.",
    "draw": "partly",
-   "draw_note": "Shows a cake with many candles; 'next year' and the number are not shown."
+   "draw_note": "Shows a cake with many candles; 'next year' and the number are not shown.",
+   "narration": "Leo and Mia look at a birthday cake covered in lit candles.",
+   "sentence_targets": [
+    {
+     "id": "seventeen",
+     "word": "seventeen",
+     "pos": "num.",
+     "zh": "十七",
+     "en": "The number after sixteen and before eighteen."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

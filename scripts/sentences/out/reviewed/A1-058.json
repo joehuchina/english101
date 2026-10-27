@@ -43,52 +43,188 @@
    "en": "Lily is at home with her grandmother.",
    "zh": "莉莉和奶奶在家里。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) sit together on a sofa in a cosy living room.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily and Grandma Rosa sit together on a sofa in a cosy living room.",
+   "sentence_targets": [
+    {
+     "id": "home",
+     "word": "home",
+     "pos": "adj./adv./n.",
+     "zh": "家；住所；家乡",
+     "en": "The place where someone lives or feels they belong."
+    },
+    {
+     "id": "grandmother",
+     "word": "grandmother",
+     "pos": "n.",
+     "zh": "祖母；外祖母",
+     "en": "The mother of your father or mother."
+    }
+   ]
   },
   {
    "en": "A calendar with flowers is on the wall.",
    "zh": "墙上挂着一本印着花的日历。",
    "scene_prompt": "A calendar of plain empty squares decorated with flower pictures hangs on a living room wall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A calendar of plain empty squares decorated with flower pictures hangs on a living room wall.",
+   "sentence_targets": [
+    {
+     "id": "flower",
+     "word": "flower",
+     "pos": "n./v.",
+     "zh": "花；开花植物",
+     "en": "The often colourful part of a plant that produces seeds."
+    },
+    {
+     "id": "wall",
+     "word": "wall",
+     "pos": "n./v.",
+     "zh": "墙；围墙",
+     "en": "An upright structure enclosing, dividing, or supporting a space."
+    }
+   ]
   },
   {
    "en": "Lily draws a red circle around a date.",
    "zh": "莉莉在一个日期上画了个红圈。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) draws a red circle around one plain square on the flower calendar, Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) watching.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily draws a red circle around one plain square on the flower calendar, Grandma Rosa watching.",
+   "sentence_targets": [
+    {
+     "id": "date",
+     "word": "date",
+     "pos": "n./v.",
+     "zh": "日期",
+     "en": "A particular day of a month or year."
+    }
+   ]
   },
   {
    "en": "The student needs new pants for her next trip.",
    "zh": "这个学生下次出游需要新裤子。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) holds up old pants against her legs that are far too short for her, looking at Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick).",
    "draw": "partly",
-   "draw_note": "Shows Lily holding up pants that are too small; the next school trip can't be shown."
+   "draw_note": "Shows Lily holding up pants that are too small; the next school trip can't be shown.",
+   "narration": "Lily holds up old pants against her legs that are far too short for her, looking at Grandma Rosa.",
+   "sentence_targets": [
+    {
+     "id": "student",
+     "word": "student",
+     "pos": "n.",
+     "zh": "学生",
+     "en": "a person who studies at a school, college, or university"
+    },
+    {
+     "id": "pants",
+     "word": "pants",
+     "pos": "n.",
+     "zh": "裤子（美式）",
+     "en": "Clothing covering the legs separately, from the waist down."
+    },
+    {
+     "id": "next",
+     "word": "next",
+     "pos": "adj./adv.",
+     "zh": "下一个的；紧接着的",
+     "en": "coming immediately after the present one"
+    }
+   ]
   },
   {
    "en": "Grandma has some new pants on her arm.",
    "zh": "奶奶手臂上搭着几条新裤子。",
    "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) holds a pair of blue pants and a pair of green pants over her arm.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Grandma Rosa holds a pair of blue pants and a pair of green pants over her arm.",
+   "sentence_targets": [
+    {
+     "id": "pants",
+     "word": "pants",
+     "pos": "n.",
+     "zh": "裤子（美式）",
+     "en": "Clothing covering the legs separately, from the waist down."
+    },
+    {
+     "id": "some",
+     "word": "some",
+     "pos": "adv./det./pron.",
+     "zh": "一些；若干",
+     "en": "An unspecified amount or number of something."
+    },
+    {
+     "id": "arm",
+     "word": "arm",
+     "pos": "n./v.",
+     "zh": "手臂",
+     "en": "The body part connecting your shoulder to your hand."
+    }
+   ]
   },
   {
    "en": "Lily cannot decide which pair she likes more.",
    "zh": "莉莉拿不定主意更喜欢哪一条。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) looks back and forth between the blue pants and the green pants, a finger on her chin.",
    "draw": "partly",
-   "draw_note": "Shows Lily looking from one pair to the other; her choice and 'more' can only be guessed."
+   "draw_note": "Shows Lily looking from one pair to the other; her choice and 'more' can only be guessed.",
+   "narration": "Lily looks back and forth between the blue pants and the green pants, a finger on her chin.",
+   "sentence_targets": [
+    {
+     "id": "more",
+     "word": "more",
+     "pos": "adv./det./pron.",
+     "zh": "更多的；额外的",
+     "en": "A greater or additional amount or number of something."
+    },
+    {
+     "id": "which",
+     "word": "which",
+     "pos": "det./pron.",
+     "zh": "哪一个；哪些",
+     "en": "Used before a noun to ask about a limited choice."
+    }
+   ]
   },
   {
    "en": "She goes to the toilet to try them on.",
    "zh": "她走进洗手间去试穿这两条裤子。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) carries the blue pants into a small bathroom with a toilet.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily carries the blue pants into a small bathroom with a toilet.",
+   "sentence_targets": [
+    {
+     "id": "toilet",
+     "word": "toilet",
+     "pos": "n.",
+     "zh": "马桶；便器",
+     "en": "a bowl-shaped fixture used for getting rid of bodily waste"
+    }
+   ]
   },
   {
    "en": "They are very long, but Grandma finds a way.",
    "zh": "裤子太长了，但奶奶想到了办法。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wears blue pants that cover her feet while Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) kneels and rolls up the legs.",
    "draw": "partly",
-   "draw_note": "Shows Grandma rolling up the too-long pants; 'finds a way' is shown only through her action."
+   "draw_note": "Shows Grandma rolling up the too-long pants; 'finds a way' is shown only through her action.",
+   "narration": "Lily wears blue pants that cover her feet while Grandma Rosa kneels and rolls up the legs.",
+   "sentence_targets": [
+    {
+     "id": "very",
+     "word": "very",
+     "pos": "adj./adv.",
+     "zh": "很；非常",
+     "en": "Used to make an adjective or adverb stronger."
+    },
+    {
+     "id": "way",
+     "word": "way",
+     "pos": "adv./n.",
+     "zh": "方法；方式",
+     "en": "A method of doing something."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

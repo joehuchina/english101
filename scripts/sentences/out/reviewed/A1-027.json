@@ -45,52 +45,202 @@
    "zh": "星期五晚上，本煮米饭当晚餐。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stirs a pot of rice on the stove, the kitchen window dark with evening sky.",
    "draw": "partly",
-   "draw_note": "Shows Ben cooking rice in the evening; the day (Friday) can't be shown."
+   "draw_note": "Shows Ben cooking rice in the evening; the day (Friday) can't be shown.",
+   "narration": "Ben stirs a pot of rice on the stove, the kitchen window dark with evening sky.",
+   "sentence_targets": [
+    {
+     "id": "friday",
+     "word": "Friday",
+     "pos": "n.",
+     "zh": "星期五",
+     "en": "the day after Thursday and before Saturday"
+    },
+    {
+     "id": "rice",
+     "word": "rice",
+     "pos": "n.",
+     "zh": "大米；米饭；稻",
+     "en": "A cereal plant whose grains are cooked and eaten."
+    }
+   ]
   },
   {
    "en": "He spills some water on the clean floor.",
    "zh": "他把一些水洒在了干净的地板上。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks surprised as water splashes from a jug onto a shiny clean kitchen floor.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben looks surprised as water splashes from a jug onto a shiny clean kitchen floor.",
+   "sentence_targets": [
+    {
+     "id": "clean",
+     "word": "clean",
+     "pos": "adj./v.",
+     "zh": "干净的；清洁的",
+     "en": "Free from dirt, marks, or unwanted substances."
+    },
+    {
+     "id": "water",
+     "word": "water",
+     "pos": "n./v.",
+     "zh": "水",
+     "en": "The clear liquid people drink and plants need to grow."
+    }
+   ]
   },
   {
    "en": "Ben is sorry, but Dad just smiles.",
    "zh": "本很抱歉，但爸爸只是笑了笑。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks sorry with his hands together while his dad Dan (a tall man of about forty with a short brown beard and a navy jumper) smiles kindly and holds a mop.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben looks sorry with his hands together while his dad Dan smiles kindly and holds a mop.",
+   "sentence_targets": [
+    {
+     "id": "sorry",
+     "word": "sorry",
+     "pos": "adj.",
+     "zh": "抱歉的；后悔的",
+     "en": "feeling regret about something you did or something that happened"
+    }
+   ]
   },
   {
    "en": "After dinner, Dad washes the baby's feet.",
    "zh": "晚饭后，爸爸给宝宝洗脚。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) gently washes the little feet of a chubby baby in a white onesie in a small bowl of water, empty dinner plates on the table behind.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan gently washes the little feet of a chubby baby in a white onesie in a small bowl of water, empty dinner plates on the table behind.",
+   "sentence_targets": [
+    {
+     "id": "feet",
+     "word": "feet",
+     "pos": "n.",
+     "zh": "脚（foot的复数）",
+     "en": "the body parts at the ends of the legs"
+    },
+    {
+     "id": "wash",
+     "word": "wash",
+     "pos": "n./v.",
+     "zh": "洗；清洗",
+     "en": "To clean something using water, often with soap."
+    },
+    {
+     "id": "baby",
+     "word": "baby",
+     "pos": "adj./n./v.",
+     "zh": "婴儿；幼崽",
+     "en": "a very young child or animal"
+    }
+   ]
   },
   {
    "en": "The baby often laughs when Ben says his name.",
    "zh": "本一叫宝宝的名字，他就常常咯咯笑。",
    "scene_prompt": "A chubby baby in a white onesie laughs happily while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) leans in and calls to him.",
    "draw": "partly",
-   "draw_note": "Shows Ben calling to a laughing baby; 'often' and the name can't be shown."
+   "draw_note": "Shows Ben calling to a laughing baby; 'often' and the name can't be shown.",
+   "narration": "A chubby baby in a white onesie laughs happily while Ben leans in and calls to him.",
+   "sentence_targets": [
+    {
+     "id": "baby",
+     "word": "baby",
+     "pos": "adj./n./v.",
+     "zh": "婴儿；幼崽",
+     "en": "a very young child or animal"
+    },
+    {
+     "id": "name",
+     "word": "name",
+     "pos": "n./v.",
+     "zh": "名字；名称",
+     "en": "a word or words used to identify someone or something"
+    },
+    {
+     "id": "often",
+     "word": "often",
+     "pos": "adv.",
+     "zh": "经常；常常",
+     "en": "many times or on many occasions"
+    }
+   ]
   },
   {
    "en": "Then Ben sits on the sofa with a book.",
    "zh": "然后本拿着一本书坐到沙发上。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on a soft sofa in the living room, opening a book.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben sits on a soft sofa in the living room, opening a book.",
+   "sentence_targets": [
+    {
+     "id": "sofa",
+     "word": "sofa",
+     "pos": "n.",
+     "zh": "沙发",
+     "en": "A soft seat with a back for several people"
+    }
+   ]
   },
   {
    "en": "It is a history book about France.",
    "zh": "这是一本关于法国历史的书。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up a big book with the Eiffel Tower and an old French castle on the cover.",
    "draw": "partly",
-   "draw_note": "Shows a book with French castle pictures; 'history' is only hinted by the old castle."
+   "draw_note": "Shows a book with French castle pictures; 'history' is only hinted by the old castle.",
+   "narration": "Ben holds up a big book with the Eiffel Tower and an old French castle on the cover.",
+   "sentence_targets": [
+    {
+     "id": "france",
+     "word": "France",
+     "pos": "n.",
+     "zh": "法国",
+     "en": "a country in western Europe whose capital is Paris"
+    },
+    {
+     "id": "history",
+     "word": "history",
+     "pos": "n.",
+     "zh": "历史；历史学",
+     "en": "Past events, or the study of them."
+    },
+    {
+     "id": "it",
+     "word": "it",
+     "pos": "pron.",
+     "zh": "它；这；那",
+     "en": "refers to a thing, animal, or situation already mentioned"
+    }
+   ]
   },
   {
    "en": "He reads half of it in his warm socks.",
    "zh": "他穿着暖和的袜子，读了一半。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) lies on the sofa with his feet up in thick warm striped socks, the book open at its middle.",
    "draw": "partly",
-   "draw_note": "Shows Ben reading in warm socks with the book open in the middle; 'half' is only hinted."
+   "draw_note": "Shows Ben reading in warm socks with the book open in the middle; 'half' is only hinted.",
+   "narration": "Ben lies on the sofa with his feet up in thick warm striped socks, the book open at its middle.",
+   "sentence_targets": [
+    {
+     "id": "sock",
+     "word": "sock",
+     "pos": "n.",
+     "zh": "短袜；袜子",
+     "en": "a clothing item covering the foot and lower leg"
+    },
+    {
+     "id": "it",
+     "word": "it",
+     "pos": "pron.",
+     "zh": "它；这；那",
+     "en": "refers to a thing, animal, or situation already mentioned"
+    },
+    {
+     "id": "half",
+     "word": "half",
+     "pos": "adv./det./n.",
+     "zh": "一半；半场",
+     "en": "one of two equal parts of something"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

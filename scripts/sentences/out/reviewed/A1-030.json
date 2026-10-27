@@ -44,50 +44,200 @@
    "en": "In summer, Ben and Mia walk up a hill.",
    "zh": "夏天，本和米娅走上一座小山。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) walk up a green hill under a bright summer sun.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia walk up a green hill under a bright summer sun.",
+   "sentence_targets": [
+    {
+     "id": "hill",
+     "word": "hill",
+     "pos": "n.",
+     "zh": "小山；丘陵",
+     "en": "A raised area of land, usually lower than a mountain."
+    },
+    {
+     "id": "summer",
+     "word": "summer",
+     "pos": "n.",
+     "zh": "夏天；夏季",
+     "en": "The warmest season, between spring and autumn."
+    }
+   ]
   },
   {
    "en": "Below them, men fish in the beautiful sea.",
    "zh": "在他们下方，人们在美丽的海里捕鱼。",
    "scene_prompt": "From the hilltop, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) look down at fishermen in a small boat on a beautiful blue sea.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "From the hilltop, Ben and Mia look down at fishermen in a small boat on a beautiful blue sea.",
+   "sentence_targets": [
+    {
+     "id": "beautiful",
+     "word": "beautiful",
+     "pos": "adj.",
+     "zh": "美丽的；优美的",
+     "en": "Very pleasing to see, hear, or experience."
+    },
+    {
+     "id": "fish",
+     "word": "fish",
+     "pos": "n./v.",
+     "zh": "鱼；鱼肉",
+     "en": "an animal living in water with fins; its edible flesh"
+    },
+    {
+     "id": "sea",
+     "word": "sea",
+     "pos": "n.",
+     "zh": "海；海洋",
+     "en": "the large area of salt water covering much of Earth"
+    }
+   ]
   },
   {
    "en": "A plane flies north over the blue water.",
    "zh": "一架飞机飞过蓝色的海面向北飞去。",
    "scene_prompt": "A plane flies high over the blue sea while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) point at it.",
    "draw": "partly",
-   "draw_note": "Shows a plane over the sea; the direction 'north' can't be shown."
+   "draw_note": "Shows a plane over the sea; the direction 'north' can't be shown.",
+   "narration": "A plane flies high over the blue sea while Ben and Mia point at it.",
+   "sentence_targets": [
+    {
+     "id": "north",
+     "word": "north",
+     "pos": "adj./adv./n.",
+     "zh": "北；北方；北部",
+     "en": "the direction opposite south, or an area's northern part"
+    },
+    {
+     "id": "plane",
+     "word": "plane",
+     "pos": "n./v.",
+     "zh": "飞机",
+     "en": "a flying vehicle with wings and at least one engine"
+    }
+   ]
   },
   {
    "en": "Sheep and cows eat grass under a tree.",
    "zh": "绵羊和奶牛在一棵树下吃草。",
    "scene_prompt": "White sheep and brown cows eat grass under a big tree on the hill.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "White sheep and brown cows eat grass under a big tree on the hill.",
+   "sentence_targets": [
+    {
+     "id": "sheep",
+     "word": "sheep",
+     "pos": "n.",
+     "zh": "绵羊",
+     "en": "a farm animal kept for its wool, meat or milk"
+    },
+    {
+     "id": "tree",
+     "word": "tree",
+     "pos": "n.",
+     "zh": "树；树木",
+     "en": "A tall plant with a wooden trunk and branches."
+    },
+    {
+     "id": "cow",
+     "word": "cow",
+     "pos": "n./v.",
+     "zh": "母牛；奶牛",
+     "en": "an adult female bovine, often kept for milk"
+    }
+   ]
   },
   {
    "en": "A brown rabbit runs past their feet.",
    "zh": "一只棕色的兔子从他们脚边跑过。",
    "scene_prompt": "A brown rabbit runs past the feet of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) on the grass.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A brown rabbit runs past the feet of Ben and Mia on the grass.",
+   "sentence_targets": [
+    {
+     "id": "rabbit",
+     "word": "rabbit",
+     "pos": "n.",
+     "zh": "兔；家兔",
+     "en": "a small animal with long ears, soft fur, and strong back legs"
+    }
+   ]
   },
   {
    "en": "Near the farm, a cat watches a mouse.",
    "zh": "农场附近，一只猫盯着一只老鼠。",
    "scene_prompt": "A cat crouches and watches a small mouse near a farm wall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A cat crouches and watches a small mouse near a farm wall.",
+   "sentence_targets": [
+    {
+     "id": "cat",
+     "word": "cat",
+     "pos": "n.",
+     "zh": "猫",
+     "en": "A small furry animal often kept as a pet."
+    },
+    {
+     "id": "mouse",
+     "word": "mouse",
+     "pos": "n.",
+     "zh": "老鼠",
+     "en": "A small rodent with a pointed nose and long thin tail."
+    }
+   ]
   },
   {
    "en": "Ben shows his toy monkey to the sheep.",
    "zh": "本把他的玩具猴子给绵羊看。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds up a toy monkey in front of a curious sheep, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) laughing.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben holds up a toy monkey in front of a curious sheep, Mia laughing.",
+   "sentence_targets": [
+    {
+     "id": "sheep",
+     "word": "sheep",
+     "pos": "n.",
+     "zh": "绵羊",
+     "en": "a farm animal kept for its wool, meat or milk"
+    },
+    {
+     "id": "monkey",
+     "word": "monkey",
+     "pos": "n.",
+     "zh": "猴子",
+     "en": "A primate that usually has a tail and climbs trees."
+    }
+   ]
   },
   {
    "en": "In autumn, all the flowers on the hill die.",
    "zh": "到了秋天，山上的花全都凋谢了。",
    "scene_prompt": "The same hill in autumn, with dry brown flowers and orange leaves.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "The same hill in autumn, with dry brown flowers and orange leaves.",
+   "sentence_targets": [
+    {
+     "id": "hill",
+     "word": "hill",
+     "pos": "n.",
+     "zh": "小山；丘陵",
+     "en": "A raised area of land, usually lower than a mountain."
+    },
+    {
+     "id": "die",
+     "word": "die",
+     "pos": "n./v.",
+     "zh": "死亡；枯死",
+     "en": "Stop living."
+    },
+    {
+     "id": "autumn",
+     "word": "autumn",
+     "pos": "n.",
+     "zh": "秋天；秋季",
+     "en": "The season between summer and winter"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -1,7 +1,10 @@
+import { StoryScenes } from "./StoryScenes";
 import {
   ArrowRight,
   BookOpen,
   Check,
+  Headphones,
+  Map,
   Pause,
   Play,
   RotateCcw,
@@ -134,6 +137,7 @@ function Hub() {
   const atlas = useAtlas();
   const stages = useStages();
   const listen = useStore((s) => s.progress.listen);
+  const [subTab, setSubTab] = useState<"stories" | "words">("stories");
   const [briefing, setBriefing] = useState<ListenStage | null>(null);
   // Coming back from a stage stays on this page, so the shell does not reset the scroll.
   useEffect(() => {
@@ -152,13 +156,70 @@ function Hub() {
   return (
     <>
       <div className="page listen-hub">
-        <header className="page-head">
-          <p className="eyebrow">听图 · Listen & Pick</p>
-          <h1 className="display">先听见，再认出它。</h1>
-          <p className="lede">
-            每关先翻一遍有声画册，再听音选图。答错的词会在本轮最后再考一次，也会收进错词本。
-          </p>
-        </header>
+        {/* Sub-tab Navigation */}
+        <div style={{ display: "flex", justifyContent: "center", marginBottom: 24 }}>
+          <div
+            style={{
+              display: "inline-flex",
+              background: "var(--card-bg, #18181b)",
+              border: "1px solid var(--card-border, #27272a)",
+              borderRadius: 24,
+              padding: 4,
+              gap: 4,
+            }}
+          >
+            <button
+              onClick={() => setSubTab("stories")}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                padding: "6px 16px",
+                borderRadius: 20,
+                fontSize: 13,
+                fontWeight: 600,
+                border: "none",
+                cursor: "pointer",
+                background: subTab === "stories" ? "#2563eb" : "transparent",
+                color: subTab === "stories" ? "#fff" : "var(--fg-dim, #a1a1aa)",
+                transition: "all 0.15s",
+              }}
+            >
+              <Headphones size={15} /> 看图听话 (绘本)
+            </button>
+            <button
+              onClick={() => setSubTab("words")}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 6,
+                padding: "6px 16px",
+                borderRadius: 20,
+                fontSize: 13,
+                fontWeight: 600,
+                border: "none",
+                cursor: "pointer",
+                background: subTab === "words" ? "#2563eb" : "transparent",
+                color: subTab === "words" ? "#fff" : "var(--fg-dim, #a1a1aa)",
+                transition: "all 0.15s",
+              }}
+            >
+              <Map size={15} /> 词汇闯关 (地图)
+            </button>
+          </div>
+        </div>
+
+        {subTab === "stories" ? (
+          <StoryScenes />
+        ) : (
+          <>
+            <header className="page-head">
+              <p className="eyebrow">听图 · Listen & Pick</p>
+              <h1 className="display">先听见，再认出它。</h1>
+              <p className="lede">
+                每关先翻一遍有声画册，再听音选图。答错的词会在本轮最后再考一次，也会收进错词本。
+              </p>
+            </header>
 
         <div className="lp-summary">
           <dl className="mini-stats">
@@ -261,6 +322,8 @@ function Hub() {
             </section>
           );
         })}
+          </>
+        )}
       </div>
       {/* Outside .page: its entry animation would trap the fixed overlay. */}
       <Sheet

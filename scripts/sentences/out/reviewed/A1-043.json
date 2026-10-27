@@ -49,53 +49,196 @@
    "en": "Ben and Mia sit in the classroom.",
    "zh": "本和米娅坐在教室里。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit at their desks in a bright classroom with a big world map on the wall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and Mia sit at their desks in a bright classroom with a big world map on the wall.",
+   "sentence_targets": [
+    {
+     "id": "classroom",
+     "word": "classroom",
+     "pos": "n.",
+     "zh": "教室",
+     "en": "a room where students are taught"
+    }
+   ]
   },
   {
    "en": "Mister Kofi teaches them the alphabet first.",
    "zh": "科菲先生先教他们字母表。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) stands at the board pointing at a long row of colourful cards in front of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans).",
    "draw": "partly",
-   "draw_note": "Shows the teacher pointing at a row of cards on the board; the letters can't be shown."
+   "draw_note": "Shows the teacher pointing at a row of cards on the board; the letters can't be shown.",
+   "narration": "Kofi stands at the board pointing at a long row of colourful cards in front of Ben and Mia.",
+   "sentence_targets": [
+    {
+     "id": "mister",
+     "word": "Mister",
+     "pos": "n.",
+     "zh": "先生",
+     "en": "A title used before a man's surname or full name"
+    },
+    {
+     "id": "teach",
+     "word": "teach",
+     "pos": "v.",
+     "zh": "教；教授；教导",
+     "en": "Help someone learn knowledge, skills, or ways of behaving"
+    },
+    {
+     "id": "alphabet",
+     "word": "alphabet",
+     "pos": "n.",
+     "zh": "字母表",
+     "en": "the complete set of letters used in a language"
+    }
+   ]
   },
   {
    "en": "The children repeat each letter after him.",
    "zh": "孩子们跟着他重复每个字母。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) speak together with open mouths while Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) points at the cards on the board.",
    "draw": "partly",
-   "draw_note": "Shows the children speaking after the teacher; what they say can't be shown."
+   "draw_note": "Shows the children speaking after the teacher; what they say can't be shown.",
+   "narration": "Ben and Mia speak together with open mouths while Kofi points at the cards on the board.",
+   "sentence_targets": [
+    {
+     "id": "repeat",
+     "word": "repeat",
+     "pos": "n./v.",
+     "zh": "重复；重说；重做",
+     "en": "To say or do something again."
+    }
+   ]
   },
   {
    "en": "Then he reads a sentence as an example.",
    "zh": "然后他读了一个句子作为例子。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) reads aloud from an open book in front of the class.",
    "draw": "partly",
-   "draw_note": "Shows the teacher reading aloud; the sentence and 'example' can't be shown."
+   "draw_note": "Shows the teacher reading aloud; the sentence and 'example' can't be shown.",
+   "narration": "Kofi reads aloud from an open book in front of the class.",
+   "sentence_targets": [
+    {
+     "id": "sentence",
+     "word": "sentence",
+     "pos": "n./v.",
+     "zh": "句子",
+     "en": "a group of words expressing a complete statement, question, or command"
+    },
+    {
+     "id": "read",
+     "word": "read",
+     "pos": "v.",
+     "zh": "阅读；读懂",
+     "en": "to look at written words and understand their meaning"
+    },
+    {
+     "id": "example",
+     "word": "example",
+     "pos": "n.",
+     "zh": "例子；实例",
+     "en": "Something specific that shows what a general idea means"
+    }
+   ]
   },
   {
    "en": "Next is a geography lesson about rivers.",
    "zh": "接下来是一节关于河流的地理课。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) points at long blue rivers on the big world map on the classroom wall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Kofi points at long blue rivers on the big world map on the classroom wall.",
+   "sentence_targets": [
+    {
+     "id": "lesson",
+     "word": "lesson",
+     "pos": "n.",
+     "zh": "课；一节课",
+     "en": "A period of teaching or learning a particular subject."
+    },
+    {
+     "id": "geography",
+     "word": "geography",
+     "pos": "n.",
+     "zh": "地理学",
+     "en": "the study of Earth's places, environments, and human activity"
+    }
+   ]
   },
   {
    "en": "Mia knows the answer and raises her hand.",
    "zh": "米娅知道答案，举起了手。",
    "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) raises her hand high and eagerly in front of the big world map.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Mia raises her hand high and eagerly in front of the big world map.",
+   "sentence_targets": [
+    {
+     "id": "know",
+     "word": "know",
+     "pos": "v.",
+     "zh": "知道；懂得",
+     "en": "To have information or understanding about something"
+    }
+   ]
   },
   {
    "en": "Ben writes a note with his pencil.",
    "zh": "本用铅笔写下笔记。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) writes in his notebook with a yellow pencil.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben writes in his notebook with a yellow pencil.",
+   "sentence_targets": [
+    {
+     "id": "note",
+     "word": "note",
+     "pos": "n./v.",
+     "zh": "便条；笔记",
+     "en": "A short written message or record of useful information."
+    },
+    {
+     "id": "pencil",
+     "word": "pencil",
+     "pos": "n./v.",
+     "zh": "铅笔",
+     "en": "A tool with a solid core for writing or drawing."
+    }
+   ]
   },
   {
    "en": "“For homework, test yourself,” says Mister Kofi.",
    "zh": "“回家作业是自己测验一下，”科菲先生说。",
    "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles and speaks to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) as they pack their bags.",
    "draw": "partly",
-   "draw_note": "Shows the teacher talking to the children at the end of class; the homework he gives can't be shown."
+   "draw_note": "Shows the teacher talking to the children at the end of class; the homework he gives can't be shown.",
+   "narration": "Kofi smiles and speaks to Ben and Mia as they pack their bags.",
+   "sentence_targets": [
+    {
+     "id": "mister",
+     "word": "Mister",
+     "pos": "n.",
+     "zh": "先生",
+     "en": "A title used before a man's surname or full name"
+    },
+    {
+     "id": "yourself",
+     "word": "yourself",
+     "pos": "pron.",
+     "zh": "你自己；您自己",
+     "en": "Used when you are both the subject and object."
+    },
+    {
+     "id": "homework",
+     "word": "homework",
+     "pos": "n.",
+     "zh": "家庭作业",
+     "en": "Schoolwork that students are asked to complete outside lessons."
+    },
+    {
+     "id": "test",
+     "word": "test",
+     "pos": "n./v.",
+     "zh": "测验；测试；检查",
+     "en": "a procedure that checks knowledge, ability, condition, or performance"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -40,50 +40,186 @@
    "zh": "星期天，莉莉打扫她的小卧室。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) holds a broom in a small, untidy bedroom, morning sun at the window.",
    "draw": "partly",
-   "draw_note": "Shows Lily starting to clean her bedroom; the day Sunday can't be shown."
+   "draw_note": "Shows Lily starting to clean her bedroom; the day Sunday can't be shown.",
+   "narration": "Lily holds a broom in a small, untidy bedroom, morning sun at the window.",
+   "sentence_targets": [
+    {
+     "id": "bedroom",
+     "word": "bedroom",
+     "pos": "n.",
+     "zh": "卧室",
+     "en": "A room used mainly for sleeping."
+    },
+    {
+     "id": "sunday",
+     "word": "Sunday",
+     "pos": "n.",
+     "zh": "星期日；周日",
+     "en": "the day after Saturday and before Monday"
+    }
+   ]
   },
   {
    "en": "She puts her clothes on the bed.",
    "zh": "她把衣服放在床上。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) puts a pile of clothes on her bed.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily puts a pile of clothes on her bed.",
+   "sentence_targets": [
+    {
+     "id": "clothes",
+     "word": "clothes",
+     "pos": "n.",
+     "zh": "衣服；服装",
+     "en": "items worn to cover the body"
+    },
+    {
+     "id": "put",
+     "word": "put",
+     "pos": "v.",
+     "zh": "放；安置",
+     "en": "to move something into a particular place or position"
+    }
+   ]
   },
   {
    "en": "One sock is on the left side.",
    "zh": "有一只袜子在左边。",
    "scene_prompt": "A single striped sock lies on the floor on the left side of the bed; Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points at it.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A single striped sock lies on the floor on the left side of the bed. Lily points at it.",
+   "sentence_targets": [
+    {
+     "id": "left",
+     "word": "left",
+     "pos": "adj./adv.",
+     "zh": "左边的；左侧的",
+     "en": "On the side opposite the right."
+    },
+    {
+     "id": "side",
+     "word": "side",
+     "pos": "n./v.",
+     "zh": "侧面；边；旁边",
+     "en": "An edge or surface of something, or the space beside it."
+    },
+    {
+     "id": "sock",
+     "word": "sock",
+     "pos": "n.",
+     "zh": "短袜；袜子",
+     "en": "a clothing item covering the foot and lower leg"
+    }
+   ]
   },
   {
    "en": "Should she keep this pretty skirt or that?",
    "zh": "她该留下这条漂亮的裙子，还是那条？",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) holds up two pretty skirts, a pink one in one hand and a blue one in the other, looking from one to the other.",
    "draw": "partly",
-   "draw_note": "Shows Lily choosing between two skirts; the question 'should she keep' can't be shown exactly."
+   "draw_note": "Shows Lily choosing between two skirts; the question 'should she keep' can't be shown exactly.",
+   "narration": "Lily holds up two pretty skirts, a pink one in one hand and a blue one in the other, looking from one to the other.",
+   "sentence_targets": [
+    {
+     "id": "keep",
+     "word": "keep",
+     "pos": "v.",
+     "zh": "保留；保存",
+     "en": "To continue having something rather than giving it away."
+    },
+    {
+     "id": "skirt",
+     "word": "skirt",
+     "pos": "n./v.",
+     "zh": "裙子",
+     "en": "Clothing hanging from the waist, without separate sections for legs."
+    },
+    {
+     "id": "pretty",
+     "word": "pretty",
+     "pos": "adj./adv.",
+     "zh": "漂亮的；秀丽的",
+     "en": "Attractive and pleasant to look at."
+    },
+    {
+     "id": "or",
+     "word": "or",
+     "pos": "conj.",
+     "zh": "或者；还是",
+     "en": "Used to connect alternatives or choices"
+    }
+   ]
   },
   {
    "en": "The window glass is too dirty now.",
    "zh": "窗户玻璃现在太脏了。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) frowns at a very dusty, smeared window pane.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily frowns at a very dusty, smeared window pane.",
+   "sentence_targets": [
+    {
+     "id": "too",
+     "word": "too",
+     "pos": "adv.",
+     "zh": "太；过于",
+     "en": "more than is wanted, needed, or suitable"
+    },
+    {
+     "id": "glass",
+     "word": "glass",
+     "pos": "n.",
+     "zh": "玻璃",
+     "en": "A hard, usually transparent material used for windows and containers."
+    }
+   ]
   },
   {
    "en": "She cleans it once, and it shines.",
    "zh": "她擦了一遍，窗户就亮了。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wipes the window with a cloth and the glass sparkles.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily wipes the window with a cloth and the glass sparkles.",
+   "sentence_targets": [
+    {
+     "id": "once",
+     "word": "once",
+     "pos": "adv./conj.",
+     "zh": "一次",
+     "en": "on one occasion only"
+    }
+   ]
   },
   {
    "en": "Then she sits down with some chips.",
    "zh": "然后她拿着一些薯条坐下。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sits on the bed with a small bowl of chips.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily sits on the bed with a small bowl of chips.",
+   "sentence_targets": [
+    {
+     "id": "chips",
+     "word": "chips",
+     "pos": "n.",
+     "zh": "炸薯条（英）；薯片（美）",
+     "en": "fried potato strips in British English; thin slices in American English"
+    }
+   ]
   },
   {
    "en": "A clean room gives her a good feeling.",
    "zh": "干净的房间让她心情很好。",
    "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) smiles happily in her clean, tidy bedroom.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Lily smiles happily in her clean, tidy bedroom.",
+   "sentence_targets": [
+    {
+     "id": "feeling",
+     "word": "feeling",
+     "pos": "n.",
+     "zh": "情绪；感受",
+     "en": "An emotional state or response to something"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

@@ -45,52 +45,188 @@
    "zh": "本很早就醒了，看了看时钟。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits up in bed and looks at a round clock on the wall, pale early morning light outside.",
    "draw": "partly",
-   "draw_note": "Shows Ben waking and looking at the clock; 'early' is only hinted by the light."
+   "draw_note": "Shows Ben waking and looking at the clock; 'early' is only hinted by the light.",
+   "narration": "Ben sits up in bed and looks at a round clock on the wall, pale early morning light outside.",
+   "sentence_targets": [
+    {
+     "id": "early",
+     "word": "early",
+     "pos": "adj./adv.",
+     "zh": "早期的；较早的",
+     "en": "Near the beginning of a period or before the usual time"
+    },
+    {
+     "id": "clock",
+     "word": "clock",
+     "pos": "n./v.",
+     "zh": "时钟",
+     "en": "a device that shows the time"
+    }
+   ]
   },
   {
    "en": "He takes a warm shower and washes his head.",
    "zh": "他洗了个热水澡，还洗了头。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), seen from the shoulders up behind a shower curtain, washes his hair with soap foam under a warm shower.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben, seen from the shoulders up behind a shower curtain, washes his hair with soap foam under a warm shower.",
+   "sentence_targets": [
+    {
+     "id": "head",
+     "word": "head",
+     "pos": "n./v.",
+     "zh": "头；头部",
+     "en": "the body part containing the brain, eyes, and mouth"
+    },
+    {
+     "id": "shower",
+     "word": "shower",
+     "pos": "n./v.",
+     "zh": "淋浴；淋浴器",
+     "en": "Washing under falling water, or the equipment used for this"
+    }
+   ]
   },
   {
    "en": "Then he runs downstairs to the kitchen.",
    "zh": "然后他跑下楼去厨房。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) runs down the stairs toward the kitchen.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben runs down the stairs toward the kitchen.",
+   "sentence_targets": [
+    {
+     "id": "downstairs",
+     "word": "downstairs",
+     "pos": "adj./adv.",
+     "zh": "在楼下；往楼下",
+     "en": "On or towards a lower floor of a building"
+    }
+   ]
   },
   {
    "en": "\"Hey, Ben, your meal is ready!\" says Mum.",
    "zh": "“嘿，本，你的饭好了！”妈妈说。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) calls and waves to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) from a kitchen table with breakfast on it.",
    "draw": "partly",
-   "draw_note": "Shows Mum calling Ben to a ready breakfast; her exact words can't be shown."
+   "draw_note": "Shows Mum calling Ben to a ready breakfast; her exact words can't be shown.",
+   "narration": "Anna calls and waves to Ben from a kitchen table with breakfast on it.",
+   "sentence_targets": [
+    {
+     "id": "hey",
+     "word": "hey",
+     "pos": "int.",
+     "zh": "嘿；喂；嗨",
+     "en": "Used informally to greet someone or attract their attention."
+    },
+    {
+     "id": "meal",
+     "word": "meal",
+     "pos": "n.",
+     "zh": "一餐；一顿饭",
+     "en": "An occasion when you eat, or the food eaten then."
+    }
+   ]
   },
   {
    "en": "Their grey pet cat sleeps on a chair.",
    "zh": "他们家的灰色宠物猫睡在一把椅子上。",
    "scene_prompt": "A grey cat sleeps on a kitchen chair next to Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A grey cat sleeps on a kitchen chair next to Anna.",
+   "sentence_targets": [
+    {
+     "id": "grey",
+     "word": "grey",
+     "pos": "adj./n./v.",
+     "zh": "灰色的；灰白的",
+     "en": "Having a colour between black and white."
+    },
+    {
+     "id": "chair",
+     "word": "chair",
+     "pos": "n./v.",
+     "zh": "椅子",
+     "en": "a seat for one person, usually with a back"
+    }
+   ]
   },
   {
    "en": "Ben is not interested in these eggs.",
    "zh": "本对这些鸡蛋不感兴趣。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks bored and pushes away a plate of eggs on the table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben looks bored and pushes away a plate of eggs on the table.",
+   "sentence_targets": [
+    {
+     "id": "these",
+     "word": "these",
+     "pos": "det./pron.",
+     "zh": "这些",
+     "en": "Used before plural nouns for nearby people or things."
+    },
+    {
+     "id": "interested",
+     "word": "interested",
+     "pos": "adj.",
+     "zh": "感兴趣的",
+     "en": "Wanting to learn about or take part in something."
+    }
+   ]
   },
   {
    "en": "He wants something else: cola, his favourite drink.",
    "zh": "他想要别的东西：可乐，他最喜欢的饮料。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) reaches eagerly for a bottle of cola on the table.",
    "draw": "partly",
-   "draw_note": "Shows Ben reaching for cola; 'favourite' can't be shown."
+   "draw_note": "Shows Ben reaching for cola; 'favourite' can't be shown.",
+   "narration": "Ben reaches eagerly for a bottle of cola on the table.",
+   "sentence_targets": [
+    {
+     "id": "something",
+     "word": "something",
+     "pos": "pron.",
+     "zh": "某事；某物",
+     "en": "A thing that is not named or specified."
+    },
+    {
+     "id": "cola",
+     "word": "cola",
+     "pos": "n.",
+     "zh": "可乐",
+     "en": "A sweet, dark, fizzy drink, usually containing caffeine."
+    },
+    {
+     "id": "favourite",
+     "word": "favourite",
+     "pos": "adj./n.",
+     "zh": "最喜欢的",
+     "en": "liked more than any other of the same kind"
+    }
+   ]
   },
   {
    "en": "Mum says he can have some, but not much.",
    "zh": "妈妈说他可以喝一点，但不能喝很多。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) pours a little cola into a small glass for Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
    "draw": "partly",
-   "draw_note": "Shows Mum pouring a little cola; what she says is only hinted."
+   "draw_note": "Shows Mum pouring a little cola; what she says is only hinted.",
+   "narration": "Anna pours a little cola into a small glass for Ben.",
+   "sentence_targets": [
+    {
+     "id": "much",
+     "word": "much",
+     "pos": "adv./det./pron.",
+     "zh": "许多；大量",
+     "en": "A large amount of something, used with uncountable nouns."
+    },
+    {
+     "id": "can",
+     "word": "can",
+     "pos": "n./v.",
+     "zh": "能；可以；可能",
+     "en": "Used to express ability, permission, or possibility."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

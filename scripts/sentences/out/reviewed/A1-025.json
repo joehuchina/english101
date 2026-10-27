@@ -40,52 +40,174 @@
    "en": "Ben and Dad arrive at a big hotel.",
    "zh": "本和爸爸到了一家大酒店。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and his dad Dan (a tall man of about forty with a short brown beard and a navy jumper) walk into a big hotel lobby pulling suitcases.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben and his dad Dan walk into a big hotel lobby pulling suitcases.",
+   "sentence_targets": [
+    {
+     "id": "hotel",
+     "word": "hotel",
+     "pos": "n.",
+     "zh": "酒店；旅馆",
+     "en": "a building where people pay to stay in rooms"
+    },
+    {
+     "id": "arrive",
+     "word": "arrive",
+     "pos": "v.",
+     "zh": "到达；抵达",
+     "en": "To reach the place you were travelling to."
+    }
+   ]
   },
   {
    "en": "Ben's phone has no internet here.",
    "zh": "本的手机在这里上不了网。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) frowns at his phone in the hotel lobby, the phone screen grey and empty.",
    "draw": "partly",
-   "draw_note": "Shows Ben frowning at a blank phone; 'no internet' is only hinted."
+   "draw_note": "Shows Ben frowning at a blank phone; 'no internet' is only hinted.",
+   "narration": "Ben frowns at his phone in the hotel lobby, the phone screen grey and empty.",
+   "sentence_targets": [
+    {
+     "id": "internet",
+     "word": "internet",
+     "pos": "n.",
+     "zh": "互联网；因特网",
+     "en": "The worldwide network connecting computers and other devices."
+    },
+    {
+     "id": "phone",
+     "word": "phone",
+     "pos": "n./v.",
+     "zh": "电话；手机",
+     "en": "a device used to speak to people at a distance"
+    }
+   ]
   },
   {
    "en": "He is lucky: the hotel has a computer.",
    "zh": "他运气不错：酒店有一台电脑。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles and points at a computer on a desk in the lobby.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben smiles and points at a computer on a desk in the lobby.",
+   "sentence_targets": [
+    {
+     "id": "hotel",
+     "word": "hotel",
+     "pos": "n.",
+     "zh": "酒店；旅馆",
+     "en": "a building where people pay to stay in rooms"
+    },
+    {
+     "id": "computer",
+     "word": "computer",
+     "pos": "n.",
+     "zh": "计算机；电脑",
+     "en": "An electronic machine that stores and processes information using programs."
+    },
+    {
+     "id": "lucky",
+     "word": "lucky",
+     "pos": "adj.",
+     "zh": "幸运的；侥幸的",
+     "en": "Having good things happen by chance."
+    }
+   ]
   },
   {
    "en": "He sends Mia an email about the hotel website.",
    "zh": "他给米娅发了一封电子邮件，介绍酒店的网站。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) types at the lobby computer, the screen showing a web page with a photo of the hotel.",
    "draw": "partly",
-   "draw_note": "Shows Ben at the computer with a hotel web page; who receives the email can't be shown."
+   "draw_note": "Shows Ben at the computer with a hotel web page; who receives the email can't be shown.",
+   "narration": "Ben types at the lobby computer, the screen showing a web page with a photo of the hotel.",
+   "sentence_targets": [
+    {
+     "id": "hotel",
+     "word": "hotel",
+     "pos": "n.",
+     "zh": "酒店；旅馆",
+     "en": "a building where people pay to stay in rooms"
+    },
+    {
+     "id": "website",
+     "word": "website",
+     "pos": "n.",
+     "zh": "网站",
+     "en": "A collection of connected web pages available on the internet"
+    },
+    {
+     "id": "email",
+     "word": "email",
+     "pos": "n./v.",
+     "zh": "电子邮件；电子邮件通信",
+     "en": "An electronic message, or the system used to send it"
+    }
+   ]
   },
   {
    "en": "Then he takes photos with his new camera.",
    "zh": "然后他用新相机拍照。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) takes a photo of the grand lobby with a small new camera.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben takes a photo of the grand lobby with a small new camera.",
+   "sentence_targets": [
+    {
+     "id": "camera",
+     "word": "camera",
+     "pos": "n.",
+     "zh": "照相机；摄像机",
+     "en": "A device used to take photographs or record moving images."
+    }
+   ]
   },
   {
    "en": "Soon Mia sends him a happy message.",
    "zh": "很快，米娅给他回了一条开心的消息。",
    "scene_prompt": "The lobby computer screen shows a big yellow smiley face; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) grins at it.",
    "draw": "partly",
-   "draw_note": "Shows a smiley face on the screen and Ben grinning; the sender and 'soon' can't be shown."
+   "draw_note": "Shows a smiley face on the screen and Ben grinning; the sender and 'soon' can't be shown.",
+   "narration": "The lobby computer screen shows a big yellow smiley face. Ben grins at it.",
+   "sentence_targets": [
+    {
+     "id": "message",
+     "word": "message",
+     "pos": "n./v.",
+     "zh": "消息；口信",
+     "en": "Information sent or left for someone to read or hear."
+    }
+   ]
   },
   {
    "en": "Dad uses the desk telephone to call home.",
    "zh": "爸爸用前台的电话给家里打电话。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) talks on an old telephone at the hotel front desk.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan talks on an old telephone at the hotel front desk.",
+   "sentence_targets": [
+    {
+     "id": "telephone",
+     "word": "telephone",
+     "pos": "n./v.",
+     "zh": "电话；电话机",
+     "en": "A device or system for speaking to people far away."
+    }
+   ]
   },
   {
    "en": "Next, Dad gets a hot drink from a machine.",
    "zh": "接着，爸爸从机器里买了一杯热饮。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) takes a cup of hot coffee from a drinks machine while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) watches.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan takes a cup of hot coffee from a drinks machine while Ben watches.",
+   "sentence_targets": [
+    {
+     "id": "machine",
+     "word": "machine",
+     "pos": "n./v.",
+     "zh": "机器；机械装置",
+     "en": "A device with moving parts that performs a particular job."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

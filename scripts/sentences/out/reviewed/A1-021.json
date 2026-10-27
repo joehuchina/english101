@@ -42,51 +42,180 @@
    "en": "Hana and Sara have lunch in a pretty cafe.",
    "zh": "哈娜和萨拉在一家漂亮的咖啡馆吃午饭。",
    "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sit at a small table in a pretty cafe with flowers in the window.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Hana and Sara sit at a small table in a pretty cafe with flowers in the window.",
+   "sentence_targets": [
+    {
+     "id": "pretty",
+     "word": "pretty",
+     "pos": "adj./adv.",
+     "zh": "漂亮的；秀丽的",
+     "en": "Attractive and pleasant to look at."
+    }
+   ]
   },
   {
    "en": "A waiter brings them two cups of tea.",
    "zh": "一位男服务员给他们端来两杯茶。",
    "scene_prompt": "A young waiter in a black apron puts two cups of tea in front of Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt).",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A young waiter in a black apron puts two cups of tea in front of Hana and Sara.",
+   "sentence_targets": [
+    {
+     "id": "waiter",
+     "word": "waiter",
+     "pos": "n.",
+     "zh": "餐厅服务员；男侍者",
+     "en": "A person, traditionally male, who serves food in a restaurant"
+    }
+   ]
   },
   {
    "en": "Hana works in an office for a big company.",
    "zh": "哈娜在一家大公司的办公室上班。",
    "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) sits at a desk with a computer in a busy office of a big company.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Hana sits at a desk with a computer in a busy office of a big company.",
+   "sentence_targets": [
+    {
+     "id": "company",
+     "word": "company",
+     "pos": "n.",
+     "zh": "公司",
+     "en": "An organisation that sells goods or services"
+    },
+    {
+     "id": "office",
+     "word": "office",
+     "pos": "n.",
+     "zh": "办公室；办公楼",
+     "en": "a room or building where people do administrative work"
+    }
+   ]
   },
   {
    "en": "Her job is boring, with too many meetings.",
    "zh": "她的工作很无聊，会议太多。",
    "scene_prompt": "Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) yawns at a long meeting table with people in suits.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Hana yawns at a long meeting table with people in suits.",
+   "sentence_targets": [
+    {
+     "id": "too",
+     "word": "too",
+     "pos": "adv.",
+     "zh": "太；过于",
+     "en": "more than is wanted, needed, or suitable"
+    },
+    {
+     "id": "job",
+     "word": "job",
+     "pos": "n.",
+     "zh": "工作；职位",
+     "en": "paid work that someone does regularly"
+    },
+    {
+     "id": "meeting",
+     "word": "meeting",
+     "pos": "n.",
+     "zh": "会议",
+     "en": "an occasion when people gather to discuss something"
+    },
+    {
+     "id": "boring",
+     "word": "boring",
+     "pos": "adj.",
+     "zh": "无聊的；乏味的",
+     "en": "Not interesting or exciting."
+    }
+   ]
   },
   {
    "en": "Sara is a farmer, and she loves her farm.",
    "zh": "萨拉是一位农场主，她很爱她的农场。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now in rubber boots, stands smiling in a green field with cows and a red barn.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara, now in rubber boots, stands smiling in a green field with cows and a red barn.",
+   "sentence_targets": [
+    {
+     "id": "farm",
+     "word": "farm",
+     "pos": "n./v.",
+     "zh": "农场",
+     "en": "land and buildings used for growing crops or raising animals"
+    },
+    {
+     "id": "farmer",
+     "word": "farmer",
+     "pos": "n.",
+     "zh": "农民；农场主",
+     "en": "someone who grows crops or raises animals on a farm"
+    }
+   ]
   },
   {
    "en": "She has a business selling eggs and milk.",
    "zh": "她做生意，卖鸡蛋和牛奶。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now in rubber boots, sells eggs and bottles of milk to customers at a little farm stall.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Sara, now in rubber boots, sells eggs and bottles of milk to customers at a little farm stall.",
+   "sentence_targets": [
+    {
+     "id": "business",
+     "word": "business",
+     "pos": "n.",
+     "zh": "商业；生意",
+     "en": "The activity of buying and selling goods or services."
+    }
+   ]
   },
   {
    "en": "Her small team of workers helps her every day.",
    "zh": "她的小团队里的工人们每天都帮她干活。",
    "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), now in rubber boots, and a few farm workers carry baskets of eggs together.",
    "draw": "partly",
-   "draw_note": "Shows Sara and her workers carrying eggs together; 'every day' can't be shown."
+   "draw_note": "Shows Sara and her workers carrying eggs together; 'every day' can't be shown.",
+   "narration": "Sara, now in rubber boots, and a few farm workers carry baskets of eggs together.",
+   "sentence_targets": [
+    {
+     "id": "worker",
+     "word": "worker",
+     "pos": "n.",
+     "zh": "工人；工作者",
+     "en": "A person who works, especially for pay."
+    },
+    {
+     "id": "team",
+     "word": "team",
+     "pos": "n./v.",
+     "zh": "队；团队",
+     "en": "a group working together or playing a sport together"
+    }
+   ]
   },
   {
    "en": "The young waitress wants to visit Sara's farm.",
    "zh": "年轻的女服务员很想去萨拉的农场看看。",
    "scene_prompt": "In the cafe, a young waitress looks excitedly at a photo of cows that Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) shows her, while Hana (a woman of about thirty with a black bob and fringe, red glasses and a grey blazer) smiles.",
    "draw": "partly",
-   "draw_note": "Shows the waitress excited by a photo of the farm; 'wants to visit' can only be guessed."
+   "draw_note": "Shows the waitress excited by a photo of the farm; 'wants to visit' can only be guessed.",
+   "narration": "In the cafe, a young waitress looks excitedly at a photo of cows that Sara shows her, while Hana smiles.",
+   "sentence_targets": [
+    {
+     "id": "farm",
+     "word": "farm",
+     "pos": "n./v.",
+     "zh": "农场",
+     "en": "land and buildings used for growing crops or raising animals"
+    },
+    {
+     "id": "waitress",
+     "word": "waitress",
+     "pos": "n.",
+     "zh": "女服务员",
+     "en": "A woman who serves food and drinks in a restaurant."
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

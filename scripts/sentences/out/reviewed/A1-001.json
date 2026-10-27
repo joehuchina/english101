@@ -40,45 +40,171 @@
    "zh": "星期四，本七点钟醒来。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) wakes up in bed and stretches, an alarm clock ringing on the bedside table, morning light at the window.",
    "draw": "partly",
-   "draw_note": "Shows Ben waking up to a ringing alarm clock; the exact time and the day Thursday can't be shown."
+   "draw_note": "Shows Ben waking up to a ringing alarm clock; the exact time and the day Thursday can't be shown.",
+   "narration": "Ben wakes up in bed and stretches, an alarm clock ringing on the bedside table, morning light at the window.",
+   "sentence_targets": [
+    {
+     "id": "thursday",
+     "word": "Thursday",
+     "pos": "n.",
+     "zh": "星期四",
+     "en": "the day after Wednesday and before Friday"
+    },
+    {
+     "id": "o-clock",
+     "word": "o'clock",
+     "pos": "adv.",
+     "zh": "……点钟（整点）",
+     "en": "Used after a number to give the exact hour."
+    },
+    {
+     "id": "wake",
+     "word": "wake",
+     "pos": "n./v.",
+     "zh": "醒来；唤醒",
+     "en": "to stop sleeping, or make someone stop sleeping"
+    }
+   ]
   },
   {
    "en": "His clothes are all over the bedroom floor.",
    "zh": "他的衣服扔得卧室地板上到处都是。",
    "scene_prompt": "A messy bedroom with shirts, trousers and socks all over the floor; Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stands in the middle of it.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A messy bedroom with shirts, trousers and socks all over the floor. Ben stands in the middle of it.",
+   "sentence_targets": [
+    {
+     "id": "bedroom",
+     "word": "bedroom",
+     "pos": "n.",
+     "zh": "卧室",
+     "en": "A room used mainly for sleeping."
+    },
+    {
+     "id": "clothes",
+     "word": "clothes",
+     "pos": "n.",
+     "zh": "衣服；服装",
+     "en": "items worn to cover the body"
+    }
+   ]
   },
   {
    "en": "He only has ten minutes for breakfast.",
    "zh": "他只有十分钟吃早饭。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) eats breakfast in a hurry at the kitchen table, his school bag already on his back.",
    "draw": "partly",
-   "draw_note": "Shows Ben eating breakfast in a hurry; 'only ten minutes' can't be shown."
+   "draw_note": "Shows Ben eating breakfast in a hurry; 'only ten minutes' can't be shown.",
+   "narration": "Ben eats breakfast in a hurry at the kitchen table, his school bag already on his back.",
+   "sentence_targets": [
+    {
+     "id": "minute",
+     "word": "minute",
+     "pos": "adj./n.",
+     "zh": "分钟；片刻",
+     "en": "A period of sixty seconds, or a very short time"
+    }
+   ]
   },
   {
    "en": "His mother Anna cuts oranges for juice.",
    "zh": "他妈妈安娜切橙子榨果汁。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) cuts oranges on a chopping board next to a juicer in a sunny kitchen.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna cuts oranges on a chopping board next to a juicer in a sunny kitchen.",
+   "sentence_targets": [
+    {
+     "id": "cut",
+     "word": "cut",
+     "pos": "n./v.",
+     "zh": "切；剪；割",
+     "en": "divide or remove something using a sharp tool"
+    },
+    {
+     "id": "juice",
+     "word": "juice",
+     "pos": "n.",
+     "zh": "果汁；蔬菜汁",
+     "en": "liquid obtained from fruit or vegetables"
+    }
+   ]
   },
   {
    "en": "She lets him use her new blue cup.",
    "zh": "她让他用她的新蓝杯子。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) hands a shiny new blue cup to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) at the kitchen table.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna hands a shiny new blue cup to Ben at the kitchen table.",
+   "sentence_targets": [
+    {
+     "id": "let",
+     "word": "let",
+     "pos": "v.",
+     "zh": "允许；让",
+     "en": "To allow someone to do something or something to happen."
+    },
+    {
+     "id": "use",
+     "word": "use",
+     "pos": "n./v.",
+     "zh": "使用；运用",
+     "en": "To do something with a tool, resource, or method."
+    }
+   ]
   },
   {
    "en": "Ben loves orange juice, even in winter.",
    "zh": "本很爱喝橙汁，就连冬天也喝。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) happily drinks a big glass of orange juice by a window with snow falling outside.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Ben happily drinks a big glass of orange juice by a window with snow falling outside.",
+   "sentence_targets": [
+    {
+     "id": "juice",
+     "word": "juice",
+     "pos": "n.",
+     "zh": "果汁；蔬菜汁",
+     "en": "liquid obtained from fruit or vegetables"
+    },
+    {
+     "id": "even",
+     "word": "even",
+     "pos": "adj./adv.",
+     "zh": "甚至；连……都",
+     "en": "Used to emphasise something surprising or unexpected."
+    },
+    {
+     "id": "love",
+     "word": "love",
+     "pos": "n./v.",
+     "zh": "爱；热爱；非常喜欢",
+     "en": "feel deep affection for someone or enjoy something very much"
+    }
+   ]
   },
   {
    "en": "After a month, he feels very strong.",
    "zh": "一个月后，他觉得自己很强壮。",
    "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) proudly shows the muscles of his arm and smiles, a glass of orange juice on the table beside him.",
    "draw": "partly",
-   "draw_note": "Shows Ben proudly showing his strong arm; 'after a month' can't be shown."
+   "draw_note": "Shows Ben proudly showing his strong arm; 'after a month' can't be shown.",
+   "narration": "Ben proudly shows the muscles of his arm and smiles, a glass of orange juice on the table beside him.",
+   "sentence_targets": [
+    {
+     "id": "strong",
+     "word": "strong",
+     "pos": "adj.",
+     "zh": "强壮的；有力的",
+     "en": "having great physical power or force"
+    },
+    {
+     "id": "month",
+     "word": "month",
+     "pos": "n.",
+     "zh": "月；一个月",
+     "en": "one of twelve yearly divisions, or roughly four weeks"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"

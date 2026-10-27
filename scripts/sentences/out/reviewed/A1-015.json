@@ -44,51 +44,194 @@
    "en": "Dan and Anna wake up early at home.",
    "zh": "丹和安娜一大早在家醒来。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) wake up in bed, packed suitcases by the door, dawn at the window.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan and Anna wake up in bed, packed suitcases by the door, dawn at the window.",
+   "sentence_targets": [
+    {
+     "id": "wake",
+     "word": "wake",
+     "pos": "n./v.",
+     "zh": "醒来；唤醒",
+     "en": "to stop sleeping, or make someone stop sleeping"
+    }
+   ]
   },
   {
    "en": "They take a taxi to the airport quickly.",
    "zh": "他们赶紧坐出租车去机场。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) jump into a yellow taxi with their suitcases.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan and Anna jump into a yellow taxi with their suitcases.",
+   "sentence_targets": [
+    {
+     "id": "quickly",
+     "word": "quickly",
+     "pos": "adv.",
+     "zh": "迅速地；很快地",
+     "en": "At a fast speed or after only a short time."
+    },
+    {
+     "id": "taxi",
+     "word": "taxi",
+     "pos": "n./v.",
+     "zh": "出租车",
+     "en": "A car with a driver whom you pay for a journey."
+    }
+   ]
   },
   {
    "en": "Anna holds their airplane tickets in her hand.",
    "zh": "安娜手里拿着他们的机票。",
    "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) holds two plane tickets at an airport, an airplane outside the big window.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Anna holds two plane tickets at an airport, an airplane outside the big window.",
+   "sentence_targets": [
+    {
+     "id": "airplane",
+     "word": "airplane",
+     "pos": "n.",
+     "zh": "飞机",
+     "en": "A powered flying vehicle with fixed wings."
+    },
+    {
+     "id": "ticket",
+     "word": "ticket",
+     "pos": "n./v.",
+     "zh": "票；入场券",
+     "en": "A paper or electronic pass allowing travel or entry."
+    }
+   ]
   },
   {
    "en": "They fly from China to Spain.",
    "zh": "他们从中国飞往西班牙。",
    "scene_prompt": "An airplane flies high above the clouds, leaving a land of green hills and pagodas behind and heading toward a sunny coast with white houses and orange roofs.",
    "draw": "partly",
-   "draw_note": "Shows the plane flying from an Asian landscape toward a sunny coast; the country names can't be shown."
+   "draw_note": "Shows the plane flying from an Asian landscape toward a sunny coast; the country names can't be shown.",
+   "narration": "An airplane flies high above the clouds, leaving a land of green hills and pagodas behind and heading toward a sunny coast with white houses and orange roofs.",
+   "sentence_targets": [
+    {
+     "id": "from",
+     "word": "from",
+     "pos": "prep.",
+     "zh": "从；来自",
+     "en": "showing where someone or something starts or originates"
+    },
+    {
+     "id": "china",
+     "word": "China",
+     "pos": "n.",
+     "zh": "中国",
+     "en": "a country in East Asia"
+    },
+    {
+     "id": "fly",
+     "word": "fly",
+     "pos": "n./v.",
+     "zh": "飞；飞行",
+     "en": "to move through the air using wings"
+    },
+    {
+     "id": "spain",
+     "word": "Spain",
+     "pos": "n.",
+     "zh": "西班牙",
+     "en": "a country in southwestern Europe"
+    }
+   ]
   },
   {
    "en": "A bus drives them along a sunny road.",
    "zh": "一辆公共汽车载着他们沿着阳光明媚的道路行驶。",
    "scene_prompt": "A bus drives along a sunny coast road; Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) look out of its window.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "A bus drives along a sunny coast road. Dan and Anna look out of its window.",
+   "sentence_targets": [
+    {
+     "id": "bus",
+     "word": "bus",
+     "pos": "n./v.",
+     "zh": "公共汽车",
+     "en": "a large road vehicle that carries passengers"
+    },
+    {
+     "id": "drive",
+     "word": "drive",
+     "pos": "n./v.",
+     "zh": "驾驶；开车",
+     "en": "to control a vehicle and make it move"
+    },
+    {
+     "id": "road",
+     "word": "road",
+     "pos": "n.",
+     "zh": "道路；公路",
+     "en": "a hard surface built for vehicles to travel along"
+    }
+   ]
   },
   {
    "en": "Dan looks at a map to find their hotel.",
    "zh": "丹看地图找他们的酒店。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) studies a paper map on a street corner while Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) points the way.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan studies a paper map on a street corner while Anna points the way.",
+   "sentence_targets": [
+    {
+     "id": "map",
+     "word": "map",
+     "pos": "n./v.",
+     "zh": "地图",
+     "en": "A drawing showing where places or features are located"
+    }
+   ]
   },
   {
    "en": "They stay at a small hotel near the beach.",
    "zh": "他们住在海滩附近的一家小酒店。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) stand on the balcony of a small white hotel above a sandy beach.",
-   "draw": "yes"
+   "draw": "yes",
+   "narration": "Dan and Anna stand on the balcony of a small white hotel above a sandy beach.",
+   "sentence_targets": [
+    {
+     "id": "stay",
+     "word": "stay",
+     "pos": "n./v.",
+     "zh": "停留；暂住",
+     "en": "To remain in a place or live somewhere temporarily."
+    },
+    {
+     "id": "beach",
+     "word": "beach",
+     "pos": "n./v.",
+     "zh": "海滩；湖滩",
+     "en": "an area of sand or small stones beside water"
+    }
+   ]
   },
   {
    "en": "Every morning they ride bikes by the sea.",
    "zh": "每天早上他们在海边骑自行车。",
    "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) ride bicycles along the seaside in the morning sun.",
    "draw": "partly",
-   "draw_note": "Shows them riding bikes by the sea in the morning; 'every' can't be shown."
+   "draw_note": "Shows them riding bikes by the sea in the morning; 'every' can't be shown.",
+   "narration": "Dan and Anna ride bicycles along the seaside in the morning sun.",
+   "sentence_targets": [
+    {
+     "id": "ride",
+     "word": "ride",
+     "pos": "n./v.",
+     "zh": "骑；乘坐",
+     "en": "To travel on a bicycle, animal, or vehicle."
+    },
+    {
+     "id": "bike",
+     "word": "bike",
+     "pos": "n./v.",
+     "zh": "自行车；摩托车",
+     "en": "a bicycle or, informally, a motorcycle"
+    }
+   ]
   }
  ],
  "reviewed_by": "claude-opus-5-5"
