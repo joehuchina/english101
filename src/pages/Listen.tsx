@@ -3,8 +3,6 @@ import {
   ArrowRight,
   BookOpen,
   Check,
-  Headphones,
-  Map,
   Pause,
   Play,
   RotateCcw,
@@ -156,58 +154,16 @@ function Hub() {
   return (
     <>
       <div className="page listen-hub">
-        {/* Sub-tab Navigation */}
-        <div style={{ display: "flex", justifyContent: "center", marginBottom: 24 }}>
-          <div
-            style={{
-              display: "inline-flex",
-              background: "var(--card-bg, #18181b)",
-              border: "1px solid var(--card-border, #27272a)",
-              borderRadius: 24,
-              padding: 4,
-              gap: 4,
-            }}
-          >
-            <button
-              onClick={() => setSubTab("stories")}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 6,
-                padding: "6px 16px",
-                borderRadius: 20,
-                fontSize: 13,
-                fontWeight: 600,
-                border: "none",
-                cursor: "pointer",
-                background: subTab === "stories" ? "#2563eb" : "transparent",
-                color: subTab === "stories" ? "#fff" : "var(--fg-dim, #a1a1aa)",
-                transition: "all 0.15s",
-              }}
-            >
-              <Headphones size={15} /> 看图听话 (绘本)
+        <nav className="listen-tabs" aria-label="听图模式">
+          <div className="segmented">
+            <button className={subTab === "stories" ? "is-on" : ""} onClick={() => setSubTab("stories")} aria-pressed={subTab === "stories"}>
+              看图听话
             </button>
-            <button
-              onClick={() => setSubTab("words")}
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 6,
-                padding: "6px 16px",
-                borderRadius: 20,
-                fontSize: 13,
-                fontWeight: 600,
-                border: "none",
-                cursor: "pointer",
-                background: subTab === "words" ? "#2563eb" : "transparent",
-                color: subTab === "words" ? "#fff" : "var(--fg-dim, #a1a1aa)",
-                transition: "all 0.15s",
-              }}
-            >
-              <Map size={15} /> 词汇闯关 (地图)
+            <button className={subTab === "words" ? "is-on" : ""} onClick={() => setSubTab("words")} aria-pressed={subTab === "words"}>
+              听音选图
             </button>
           </div>
-        </div>
+        </nav>
 
         {subTab === "stories" ? (
           <StoryScenes />

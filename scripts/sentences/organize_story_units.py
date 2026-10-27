@@ -14,6 +14,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 OUT = HERE / "out"
 REVIEWED_DIR = OUT / "reviewed"
+PUBLIC = ROOT / "public" / "atlas"
 
 sys.path.insert(0, str(HERE))
 from lexicon import load_words
@@ -107,8 +108,49 @@ def main():
     with open(out_all, "w", encoding="utf-8") as f:
         json.dump(all_story_units, f, ensure_ascii=False, indent=2)
 
-    print(f"Successfully organized {len(all_story_units)} scenes into 3-tier '看图听话' story units!")
-    print(f"Saved consolidated dataset: {out_all} ({out_all.stat().st_size / 1024:.1f} KB)")
+    # The site only needs what the read-along view shows, plus whether a scene's
+    # pictures and recordings are all present.
+    public = [compact(sc) for sc in all_story_units]
+    out_pub = PUBLIC / "story_units.json"
+    out_pub.write_text(json.dumps(public, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    ready = sum(1 for sc in public if sc["ready"])
+    print(f"Organized {len(public)} scenes, {ready} ready (all pictures and recordings present).")
+    print(f"Saved {out_all} and {out_pub} ({out_pub.stat().st_size / 1024:.1f} KB)")
+
+
+def is_ready(sc) -> bool:
+    sid = sc["scene_id"]
+    for i in range(1, len(sc["sentences"]) + 1):
+        stem = f"{sid}_{i:02d}"
+        files = [
+            PUBLIC / "scene_images" / f"{sid}-{i:02d}.png",
+            PUBLIC / "audio" / "scenes" / sid / f"{stem}_narration.mp3",
+            PUBLIC / "audio" / "scenes" / sid / f"{stem}_sentence.mp3",
+        ]
+        if not all(f.exists() for f in files):
+            return False
+    return True
+
+
+def compact(sc):
+    return {
+        "id": sc["scene_id"],
+        "level": sc["level"],
+        "topic": sc["topic"],
+        "title": sc["title"],
+        "title_zh": sc.get("title_zh", ""),
+        "ready": is_ready(sc),
+        "sentences": [
+            {
+                "en": s["en"],
+                "zh": s["zh"],
+                "narration": s.get("narration", ""),
+                "words": [{"id": t["id"], "word": t["word"], "zh": t["zh"]} for t in s.get("sentence_targets", [])],
+            }
+            for s in sc["sentences"]
+        ],
+    }
 
 if __name__ == "__main__":
     main()
