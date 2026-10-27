@@ -1,0 +1,93 @@
+{
+ "scene_id": "A1-013",
+ "level": "A1",
+ "topic": "arts",
+ "targets": [
+  "paint",
+  "picture",
+  "guitar",
+  "band",
+  "painting",
+  "music",
+  "actor",
+  "art",
+  "museum",
+  "artist",
+  "piano",
+  "photograph",
+  "reason"
+ ],
+ "review_words": [
+  "wake",
+  "lunch",
+  "tall",
+  "also"
+ ],
+ "title": "A Day at the Museum",
+ "title_zh": "博物馆的一天",
+ "setting": "A bright art museum with large white walls.",
+ "characters": [
+  {
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
+  },
+  {
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara and Kofi visit the art museum today.",
+   "zh": "萨拉和科菲今天去参观美术馆。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) walk up the steps of a big art museum.",
+   "draw": "yes"
+  },
+  {
+   "en": "Sara is an artist with paint on her hands.",
+   "zh": "萨拉是一位画家，手上沾着颜料。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) stands in a bright museum hall holding a brush, her hands covered in colourful paint.",
+   "draw": "yes"
+  },
+  {
+   "en": "One painting shows a tall actor on a stage.",
+   "zh": "有一幅画画的是舞台上一位高个子演员。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) look at a large painting on a white museum wall; the painting shows a tall actor in a costume on a theatre stage.",
+   "draw": "yes"
+  },
+  {
+   "en": "Another painting shows a band with a guitar.",
+   "zh": "另一幅画画的是一支有吉他的乐队。",
+   "scene_prompt": "A large painting on a white museum wall shows a small band of musicians, one playing a guitar.",
+   "draw": "yes"
+  },
+  {
+   "en": "Next to it, a man plays piano music.",
+   "zh": "在它旁边，一个男人在弹钢琴曲。",
+   "scene_prompt": "A man plays a grand piano in a bright museum hall next to paintings.",
+   "draw": "yes"
+  },
+  {
+   "en": "Kofi also takes a photograph of the piano player.",
+   "zh": "科菲还给弹钢琴的人拍了一张照片。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) holds up a camera toward a man at a grand piano.",
+   "draw": "yes"
+  },
+  {
+   "en": "Sara draws a picture in her small book.",
+   "zh": "萨拉在她的小本子上画了一幅画。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sits on a museum bench and sketches the piano player in a small sketchbook.",
+   "draw": "yes"
+  },
+  {
+   "en": "Art is the reason for Sara's big smile.",
+   "zh": "艺术就是萨拉笑得这么开心的原因。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) smiles widely in front of colourful paintings while Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) smiles at her.",
+   "draw": "partly",
+   "draw_note": "Shows Sara beaming in front of the paintings; the idea of 'reason' can't be drawn."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

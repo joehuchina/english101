@@ -1,0 +1,94 @@
+{
+ "scene_id": "A1-026",
+ "level": "A1",
+ "topic": "city",
+ "targets": [
+  "town",
+  "london",
+  "centre",
+  "city",
+  "village",
+  "house",
+  "area",
+  "build",
+  "building",
+  "flat",
+  "park",
+  "street",
+  "post-office"
+ ],
+ "review_words": [
+  "sock",
+  "australian",
+  "postcard",
+  "holiday"
+ ],
+ "title": "A Holiday in London",
+ "title_zh": "伦敦假期",
+ "setting": "Busy streets in central London with tall buildings and a green park.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Lily are on holiday in London.",
+   "zh": "本和莉莉在伦敦度假。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) smile near a tall stone clock tower and a red double-decker bus.",
+   "draw": "yes"
+  },
+  {
+   "en": "At home, they live in a small village.",
+   "zh": "在家里，他们住在一个小村庄。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) wave in front of a few small cottages among green fields.",
+   "draw": "partly",
+   "draw_note": "Shows the children in a small village; 'at home' (as opposed to London) can't be shown."
+  },
+  {
+   "en": "London is a very big and busy city.",
+   "zh": "伦敦是一座又大又繁忙的城市。",
+   "scene_prompt": "A wide view of a big busy city with tall buildings, many people, cars and red buses.",
+   "draw": "yes"
+  },
+  {
+   "en": "They stay in a flat on a busy street.",
+   "zh": "他们住在一条热闹街道上的一套公寓里。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) look out of a flat window at a busy street below.",
+   "draw": "yes"
+  },
+  {
+   "en": "In the town centre, they find a post office.",
+   "zh": "在市中心，他们找到了一家邮局。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk up to a post office with a red post box outside, in the middle of a busy town square.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben sends a postcard to Grandma Rosa's house.",
+   "zh": "本给罗莎奶奶家寄了一张明信片。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) drops a postcard with a picture of a red bus into a red post box while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watches.",
+   "draw": "partly",
+   "draw_note": "Shows Ben posting a postcard; that it goes to Grandma Rosa's house can't be shown."
+  },
+  {
+   "en": "Workers build a tall building in this area.",
+   "zh": "工人们在这个地区建一栋高楼。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watch workers in hard hats build a tall building with a crane.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then they rest in a big green park.",
+   "zh": "然后他们在一个绿油油的大公园里休息。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit on the grass under a tree in a big green park.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

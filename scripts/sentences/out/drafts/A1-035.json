@@ -1,0 +1,185 @@
+{
+ "story": "On a Saturday in April, Nina and Omar talk about a big trip. They want to visit a new country. Nina makes hot soup in a brown bowl. Omar helps her with the plates. There are a few plates on the table. There is enough food for the night. Nina is excited about the big meal. Omar holds a plate in his hand. He puts the plate on his head.",
+ "title": "A Saturday Meal",
+ "title_zh": "星期六的一餐",
+ "setting": "A bright kitchen and dining room.",
+ "characters": [
+  {
+   "name": "Nina",
+   "look": "a young girl with long black hair and a yellow shirt"
+  },
+  {
+   "name": "Omar",
+   "look": "a young boy with short curly hair and a blue t-shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a sunny Saturday in April.",
+   "zh": "现在是四月一个阳光明媚的星期六。",
+   "scene_prompt": "Nina and Omar stand in a bright kitchen on a sunny Saturday morning."
+  },
+  {
+   "en": "They want to visit a big country.",
+   "zh": "他们想去一个大国。",
+   "scene_prompt": "Nina and Omar look at a large world map on the wall."
+  },
+  {
+   "en": "Nina makes hot soup in a brown bowl.",
+   "zh": "妮娜在棕色的碗里做热汤。",
+   "scene_prompt": "Nina puts hot soup into a brown bowl on the table."
+  },
+  {
+   "en": "Omar helps her with the plates.",
+   "zh": "奥马尔帮她拿盘子。",
+   "scene_prompt": "Omar helps Nina carry white plates to the table."
+  },
+  {
+   "en": "There are a few plates on the table.",
+   "zh": "桌上有几个盘子。",
+   "scene_prompt": "Omar places a few white plates on a large wooden table."
+  },
+  {
+   "en": "There is enough food for the night.",
+   "zh": "有足够的食物过夜。",
+   "scene_prompt": "A large table full of many different food items in the evening."
+  },
+  {
+   "en": "Nina is excited about the big meal.",
+   "zh": "妮娜对这顿大餐感到很兴奋。",
+   "scene_prompt": "Nina with long black hair looks very happy in the kitchen."
+  },
+  {
+   "en": "Omar holds a plate in his hand.",
+   "zh": "奥马尔手里拿着一个盘子。",
+   "scene_prompt": "Omar holds a white plate in his hand near the table."
+  },
+  {
+   "en": "He puts the plate on his head.",
+   "zh": "他把盘子放在头上。",
+   "scene_prompt": "Omar with short curly hair balances a plate on his head."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "stop",
+  "night"
+ ],
+ "scene_id": "A1-035",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "enough",
+  "few",
+  "country",
+  "april",
+  "with",
+  "plate",
+  "saturday",
+  "brown",
+  "help",
+  "high",
+  "soup",
+  "big",
+  "hand",
+  "excited"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "april",
+     "saturday"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "country",
+     "big"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "brown",
+     "soup"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "with",
+     "plate",
+     "help"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "plate"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "night"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "big",
+     "excited"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "plate",
+     "hand"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "plate"
+    ],
+    "review_hits": [
+     "head"
+    ]
+   }
+  ],
+  "missing": [
+   "enough",
+   "few",
+   "high"
+  ],
+  "review_used": [
+   "head",
+   "night"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 64.6
+}

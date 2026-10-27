@@ -1,0 +1,169 @@
+{
+ "story": "Zoe and Raj are cleaning the house. Raj makes a mistake and drops a dirty cup on the floor. Zoe helps him clean it up before lunch.",
+ "title": "Cleaning the House",
+ "title_zh": "打扫房子",
+ "setting": "A bright living room with a wooden floor.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "a young girl with short brown hair and a yellow t-shirt"
+  },
+  {
+   "name": "Raj",
+   "look": "a young boy with black hair and a blue sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "At the beginning, Raj is very fast.",
+   "zh": "在开始的时候，Raj动作很快。",
+   "scene_prompt": "Raj moves fast in the living room at the beginning."
+  },
+  {
+   "en": "He wants to move sixty small chairs.",
+   "zh": "他想移动六十把小椅子。",
+   "scene_prompt": "Raj tries to move sixty small chairs across the room."
+  },
+  {
+   "en": "He makes a mistake and drops a cup.",
+   "zh": "他犯了一个错误，掉了一个杯子。",
+   "scene_prompt": "Raj makes a mistake and drops a cup."
+  },
+  {
+   "en": "The dirty cup hits his left foot.",
+   "zh": "那个脏杯子撞到了他的左脚。",
+   "scene_prompt": "A dirty cup hits Raj's foot on the floor."
+  },
+  {
+   "en": "The sun is low at four p.m.",
+   "zh": "下午四点时，太阳很低。",
+   "scene_prompt": "The sun is low in the sky at four p.m."
+  },
+  {
+   "en": "Zoe sees that cup on the floor.",
+   "zh": "Zoe看到那个杯子在地上。",
+   "scene_prompt": "Zoe looks at that dirty cup on the floor."
+  },
+  {
+   "en": "She will send him a lunch box.",
+   "zh": "她会给他送一个午餐盒。",
+   "scene_prompt": "Zoe sends a lunch box to Raj."
+  },
+  {
+   "en": "He is the second boy to help.",
+   "zh": "他是第二个帮忙的男孩。",
+   "scene_prompt": "Raj is the second boy helping Zoe clean."
+  }
+ ],
+ "review_words": [
+  "wake",
+  "lunch",
+  "coat",
+  "fast"
+ ],
+ "scene_id": "A1-014",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "foot",
+  "him",
+  "p-m",
+  "beginning",
+  "dirty",
+  "that",
+  "third",
+  "second",
+  "floor",
+  "low",
+  "move",
+  "send",
+  "sixty",
+  "mistake"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "beginning"
+    ],
+    "review_hits": [
+     "fast"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "move",
+     "sixty"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "mistake"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "foot",
+     "dirty"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "p-m",
+     "low"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "that",
+     "floor"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "him",
+     "send"
+    ],
+    "review_hits": [
+     "lunch"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "third",
+   "second"
+  ],
+  "review_used": [
+   "lunch",
+   "fast"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 53.1
+}

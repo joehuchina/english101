@@ -1,0 +1,97 @@
+{
+ "scene_id": "A1-032",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "europe",
+  "airport",
+  "far",
+  "australia",
+  "asia",
+  "mexico",
+  "south",
+  "train",
+  "germany",
+  "car",
+  "bicycle",
+  "visit",
+  "canada",
+  "america"
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "head",
+  "yesterday"
+ ],
+ "title": "Big Travel Plans",
+ "title_zh": "宏大的旅行计划",
+ "setting": "A bright living room with a large world map on the wall.",
+ "characters": [
+  {
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
+  },
+  {
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara and Kofi look at a big world map.",
+   "zh": "萨拉和科菲看着一张大大的世界地图。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) stand in front of a large world map with no writing on the living room wall.",
+   "draw": "yes"
+  },
+  {
+   "en": "Sara wants to visit Germany in Europe.",
+   "zh": "萨拉想去欧洲的德国游玩。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) points at Germany in Europe on the world map, smiling.",
+   "draw": "partly",
+   "draw_note": "Shows Sara pointing at Germany on the map; 'wants to visit' can't be shown."
+  },
+  {
+   "en": "Kofi shakes his head: Australia is very far.",
+   "zh": "科菲摇摇头：澳大利亚太远了。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) shakes his head and points at Australia at the bottom of the map.",
+   "draw": "partly",
+   "draw_note": "Shows Kofi shaking his head at Australia on the map; 'very far' is only hinted."
+  },
+  {
+   "en": "Mexico is to the south of America.",
+   "zh": "墨西哥在美国的南边。",
+   "scene_prompt": "The finger of Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) moves down the map from the United States to Mexico.",
+   "draw": "partly",
+   "draw_note": "Shows a finger moving down the map; country names can't be read."
+  },
+  {
+   "en": "Sara moves her finger from Canada to Asia.",
+   "zh": "萨拉的手指从加拿大移到亚洲。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) moves her finger across the world map from Canada to Asia.",
+   "draw": "yes"
+  },
+  {
+   "en": "In Germany, trains leave from a big station.",
+   "zh": "在德国，火车从一个大车站出发。",
+   "scene_prompt": "A fast train leaves a big busy station with a glass roof, a small German flag hanging on a pillar.",
+   "draw": "partly",
+   "draw_note": "Shows a train leaving a big station; that it is in Germany is only hinted by the flag."
+  },
+  {
+   "en": "Kofi puts his bicycle in a big box.",
+   "zh": "科菲把他的自行车放进一个大箱子里。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) puts his bicycle into a big cardboard box in the living room, Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holding the box open.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then they drive their car to the airport.",
+   "zh": "然后他们开车去机场。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) drive their car along a road toward an airport, a plane in the sky above.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

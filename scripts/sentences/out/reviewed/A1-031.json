@@ -1,0 +1,98 @@
+{
+ "scene_id": "A1-031",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "but",
+  "red",
+  "conversation",
+  "dinner",
+  "bring",
+  "colour",
+  "afternoon",
+  "t-shirt",
+  "end",
+  "delicious",
+  "fill",
+  "become",
+  "up",
+  "sure"
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "bad",
+  "upstairs"
+ ],
+ "title": "Tomato Soup for Dinner",
+ "title_zh": "晚餐的番茄汤",
+ "setting": "A bright family kitchen in a two-floor house.",
+ "characters": [
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Lily and Dad have a conversation about dinner.",
+   "zh": "莉莉和爸爸聊起了晚餐。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, talks with her dad Dan (a tall man of about forty with a short brown beard and a navy jumper) in a sunny kitchen, an empty pot on the table.",
+   "draw": "partly",
+   "draw_note": "Shows Lily and Dad talking in the kitchen; what they say can't be shown."
+  },
+  {
+   "en": "That afternoon, Dad brings tomatoes up from the garden.",
+   "zh": "那天下午，爸爸从花园里拿上来一些番茄。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) carries a basket of red tomatoes up the garden steps into the kitchen in afternoon sun.",
+   "draw": "partly",
+   "draw_note": "Shows Dad carrying tomatoes up from the garden; 'that afternoon' is only hinted by the light."
+  },
+  {
+   "en": "The tomato soup slowly becomes thick.",
+   "zh": "番茄汤慢慢变稠了。",
+   "scene_prompt": "A pot of thick red tomato soup bubbles on the stove, Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, stirring it.",
+   "draw": "partly",
+   "draw_note": "Shows thick soup in the pot; the change over time can't be shown."
+  },
+  {
+   "en": "Some soup falls on her red T-shirt.",
+   "zh": "一些汤洒在了她的红T恤上。",
+   "scene_prompt": "A drop of soup falls from a spoon onto the red T-shirt of Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, and she looks down.",
+   "draw": "yes"
+  },
+  {
+   "en": "It is not bad; the colour is the same.",
+   "zh": "这不要紧，颜色是一样的。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, smiles and shows her T-shirt; the soup stain is the same red as the shirt.",
+   "draw": "partly",
+   "draw_note": "Shows the stain the same red as the shirt; 'not bad' is only in her smile."
+  },
+  {
+   "en": "But she runs upstairs for a clean shirt.",
+   "zh": "但她还是跑上楼去换一件干净的衬衫。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a red T-shirt and jeans, runs up the stairs of the house.",
+   "draw": "yes"
+  },
+  {
+   "en": "Dad fills two big bowls with hot soup.",
+   "zh": "爸爸把两大碗盛满热汤。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) fills two big bowls with hot red tomato soup at the table.",
+   "draw": "yes"
+  },
+  {
+   "en": "In the end, Lily is sure it is delicious.",
+   "zh": "最后，莉莉确信这汤很好喝。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now wearing a clean white T-shirt and jeans, tastes the soup and smiles happily, Dan (a tall man of about forty with a short brown beard and a navy jumper) watching.",
+   "draw": "partly",
+   "draw_note": "Shows Lily tasting soup happily; 'in the end' and 'sure' can't be shown."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

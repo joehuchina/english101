@@ -1,0 +1,127 @@
+{
+ "story": "Rosa and Ali are at a beautiful river. They remember their trip to see an elephant. Now, they share one big bed in a small house.",
+ "title": "A Trip to the River",
+ "title_zh": "河边的旅行",
+ "setting": "A small wooden house near a large river.",
+ "characters": [
+  {
+   "name": "Rosa",
+   "look": "a woman with long brown hair and a green shirt"
+  },
+  {
+   "name": "Ali",
+   "look": "a man with short black hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Rosa and Ali sit by the river.",
+   "zh": "Rosa和Ali坐在河边旁边。",
+   "scene_prompt": "Rosa, a woman with long brown hair and a green shirt, and Ali, a man with short black hair and a blue shirt, sit by a large blue river."
+  },
+  {
+   "en": "They remember a very large elephant.",
+   "zh": "他们记得一只非常大的大象。",
+   "scene_prompt": "Rosa and Ali look at a picture of a large grey elephant."
+  },
+  {
+   "en": "They saw the elephant during their trip.",
+   "zh": "他们在旅行期间看到了那只大象。",
+   "scene_prompt": "A large grey elephant walks near Rosa and Ali in a green field."
+  },
+  {
+   "en": "They stay in the same small house.",
+   "zh": "他们住在同一个小房子里。",
+   "scene_prompt": "Rosa and Ali stand in front of a small wooden house."
+  },
+  {
+   "en": "They share one very big bed.",
+   "zh": "他们共用一张非常大的床。",
+   "scene_prompt": "A large comfortable bed is inside the small wooden house."
+  },
+  {
+   "en": "Ali is the kind husband of Rosa.",
+   "zh": "Ali是Rosa那位善良的丈夫。",
+   "scene_prompt": "Ali smiles at Rosa inside the small wooden house."
+  }
+ ],
+ "review_words": [
+  "wife",
+  "river",
+  "horse",
+  "elephant"
+ ],
+ "scene_id": "A1-052",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "one",
+  "bed",
+  "same",
+  "during",
+  "remember"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "river"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "remember"
+    ],
+    "review_hits": [
+     "elephant"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "during"
+    ],
+    "review_hits": [
+     "elephant"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "same"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "one",
+     "bed"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "river",
+   "elephant"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 25.2
+}

@@ -1,0 +1,172 @@
+{
+ "story": "Aiko and her husband Dan are very kind people. They live in a small house with their child. They help a poor girl and some children during Christmas.",
+ "title": "A Kind Family",
+ "title_zh": "善良的一家人",
+ "setting": "A small, cozy house near a snowy street during winter.",
+ "characters": [
+  {
+   "name": "Aiko",
+   "look": "A kind woman with short black hair and a blue sweater."
+  },
+  {
+   "name": "Dan",
+   "look": "A tall man with glasses and a brown coat."
+  },
+  {
+   "name": "Finn",
+   "look": "A small boy with curly hair wearing a red hat."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Dan is a kind husband to Aiko.",
+   "zh": "Dan是Aiko的一个善良的丈夫。",
+   "scene_prompt": "Dan, a tall man with glasses, smiles at Aiko, a woman with short black hair."
+  },
+  {
+   "en": "Aiko is a friendly Japanese wife.",
+   "zh": "Aiko是一个友好的日本妻子。",
+   "scene_prompt": "Aiko, a woman with short black hair, waves her hand warmly."
+  },
+  {
+   "en": "They have a small child named Finn.",
+   "zh": "他们有一个名叫Finn的小孩子。",
+   "scene_prompt": "Dan and Aiko stand next to Finn, a small boy in a red hat."
+  },
+  {
+   "en": "Finn was born one month ago.",
+   "zh": "Finn是一个月前出生的。",
+   "scene_prompt": "Aiko holds a small baby wrapped in a soft blanket."
+  },
+  {
+   "en": "A strong policeman walks on the street.",
+   "zh": "一名强壮的男警察在街上走着。",
+   "scene_prompt": "A strong policeman in a blue uniform walks past a snowy house."
+  },
+  {
+   "en": "A poor girl stands in the snow.",
+   "zh": "一个贫穷的女孩站在雪地里。",
+   "scene_prompt": "A young girl in old, thin clothes stands alone in the white snow."
+  },
+  {
+   "en": "Kind people help the children at Christmas.",
+   "zh": "善良的人们在圣诞节帮助孩子们。",
+   "scene_prompt": "Dan and Aiko give warm clothes to a group of children in the snow."
+  },
+  {
+   "en": "The story is true and very sweet.",
+   "zh": "这个故事是真的，而且很甜美。",
+   "scene_prompt": "The children are smiling and wearing new warm coats."
+  }
+ ],
+ "review_words": [
+  "clothes",
+  "strong",
+  "month",
+  "let"
+ ],
+ "scene_id": "A1-007",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "born",
+  "japanese",
+  "child",
+  "kind",
+  "policeman",
+  "poor",
+  "girl",
+  "husband",
+  "friendly",
+  "children",
+  "christmas",
+  "wife",
+  "true"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "kind",
+     "husband"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "japanese",
+     "friendly",
+     "wife"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "child"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "born"
+    ],
+    "review_hits": [
+     "month"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "policeman"
+    ],
+    "review_hits": [
+     "strong"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "poor",
+     "girl"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "child",
+     "children",
+     "christmas"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "true"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "strong",
+   "month"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 28.4
+}

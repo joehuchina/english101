@@ -1,0 +1,207 @@
+{
+ "story": "Sara and Ivan are at a big party for a social club. They meet a new lady and talk about people from around the world. They learn about the different members in their group.",
+ "title": "The Club Party",
+ "title_zh": "俱乐部聚会",
+ "setting": "A bright room with many people and colorful decorations.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "A young woman with long brown hair and a green dress."
+  },
+  {
+   "name": "Ivan",
+   "look": "A tall man with short black hair and a blue shirt."
+  },
+  {
+   "name": "Maya",
+   "look": "An older lady with silver hair and a yellow scarf."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara and Ivan go to a big party.",
+   "zh": "Sara和Ivan去参加一个大型聚会。",
+   "scene_prompt": "Sara with long brown hair and Ivan with short black hair walk into a room with colorful decorations."
+  },
+  {
+   "en": "The room is full of every interesting person.",
+   "zh": "房间里到处都是有趣的人。",
+   "scene_prompt": "Many people are talking and laughing in a bright room."
+  },
+  {
+   "en": "A kind lady talks to them there.",
+   "zh": "一位和蔼的女士在那里和他们交谈。",
+   "scene_prompt": "Maya with silver hair and a yellow scarf smiles at Sara and Ivan."
+  },
+  {
+   "en": "She is a member of this club.",
+   "zh": "她是这个俱乐部的成员。",
+   "scene_prompt": "Maya points to a small badge on her yellow scarf."
+  },
+  {
+   "en": "She has a married daughter in Australia.",
+   "zh": "她有一个在澳大利亚的已婚女儿。",
+   "scene_prompt": "Maya shows a small photo of a woman to Sara."
+  },
+  {
+   "en": "The group has many different nationalities.",
+   "zh": "这个团体有很多不同的国籍。",
+   "scene_prompt": "A large group of diverse people stands together in a circle."
+  },
+  {
+   "en": "Every adult man and woman is welcome.",
+   "zh": "每一位成年男子和女士都受到欢迎。",
+   "scene_prompt": "A man and a woman shake hands in the middle of the room."
+  },
+  {
+   "en": "Age does not matter to this group.",
+   "zh": "年龄对这个团体来说并不重要。",
+   "scene_prompt": "A young man and an old man are laughing together."
+  },
+  {
+   "en": "Anyone can join this group in the world.",
+   "zh": "世界上任何人都能够加入这个团体。",
+   "scene_prompt": "A man holds a sign that shows a picture of the earth."
+  },
+  {
+   "en": "They have a good feeling about it.",
+   "zh": "他们对此感觉很好。",
+   "scene_prompt": "Sara and Ivan are smiling happily at the party."
+  },
+  {
+   "en": "They met many people once before.",
+   "zh": "他们以前见过很多人。",
+   "scene_prompt": "Sara and Ivan look at a photo album of people."
+  }
+ ],
+ "review_words": [
+  "once",
+  "sock",
+  "feeling",
+  "australian"
+ ],
+ "scene_id": "A1-024",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "married",
+  "lady",
+  "age",
+  "nationality",
+  "anyone",
+  "group",
+  "member",
+  "daughter",
+  "world",
+  "man",
+  "adult",
+  "party",
+  "interesting"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "party"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "interesting"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "lady"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "member"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "married",
+     "daughter"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "nationality",
+     "group"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "man",
+     "adult"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "age",
+     "group"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "anyone",
+     "group",
+     "world"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "feeling"
+    ]
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "once"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "once",
+   "feeling"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 69.8
+}

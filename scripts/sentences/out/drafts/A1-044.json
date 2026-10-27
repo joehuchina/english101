@@ -1,0 +1,179 @@
+{
+ "story": "Emma talks to Ali about how to stay healthy. She explains that eating good food and sleeping well is important. Ali learns that too much salt is dangerous for him.",
+ "title": "Staying Healthy",
+ "title_zh": "保持健康",
+ "setting": "A bright kitchen with a table and chairs.",
+ "characters": [
+  {
+   "name": "Emma",
+   "look": "a young woman with short brown hair and a green shirt"
+  },
+  {
+   "name": "Ali",
+   "look": "a young man with black hair and a blue sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Emma wants to stay healthy every day.",
+   "zh": "Emma 想要每天都保持健康。",
+   "scene_prompt": "Emma with short brown hair and a green shirt stands in a bright kitchen."
+  },
+  {
+   "en": "She eats fresh fruit and vegetable for lunch.",
+   "zh": "她午餐吃新鲜的水果和蔬菜。",
+   "scene_prompt": "Emma puts a red apple and a green carrot on the table."
+  },
+  {
+   "en": "It is a fact that exercise is good.",
+   "zh": "运动很好是一个事实。",
+   "scene_prompt": "Emma points to a picture of a person running on the wall."
+  },
+  {
+   "en": "Ali needs to drink a lot of water.",
+   "zh": "Ali 需要喝很多的水。",
+   "scene_prompt": "Ali with black hair and a blue sweater holds a clear water bottle."
+  },
+  {
+   "en": "Too much salt is very dangerous.",
+   "zh": "太多的盐是非常危险的。",
+   "scene_prompt": "Ali looks at a small white bowl of salt on the table."
+  },
+  {
+   "en": "Emma uses a toothbrush and toothpaste at night.",
+   "zh": "Emma 在晚上使用牙刷和牙膏。",
+   "scene_prompt": "Emma holds a small blue toothbrush and a tube of toothpaste near a sink."
+  },
+  {
+   "en": "Do not forget to clean your mouth.",
+   "zh": "不要忘记清洁你的口腔。",
+   "scene_prompt": "Emma points to her mouth and smiles."
+  },
+  {
+   "en": "Keep your eye and ear very clean.",
+   "zh": "保持你的眼睛和耳朵非常干净。",
+   "scene_prompt": "Emma points to her eye and her ear."
+  },
+  {
+   "en": "Good sleep is also very important.",
+   "zh": "良好的睡眠也非常重要。",
+   "scene_prompt": "Ali lies down on a soft white pillow with his eyes closed."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "toothpaste",
+  "door",
+  "forget"
+ ],
+ "scene_id": "A1-044",
+ "level": "A1",
+ "topic": "health",
+ "targets": [
+  "dangerous",
+  "eye",
+  "drink",
+  "mouth",
+  "salt",
+  "sleep",
+  "toothbrush",
+  "ear",
+  "healthy",
+  "exercise",
+  "fruit",
+  "vegetable",
+  "fact"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "healthy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "fruit",
+     "vegetable"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "exercise",
+     "fact"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "drink"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "dangerous",
+     "salt"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "toothbrush"
+    ],
+    "review_hits": [
+     "toothpaste"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "mouth"
+    ],
+    "review_hits": [
+     "forget"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "eye",
+     "ear"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "sleep"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "toothpaste",
+   "forget"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 45.4
+}

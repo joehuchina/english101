@@ -1,0 +1,94 @@
+{
+ "scene_id": "A1-056",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "grandfather",
+  "friend",
+  "club",
+  "woman",
+  "police",
+  "everybody",
+  "son",
+  "invite",
+  "american",
+  "russian",
+  "british",
+  "smile"
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "tiger",
+  "star"
+ ],
+ "title": "Grandfather's Club",
+ "title_zh": "祖父的俱乐部",
+ "setting": "A bright club room with many people.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "joe",
+   "name": "Grandpa Joe",
+   "look": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan)"
+  },
+  {
+   "id": "ivan",
+   "name": "Ivan",
+   "look": "Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben's grandfather invites him to his club.",
+   "zh": "本的爷爷邀请他去自己的俱乐部。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) holds the hand of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and waves him in at the door of a bright club room.",
+   "draw": "partly",
+   "draw_note": "Shows Grandpa Joe welcoming Ben in at the club door; the invitation itself is only suggested."
+  },
+  {
+   "en": "His grandfather has friends from many countries.",
+   "zh": "他的爷爷有来自许多国家的朋友。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) greets a group of friends of different looks in the club room, small flags of different countries on the tables, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) watching.",
+   "draw": "partly",
+   "draw_note": "Shows Grandpa Joe greeting many different friends with flags on the tables; where they come from is only suggested."
+  },
+  {
+   "en": "An American woman smiles and waves at Ben.",
+   "zh": "一位美国女士微笑着向本挥手。",
+   "scene_prompt": "A kind woman with a small American flag pin on her jacket smiles and waves at Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
+   "draw": "yes"
+  },
+  {
+   "en": "Her son has a tiger on his shirt.",
+   "zh": "她的儿子穿着一件印着老虎的衬衫。",
+   "scene_prompt": "A small boy beside the kind woman with the American flag pin wears a T-shirt with a big tiger picture.",
+   "draw": "yes"
+  },
+  {
+   "en": "A Russian man and his wife dance together.",
+   "zh": "一位俄罗斯男士和他的妻子一起跳舞。",
+   "scene_prompt": "An older man and his wife dance together in the club room next to a table with a small Russian flag.",
+   "draw": "partly",
+   "draw_note": "Shows a couple dancing by a Russian flag; that they are Russian and married is only suggested."
+  },
+  {
+   "en": "Ivan, a British police officer, tells a funny story.",
+   "zh": "伊万是一位英国警官，他讲了一个有趣的故事。",
+   "scene_prompt": "Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform) tells a story with big gestures in the club room, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) listening and grinning.",
+   "draw": "partly",
+   "draw_note": "Shows Ivan telling a story with big gestures; the funny story itself can't be shown."
+  },
+  {
+   "en": "Everybody laughs and gives him a big smile.",
+   "zh": "每个人都笑了，并对他露出大大的笑容。",
+   "scene_prompt": "Everyone in the club room laughs and smiles at Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform), including Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan).",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,133 @@
+{
+ "story": "Zoe and Raj are in the living room looking for something to watch or read. They look at the television and a magazine, but they want more news. Finally, they find a video on a tablet.",
+ "title": "Looking for News",
+ "title_zh": "寻找新闻",
+ "setting": "A bright living room with a large window.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "A young girl with short black hair and a yellow shirt."
+  },
+  {
+   "name": "Raj",
+   "look": "A young boy with glasses and a blue sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Zoe looks at a pretty magazine.",
+   "zh": "Zoe 看著一本漂亮的杂志。",
+   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt, looks at a pretty magazine on a table."
+  },
+  {
+   "en": "Raj reads a very large newspaper.",
+   "zh": "Raj 正在读一份非常大的报纸。",
+   "scene_prompt": "Raj, a young boy with glasses and a blue sweater, reads a very large newspaper."
+  },
+  {
+   "en": "The television is on in the room.",
+   "zh": "房间里的电视机开着。",
+   "scene_prompt": "A television is on in the bright living room."
+  },
+  {
+   "en": "They want to hear the radio news.",
+   "zh": "他们想听收音机里的新闻。",
+   "scene_prompt": "Zoe and Raj sit near a small radio on a table."
+  },
+  {
+   "en": "Why is there no information here?",
+   "zh": "为什么这里没有信息呢？",
+   "scene_prompt": "Zoe looks confused while looking at an empty table."
+  },
+  {
+   "en": "They watch a short video or film.",
+   "zh": "他们看一段短视频或电影。",
+   "scene_prompt": "Zoe and Raj watch a short video on a tablet together."
+  }
+ ],
+ "review_words": [
+  "pretty",
+  "too",
+  "glass",
+  "or"
+ ],
+ "scene_id": "A1-022",
+ "level": "A1",
+ "topic": "media",
+ "targets": [
+  "newspaper",
+  "magazine",
+  "news",
+  "television",
+  "information",
+  "radio",
+  "video",
+  "why"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "magazine"
+    ],
+    "review_hits": [
+     "pretty"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "newspaper"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "television"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "news",
+     "radio"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "information",
+     "why"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "video"
+    ],
+    "review_hits": [
+     "or"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "pretty",
+   "or"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 23.6
+}

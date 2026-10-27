@@ -1,0 +1,168 @@
+{
+ "story": "Lily is at home with her grandmother. They look at a calendar to check a special date. Lily wants some new pants for school. She sees a flower on the wall and thinks about her student life.",
+ "title": "A Special Day",
+ "title_zh": "特别的一天",
+ "setting": "A cozy living room in a house.",
+ "characters": [
+  {
+   "name": "Lily",
+   "look": "A young girl with long brown hair and a yellow shirt."
+  },
+  {
+   "name": "Grandmother",
+   "look": "An old woman with grey hair and glasses."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Lily is at home with her grandmother.",
+   "zh": "莉莉和她的祖母在一起。",
+   "scene_prompt": "Lily, a young girl with long brown hair and a yellow shirt, sits with Grandmother, an old woman with grey hair and glasses, in a living room."
+  },
+  {
+   "en": "They look at the date on the calendar.",
+   "zh": "她们看着日历上的日期。",
+   "scene_prompt": "Lily and Grandmother look at a large paper calendar on the table."
+  },
+  {
+   "en": "The next holiday is very soon.",
+   "zh": "下一个假期很快就要到了。",
+   "scene_prompt": "Grandmother points to a square on the calendar."
+  },
+  {
+   "en": "Lily wants some new blue pants.",
+   "zh": "莉莉想要一些新的蓝色裤子。",
+   "scene_prompt": "Lily points to a pair of blue pants in a magazine."
+  },
+  {
+   "en": "Which pair does she like more?",
+   "zh": "她更喜欢哪一双呢？",
+   "scene_prompt": "Lily looks at two different pairs of blue pants in a magazine."
+  },
+  {
+   "en": "A small flower is on the wall.",
+   "zh": "墙上有一朵小花。",
+   "scene_prompt": "A small colorful flower decoration hangs on the white living room wall."
+  },
+  {
+   "en": "The student needs a clean toilet.",
+   "zh": "这个学生需要一个干净的厕所。",
+   "scene_prompt": "Lily, a student, looks at a small door leading to a clean bathroom."
+  },
+  {
+   "en": "She moves her arm to point.",
+   "zh": "她移动手臂去指着。",
+   "scene_prompt": "Lily moves her arm to point at the magazine on the table."
+  }
+ ],
+ "review_words": [
+  "horse",
+  "flower",
+  "library",
+  "student"
+ ],
+ "scene_id": "A1-058",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "pants",
+  "very",
+  "more",
+  "home",
+  "date",
+  "toilet",
+  "grandmother",
+  "wall",
+  "some",
+  "which",
+  "way",
+  "arm",
+  "next"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "home",
+     "grandmother"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "date"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "very",
+     "next"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "pants",
+     "some"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "which"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "wall"
+    ],
+    "review_hits": [
+     "flower"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "toilet"
+    ],
+    "review_hits": [
+     "student"
+    ]
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "arm"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "more",
+   "way"
+  ],
+  "review_used": [
+   "flower",
+   "student"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 58.1
+}

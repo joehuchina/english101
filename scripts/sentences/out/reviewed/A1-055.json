@@ -1,0 +1,93 @@
+{
+ "scene_id": "A1-055",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "all",
+  "come",
+  "eat",
+  "carrot",
+  "near",
+  "just",
+  "birthday",
+  "butter",
+  "close",
+  "off",
+  "wait",
+  "under",
+  "on"
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "pig",
+  "animal"
+ ],
+ "title": "A Birthday Visitor",
+ "title_zh": "生日来客",
+ "setting": "A garden with a small table behind a house.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Mia comes to Ben's house for his birthday.",
+   "zh": "米娅来本家给他过生日。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) arrives at the door with a wrapped gift, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) in a paper party hat welcoming her.",
+   "draw": "yes"
+  },
+  {
+   "en": "They wait for the cake at a garden table.",
+   "zh": "他们坐在花园的桌边等蛋糕。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit at a small garden table with empty plates and forks, looking toward the house door.",
+   "draw": "partly",
+   "draw_note": "Shows them sitting at a table with empty plates; waiting for the cake can only be guessed."
+  },
+  {
+   "en": "Mia puts butter on warm bread for Ben.",
+   "zh": "米娅给本在热面包上抹黄油。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) spreads butter on a slice of bread for Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) at the garden table.",
+   "draw": "yes"
+  },
+  {
+   "en": "Just then, a little pig comes near them.",
+   "zh": "就在这时，一只小猪走到他们身边。",
+   "scene_prompt": "A small pink pig trots up close to the garden table where Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) sit.",
+   "draw": "yes"
+  },
+  {
+   "en": "The hungry animal finds a carrot under the table.",
+   "zh": "这只饿坏了的动物在桌子底下找到一根胡萝卜。",
+   "scene_prompt": "A small pink pig sniffs an orange carrot on the grass under the garden table.",
+   "draw": "yes"
+  },
+  {
+   "en": "It eats all of the carrot very fast.",
+   "zh": "它飞快地把整根胡萝卜都吃光了。",
+   "scene_prompt": "A small pink pig quickly munches the carrot, only the green top left on the grass.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then it pulls the bread off Ben's plate.",
+   "zh": "接着它把本盘子里的面包拽走了。",
+   "scene_prompt": "A small pink pig pulls a buttered slice of bread off the plate of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), who looks surprised.",
+   "draw": "yes"
+  },
+  {
+   "en": "Later, Ben closes the gate so it stays out.",
+   "zh": "后来，本关上了大门，让它待在外面。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) closes the garden gate while a small pink pig stands outside it, Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) laughing.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,94 @@
+{
+ "scene_id": "A1-057",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "personal",
+  "say",
+  "lot",
+  "find",
+  "walk",
+  "as",
+  "run",
+  "light",
+  "look",
+  "first",
+  "busy",
+  "wine",
+  "talk"
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "flower",
+  "cloudy"
+ ],
+ "title": "Good News at the Party",
+ "title_zh": "聚会上的好消息",
+ "setting": "A bright house party and a garden under a cloudy sky.",
+ "characters": [
+  {
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Dan and his wife Anna are at a party.",
+   "zh": "丹和妻子安娜在参加一个聚会。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and his wife Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) arrive at a bright house party.",
+   "draw": "yes"
+  },
+  {
+   "en": "The house is busy and full of light.",
+   "zh": "屋子里很热闹，灯火通明。",
+   "scene_prompt": "A crowded room with many bright lamps, Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) among the guests.",
+   "draw": "yes"
+  },
+  {
+   "en": "A lot of people talk and laugh inside.",
+   "zh": "里面有很多人在聊天说笑。",
+   "scene_prompt": "Many guests stand in groups, talking and laughing in the bright room.",
+   "draw": "yes"
+  },
+  {
+   "en": "First, they look for a glass of wine.",
+   "zh": "首先，他们去找一杯葡萄酒。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) look around the crowded room for drinks.",
+   "draw": "partly",
+   "draw_note": "Shows them looking around the room; 'first' and what they look for can only be guessed."
+  },
+  {
+   "en": "They find red wine on a long table.",
+   "zh": "他们在一张长桌上找到了红葡萄酒。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) pick up glasses of red wine from a long table.",
+   "draw": "yes"
+  },
+  {
+   "en": "Dan says something personal into Anna's ear.",
+   "zh": "丹在安娜耳边说了些私密的话。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) leans close and speaks quietly into the ear of Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), near the garden door.",
+   "draw": "partly",
+   "draw_note": "Shows Dan speaking quietly into Anna's ear; what he says can't be shown."
+  },
+  {
+   "en": "As they walk outside, the sky is cloudy.",
+   "zh": "他们走到外面时，天空阴沉沉的。",
+   "scene_prompt": "Dan (a tall man of about forty with a short brown beard and a navy jumper) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) walk out into a garden under a grey cloudy sky.",
+   "draw": "yes"
+  },
+  {
+   "en": "Happy Anna runs to hug him by the flowers.",
+   "zh": "安娜高兴地在花丛边跑过去抱住他。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) runs happily to hug Dan (a tall man of about forty with a short brown beard and a navy jumper) beside bright flowers in the garden.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,178 @@
+{
+ "story": "Ben wakes up early and takes a shower. He goes downstairs to have a meal. He is interested in these foods and drinks much cola.",
+ "title": "A Busy Morning",
+ "title_zh": "忙碌的早晨",
+ "setting": "A house with a bathroom and a kitchen.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "A young boy with short brown hair and a blue t-shirt."
+  },
+  {
+   "name": "Anna",
+   "look": "A young girl with long blonde hair and a red sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben wakes up very early today.",
+   "zh": "Ben今天起床很早。",
+   "scene_prompt": "Ben with short brown hair wakes up in his bed."
+  },
+  {
+   "en": "He takes a warm shower now.",
+   "zh": "他现在洗个热水澡。",
+   "scene_prompt": "Ben stands under a shower with water falling."
+  },
+  {
+   "en": "He looks at the small clock.",
+   "zh": "他看着那个小闹钟。",
+   "scene_prompt": "Ben looks at a small round clock on the wall."
+  },
+  {
+   "en": "Ben walks downstairs to the kitchen.",
+   "zh": "Ben走下楼来到厨房。",
+   "scene_prompt": "Ben walks down the stairs towards a bright kitchen."
+  },
+  {
+   "en": "Hey, Ben, sit down for a meal!",
+   "zh": "嘿，Ben，坐下来吃饭吧！",
+   "scene_prompt": "Anna waves her hand at Ben in the kitchen."
+  },
+  {
+   "en": "Anna is in a grey chair.",
+   "zh": "Anna坐在一把灰色的椅子上。",
+   "scene_prompt": "Anna with long blonde hair sits in a grey chair."
+  },
+  {
+   "en": "Ben is interested in these foods.",
+   "zh": "Ben对这些食物很感兴趣。",
+   "scene_prompt": "Ben looks closely at many plates of food on the table."
+  },
+  {
+   "en": "Cola is his favourite drink.",
+   "zh": "可乐是他最喜欢的饮料。",
+   "scene_prompt": "Ben looks happily at a bottle of cola."
+  },
+  {
+   "en": "He can drink much cola now.",
+   "zh": "他现在可以喝很多可乐。",
+   "scene_prompt": "Ben drinks cola from a cup and eats something sweet."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "something",
+  "pet"
+ ],
+ "scene_id": "A1-033",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "grey",
+  "much",
+  "can",
+  "hey",
+  "cola",
+  "shower",
+  "early",
+  "these",
+  "favourite",
+  "clock",
+  "downstairs",
+  "meal",
+  "chair",
+  "interested"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "early"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "shower"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "clock"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "downstairs"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "hey",
+     "meal"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "grey",
+     "chair"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "these",
+     "interested"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [
+     "length 5 not in 6-9"
+    ],
+    "hits": [
+     "cola",
+     "favourite"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "can",
+     "cola"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "much"
+  ],
+  "review_used": [],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 59.5
+}

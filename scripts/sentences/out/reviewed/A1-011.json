@@ -1,0 +1,94 @@
+{
+ "scene_id": "A1-011",
+ "level": "A1",
+ "topic": "health",
+ "targets": [
+  "body",
+  "nose",
+  "doctor",
+  "gym",
+  "hospital",
+  "sugar",
+  "thirsty",
+  "food",
+  "tired",
+  "tooth",
+  "relax",
+  "walking",
+  "wonderful"
+ ],
+ "review_words": [
+  "cut",
+  "wake",
+  "love",
+  "really"
+ ],
+ "title": "Omar Feels Better",
+ "title_zh": "奥马尔好起来了",
+ "setting": "A hospital room and a gym in the same town.",
+ "characters": [
+  {
+   "id": "omar",
+   "name": "Omar",
+   "look": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron)"
+  },
+  {
+   "id": "nina",
+   "name": "Nina",
+   "look": "Nina (a woman of about thirty-five with short blonde hair and a white doctor's coat)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar wakes up and feels really tired.",
+   "zh": "奥马尔醒来，觉得真的很累。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron), without his cap and apron and in striped pyjamas, sits up in bed, yawning and rubbing his eyes.",
+   "draw": "yes"
+  },
+  {
+   "en": "He goes to see a doctor at the hospital.",
+   "zh": "于是他去医院找医生看病。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) walks into a bright hospital entrance.",
+   "draw": "yes"
+  },
+  {
+   "en": "The doctor checks his nose and his tooth.",
+   "zh": "医生检查了他的鼻子和牙齿。",
+   "scene_prompt": "Nina (a woman of about thirty-five with short blonde hair and a white doctor's coat) looks at the nose and teeth of Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) with a small light.",
+   "draw": "yes"
+  },
+  {
+   "en": "\"You eat too much sugar,\" the doctor says.",
+   "zh": "“你吃的糖太多了。”医生说。",
+   "scene_prompt": "Nina (a woman of about thirty-five with short blonde hair and a white doctor's coat) points to a bowl of sugar and sweets while Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) looks guilty.",
+   "draw": "partly",
+   "draw_note": "Shows the doctor pointing at sugar and sweets; her exact words can't be shown."
+  },
+  {
+   "en": "Walking is good for your body, too.",
+   "zh": "散步对你的身体也有好处。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) walks briskly along a park path in the sunshine.",
+   "draw": "partly",
+   "draw_note": "Shows Omar walking in the park; the advice that it is good for the body can't be shown."
+  },
+  {
+   "en": "Now Omar loves going to the gym.",
+   "zh": "现在奥马尔爱上了去健身房。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron), now in a grey tracksuit instead of his apron, lifts small weights in a gym and smiles.",
+   "draw": "yes"
+  },
+  {
+   "en": "He is thirsty, so he drinks lots of water.",
+   "zh": "他口渴了，所以喝了很多水。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron), in a grey tracksuit, drinks from a big bottle of water in the gym.",
+   "draw": "yes"
+  },
+  {
+   "en": "After good food, he relaxes and feels wonderful.",
+   "zh": "吃了健康的饭菜后，他放松下来，感觉好极了。",
+   "scene_prompt": "Omar (a round-faced man of about fifty-five with a grey moustache, a flat cap and a white apron) relaxes on a sofa with a happy smile, an empty plate of salad on the table.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

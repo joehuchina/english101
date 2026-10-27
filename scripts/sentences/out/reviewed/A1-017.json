@@ -1,0 +1,101 @@
+{
+ "scene_id": "A1-017",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "smell",
+  "grandparent",
+  "wide",
+  "cold",
+  "trousers",
+  "coffee",
+  "shoe",
+  "little",
+  "sweet",
+  "morning",
+  "outside",
+  "pasta",
+  "black",
+  "agree"
+ ],
+ "review_words": [
+  "activity",
+  "without",
+  "nothing",
+  "tuesday"
+ ],
+ "title": "Tuesday at Grandma's",
+ "title_zh": "星期二去奶奶家",
+ "setting": "Grandparents' small house: a little kitchen and a garden behind it.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "joe",
+   "name": "Grandpa Joe",
+   "look": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan)"
+  },
+  {
+   "id": "rosa",
+   "name": "Grandma Rosa",
+   "look": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben visits his grandparents every Tuesday morning.",
+   "zh": "本每个星期二早上都去看望祖父母。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) rings the doorbell of a small house in the morning sun; Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) open the door with smiles.",
+   "draw": "partly",
+   "draw_note": "Shows Ben visiting his grandparents in the morning; 'every Tuesday' can't be shown."
+  },
+  {
+   "en": "Grandpa Joe drinks black coffee in the little kitchen.",
+   "zh": "乔爷爷在小厨房里喝黑咖啡。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) sits in a small cosy kitchen holding a cup of black coffee.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben loves the smell of the coffee.",
+   "zh": "本很喜欢咖啡的香味。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) closes his eyes and sniffs happily near the steaming coffee cup of Grandpa Joe (an old man, bald with a white beard, in a brown cardigan).",
+   "draw": "yes"
+  },
+  {
+   "en": "It is cold outside, but Ben wants to play.",
+   "zh": "外面很冷，但本想去玩。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) presses his face to the kitchen window, holding a ball; outside the garden is frosty and the trees are bare.",
+   "draw": "yes"
+  },
+  {
+   "en": "He puts on warm trousers and his shoes.",
+   "zh": "他穿上暖和的裤子和鞋子。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on the floor by the door, pulling thick warm trousers on over his shorts, a pair of shoes beside him.",
+   "draw": "yes"
+  },
+  {
+   "en": "Grandma Rosa opens the wide garden gate for him.",
+   "zh": "罗莎奶奶为他打开宽大的花园门。",
+   "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) swings open a wide wooden garden gate while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now in warm trousers, runs out, frosty grass beyond.",
+   "draw": "yes"
+  },
+  {
+   "en": "Later, they eat pasta and sweet apple cake.",
+   "zh": "后来，他们吃意大利面和甜甜的苹果蛋糕。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) sit at the kitchen table with plates of pasta and an apple cake.",
+   "draw": "partly",
+   "draw_note": "Shows them eating pasta and apple cake; 'later' and 'sweet' can't be shown."
+  },
+  {
+   "en": "They all agree that nothing is better than pasta.",
+   "zh": "他们都同意，没有什么比意大利面更好吃了。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) nod and smile at each other over empty pasta plates, giving a thumbs-up.",
+   "draw": "partly",
+   "draw_note": "Shows them happily nodding over empty pasta plates; the exact opinion can only be guessed."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,181 @@
+{
+ "story": "Omar feels tired and eats too much sugar. Nina tells him to eat good food and relax. Omar starts walking and goes to the gym. Now his body feels wonderful and he visits the hospital.",
+ "title": "A Healthy Change",
+ "title_zh": "健康的改变",
+ "setting": "A bright park, a gym, and a hospital.",
+ "characters": [
+  {
+   "name": "Omar",
+   "look": "a young man with short black hair and a green t-shirt"
+  },
+  {
+   "name": "Nina",
+   "look": "a young woman with long brown hair and a blue jacket"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar feels really tired and very sleepy.",
+   "zh": "Omar觉得真的很累，非常困。",
+   "scene_prompt": "Omar with short black hair and a green t-shirt looks very sleepy."
+  },
+  {
+   "en": "He eats too much sugar every day.",
+   "zh": "他每天吃太多糖。",
+   "scene_prompt": "Omar sits at a table with many small bowls of white sugar."
+  },
+  {
+   "en": "He must relax and eat good food.",
+   "zh": "他必须放松并吃好的食物。",
+   "scene_prompt": "Omar sits on a sofa and eats a fresh salad."
+  },
+  {
+   "en": "Nina loves walking in the green park.",
+   "zh": "Nina喜欢在绿色的公园里散步。",
+   "scene_prompt": "Nina with long brown hair and a blue jacket walks happily on a path."
+  },
+  {
+   "en": "Omar goes to the gym to exercise.",
+   "zh": "Omar去健身房锻炼。",
+   "scene_prompt": "Omar lifts a small weight inside a bright gym."
+  },
+  {
+   "en": "He is really thirsty after his workout.",
+   "zh": "他锻炼后真的很口渴。",
+   "scene_prompt": "Omar drinks a large glass of clear water."
+  },
+  {
+   "en": "His body feels wonderful and strong now.",
+   "zh": "他的身体现在感觉棒极了，很强壮。",
+   "scene_prompt": "Omar stands tall and smiles in the sun."
+  },
+  {
+   "en": "The doctor checks his nose and tooth.",
+   "zh": "医生检查了他的鼻子和牙齿。",
+   "scene_prompt": "A doctor in a white coat looks at Omar's face."
+  },
+  {
+   "en": "The hospital is a very clean place.",
+   "zh": "医院是一个非常干净的地方。",
+   "scene_prompt": "A large, clean hospital building with big windows."
+  }
+ ],
+ "review_words": [
+  "cut",
+  "wake",
+  "love",
+  "really"
+ ],
+ "scene_id": "A1-011",
+ "level": "A1",
+ "topic": "health",
+ "targets": [
+  "body",
+  "nose",
+  "doctor",
+  "gym",
+  "hospital",
+  "sugar",
+  "thirsty",
+  "food",
+  "tired",
+  "tooth",
+  "relax",
+  "walking",
+  "wonderful"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "tired"
+    ],
+    "review_hits": [
+     "really"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "sugar"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "food",
+     "relax"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "love"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "gym"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "thirsty"
+    ],
+    "review_hits": [
+     "really"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "body",
+     "wonderful"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "nose",
+     "doctor",
+     "tooth"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "hospital"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "walking"
+  ],
+  "review_used": [
+   "love",
+   "really"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 59.0
+}

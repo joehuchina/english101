@@ -1,0 +1,208 @@
+{
+ "story": "On a slow Sunday in January, Ali and Rosa make lunch together. Ali makes a large sandwich with many chips inside. They stand near the window to eat. Rosa talks about her new hobby and a number of books. They enjoy the meal because it is possible to relax.",
+ "title": "A Sunday Lunch",
+ "title_zh": "一个周日的午餐",
+ "setting": "A bright kitchen on a Sunday morning.",
+ "characters": [
+  {
+   "name": "Ali",
+   "look": "A young boy with short black hair and a blue shirt."
+  },
+  {
+   "name": "Rosa",
+   "look": "A young girl with long brown hair and a yellow dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a slow Sunday in January.",
+   "zh": "这是一个缓慢的一月的星期日。",
+   "scene_prompt": "Ali and Rosa are in a bright kitchen on a sunny January morning."
+  },
+  {
+   "en": "Ali and Rosa make a big lunch.",
+   "zh": "Ali和Rosa制作了一顿丰盛的午餐。",
+   "scene_prompt": "Ali with short black hair and Rosa with long brown hair are standing in the kitchen."
+  },
+  {
+   "en": "Ali must make a large sandwich.",
+   "zh": "Ali必须做一个大三明治。",
+   "scene_prompt": "Ali is putting bread on a wooden table."
+  },
+  {
+   "en": "He puts chips inside the bread.",
+   "zh": "他把薯条放进面包里。",
+   "scene_prompt": "Ali is putting golden potato chips between two slices of bread."
+  },
+  {
+   "en": "The sandwich is full of food.",
+   "zh": "这个三明治里装满了食物。",
+   "scene_prompt": "A very large sandwich sits on a white plate."
+  },
+  {
+   "en": "They stand near the window to eat.",
+   "zh": "他们站在窗户旁边吃东西。",
+   "scene_prompt": "Ali and Rosa are standing by a large window in the kitchen."
+  },
+  {
+   "en": "Rosa talks about her new hobby.",
+   "zh": "Rosa谈论她新的业余爱好。",
+   "scene_prompt": "Rosa is smiling and talking to Ali while eating."
+  },
+  {
+   "en": "A funny thing can happen today.",
+   "zh": "今天可能会发生一件有趣的事。",
+   "scene_prompt": "Ali and Rosa are laughing together in the kitchen."
+  },
+  {
+   "en": "She will take a number of books.",
+   "zh": "她会拿走一些书。",
+   "scene_prompt": "Rosa is picking up a small stack of books from the table."
+  },
+  {
+   "en": "They enjoy the lunch together now.",
+   "zh": "他们现在一起享受午餐。",
+   "scene_prompt": "Ali and Rosa are eating happily at the table."
+  },
+  {
+   "en": "Being calm is possible for them.",
+   "zh": "对他们来说，保持冷静是可能的。",
+   "scene_prompt": "Ali and Rosa are sitting comfortably in the bright kitchen."
+  }
+ ],
+ "review_words": [
+  "chips",
+  "left",
+  "put",
+  "sunday"
+ ],
+ "scene_id": "A1-020",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "full",
+  "happen",
+  "number",
+  "take",
+  "enjoy",
+  "january",
+  "hobby",
+  "stand",
+  "must",
+  "about",
+  "sandwich",
+  "slow",
+  "make",
+  "possible"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "january",
+     "slow"
+    ],
+    "review_hits": [
+     "sunday"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "make"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "must",
+     "sandwich",
+     "make"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "chips",
+     "put"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "full",
+     "sandwich"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "stand"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "hobby",
+     "about"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "happen"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "number",
+     "take"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "enjoy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [
+     "possible"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "chips",
+   "put",
+   "sunday"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 64.7
+}

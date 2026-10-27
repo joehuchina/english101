@@ -1,0 +1,105 @@
+{
+ "scene_id": "A1-007",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "born",
+  "japanese",
+  "child",
+  "kind",
+  "policeman",
+  "poor",
+  "girl",
+  "husband",
+  "friendly",
+  "children",
+  "christmas",
+  "wife",
+  "true"
+ ],
+ "review_words": [
+  "clothes",
+  "strong",
+  "month",
+  "let"
+ ],
+ "title": "A Kind Christmas",
+ "title_zh": "温暖的圣诞节",
+ "setting": "A snowy town street at Christmas time.",
+ "characters": [
+  {
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
+  },
+  {
+   "id": "dan",
+   "name": "Dan",
+   "look": "Dan (a tall man of about forty with a short brown beard and a navy jumper)"
+  },
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "ivan",
+   "name": "Ivan",
+   "look": "Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "At Christmas, Anna and her husband help poor children.",
+   "zh": "圣诞节时，安娜和她的丈夫帮助贫穷的孩子们。",
+   "scene_prompt": "On a snowy street with Christmas lights, Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper) hand out warm coats and scarves to children in thin, old clothes.",
+   "draw": "yes"
+  },
+  {
+   "en": "Their child Ben carries a bag of warm clothes.",
+   "zh": "他们的孩子本提着一袋暖和的衣服。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now wearing a winter coat and a woolly hat, carries a big bag full of jumpers and scarves through the snow.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ivan, a friendly policeman, shows them the way.",
+   "zh": "友好的警察伊万给他们指路。",
+   "scene_prompt": "Ivan (a broad man of about forty-five with a thick black moustache and a dark-blue police uniform) smiles and points down a snowy street for Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), Dan (a tall man of about forty with a short brown beard and a navy jumper) and Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
+   "draw": "yes"
+  },
+  {
+   "en": "A Japanese mother holds her baby, born last week.",
+   "zh": "一位日本妈妈抱着她上周刚出生的宝宝。",
+   "scene_prompt": "A young Japanese mother in a worn coat holds a tiny newborn baby wrapped in a white blanket, in a doorway in the snow.",
+   "draw": "partly",
+   "draw_note": "Shows a young mother holding a newborn baby; that she is Japanese and 'last week' can't be shown."
+  },
+  {
+   "en": "Next to her, a little girl has no coat.",
+   "zh": "她旁边，一个小女孩没有外套。",
+   "scene_prompt": "A little girl in a thin dress stands in the snow beside her mother, shivering, with no coat.",
+   "draw": "yes"
+  },
+  {
+   "en": "Anna, Dan's wife, lets Ben give her a coat.",
+   "zh": "丹的妻子安娜让本给了她一件外套。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) smiles and nods as Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) hands a warm red coat to a little girl in the snow; Dan (a tall man of about forty with a short brown beard and a navy jumper) stands beside them.",
+   "draw": "yes"
+  },
+  {
+   "en": "The girl smiles and says, \"You are so kind!\"",
+   "zh": "女孩笑着说：“你们真好！”",
+   "scene_prompt": "The little girl, now in the warm red coat, smiles widely and talks to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) and Dan (a tall man of about forty with a short brown beard and a navy jumper).",
+   "draw": "partly",
+   "draw_note": "Shows the girl smiling and talking to them; her exact words can't be shown."
+  },
+  {
+   "en": "For Ben, this is a true Christmas.",
+   "zh": "对本来说，这才是真正的圣诞节。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles warmly at the little girl in her new red coat under bright Christmas lights in the snow.",
+   "draw": "partly",
+   "draw_note": "Shows Ben happy with the girl at Christmas; the idea of a 'true' Christmas can't be shown."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

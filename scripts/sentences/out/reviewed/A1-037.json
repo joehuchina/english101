@@ -1,0 +1,98 @@
+{
+ "scene_id": "A1-037",
+ "level": "A1",
+ "topic": "sport",
+ "targets": [
+  "football",
+  "basketball",
+  "player",
+  "sport",
+  "ball",
+  "tennis",
+  "swim",
+  "swimming",
+  "win",
+  "climb",
+  "game",
+  "match",
+  "choose"
+ ],
+ "review_words": [
+  "jacket",
+  "jeans",
+  "think",
+  "fire"
+ ],
+ "title": "Choosing a Sport",
+ "title_zh": "选择一项运动",
+ "setting": "A sunny park with green grass, a hill and a lake.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "mia",
+   "name": "Mia",
+   "look": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans)"
+  },
+  {
+   "id": "leo",
+   "name": "Leo",
+   "look": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben, Mia and Leo choose a sport together.",
+   "zh": "本、米娅和里奥一起挑选一项运动。",
+   "scene_prompt": "In a sunny park, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) stand around a pile of a football, a basketball and tennis rackets, each pointing at a different one.",
+   "draw": "yes"
+  },
+  {
+   "en": "Leo is a fast football player.",
+   "zh": "里奥是个跑得很快的足球运动员。",
+   "scene_prompt": "Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) runs fast and kicks a football across the green grass of the park.",
+   "draw": "yes"
+  },
+  {
+   "en": "Mia throws a ball for a basketball game.",
+   "zh": "米娅在篮球比赛中投球。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) throws a basketball toward a hoop in the park while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) tries to block her.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben thinks a tennis match is too long.",
+   "zh": "本觉得网球比赛太长了。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits on a bench beside a tennis court and yawns while two players hit a ball back and forth.",
+   "draw": "partly",
+   "draw_note": "Shows Ben yawning while he watches a tennis match; his opinion that it is too long can only be guessed."
+  },
+  {
+   "en": "Then they climb a hill to a lake.",
+   "zh": "然后他们爬上小山，来到一个湖边。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) climb a steep green hill, with a blue lake shining just over the top.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben takes off his blue jacket to swim.",
+   "zh": "本脱下蓝色夹克去游泳。",
+   "scene_prompt": "At the edge of the lake, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), wearing an open blue jacket over his T-shirt, pulls the jacket off, ready to jump into the water.",
+   "draw": "yes"
+  },
+  {
+   "en": "Swimming is fun on a hot day.",
+   "zh": "炎热的日子里游泳很有趣。",
+   "scene_prompt": "Under a bright hot sun, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie), now in swimsuits, swim and splash in the lake, laughing.",
+   "draw": "yes"
+  },
+  {
+   "en": "Mia is the fastest and wins the race.",
+   "zh": "米娅游得最快，赢得了比赛。",
+   "scene_prompt": "Mia (a ten-year-old girl with a short black bob, a red hair clip, a red hoodie and jeans), now in a swimsuit, reaches a big rock in the lake first and raises her arm, while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Leo (a tall, thin sixteen-year-old boy with dark skin, short black hair and an orange hoodie) swim behind her.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

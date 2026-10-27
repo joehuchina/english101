@@ -1,0 +1,97 @@
+{
+ "scene_id": "A1-033",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "grey",
+  "much",
+  "can",
+  "hey",
+  "cola",
+  "shower",
+  "early",
+  "these",
+  "favourite",
+  "clock",
+  "downstairs",
+  "meal",
+  "chair",
+  "interested"
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "something",
+  "pet"
+ ],
+ "title": "Cola for Breakfast?",
+ "title_zh": "早餐喝可乐？",
+ "setting": "A family house: a bathroom upstairs and a kitchen downstairs.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben wakes up early and looks at the clock.",
+   "zh": "本很早就醒了，看了看时钟。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits up in bed and looks at a round clock on the wall, pale early morning light outside.",
+   "draw": "partly",
+   "draw_note": "Shows Ben waking and looking at the clock; 'early' is only hinted by the light."
+  },
+  {
+   "en": "He takes a warm shower and washes his head.",
+   "zh": "他洗了个热水澡，还洗了头。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), seen from the shoulders up behind a shower curtain, washes his hair with soap foam under a warm shower.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then he runs downstairs to the kitchen.",
+   "zh": "然后他跑下楼去厨房。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) runs down the stairs toward the kitchen.",
+   "draw": "yes"
+  },
+  {
+   "en": "\"Hey, Ben, your meal is ready!\" says Mum.",
+   "zh": "“嘿，本，你的饭好了！”妈妈说。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) calls and waves to Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) from a kitchen table with breakfast on it.",
+   "draw": "partly",
+   "draw_note": "Shows Mum calling Ben to a ready breakfast; her exact words can't be shown."
+  },
+  {
+   "en": "Their grey pet cat sleeps on a chair.",
+   "zh": "他们家的灰色宠物猫睡在一把椅子上。",
+   "scene_prompt": "A grey cat sleeps on a kitchen chair next to Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan).",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben is not interested in these eggs.",
+   "zh": "本对这些鸡蛋不感兴趣。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) looks bored and pushes away a plate of eggs on the table.",
+   "draw": "yes"
+  },
+  {
+   "en": "He wants something else: cola, his favourite drink.",
+   "zh": "他想要别的东西：可乐，他最喜欢的饮料。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) reaches eagerly for a bottle of cola on the table.",
+   "draw": "partly",
+   "draw_note": "Shows Ben reaching for cola; 'favourite' can't be shown."
+  },
+  {
+   "en": "Mum says he can have some, but not much.",
+   "zh": "妈妈说他可以喝一点，但不能喝很多。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan) pours a little cola into a small glass for Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts).",
+   "draw": "partly",
+   "draw_note": "Shows Mum pouring a little cola; what she says is only hinted."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

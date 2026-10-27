@@ -1,0 +1,208 @@
+{
+ "story": "Dan and Aiko visit Dan's uncle at his house. They realize they have a problem with the door key. Dan shows Aiko the wrong key. They go into the house to find a better way to enter.",
+ "title": "The Wrong Key",
+ "title_zh": "错误的钥匙",
+ "setting": "Outside and inside a small house with a garden.",
+ "characters": [
+  {
+   "name": "Dan",
+   "look": "A young boy with brown hair and a blue t-shirt."
+  },
+  {
+   "name": "Aiko",
+   "look": "A young girl with long black hair and a red sweater."
+  },
+  {
+   "name": "Uncle",
+   "look": "A tall man with glasses and a green shirt."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Dan and Aiko visit their uncle today.",
+   "zh": "Dan和Aiko今天去拜访他们的叔叔。",
+   "scene_prompt": "Dan and Aiko stand in front of a small house with their uncle."
+  },
+  {
+   "en": "The sun is high above the trees.",
+   "zh": "太阳在树木上方。",
+   "scene_prompt": "The bright sun is shining high above green trees."
+  },
+  {
+   "en": "Dan wants to buy a new bag.",
+   "zh": "Dan想要买一个新包。",
+   "scene_prompt": "Dan points to a small bag in a shop window."
+  },
+  {
+   "en": "He wears a pair of blue jeans.",
+   "zh": "他穿着一条蓝色牛仔裤。",
+   "scene_prompt": "Dan is wearing blue jeans and a blue t-shirt."
+  },
+  {
+   "en": "Aiko has a short walk to the door.",
+   "zh": "Aiko走到门口的路很短。",
+   "scene_prompt": "Aiko walks a short distance toward the wooden door."
+  },
+  {
+   "en": "They have a problem with the door.",
+   "zh": "他们遇到了门的问题。",
+   "scene_prompt": "Dan and Aiko look at a locked wooden door."
+  },
+  {
+   "en": "Dan shows Aiko a small metal key.",
+   "zh": "Dan给Aiko看一把小小的金属钥匙。",
+   "scene_prompt": "Dan holds up a small silver key for Aiko to see."
+  },
+  {
+   "en": "This is the wrong key for him.",
+   "zh": "对他来说，这是错误的钥匙。",
+   "scene_prompt": "Dan looks sad while holding the small key near the lock."
+  },
+  {
+   "en": "He must speak to his uncle now.",
+   "zh": "他现在必须和他的叔叔说话。",
+   "scene_prompt": "Dan looks at his uncle and opens his mouth to speak."
+  },
+  {
+   "en": "They go into the warm house together.",
+   "zh": "他们一起进入温暖的房子里。",
+   "scene_prompt": "Dan and Aiko walk into the open door of the house."
+  },
+  {
+   "en": "A better day is starting for them.",
+   "zh": "对他们来说，更好的一天开始了。",
+   "scene_prompt": "Dan and Aiko smile inside the bright house."
+  }
+ ],
+ "review_words": [
+  "jeans",
+  "fire",
+  "pair",
+  "yourself"
+ ],
+ "scene_id": "A1-039",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "show",
+  "above",
+  "buy",
+  "short",
+  "wear",
+  "day",
+  "better",
+  "into",
+  "wrong",
+  "problem",
+  "uncle",
+  "key",
+  "speak"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "uncle"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "above"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "buy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "wear"
+    ],
+    "review_hits": [
+     "jeans",
+     "pair"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "short"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "problem"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "show",
+     "key"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "wrong",
+     "key"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "uncle",
+     "speak"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "into"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [
+     "day",
+     "better"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "jeans",
+   "pair"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 1,
+ "seconds": 22.5
+}

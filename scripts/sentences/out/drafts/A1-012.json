@@ -1,0 +1,194 @@
+{
+ "story": "Rosa is in the kitchen preparing lunch. She looks out the window and thinks about her plans for today. She needs to go to the supermarket to buy a tomato. She also needs to find her pen and her fourth notebook. Then, she wants to try a new restaurant with her father.",
+ "title": "Rosa's Busy Day",
+ "title_zh": "罗莎忙碌的一天",
+ "setting": "A bright, sunny kitchen in a small house.",
+ "characters": [
+  {
+   "name": "Rosa",
+   "look": "A young girl with short brown hair and a yellow shirt."
+  },
+  {
+   "name": "Ali",
+   "look": "A tall boy with glasses and a blue sweater."
+  },
+  {
+   "name": "Emma",
+   "look": "A small girl with long black hair and a red dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Rosa is in the kitchen now.",
+   "zh": "罗莎现在在厨房里。",
+   "scene_prompt": "Rosa, a girl with short brown hair and a yellow shirt, stands in a bright kitchen."
+  },
+  {
+   "en": "She looks out the big window.",
+   "zh": "她向大窗户外面看。",
+   "scene_prompt": "Rosa looks out of a large glass window in the kitchen."
+  },
+  {
+   "en": "Today is a very sunny day.",
+   "zh": "今天是个非常晴朗的日子。",
+   "scene_prompt": "Bright sunlight shines through the kitchen window onto the floor."
+  },
+  {
+   "en": "She wants to cut a tomato.",
+   "zh": "她想切一个番茄。",
+   "scene_prompt": "Rosa holds a red tomato and a knife on a wooden table."
+  },
+  {
+   "en": "She must go to the supermarket.",
+   "zh": "她必须去超市。",
+   "scene_prompt": "Rosa imagines a large supermarket building with many food items."
+  },
+  {
+   "en": "When will she leave the house?",
+   "zh": "她什么时候离开家呢？",
+   "scene_prompt": "Rosa stands by the kitchen door, thinking about leaving."
+  },
+  {
+   "en": "She finds a blue pen here.",
+   "zh": "她在这里发现了一支蓝色的笔。",
+   "scene_prompt": "Rosa picks up a blue pen from a wooden kitchen table."
+  },
+  {
+   "en": "This is her fourth small notebook.",
+   "zh": "这是她的第四本小笔记本。",
+   "scene_prompt": "Rosa holds a small notebook, the fourth one in a stack."
+  },
+  {
+   "en": "A funny man sits on one leg.",
+   "zh": "一个滑稽的人坐在一条腿上。",
+   "scene_prompt": "A funny man with a big smile sits on a chair with one leg lifted."
+  },
+  {
+   "en": "Her father wants to try a restaurant.",
+   "zh": "她的父亲想尝试一家餐厅。",
+   "scene_prompt": "A tall man with a kind face points to a picture of a restaurant."
+  }
+ ],
+ "review_words": [
+  "cut",
+  "wake",
+  "lunch",
+  "tall"
+ ],
+ "scene_id": "A1-012",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "fourth",
+  "today",
+  "supermarket",
+  "kitchen",
+  "when",
+  "pen",
+  "leave",
+  "window",
+  "leg",
+  "tomato",
+  "try",
+  "restaurant",
+  "father",
+  "funny"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "kitchen"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "window"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "today"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "tomato"
+    ],
+    "review_hits": [
+     "cut"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "supermarket"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "when",
+     "leave"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "pen"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "leg",
+     "funny"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "try",
+     "restaurant",
+     "father"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "fourth"
+  ],
+  "review_used": [
+   "cut"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 75.8
+}

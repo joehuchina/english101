@@ -1,0 +1,143 @@
+{
+ "title": "A Busy Tuesday",
+ "title_zh": "忙碌的星期二",
+ "setting": "A bright living room and a park.",
+ "characters": [
+  {
+   "name": "Leo",
+   "look": "a tall boy with short brown hair"
+  },
+  {
+   "name": "Mia",
+   "look": "a small girl with a red hat"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a sunny Tuesday morning.",
+   "zh": "这是一个阳光明媚的星期二早晨。",
+   "scene_prompt": "A tall boy with short brown hair looks out a window at the sun."
+  },
+  {
+   "en": "Leo is a really tall boy.",
+   "zh": "里奥是一个非常高的男孩。",
+   "scene_prompt": "A tall boy with short brown hair stands next to a small door."
+  },
+  {
+   "en": "Mia also wears a red hat.",
+   "zh": "米娅也戴着一顶红色的帽子。",
+   "scene_prompt": "A small girl with a red hat stands next to the tall boy."
+  },
+  {
+   "en": "They walk quickly from the house.",
+   "zh": "他们从房子里迅速走出来。",
+   "scene_prompt": "A tall boy and a small girl walk quickly away from a small house."
+  },
+  {
+   "en": "The park activity is really fun.",
+   "zh": "公园里的活动非常有趣。",
+   "scene_prompt": "A tall boy and a small girl watch children playing in a green park."
+  },
+  {
+   "en": "They eat lunch without any food.",
+   "zh": "他们吃午餐，但是没有任何食物。",
+   "scene_prompt": "A tall boy and a small girl sit on a bench with empty plates."
+  },
+  {
+   "en": "Mia starts to cry with nothing.",
+   "zh": "米娅因为什么都没有而开始哭泣。",
+   "scene_prompt": "A small girl with a red hat cries while sitting on a park bench."
+  }
+ ],
+ "review_words": [
+  "thursday",
+  "bedroom",
+  "clothes",
+  "strong"
+ ],
+ "scene_id": "A1-002",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "really",
+  "lunch",
+  "tall",
+  "also",
+  "coat",
+  "fast",
+  "from",
+  "quickly",
+  "activity",
+  "without",
+  "nothing",
+  "tuesday",
+  "hat",
+  "cry"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "tuesday"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "really",
+     "tall"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "also",
+     "hat"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "from",
+     "quickly"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "really",
+     "activity"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "lunch",
+     "without"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "nothing",
+     "cry"
+    ]
+   }
+  ],
+  "missing": [
+   "coat",
+   "fast"
+  ]
+ },
+ "attempts": 4,
+ "seconds": 42.9,
+ "review_hits": []
+}

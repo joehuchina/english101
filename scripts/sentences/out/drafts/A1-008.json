@@ -1,0 +1,183 @@
+{
+ "story": "Sara and Ivan look at the animals and the weather during different seasons. They see a tiger, a pig, a horse, and an elephant. They watch the changing sky and the beautiful nature.",
+ "title": "Nature and Seasons",
+ "title_zh": "自然与季节",
+ "setting": "A beautiful landscape with a river and farm animals.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "a young girl with long brown hair and a yellow shirt"
+  },
+  {
+   "name": "Ivan",
+   "look": "a young boy with short black hair and blue overalls"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "The sun is in the blue sky.",
+   "zh": "太阳在蓝天中。",
+   "scene_prompt": "The sun is in a clear blue sky."
+  },
+  {
+   "en": "A large tiger walks near the river.",
+   "zh": "一只大老虎在河边走。",
+   "scene_prompt": "A large orange tiger with black stripes walks near a blue river."
+  },
+  {
+   "en": "Ivan sees a small pink pig.",
+   "zh": "伊万看到一只粉色的小猪。",
+   "scene_prompt": "Ivan, a boy in blue overalls, looks at a small pink pig."
+  },
+  {
+   "en": "A big horse runs in the spring.",
+   "zh": "一匹大马在春天奔跑。",
+   "scene_prompt": "A brown horse runs through green grass and colorful flowers in spring."
+  },
+  {
+   "en": "The sky is cloudy and rainy today.",
+   "zh": "今天天空多云且下雨。",
+   "scene_prompt": "Dark clouds fill the sky and rain falls on the ground."
+  },
+  {
+   "en": "Sara sees a grey elephant and a flower.",
+   "zh": "萨拉看到一只灰色的象和一朵花。",
+   "scene_prompt": "Sara, a girl in a yellow shirt, looks at a grey elephant and a red flower."
+  },
+  {
+   "en": "A star is in the winter sky.",
+   "zh": "一颗星星在冬天的天空里。",
+   "scene_prompt": "A single star is in the dark night sky during winter."
+  },
+  {
+   "en": "Every animal is in the park.",
+   "zh": "每个动物都在公园里。",
+   "scene_prompt": "A tiger, a pig, and an elephant are all in a green park."
+  },
+  {
+   "en": "They use warm clothes in the winter.",
+   "zh": "他们在冬天使用温暖的衣服。",
+   "scene_prompt": "Sara and Ivan wear heavy jackets and warm clothes in the snow."
+  }
+ ],
+ "review_words": [
+  "clothes",
+  "let",
+  "use",
+  "minute"
+ ],
+ "scene_id": "A1-008",
+ "level": "A1",
+ "topic": "nature",
+ "targets": [
+  "river",
+  "horse",
+  "elephant",
+  "rainy",
+  "winter",
+  "sun",
+  "spring",
+  "pig",
+  "animal",
+  "tiger",
+  "star",
+  "sky",
+  "flower",
+  "cloudy"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "sun",
+     "sky"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "river",
+     "tiger"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "pig"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "horse",
+     "spring"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "rainy",
+     "sky",
+     "cloudy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "elephant",
+     "flower"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "winter",
+     "star",
+     "sky"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "animal"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "winter"
+    ],
+    "review_hits": [
+     "clothes",
+     "use"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "clothes",
+   "use"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 41.1
+}

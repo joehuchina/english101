@@ -1,0 +1,96 @@
+{
+ "scene_id": "A1-040",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "july",
+  "zero",
+  "again",
+  "hello",
+  "sit",
+  "seat",
+  "cup",
+  "monday",
+  "else",
+  "in",
+  "top",
+  "purple",
+  "bottle"
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "last",
+  "listen"
+ ],
+ "title": "A Hot Monday",
+ "title_zh": "炎热的星期一",
+ "setting": "A sunny outdoor cafe on a summer day.",
+ "characters": [
+  {
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
+  },
+  {
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "The cafe is busy on a hot July Monday.",
+   "zh": "七月一个炎热的星期一，咖啡馆里很热闹。",
+   "scene_prompt": "A busy sunny outdoor cafe with small tables, striped umbrellas and many people fanning themselves in the summer heat.",
+   "draw": "partly",
+   "draw_note": "Shows a busy cafe on a hot summer day; the month and the day of the week can't be shown."
+  },
+  {
+   "en": "Sara finds a seat at the cafe.",
+   "zh": "萨拉在咖啡馆找到一个座位。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) spots the only empty chair at a small table in the busy outdoor cafe.",
+   "draw": "yes"
+  },
+  {
+   "en": "She sits down with a purple cup.",
+   "zh": "她拿着一个紫色杯子坐下。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) sits down at the cafe table holding a purple cup.",
+   "draw": "yes"
+  },
+  {
+   "en": "Kofi comes in and says hello to her.",
+   "zh": "科菲走进来，跟她打招呼。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) walks into the cafe and waves hello to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) at her table.",
+   "draw": "yes"
+  },
+  {
+   "en": "He opens the top of his water bottle.",
+   "zh": "他打开水瓶的盖子。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt), sitting next to Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt), twists the top off his water bottle.",
+   "draw": "yes"
+  },
+  {
+   "en": "He looks in again, but there is zero water.",
+   "zh": "他又往里看了看，可是一点水也没有。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) holds his empty water bottle upside down and peers into it with a sad face; not a drop comes out.",
+   "draw": "partly",
+   "draw_note": "Shows Kofi looking into an empty bottle; 'again' can't be shown."
+  },
+  {
+   "en": "“Help yourself to my water,” says Sara.",
+   "zh": "“喝我的水吧，”萨拉说。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) smiles and pushes a big jug of water across the table toward Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt).",
+   "draw": "partly",
+   "draw_note": "Shows Sara offering her jug of water to Kofi; her words can't be shown."
+  },
+  {
+   "en": "They listen to music; Kofi wants nothing else.",
+   "zh": "他们听着音乐，科菲别的什么都不想要了。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) sit back and listen to a street musician playing a guitar near the cafe, Kofi happily holding his full bottle.",
+   "draw": "partly",
+   "draw_note": "Shows them listening to music and Kofi happy with his water; 'wants nothing else' can't be shown."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

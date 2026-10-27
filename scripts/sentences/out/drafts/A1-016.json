@@ -1,0 +1,174 @@
+{
+ "story": "Sara makes a shopping list. She looks in the fridge and sees a potato. She hates the dark, so she takes an umbrella. She meets Ivan by the park later.",
+ "title": "A Shopping Trip",
+ "title_zh": "一次购物之旅",
+ "setting": "A kitchen and a street near a park.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "a young woman with long brown hair and a blue coat"
+  },
+  {
+   "name": "Ivan",
+   "look": "a tall man with short black hair and a green jacket"
+  },
+  {
+   "name": "Maya",
+   "look": "a small girl with blonde pigtails"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara writes a long list for food.",
+   "zh": "莎拉写了一份很长的食物清单。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a blue coat, writes a list on paper in a kitchen."
+  },
+  {
+   "en": "She looks inside my big fridge.",
+   "zh": "她看着我的大冰箱。",
+   "scene_prompt": "Sara looks inside a large white fridge in a bright kitchen."
+  },
+  {
+   "en": "She can see one brown potato.",
+   "zh": "她能看见一个棕色的土豆。",
+   "scene_prompt": "Sara sees a single brown potato on a shelf inside the fridge."
+  },
+  {
+   "en": "She hates the dark night sky.",
+   "zh": "她讨厌黑暗的夜空。",
+   "scene_prompt": "Sara looks at a dark window with a worried face."
+  },
+  {
+   "en": "She takes an umbrella from the hall.",
+   "zh": "她从走廊拿了一把雨伞。",
+   "scene_prompt": "Sara takes a black umbrella from a stand in a hallway."
+  },
+  {
+   "en": "She puts on her warm coat.",
+   "zh": "她穿上了她温暖的外套。",
+   "scene_prompt": "Sara puts on a blue coat near the door."
+  },
+  {
+   "en": "She meets Ivan by the park.",
+   "zh": "她在公园旁边遇见了伊万。",
+   "scene_prompt": "Sara meets Ivan, a tall man with short black hair, by a park gate."
+  },
+  {
+   "en": "They meet again later after dinner.",
+   "zh": "他们在晚餐后稍后再次见面。",
+   "scene_prompt": "Sara and Ivan meet again on a street after a meal."
+  }
+ ],
+ "review_words": [
+  "coat",
+  "from",
+  "activity",
+  "without"
+ ],
+ "scene_id": "A1-016",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "list",
+  "meet",
+  "fridge",
+  "dark",
+  "see",
+  "potato",
+  "my",
+  "later",
+  "soon",
+  "umbrella",
+  "after",
+  "around",
+  "by",
+  "hate"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "list"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "fridge",
+     "my"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "see",
+     "potato"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "dark"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "umbrella"
+    ],
+    "review_hits": [
+     "from"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "coat"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "meet",
+     "by"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "meet",
+     "later",
+     "after"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "soon",
+   "around",
+   "hate"
+  ],
+  "review_used": [
+   "coat",
+   "from"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 61.4
+}

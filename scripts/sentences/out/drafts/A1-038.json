@@ -1,0 +1,165 @@
+{
+ "story": "Zoe and her sister Lucy go to the market to buy food. They see many people sell goods there. They want to save money, so they do not spend much.",
+ "title": "At the Market",
+ "title_zh": "在集市上",
+ "setting": "A busy outdoor market with many food stalls.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "A young girl with short black hair and a yellow shirt."
+  },
+  {
+   "name": "Lucy",
+   "look": "A young girl with long brown hair and a blue dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Zoe and her sister go to the market.",
+   "zh": "Zoe和她的姐姐去了集市。",
+   "scene_prompt": "Zoe with short black hair and Lucy with long brown hair walk into a busy outdoor market."
+  },
+  {
+   "en": "Many people sell food at the stalls.",
+   "zh": "许多人在摊位上卖食物。",
+   "scene_prompt": "A man at a market stall is handing a bag of bread to a customer."
+  },
+  {
+   "en": "The expensive pizza costs many dollars.",
+   "zh": "昂贵的比萨饼要花很多美元。",
+   "scene_prompt": "Zoe and Lucy look at a large, fancy pizza on a table."
+  },
+  {
+   "en": "This cheap food is very good.",
+   "zh": "这种便宜的食物非常好吃。",
+   "scene_prompt": "Lucy smiles while looking at a small piece of bread."
+  },
+  {
+   "en": "Rich people spend a lot of money.",
+   "zh": "富有的人花很多钱。",
+   "scene_prompt": "A man in a fancy suit carries many shopping bags."
+  },
+  {
+   "en": "They go to the bank later today.",
+   "zh": "她们今天晚些时候要去银行。",
+   "scene_prompt": "Zoe and Lucy walk toward a large building with columns."
+  },
+  {
+   "en": "One cent is a very small price.",
+   "zh": "一分钱是一个非常小的价格。",
+   "scene_prompt": "Zoe looks at a single small coin in her hand."
+  },
+  {
+   "en": "Lucy has a question about the cost.",
+   "zh": "Lucy对价格有一个疑问。",
+   "scene_prompt": "Lucy points to a price tag on a box of fruit."
+  }
+ ],
+ "review_words": [
+  "jeans",
+  "fire",
+  "sister",
+  "pizza"
+ ],
+ "scene_id": "A1-038",
+ "level": "A1",
+ "topic": "economy",
+ "targets": [
+  "price",
+  "market",
+  "dollar",
+  "spend",
+  "rich",
+  "bank",
+  "money",
+  "cent",
+  "sell",
+  "expensive",
+  "cheap",
+  "question"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "market"
+    ],
+    "review_hits": [
+     "sister"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "sell"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "dollar",
+     "expensive"
+    ],
+    "review_hits": [
+     "pizza"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "cheap"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "spend",
+     "rich",
+     "money"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "bank"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "price",
+     "cent"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "question"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "sister",
+   "pizza"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 58.8
+}

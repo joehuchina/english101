@@ -1,0 +1,101 @@
+{
+ "scene_id": "A1-045",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "together",
+  "cousin",
+  "everyone",
+  "people",
+  "women",
+  "welcome",
+  "join",
+  "chinese",
+  "person",
+  "german",
+  "parent",
+  "famous",
+  "idea"
+ ],
+ "review_words": [
+  "fire",
+  "door",
+  "born",
+  "japanese"
+ ],
+ "title": "A Big Party",
+ "title_zh": "盛大的聚会",
+ "setting": "A bright community hall with decorations and long tables of food.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "joe",
+   "name": "Grandpa Joe",
+   "look": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben, Lily and their cousin arrive together.",
+   "zh": "本、莉莉和他们的表姐一起到达。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and their cousin (a girl of about twelve with long black hair and a yellow shirt) walk hand in hand toward a bright decorated community hall.",
+   "draw": "yes"
+  },
+  {
+   "en": "At the door, Grandpa Joe welcomes them.",
+   "zh": "乔爷爷在门口欢迎他们。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) opens the hall door wide and smiles at Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and their cousin (a girl of about twelve with long black hair and a yellow shirt).",
+   "draw": "yes"
+  },
+  {
+   "en": "Many people from different countries are inside.",
+   "zh": "里面有很多来自不同国家的人。",
+   "scene_prompt": "A busy decorated community hall full of people in clothes from many different countries, talking and laughing.",
+   "draw": "partly",
+   "draw_note": "Shows a hall full of many different people; that they come from different countries can only be guessed."
+  },
+  {
+   "en": "Two Chinese women make dumplings at a table.",
+   "zh": "两位中国女士在桌边包饺子。",
+   "scene_prompt": "In the decorated hall, two Chinese women fold dumplings together at a long table.",
+   "draw": "yes"
+  },
+  {
+   "en": "Grandpa Joe was born in a small German town.",
+   "zh": "乔爷爷出生在德国的一个小镇。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) shows Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) an old photo of a small German town with a church and a German flag.",
+   "draw": "partly",
+   "draw_note": "Shows Grandpa Joe with a photo of a small German town; that he was born there can't be shown."
+  },
+  {
+   "en": "Each parent brings a famous dish from their country.",
+   "zh": "每位家长都带来一道自己国家的名菜。",
+   "scene_prompt": "Mothers and fathers put many colourful dishes from around the world on a long table in the hall.",
+   "draw": "partly",
+   "draw_note": "Shows parents bringing many dishes; 'famous' and 'their country' can't be shown."
+  },
+  {
+   "en": "Lily has an idea: a big dance for everyone.",
+   "zh": "莉莉有个主意：大家一起跳个大舞。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) jumps up with a bright smile and spreads her arms wide in front of Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Grandpa Joe (an old man, bald with a white beard, in a brown cardigan).",
+   "draw": "partly",
+   "draw_note": "Shows Lily excited with a sudden idea; what the idea is only becomes clear in the next picture."
+  },
+  {
+   "en": "Every person in the room joins the dance.",
+   "zh": "房间里的每个人都加入了舞蹈。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and all the people in the hall dance together in a big circle.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

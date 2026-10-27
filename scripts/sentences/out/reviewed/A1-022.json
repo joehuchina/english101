@@ -1,0 +1,90 @@
+{
+ "scene_id": "A1-022",
+ "level": "A1",
+ "topic": "media",
+ "targets": [
+  "newspaper",
+  "magazine",
+  "news",
+  "television",
+  "information",
+  "radio",
+  "video",
+  "why"
+ ],
+ "review_words": [
+  "pretty",
+  "too",
+  "glass",
+  "or"
+ ],
+ "title": "Will It Rain?",
+ "title_zh": "会下雨吗？",
+ "setting": "A bright living room with a large window, a television and a radio.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Lily want to go to the beach.",
+   "zh": "本和莉莉想去海滩。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold a beach ball and a bucket in the living room, looking excited.",
+   "draw": "yes"
+  },
+  {
+   "en": "Lily looks at the gray sky through the glass.",
+   "zh": "莉莉透过玻璃望着灰色的天空。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) presses her hands against the large window glass and looks up at a cloudy gray sky, holding a bucket.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben looks in the newspaper but finds nothing.",
+   "zh": "本翻了翻报纸，但什么也没找到。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) turns the pages of a big newspaper with a puzzled face.",
+   "draw": "partly",
+   "draw_note": "Shows Ben puzzled over a newspaper; 'finds nothing' is only implied."
+  },
+  {
+   "en": "Lily's magazine only has pretty pictures of clothes.",
+   "zh": "莉莉的杂志里只有漂亮的衣服图片。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) flips through a magazine full of pictures of dresses and shoes.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then they turn on the radio for the news.",
+   "zh": "然后他们打开收音机听新闻。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) turns the knob of an old radio while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) listens closely.",
+   "draw": "partly",
+   "draw_note": "Shows the children listening to a radio; that it is the news can't be shown."
+  },
+  {
+   "en": "The television news gives the same information: rain.",
+   "zh": "电视新闻给出的信息也一样：要下雨。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watch a television showing a weather map full of rain clouds.",
+   "draw": "yes"
+  },
+  {
+   "en": "\"Why does it always rain?\" asks Lily sadly.",
+   "zh": "“为什么总是下雨呢？”莉莉难过地问。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sits sadly on the sofa with her chin in her hands, rain on the window.",
+   "draw": "partly",
+   "draw_note": "Shows Lily sad about the rain; the question can only be guessed."
+  },
+  {
+   "en": "They watch a funny video or play games.",
+   "zh": "他们看搞笑视频或者玩游戏。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laugh at a funny video on a tablet, board games on the table beside them.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

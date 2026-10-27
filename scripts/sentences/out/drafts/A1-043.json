@@ -1,0 +1,186 @@
+{
+ "story": "Nina and Omar are in the classroom for their lesson. Mister Jack teaches them about geography and the alphabet. Nina writes a note with her pencil to help her remember. Omar reads a long sentence for his homework and prepares for a test.",
+ "title": "A Day in the Classroom",
+ "title_zh": "教室里的一天",
+ "setting": "A bright classroom with desks and a chalkboard.",
+ "characters": [
+  {
+   "name": "Nina",
+   "look": "a girl with long black hair and a blue sweater"
+  },
+  {
+   "name": "Omar",
+   "look": "a boy with short brown hair and a yellow shirt"
+  },
+  {
+   "name": "Mister Jack",
+   "look": "a tall man with glasses and a green tie"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Nina and Omar sit in the classroom.",
+   "zh": "Nina和Omar坐在教室里。",
+   "scene_prompt": "Nina with long black hair and Omar with short brown hair sit at desks in a bright classroom."
+  },
+  {
+   "en": "Mister Jack will teach a geography lesson.",
+   "zh": "Jack先生将教一节地理课。",
+   "scene_prompt": "Mister Jack with glasses and a green tie stands by a chalkboard in a classroom."
+  },
+  {
+   "en": "He shows an example of the alphabet.",
+   "zh": "他展示了一个字母表的例子。",
+   "scene_prompt": "Mister Jack points to the letters A B C on a chalkboard."
+  },
+  {
+   "en": "Nina writes a note with her pencil.",
+   "zh": "Nina用她的铅笔写下一条笔记。",
+   "scene_prompt": "Nina with long black hair writes on a piece of paper with a pencil."
+  },
+  {
+   "en": "Omar must repeat every new word.",
+   "zh": "Omar必须重复每一个新单词。",
+   "scene_prompt": "Omar with short brown hair opens his mouth to speak in the classroom."
+  },
+  {
+   "en": "He can read a long sentence now.",
+   "zh": "他现在能读出一个长句子了。",
+   "scene_prompt": "Omar looks at a book and reads a line of text."
+  },
+  {
+   "en": "He does his geography homework alone.",
+   "zh": "他独自做他的地理家庭作业。",
+   "scene_prompt": "Omar sits at a desk reading a book about maps and mountains."
+  },
+  {
+   "en": "He wants to pass the big test.",
+   "zh": "他想通过这次大测验。",
+   "scene_prompt": "Omar looks at a paper with many questions on his desk."
+  },
+  {
+   "en": "Do you know the answer yourself?",
+   "zh": "你知道答案吗？",
+   "scene_prompt": "Mister Jack looks at Omar and Nina with a kind smile."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "mister"
+ ],
+ "scene_id": "A1-043",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "sentence",
+  "homework",
+  "read",
+  "test",
+  "lesson",
+  "geography",
+  "teach",
+  "classroom",
+  "repeat",
+  "example",
+  "note",
+  "alphabet",
+  "pencil",
+  "know"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "classroom"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "lesson",
+     "geography",
+     "teach"
+    ],
+    "review_hits": [
+     "mister"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "example",
+     "alphabet"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "note",
+     "pencil"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "repeat"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "sentence",
+     "read"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "homework",
+     "geography"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "test"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "know"
+    ],
+    "review_hits": [
+     "yourself"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "yourself",
+   "mister"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 49.6
+}

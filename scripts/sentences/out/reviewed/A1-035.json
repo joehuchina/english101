@@ -1,0 +1,89 @@
+{
+ "scene_id": "A1-035",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "enough",
+  "few",
+  "country",
+  "april",
+  "with",
+  "plate",
+  "saturday",
+  "brown",
+  "help",
+  "high",
+  "soup",
+  "big",
+  "hand",
+  "excited"
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "stop",
+  "night"
+ ],
+ "title": "Soup on Saturday Night",
+ "title_zh": "星期六晚上的汤",
+ "setting": "Grandma Rosa's warm kitchen with a high shelf of plates.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "rosa",
+   "name": "Grandma Rosa",
+   "look": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "One rainy Saturday night in April, Ben visits Grandma.",
+   "zh": "四月一个下雨的星期六晚上，本去看望奶奶。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), in a raincoat, arrives at the door of Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) on a dark rainy night, and she opens it smiling.",
+   "draw": "partly",
+   "draw_note": "Shows Ben visiting Grandma on a rainy night; the day and month can't be shown."
+  },
+  {
+   "en": "Grandma Rosa makes hot soup from her home country.",
+   "zh": "罗莎奶奶做了一道她家乡的热汤。",
+   "scene_prompt": "Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) stirs a big pot of hot soup on the stove.",
+   "draw": "partly",
+   "draw_note": "Shows Grandma making hot soup; 'from her home country' can't be shown."
+  },
+  {
+   "en": "The plates are on a high shelf.",
+   "zh": "盘子放在高高的架子上。",
+   "scene_prompt": "Plates stand on a high kitchen shelf above the head of Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick), who looks up at them.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben helps her get a few big plates.",
+   "zh": "本帮她拿下几个大盘子。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) stands on a stool and takes a few big plates from the high shelf.",
+   "draw": "yes"
+  },
+  {
+   "en": "He hands her the brown plates with care.",
+   "zh": "他小心地把棕色的盘子递给她。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) carefully hands brown plates to Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick).",
+   "draw": "yes"
+  },
+  {
+   "en": "There is enough soup for everyone.",
+   "zh": "汤够每个人喝。",
+   "scene_prompt": "A big pot full of soup next to two filled brown plates on the table.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben is excited and cannot stop smiling.",
+   "zh": "本很兴奋，一直笑个不停。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) sits at the table with a plate of soup, smiling widely, Grandma Rosa (an old woman with white hair in a bun, a purple shawl and a walking stick) beside him.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

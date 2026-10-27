@@ -1,0 +1,168 @@
+{
+ "story": "Aiko is in her quiet kitchen. She usually adds sugar to the bowl. The gray sky is outside the open window. Dan is late for the important party. He brings a nice gift for dear Aiko. He puts the heavy bag on his back. Every person always eats the cake. The sound of the glass is too loud.",
+ "title": "A Quiet Party",
+ "title_zh": "安静的聚会",
+ "setting": "A cozy kitchen with an open window.",
+ "characters": [
+  {
+   "name": "Aiko",
+   "look": "a young woman with short black hair and a white apron"
+  },
+  {
+   "name": "Dan",
+   "look": "a tall man with brown hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Aiko is in her quiet kitchen.",
+   "zh": "Aiko 在她安静的厨房里。",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron, stands in a quiet kitchen."
+  },
+  {
+   "en": "She usually adds sugar to the bowl.",
+   "zh": "她通常往碗里添加糖。",
+   "scene_prompt": "Aiko pours white sugar from a jar into a large bowl."
+  },
+  {
+   "en": "The gray sky is outside the open window.",
+   "zh": "灰色的天空在敞开的窗外。",
+   "scene_prompt": "A view through an open kitchen window shows a gray sky."
+  },
+  {
+   "en": "Dan is late for the important party.",
+   "zh": "Dan 参加重要的聚会迟到了。",
+   "scene_prompt": "Dan, a tall man with brown hair and a blue shirt, walks toward the kitchen door."
+  },
+  {
+   "en": "He brings a nice gift for dear Aiko.",
+   "zh": "他为亲爱的 Aiko 带来了一份美好的礼物。",
+   "scene_prompt": "Dan holds a small gift box with a red ribbon near Aiko."
+  },
+  {
+   "en": "He puts the heavy bag on his back.",
+   "zh": "他把沉重的包放在背上。",
+   "scene_prompt": "Dan adjusts a heavy bag on his back."
+  },
+  {
+   "en": "Every person always eats the cake.",
+   "zh": "每个人总是吃蛋糕。",
+   "scene_prompt": "A group of people are eating cake at a table."
+  },
+  {
+   "en": "The sound of the glass is too loud.",
+   "zh": "玻璃的声音太大了。",
+   "scene_prompt": "A glass cup falls onto the table making a loud sound."
+  }
+ ],
+ "review_words": [
+  "too",
+  "glass",
+  "once",
+  "sock"
+ ],
+ "scene_id": "A1-023",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "every",
+  "quiet",
+  "add",
+  "nice",
+  "important",
+  "late",
+  "cake",
+  "sound",
+  "open",
+  "back",
+  "gray",
+  "always",
+  "usually",
+  "dear"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "quiet"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "add",
+     "usually"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "open",
+     "gray"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "important",
+     "late"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "nice",
+     "dear"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "back"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "every",
+     "cake",
+     "always"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "sound"
+    ],
+    "review_hits": [
+     "too",
+     "glass"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "too",
+   "glass"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 46.5
+}

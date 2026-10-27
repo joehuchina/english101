@@ -1,0 +1,103 @@
+{
+ "scene_id": "A1-041",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "june",
+  "turn",
+  "piece",
+  "pink",
+  "garden",
+  "until",
+  "each",
+  "bath",
+  "nine",
+  "twelve",
+  "moment",
+  "want",
+  "another"
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "banana"
+ ],
+ "title": "Bath Time in the Garden",
+ "title_zh": "花园里的洗澡时间",
+ "setting": "A sunny garden with pink flowers, a tub of water and Max, the family dog.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "max",
+   "name": "Max",
+   "look": "Max (a small brown dog with floppy ears and a red collar)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a warm June day in the garden.",
+   "zh": "六月的一天，花园里很暖和。",
+   "scene_prompt": "A sunny garden in early summer with green grass, pink flowers and a tub of water.",
+   "draw": "partly",
+   "draw_note": "Shows a sunny summer garden; the month can't be shown."
+  },
+  {
+   "en": "Ben and Lily want to give Max a bath.",
+   "zh": "本和莉莉想给麦克斯洗个澡。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) hold Max (a small brown dog with floppy ears and a red collar) next to a tub of soapy water in the garden.",
+   "draw": "partly",
+   "draw_note": "Shows the children about to bath the dog; 'want' can only be guessed."
+  },
+  {
+   "en": "Wet Max runs twelve times around the pink flowers.",
+   "zh": "湿漉漉的麦克斯绕着粉色的花跑了十二圈。",
+   "scene_prompt": "Wet Max (a small brown dog with floppy ears and a red collar) races around a bed of pink flowers while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) chase him with a towel.",
+   "draw": "partly",
+   "draw_note": "Shows Max running around the flowers; the number of times is not shown."
+  },
+  {
+   "en": "He is nine, but he runs like a puppy.",
+   "zh": "它九岁了，可跑起来还像只小狗崽。",
+   "scene_prompt": "Max (a small brown dog with floppy ears and a red collar) leaps in the air like a young puppy, water drops flying.",
+   "draw": "partly",
+   "draw_note": "Shows Max jumping playfully; his age is not shown."
+  },
+  {
+   "en": "Lily waits for a moment until he stops.",
+   "zh": "莉莉等了一会儿，直到它停下来。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) waits with a towel as Max (a small brown dog with floppy ears and a red collar) finally sits still on the grass.",
+   "draw": "partly",
+   "draw_note": "Shows Lily waiting; 'until' is not shown."
+  },
+  {
+   "en": "Each child takes a turn with the brush.",
+   "zh": "每个孩子轮流用刷子给它刷毛。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) brushes Max (a small brown dog with floppy ears and a red collar) while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) waits with the brush ready for her turn.",
+   "draw": "yes"
+  },
+  {
+   "en": "Later, they share a banana, piece by piece.",
+   "zh": "后来，他们一块一块地分吃一根香蕉。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) sit on the grass sharing pieces of a banana; Max (a small brown dog with floppy ears and a red collar) watches hopefully.",
+   "draw": "yes"
+  },
+  {
+   "en": "\"Help yourself to another piece,\" Ben tells Max.",
+   "zh": "“再吃一块吧。”本对麦克斯说。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) holds out a piece of banana to Max (a small brown dog with floppy ears and a red collar), who sniffs it.",
+   "draw": "partly",
+   "draw_note": "Shows Ben offering banana to Max; the words are not shown."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

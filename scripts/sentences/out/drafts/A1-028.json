@@ -1,0 +1,197 @@
+{
+ "story": "Ali is a beginner in an English class. He sits in a school room with Rosa. The teacher writes on the blackboard. Ali uses a notebook and a ruler to study. He writes words on a piece of paper. He wants to learn how to spell. If he passes his exam, he travels. He will visit Rome after his holiday. This course is very good for him.",
+ "title": "Ali's English Class",
+ "title_zh": "Ali的英语课",
+ "setting": "A bright classroom in a school.",
+ "characters": [
+  {
+   "name": "Ali",
+   "look": "a young boy with short black hair and a blue shirt"
+  },
+  {
+   "name": "Rosa",
+   "look": "a young girl with long brown hair and a yellow sweater"
+  },
+  {
+   "name": "Teacher",
+   "look": "a kind woman with glasses and a white shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ali is a beginner in this English class.",
+   "zh": "Ali是这个英语班的初学者。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt, sits at a desk in a classroom."
+  },
+  {
+   "en": "The teacher writes on the large blackboard.",
+   "zh": "老师在大的黑板上写字。",
+   "scene_prompt": "A kind woman with glasses and a white shirt writes on a large blackboard."
+  },
+  {
+   "en": "Rosa sits next to Ali in school.",
+   "zh": "Rosa在学校里坐在Ali旁边。",
+   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow sweater, sits next to Ali."
+  },
+  {
+   "en": "Ali uses a ruler and a notebook.",
+   "zh": "Ali使用一支尺子和一个笔记本。",
+   "scene_prompt": "Ali holds a small ruler and looks at a notebook on his desk."
+  },
+  {
+   "en": "He wants to study every day.",
+   "zh": "他想每天学习。",
+   "scene_prompt": "Ali sits at his desk and looks at his books with focus."
+  },
+  {
+   "en": "He writes words on a white paper.",
+   "zh": "他在一张白纸上写字。",
+   "scene_prompt": "Ali writes words on a piece of white paper."
+  },
+  {
+   "en": "He wants to learn how to spell.",
+   "zh": "他想学习如何拼写。",
+   "scene_prompt": "Ali looks at the blackboard and thinks about letters."
+  },
+  {
+   "en": "If he passes his exam, he travels.",
+   "zh": "如果他通过考试，他就去旅行。",
+   "scene_prompt": "Ali looks happy and imagines a suitcase for his trip."
+  },
+  {
+   "en": "He will visit Rome after his holiday.",
+   "zh": "假期结束后他将去罗马。",
+   "scene_prompt": "Ali looks at a picture of Rome in a book and smiles."
+  },
+  {
+   "en": "This course is very good for him.",
+   "zh": "这门课程对他很有好处。",
+   "scene_prompt": "Ali and Rosa are smiling in the bright classroom."
+  }
+ ],
+ "review_words": [
+  "sock",
+  "holiday",
+  "rome",
+  "east"
+ ],
+ "scene_id": "A1-028",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "course",
+  "teacher",
+  "notebook",
+  "ruler",
+  "school",
+  "learn",
+  "blackboard",
+  "study",
+  "exam",
+  "class",
+  "paper",
+  "spell",
+  "beginner",
+  "if"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "class",
+     "beginner"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "teacher",
+     "blackboard"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "school"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "notebook",
+     "ruler"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "study"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "paper"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [
+     "same opening as sentence 5"
+    ],
+    "hits": [
+     "learn",
+     "spell"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "exam",
+     "if"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "holiday",
+     "rome"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "course"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "holiday",
+   "rome"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 66.9
+}

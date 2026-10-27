@@ -1,0 +1,171 @@
+{
+ "story": "Kofi, Hana, and Max are talking about different activities to do. They decide to pick one sport for their weekend. They talk about playing football and basketball, and also tennis. Finally, they choose to go swimming together.",
+ "title": "Choosing a Sport",
+ "title_zh": "选择一项运动",
+ "setting": "A sunny park with green grass.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "A young boy with short black hair and a blue t-shirt."
+  },
+  {
+   "name": "Hana",
+   "look": "A young girl with long brown hair and a yellow shirt."
+  },
+  {
+   "name": "Max",
+   "look": "A young boy with blonde hair and a red jacket."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and Hana think about a new sport.",
+   "zh": "Kofi和Hana在考虑一项新的运动。",
+   "scene_prompt": "Kofi and Hana sitting on the grass, looking thoughtful."
+  },
+  {
+   "en": "Max wears a warm red jacket today.",
+   "zh": "Max今天穿着一件暖和的红色夹克。",
+   "scene_prompt": "Max standing in the park wearing a red jacket."
+  },
+  {
+   "en": "Kofi is a very good football player.",
+   "zh": "Kofi是一个非常好的足球运动员。",
+   "scene_prompt": "Kofi standing on the grass with a football."
+  },
+  {
+   "en": "Hana wants to play a basketball game.",
+   "zh": "Hana想玩一场篮球比赛。",
+   "scene_prompt": "Hana holding a basketball in her hands."
+  },
+  {
+   "en": "They also talk about a tennis match.",
+   "zh": "他们还谈到了网球比赛。",
+   "scene_prompt": "Hana and Max looking at a tennis racket and ball."
+  },
+  {
+   "en": "Max wants to climb a big mountain.",
+   "zh": "Max想要攀登一座大山。",
+   "scene_prompt": "Max pointing at a large mountain in the distance."
+  },
+  {
+   "en": "They want to win a big prize.",
+   "zh": "他们想要赢得一个大奖。",
+   "scene_prompt": "Kofi, Hana, and Max looking at a gold trophy."
+  },
+  {
+   "en": "They choose swimming for the weekend.",
+   "zh": "他们选择周末去游泳。",
+   "scene_prompt": "Kofi, Hana, and Max pointing towards a blue swimming pool."
+  }
+ ],
+ "review_words": [
+  "jacket",
+  "jeans",
+  "think",
+  "fire"
+ ],
+ "scene_id": "A1-037",
+ "level": "A1",
+ "topic": "sport",
+ "targets": [
+  "football",
+  "basketball",
+  "player",
+  "sport",
+  "ball",
+  "tennis",
+  "swim",
+  "swimming",
+  "win",
+  "climb",
+  "game",
+  "match",
+  "choose"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "sport"
+    ],
+    "review_hits": [
+     "think"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "jacket"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "football",
+     "player"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "basketball",
+     "game"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "tennis",
+     "match"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "climb"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "win"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "swim",
+     "choose"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "ball",
+   "swimming"
+  ],
+  "review_used": [
+   "jacket",
+   "think"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 61.9
+}

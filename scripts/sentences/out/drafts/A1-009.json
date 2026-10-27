@@ -1,0 +1,171 @@
+{
+ "story": "Ben and Anna are at the school library to study. They work on their English and French lessons at a desk. Ben practices his maths and checks if his answers are correct.",
+ "title": "Study Time",
+ "title_zh": "学习时光",
+ "setting": "A quiet school library with wooden desks and many books.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "A young boy with short brown hair and a blue sweater."
+  },
+  {
+   "name": "Anna",
+   "look": "A young girl with long black hair and a red shirt."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Anna are in the library.",
+   "zh": "Ben 和 Anna 在图书馆里。",
+   "scene_prompt": "Ben, a boy with short brown hair and blue sweater, and Anna, a girl with long black hair and red shirt, sit in a quiet library."
+  },
+  {
+   "en": "The two students sit at a desk.",
+   "zh": "这两个学生坐在书桌旁。",
+   "scene_prompt": "Ben and Anna sit together at a large wooden desk in the library."
+  },
+  {
+   "en": "Anna enjoys reading her French book.",
+   "zh": "Anna 喜欢阅读她的法语书。",
+   "scene_prompt": "Anna holds an open book with a small French flag on the cover."
+  },
+  {
+   "en": "Ben does English writing for a minute.",
+   "zh": "Ben 做英语写作练习一分钟。",
+   "scene_prompt": "Ben writes in a notebook for a short minute."
+  },
+  {
+   "en": "He must practise every new English word.",
+   "zh": "他必须练习每一个新的英语单词。",
+   "scene_prompt": "Ben looks at a list of English words in a small notebook."
+  },
+  {
+   "en": "He studies difficult grammar and maths too.",
+   "zh": "他也学习很难的语法和数学。",
+   "scene_prompt": "Ben looks at a page filled with math numbers and grammar rules."
+  },
+  {
+   "en": "Ben checks if his answer is correct.",
+   "zh": "Ben 检查他的答案是否正确。",
+   "scene_prompt": "Ben looks closely at a math problem in his book."
+  },
+  {
+   "en": "Even Anna believes he is very smart.",
+   "zh": "甚至 Anna 也相信他非常聪明。",
+   "scene_prompt": "Anna smiles and looks at Ben with encouragement."
+  }
+ ],
+ "review_words": [
+  "let",
+  "minute",
+  "even",
+  "o-clock"
+ ],
+ "scene_id": "A1-009",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "library",
+  "writing",
+  "english",
+  "student",
+  "reading",
+  "answer",
+  "practise",
+  "correct",
+  "french",
+  "grammar",
+  "maths",
+  "word",
+  "desk",
+  "believe"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "library"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "student",
+     "desk"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "french"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "english"
+    ],
+    "review_hits": [
+     "minute"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "english",
+     "practise",
+     "word"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "grammar",
+     "maths"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "answer",
+     "correct"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "believe"
+    ],
+    "review_hits": [
+     "even"
+    ]
+   }
+  ],
+  "missing": [
+   "writing",
+   "reading"
+  ],
+  "review_used": [
+   "minute",
+   "even"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 52.9
+}

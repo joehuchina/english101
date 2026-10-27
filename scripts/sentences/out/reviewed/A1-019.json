@@ -1,0 +1,103 @@
+{
+ "scene_id": "A1-019",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "year",
+  "free",
+  "shop",
+  "weekend",
+  "sweater",
+  "mother",
+  "play",
+  "different",
+  "pool",
+  "before",
+  "white",
+  "large",
+  "hour",
+  "future"
+ ],
+ "review_words": [
+  "activity",
+  "chips",
+  "keep",
+  "left"
+ ],
+ "title": "A Weekend at the Pool",
+ "title_zh": "泳池边的周末",
+ "setting": "A large sports centre with a swimming pool and a small shop by the exit.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "look": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Swimming is Ben and Lily's favourite weekend activity.",
+   "zh": "游泳是本和莉莉最喜欢的周末活动。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now in blue swimming trunks, and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now in a yellow swimsuit, jump happily into a big indoor swimming pool.",
+   "draw": "partly",
+   "draw_note": "Shows the children happily jumping into a pool; 'weekend' and 'favourite' can't be shown."
+  },
+  {
+   "en": "This year, the pool is free for children.",
+   "zh": "今年，这个游泳池对儿童免费。",
+   "scene_prompt": "Children, including Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) in swimsuits, run happily past an open gate into a big pool.",
+   "draw": "partly",
+   "draw_note": "Shows children entering the pool; 'free' and 'this year' cannot be shown."
+  },
+  {
+   "en": "They play in the water for an hour.",
+   "zh": "他们在水里玩了一个小时。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now in blue swimming trunks, and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), now in a yellow swimsuit, splash each other and play with a ball in the pool.",
+   "draw": "partly",
+   "draw_note": "Shows them playing in the water; 'for an hour' can't be shown."
+  },
+  {
+   "en": "In the future, Lily wants to be a swimmer.",
+   "zh": "将来，莉莉想当一名游泳运动员。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots), in a swimsuit and goggles, races hard down a lane of the pool while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) cheers.",
+   "draw": "partly",
+   "draw_note": "Shows Lily swimming hard; her wish for the future is not shown."
+  },
+  {
+   "en": "Before they go home, they visit the shop.",
+   "zh": "回家之前，他们去了商店。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) and Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), all dressed with wet hair, walk into a small shop at the sports centre.",
+   "draw": "partly",
+   "draw_note": "Shows the family, dressed again, going into the shop; 'before they go home' can't be shown."
+  },
+  {
+   "en": "The shop has sweaters in many different colours.",
+   "zh": "这家店有很多不同颜色的毛衣。",
+   "scene_prompt": "Shelves in the small shop are full of sweaters in red, blue, green and yellow.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben buys a large white one for his mother.",
+   "zh": "本给妈妈买了一件大号白毛衣。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) proudly holds up a large white sweater for Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan).",
+   "draw": "yes"
+  },
+  {
+   "en": "Anna keeps it on all the way home.",
+   "zh": "安娜一路上都穿着它回家。",
+   "scene_prompt": "Anna (a woman of about forty with shoulder-length red hair, round glasses and a teal cardigan), now wearing the large white sweater, walks home smiling with Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

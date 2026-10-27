@@ -1,0 +1,190 @@
+{
+ "story": "On a Monday in July, Sara and Ivan meet at a cafe. Sara sits on a seat and drinks from a purple cup. Ivan has a water bottle and says hello. They listen to the music and talk about nothing else but the hot weather.",
+ "title": "A Hot Monday",
+ "title_zh": "炎热的星期一",
+ "setting": "A sunny outdoor cafe in July.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "a girl with long brown hair and a white shirt"
+  },
+  {
+   "name": "Ivan",
+   "look": "a boy with short black hair and a blue t-shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a hot Monday in July.",
+   "zh": "这是七月里一个炎热的星期一。",
+   "scene_prompt": "Sara and Ivan stand under a bright sun in a park."
+  },
+  {
+   "en": "Sara finds a seat at the cafe.",
+   "zh": "萨拉在咖啡馆找了一个座位。",
+   "scene_prompt": "Sara with long brown hair walks toward a wooden chair."
+  },
+  {
+   "en": "She wants to sit down now.",
+   "zh": "她现在想坐下。",
+   "scene_prompt": "Sara sits on a wooden chair at a small table."
+  },
+  {
+   "en": "She holds a purple cup in her hand.",
+   "zh": "她手里拿着一个紫色的杯子。",
+   "scene_prompt": "Sara holds a purple cup near her face."
+  },
+  {
+   "en": "Ivan says hello to her again.",
+   "zh": "伊万再一次向她打招呼。",
+   "scene_prompt": "Ivan with short black hair waves his hand at Sara."
+  },
+  {
+   "en": "He puts a water bottle on top.",
+   "zh": "他把一个水瓶放在上面。",
+   "scene_prompt": "Ivan places a clear water bottle on the top of the table."
+  },
+  {
+   "en": "The temperature is not zero today.",
+   "zh": "今天的温度不是零度。",
+   "scene_prompt": "Ivan looks at the bright sun in the blue sky."
+  },
+  {
+   "en": "They listen to the music together.",
+   "zh": "他们一起听音乐。",
+   "scene_prompt": "Sara and Ivan sit at the table and look happy."
+  },
+  {
+   "en": "This is her last drink today.",
+   "zh": "这是她今天的最后一杯饮料。",
+   "scene_prompt": "Sara holds her purple cup and looks at the empty cup."
+  },
+  {
+   "en": "They do not talk about anything else.",
+   "zh": "他们不谈论其他任何事情。",
+   "scene_prompt": "Sara and Ivan sit together and smile at each other."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "last",
+  "listen"
+ ],
+ "scene_id": "A1-040",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "july",
+  "zero",
+  "again",
+  "hello",
+  "sit",
+  "seat",
+  "cup",
+  "monday",
+  "else",
+  "in",
+  "top",
+  "purple",
+  "bottle"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "july",
+     "monday",
+     "in"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "seat"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "sit"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "cup",
+     "in",
+     "purple"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "again",
+     "hello"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "top",
+     "bottle"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "zero"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "listen"
+    ]
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "last"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "else"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "last",
+   "listen"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 61.4
+}

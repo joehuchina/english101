@@ -1,0 +1,166 @@
+{
+ "story": "Aiko prepares a special snack for her family on a Wednesday morning. She uses a new recipe to cook strawberries. She measures the table and thinks about her age.",
+ "title": "Aiko's Wednesday Morning",
+ "title_zh": "Aiko的星期三早晨",
+ "setting": "A bright kitchen in the morning.",
+ "characters": [
+  {
+   "name": "Aiko",
+   "look": "A young girl with black hair in two small buns."
+  },
+  {
+   "name": "Dan",
+   "look": "A tall man with short brown hair."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a sunny Wednesday a.m.",
+   "zh": "这是一个阳光明媚的星期三上午。",
+   "scene_prompt": "Aiko with black hair in two small buns looks out a bright kitchen window on a sunny morning."
+  },
+  {
+   "en": "The young girl wants to start cooking.",
+   "zh": "这个小女孩想要开始做饭。",
+   "scene_prompt": "Aiko with black hair in two small buns stands in a kitchen with a cookbook."
+  },
+  {
+   "en": "She puts a red strawberry on the table.",
+   "zh": "她把一颗红色的草莓放在桌子上。",
+   "scene_prompt": "Aiko with black hair in two small buns places a red strawberry on a wooden table."
+  },
+  {
+   "en": "The table is one metre long.",
+   "zh": "这张桌子有一米长。",
+   "scene_prompt": "Aiko with black hair in two small buns holds a measuring tape against a wooden table."
+  },
+  {
+   "en": "She uses a new recipe today.",
+   "zh": "她今天使用了一个新食谱。",
+   "scene_prompt": "Aiko with black hair in two small buns reads a cookbook in the kitchen."
+  },
+  {
+   "en": "Aiko is sixteen years old now.",
+   "zh": "Aiko现在十六岁了。",
+   "scene_prompt": "Aiko with black hair in two small buns smiles happily in the kitchen."
+  },
+  {
+   "en": "She will be seventeen next December.",
+   "zh": "她明年十二月就十七岁了。",
+   "scene_prompt": "Aiko with black hair in two small buns looks at a calendar showing December."
+  },
+  {
+   "en": "Her family eats together every week.",
+   "zh": "她的家人每周都一起吃饭。",
+   "scene_prompt": "Dan, a tall man with short brown hair, sits at the table with Aiko."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "policeman",
+  "poor",
+  "girl"
+ ],
+ "scene_id": "A1-047",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "strawberry",
+  "sixteen",
+  "week",
+  "seventeen",
+  "wednesday",
+  "a-m",
+  "new",
+  "cooking",
+  "family",
+  "december",
+  "metre",
+  "table",
+  "useful"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "wednesday",
+     "a-m"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "cooking"
+    ],
+    "review_hits": [
+     "girl"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "strawberry",
+     "table"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "metre",
+     "table"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "new"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "sixteen"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "seventeen",
+     "december"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "week",
+     "family"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "useful"
+  ],
+  "review_used": [
+   "girl"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 62.5
+}

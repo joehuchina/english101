@@ -1,0 +1,187 @@
+{
+ "story": "In September, Mia and Sam go to a picnic in the park. They bring a small box of chocolate and some cool drinks. Sam sees a big thing in the middle of the grass. Maybe it is a pet for Lily. They never leave anything behind.",
+ "title": "A September Picnic",
+ "title_zh": "九月的野餐",
+ "setting": "A sunny park with green grass in September.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "A young girl with short brown hair and a yellow shirt."
+  },
+  {
+   "name": "Sam",
+   "look": "A young boy with glasses and a blue t-shirt."
+  },
+  {
+   "name": "Lily",
+   "look": "A young girl with long black hair and a red dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a cool day in September.",
+   "zh": "九月的天气很凉爽。",
+   "scene_prompt": "Mia and Sam are sitting on the grass under a tree on a cool September day."
+  },
+  {
+   "en": "Mia and Sam begin a picnic.",
+   "zh": "Mia和Sam开始野餐。",
+   "scene_prompt": "Mia and Sam are spreading a blanket on the grass for a picnic."
+  },
+  {
+   "en": "They have a small box of chocolate.",
+   "zh": "他们有一盒小巧的巧克力。",
+   "scene_prompt": "Mia holds a small box of chocolate on the picnic blanket."
+  },
+  {
+   "en": "Sam brings forty small cookies too.",
+   "zh": "Sam也带了四十块小饼干。",
+   "scene_prompt": "Sam is putting forty small cookies on a plate next to the chocolate."
+  },
+  {
+   "en": "The picnic is very easy and fun.",
+   "zh": "这次野餐非常容易且有趣。",
+   "scene_prompt": "Mia and Sam are laughing and eating on the picnic blanket."
+  },
+  {
+   "en": "Sam sees something in the middle.",
+   "zh": "Sam在中间看到了某样东西。",
+   "scene_prompt": "Sam is pointing at a strange thing in the middle of the grass."
+  },
+  {
+   "en": "Maybe that thing is very big.",
+   "zh": "也许那个东西非常大。",
+   "scene_prompt": "Mia and Sam look at a large object sitting in the middle of the grass."
+  },
+  {
+   "en": "The size of the pet is large.",
+   "zh": "这个宠物的尺寸很大。",
+   "scene_prompt": "Mia and Sam look at a large dog sitting in the middle of the grass."
+  },
+  {
+   "en": "They never leave anything behind now.",
+   "zh": "他们现在从不把任何东西落下。",
+   "scene_prompt": "Mia and Sam are cleaning up their picnic things and looking around."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "something",
+  "pet"
+ ],
+ "scene_id": "A1-034",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "never",
+  "middle",
+  "cool",
+  "september",
+  "easy",
+  "thing",
+  "anything",
+  "forty",
+  "chocolate",
+  "size",
+  "small",
+  "picnic",
+  "begin",
+  "maybe"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "cool",
+     "september"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "picnic",
+     "begin"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "chocolate",
+     "small"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "forty",
+     "small"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "easy",
+     "picnic"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "middle"
+    ],
+    "review_hits": [
+     "something"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "thing",
+     "maybe"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "size"
+    ],
+    "review_hits": [
+     "pet"
+    ]
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "never",
+     "anything"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "something",
+   "pet"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 61.6
+}

@@ -1,0 +1,193 @@
+{
+ "story": "Kofi and Hana visit a museum to see art. They see a large painting and a beautiful picture. Hana is an artist, and Kofi is a tall actor. They also listen to music from a band with a guitar and a piano. They see a photograph and some colorful paint too.",
+ "title": "A Day at the Museum",
+ "title_zh": "博物馆的一天",
+ "setting": "A bright, modern art museum with large walls.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "A tall young man with short black hair and a green shirt."
+  },
+  {
+   "name": "Hana",
+   "look": "A young woman with long brown hair and a yellow dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and Hana walk into the big museum.",
+   "zh": "Kofi和Hana走进这座大博物馆。",
+   "scene_prompt": "Kofi, a tall man in a green shirt, and Hana, a woman in a yellow dress, walk through the large doors of a museum."
+  },
+  {
+   "en": "Kofi is a very tall actor.",
+   "zh": "Kofi是一个非常高大的演员。",
+   "scene_prompt": "Kofi, a tall man in a green shirt, stands next to Hana."
+  },
+  {
+   "en": "Hana is a great artist too.",
+   "zh": "Hana也是一位伟大的艺术家。",
+   "scene_prompt": "Hana, a woman in a yellow dress, holds a small brush."
+  },
+  {
+   "en": "They look at a large painting.",
+   "zh": "他们看一幅巨大的绘画作品。",
+   "scene_prompt": "Kofi and Hana look at a large painting on a white wall."
+  },
+  {
+   "en": "They also see a pretty picture.",
+   "zh": "他们也看到一张漂亮的图片。",
+   "scene_prompt": "Kofi and Hana look at a small picture on the wall."
+  },
+  {
+   "en": "The reason for the visit is art.",
+   "zh": "参观的原因是艺术。",
+   "scene_prompt": "Kofi and Hana stand in a room full of art."
+  },
+  {
+   "en": "A band plays a guitar and a piano.",
+   "zh": "一个乐队演奏着吉他和钢琴。",
+   "scene_prompt": "A small band plays a guitar and a piano in the museum corner."
+  },
+  {
+   "en": "They see a photograph on the wall.",
+   "zh": "他们在墙上看到一张照片。",
+   "scene_prompt": "Kofi and Hana look at a photograph in a frame on the wall."
+  },
+  {
+   "en": "A jar of red paint is on a table.",
+   "zh": "桌子上有一个红色的颜料罐。",
+   "scene_prompt": "A jar of red paint sits on a small table."
+  },
+  {
+   "en": "The music is very soft.",
+   "zh": "音乐非常轻柔。",
+   "scene_prompt": "Kofi and Hana listen to the music in the museum."
+  }
+ ],
+ "review_words": [
+  "wake",
+  "lunch",
+  "tall",
+  "also"
+ ],
+ "scene_id": "A1-013",
+ "level": "A1",
+ "topic": "arts",
+ "targets": [
+  "paint",
+  "picture",
+  "guitar",
+  "band",
+  "painting",
+  "music",
+  "actor",
+  "art",
+  "museum",
+  "artist",
+  "piano",
+  "photograph",
+  "reason"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "museum"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "actor"
+    ],
+    "review_hits": [
+     "tall"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "artist"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "painting"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "picture"
+    ],
+    "review_hits": [
+     "also"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "art",
+     "reason"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "guitar",
+     "band",
+     "piano"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "photograph"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "paint"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [
+     "length 5 not in 6-9"
+    ],
+    "hits": [
+     "music"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "tall",
+   "also"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 78.2
+}

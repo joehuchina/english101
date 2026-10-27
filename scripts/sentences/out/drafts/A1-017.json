@@ -1,0 +1,196 @@
+{
+ "story": "On Tuesday morning, Ben visits his grandparent. It is a cold day, so they sit outside on a wide bench. Ben is a little boy wearing black trousers. He puts on a shoe without his socks. They eat sweet pasta and drink hot coffee. The coffee has a very good smell. They agree that the morning is nice.",
+ "title": "A Tuesday Morning",
+ "title_zh": "一个星期二的早晨",
+ "setting": "A sunny garden outside a house.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "A little boy with short brown hair and a blue shirt."
+  },
+  {
+   "name": "Grandparent",
+   "look": "An old man with white hair and glasses."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a sunny Tuesday morning.",
+   "zh": "这是一个阳光明媚的星期二早晨。",
+   "scene_prompt": "A bright sun rises over a green garden on a Tuesday morning."
+  },
+  {
+   "en": "The morning air is very cold.",
+   "zh": "早晨的空气非常冷。",
+   "scene_prompt": "Ben and the old man sit in a garden with visible cold mist in the air."
+  },
+  {
+   "en": "Ben is a little boy with brown hair.",
+   "zh": "本是一个棕色头发的小男孩。",
+   "scene_prompt": "Ben, a little boy with short brown hair, stands in the garden."
+  },
+  {
+   "en": "He visits his kind grandparent today.",
+   "zh": "他今天去拜访他亲切的祖父母。",
+   "scene_prompt": "Ben walks toward an old man with white hair and glasses."
+  },
+  {
+   "en": "Ben wears black trousers and a shirt.",
+   "zh": "本穿着黑色的裤子和一件衬衫。",
+   "scene_prompt": "Ben is wearing black trousers and a blue shirt."
+  },
+  {
+   "en": "He puts a shoe on without socks.",
+   "zh": "他没穿袜子就穿上了鞋子。",
+   "scene_prompt": "Ben is putting a shoe on his foot without any socks."
+  },
+  {
+   "en": "They sit outside on a wide bench.",
+   "zh": "他们坐在一个宽阔的长凳上。",
+   "scene_prompt": "Ben and the old man sit on a wide wooden bench outside."
+  },
+  {
+   "en": "They eat sweet pasta and hot coffee.",
+   "zh": "他们吃甜甜的面条和热咖啡。",
+   "scene_prompt": "Ben and the old man eat bowls of pasta and drink coffee at a table."
+  },
+  {
+   "en": "The coffee has a very good smell.",
+   "zh": "咖啡有一种非常好闻的气味。",
+   "scene_prompt": "Steam rises from two cups of hot coffee on the table."
+  },
+  {
+   "en": "They agree that the food is sweet.",
+   "zh": "他们都觉得食物是甜的。",
+   "scene_prompt": "Ben and the old man smile at each other over their breakfast."
+  }
+ ],
+ "review_words": [
+  "activity",
+  "without",
+  "nothing",
+  "tuesday"
+ ],
+ "scene_id": "A1-017",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "smell",
+  "grandparent",
+  "wide",
+  "cold",
+  "trousers",
+  "coffee",
+  "shoe",
+  "little",
+  "sweet",
+  "morning",
+  "outside",
+  "pasta",
+  "black",
+  "agree"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "morning"
+    ],
+    "review_hits": [
+     "tuesday"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "cold",
+     "morning"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "little"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "grandparent"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "trousers",
+     "black"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "shoe"
+    ],
+    "review_hits": [
+     "without"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "wide",
+     "outside"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "coffee",
+     "sweet",
+     "pasta"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "smell",
+     "coffee"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "sweet",
+     "agree"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "without",
+   "tuesday"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 2,
+ "seconds": 35.8
+}

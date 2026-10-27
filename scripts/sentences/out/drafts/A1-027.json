@@ -1,0 +1,193 @@
+{
+ "story": "It is Friday and Nina is at home. She wants to cook rice for dinner. She spills water on the clean floor. She is sorry and must wash it. Nina sits on the sofa to rest her feet. She often looks at a baby toy. It is half broken and has a name. She reads a history book about France and an aeroplane.",
+ "title": "A Friday Evening",
+ "title_zh": "一个星期五的晚上",
+ "setting": "A bright, clean living room with a sofa.",
+ "characters": [
+  {
+   "name": "Nina",
+   "look": "A young girl with long brown hair and a yellow shirt."
+  },
+  {
+   "name": "Omar",
+   "look": "A tall man with short black hair and glasses."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Today is Friday and Nina is home.",
+   "zh": "今天是星期五，妮娜在家。",
+   "scene_prompt": "Nina with long brown hair and a yellow shirt sits in a bright living room."
+  },
+  {
+   "en": "She wants to cook some white rice.",
+   "zh": "她想煮一些白米饭。",
+   "scene_prompt": "Nina stands in a kitchen looking at a bowl of white rice."
+  },
+  {
+   "en": "She spills water on the clean floor.",
+   "zh": "她把水洒在了干净的地板上。",
+   "scene_prompt": "Water is splashing on a shiny, white floor near Nina."
+  },
+  {
+   "en": "She is sorry and must wash it.",
+   "zh": "她感到很抱歉，必须清洗它。",
+   "scene_prompt": "Nina uses a cloth to clean the water on the floor."
+  },
+  {
+   "en": "Nina sits on the soft sofa now.",
+   "zh": "妮娜现在坐在柔软的沙发上。",
+   "scene_prompt": "Nina sits on a large, comfortable blue sofa."
+  },
+  {
+   "en": "She rests her tired feet there.",
+   "zh": "她在那里休息她疲惫的双脚。",
+   "scene_prompt": "Nina rests her bare feet on the edge of the sofa."
+  },
+  {
+   "en": "She often looks at a baby toy.",
+   "zh": "她经常看一个婴儿玩具。",
+   "scene_prompt": "Nina holds a small colorful teddy bear."
+  },
+  {
+   "en": "It is half broken and has a name.",
+   "zh": "它坏了一半，上面还有一个名字。",
+   "scene_prompt": "A close up of the teddy bear showing it is torn in half."
+  },
+  {
+   "en": "She reads a history book about France.",
+   "zh": "她读一本关于法国的历史书。",
+   "scene_prompt": "Nina reads a book with a picture of France on the cover."
+  },
+  {
+   "en": "The book shows a big aeroplane.",
+   "zh": "书里展示了一架大飞机。",
+   "scene_prompt": "The book page shows a large aeroplane flying in the sky."
+  }
+ ],
+ "review_words": [
+  "sock",
+  "holiday",
+  "france",
+  "aeroplane"
+ ],
+ "scene_id": "A1-027",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "history",
+  "friday",
+  "feet",
+  "wash",
+  "sofa",
+  "rice",
+  "clean",
+  "name",
+  "often",
+  "it",
+  "baby",
+  "water",
+  "half",
+  "sorry"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "friday"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "rice"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "clean",
+     "water"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "wash",
+     "it",
+     "sorry"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "sofa"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "feet"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "often",
+     "baby"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "name",
+     "it",
+     "half"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "history"
+    ],
+    "review_hits": [
+     "france"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "aeroplane"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "france",
+   "aeroplane"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 66.0
+}

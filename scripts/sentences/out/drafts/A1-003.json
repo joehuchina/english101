@@ -1,0 +1,139 @@
+{
+ "title": "A Busy Sunday",
+ "title_zh": "忙碌的周日",
+ "setting": "A bright bedroom on a sunny day.",
+ "characters": [
+  {
+   "name": "Lily",
+   "look": "a young girl with long brown hair and a blue skirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "On Sunday, Lily stays in her bedroom.",
+   "zh": "在周日，莉莉待在她的卧室里。",
+   "scene_prompt": "A young girl with long brown hair sits in a bright bedroom."
+  },
+  {
+   "en": "She puts a pretty skirt on the bed.",
+   "zh": "她把一件漂亮的裙子放在床上。",
+   "scene_prompt": "A young girl with long brown hair puts a pretty pink skirt on a bed."
+  },
+  {
+   "en": "She finds a white sock or a blue one.",
+   "zh": "她找了一只白袜子或者一只蓝袜子。",
+   "scene_prompt": "A young girl with long brown hair looks at a white sock and a blue sock on the floor."
+  },
+  {
+   "en": "Her left side feels a little cold.",
+   "zh": "她的左侧感觉有一点冷。",
+   "scene_prompt": "A young girl with long brown hair hugs herself while standing near the left side of the bed."
+  },
+  {
+   "en": "She keeps a glass of water nearby.",
+   "zh": "她在旁边放了一杯水。",
+   "scene_prompt": "A young girl with long brown hair sits near a glass of water on a small table."
+  },
+  {
+   "en": "The chips are too hot to eat now.",
+   "zh": "这些薯条现在太烫了，没法吃。",
+   "scene_prompt": "A young girl with long brown hair looks at a bowl of hot chips on a table."
+  },
+  {
+   "en": "She had a good feeling once today.",
+   "zh": "她今天曾经有过一种很好的感觉。",
+   "scene_prompt": "A young girl with long brown hair smiles happily in her sunny bedroom."
+  }
+ ],
+ "review_words": [
+  "thursday",
+  "bedroom",
+  "clothes",
+  "strong"
+ ],
+ "scene_id": "A1-003",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "chips",
+  "keep",
+  "left",
+  "put",
+  "sunday",
+  "skirt",
+  "side",
+  "pretty",
+  "too",
+  "glass",
+  "or",
+  "once",
+  "sock",
+  "feeling"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "sunday"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "put",
+     "skirt",
+     "pretty"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "or",
+     "sock"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "left",
+     "side"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "keep",
+     "glass"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "chips",
+     "too"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "once",
+     "feeling"
+    ]
+   }
+  ],
+  "missing": []
+ },
+ "attempts": 1,
+ "seconds": 12.3,
+ "review_hits": [
+  "bedroom"
+ ]
+}

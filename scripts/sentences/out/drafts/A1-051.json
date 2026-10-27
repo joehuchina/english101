@@ -1,0 +1,191 @@
+{
+ "story": "Omar and Nina look at a picture book about nature. They see many animals and different weather in the book.",
+ "title": "The Nature Book",
+ "title_zh": "自然书",
+ "setting": "A bright living room with a large book on a table.",
+ "characters": [
+  {
+   "name": "Omar",
+   "look": "a young boy with short black hair and a blue shirt"
+  },
+  {
+   "name": "Nina",
+   "look": "a young girl with long brown hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar and Nina look at a big book.",
+   "zh": "奥马尔和妮娜看一本大书。",
+   "scene_prompt": "Omar, a young boy with short black hair and a blue shirt, and Nina, a young girl with long brown hair and a yellow dress, sit together looking at a large book."
+  },
+  {
+   "en": "The sunny weather makes them feel happy.",
+   "zh": "晴朗的天气让他们感到开心。",
+   "scene_prompt": "Bright sunlight shines through a window onto Omar and Nina."
+  },
+  {
+   "en": "One page shows a tall mountain.",
+   "zh": "其中一页展示了一座高山。",
+   "scene_prompt": "A picture in the book shows a very high, steep mountain."
+  },
+  {
+   "en": "They see a lion and a giraffe.",
+   "zh": "他们看到了狮子和长颈鹿。",
+   "scene_prompt": "The book page shows a large lion and a tall giraffe with spots."
+  },
+  {
+   "en": "A small bird sits on the grass.",
+   "zh": "一只小鸟坐在草地上。",
+   "scene_prompt": "A picture in the book shows a small bird sitting on green grass."
+  },
+  {
+   "en": "The green plant can grow very fast.",
+   "zh": "这株绿色植物可以长得很快。",
+   "scene_prompt": "A picture in the book shows a green plant growing out of the soil."
+  },
+  {
+   "en": "A dog runs in the cold rain.",
+   "zh": "一只狗在冷雨中奔跑。",
+   "scene_prompt": "A picture in the book shows a brown dog running through raindrops."
+  },
+  {
+   "en": "White snow and blue ice look beautiful.",
+   "zh": "白色的雪和蓝色的冰看起来很美。",
+   "scene_prompt": "The book page shows white snow on the ground and blue ice."
+  },
+  {
+   "en": "Nina understands that these stories are true.",
+   "zh": "妮娜明白这些故事是真的。",
+   "scene_prompt": "Nina, a young girl with long brown hair and a yellow dress, smiles while looking at the book."
+  },
+  {
+   "en": "She thinks about a warm Christmas fire.",
+   "zh": "她想到了温暖的圣诞节篝火。",
+   "scene_prompt": "Nina imagines a cozy fireplace with a Christmas tree nearby."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "christmas",
+  "wife",
+  "true"
+ ],
+ "scene_id": "A1-051",
+ "level": "A1",
+ "topic": "nature",
+ "targets": [
+  "sunny",
+  "snow",
+  "plant",
+  "grass",
+  "grow",
+  "bird",
+  "ice",
+  "mountain",
+  "dog",
+  "lion",
+  "giraffe",
+  "rain",
+  "understand"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "sunny"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "mountain"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "lion",
+     "giraffe"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "grass",
+     "bird"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "plant",
+     "grow"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "dog",
+     "rain"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "snow",
+     "ice"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "understand"
+    ],
+    "review_hits": [
+     "true"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "fire",
+     "christmas"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "fire",
+   "christmas",
+   "true"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 50.5
+}

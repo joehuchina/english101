@@ -1,0 +1,93 @@
+{
+ "scene_id": "A1-059",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "bookstore",
+  "young",
+  "photo",
+  "orange",
+  "dining-room",
+  "need",
+  "hungry",
+  "ago",
+  "over",
+  "they",
+  "many",
+  "cook",
+  "away"
+ ],
+ "review_words": [
+  "horse",
+  "library",
+  "answer",
+  "practise"
+ ],
+ "title": "The Horse Book",
+ "title_zh": "关于马的书",
+ "setting": "A small bookstore and a home dining room.",
+ "characters": [
+  {
+   "id": "sara",
+   "name": "Sara",
+   "look": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt)"
+  },
+  {
+   "id": "kofi",
+   "name": "Kofi",
+   "look": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara and Kofi visit a small bookstore.",
+   "zh": "萨拉和科菲去逛一家小书店。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) walk into a small cosy bookstore.",
+   "draw": "yes"
+  },
+  {
+   "en": "They see many young people reading there.",
+   "zh": "他们看到那里有很多年轻人在看书。",
+   "scene_prompt": "Many young people read books between the shelves while Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) and Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) look around.",
+   "draw": "yes"
+  },
+  {
+   "en": "Sara needs a book with horse photos.",
+   "zh": "萨拉需要一本有马的照片的书。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holds a book with a photo of a horse on its cover.",
+   "draw": "yes"
+  },
+  {
+   "en": "She read it at the library a week ago.",
+   "zh": "一个星期前她在图书馆读过这本书。",
+   "scene_prompt": "In the bookstore, Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) holds up the horse book and points through the window at a library building across the street, Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) listening.",
+   "draw": "partly",
+   "draw_note": "Shows Sara with the horse book pointing at the library; reading it there a week ago can't be shown."
+  },
+  {
+   "en": "Soon they are hungry, so they walk away.",
+   "zh": "很快他们饿了，于是就走了。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) rubs his stomach as he and Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) walk away from the bookstore.",
+   "draw": "yes"
+  },
+  {
+   "en": "At home, Kofi cooks fish for dinner.",
+   "zh": "回到家，科菲做鱼当晚饭。",
+   "scene_prompt": "Kofi (a man of about thirty with dark skin, a shaved head, a short black beard and a light-blue shirt) cooks fish in a pan in a home kitchen.",
+   "draw": "yes"
+  },
+  {
+   "en": "Sara puts a light over the dining-room table.",
+   "zh": "萨拉在餐厅的桌子上方挂了一盏灯。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) hangs a lamp over a table in a dining room.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then she puts a bowl of oranges on it.",
+   "zh": "然后她在上面放了一碗橙子。",
+   "scene_prompt": "Sara (a young woman of about twenty-five with a long black ponytail, a white shirt and a mustard-yellow skirt) puts a bowl of oranges on the dining room table under the lamp.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

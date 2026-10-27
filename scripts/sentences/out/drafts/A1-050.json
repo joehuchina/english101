@@ -1,0 +1,181 @@
+{
+ "story": "Sam is a small boy in the kitchen. He hears a sound and finds a single toy chicken. The toy is hard and the situation is terrible. Most toys are soft, but this one is not. Mia helps the poor boy with milk.",
+ "title": "The Toy Chicken",
+ "title_zh": "玩具鸡",
+ "setting": "A kitchen with a wooden floor.",
+ "characters": [
+  {
+   "name": "Sam",
+   "look": "a small boy with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Mia",
+   "look": "a woman with long black hair and a green apron"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sam is a small boy in the kitchen.",
+   "zh": "萨姆是厨房里的一名小男孩。",
+   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt, stands in a kitchen."
+  },
+  {
+   "en": "He hears a sound from the floor.",
+   "zh": "他听到地板上传来一个声音。",
+   "scene_prompt": "Sam looks down at the kitchen floor with a surprised face."
+  },
+  {
+   "en": "Someone is in the kitchen with him.",
+   "zh": "有人和他在一起，在厨房里。",
+   "scene_prompt": "Sam looks around the kitchen looking for a person."
+  },
+  {
+   "en": "He sees a single toy on the floor.",
+   "zh": "他看到地板上有一个玩具。",
+   "scene_prompt": "Sam points to a small object on the kitchen floor."
+  },
+  {
+   "en": "The toy is a small white chicken.",
+   "zh": "这个玩具是一只白色的小鸡。",
+   "scene_prompt": "A small, white plastic toy chicken lies on the floor."
+  },
+  {
+   "en": "It is so hard and not soft.",
+   "zh": "它非常坚硬，一点也不软。",
+   "scene_prompt": "Sam touches the hard white toy chicken."
+  },
+  {
+   "en": "Most toys are soft and nice.",
+   "zh": "大多数玩具都是又软又好的。",
+   "scene_prompt": "Sam holds a soft teddy bear in his other hand."
+  },
+  {
+   "en": "This terrible sound was very loud.",
+   "zh": "这个糟糕的声音非常大。",
+   "scene_prompt": "Sam covers his ears with his hands."
+  },
+  {
+   "en": "Please help the poor boy with milk.",
+   "zh": "请帮助这个喝牛奶的可怜男孩。",
+   "scene_prompt": "Mia, a woman with long black hair and a green apron, gives a glass of milk to Sam."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "poor",
+  "christmas",
+  "wife"
+ ],
+ "scene_id": "A1-050",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "someone",
+  "hear",
+  "please",
+  "hard",
+  "terrible",
+  "toy",
+  "so",
+  "single",
+  "boy",
+  "chicken",
+  "milk",
+  "and",
+  "most"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "boy"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "hear"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "someone"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "toy",
+     "single"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "toy",
+     "chicken"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "hard",
+     "so",
+     "and"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "toy",
+     "and"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "terrible"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "boy",
+     "milk"
+    ],
+    "review_hits": [
+     "poor"
+    ]
+   }
+  ],
+  "missing": [
+   "please",
+   "most"
+  ],
+  "review_used": [
+   "poor"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 62.8
+}

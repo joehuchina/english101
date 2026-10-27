@@ -1,0 +1,182 @@
+{
+ "story": "Kofi and Hana are at a big party. They meet many people from different countries. They talk about their families and fun ideas.",
+ "title": "A Big Party",
+ "title_zh": "盛大的聚会",
+ "setting": "A bright community hall with many decorations.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "A young boy with dark skin and short hair."
+  },
+  {
+   "name": "Hana",
+   "look": "A young girl with long black hair and a yellow shirt."
+  },
+  {
+   "name": "Max",
+   "look": "A tall man with glasses and a blue sweater."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and his cousin Hana arrive together.",
+   "zh": "Kofi和他的表妹Hana一起到达。",
+   "scene_prompt": "Kofi and Hana walking together toward a large building."
+  },
+  {
+   "en": "Many people are inside the big room.",
+   "zh": "房间里有很多的人。",
+   "scene_prompt": "A large room filled with many different people talking."
+  },
+  {
+   "en": "Everyone is very happy at the party.",
+   "zh": "聚会上的每个人都很开心。",
+   "scene_prompt": "A group of happy people smiling and talking."
+  },
+  {
+   "en": "The women wear beautiful Chinese clothes.",
+   "zh": "这些女性穿着漂亮的中国衣服。",
+   "scene_prompt": "Three women wearing bright red and gold Chinese silk dresses."
+  },
+  {
+   "en": "Max is a famous German person.",
+   "zh": "Max是一个著名的德国人。",
+   "scene_prompt": "Max, a tall man with glasses, waving to a crowd."
+  },
+  {
+   "en": "Hana has a great idea for games.",
+   "zh": "Hana有一个很棒的游戏主意。",
+   "scene_prompt": "Hana pointing at a colorful game board with a smile."
+  },
+  {
+   "en": "We welcome you to join our group.",
+   "zh": "我们欢迎你加入我们的团体。",
+   "scene_prompt": "Max opening a large door to welcome people into a room."
+  },
+  {
+   "en": "Every parent brings a child to the door.",
+   "zh": "每个家长都带着一个孩子来到门口。",
+   "scene_prompt": "A parent holding a child's hand while walking through a large door."
+  },
+  {
+   "en": "Max was born in a small town.",
+   "zh": "Max出生在一个小镇上。",
+   "scene_prompt": "A small, quiet town with tiny houses and green trees."
+  }
+ ],
+ "review_words": [
+  "fire",
+  "door",
+  "born",
+  "japanese"
+ ],
+ "scene_id": "A1-045",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "together",
+  "cousin",
+  "everyone",
+  "people",
+  "women",
+  "welcome",
+  "join",
+  "chinese",
+  "person",
+  "german",
+  "parent",
+  "famous",
+  "idea"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "together",
+     "cousin"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "people"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "everyone"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "women",
+     "chinese"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "person",
+     "german",
+     "famous"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "idea"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "welcome",
+     "join"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "parent"
+    ],
+    "review_hits": [
+     "door"
+    ]
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "born"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "door",
+   "born"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 45.5
+}

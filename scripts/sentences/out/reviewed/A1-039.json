@@ -1,0 +1,94 @@
+{
+ "scene_id": "A1-039",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "show",
+  "above",
+  "buy",
+  "short",
+  "wear",
+  "day",
+  "better",
+  "into",
+  "wrong",
+  "problem",
+  "uncle",
+  "key",
+  "speak"
+ ],
+ "review_words": [
+  "jeans",
+  "fire",
+  "pair",
+  "yourself"
+ ],
+ "title": "The Wrong Key",
+ "title_zh": "错误的钥匙",
+ "setting": "A clothes shop in town and the front door of the uncle's small house.",
+ "characters": [
+  {
+   "id": "ben",
+   "name": "Ben",
+   "look": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Lily spend the day with their uncle.",
+   "zh": "本和莉莉跟叔叔一起过了一天。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk down a sunny street holding hands with their uncle (a tall man with glasses and a green shirt).",
+   "draw": "yes"
+  },
+  {
+   "en": "The jeans Ben wears are too short now.",
+   "zh": "本穿的牛仔裤现在太短了。",
+   "scene_prompt": "Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), wearing old jeans instead of his shorts, looks down at the jeans, which end high above his ankles.",
+   "draw": "yes"
+  },
+  {
+   "en": "So their uncle buys him a new pair.",
+   "zh": "于是叔叔给他买了一条新的。",
+   "scene_prompt": "In a clothes shop, their uncle (a tall man with glasses and a green shirt) pays for a folded pair of blue jeans while Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) smiles beside him.",
+   "draw": "yes"
+  },
+  {
+   "en": "At home, their uncle has a big problem.",
+   "zh": "到家后，叔叔遇到了一个大问题。",
+   "scene_prompt": "their uncle (a tall man with glasses and a green shirt) stands at the closed front door of his small house, frowning and scratching his head, with Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) beside him.",
+   "draw": "partly",
+   "draw_note": "Shows the uncle worried at a closed door; what the problem is only becomes clear in the next picture."
+  },
+  {
+   "en": "But his key is wrong for the door.",
+   "zh": "可是他的钥匙跟这扇门不配。",
+   "scene_prompt": "Close-up: their uncle (a tall man with glasses and a green shirt) tries to push a big key that clearly does not fit into the small lock of the front door.",
+   "draw": "yes"
+  },
+  {
+   "en": "Lily speaks up: “Look above the door!”",
+   "zh": "莉莉大声说：“看门的上方！”",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) points up excitedly at a small key lying on the frame above the front door, her mouth open as she calls out.",
+   "draw": "partly",
+   "draw_note": "Shows Lily calling out and pointing at a key above the door; her exact words can't be shown."
+  },
+  {
+   "en": "They all go into the house and feel better.",
+   "zh": "他们都走进屋里，感觉好多了。",
+   "scene_prompt": "their uncle (a tall man with glasses and a green shirt), Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) walk happily through the open front door into the house.",
+   "draw": "yes"
+  },
+  {
+   "en": "Ben shows Lily his new jeans with a smile.",
+   "zh": "本笑着给莉莉看他的新牛仔裤。",
+   "scene_prompt": "Inside the house, Ben (a ten-year-old boy with curly red hair, freckles, a green T-shirt and blue shorts), now wearing his new blue jeans, proudly shows them to Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

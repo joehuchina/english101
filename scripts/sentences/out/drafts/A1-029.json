@@ -1,0 +1,220 @@
+{
+ "story": "Kofi and Hana are in the kitchen. They prepare their favorite breakfast together. Hana makes tea and Kofi cuts bread. They laugh and enjoy their morning.",
+ "title": "A Happy Breakfast",
+ "title_zh": "快乐的早餐",
+ "setting": "A bright kitchen in the morning.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "A young boy with short black hair and a blue shirt."
+  },
+  {
+   "name": "Hana",
+   "look": "A young girl with long brown hair and a yellow dress."
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Hana is ready for the breakfast time.",
+   "zh": "Hana 准备好早餐时间了。",
+   "scene_prompt": "Hana, a young girl with long brown hair and a yellow dress, stands in a bright kitchen."
+  },
+  {
+   "en": "Hot tea is her favorite drink.",
+   "zh": "热茶是她最喜欢的饮料。",
+   "scene_prompt": "Hana holds a steaming cup of tea in her hands."
+  },
+  {
+   "en": "Kofi gets a loaf of bread.",
+   "zh": "Kofi 拿了一块面包。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt, holds a big loaf of bread."
+  },
+  {
+   "en": "He uses a knife to cut it.",
+   "zh": "他用一把刀来切它。",
+   "scene_prompt": "Kofi uses a silver knife to cut the bread on the table."
+  },
+  {
+   "en": "The bread is between the two plates.",
+   "zh": "面包在两个盘子之间。",
+   "scene_prompt": "A loaf of bread sits on the table between two white plates."
+  },
+  {
+   "en": "He puts the bread down slowly.",
+   "zh": "他慢慢地把面包放了下来。",
+   "scene_prompt": "Kofi puts a piece of bread down on a white plate."
+  },
+  {
+   "en": "They laugh at a funny joke.",
+   "zh": "他们为一个笑话而发笑。",
+   "scene_prompt": "Kofi and Hana are sitting at the table and laughing happily."
+  },
+  {
+   "en": "Hana says thanks to her friend.",
+   "zh": "Hana 向她的朋友说谢谢。",
+   "scene_prompt": "Hana smiles at Kofi while sitting at the kitchen table."
+  },
+  {
+   "en": "He needs to change his wet sock.",
+   "zh": "他需要更换他湿的袜子。",
+   "scene_prompt": "Kofi looks at a wet blue sock on the floor."
+  },
+  {
+   "en": "He runs to the small bathroom.",
+   "zh": "他跑向那个小浴室。",
+   "scene_prompt": "Kofi runs toward a small door labeled with a bathroom icon."
+  },
+  {
+   "en": "It is eighteen minutes past eight.",
+   "zh": "现在是八点十八分。",
+   "scene_prompt": "A round clock on the kitchen wall shows the time."
+  },
+  {
+   "en": "They see a boat in the east.",
+   "zh": "他们看到东方有一艘船。",
+   "scene_prompt": "Through the kitchen window, a small boat is visible on the water in the distance."
+  }
+ ],
+ "review_words": [
+  "sock",
+  "east",
+  "africa",
+  "boat"
+ ],
+ "scene_id": "A1-029",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "knife",
+  "thanks",
+  "bread",
+  "between",
+  "eighteen",
+  "time",
+  "bathroom",
+  "favorite",
+  "tea",
+  "change",
+  "ready",
+  "down",
+  "get",
+  "laugh"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "time",
+     "ready"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "favorite",
+     "tea"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "bread",
+     "get"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "knife"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "bread",
+     "between"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "bread",
+     "down"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "laugh"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "thanks"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "change"
+    ],
+    "review_hits": [
+     "sock"
+    ]
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [
+     "bathroom"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [
+     "eighteen"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 11,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "east",
+     "boat"
+    ]
+   }
+  ],
+  "missing": [],
+  "review_used": [
+   "sock",
+   "east",
+   "boat"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 3,
+ "seconds": 50.2
+}

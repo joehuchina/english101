@@ -1,0 +1,137 @@
+{
+ "title": "A Busy Thursday",
+ "title_zh": "忙碌的星期四",
+ "setting": "A small house and a kitchen.",
+ "characters": [
+  {
+   "name": "Tom",
+   "look": "a young man with short brown hair"
+  },
+  {
+   "name": "Anna",
+   "look": "a young woman with long blonde hair"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Tom wakes up at seven o'clock.",
+   "zh": "汤姆在七点钟醒来。",
+   "scene_prompt": "a young man with short brown hair wakes up in bed at seven o'clock."
+  },
+  {
+   "en": "It is a sunny Thursday morning.",
+   "zh": "这是一个阳光明媚的星期四早晨。",
+   "scene_prompt": "a young man with short brown hair looks out the window on a sunny Thursday morning."
+  },
+  {
+   "en": "He picks clothes in his bedroom.",
+   "zh": "他在卧室里挑选衣服。",
+   "scene_prompt": "a young man with short brown hair picks clothes from a drawer in his bedroom."
+  },
+  {
+   "en": "Anna will let him use fruit.",
+   "zh": "安娜会让他使用水果。",
+   "scene_prompt": "a young woman with long blonde hair lets a young man with short brown hair use a bowl of fruit."
+  },
+  {
+   "en": "She will cut fruit for juice.",
+   "zh": "她会切水果来做果汁。",
+   "scene_prompt": "a young woman with long blonde hair cuts fruit on a kitchen table to make juice."
+  },
+  {
+   "en": "They even love this new month.",
+   "zh": "他们甚至很喜欢这个新月份。",
+   "scene_prompt": "a young man with short brown hair and a young woman with long blonde hair smile together in the kitchen."
+  },
+  {
+   "en": "Strong men drink juice every minute.",
+   "zh": "强壮的男人每分钟都喝果汁。",
+   "scene_prompt": "a strong young man with short brown hair drinks orange juice from a glass."
+  }
+ ],
+ "review_words": [],
+ "scene_id": "A1-001",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "thursday",
+  "bedroom",
+  "clothes",
+  "strong",
+  "month",
+  "let",
+  "use",
+  "minute",
+  "even",
+  "o-clock",
+  "cut",
+  "wake",
+  "juice",
+  "love"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "o-clock",
+     "wake"
+    ]
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "thursday"
+    ]
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "bedroom",
+     "clothes"
+    ]
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "let",
+     "use"
+    ]
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "cut",
+     "juice"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "month",
+     "even",
+     "love"
+    ]
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "strong",
+     "minute",
+     "juice"
+    ]
+   }
+  ],
+  "missing": []
+ },
+ "attempts": 3,
+ "seconds": 43.3,
+ "review_hits": []
+}

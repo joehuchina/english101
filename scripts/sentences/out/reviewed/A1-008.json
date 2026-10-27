@@ -1,0 +1,93 @@
+{
+ "scene_id": "A1-008",
+ "level": "A1",
+ "topic": "nature",
+ "targets": [
+  "river",
+  "horse",
+  "elephant",
+  "rainy",
+  "winter",
+  "sun",
+  "spring",
+  "pig",
+  "animal",
+  "tiger",
+  "star",
+  "sky",
+  "flower",
+  "cloudy"
+ ],
+ "review_words": [
+  "clothes",
+  "let",
+  "use",
+  "minute"
+ ],
+ "title": "A Spring Day at the Zoo",
+ "title_zh": "春天的动物园",
+ "setting": "A zoo by a river, with a small farm corner.",
+ "characters": [
+  {
+   "id": "joe",
+   "name": "Grandpa Joe",
+   "look": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan)"
+  },
+  {
+   "id": "lily",
+   "name": "Lily",
+   "look": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots)"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "The sky is cloudy on a rainy spring morning.",
+   "zh": "春天的一个早晨，下着雨，天空多云。",
+   "scene_prompt": "Grey clouds over a zoo with blossom trees; rain falls on Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) under one big umbrella.",
+   "draw": "yes"
+  },
+  {
+   "en": "Grandpa Joe still wears his winter clothes.",
+   "zh": "乔爷爷还穿着他的冬衣。",
+   "scene_prompt": "Grandpa Joe (an old man, bald with a white beard, in a brown cardigan), now wearing a thick winter coat, a wool scarf and a fur hat over his brown cardigan, walks next to Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots).",
+   "draw": "yes"
+  },
+  {
+   "en": "A baby elephant plays in the river.",
+   "zh": "一头小象在河里玩耍。",
+   "scene_prompt": "A baby elephant splashes water with its trunk in a zoo river; Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) and Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) watch from the fence.",
+   "draw": "yes"
+  },
+  {
+   "en": "The baby elephant is the star of the zoo.",
+   "zh": "这头小象是动物园的明星。",
+   "scene_prompt": "A big crowd of visitors smiles, points and takes photos of the baby elephant.",
+   "draw": "yes"
+  },
+  {
+   "en": "A tiger sleeps among the red flowers.",
+   "zh": "一只老虎睡在红色的花丛中。",
+   "scene_prompt": "A tiger sleeps among red flowers in its zoo garden.",
+   "draw": "yes"
+  },
+  {
+   "en": "He lets a little pig eat from his hand.",
+   "zh": "他让一只小猪从他手里吃东西。",
+   "scene_prompt": "In the farm corner, Grandpa Joe (an old man, bald with a white beard, in a brown cardigan) lets a little pink pig eat from his open hand while Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) laughs.",
+   "draw": "yes"
+  },
+  {
+   "en": "Lily uses a carrot to feed a brown horse.",
+   "zh": "莉莉用一根胡萝卜喂一匹棕色的马。",
+   "scene_prompt": "Lily (a seven-year-old girl with red hair in two pigtails and a yellow dress with white dots) holds up a carrot to a brown horse over a wooden fence.",
+   "draw": "yes"
+  },
+  {
+   "en": "Then the sun comes out, and the animals play.",
+   "zh": "然后太阳出来了，动物们玩了起来。",
+   "scene_prompt": "The sun breaks through the clouds over the zoo; elephants, monkeys and goats play in the sunshine.",
+   "draw": "yes"
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

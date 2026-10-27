@@ -1,0 +1,205 @@
+{
+ "story": "In the afternoon, Aiko wears a red T-shirt. She and Dan have a conversation about dinner. Dan brings delicious food to fill the plates. He is sure the meal will become great, but work is not at an end.",
+ "title": "A Nice Dinner",
+ "title_zh": "美味的晚餐",
+ "setting": "A bright dining room in a house.",
+ "characters": [
+  {
+   "name": "Aiko",
+   "look": "a young girl with short black hair wearing a red T-shirt"
+  },
+  {
+   "name": "Dan",
+   "look": "a tall man with brown hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Aiko wears a bright red T-shirt today.",
+   "zh": "Aiko今天穿着一件鲜红色的T恤衫。",
+   "scene_prompt": "Aiko, a young girl with short black hair, wears a bright red T-shirt."
+  },
+  {
+   "en": "It is a sunny afternoon in the room.",
+   "zh": "房间里是一个阳光明媚的下午。",
+   "scene_prompt": "Sunlight shines into a bright room during the afternoon."
+  },
+  {
+   "en": "Aiko and Dan have a long conversation.",
+   "zh": "Aiko和Dan进行了一场长谈。",
+   "scene_prompt": "Aiko and Dan sit at a table having a conversation."
+  },
+  {
+   "en": "They talk about the colour of the food.",
+   "zh": "他们谈论食物的颜色。",
+   "scene_prompt": "Aiko and Dan look at many colourful vegetables on the table."
+  },
+  {
+   "en": "Dan will bring the food upstairs now.",
+   "zh": "Dan现在要把食物拿到楼上去。",
+   "scene_prompt": "Dan carries a tray of food towards the stairs upstairs."
+  },
+  {
+   "en": "He wants to prepare a delicious dinner.",
+   "zh": "他想要准备一顿美味的晚餐。",
+   "scene_prompt": "Dan stands in the kitchen preparing a delicious dinner."
+  },
+  {
+   "en": "He will fill the plates with rice.",
+   "zh": "他会用米饭装满盘子。",
+   "scene_prompt": "Dan uses a spoon to fill a white plate with rice."
+  },
+  {
+   "en": "The meal will become very good soon.",
+   "zh": "这顿饭很快就会变得非常好吃。",
+   "scene_prompt": "Dan looks at the steaming food, and it looks great."
+  },
+  {
+   "en": "He looks up at the tall clock.",
+   "zh": "他抬头看着那个高大的时钟。",
+   "scene_prompt": "Dan looks up at a tall clock on the wall."
+  },
+  {
+   "en": "The food is not bad at all.",
+   "zh": "这食物一点也不差。",
+   "scene_prompt": "Dan tastes the food and smiles."
+  },
+  {
+   "en": "But the work is not at an end.",
+   "zh": "但工作还没有结束。",
+   "scene_prompt": "Dan looks at the messy kitchen, knowing there is more to do."
+  }
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "bad",
+  "upstairs"
+ ],
+ "scene_id": "A1-031",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "but",
+  "red",
+  "conversation",
+  "dinner",
+  "bring",
+  "colour",
+  "afternoon",
+  "t-shirt",
+  "end",
+  "delicious",
+  "fill",
+  "become",
+  "up",
+  "sure"
+ ],
+ "check": {
+  "sentences": [
+   {
+    "i": 0,
+    "problems": [],
+    "hits": [
+     "red",
+     "t-shirt"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 1,
+    "problems": [],
+    "hits": [
+     "afternoon"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 2,
+    "problems": [],
+    "hits": [
+     "conversation"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 3,
+    "problems": [],
+    "hits": [
+     "colour"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 4,
+    "problems": [],
+    "hits": [
+     "bring"
+    ],
+    "review_hits": [
+     "upstairs"
+    ]
+   },
+   {
+    "i": 5,
+    "problems": [],
+    "hits": [
+     "dinner",
+     "delicious"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 6,
+    "problems": [],
+    "hits": [
+     "fill"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 7,
+    "problems": [],
+    "hits": [
+     "become"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 8,
+    "problems": [],
+    "hits": [
+     "up"
+    ],
+    "review_hits": []
+   },
+   {
+    "i": 9,
+    "problems": [],
+    "hits": [],
+    "review_hits": [
+     "bad"
+    ]
+   },
+   {
+    "i": 10,
+    "problems": [],
+    "hits": [
+     "but",
+     "end"
+    ],
+    "review_hits": []
+   }
+  ],
+  "missing": [
+   "sure"
+  ],
+  "review_used": [
+   "bad",
+   "upstairs"
+  ],
+  "review_needed": 2
+ },
+ "attempts": 4,
+ "seconds": 70.0
+}
