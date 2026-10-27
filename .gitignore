@@ -15,3 +15,4 @@ public/atlas/audio/
 public/atlas/img/
 public/atlas/thumb/
 scripts/sentences/.venv/
+__pycache__/
