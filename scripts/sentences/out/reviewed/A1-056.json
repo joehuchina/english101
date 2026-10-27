@@ -1,0 +1,80 @@
+{
+ "scene_id": "A1-056",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "grandfather",
+  "friend",
+  "club",
+  "woman",
+  "police",
+  "everybody",
+  "son",
+  "invite",
+  "american",
+  "russian",
+  "british",
+  "smile"
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "tiger",
+  "star"
+ ],
+ "title": "Grandfather's Club",
+ "title_zh": "祖父的俱乐部",
+ "setting": "A bright club room with many people.",
+ "characters": [
+  {
+   "name": "Ivan",
+   "look": "Ivan, a young boy with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Grandfather",
+   "look": "Grandfather, an old man with white hair and glasses"
+  },
+  {
+   "name": "Maya",
+   "look": "Maya, a kind woman with long black hair and a green sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ivan's grandfather invites him to his club.",
+   "zh": "伊万的祖父邀请他去自己的俱乐部。",
+   "scene_prompt": "Grandfather, an old man with white hair and glasses holds the hand of Ivan, a young boy with short brown hair and a blue shirt at the door of a bright club room."
+  },
+  {
+   "en": "His grandfather has friends from many countries.",
+   "zh": "他的祖父有来自许多国家的朋友。",
+   "scene_prompt": "Grandfather, an old man with white hair and glasses greets a group of friends of different looks in the club room while Ivan, a young boy with short brown hair and a blue shirt watches."
+  },
+  {
+   "en": "Maya is an American woman with a kind face.",
+   "zh": "玛雅是一位面容和善的美国女士。",
+   "scene_prompt": "Maya, a kind woman with long black hair and a green sweater smiles kindly and waves at Ivan, a young boy with short brown hair and a blue shirt."
+  },
+  {
+   "en": "Her son has a tiger on his shirt.",
+   "zh": "她的儿子穿着一件印着老虎的衬衫。",
+   "scene_prompt": "A small boy beside Maya, a kind woman with long black hair and a green sweater wears a T-shirt with a big tiger picture."
+  },
+  {
+   "en": "A Russian man and his wife dance together.",
+   "zh": "一位俄罗斯男士和他的妻子一起跳舞。",
+   "scene_prompt": "An older man in a fur hat and his wife dance together in the club room."
+  },
+  {
+   "en": "A British police officer tells a funny story.",
+   "zh": "一位英国警官讲了一个有趣的故事。",
+   "scene_prompt": "A police officer in a British-style tall helmet tells a story with big gestures, Ivan, a young boy with short brown hair and a blue shirt listening."
+  },
+  {
+   "en": "Everybody laughs and gives him a big smile.",
+   "zh": "每个人都笑了，并对他露出大大的笑容。",
+   "scene_prompt": "Everyone in the club room laughs, Ivan, a young boy with short brown hair and a blue shirt, Grandfather, an old man with white hair and glasses and Maya, a kind woman with long black hair and a green sweater smiling at the officer."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

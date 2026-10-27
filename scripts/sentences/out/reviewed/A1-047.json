@@ -1,0 +1,77 @@
+{
+ "scene_id": "A1-047",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "strawberry",
+  "sixteen",
+  "week",
+  "seventeen",
+  "wednesday",
+  "a-m",
+  "new",
+  "cooking",
+  "family",
+  "december",
+  "metre",
+  "table",
+  "useful"
+ ],
+ "review_words": [
+  "fire",
+  "policeman",
+  "poor",
+  "girl"
+ ],
+ "title": "Aiko's Birthday Breakfast",
+ "title_zh": "爱子的生日早餐",
+ "setting": "A bright family kitchen on a winter morning.",
+ "characters": [
+  {
+   "name": "Aiko",
+   "look": "Aiko, a young girl with black hair in two small buns"
+  },
+  {
+   "name": "Dan",
+   "look": "Dan, her father, a very tall man with short brown hair in a police uniform"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "This Wednesday in December is Aiko's birthday.",
+   "zh": "十二月的这个星期三是爱子的生日。",
+   "scene_prompt": "Aiko, a young girl with black hair in two small buns smiles at a snowy window in the bright kitchen, with balloons around her."
+  },
+  {
+   "en": "Last week she was sixteen; today she is seventeen.",
+   "zh": "上周她十六岁，今天她十七岁了。",
+   "scene_prompt": "Aiko, a young girl with black hair in two small buns looks proudly at herself in a mirror, a little older and taller."
+  },
+  {
+   "en": "At six a.m., she makes breakfast for her family.",
+   "zh": "早上六点，她为家人做早饭。",
+   "scene_prompt": "Aiko, a young girl with black hair in two small buns cooks at the stove in the kitchen while it is still dark outside."
+  },
+  {
+   "en": "Her new cooking pot is very useful.",
+   "zh": "她的新锅非常好用。",
+   "scene_prompt": "Aiko, a young girl with black hair in two small buns stirs porridge in a shiny new cooking pot."
+  },
+  {
+   "en": "She puts a bowl of strawberries on the table.",
+   "zh": "她把一碗草莓放在桌子上。",
+   "scene_prompt": "Aiko, a young girl with black hair in two small buns puts a bowl of red strawberries on the kitchen table."
+  },
+  {
+   "en": "Her father Dan, a policeman, is two metres tall.",
+   "zh": "她的爸爸丹是个警察，身高两米。",
+   "scene_prompt": "Dan, her father, a very tall man with short brown hair in a police uniform walks into the kitchen and has to bend his head under the door frame."
+  },
+  {
+   "en": "Dan holds his birthday girl in his arms.",
+   "zh": "丹把过生日的女儿抱在怀里。",
+   "scene_prompt": "Dan, her father, a very tall man with short brown hair in a police uniform holds Aiko, a young girl with black hair in two small buns in his arms next to the breakfast table."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-023",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "every",
+  "quiet",
+  "add",
+  "nice",
+  "important",
+  "late",
+  "cake",
+  "sound",
+  "open",
+  "back",
+  "gray",
+  "always",
+  "usually",
+  "dear"
+ ],
+ "review_words": [
+  "too",
+  "glass",
+  "once",
+  "sock"
+ ],
+ "title": "A Cake for Dan",
+ "title_zh": "给丹的蛋糕",
+ "setting": "A cozy kitchen with an open window on a gray day.",
+ "characters": [
+  {
+   "name": "Aiko",
+   "look": "Aiko, a young woman with short black hair and a white apron"
+  },
+  {
+   "name": "Dan",
+   "look": "Dan, a tall man with brown hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Aiko bakes a cake in her quiet kitchen.",
+   "zh": "爱子在安静的厨房里烤蛋糕。",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron mixes cake batter in a bowl in a calm, cozy kitchen."
+  },
+  {
+   "en": "It is important: today is Dan's birthday.",
+   "zh": "今天很重要：是丹的生日。",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron looks at a wall calendar with a big red heart drawn on it."
+  },
+  {
+   "en": "She bakes this special cake once every year.",
+   "zh": "这种特别的蛋糕她每年只烤一次。",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron takes a special old cake tin from a high shelf."
+  },
+  {
+   "en": "She adds sugar, fruit and a glass of milk.",
+   "zh": "她加入糖、水果和一杯牛奶。",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron pours a glass of milk into a bowl with sugar and fruit beside it."
+  },
+  {
+   "en": "Outside the open window, the sky is gray.",
+   "zh": "敞开的窗外，天空灰蒙蒙的。",
+   "scene_prompt": "An open kitchen window shows a gray, cloudy sky; a cake cools on the sill."
+  },
+  {
+   "en": "Dan is late, but he usually comes early.",
+   "zh": "丹迟到了，可他通常都来得很早。",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron waits by the finished cake, looking at the wall clock with a worried face."
+  },
+  {
+   "en": "Then she hears a sound: Dan is back!",
+   "zh": "接着她听到一个声音：丹回来了！",
+   "scene_prompt": "Aiko, a young woman with short black hair and a white apron turns towards the opening front door as Dan, a tall man with brown hair and a blue shirt steps in."
+  },
+  {
+   "en": "\"My dear, your cakes are always nice,\" says Dan.",
+   "zh": "“亲爱的，你做的蛋糕总是很好吃。”丹说。",
+   "scene_prompt": "Dan, a tall man with brown hair and a blue shirt eats a piece of cake and smiles at Aiko, a young woman with short black hair and a white apron at the kitchen table."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-013",
+ "level": "A1",
+ "topic": "arts",
+ "targets": [
+  "paint",
+  "picture",
+  "guitar",
+  "band",
+  "painting",
+  "music",
+  "actor",
+  "art",
+  "museum",
+  "artist",
+  "piano",
+  "photograph",
+  "reason"
+ ],
+ "review_words": [
+  "wake",
+  "lunch",
+  "tall",
+  "also"
+ ],
+ "title": "A Day at the Museum",
+ "title_zh": "博物馆的一天",
+ "setting": "A bright art museum with large white walls.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "Kofi, a tall young man with short black hair and a green shirt"
+  },
+  {
+   "name": "Hana",
+   "look": "Hana, a young woman with long brown hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and Hana visit the art museum today.",
+   "zh": "科菲和哈娜今天去参观美术馆。",
+   "scene_prompt": "Kofi, a tall young man with short black hair and a green shirt and Hana, a young woman with long brown hair and a yellow dress walk up the steps of a big art museum."
+  },
+  {
+   "en": "Hana is an artist, and she paints every day.",
+   "zh": "哈娜是一位画家，她每天都画画。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a yellow dress paints on a canvas with a brush and a colour palette."
+  },
+  {
+   "en": "Kofi is a tall actor with a big smile.",
+   "zh": "科菲是一个个子很高、笑容灿烂的演员。",
+   "scene_prompt": "Kofi, a tall young man with short black hair and a green shirt smiles widely in a theatre costume on a small stage."
+  },
+  {
+   "en": "One painting shows a band with a guitar.",
+   "zh": "有一幅画画的是一支有吉他手的乐队。",
+   "scene_prompt": "Kofi, a tall young man with short black hair and a green shirt and Hana, a young woman with long brown hair and a yellow dress look at a large painting of a band with a guitar player on a museum wall."
+  },
+  {
+   "en": "Next to it, a man plays piano music.",
+   "zh": "在它旁边，一个男人在弹钢琴曲。",
+   "scene_prompt": "A man plays a grand piano in a bright museum hall next to paintings."
+  },
+  {
+   "en": "Kofi also takes a photograph of the piano player.",
+   "zh": "科菲还给弹钢琴的人拍了一张照片。",
+   "scene_prompt": "Kofi, a tall young man with short black hair and a green shirt holds up a camera toward a man at a grand piano."
+  },
+  {
+   "en": "Hana draws a picture in her small book.",
+   "zh": "哈娜在她的小本子上画了一幅画。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a yellow dress sits on a museum bench and sketches the piano player in a small sketchbook."
+  },
+  {
+   "en": "Art is Hana's reason to wake up happy.",
+   "zh": "艺术是哈娜每天快乐醒来的理由。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a yellow dress wakes up smiling in a bedroom full of her own paintings."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

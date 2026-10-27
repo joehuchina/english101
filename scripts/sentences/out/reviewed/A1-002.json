@@ -44,9 +44,9 @@
    "scene_prompt": "Leo, a tall boy with short brown hair and Mia, a small girl in a red coat and a red hat walk through the gate of a green park."
   },
   {
-   "en": "He is really tall, and Mia is small.",
-   "zh": "他个子真高，米娅却很小。",
-   "scene_prompt": "Leo, a tall boy with short brown hair stands next to Mia, a small girl in a red coat and a red hat; he is twice her height."
+   "en": "He is really tall and strong; Mia is small.",
+   "zh": "他又高又壮，米娅却很小。",
+   "scene_prompt": "Leo, a tall boy with short brown hair, tall and broad-shouldered, stands next to Mia, a small girl in a red coat and a red hat; he is twice her height."
   },
   {
    "en": "Mia wears a red coat and a hat.",
@@ -64,9 +64,9 @@
    "scene_prompt": "Leo, a tall boy with short brown hair and Mia, a small girl in a red coat and a red hat race across the grass with other children."
   },
   {
-   "en": "Mia falls down and starts to cry.",
-   "zh": "米娅摔倒了，哭了起来。",
-   "scene_prompt": "Mia, a small girl in a red coat and a red hat sits on the grass crying, holding her knee."
+   "en": "Mia falls, and mud gets on her clothes.",
+   "zh": "米娅摔倒了，衣服上沾满了泥。",
+   "scene_prompt": "Mia, a small girl in a red coat and a red hat sits on the muddy grass after a fall, her coat dirty, about to cry."
   },
   {
    "en": "Leo gives her a sandwich from his lunch.",

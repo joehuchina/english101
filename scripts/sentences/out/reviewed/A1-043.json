@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-043",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "sentence",
+  "homework",
+  "read",
+  "test",
+  "lesson",
+  "geography",
+  "teach",
+  "classroom",
+  "repeat",
+  "example",
+  "note",
+  "alphabet",
+  "pencil",
+  "know"
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "mister"
+ ],
+ "title": "A Busy Lesson",
+ "title_zh": "忙碌的一节课",
+ "setting": "A bright classroom with desks, a big world map and a board.",
+ "characters": [
+  {
+   "name": "Nina",
+   "look": "Nina, a girl with long black hair and a blue sweater"
+  },
+  {
+   "name": "Omar",
+   "look": "Omar, a boy with short brown hair and a yellow shirt"
+  },
+  {
+   "name": "Mister Jack",
+   "look": "Mister Jack, a tall man with glasses and a green tie"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Nina and Omar sit in the classroom.",
+   "zh": "尼娜和奥马尔坐在教室里。",
+   "scene_prompt": "Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt sit at their desks in a bright classroom."
+  },
+  {
+   "en": "Mister Jack teaches them the alphabet first.",
+   "zh": "杰克先生先教他们字母表。",
+   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie stands at the board pointing at a long row of letters in front of Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt."
+  },
+  {
+   "en": "The children repeat each letter after him.",
+   "zh": "孩子们跟着他重复每个字母。",
+   "scene_prompt": "Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt speak together with open mouths while Mister Jack, a tall man with glasses and a green tie points at the board."
+  },
+  {
+   "en": "Then he reads a sentence as an example.",
+   "zh": "然后他读了一个句子作为例子。",
+   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie reads aloud from an open book in front of the class."
+  },
+  {
+   "en": "Next is a geography lesson about rivers.",
+   "zh": "接下来是一节关于河流的地理课。",
+   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie points at blue rivers on a big world map on the classroom wall."
+  },
+  {
+   "en": "Omar knows the names of many rivers.",
+   "zh": "奥马尔知道很多河流的名字。",
+   "scene_prompt": "Omar, a boy with short brown hair and a yellow shirt raises his hand eagerly in front of the big world map."
+  },
+  {
+   "en": "Nina writes a note with her pencil.",
+   "zh": "尼娜用铅笔写下笔记。",
+   "scene_prompt": "Nina, a girl with long black hair and a blue sweater writes in her notebook with a yellow pencil."
+  },
+  {
+   "en": "“For homework, test yourself,” says Mister Jack.",
+   "zh": "“回家作业是自己测验一下，”杰克先生说。",
+   "scene_prompt": "Mister Jack, a tall man with glasses and a green tie smiles and speaks to Nina, a girl with long black hair and a blue sweater and Omar, a boy with short brown hair and a yellow shirt as they pack their bags."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-028",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "course",
+  "teacher",
+  "notebook",
+  "ruler",
+  "school",
+  "learn",
+  "blackboard",
+  "study",
+  "exam",
+  "class",
+  "paper",
+  "spell",
+  "beginner",
+  "if"
+ ],
+ "review_words": [
+  "sock",
+  "holiday",
+  "rome",
+  "east"
+ ],
+ "title": "Ali's English Class",
+ "title_zh": "阿里的英语课",
+ "setting": "A bright classroom in a school.",
+ "characters": [
+  {
+   "name": "Ali",
+   "look": "Ali, a young boy with short black hair and a blue shirt"
+  },
+  {
+   "name": "Rosa",
+   "look": "Rosa, a young girl with long brown hair and a yellow sweater"
+  },
+  {
+   "name": "Teacher",
+   "look": "the teacher, a kind woman with glasses and a white shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ali is a beginner in this English course.",
+   "zh": "阿里是这门英语课程的初学者。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt sits at a desk in a bright classroom with an English book."
+  },
+  {
+   "en": "His class has English at school every morning.",
+   "zh": "他们班每天早上在学校上英语课。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow sweater sit with other children in a school classroom in the morning sun."
+  },
+  {
+   "en": "The teacher stands at the blackboard with chalk.",
+   "zh": "老师拿着粉笔站在黑板前。",
+   "scene_prompt": "the teacher, a kind woman with glasses and a white shirt stands at a big blackboard holding a piece of chalk."
+  },
+  {
+   "en": "Ali draws lines on paper with his ruler.",
+   "zh": "阿里用尺子在纸上画线。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt draws straight lines on a white sheet of paper with a ruler."
+  },
+  {
+   "en": "Then he writes the new words in his notebook.",
+   "zh": "然后他把新单词写进笔记本。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt writes carefully in an open notebook on his desk."
+  },
+  {
+   "en": "Rosa helps him study and spell the words.",
+   "zh": "罗莎帮他学习和拼写这些单词。",
+   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow sweater points at Ali, a young boy with short black hair and a blue shirt's notebook and helps him, both smiling."
+  },
+  {
+   "en": "Ali wants to learn every word for the exam.",
+   "zh": "阿里想为考试学会每一个单词。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt reads his notebook with a serious face, Rosa, a young girl with long brown hair and a yellow sweater beside him."
+  },
+  {
+   "en": "If he does well, his holiday is in Rome.",
+   "zh": "如果他考得好，他就去罗马度假。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt dreams of a holiday in Rome, a picture of an old Roman building in a thought bubble."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

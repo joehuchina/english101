@@ -1,0 +1,81 @@
+{
+ "scene_id": "A1-038",
+ "level": "A1",
+ "topic": "economy",
+ "targets": [
+  "price",
+  "market",
+  "dollar",
+  "spend",
+  "rich",
+  "bank",
+  "money",
+  "cent",
+  "sell",
+  "expensive",
+  "cheap",
+  "question"
+ ],
+ "review_words": [
+  "jeans",
+  "fire",
+  "sister",
+  "pizza"
+ ],
+ "title": "At the Market",
+ "title_zh": "在集市上",
+ "setting": "A busy outdoor market with many food and clothes stalls.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "Zoe, a young girl with short black hair and a yellow shirt"
+  },
+  {
+   "name": "Lucy",
+   "look": "Lucy, a young girl with long brown hair and a blue dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Zoe and her sister Lucy go to the market.",
+   "zh": "佐伊和她的姐姐露西去集市。",
+   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Lucy, a young girl with long brown hair and a blue dress walk into a busy outdoor market."
+  },
+  {
+   "en": "First, they get money from the bank.",
+   "zh": "首先，她们从银行取了钱。",
+   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Lucy, a young girl with long brown hair and a blue dress take money from a cash machine outside a bank."
+  },
+  {
+   "en": "Many people sell fruit and fresh bread here.",
+   "zh": "很多人在这里卖水果和新鲜面包。",
+   "scene_prompt": "Market stalls full of fruit and fresh bread, with sellers behind them."
+  },
+  {
+   "en": "Lucy has a question about the price of apples.",
+   "zh": "露西想问问苹果的价格。",
+   "scene_prompt": "Lucy, a young girl with long brown hair and a blue dress asks a fruit seller a question, pointing at red apples."
+  },
+  {
+   "en": "The apples are cheap, only ten cents each.",
+   "zh": "苹果很便宜，每个只要十美分。",
+   "scene_prompt": "Lucy, a young girl with long brown hair and a blue dress gives a few small coins to the fruit seller for apples."
+  },
+  {
+   "en": "Zoe likes some jeans, but they are expensive.",
+   "zh": "佐伊喜欢一条牛仔裤，但是很贵。",
+   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt holds up a pair of jeans at a clothes stall with a surprised face."
+  },
+  {
+   "en": "She does not want to spend forty dollars.",
+   "zh": "她不想花四十美元。",
+   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt puts the jeans back and shakes her head, holding her purse."
+  },
+  {
+   "en": "They share a rich cheese pizza for lunch.",
+   "zh": "她们一起吃了一份浓郁的芝士比萨当午饭。",
+   "scene_prompt": "Zoe, a young girl with short black hair and a yellow shirt and Lucy, a young girl with long brown hair and a blue dress share a cheesy pizza at a market food stall."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

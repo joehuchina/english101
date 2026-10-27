@@ -40,9 +40,9 @@
    "scene_prompt": "Lily, a girl of nine with long brown hair holds a broom in a small, untidy bedroom."
   },
   {
-   "en": "She puts a pretty skirt on the bed.",
-   "zh": "她把一条漂亮的裙子放在床上。",
-   "scene_prompt": "Lily, a girl of nine with long brown hair lays a pretty flowered skirt on her bed."
+   "en": "She puts her clothes on the bed.",
+   "zh": "她把衣服放在床上。",
+   "scene_prompt": "Lily, a girl of nine with long brown hair puts a pile of clothes on her bed."
   },
   {
    "en": "One sock is on the left side.",
@@ -50,9 +50,9 @@
    "scene_prompt": "A single striped sock lies on the left side of the bed; Lily, a girl of nine with long brown hair points at it."
   },
   {
-   "en": "Should she keep this skirt or that one?",
-   "zh": "她该留下这条裙子还是那条？",
-   "scene_prompt": "Lily, a girl of nine with long brown hair holds up two different skirts, one in each hand, thinking."
+   "en": "Should she keep this pretty skirt or that?",
+   "zh": "她该留下这条漂亮的裙子，还是那条？",
+   "scene_prompt": "Lily, a girl of nine with long brown hair holds up two pretty skirts, one in each hand, thinking."
   },
   {
    "en": "The window glass is too dirty now.",

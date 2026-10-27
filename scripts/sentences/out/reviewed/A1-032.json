@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-032",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "europe",
+  "airport",
+  "far",
+  "australia",
+  "asia",
+  "mexico",
+  "south",
+  "train",
+  "germany",
+  "car",
+  "bicycle",
+  "visit",
+  "canada",
+  "america"
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "head",
+  "yesterday"
+ ],
+ "title": "Big Travel Plans",
+ "title_zh": "宏大的旅行计划",
+ "setting": "A bright living room with a large world map on the wall.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "Sara, a young woman with long brown hair and a green sweater"
+  },
+  {
+   "name": "Ivan",
+   "look": "Ivan, a young man with short black hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara and Ivan look at a big world map.",
+   "zh": "萨拉和伊万看着一张大大的世界地图。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a green sweater and Ivan, a young man with short black hair and a blue shirt stand in front of a large world map on the living room wall."
+  },
+  {
+   "en": "Sara wants to visit Germany in Europe.",
+   "zh": "萨拉想去欧洲的德国游玩。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a green sweater points at Germany in Europe on the world map."
+  },
+  {
+   "en": "Ivan shakes his head: Australia is very far.",
+   "zh": "伊万摇摇头：澳大利亚太远了。",
+   "scene_prompt": "Ivan, a young man with short black hair and a blue shirt shakes his head and points at Australia at the bottom of the map."
+  },
+  {
+   "en": "Mexico is to the south of America.",
+   "zh": "墨西哥在美国的南边。",
+   "scene_prompt": "A finger of Ivan, a young man with short black hair and a blue shirt moves down the map from America to Mexico."
+  },
+  {
+   "en": "Sara moves her finger from Canada to Asia.",
+   "zh": "萨拉的手指从加拿大移到亚洲。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a green sweater moves her finger across the world map from Canada to Asia."
+  },
+  {
+   "en": "In Germany, trains leave from a big station.",
+   "zh": "在德国，火车从一个大车站出发。",
+   "scene_prompt": "A fast train leaves a big busy station in Germany, a small flag of Germany on the map nearby."
+  },
+  {
+   "en": "Ivan also wants to ride a bicycle there.",
+   "zh": "伊万还想在那里骑自行车。",
+   "scene_prompt": "Ivan, a young man with short black hair and a blue shirt happily imagines riding a bicycle through a green town."
+  },
+  {
+   "en": "Tomorrow, they drive their car to the airport.",
+   "zh": "明天，他们开车去机场。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a green sweater and Ivan, a young man with short black hair and a blue shirt put suitcases into their car, a plane in the sky above."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

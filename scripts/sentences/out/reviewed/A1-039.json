@@ -1,0 +1,86 @@
+{
+ "scene_id": "A1-039",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "show",
+  "above",
+  "buy",
+  "short",
+  "wear",
+  "day",
+  "better",
+  "into",
+  "wrong",
+  "problem",
+  "uncle",
+  "key",
+  "speak"
+ ],
+ "review_words": [
+  "jeans",
+  "fire",
+  "pair",
+  "yourself"
+ ],
+ "title": "The Wrong Key",
+ "title_zh": "错误的钥匙",
+ "setting": "A clothes shop in town and the front door of the uncle's small house.",
+ "characters": [
+  {
+   "name": "Dan",
+   "look": "Dan, a young boy with brown hair and a blue T-shirt"
+  },
+  {
+   "name": "Aiko",
+   "look": "Aiko, a young girl with long black hair and a red sweater"
+  },
+  {
+   "name": "Uncle",
+   "look": "Uncle, a tall man with glasses and a green shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Dan and Aiko spend the day with their uncle.",
+   "zh": "丹和爱子跟叔叔一起过了一天。",
+   "scene_prompt": "Dan, a young boy with brown hair and a blue T-shirt and Aiko, a young girl with long black hair and a red sweater walk down a sunny street with Uncle, a tall man with glasses and a green shirt."
+  },
+  {
+   "en": "The jeans Dan wears are too short now.",
+   "zh": "丹穿的牛仔裤现在太短了。",
+   "scene_prompt": "Dan, a young boy with brown hair and a blue T-shirt stands in jeans that end high above his ankles, looking down at them."
+  },
+  {
+   "en": "So their uncle buys him a new pair.",
+   "zh": "于是叔叔给他买了一条新的。",
+   "scene_prompt": "In a clothes shop, Uncle, a tall man with glasses and a green shirt pays for a folded pair of blue jeans while Dan, a young boy with brown hair and a blue T-shirt smiles."
+  },
+  {
+   "en": "At home, their uncle has a big problem.",
+   "zh": "到家后，叔叔遇到了一个大问题。",
+   "scene_prompt": "Uncle, a tall man with glasses and a green shirt stands at the closed front door of his small house, frowning, with Dan, a young boy with brown hair and a blue T-shirt and Aiko, a young girl with long black hair and a red sweater beside him."
+  },
+  {
+   "en": "But his key is wrong for the door.",
+   "zh": "可是他的钥匙跟这扇门不配。",
+   "scene_prompt": "Uncle, a tall man with glasses and a green shirt tries to turn a key that does not fit in the lock of the front door."
+  },
+  {
+   "en": "Aiko speaks up: “Look above the door!”",
+   "zh": "爱子大声说：“看门的上方！”",
+   "scene_prompt": "Aiko, a young girl with long black hair and a red sweater points up at a small key lying on the frame above the front door."
+  },
+  {
+   "en": "They all go into the house and feel better.",
+   "zh": "他们都走进屋里，感觉好多了。",
+   "scene_prompt": "Uncle, a tall man with glasses and a green shirt, Dan, a young boy with brown hair and a blue T-shirt and Aiko, a young girl with long black hair and a red sweater walk happily through the open front door into the house."
+  },
+  {
+   "en": "Dan shows Aiko his new jeans with a smile.",
+   "zh": "丹笑着给爱子看他的新牛仔裤。",
+   "scene_prompt": "Inside the house, Dan, a young boy with brown hair and a blue T-shirt proudly shows his new blue jeans to Aiko, a young girl with long black hair and a red sweater."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

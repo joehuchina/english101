@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-040",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "july",
+  "zero",
+  "again",
+  "hello",
+  "sit",
+  "seat",
+  "cup",
+  "monday",
+  "else",
+  "in",
+  "top",
+  "purple",
+  "bottle"
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "last",
+  "listen"
+ ],
+ "title": "A Hot Monday",
+ "title_zh": "炎热的星期一",
+ "setting": "A sunny outdoor cafe on a summer day.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "Sara, a girl with long brown hair and a white shirt"
+  },
+  {
+   "name": "Ivan",
+   "look": "Ivan, a boy with short black hair and a blue T-shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is the last Monday in July.",
+   "zh": "今天是七月的最后一个星期一。",
+   "scene_prompt": "A sunny outdoor cafe with small tables and umbrellas on a hot summer morning."
+  },
+  {
+   "en": "Sara finds a seat at the cafe.",
+   "zh": "萨拉在咖啡馆找到一个座位。",
+   "scene_prompt": "Sara, a girl with long brown hair and a white shirt looks at an empty chair at a table in the sunny outdoor cafe."
+  },
+  {
+   "en": "She sits down with a purple cup.",
+   "zh": "她拿着一个紫色杯子坐下。",
+   "scene_prompt": "Sara, a girl with long brown hair and a white shirt sits at a cafe table holding a purple cup."
+  },
+  {
+   "en": "Ivan comes in and says hello to her.",
+   "zh": "伊万走进来，跟她打招呼。",
+   "scene_prompt": "Ivan, a boy with short black hair and a blue T-shirt walks into the cafe and waves hello to Sara, a girl with long brown hair and a white shirt at her table."
+  },
+  {
+   "en": "He opens the top of his water bottle.",
+   "zh": "他打开水瓶的盖子。",
+   "scene_prompt": "Ivan, a boy with short black hair and a blue T-shirt twists open the top of his water bottle next to Sara, a girl with long brown hair and a white shirt."
+  },
+  {
+   "en": "Sadly, there is zero water inside.",
+   "zh": "可惜，瓶子里一点水也没有。",
+   "scene_prompt": "Ivan, a boy with short black hair and a blue T-shirt looks sadly into his empty water bottle, holding it upside down."
+  },
+  {
+   "en": "“Help yourself to my water,” says Sara.",
+   "zh": "“喝我的水吧，”萨拉说。",
+   "scene_prompt": "Sara, a girl with long brown hair and a white shirt smiles and pushes a jug of water toward Ivan, a boy with short black hair and a blue T-shirt."
+  },
+  {
+   "en": "Ivan thanks her again and wants nothing else.",
+   "zh": "伊万再次谢谢她，别的什么都不要了。",
+   "scene_prompt": "Ivan, a boy with short black hair and a blue T-shirt happily drinks from his full bottle and smiles at Sara, a girl with long brown hair and a white shirt again."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

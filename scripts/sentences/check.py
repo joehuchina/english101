@@ -16,7 +16,7 @@ POS_TAGS = {
     "n.": {"NOUN", "PROPN"},
     "v.": {"VERB", "AUX"},
     "adj.": {"ADJ"},
-    "adv.": {"ADV", "ADP", "PART", "SCONJ"},
+    "adv.": {"ADV", "ADP", "PART", "SCONJ", "INTJ"},
     "prep.": {"ADP", "SCONJ", "ADV", "PART"},
     "conj.": {"CCONJ", "SCONJ", "ADV"},
     "det.": {"DET", "PRON", "NUM", "ADJ"},
@@ -61,6 +61,18 @@ class Lexicon:
         return None
 
 
+def inflections(w):
+    """Regular forms of a word, for when spaCy's lemma is wrong (it reads "hates" as "hat")."""
+    forms = {w, w + "s", w + "es", w + "ed", w + "d", w + "ing"}
+    if w.endswith("e"):
+        forms |= {w[:-1] + "ing"}
+    if w.endswith("y") and len(w) > 2 and w[-2] not in "aeiou":
+        forms |= {w[:-1] + "ies", w[:-1] + "ied"}
+    if re.search(r"[^aeiou][aeiou][bdgklmnprt]$", w):
+        forms |= {w + w[-1] + "ed", w + w[-1] + "ing"}
+    return forms
+
+
 def target_hit(word, doc, tokens_norm, lemmas_norm):
     """Is the headword used in this sentence, as one of its dictionary parts of speech?"""
     w = word["word"]
@@ -81,8 +93,9 @@ def target_hit(word, doc, tokens_norm, lemmas_norm):
             allowed = None
             break
         allowed |= tags
+    forms = inflections(key)
     for tok, t, l in zip(doc, tokens_norm, lemmas_norm):
-        if key not in (t, l):
+        if key != l and t not in forms:
             continue
         if allowed is None or tok.pos_ in allowed:
             return True
@@ -163,7 +176,9 @@ def check_scene(scene, unit, lex, seen=()):
     used = {h for r in results for h in r["hits"]}
     missing = [t for t in unit["targets"] if t not in used]
     reviewed = {h for r in results for h in r["review_hits"]}
-    return {"sentences": results, "missing": missing,
+    n = len(scene["sentences"])
+    scene_problems = [] if 5 <= n <= 8 else [f"scene has {n} sentences, needs 5-8"]
+    return {"sentences": results, "missing": missing, "scene_problems": scene_problems,
             "review_used": [w for w in review if w in reviewed],
             "review_needed": min(2, len(review))}
 
@@ -174,7 +189,9 @@ def main(paths):
     for p in paths:
         scene = json.load(open(p))
         res = check_scene(scene, units[scene["scene_id"]], lex)
-        print(f"== {scene['scene_id']}  missing: {res['missing'] or 'none'}")
+        print(f"== {scene['scene_id']}  missing: {[lex.by_id[i]['word'] for i in res['missing']] or 'none'}  "
+              f"review used: {len(res['review_used'])}/{res['review_needed']} needed  "
+              f"{' '.join(res['scene_problems'])}")
         for r in res["sentences"]:
             s = scene["sentences"][r["i"]]
             print(f"  {'ok ' if not r['problems'] else 'BAD'} {s['en']}")

@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-046",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "science",
+  "slowly",
+  "glasses",
+  "special",
+  "meat",
+  "carry",
+  "hair",
+  "green",
+  "call",
+  "cheese",
+  "long",
+  "pay",
+  "old"
+ ],
+ "review_words": [
+  "fire",
+  "japanese",
+  "kind",
+  "policeman"
+ ],
+ "title": "Lunch After Science",
+ "title_zh": "科学课后的午餐",
+ "setting": "A small cafe near the school with a long green table.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "Zoe, a girl with short black hair and round glasses"
+  },
+  {
+   "name": "Raj",
+   "look": "Raj, a boy with short brown hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "After science class, Zoe and Raj feel hungry.",
+   "zh": "上完科学课，佐伊和拉吉饿了。",
+   "scene_prompt": "Zoe, a girl with short black hair and round glasses and Raj, a boy with short brown hair and a blue shirt walk out of a science room holding their tummies."
+  },
+  {
+   "en": "The special today is bread with meat and cheese.",
+   "zh": "今天的特色菜是夹肉和奶酪的面包。",
+   "scene_prompt": "On a cafe counter sits a plate of bread with meat and cheese."
+  },
+  {
+   "en": "Raj pays for two plates at the counter.",
+   "zh": "拉吉在柜台付了两份的钱。",
+   "scene_prompt": "Raj, a boy with short brown hair and a blue shirt hands coins to a smiling cook at the cafe counter while Zoe, a girl with short black hair and round glasses waits."
+  },
+  {
+   "en": "He carries them slowly to a long green table.",
+   "zh": "他慢慢地把它们端到一张长长的绿桌子旁。",
+   "scene_prompt": "Raj, a boy with short brown hair and a blue shirt carefully carries two plates toward a long green table in the cafe."
+  },
+  {
+   "en": "An old policeman with white hair sits there.",
+   "zh": "一位白发的老警察坐在那里。",
+   "scene_prompt": "At the long green table sits an old policeman with white hair, glasses and a blue uniform, eating soup."
+  },
+  {
+   "en": "His glasses fall on the floor.",
+   "zh": "他的眼镜掉到了地上。",
+   "scene_prompt": "A pair of glasses falls from the face of an old policeman with white hair, glasses and a blue uniform onto the cafe floor."
+  },
+  {
+   "en": "Zoe picks them up for the kind man.",
+   "zh": "佐伊为这位和善的老人捡起眼镜。",
+   "scene_prompt": "Zoe, a girl with short black hair and round glasses hands the glasses back to an old policeman with white hair, glasses and a blue uniform."
+  },
+  {
+   "en": "“Thank you!” he calls, with a big smile.",
+   "zh": "“谢谢你！”他大声说，笑得很开心。",
+   "scene_prompt": "an old policeman with white hair, glasses and a blue uniform smiles widely and waves at Zoe, a girl with short black hair and round glasses and Raj, a boy with short brown hair and a blue shirt."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

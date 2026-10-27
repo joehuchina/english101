@@ -1,0 +1,79 @@
+{
+ "scene_id": "A1-025",
+ "level": "A1",
+ "topic": "technology",
+ "targets": [
+  "camera",
+  "website",
+  "telephone",
+  "internet",
+  "message",
+  "machine",
+  "email",
+  "computer",
+  "phone",
+  "lucky"
+ ],
+ "review_words": [
+  "sock",
+  "australian",
+  "hotel",
+  "arrive"
+ ],
+ "title": "Ben at the Hotel",
+ "title_zh": "本在酒店",
+ "setting": "The lobby of a big hotel with a front desk and a guest computer.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a young boy with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Dad",
+   "look": "his dad, a tall man with a short beard and a gray jacket"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and his dad arrive at a big hotel.",
+   "zh": "本和爸爸到了一家大酒店。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and his dad, a tall man with a short beard and a gray jacket walk into a big hotel lobby pulling suitcases."
+  },
+  {
+   "en": "Ben's phone has no internet here.",
+   "zh": "本的手机在这里上不了网。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt frowns at his phone in the hotel lobby."
+  },
+  {
+   "en": "He is lucky: the hotel has a computer.",
+   "zh": "他运气不错：酒店有一台电脑。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt smiles and points at a computer on a desk in the lobby."
+  },
+  {
+   "en": "He sends Leo an email about the hotel website.",
+   "zh": "他给利奥发了一封电子邮件，介绍酒店的网站。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt types at the lobby computer, the screen showing the hotel's web page."
+  },
+  {
+   "en": "Then he takes photos with his new camera.",
+   "zh": "然后他用新相机拍照。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt takes a photo of the grand lobby with a small camera."
+  },
+  {
+   "en": "Soon Leo sends him a happy message.",
+   "zh": "很快，利奥给他回了一条开心的消息。",
+   "scene_prompt": "The lobby computer screen shows a big smiley face; Ben, a young boy with short brown hair and a blue shirt grins."
+  },
+  {
+   "en": "Dad uses the desk telephone to call home.",
+   "zh": "爸爸用前台的电话给家里打电话。",
+   "scene_prompt": "his dad, a tall man with a short beard and a gray jacket talks on an old telephone at the hotel front desk."
+  },
+  {
+   "en": "Next, Dad gets a hot drink from a machine.",
+   "zh": "接着，爸爸从机器里买了一杯热饮。",
+   "scene_prompt": "his dad, a tall man with a short beard and a gray jacket takes a cup of hot coffee from a drinks machine while Ben, a young boy with short brown hair and a blue shirt watches."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

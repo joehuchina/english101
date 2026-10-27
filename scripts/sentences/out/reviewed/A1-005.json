@@ -59,14 +59,14 @@
    "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket runs up the stairs holding the letter."
   },
   {
-   "en": "The letter is about their lost pet.",
-   "zh": "这封信是关于他们走丢的宠物的。",
-   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket and Lily, his younger sister with long black hair read the letter together; a photo of a small brown dog is on the wall."
+   "en": "Their pet was lost a month ago.",
+   "zh": "他们的宠物一个月前走丢了。",
+   "scene_prompt": "Sam, a teenage boy in blue jeans and a brown jacket and Lily, his younger sister with long black hair look sadly at a photo of a small brown dog on the wall."
   },
   {
-   "en": "A farmer found the dog last night.",
-   "zh": "一位农民昨晚找到了那只狗。",
-   "scene_prompt": "A farmer with a lantern finds a small brown dog in a barn at night."
+   "en": "A strong farmer found the dog last night.",
+   "zh": "昨晚，一位强壮的农民找到了那只狗。",
+   "scene_prompt": "A strong farmer with a lantern carries a small brown dog out of a barn at night."
   },
   {
    "en": "Lily stops and puts her hands on her head.",

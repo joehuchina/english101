@@ -1,0 +1,77 @@
+{
+ "scene_id": "A1-050",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "someone",
+  "hear",
+  "please",
+  "hard",
+  "terrible",
+  "toy",
+  "so",
+  "single",
+  "boy",
+  "chicken",
+  "milk",
+  "and",
+  "most"
+ ],
+ "review_words": [
+  "fire",
+  "poor",
+  "christmas",
+  "wife"
+ ],
+ "title": "The Toy Chicken",
+ "title_zh": "玩具鸡",
+ "setting": "A cosy family kitchen with a fireplace on Christmas morning.",
+ "characters": [
+  {
+   "name": "Sam",
+   "look": "Sam, a small boy with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Mia",
+   "look": "Mia, his mother with long black hair and a green apron"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "On Christmas morning, Sam hears a terrible sound.",
+   "zh": "圣诞节早上，萨姆听到一个可怕的声音。",
+   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt covers his ears in a hallway decorated for Christmas, looking toward the kitchen."
+  },
+  {
+   "en": "Someone is in the kitchen near the fire.",
+   "zh": "有人在厨房里，就在炉火旁边。",
+   "scene_prompt": "A shadowy figure stands near a warm fireplace in a kitchen while Sam, a small boy with short brown hair and a blue shirt peeks around the door."
+  },
+  {
+   "en": "His mother Mia holds a single toy chicken.",
+   "zh": "他妈妈米娅手里拿着一只玩具鸡。",
+   "scene_prompt": "Mia, his mother with long black hair and a green apron holds up one yellow toy chicken, squeezing it, near the fireplace."
+  },
+  {
+   "en": "The poor boy laughs and hugs the toy.",
+   "zh": "可怜的小男孩笑了，抱住了玩具。",
+   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt laughs with relief and hugs the yellow toy chicken."
+  },
+  {
+   "en": "It is hard, but he loves it so much.",
+   "zh": "它硬邦邦的，但他非常喜欢它。",
+   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt taps the hard plastic toy chicken and smiles widely."
+  },
+  {
+   "en": "Of all his gifts, he likes it most.",
+   "zh": "在所有礼物里，他最喜欢它。",
+   "scene_prompt": "Sam, a small boy with short brown hair and a blue shirt sits among opened Christmas gifts, holding the toy chicken above the others."
+  },
+  {
+   "en": "\"Please drink your milk now,\" says Mia.",
+   "zh": "“现在请把牛奶喝了。”米娅说。",
+   "scene_prompt": "Mia, his mother with long black hair and a green apron hands a glass of milk to Sam, a small boy with short brown hair and a blue shirt, who still holds the toy chicken."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,81 @@
+{
+ "scene_id": "A1-021",
+ "level": "A1",
+ "topic": "work",
+ "targets": [
+  "worker",
+  "waitress",
+  "job",
+  "farm",
+  "farmer",
+  "business",
+  "company",
+  "meeting",
+  "waiter",
+  "team",
+  "office",
+  "boring"
+ ],
+ "review_words": [
+  "left",
+  "side",
+  "pretty",
+  "too"
+ ],
+ "title": "Two Different Jobs",
+ "title_zh": "两份不同的工作",
+ "setting": "A pretty little cafe with small tables and a big window.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "Kofi, a young man with short black hair and a blue shirt"
+  },
+  {
+   "name": "Hana",
+   "look": "Hana, a young woman with long brown hair and a green sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and Hana have lunch in a pretty cafe.",
+   "zh": "科菲和哈娜在一家漂亮的咖啡馆吃午饭。",
+   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt and Hana, a young woman with long brown hair and a green sweater sit at a small table in a pretty cafe with flowers in the window."
+  },
+  {
+   "en": "A waiter brings them two cups of tea.",
+   "zh": "一位男服务员给他们端来两杯茶。",
+   "scene_prompt": "A young waiter in a black apron puts two cups of tea in front of Kofi, a young man with short black hair and a blue shirt and Hana, a young woman with long brown hair and a green sweater."
+  },
+  {
+   "en": "Kofi works in an office for a big company.",
+   "zh": "科菲在一家大公司的办公室上班。",
+   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt sits at a desk with a computer in a busy office of a big company."
+  },
+  {
+   "en": "His job is boring, with too many meetings.",
+   "zh": "他的工作很无聊，会议太多。",
+   "scene_prompt": "Kofi, a young man with short black hair and a blue shirt yawns at a long meeting table with people in suits."
+  },
+  {
+   "en": "Hana is a farmer, and she loves her farm.",
+   "zh": "哈娜是一位农场主，她很爱她的农场。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater stands smiling in a green field with cows and a red barn."
+  },
+  {
+   "en": "She has a business selling eggs and milk.",
+   "zh": "她做生意，卖鸡蛋和牛奶。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater sells eggs and bottles of milk at a little farm stall."
+  },
+  {
+   "en": "Her small team of workers helps her every day.",
+   "zh": "她的小团队里的工人们每天都帮她干活。",
+   "scene_prompt": "Hana, a young woman with long brown hair and a green sweater and a few farm workers carry baskets of eggs together."
+  },
+  {
+   "en": "The young waitress wants to visit Hana's farm.",
+   "zh": "年轻的女服务员很想去哈娜的农场看看。",
+   "scene_prompt": "A young waitress in the cafe listens excitedly to Hana, a young woman with long brown hair and a green sweater, who shows her a photo of cows."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

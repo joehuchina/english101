@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-057",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "personal",
+  "say",
+  "lot",
+  "find",
+  "walk",
+  "as",
+  "run",
+  "light",
+  "look",
+  "first",
+  "busy",
+  "wine",
+  "talk"
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "flower",
+  "cloudy"
+ ],
+ "title": "Good News at the Party",
+ "title_zh": "聚会上的好消息",
+ "setting": "A bright house party and a garden under a cloudy sky.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a young man with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Anna",
+   "look": "Anna, his wife with long blonde hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and his wife Anna are at a party.",
+   "zh": "本和妻子安娜在参加一个聚会。",
+   "scene_prompt": "Ben, a young man with short brown hair and a blue shirt and Anna, his wife with long blonde hair and a yellow dress arrive at a bright house party."
+  },
+  {
+   "en": "The house is busy and full of light.",
+   "zh": "屋子里很热闹，灯火通明。",
+   "scene_prompt": "A crowded room with many bright lamps, Ben, a young man with short brown hair and a blue shirt and Anna, his wife with long blonde hair and a yellow dress among the guests."
+  },
+  {
+   "en": "A lot of people talk and laugh inside.",
+   "zh": "里面有很多人在聊天说笑。",
+   "scene_prompt": "Many guests stand in groups, talking and laughing in the bright room."
+  },
+  {
+   "en": "First, they look for a glass of wine.",
+   "zh": "首先，他们去找一杯葡萄酒。",
+   "scene_prompt": "Ben, a young man with short brown hair and a blue shirt and Anna, his wife with long blonde hair and a yellow dress look around the crowded room for drinks."
+  },
+  {
+   "en": "They find red wine on a long table.",
+   "zh": "他们在一张长桌上找到了红葡萄酒。",
+   "scene_prompt": "Ben, a young man with short brown hair and a blue shirt and Anna, his wife with long blonde hair and a yellow dress pick up glasses of red wine from a long table."
+  },
+  {
+   "en": "Ben wants to say something personal to Anna.",
+   "zh": "本想对安娜说一些私人的话。",
+   "scene_prompt": "Ben, a young man with short brown hair and a blue shirt leans close to Anna, his wife with long blonde hair and a yellow dress and gestures toward the garden door."
+  },
+  {
+   "en": "As they walk outside, the sky is cloudy.",
+   "zh": "他们走到外面时，天空阴沉沉的。",
+   "scene_prompt": "Ben, a young man with short brown hair and a blue shirt and Anna, his wife with long blonde hair and a yellow dress walk out into a garden under a grey cloudy sky."
+  },
+  {
+   "en": "Happy Anna runs to hug him by the flowers.",
+   "zh": "安娜高兴地在花丛边跑过去抱住他。",
+   "scene_prompt": "Anna, his wife with long blonde hair and a yellow dress runs happily to hug Ben, a young man with short brown hair and a blue shirt beside bright flowers in the garden."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

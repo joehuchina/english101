@@ -1,0 +1,86 @@
+{
+ "scene_id": "A1-037",
+ "level": "A1",
+ "topic": "sport",
+ "targets": [
+  "football",
+  "basketball",
+  "player",
+  "sport",
+  "ball",
+  "tennis",
+  "swim",
+  "swimming",
+  "win",
+  "climb",
+  "game",
+  "match",
+  "choose"
+ ],
+ "review_words": [
+  "jacket",
+  "jeans",
+  "think",
+  "fire"
+ ],
+ "title": "Choosing a Sport",
+ "title_zh": "选择一项运动",
+ "setting": "A sunny park with green grass, a hill and a lake.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "Kofi, a young boy with short black hair and a blue t-shirt"
+  },
+  {
+   "name": "Hana",
+   "look": "Hana, a young girl with long brown hair and a yellow shirt"
+  },
+  {
+   "name": "Max",
+   "look": "Max, a young boy with blonde hair and a red jacket"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi, Hana and Max want to choose a sport.",
+   "zh": "科菲、哈娜和马克斯想选一项运动。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue t-shirt, Hana, a young girl with long brown hair and a yellow shirt and Max, a young boy with blonde hair and a red jacket stand together in a sunny park, thinking."
+  },
+  {
+   "en": "Kofi is a fast football player.",
+   "zh": "科菲是个跑得很快的足球运动员。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue t-shirt runs fast and kicks a football on the grass."
+  },
+  {
+   "en": "Hana throws a ball for a basketball game.",
+   "zh": "哈娜为一场篮球比赛投球。",
+   "scene_prompt": "Hana, a young girl with long brown hair and a yellow shirt throws a basketball toward a hoop in the park."
+  },
+  {
+   "en": "Max thinks a tennis match is too long.",
+   "zh": "马克斯觉得网球比赛太长了。",
+   "scene_prompt": "Max, a young boy with blonde hair and a red jacket sits on a bench and yawns next to a tennis racket."
+  },
+  {
+   "en": "Then they climb a hill to a lake.",
+   "zh": "然后他们爬上小山，来到一个湖边。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue t-shirt, Hana, a young girl with long brown hair and a yellow shirt and Max, a young boy with blonde hair and a red jacket climb a green hill with a blue lake at the top."
+  },
+  {
+   "en": "Max takes off his red jacket to swim.",
+   "zh": "马克斯脱下红色夹克去游泳。",
+   "scene_prompt": "Max, a young boy with blonde hair and a red jacket takes off his red jacket at the edge of the lake."
+  },
+  {
+   "en": "Swimming is fun on a hot day.",
+   "zh": "炎热的日子里游泳很有趣。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue t-shirt, Hana, a young girl with long brown hair and a yellow shirt and Max, a young boy with blonde hair and a red jacket swim and splash in the lake on a hot day."
+  },
+  {
+   "en": "Hana is the fastest and wins the race.",
+   "zh": "哈娜游得最快，赢得了比赛。",
+   "scene_prompt": "Hana, a young girl with long brown hair and a yellow shirt reaches the end of the lake first and raises her arm, Kofi, a young boy with short black hair and a blue t-shirt and Max, a young boy with blonde hair and a red jacket behind her."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

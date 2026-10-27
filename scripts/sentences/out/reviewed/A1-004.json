@@ -39,14 +39,14 @@
  ],
  "sentences": [
   {
-   "en": "Leo and Mia start their holiday at the station.",
-   "zh": "里奥和米娅在车站开始了他们的假期。",
-   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat wait with suitcases on a busy train platform."
+   "en": "Leo and Mia pack summer clothes for their holiday.",
+   "zh": "里奥和米娅为假期收拾夏天的衣服。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat fold summer clothes into open suitcases on a bed."
   },
   {
-   "en": "They take a fast train north to France.",
-   "zh": "他们坐快车向北去法国。",
-   "scene_prompt": "A sleek train speeds through green fields; Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat look out of the window."
+   "en": "From the station, a train goes north to France.",
+   "zh": "火车从车站出发，向北开往法国。",
+   "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat sit in a train leaving a busy station, green fields ahead."
   },
   {
    "en": "Then a big aeroplane carries them to Rome.",
@@ -74,8 +74,8 @@
    "scene_prompt": "Mia, a young woman with long black hair and a yellow sun hat writes on a postcard at a café table."
   },
   {
-   "en": "Next week, their plane goes east to Greece.",
-   "zh": "下周，他们的飞机向东飞往希腊。",
+   "en": "Next month, their plane goes east to Greece.",
+   "zh": "下个月，他们的飞机将向东飞往希腊。",
    "scene_prompt": "Leo, a young man with short brown hair and a blue backpack and Mia, a young woman with long black hair and a yellow sun hat look out of a plane window at blue sea and white islands."
   }
  ],

@@ -1,0 +1,77 @@
+{
+ "scene_id": "A1-036",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "yellow",
+  "november",
+  "cafe",
+  "live",
+  "her",
+  "quick",
+  "august",
+  "bag",
+  "place",
+  "dress",
+  "breakfast",
+  "catch",
+  "four"
+ ],
+ "review_words": [
+  "africa",
+  "stop",
+  "ask",
+  "jacket"
+ ],
+ "title": "Breakfast in November",
+ "title_zh": "十一月的早餐",
+ "setting": "A cozy cafe on a cold November morning.",
+ "characters": [
+  {
+   "name": "Emma",
+   "look": "Emma, a girl with short brown hair and a friendly smile"
+  },
+  {
+   "name": "Rosa",
+   "look": "Rosa, a girl with long black hair and glasses"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "In November, Emma and Rosa meet at a cafe.",
+   "zh": "十一月，艾玛和罗莎在一家咖啡馆见面。",
+   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile and Rosa, a girl with long black hair and glasses meet at the door of a cozy cafe on a cold day."
+  },
+  {
+   "en": "Emma wears a yellow dress and a warm jacket.",
+   "zh": "艾玛穿着一条黄色连衣裙和一件暖和的外套。",
+   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile in a yellow dress and a warm jacket stands inside the cafe."
+  },
+  {
+   "en": "They have a quick breakfast at a small table.",
+   "zh": "她们在一张小桌旁匆匆吃了早餐。",
+   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile and Rosa, a girl with long black hair and glasses eat a quick breakfast of bread and coffee at a small cafe table."
+  },
+  {
+   "en": "Rosa asks Emma about her trip in August.",
+   "zh": "罗莎问艾玛八月的旅行怎么样。",
+   "scene_prompt": "Rosa, a girl with long black hair and glasses leans forward and asks Emma, a girl with short brown hair and a friendly smile a question across the table."
+  },
+  {
+   "en": "Her grandma lives in a place by the sea.",
+   "zh": "她的奶奶住在海边的一个地方。",
+   "scene_prompt": "A small house in a place by the sea, with an old woman waving at the door."
+  },
+  {
+   "en": "Emma stayed there for four happy weeks.",
+   "zh": "艾玛在那里度过了快乐的四个星期。",
+   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile remembers a sunny beach day, smiling at the table."
+  },
+  {
+   "en": "Then Emma takes her bag to catch a bus.",
+   "zh": "然后艾玛拿起包去赶公交车。",
+   "scene_prompt": "Emma, a girl with short brown hair and a friendly smile picks up her bag and hurries out of the cafe toward a bus, Rosa, a girl with long black hair and glasses waving."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-053",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "other",
+  "apple",
+  "air",
+  "because",
+  "right",
+  "difficult",
+  "somebody",
+  "include",
+  "evening",
+  "everything",
+  "brother",
+  "than",
+  "warm"
+ ],
+ "review_words": [
+  "wife",
+  "horse",
+  "rainy",
+  "sun"
+ ],
+ "title": "A Warm Evening",
+ "title_zh": "温暖的傍晚",
+ "setting": "A park at sunset with a bench and a path.",
+ "characters": [
+  {
+   "name": "Kofi",
+   "look": "Kofi, a young boy with short black hair and a blue shirt"
+  },
+  {
+   "name": "Max",
+   "look": "Max, his younger brother with glasses and a green sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Kofi and his brother Max sit in the park.",
+   "zh": "科菲和弟弟马克斯坐在公园里。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt and Max, his younger brother with glasses and a green sweater sit on a park bench at sunset."
+  },
+  {
+   "en": "The evening air is warm because the sun shines.",
+   "zh": "因为阳光照耀，傍晚的空气很温暖。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt and Max, his younger brother with glasses and a green sweater enjoy the warm evening on the bench, a low orange sun shining over the park."
+  },
+  {
+   "en": "Max's homework is very difficult today.",
+   "zh": "马克斯今天的作业很难。",
+   "scene_prompt": "Max, his younger brother with glasses and a green sweater frowns at a notebook on his lap, scratching his head."
+  },
+  {
+   "en": "Kofi checks everything and finds the right answers.",
+   "zh": "科菲检查了所有题目，找出了正确答案。",
+   "scene_prompt": "Kofi, a young boy with short black hair and a blue shirt looks over the notebook of Max, his younger brother with glasses and a green sweater and points to the answers with a pencil."
+  },
+  {
+   "en": "Max's lunch bag includes two red apples.",
+   "zh": "马克斯的午餐袋里有两个红苹果。",
+   "scene_prompt": "Max, his younger brother with glasses and a green sweater opens a small lunch bag with two red apples inside."
+  },
+  {
+   "en": "Max eats one apple, and Kofi eats the other.",
+   "zh": "马克斯吃了一个苹果，科菲吃了另一个。",
+   "scene_prompt": "Max, his younger brother with glasses and a green sweater and Kofi, a young boy with short black hair and a blue shirt each bite into a red apple on the bench."
+  },
+  {
+   "en": "Somebody on a horse comes into the park.",
+   "zh": "有人骑着马走进了公园。",
+   "scene_prompt": "A rider on a brown horse passes along the park path in front of Kofi, a young boy with short black hair and a blue shirt and Max, his younger brother with glasses and a green sweater on the bench."
+  },
+  {
+   "en": "The horse is much taller than Max.",
+   "zh": "那匹马比马克斯高得多。",
+   "scene_prompt": "Max, his younger brother with glasses and a green sweater stands next to the brown horse, looking up at it, much shorter than the horse."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

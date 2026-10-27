@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-014",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "foot",
+  "him",
+  "p-m",
+  "beginning",
+  "dirty",
+  "that",
+  "third",
+  "second",
+  "floor",
+  "low",
+  "move",
+  "send",
+  "sixty",
+  "mistake"
+ ],
+ "review_words": [
+  "wake",
+  "lunch",
+  "coat",
+  "fast"
+ ],
+ "title": "Cleaning for Grandma",
+ "title_zh": "为奶奶打扫屋子",
+ "setting": "A bright living room with a wooden floor.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "Zoe, a young girl with short brown hair and a yellow T-shirt"
+  },
+  {
+   "name": "Raj",
+   "look": "Raj, a young boy with black hair and a blue sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "At two p.m., Zoe and Raj start cleaning.",
+   "zh": "下午两点，佐伊和拉吉开始打扫。",
+   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt and Raj, a young boy with black hair and a blue sweater pick up brooms and cloths in a bright living room in the afternoon sun."
+  },
+  {
+   "en": "Grandma turns sixty tomorrow and will come for lunch.",
+   "zh": "奶奶明天六十岁，要来吃午饭。",
+   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt and Raj, a young boy with black hair and a blue sweater look at a framed photo of a smiling grandmother next to a birthday cake."
+  },
+  {
+   "en": "At the beginning, Raj works very fast.",
+   "zh": "一开始，拉吉干得非常快。",
+   "scene_prompt": "Raj, a young boy with black hair and a blue sweater rushes around the living room with a duster in each hand."
+  },
+  {
+   "en": "He moves the low table to clean the floor.",
+   "zh": "他挪开矮桌子来打扫地板。",
+   "scene_prompt": "Raj, a young boy with black hair and a blue sweater pushes a low coffee table aside on a wooden floor."
+  },
+  {
+   "en": "He makes a mistake and drops a dirty cup.",
+   "zh": "他一不小心，把一个脏杯子掉了下去。",
+   "scene_prompt": "A dirty cup slips from the hand of Raj, a young boy with black hair and a blue sweater and falls."
+  },
+  {
+   "en": "The cup falls right on his left foot.",
+   "zh": "杯子正好砸在他的左脚上。",
+   "scene_prompt": "Raj, a young boy with black hair and a blue sweater hops on one leg holding his left foot, a cup on the floor."
+  },
+  {
+   "en": "Zoe sends him to sit down for a second.",
+   "zh": "佐伊让他去坐一会儿。",
+   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt points to the sofa and Raj, a young boy with black hair and a blue sweater sits down with a sigh."
+  },
+  {
+   "en": "\"That is the third cup today!\" she laughs.",
+   "zh": "“这是今天的第三个杯子了！”她笑着说。",
+   "scene_prompt": "Zoe, a young girl with short brown hair and a yellow T-shirt laughs and holds up a cup while Raj, a young boy with black hair and a blue sweater smiles shyly on the sofa."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

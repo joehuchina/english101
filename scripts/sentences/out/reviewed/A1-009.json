@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-009",
+ "level": "A1",
+ "topic": "education",
+ "targets": [
+  "library",
+  "writing",
+  "english",
+  "student",
+  "reading",
+  "answer",
+  "practise",
+  "correct",
+  "french",
+  "grammar",
+  "maths",
+  "word",
+  "desk",
+  "believe"
+ ],
+ "review_words": [
+  "let",
+  "minute",
+  "even",
+  "o-clock"
+ ],
+ "title": "Homework in the Library",
+ "title_zh": "在图书馆写作业",
+ "setting": "A quiet school library with wooden desks and many books.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a young boy with short brown hair and a blue sweater"
+  },
+  {
+   "name": "Anna",
+   "look": "Anna, a young girl with long black hair and a red shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "At four o'clock, two students enter the library.",
+   "zh": "四点钟，两个学生走进图书馆。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue sweater and Anna, a young girl with long black hair and a red shirt with school bags walk into a quiet library, a wall clock above the door."
+  },
+  {
+   "en": "Ben and Anna sit at a big desk.",
+   "zh": "本和安娜坐在一张大书桌旁。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue sweater and Anna, a young girl with long black hair and a red shirt sit side by side at a big wooden desk with books."
+  },
+  {
+   "en": "Anna does her French reading first.",
+   "zh": "安娜先做她的法语阅读。",
+   "scene_prompt": "Anna, a young girl with long black hair and a red shirt reads a book with a small French flag on the cover."
+  },
+  {
+   "en": "Ben practises his English writing in a notebook.",
+   "zh": "本在笔记本上练习英语写作。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue sweater writes carefully in a notebook next to an English textbook."
+  },
+  {
+   "en": "He writes each new word again and again.",
+   "zh": "他把每个新单词写了一遍又一遍。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue sweater copies the same short word many times down a page."
+  },
+  {
+   "en": "Grammar is hard, and maths is even harder.",
+   "zh": "语法很难，数学更难。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue sweater frowns at a grammar book and a maths book with a pencil in his mouth."
+  },
+  {
+   "en": "Anna checks his answers, and they are correct.",
+   "zh": "安娜检查了他的答案，都是对的。",
+   "scene_prompt": "Anna, a young girl with long black hair and a red shirt looks at Ben, a young boy with short brown hair and a blue sweater's notebook and makes green tick marks."
+  },
+  {
+   "en": "Ben cannot believe it and smiles at Anna.",
+   "zh": "本简直不敢相信，冲着安娜笑了。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue sweater looks surprised and happy and smiles at Anna, a young girl with long black hair and a red shirt."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

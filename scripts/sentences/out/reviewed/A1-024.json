@@ -1,0 +1,86 @@
+{
+ "scene_id": "A1-024",
+ "level": "A1",
+ "topic": "society",
+ "targets": [
+  "married",
+  "lady",
+  "age",
+  "nationality",
+  "anyone",
+  "group",
+  "member",
+  "daughter",
+  "world",
+  "man",
+  "adult",
+  "party",
+  "interesting"
+ ],
+ "review_words": [
+  "once",
+  "sock",
+  "feeling",
+  "australian"
+ ],
+ "title": "The Club Party",
+ "title_zh": "俱乐部聚会",
+ "setting": "A bright room with many people and colorful decorations.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "Sara, a young woman with long brown hair and a green dress"
+  },
+  {
+   "name": "Ivan",
+   "look": "Ivan, a tall man with short black hair and a blue shirt"
+  },
+  {
+   "name": "Maya",
+   "look": "Maya, an older lady with silver hair and a yellow scarf"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Sara and Ivan go to a club party.",
+   "zh": "萨拉和伊万去参加一个俱乐部聚会。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a green dress and Ivan, a tall man with short black hair and a blue shirt walk into a bright room with balloons and many people."
+  },
+  {
+   "en": "The group has members from around the world.",
+   "zh": "这个团体的成员来自世界各地。",
+   "scene_prompt": "A crowd of people of many different looks chat and laugh together in the room."
+  },
+  {
+   "en": "Anyone of any age or nationality can join.",
+   "zh": "任何年龄、任何国籍的人都可以加入。",
+   "scene_prompt": "Children, young people and old people of different backgrounds stand together smiling."
+  },
+  {
+   "en": "Maya is a married lady with a funny husband.",
+   "zh": "玛雅是一位已婚女士，丈夫很风趣。",
+   "scene_prompt": "Maya, an older lady with silver hair and a yellow scarf chats warmly with Sara, a young woman with long brown hair and a green dress and Ivan, a tall man with short black hair and a blue shirt."
+  },
+  {
+   "en": "He is an Australian man who makes everyone laugh.",
+   "zh": "他是澳大利亚人，总能逗大家笑。",
+   "scene_prompt": "Maya, an older lady with silver hair and a yellow scarf holds the arm of her laughing husband, a gray-haired man in a suit who tells a joke."
+  },
+  {
+   "en": "Their adult daughter is at the party too.",
+   "zh": "他们已成年的女儿也在聚会上。",
+   "scene_prompt": "Maya, an older lady with silver hair and a yellow scarf waves to her grown-up daughter, a woman of about thirty, across the room."
+  },
+  {
+   "en": "Sara finds Maya's stories very interesting.",
+   "zh": "萨拉觉得玛雅讲的故事非常有意思。",
+   "scene_prompt": "Sara, a young woman with long brown hair and a green dress listens with wide, interested eyes while Maya, an older lady with silver hair and a yellow scarf tells a story."
+  },
+  {
+   "en": "Ivan has a good feeling about the club.",
+   "zh": "伊万对这个俱乐部感觉很好。",
+   "scene_prompt": "Ivan, a tall man with short black hair and a blue shirt smiles happily and shakes hands with people at the party."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

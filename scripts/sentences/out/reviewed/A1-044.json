@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-044",
+ "level": "A1",
+ "topic": "health",
+ "targets": [
+  "dangerous",
+  "eye",
+  "drink",
+  "mouth",
+  "salt",
+  "sleep",
+  "toothbrush",
+  "ear",
+  "healthy",
+  "exercise",
+  "fruit",
+  "vegetable",
+  "fact"
+ ],
+ "review_words": [
+  "fire",
+  "toothpaste",
+  "door",
+  "forget"
+ ],
+ "title": "Staying Healthy",
+ "title_zh": "保持健康",
+ "setting": "A small house with a garden, a bright kitchen and a bathroom.",
+ "characters": [
+  {
+   "name": "Emma",
+   "look": "Emma, a young woman with short brown hair and a green shirt"
+  },
+  {
+   "name": "Ali",
+   "look": "Ali, a young man with black hair and a blue sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Emma and Ali want to be healthy.",
+   "zh": "艾玛和阿里想要保持健康。",
+   "scene_prompt": "Emma, a young woman with short brown hair and a green shirt and Ali, a young man with black hair and a blue sweater stand in the bright kitchen in sports clothes, smiling."
+  },
+  {
+   "en": "They exercise with music in their ears.",
+   "zh": "他们戴着耳机听着音乐锻炼。",
+   "scene_prompt": "Emma, a young woman with short brown hair and a green shirt and Ali, a young man with black hair and a blue sweater jog in the garden wearing small earphones."
+  },
+  {
+   "en": "For breakfast, they eat fruit and vegetables.",
+   "zh": "早饭他们吃水果和蔬菜。",
+   "scene_prompt": "Emma, a young woman with short brown hair and a green shirt and Ali, a young man with black hair and a blue sweater sit at the kitchen table with plates of fruit and fresh vegetables."
+  },
+  {
+   "en": "Ali puts lots of salt on his eggs.",
+   "zh": "阿里在鸡蛋上撒了很多盐。",
+   "scene_prompt": "Ali, a young man with black hair and a blue sweater shakes a salt shaker hard over a plate of eggs."
+  },
+  {
+   "en": "Emma's eyes go wide: “That is dangerous!”",
+   "zh": "艾玛瞪大眼睛：“那很危险！”",
+   "scene_prompt": "Emma, a young woman with short brown hair and a green shirt stares with wide eyes at the salt shaker in Ali, a young man with black hair and a blue sweater's hand."
+  },
+  {
+   "en": "Here is a fact: water is the best drink.",
+   "zh": "有个事实：水是最好的饮料。",
+   "scene_prompt": "Emma, a young woman with short brown hair and a green shirt hands a big glass of water to Ali, a young man with black hair and a blue sweater at the kitchen table."
+  },
+  {
+   "en": "Before bed, he never forgets his toothbrush and toothpaste.",
+   "zh": "睡觉前，他从不忘记牙刷和牙膏。",
+   "scene_prompt": "In the bathroom at night, Ali, a young man with black hair and a blue sweater puts toothpaste on his toothbrush."
+  },
+  {
+   "en": "With a clean mouth, Ali goes to sleep.",
+   "zh": "嘴巴干干净净，阿里去睡觉了。",
+   "scene_prompt": "Ali, a young man with black hair and a blue sweater sleeps peacefully in bed with a small smile."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

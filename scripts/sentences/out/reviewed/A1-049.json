@@ -1,0 +1,81 @@
+{
+ "scene_id": "A1-049",
+ "level": "A1",
+ "topic": "travel",
+ "targets": [
+  "sweden",
+  "portugal",
+  "england",
+  "switzerland",
+  "italy",
+  "west",
+  "japan",
+  "travel",
+  "britain",
+  "trip",
+  "driver",
+  "afraid"
+ ],
+ "review_words": [
+  "fire",
+  "poor",
+  "friendly",
+  "children"
+ ],
+ "title": "The Big Travel Plan",
+ "title_zh": "伟大的旅行计划",
+ "setting": "A bright living room in a British house with a large world map on the wall.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a young boy with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Anna",
+   "look": "Anna, a young girl with long blonde hair and a yellow sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben and Anna are children in Britain.",
+   "zh": "本和安娜是住在英国的孩子。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater stand in front of a red-brick British house."
+  },
+  {
+   "en": "They look at a big map of the world.",
+   "zh": "他们看着一张大大的世界地图。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater look at a large world map on the living room wall."
+  },
+  {
+   "en": "They want to travel to many countries.",
+   "zh": "他们想去很多国家旅行。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater sit on the sofa with a suitcase, dreaming, in front of the world map."
+  },
+  {
+   "en": "Ben wants to visit Japan and Sweden.",
+   "zh": "本想去日本和瑞典。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt points at Japan and then at Sweden on the world map."
+  },
+  {
+   "en": "Anna likes Italy, Portugal and Switzerland.",
+   "zh": "安娜喜欢意大利、葡萄牙和瑞士。",
+   "scene_prompt": "Anna, a young girl with long blonde hair and a yellow sweater points at Italy, Portugal and Switzerland on the world map."
+  },
+  {
+   "en": "Their first trip goes west, across England.",
+   "zh": "他们的第一次旅行是向西穿过英格兰。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater trace a line westward across England on the map with their fingers."
+  },
+  {
+   "en": "Anna is a little afraid of flying.",
+   "zh": "安娜有点害怕坐飞机。",
+   "scene_prompt": "Anna, a young girl with long blonde hair and a yellow sweater looks worried at a toy plane in her hand, next to Ben, a young boy with short brown hair and a blue shirt."
+  },
+  {
+   "en": "A friendly driver takes them there by car.",
+   "zh": "一位友好的司机开车带他们去那里。",
+   "scene_prompt": "A friendly driver smiles at Ben, a young boy with short brown hair and a blue shirt and Anna, a young girl with long blonde hair and a yellow sweater in the back seat of a car on a country road."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

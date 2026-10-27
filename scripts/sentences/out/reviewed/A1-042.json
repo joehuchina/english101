@@ -1,0 +1,81 @@
+{
+ "scene_id": "A1-042",
+ "level": "A1",
+ "topic": "arts",
+ "targets": [
+  "singer",
+  "dance",
+  "draw",
+  "movie",
+  "film",
+  "story",
+  "italian",
+  "dancing",
+  "cinema",
+  "sing",
+  "writer",
+  "exciting"
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "menu"
+ ],
+ "title": "A Night at the Cinema",
+ "title_zh": "电影院之夜",
+ "setting": "A cinema in town, then a cosy living room with a fireplace.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "Mia, a young girl with short brown hair and a red sweater"
+  },
+  {
+   "name": "Sam",
+   "look": "Sam, a young boy with glasses and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Mia and Sam go to the cinema tonight.",
+   "zh": "米娅和萨姆今晚去电影院。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt walk into a bright cinema in the evening."
+  },
+  {
+   "en": "First, they look at the snack menu.",
+   "zh": "他们先看了看零食菜单。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt look up at a picture menu of popcorn and drinks at the cinema counter."
+  },
+  {
+   "en": "The film tells an exciting story.",
+   "zh": "这部电影讲了一个精彩的故事。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt sit in the dark cinema with wide eyes, watching the big screen."
+  },
+  {
+   "en": "It is about a young Italian singer.",
+   "zh": "电影讲的是一位年轻的意大利歌手。",
+   "scene_prompt": "On the big cinema screen, a young singer stands on a stage in a sunny Italian town."
+  },
+  {
+   "en": "She loves to sing and dance on stage.",
+   "zh": "她喜欢在舞台上唱歌跳舞。",
+   "scene_prompt": "On the cinema screen, the young singer sings and dances on a stage under bright lights."
+  },
+  {
+   "en": "The dancing in the movie is beautiful.",
+   "zh": "电影里的舞蹈很美。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with glasses and a blue shirt smile in their seats as dancers move across the cinema screen."
+  },
+  {
+   "en": "By the fire, Sam draws the singer.",
+   "zh": "萨姆在炉火旁画那位歌手。",
+   "scene_prompt": "At home, Sam, a young boy with glasses and a blue shirt sits by a warm fireplace drawing a singer on paper."
+  },
+  {
+   "en": "Mia wants to be a movie writer one day.",
+   "zh": "米娅希望将来有一天成为电影编剧。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater sits by the fireplace writing in a notebook and dreaming, next to Sam, a young boy with glasses and a blue shirt."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

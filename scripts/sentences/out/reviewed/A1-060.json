@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-060",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "salad",
+  "out",
+  "miss",
+  "follow",
+  "weather",
+  "twice",
+  "give",
+  "shirt",
+  "behind",
+  "great",
+  "good",
+  "both",
+  "inside"
+ ],
+ "review_words": [
+  "library",
+  "practise",
+  "correct",
+  "french"
+ ],
+ "title": "Lunch Before French",
+ "title_zh": "法语课前的午餐",
+ "setting": "A sunny green park with a path and a library behind it.",
+ "characters": [
+  {
+   "name": "Rosa",
+   "look": "Rosa, a girl with long brown hair and a yellow dress"
+  },
+  {
+   "name": "Ali",
+   "look": "Ali, a boy with short black hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Rosa and Ali go out in good weather.",
+   "zh": "天气很好，罗莎和阿里出门了。",
+   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt step out of a house into bright sunny weather."
+  },
+  {
+   "en": "Ali wears his new blue shirt.",
+   "zh": "阿里穿着他的新蓝衬衫。",
+   "scene_prompt": "Ali, a boy with short black hair and a blue shirt proudly shows his new blue shirt."
+  },
+  {
+   "en": "They follow a path to the park.",
+   "zh": "他们沿着一条小路走到公园。",
+   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt walk along a path into a green park."
+  },
+  {
+   "en": "Ali gives Rosa a big bowl of salad.",
+   "zh": "阿里给了罗莎一大碗沙拉。",
+   "scene_prompt": "Ali, a boy with short black hair and a blue shirt hands a big bowl of green salad to Rosa, a girl with long brown hair and a yellow dress on the grass."
+  },
+  {
+   "en": "They both think the salad is great.",
+   "zh": "他们俩都觉得沙拉很好吃。",
+   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt eat salad and give a thumbs up together."
+  },
+  {
+   "en": "They do not want to miss French class.",
+   "zh": "他们不想错过法语课。",
+   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress looks at her watch and jumps up, Ali, a boy with short black hair and a blue shirt packing the salad bowl."
+  },
+  {
+   "en": "So they run to the library behind the park.",
+   "zh": "于是他们跑向公园后面的图书馆。",
+   "scene_prompt": "Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt run toward a library building behind the park trees."
+  },
+  {
+   "en": "Inside, they practise each French word twice.",
+   "zh": "在里面，他们把每个法语单词都练了两遍。",
+   "scene_prompt": "Inside a library, Rosa, a girl with long brown hair and a yellow dress and Ali, a boy with short black hair and a blue shirt sit at a table and say words aloud from a French book."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

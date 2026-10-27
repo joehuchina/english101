@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-048",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "like",
+  "fall",
+  "thirty",
+  "best",
+  "any",
+  "shopping",
+  "address",
+  "box",
+  "fun",
+  "beard",
+  "wet",
+  "now",
+  "real"
+ ],
+ "review_words": [
+  "fire",
+  "policeman",
+  "poor",
+  "husband"
+ ],
+ "title": "The Lost Box",
+ "title_zh": "丢失的箱子",
+ "setting": "A busy street with many small shops on a rainy day.",
+ "characters": [
+  {
+   "name": "Ivan",
+   "look": "Ivan, a tall policeman with a long brown beard and a blue uniform"
+  },
+  {
+   "name": "Maya",
+   "look": "Maya, a woman with short red hair and a green coat"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Maya and her husband Ivan go shopping.",
+   "zh": "玛雅和丈夫伊万去购物。",
+   "scene_prompt": "Maya, a woman with short red hair and a green coat and Ivan, a tall policeman with a long brown beard and a blue uniform walk down a busy street with shopping bags."
+  },
+  {
+   "en": "Ivan is a real policeman with a long beard.",
+   "zh": "伊万是一名真正的警察，留着长胡子。",
+   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform stands on the street, smiling, with Maya, a woman with short red hair and a green coat beside him."
+  },
+  {
+   "en": "They like the little shops on this street.",
+   "zh": "他们喜欢这条街上的小商店。",
+   "scene_prompt": "Maya, a woman with short red hair and a green coat and Ivan, a tall policeman with a long brown beard and a blue uniform look happily into the windows of small shops."
+  },
+  {
+   "en": "Then a big box falls from a car.",
+   "zh": "这时，一个大箱子从一辆汽车上掉了下来。",
+   "scene_prompt": "A big brown box falls from the roof of a passing car as Maya, a woman with short red hair and a green coat and Ivan, a tall policeman with a long brown beard and a blue uniform watch."
+  },
+  {
+   "en": "The address on it is thirty houses away.",
+   "zh": "箱子上的地址在三十栋房子以外。",
+   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform holds the brown box and points far down the long street of houses, Maya, a woman with short red hair and a green coat beside him."
+  },
+  {
+   "en": "Now it is raining, and the box is wet.",
+   "zh": "现在下雨了，箱子湿了。",
+   "scene_prompt": "Rain falls on the wet brown box in the arms of Ivan, a tall policeman with a long brown beard and a blue uniform, next to Maya, a woman with short red hair and a green coat."
+  },
+  {
+   "en": "Without any umbrellas, they carry it there.",
+   "zh": "他们没有伞，就这样把箱子送了过去。",
+   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform and Maya, a woman with short red hair and a green coat walk through the rain carrying the brown box, with no umbrellas."
+  },
+  {
+   "en": "They laugh: this is the best fun today.",
+   "zh": "他们笑了：这是今天最开心的事。",
+   "scene_prompt": "Ivan, a tall policeman with a long brown beard and a blue uniform and Maya, a woman with short red hair and a green coat, both soaking wet, laugh together at a front door."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

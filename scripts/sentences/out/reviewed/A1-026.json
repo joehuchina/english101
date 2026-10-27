@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-026",
+ "level": "A1",
+ "topic": "city",
+ "targets": [
+  "town",
+  "london",
+  "centre",
+  "city",
+  "village",
+  "house",
+  "area",
+  "build",
+  "building",
+  "flat",
+  "park",
+  "street",
+  "post-office"
+ ],
+ "review_words": [
+  "sock",
+  "australian",
+  "postcard",
+  "holiday"
+ ],
+ "title": "A Holiday in London",
+ "title_zh": "伦敦假期",
+ "setting": "Busy streets in central London with tall buildings and a green park.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "Mia, a young girl with short black hair and a red sweater"
+  },
+  {
+   "name": "Sam",
+   "look": "Sam, a young boy with brown hair and a blue jacket"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Mia and Sam are on holiday in London.",
+   "zh": "米娅和萨姆在伦敦度假。",
+   "scene_prompt": "Mia, a young girl with short black hair and a red sweater and Sam, a young boy with brown hair and a blue jacket smile near a big clock tower and a red bus."
+  },
+  {
+   "en": "At home, they live in a small village.",
+   "zh": "在家里，他们住在一个小村庄。",
+   "scene_prompt": "Mia, a young girl with short black hair and a red sweater and Sam, a young boy with brown hair and a blue jacket wave in front of a few small cottages among green fields."
+  },
+  {
+   "en": "London is a very big and busy city.",
+   "zh": "伦敦是一座又大又繁忙的城市。",
+   "scene_prompt": "A wide view of a big busy city with many people, cars and buses."
+  },
+  {
+   "en": "They stay in a flat on a busy street.",
+   "zh": "他们住在一条热闹街道上的一套公寓里。",
+   "scene_prompt": "Mia, a young girl with short black hair and a red sweater and Sam, a young boy with brown hair and a blue jacket look out of a flat window at a busy street below."
+  },
+  {
+   "en": "In the town centre, they find a post office.",
+   "zh": "在市中心，他们找到了一家邮局。",
+   "scene_prompt": "Mia, a young girl with short black hair and a red sweater and Sam, a young boy with brown hair and a blue jacket walk up to a post office in the middle of town."
+  },
+  {
+   "en": "Sam sends a postcard to Grandma's house.",
+   "zh": "萨姆给奶奶家寄了一张明信片。",
+   "scene_prompt": "Sam, a young boy with brown hair and a blue jacket drops a postcard into a red post box while Mia, a young girl with short black hair and a red sweater watches."
+  },
+  {
+   "en": "Workers build a tall building in this area.",
+   "zh": "工人们在这个地区建一栋高楼。",
+   "scene_prompt": "Mia, a young girl with short black hair and a red sweater and Sam, a young boy with brown hair and a blue jacket watch workers in hard hats build a tall building with a crane."
+  },
+  {
+   "en": "Then they rest in a big green park.",
+   "zh": "然后他们在一个绿油油的大公园里休息。",
+   "scene_prompt": "Mia, a young girl with short black hair and a red sweater and Sam, a young boy with brown hair and a blue jacket sit on the grass under a tree in a big green park."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

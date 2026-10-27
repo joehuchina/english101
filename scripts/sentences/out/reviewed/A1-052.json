@@ -1,0 +1,69 @@
+{
+ "scene_id": "A1-052",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "one",
+  "bed",
+  "same",
+  "during",
+  "remember"
+ ],
+ "review_words": [
+  "wife",
+  "river",
+  "horse",
+  "elephant"
+ ],
+ "title": "Happy Memories",
+ "title_zh": "快乐的回忆",
+ "setting": "A quiet riverbank near a small wooden house.",
+ "characters": [
+  {
+   "name": "Rosa",
+   "look": "Rosa, a woman with long brown hair and a green shirt"
+  },
+  {
+   "name": "Ali",
+   "look": "Ali, a man with short black hair and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ali and his wife Rosa sit by the river.",
+   "zh": "阿里和妻子罗莎坐在河边。",
+   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt sit together on the grassy bank of a calm river."
+  },
+  {
+   "en": "They remember their trip to a hot country.",
+   "zh": "他们想起了去一个炎热国家的旅行。",
+   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt smile and look up dreamily by the river, a sunny hot land in a thought bubble."
+  },
+  {
+   "en": "During the trip, they rode a big elephant.",
+   "zh": "旅行期间，他们骑过一头大象。",
+   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt ride on the back of a big elephant in a hot sunny land."
+  },
+  {
+   "en": "Rosa also rode a white horse one day.",
+   "zh": "有一天，罗莎还骑了一匹白马。",
+   "scene_prompt": "Rosa, a woman with long brown hair and a green shirt rides a white horse on a dusty path under a hot sun."
+  },
+  {
+   "en": "Each night, they slept in the same small house.",
+   "zh": "每天晚上，他们都睡在同一座小房子里。",
+   "scene_prompt": "A small house at night with lit windows, Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt walking toward its door."
+  },
+  {
+   "en": "The house had only one big bed.",
+   "zh": "那座房子里只有一张大床。",
+   "scene_prompt": "Inside a small simple room with one big bed, Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt looking at it and laughing."
+  },
+  {
+   "en": "Now they laugh and remember those happy days.",
+   "zh": "现在他们笑着回忆那些快乐的日子。",
+   "scene_prompt": "Ali, a man with short black hair and a blue shirt and Rosa, a woman with long brown hair and a green shirt laugh together by the river at sunset."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-030",
+ "level": "A1",
+ "topic": "nature",
+ "targets": [
+  "hill",
+  "beautiful",
+  "summer",
+  "fish",
+  "sheep",
+  "rabbit",
+  "sea",
+  "tree",
+  "cow",
+  "die",
+  "autumn",
+  "cat",
+  "mouse",
+  "monkey"
+ ],
+ "review_words": [
+  "africa",
+  "station",
+  "plane",
+  "north"
+ ],
+ "title": "Summer on the Hill",
+ "title_zh": "山上的夏天",
+ "setting": "A green hill by the sea, with a farm, trees and fields.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "Zoe, a young girl with long brown hair and a yellow shirt"
+  },
+  {
+   "name": "Raj",
+   "look": "Raj, a young boy with short black hair and a blue t-shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "In summer, Zoe and Raj walk up a hill.",
+   "zh": "夏天，佐伊和拉吉走上一座小山。",
+   "scene_prompt": "Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt walk up a green hill under a bright summer sun."
+  },
+  {
+   "en": "Below them, men fish in the beautiful sea.",
+   "zh": "在他们下方，人们在美丽的海里捕鱼。",
+   "scene_prompt": "From the hilltop, Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt look down at fishermen in a small boat on a beautiful blue sea."
+  },
+  {
+   "en": "A plane flies north over the blue water.",
+   "zh": "一架飞机飞过蓝色的海面向北飞去。",
+   "scene_prompt": "A plane flies high over the blue sea while Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt point at it."
+  },
+  {
+   "en": "Sheep and cows eat grass under a tree.",
+   "zh": "绵羊和奶牛在一棵树下吃草。",
+   "scene_prompt": "White sheep and brown cows eat grass under a big tree on the hill."
+  },
+  {
+   "en": "A brown rabbit runs past their feet.",
+   "zh": "一只棕色的兔子从他们脚边跑过。",
+   "scene_prompt": "A brown rabbit runs past the feet of Zoe, a young girl with long brown hair and a yellow shirt and Raj, a young boy with short black hair and a blue t-shirt on the grass."
+  },
+  {
+   "en": "Near the farm, a cat watches a mouse.",
+   "zh": "农场附近，一只猫盯着一只老鼠。",
+   "scene_prompt": "A cat crouches and watches a small mouse near a farm wall."
+  },
+  {
+   "en": "Raj shows his toy monkey to the sheep.",
+   "zh": "拉吉把他的玩具猴子给绵羊看。",
+   "scene_prompt": "Raj, a young boy with short black hair and a blue t-shirt holds up a toy monkey in front of a curious sheep, Zoe, a young girl with long brown hair and a yellow shirt laughing."
+  },
+  {
+   "en": "In autumn, all the flowers on the hill die.",
+   "zh": "到了秋天，山上的花全都凋谢了。",
+   "scene_prompt": "The same hill in autumn, with dry brown flowers and orange leaves."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

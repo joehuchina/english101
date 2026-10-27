@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-041",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "june",
+  "turn",
+  "piece",
+  "pink",
+  "garden",
+  "until",
+  "each",
+  "bath",
+  "nine",
+  "twelve",
+  "moment",
+  "want",
+  "another"
+ ],
+ "review_words": [
+  "fire",
+  "yourself",
+  "toothpaste",
+  "banana"
+ ],
+ "title": "Bath Time in the Garden",
+ "title_zh": "花园里的洗澡时间",
+ "setting": "A sunny garden with pink flowers, a tub of water and a small brown dog.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a young boy of nine with short brown hair and a blue T-shirt"
+  },
+  {
+   "name": "Anna",
+   "look": "Anna, a girl of twelve with long blonde hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a warm June day in the garden.",
+   "zh": "六月的一天，花园里很暖和。",
+   "scene_prompt": "A sunny garden in early summer with green grass, flowers and a tub of water."
+  },
+  {
+   "en": "Ben is nine, and Anna is twelve.",
+   "zh": "本九岁，安娜十二岁。",
+   "scene_prompt": "Ben, a young boy of nine with short brown hair and a blue T-shirt stands next to the taller Anna, a girl of twelve with long blonde hair and a yellow dress in the garden."
+  },
+  {
+   "en": "They want to give their dog a bath.",
+   "zh": "他们想给小狗洗个澡。",
+   "scene_prompt": "Ben, a young boy of nine with short brown hair and a blue T-shirt and Anna, a girl of twelve with long blonde hair and a yellow dress hold a small brown dog next to a tub of water in the garden."
+  },
+  {
+   "en": "The dog runs around the pink flowers.",
+   "zh": "小狗绕着粉红色的花跑来跑去。",
+   "scene_prompt": "A small wet brown dog runs around a bed of pink flowers in the garden."
+  },
+  {
+   "en": "Anna waits for a moment until it stops.",
+   "zh": "安娜等了一会儿，直到它停下来。",
+   "scene_prompt": "Anna, a girl of twelve with long blonde hair and a yellow dress stands still and waits as the small brown dog slows down near the flowers."
+  },
+  {
+   "en": "Each child takes a turn with the brush.",
+   "zh": "每个孩子轮流用刷子刷。",
+   "scene_prompt": "Ben, a young boy of nine with short brown hair and a blue T-shirt brushes the small brown dog in the tub while Anna, a girl of twelve with long blonde hair and a yellow dress waits holding another brush."
+  },
+  {
+   "en": "Then they share a banana, piece by piece.",
+   "zh": "然后他们一块一块地分吃一根香蕉。",
+   "scene_prompt": "Ben, a young boy of nine with short brown hair and a blue T-shirt and Anna, a girl of twelve with long blonde hair and a yellow dress sit on the grass sharing pieces of a banana."
+  },
+  {
+   "en": "“Help yourself to another piece,” says Ben.",
+   "zh": "“再吃一块吧，”本说。",
+   "scene_prompt": "Ben, a young boy of nine with short brown hair and a blue T-shirt holds out a piece of banana to the small brown dog, and Anna, a girl of twelve with long blonde hair and a yellow dress laughs."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

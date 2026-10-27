@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-017",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "smell",
+  "grandparent",
+  "wide",
+  "cold",
+  "trousers",
+  "coffee",
+  "shoe",
+  "little",
+  "sweet",
+  "morning",
+  "outside",
+  "pasta",
+  "black",
+  "agree"
+ ],
+ "review_words": [
+  "activity",
+  "without",
+  "nothing",
+  "tuesday"
+ ],
+ "title": "Tuesday at Grandma's",
+ "title_zh": "星期二去奶奶家",
+ "setting": "Grandparents' small house: a little kitchen and a garden behind it.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a little boy of six with short brown hair and a blue shirt"
+  },
+  {
+   "name": "Grandpa",
+   "look": "Grandpa, an old man with white hair and round glasses"
+  },
+  {
+   "name": "Grandma",
+   "look": "Grandma, an old woman with gray hair in a bun and a red apron"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben visits his grandparents every Tuesday morning.",
+   "zh": "本每个星期二早上都去看望祖父母。",
+   "scene_prompt": "Ben, a little boy of six with short brown hair and a blue shirt rings the doorbell of a small house in the morning sun; Grandpa, an old man with white hair and round glasses and Grandma, an old woman with gray hair in a bun and a red apron open the door with smiles."
+  },
+  {
+   "en": "Grandpa drinks black coffee in the little kitchen.",
+   "zh": "爷爷在小厨房里喝黑咖啡。",
+   "scene_prompt": "Grandpa, an old man with white hair and round glasses sits in a small cosy kitchen holding a cup of black coffee."
+  },
+  {
+   "en": "Ben loves the smell of the coffee.",
+   "zh": "本很喜欢咖啡的香味。",
+   "scene_prompt": "Ben, a little boy of six with short brown hair and a blue shirt closes his eyes and sniffs happily near Grandpa, an old man with white hair and round glasses's steaming coffee cup."
+  },
+  {
+   "en": "It is cold outside, but Ben wants to play.",
+   "zh": "外面很冷，但本想去玩。",
+   "scene_prompt": "Ben, a little boy of six with short brown hair and a blue shirt presses his face to the kitchen window; outside the garden is frosty and the trees are bare."
+  },
+  {
+   "en": "He puts on warm trousers and his shoes.",
+   "zh": "他穿上暖和的裤子和鞋子。",
+   "scene_prompt": "Ben, a little boy of six with short brown hair and a blue shirt sits on the floor by the door, pulling on thick trousers, a pair of shoes beside him."
+  },
+  {
+   "en": "Grandma opens the wide garden gate for him.",
+   "zh": "奶奶为他打开宽大的花园门。",
+   "scene_prompt": "Grandma, an old woman with gray hair in a bun and a red apron swings open a wide wooden garden gate while Ben, a little boy of six with short brown hair and a blue shirt runs out, frosty grass beyond."
+  },
+  {
+   "en": "Later, they eat pasta and sweet apple cake.",
+   "zh": "后来，他们吃意大利面和甜甜的苹果蛋糕。",
+   "scene_prompt": "Ben, a little boy of six with short brown hair and a blue shirt, Grandpa, an old man with white hair and round glasses and Grandma, an old woman with gray hair in a bun and a red apron sit at the kitchen table with plates of pasta and an apple cake."
+  },
+  {
+   "en": "They all agree that nothing is better than pasta.",
+   "zh": "他们都同意，没有什么比意大利面更好吃了。",
+   "scene_prompt": "Ben, a little boy of six with short brown hair and a blue shirt, Grandpa, an old man with white hair and round glasses and Grandma, an old woman with gray hair in a bun and a red apron nod and smile at each other over empty pasta plates."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-059",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "bookstore",
+  "young",
+  "photo",
+  "orange",
+  "dining-room",
+  "need",
+  "hungry",
+  "ago",
+  "over",
+  "they",
+  "many",
+  "cook",
+  "away"
+ ],
+ "review_words": [
+  "horse",
+  "library",
+  "answer",
+  "practise"
+ ],
+ "title": "The Horse Book",
+ "title_zh": "关于马的书",
+ "setting": "A small bookstore and a home dining room.",
+ "characters": [
+  {
+   "name": "Omar",
+   "look": "Omar, a young man with short black hair and a blue shirt"
+  },
+  {
+   "name": "Nina",
+   "look": "Nina, a young woman with long brown hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar and Nina visit a small bookstore.",
+   "zh": "奥马尔和妮娜去逛一家小书店。",
+   "scene_prompt": "Omar, a young man with short black hair and a blue shirt and Nina, a young woman with long brown hair and a yellow dress walk into a small cosy bookstore."
+  },
+  {
+   "en": "They see many young people reading there.",
+   "zh": "他们看到那里有很多年轻人在看书。",
+   "scene_prompt": "Many young people read books between the shelves while Omar, a young man with short black hair and a blue shirt and Nina, a young woman with long brown hair and a yellow dress look around."
+  },
+  {
+   "en": "Nina needs a book with horse photos.",
+   "zh": "妮娜需要一本有马的照片的书。",
+   "scene_prompt": "Nina, a young woman with long brown hair and a yellow dress holds a book with a photo of a horse on its cover."
+  },
+  {
+   "en": "She saw it at the library a week ago.",
+   "zh": "一个星期前她在图书馆见过这本书。",
+   "scene_prompt": "Nina, a young woman with long brown hair and a yellow dress in a library looking at the same horse book on a shelf, shown as a memory picture."
+  },
+  {
+   "en": "Soon they are hungry, so they walk away.",
+   "zh": "很快他们饿了，于是就走了。",
+   "scene_prompt": "Omar, a young man with short black hair and a blue shirt rubs his stomach as he and Nina, a young woman with long brown hair and a yellow dress walk away from the bookstore."
+  },
+  {
+   "en": "At home, Omar cooks fish for dinner.",
+   "zh": "回到家，奥马尔做鱼当晚饭。",
+   "scene_prompt": "Omar, a young man with short black hair and a blue shirt cooks fish in a pan in a home kitchen."
+  },
+  {
+   "en": "Nina puts a light over the dining-room table.",
+   "zh": "妮娜在餐厅的桌子上方挂了一盏灯。",
+   "scene_prompt": "Nina, a young woman with long brown hair and a yellow dress hangs a light over a table in a dining room."
+  },
+  {
+   "en": "Then she puts a bowl of oranges on it.",
+   "zh": "然后她在上面放了一碗橙子。",
+   "scene_prompt": "Nina, a young woman with long brown hair and a yellow dress puts a bowl of oranges on the dining room table under the light."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

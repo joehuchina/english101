@@ -59,8 +59,8 @@
   "scene_id": "A1-002",
   "i": 1,
   "before": "Leo is a really tall boy.",
-  "after": "He is really tall, and Mia is small.",
-  "reason": "通顺"
+  "after": "He is really tall and strong; Mia is small.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-002",
@@ -87,8 +87,8 @@
   "scene_id": "A1-002",
   "i": 5,
   "before": "They eat lunch without any food.",
-  "after": "Mia falls down and starts to cry.",
-  "reason": "通顺"
+  "after": "Mia falls, and mud gets on her clothes.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-002",
@@ -113,6 +113,13 @@
  },
  {
   "scene_id": "A1-003",
+  "i": 1,
+  "before": "She puts a pretty skirt on the bed.",
+  "after": "She puts her clothes on the bed.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-003",
   "i": 2,
   "before": "She finds a white sock or a blue one.",
   "after": "One sock is on the left side.",
@@ -122,8 +129,8 @@
   "scene_id": "A1-003",
   "i": 3,
   "before": "Her left side feels a little cold.",
-  "after": "Should she keep this skirt or that one?",
-  "reason": "通顺"
+  "after": "Should she keep this pretty skirt or that?",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-003",
@@ -157,15 +164,15 @@
   "scene_id": "A1-004",
   "i": 0,
   "before": "Leo and Mia arrive at the station.",
-  "after": "Leo and Mia start their holiday at the station.",
-  "reason": "通顺"
+  "after": "Leo and Mia pack summer clothes for their holiday.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-004",
   "i": 1,
   "before": "They start their holiday in France.",
-  "after": "They take a fast train north to France.",
-  "reason": "通顺"
+  "after": "From the station, a train goes north to France.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-004",
@@ -206,8 +213,8 @@
   "scene_id": "A1-004",
   "i": 7,
   "before": null,
-  "after": "Next week, their plane goes east to Greece.",
-  "reason": "通顺"
+  "after": "Next month, their plane goes east to Greece.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-005",
@@ -241,15 +248,15 @@
   "scene_id": "A1-005",
   "i": 4,
   "before": "The bad night is very dark.",
-  "after": "The letter is about their lost pet.",
-  "reason": "通顺"
+  "after": "Their pet was lost a month ago.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-005",
   "i": 5,
   "before": "Tom will ask about his pet.",
-  "after": "A farmer found the dog last night.",
-  "reason": "通顺"
+  "after": "A strong farmer found the dog last night.",
+  "reason": "缺词"
  },
  {
   "scene_id": "A1-005",
@@ -263,6 +270,3016 @@
   "i": 7,
   "before": null,
   "after": "Then they hear something at the front door.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 0,
+  "before": "It is a busy Thursday for Zoe.",
+  "after": "On Thursday, Zoe and her sister Lucy go shopping.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 1,
+  "before": "Zoe and her sister Lucy cook pizza.",
+  "after": "Mister Raj opens the door of his shop.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 2,
+  "before": "Lucy looks at the food menu.",
+  "after": "A long line of people waits inside.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 3,
+  "before": "Mister Raj walks through the door.",
+  "after": "Lucy buys toothpaste and a pair of socks.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 4,
+  "before": "He brings a pair of yellow bananas.",
+  "after": "Zoe reads the menu and wants a pizza.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 5,
+  "before": "Please do not forget the fire.",
+  "after": "Raj bakes it over a strong fire.",
+  "reason": "画面"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 6,
+  "before": "Listen to the music by yourself.",
+  "after": "\"Help yourself to the last banana,\" he says.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-006",
+  "i": 7,
+  "before": "He uses the last bit of toothpaste.",
+  "after": "\"Listen, Zoe, do not forget your bag!\"",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 0,
+  "before": "Dan is a kind husband to Aiko.",
+  "after": "Aiko was born in a small Japanese town.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 1,
+  "before": "Aiko is a friendly Japanese wife.",
+  "after": "Dan is her husband, and Finn is their child.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 2,
+  "before": "They have a small child named Finn.",
+  "after": "At Christmas, they bring warm clothes for poor children.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 3,
+  "before": "Finn was born one month ago.",
+  "after": "A friendly policeman shows them the way.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 4,
+  "before": "A strong policeman walks on the street.",
+  "after": "A little girl in the snow has no coat.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 5,
+  "before": "A poor girl stands in the snow.",
+  "after": "Dan's wife lets Finn give her a coat.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 6,
+  "before": "Kind people help the children at Christmas.",
+  "after": "The girl smiles and says, \"You are so kind!\"",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-007",
+  "i": 7,
+  "before": "The story is true and very sweet.",
+  "after": "For Finn, this is a true Christmas.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 0,
+  "before": "The sun is in the blue sky.",
+  "after": "It is a cloudy, rainy morning in spring.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 1,
+  "before": "A large tiger walks near the river.",
+  "after": "A baby elephant plays in the river.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 2,
+  "before": "Ivan sees a small pink pig.",
+  "after": "This winter baby is now the zoo's star.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 3,
+  "before": "A big horse runs in the spring.",
+  "after": "A tiger sleeps among the red flowers.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 4,
+  "before": "The sky is cloudy and rainy today.",
+  "after": "Ivan lets a little pig eat from his hand.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 5,
+  "before": "Sara sees a grey elephant and a flower.",
+  "after": "Sara sits on a brown horse for ten minutes.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 6,
+  "before": "A star is in the winter sky.",
+  "after": "Then the sun comes out in the sky.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-008",
+  "i": 7,
+  "before": "Every animal is in the park.",
+  "after": "Sara and Ivan love every animal here.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 0,
+  "before": "Ben and Anna are in the library.",
+  "after": "At four o'clock, two students enter the library.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 1,
+  "before": "The two students sit at a desk.",
+  "after": "Ben and Anna sit at a big desk.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 2,
+  "before": "Anna enjoys reading her French book.",
+  "after": "Anna does her French reading first.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 3,
+  "before": "Ben does English writing for a minute.",
+  "after": "Ben practises his English writing in a notebook.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 4,
+  "before": "He must practise every new English word.",
+  "after": "He writes each new word again and again.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 5,
+  "before": "He studies difficult grammar and maths too.",
+  "after": "Grammar is hard, and maths is even harder.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 6,
+  "before": "Ben checks if his answer is correct.",
+  "after": "Anna checks his answers, and they are correct.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-009",
+  "i": 7,
+  "before": "Even Anna believes he is very smart.",
+  "after": "Ben cannot believe it and smiles at Anna.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 0,
+  "before": "It is a fine day in October.",
+  "after": "In October, Mia and Sam visit their aunt.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 1,
+  "before": "Mia and Sam visit their kind aunt.",
+  "after": "Their aunt is resting in her sunny room.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 2,
+  "before": "They sit in her small room.",
+  "after": "She opens Mia's card and starts to smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 3,
+  "before": "Sometimes they watch a funny movie.",
+  "after": "\"I feel fine today,\" she says to them.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 4,
+  "before": "They finish their snacks at four o'clock.",
+  "after": "She lets Sam cut the cake for everyone.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 5,
+  "before": "Aunt will let them play games.",
+  "after": "When they finish, they watch birds from the window.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 6,
+  "before": "Mia shows her pretty birthday card.",
+  "after": "Aunt Lily sometimes tells funny stories about her life.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-010",
+  "i": 7,
+  "before": "They plan our fun life for tomorrow.",
+  "after": "\"Our plan is to come back tomorrow,\" says Mia.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 0,
+  "before": "Omar feels really tired and very sleepy.",
+  "after": "Omar wakes up and feels really tired.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 1,
+  "before": "He eats too much sugar every day.",
+  "after": "He goes to see a doctor at the hospital.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 2,
+  "before": "He must relax and eat good food.",
+  "after": "The doctor checks his nose and his tooth.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 3,
+  "before": "Nina loves walking in the green park.",
+  "after": "\"You eat too much sugar,\" the doctor says.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 4,
+  "before": "Omar goes to the gym to exercise.",
+  "after": "Walking is good for your body, too.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 5,
+  "before": "He is really thirsty after his workout.",
+  "after": "Now Omar loves going to the gym.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 6,
+  "before": "His body feels wonderful and strong now.",
+  "after": "He is thirsty, so he drinks lots of water.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-011",
+  "i": 7,
+  "before": "The doctor checks his nose and tooth.",
+  "after": "After good food, he relaxes and feels wonderful.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 0,
+  "before": "Rosa is in the kitchen now.",
+  "after": "Rosa's father has a small restaurant in town.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 1,
+  "before": "She looks out the big window.",
+  "after": "Today Rosa helps him in the kitchen.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 2,
+  "before": "Today is a very sunny day.",
+  "after": "Her father has long legs and a funny hat.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 3,
+  "before": "She wants to cut a tomato.",
+  "after": "Rosa cuts the fourth and last tomato.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 4,
+  "before": "She must go to the supermarket.",
+  "after": "He tries the soup, but it needs more tomatoes.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 5,
+  "before": "When will she leave the house?",
+  "after": "Rosa takes a pen and writes a shopping list.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 6,
+  "before": "She finds a blue pen here.",
+  "after": "They leave for the supermarket before lunch.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-012",
+  "i": 7,
+  "before": "This is her fourth small notebook.",
+  "after": "When they come back, people wait at the window.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 0,
+  "before": "Kofi and Hana walk into the big museum.",
+  "after": "Kofi and Hana visit the art museum today.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 1,
+  "before": "Kofi is a very tall actor.",
+  "after": "Hana is an artist, and she paints every day.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 2,
+  "before": "Hana is a great artist too.",
+  "after": "Kofi is a tall actor with a big smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 3,
+  "before": "They look at a large painting.",
+  "after": "One painting shows a band with a guitar.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 4,
+  "before": "They also see a pretty picture.",
+  "after": "Next to it, a man plays piano music.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 5,
+  "before": "The reason for the visit is art.",
+  "after": "Kofi also takes a photograph of the piano player.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 6,
+  "before": "A band plays a guitar and a piano.",
+  "after": "Hana draws a picture in her small book.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-013",
+  "i": 7,
+  "before": "They see a photograph on the wall.",
+  "after": "Art is Hana's reason to wake up happy.",
+  "reason": "画面"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 0,
+  "before": "At the beginning, Raj is very fast.",
+  "after": "At two p.m., Zoe and Raj start cleaning.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 1,
+  "before": "He wants to move sixty small chairs.",
+  "after": "Grandma turns sixty tomorrow and will come for lunch.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 2,
+  "before": "He makes a mistake and drops a cup.",
+  "after": "At the beginning, Raj works very fast.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 3,
+  "before": "The dirty cup hits his left foot.",
+  "after": "He moves the low table to clean the floor.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 4,
+  "before": "The sun is low at four p.m.",
+  "after": "He makes a mistake and drops a dirty cup.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 5,
+  "before": "Zoe sees that cup on the floor.",
+  "after": "The cup falls right on his left foot.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 6,
+  "before": "She will send him a lunch box.",
+  "after": "Zoe sends him to sit down for a second.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-014",
+  "i": 7,
+  "before": "He is the second boy to help.",
+  "after": "\"That is the third cup today!\" she laughs.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 0,
+  "before": "Dan wakes up early for his big trip.",
+  "after": "Dan and Aiko wake up early at home.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 1,
+  "before": "He buys a ticket for the airplane.",
+  "after": "They take a taxi to the airport quickly.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 2,
+  "before": "He will fly to China today.",
+  "after": "Aiko holds their airplane tickets in her hand.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 3,
+  "before": "Aiko wants to stay in Spain.",
+  "after": "They fly from China to Spain.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 4,
+  "before": "She looks at a map of the city.",
+  "after": "A bus drives them along a sunny road.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 5,
+  "before": "She takes a taxi to the bus station.",
+  "after": "Dan looks at a map to find their hotel.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 6,
+  "before": "The bus drives on a long road.",
+  "after": "They stay at a small hotel near the beach.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-015",
+  "i": 7,
+  "before": "Aiko will ride a bike quickly.",
+  "after": "Every morning they ride bikes by the sea.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 0,
+  "before": "Sara writes a long list for food.",
+  "after": "Sara comes home from work and opens the fridge.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 1,
+  "before": "She looks inside my big fridge.",
+  "after": "She can see only one small potato.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 2,
+  "before": "She can see one brown potato.",
+  "after": "She writes a short shopping list.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 3,
+  "before": "She hates the dark night sky.",
+  "after": "Soon the sky is dark and grey.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 4,
+  "before": "She takes an umbrella from the hall.",
+  "after": "\"I hate rain,\" says Sara, and takes an umbrella.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 5,
+  "before": "She puts on her warm coat.",
+  "after": "She walks around the corner in her coat.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 6,
+  "before": "She meets Ivan by the park.",
+  "after": "After a minute, she meets Ivan by the shop.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-016",
+  "i": 7,
+  "before": "They meet again later after dinner.",
+  "after": "\"Come for dinner at my house later,\" says Ivan.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 0,
+  "before": "It is a sunny Tuesday morning.",
+  "after": "Ben visits his grandparents every Tuesday morning.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 1,
+  "before": "The morning air is very cold.",
+  "after": "Grandpa drinks black coffee in the little kitchen.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 2,
+  "before": "Ben is a little boy with brown hair.",
+  "after": "Ben loves the smell of the coffee.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 3,
+  "before": "He visits his kind grandparent today.",
+  "after": "It is cold outside, but Ben wants to play.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 4,
+  "before": "Ben wears black trousers and a shirt.",
+  "after": "He puts on warm trousers and his shoes.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 5,
+  "before": "He puts a shoe on without socks.",
+  "after": "Grandma opens the wide garden gate for him.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 6,
+  "before": "They sit outside on a wide bench.",
+  "after": "Later, they eat pasta and sweet apple cake.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-017",
+  "i": 7,
+  "before": "They eat sweet pasta and hot coffee.",
+  "after": "They all agree that nothing is better than pasta.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 0,
+  "before": "It is a hot day in February.",
+  "after": "In February, Mia and Sam visit a bookshop.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 1,
+  "before": "Mia and Sam go to the bookshop.",
+  "after": "Mia buys a blue book about birds there.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 2,
+  "before": "Mia wants a blue book there.",
+  "after": "Then they eat egg sandwiches and hot chips.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 3,
+  "before": "Sam feels sad about your lost hat.",
+  "after": "Sam drops his plate, and it breaks.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 4,
+  "before": "Please tell me if you lose it.",
+  "after": "He feels bad, and his face goes red.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 5,
+  "before": "Sam sees an egg below the table.",
+  "after": "Mia finds Sam's hat below the table.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 6,
+  "before": "He shows his face to Mia.",
+  "after": "\"Do not lose your hat,\" she tells him.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-018",
+  "i": 7,
+  "before": "They see nothing else near the egg.",
+  "after": "Tonight, they will read the new book together.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 0,
+  "before": "Omar and Nina visit a large shop.",
+  "after": "Swimming is Omar and Nina's favourite weekend activity.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 1,
+  "before": "They enjoy this fun weekend activity.",
+  "after": "The pool is free for children this year.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 2,
+  "before": "They want a white sweater for mother.",
+  "after": "They play in the water for an hour.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 3,
+  "before": "The sweater is different and very nice.",
+  "after": "Nina wants to be a swimmer in the future.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 4,
+  "before": "This special sweater is free today.",
+  "after": "Before they go home, they visit the shop.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 5,
+  "before": "They will keep it for a year.",
+  "after": "The shop has sweaters in many different colours.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 6,
+  "before": "Before they go home, they play.",
+  "after": "Omar buys a large white one for Mother.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-019",
+  "i": 7,
+  "before": "They swim in the pool one hour.",
+  "after": "Their mother keeps it on all the way home.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 0,
+  "before": "It is a slow Sunday in January.",
+  "after": "It is a slow Sunday in January.",
+  "reason": "译文"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 1,
+  "before": "Ali and Rosa make a big lunch.",
+  "after": "Making sandwiches is Rosa's favourite hobby.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 2,
+  "before": "Ali must make a large sandwich.",
+  "after": "Today she makes a large number of them.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 3,
+  "before": "He puts chips inside the bread.",
+  "after": "Ali puts chips in his and enjoys it.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 4,
+  "before": "The sandwich is full of food.",
+  "after": "They stand by the window and talk about school.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 5,
+  "before": "They stand near the window to eat.",
+  "after": "They are full, so eating more is not possible.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 6,
+  "before": "Rosa talks about her new hobby.",
+  "after": "Then something funny happens: the cat takes one!",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-020",
+  "i": 7,
+  "before": "A funny thing can happen today.",
+  "after": "Rosa laughs, \"Our cat must love sandwiches too!\"",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 0,
+  "before": "Kofi works in a large office.",
+  "after": "Kofi and Hana have lunch in a pretty cafe.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 1,
+  "before": "His new job is not boring.",
+  "after": "A waiter brings them two cups of tea.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 2,
+  "before": "He works for a big company.",
+  "after": "Kofi works in an office for a big company.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 3,
+  "before": "He has a meeting with his team.",
+  "after": "His job is boring, with too many meetings.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 4,
+  "before": "Hana is a hard worker on a farm.",
+  "after": "Hana is a farmer, and she loves her farm.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 5,
+  "before": "She is a farmer and loves her business.",
+  "after": "She has a business selling eggs and milk.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 6,
+  "before": "A waiter and a waitress work here.",
+  "after": "Her small team of workers helps her every day.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-021",
+  "i": 7,
+  "before": "The cafe is on the left side.",
+  "after": "The young waitress wants to visit Hana's farm.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 0,
+  "before": "Zoe looks at a pretty magazine.",
+  "after": "Zoe and Raj want to go to the beach.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 1,
+  "before": "Raj reads a very large newspaper.",
+  "after": "They need information about the weather tomorrow.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 2,
+  "before": "The television is on in the room.",
+  "after": "Raj looks in the newspaper but finds nothing.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 3,
+  "before": "They want to hear the radio news.",
+  "after": "Zoe's magazine only has pretty pictures of clothes.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 4,
+  "before": "Why is there no information here?",
+  "after": "Then they turn on the radio for the news.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 5,
+  "before": "They watch a short video or film.",
+  "after": "The television says rain is coming, too.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 6,
+  "before": null,
+  "after": "\"Why does it always rain?\" asks Zoe sadly.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-022",
+  "i": 7,
+  "before": null,
+  "after": "They watch a funny video or play games.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 0,
+  "before": "Aiko is in her quiet kitchen.",
+  "after": "Aiko bakes a cake in her quiet kitchen.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 1,
+  "before": "She usually adds sugar to the bowl.",
+  "after": "It is important: today is Dan's birthday.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 2,
+  "before": "The gray sky is outside the open window.",
+  "after": "She bakes this special cake once every year.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 3,
+  "before": "Dan is late for the important party.",
+  "after": "She adds sugar, fruit and a glass of milk.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 4,
+  "before": "He brings a nice gift for dear Aiko.",
+  "after": "Outside the open window, the sky is gray.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 5,
+  "before": "He puts the heavy bag on his back.",
+  "after": "Dan is late, but he usually comes early.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 6,
+  "before": "Every person always eats the cake.",
+  "after": "Then she hears a sound: Dan is back!",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-023",
+  "i": 7,
+  "before": "The sound of the glass is too loud.",
+  "after": "\"My dear, your cakes are always nice,\" says Dan.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 0,
+  "before": "Sara and Ivan go to a big party.",
+  "after": "Sara and Ivan go to a club party.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 1,
+  "before": "The room is full of every interesting person.",
+  "after": "The group has members from around the world.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 2,
+  "before": "A kind lady talks to them there.",
+  "after": "Anyone of any age or nationality can join.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 3,
+  "before": "She is a member of this club.",
+  "after": "Maya is a married lady with a funny husband.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 4,
+  "before": "She has a married daughter in Australia.",
+  "after": "He is an Australian man who makes everyone laugh.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 5,
+  "before": "The group has many different nationalities.",
+  "after": "Their adult daughter is at the party too.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 6,
+  "before": "Every adult man and woman is welcome.",
+  "after": "Sara finds Maya's stories very interesting.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-024",
+  "i": 7,
+  "before": "Age does not matter to this group.",
+  "after": "Ivan has a good feeling about the club.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 0,
+  "before": "Ben sits at his new computer.",
+  "after": "Ben and his dad arrive at a big hotel.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 1,
+  "before": "He uses the internet to find information.",
+  "after": "Ben's phone has no internet here.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 2,
+  "before": "He finds a very interesting website.",
+  "after": "He is lucky: the hotel has a computer.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 3,
+  "before": "Ben sends an email to Leo.",
+  "after": "He sends Leo an email about the hotel website.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 4,
+  "before": "He also sends a short message.",
+  "after": "Then he takes photos with his new camera.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 5,
+  "before": "Leo is lucky to get it.",
+  "after": "Soon Leo sends him a happy message.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 6,
+  "before": "Leo uses his phone and a camera.",
+  "after": "Dad uses the desk telephone to call home.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-025",
+  "i": 7,
+  "before": "The boy uses a telephone to call Ben.",
+  "after": "Next, Dad gets a hot drink from a machine.",
+  "reason": "画面"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 0,
+  "before": "Mia and Sam live in a big city.",
+  "after": "Mia and Sam are on holiday in London.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 1,
+  "before": "This city is much larger than their village.",
+  "after": "At home, they live in a small village.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 2,
+  "before": "They walk to the centre of the town.",
+  "after": "London is a very big and busy city.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 3,
+  "before": "Sam wants to visit the post office.",
+  "after": "They stay in a flat on a busy street.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 4,
+  "before": "He sends a postcard to London.",
+  "after": "In the town centre, they find a post office.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 5,
+  "before": "An Australian friend will receive it.",
+  "after": "Sam sends a postcard to Grandma's house.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 6,
+  "before": "The area has many tall buildings.",
+  "after": "Workers build a tall building in this area.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-026",
+  "i": 7,
+  "before": "People build many houses in this area.",
+  "after": "Then they rest in a big green park.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 0,
+  "before": "Today is Friday and Nina is home.",
+  "after": "On Friday evening, Nina cooks rice for dinner.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 1,
+  "before": "She wants to cook some white rice.",
+  "after": "She spills some water on the clean floor.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 2,
+  "before": "She spills water on the clean floor.",
+  "after": "Nina is sorry, but Dad just smiles.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 3,
+  "before": "She is sorry and must wash it.",
+  "after": "After dinner, Dad washes the baby's feet.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 4,
+  "before": "Nina sits on the soft sofa now.",
+  "after": "The baby often laughs when Nina says his name.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 5,
+  "before": "She rests her tired feet there.",
+  "after": "Then Nina sits on the sofa with a book.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 6,
+  "before": "She often looks at a baby toy.",
+  "after": "It is a history book about France.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-027",
+  "i": 7,
+  "before": "It is half broken and has a name.",
+  "after": "She reads half of it and dreams of holidays.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 0,
+  "before": "Ali is a beginner in this English class.",
+  "after": "Ali is a beginner in this English course.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 1,
+  "before": "The teacher writes on the large blackboard.",
+  "after": "His class has English at school every morning.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 2,
+  "before": "Rosa sits next to Ali in school.",
+  "after": "The teacher stands at the blackboard with chalk.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 3,
+  "before": "Ali uses a ruler and a notebook.",
+  "after": "Ali draws lines on paper with his ruler.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 4,
+  "before": "He wants to study every day.",
+  "after": "Then he writes the new words in his notebook.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 5,
+  "before": "He writes words on a white paper.",
+  "after": "Rosa helps him study and spell the words.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 6,
+  "before": "He wants to learn how to spell.",
+  "after": "Ali wants to learn every word for the exam.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-028",
+  "i": 7,
+  "before": "If he passes his exam, he travels.",
+  "after": "If he does well, his holiday is in Rome.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 0,
+  "before": "Hana is ready for the breakfast time.",
+  "after": "The morning sun comes up in the east.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 1,
+  "before": "Hot tea is her favorite drink.",
+  "after": "Kofi changes his wet socks in the bathroom.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 2,
+  "before": "Kofi gets a loaf of bread.",
+  "after": "Hana makes tea, her favorite morning drink.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 3,
+  "before": "He uses a knife to cut it.",
+  "after": "Kofi gets bread and a sharp knife.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 4,
+  "before": "The bread is between the two plates.",
+  "after": "He cuts the bread into eighteen thin pieces.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 5,
+  "before": "He puts the bread down slowly.",
+  "after": "Breakfast is ready, and it is time to eat.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 6,
+  "before": "They laugh at a funny joke.",
+  "after": "Kofi sits down between Hana and the window.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-029",
+  "i": 7,
+  "before": "Hana says thanks to her friend.",
+  "after": "Hana says thanks, and they both laugh.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 0,
+  "before": "Zoe and Raj walk up a green hill.",
+  "after": "In summer, Zoe and Raj walk up a hill.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 1,
+  "before": "The summer sun is very bright today.",
+  "after": "Below them, men fish in the beautiful sea.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 2,
+  "before": "They see a white sheep near a tree.",
+  "after": "A plane flies north over the blue water.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 3,
+  "before": "A brown cow eats the green grass.",
+  "after": "Sheep and cows eat grass under a tree.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 4,
+  "before": "A small rabbit jumps near a tree.",
+  "after": "A brown rabbit runs past their feet.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 5,
+  "before": "A monkey climbs a tall tree.",
+  "after": "Near the farm, a cat watches a mouse.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 6,
+  "before": "The cat watches a small mouse.",
+  "after": "Raj shows his toy monkey to the sheep.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-030",
+  "i": 7,
+  "before": "A fish swims in the blue sea.",
+  "after": "In autumn, all the flowers on the hill die.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 0,
+  "before": "Aiko wears a bright red T-shirt today.",
+  "after": "Aiko and Dan have a conversation about dinner.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 1,
+  "before": "It is a sunny afternoon in the room.",
+  "after": "That afternoon, Dan brings tomatoes up from the garden.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 2,
+  "before": "Aiko and Dan have a long conversation.",
+  "after": "The tomato soup slowly becomes thick.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 3,
+  "before": "They talk about the colour of the food.",
+  "after": "Some soup falls on her red T-shirt.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 4,
+  "before": "Dan will bring the food upstairs now.",
+  "after": "It is not bad; the colour is the same.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 5,
+  "before": "He wants to prepare a delicious dinner.",
+  "after": "But she runs upstairs for a clean shirt.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 6,
+  "before": "He will fill the plates with rice.",
+  "after": "Dan fills two big bowls with hot soup.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-031",
+  "i": 7,
+  "before": "The meal will become very good soon.",
+  "after": "In the end, Aiko is sure it is delicious.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 0,
+  "before": "Sara looks at a big world map.",
+  "after": "Sara and Ivan look at a big world map.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 1,
+  "before": "She wants to visit Europe this summer.",
+  "after": "Sara wants to visit Germany in Europe.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 2,
+  "before": "Ivan wants to go to Germany soon.",
+  "after": "Ivan shakes his head: Australia is very far.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 3,
+  "before": "The trip to Australia is very far.",
+  "after": "Mexico is to the south of America.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 4,
+  "before": "They can travel by a fast train.",
+  "after": "Sara moves her finger from Canada to Asia.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 5,
+  "before": "They might drive a car in America.",
+  "after": "In Germany, trains leave from a big station.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 6,
+  "before": "A bicycle is good for Mexico.",
+  "after": "Ivan also wants to ride a bicycle there.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-032",
+  "i": 7,
+  "before": "They went to the airport yesterday.",
+  "after": "Tomorrow, they drive their car to the airport.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 0,
+  "before": "Ben wakes up very early today.",
+  "after": "Ben wakes up early and looks at the clock.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 1,
+  "before": "He takes a warm shower now.",
+  "after": "He takes a warm shower and washes his head.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 2,
+  "before": "He looks at the small clock.",
+  "after": "Then he runs downstairs to the kitchen.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 3,
+  "before": "Ben walks downstairs to the kitchen.",
+  "after": "\"Hey, Ben, your meal is ready!\" says Anna.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 4,
+  "before": "Hey, Ben, sit down for a meal!",
+  "after": "Their grey pet cat sleeps on a chair.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 5,
+  "before": "Anna is in a grey chair.",
+  "after": "Ben is not interested in these eggs.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 6,
+  "before": "Ben is interested in these foods.",
+  "after": "He wants something else: cola, his favourite drink.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-033",
+  "i": 7,
+  "before": "Cola is his favourite drink.",
+  "after": "Anna says he can have some, but not much.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 0,
+  "before": "It is a cool day in September.",
+  "after": "Mia and Sam begin a picnic in September.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 1,
+  "before": "Mia and Sam begin a picnic.",
+  "after": "Mia brings forty small chocolates and cool drinks.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 2,
+  "before": "They have a small box of chocolate.",
+  "after": "Sam sees something in the middle of the grass.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 3,
+  "before": "Sam brings forty small cookies too.",
+  "after": "Maybe it is a lost pet.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 4,
+  "before": "The picnic is very easy and fun.",
+  "after": "It is a puppy the size of a shoe.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 5,
+  "before": "Sam sees something in the middle.",
+  "after": "Lily runs over, too happy to say anything.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 6,
+  "before": "Maybe that thing is very big.",
+  "after": "She never wants to lose her puppy again.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-034",
+  "i": 7,
+  "before": "The size of the pet is large.",
+  "after": "Sharing chocolate with her is an easy thing.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 0,
+  "before": "It is a sunny Saturday in April.",
+  "after": "It is a cold Saturday night in April.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 1,
+  "before": "They want to visit a big country.",
+  "after": "Nina makes hot soup from her home country.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 2,
+  "before": "Nina makes hot soup in a brown bowl.",
+  "after": "The plates are on a high shelf.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 3,
+  "before": "Omar helps her with the plates.",
+  "after": "Omar helps her get a few big plates.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 4,
+  "before": "There are a few plates on the table.",
+  "after": "He hands her the brown plates with care.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 5,
+  "before": "There is enough food for the night.",
+  "after": "There is enough soup for everyone.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-035",
+  "i": 6,
+  "before": "Nina is excited about the big meal.",
+  "after": "Omar is excited and cannot stop smiling.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 0,
+  "before": "It is a cold day in November.",
+  "after": "In November, Emma and Rosa meet at a cafe.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 1,
+  "before": "Emma and Rosa go to a small cafe.",
+  "after": "Emma wears a yellow dress and a warm jacket.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 2,
+  "before": "Emma wears a beautiful yellow dress.",
+  "after": "They have a quick breakfast at a small table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 3,
+  "before": "She carries a heavy blue bag.",
+  "after": "Rosa asks Emma about her trip in August.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 4,
+  "before": "They eat breakfast at a small table.",
+  "after": "Her grandma lives in a place by the sea.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 5,
+  "before": "Rosa asks her about the hot August.",
+  "after": "Emma stayed there for four happy weeks.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-036",
+  "i": 6,
+  "before": "Emma wants to catch a quick bus.",
+  "after": "Then Emma takes her bag to catch a bus.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 0,
+  "before": "Kofi and Hana think about a new sport.",
+  "after": "Kofi, Hana and Max want to choose a sport.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 1,
+  "before": "Max wears a warm red jacket today.",
+  "after": "Kofi is a fast football player.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 2,
+  "before": "Kofi is a very good football player.",
+  "after": "Hana throws a ball for a basketball game.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 3,
+  "before": "Hana wants to play a basketball game.",
+  "after": "Max thinks a tennis match is too long.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 4,
+  "before": "They also talk about a tennis match.",
+  "after": "Then they climb a hill to a lake.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 5,
+  "before": "Max wants to climb a big mountain.",
+  "after": "Max takes off his red jacket to swim.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 6,
+  "before": "They want to win a big prize.",
+  "after": "Swimming is fun on a hot day.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-037",
+  "i": 7,
+  "before": "They choose swimming for the weekend.",
+  "after": "Hana is the fastest and wins the race.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 0,
+  "before": "Zoe and her sister go to the market.",
+  "after": "Zoe and her sister Lucy go to the market.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 1,
+  "before": "Many people sell food at the stalls.",
+  "after": "First, they get money from the bank.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 2,
+  "before": "The expensive pizza costs many dollars.",
+  "after": "Many people sell fruit and fresh bread here.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 3,
+  "before": "This cheap food is very good.",
+  "after": "Lucy has a question about the price of apples.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 4,
+  "before": "Rich people spend a lot of money.",
+  "after": "The apples are cheap, only ten cents each.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 5,
+  "before": "They go to the bank later today.",
+  "after": "Zoe likes some jeans, but they are expensive.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 6,
+  "before": "One cent is a very small price.",
+  "after": "She does not want to spend forty dollars.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-038",
+  "i": 7,
+  "before": "Lucy has a question about the cost.",
+  "after": "They share a rich cheese pizza for lunch.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 0,
+  "before": "Dan and Aiko visit their uncle today.",
+  "after": "Dan and Aiko spend the day with their uncle.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 1,
+  "before": "The sun is high above the trees.",
+  "after": "The jeans Dan wears are too short now.",
+  "reason": "画面"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 2,
+  "before": "Dan wants to buy a new bag.",
+  "after": "So their uncle buys him a new pair.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 3,
+  "before": "He wears a pair of blue jeans.",
+  "after": "At home, their uncle has a big problem.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 4,
+  "before": "Aiko has a short walk to the door.",
+  "after": "But his key is wrong for the door.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 5,
+  "before": "They have a problem with the door.",
+  "after": "Aiko speaks up: “Look above the door!”",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 6,
+  "before": "Dan shows Aiko a small metal key.",
+  "after": "They all go into the house and feel better.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-039",
+  "i": 7,
+  "before": "This is the wrong key for him.",
+  "after": "Dan shows Aiko his new jeans with a smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 0,
+  "before": "It is a hot Monday in July.",
+  "after": "It is the last Monday in July.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 2,
+  "before": "She wants to sit down now.",
+  "after": "She sits down with a purple cup.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 3,
+  "before": "She holds a purple cup in her hand.",
+  "after": "Ivan comes in and says hello to her.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 4,
+  "before": "Ivan says hello to her again.",
+  "after": "He opens the top of his water bottle.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 5,
+  "before": "He puts a water bottle on top.",
+  "after": "Sadly, there is zero water inside.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 6,
+  "before": "The temperature is not zero today.",
+  "after": "“Help yourself to my water,” says Sara.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-040",
+  "i": 7,
+  "before": "They listen to the music together.",
+  "after": "Ivan thanks her again and wants nothing else.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 0,
+  "before": "It is a sunny day in June.",
+  "after": "It is a warm June day in the garden.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 1,
+  "before": "Ben and Anna work in the garden.",
+  "after": "Ben is nine, and Anna is twelve.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 2,
+  "before": "Anna sees twelve beautiful pink flowers.",
+  "after": "They want to give their dog a bath.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 3,
+  "before": "The flowers are near the small bath.",
+  "after": "The dog runs around the pink flowers.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 4,
+  "before": "Ben wants to eat each banana piece.",
+  "after": "Anna waits for a moment until it stops.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 5,
+  "before": "He will turn around for a moment.",
+  "after": "Each child takes a turn with the brush.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 6,
+  "before": "He eats until it is nine.",
+  "after": "Then they share a banana, piece by piece.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-041",
+  "i": 7,
+  "before": "Anna eats another piece of fruit.",
+  "after": "“Help yourself to another piece,” says Ben.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 0,
+  "before": "Mia and Sam go to the cinema.",
+  "after": "Mia and Sam go to the cinema tonight.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 1,
+  "before": "The film is an exciting story.",
+  "after": "First, they look at the snack menu.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 2,
+  "before": "An Italian singer starts to sing.",
+  "after": "The film tells an exciting story.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 3,
+  "before": "They watch a very long movie.",
+  "after": "It is about a young Italian singer.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 4,
+  "before": "Lily does a beautiful dance now.",
+  "after": "She loves to sing and dance on stage.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 5,
+  "before": "Sam wants to draw the dancing Lily.",
+  "after": "The dancing in the movie is beautiful.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 6,
+  "before": "He is a very good writer.",
+  "after": "By the fire, Sam draws the singer.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-042",
+  "i": 7,
+  "before": "He looks at the food menu.",
+  "after": "Mia wants to be a movie writer one day.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 1,
+  "before": "Mister Jack will teach a geography lesson.",
+  "after": "Mister Jack teaches them the alphabet first.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 2,
+  "before": "He shows an example of the alphabet.",
+  "after": "The children repeat each letter after him.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 3,
+  "before": "Nina writes a note with her pencil.",
+  "after": "Then he reads a sentence as an example.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 4,
+  "before": "Omar must repeat every new word.",
+  "after": "Next is a geography lesson about rivers.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 5,
+  "before": "He can read a long sentence now.",
+  "after": "Omar knows the names of many rivers.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 6,
+  "before": "He does his geography homework alone.",
+  "after": "Nina writes a note with her pencil.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-043",
+  "i": 7,
+  "before": "He wants to pass the big test.",
+  "after": "“For homework, test yourself,” says Mister Jack.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 0,
+  "before": "Emma wants to stay healthy every day.",
+  "after": "Emma and Ali want to be healthy.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 1,
+  "before": "She eats fresh fruit and vegetable for lunch.",
+  "after": "They exercise with music in their ears.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 2,
+  "before": "It is a fact that exercise is good.",
+  "after": "For breakfast, they eat fruit and vegetables.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 3,
+  "before": "Ali needs to drink a lot of water.",
+  "after": "Ali puts lots of salt on his eggs.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 4,
+  "before": "Too much salt is very dangerous.",
+  "after": "Emma's eyes go wide: “That is dangerous!”",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 5,
+  "before": "Emma uses a toothbrush and toothpaste at night.",
+  "after": "Here is a fact: water is the best drink.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 6,
+  "before": "Do not forget to clean your mouth.",
+  "after": "Before bed, he never forgets his toothbrush and toothpaste.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-044",
+  "i": 7,
+  "before": "Keep your eye and ear very clean.",
+  "after": "With a clean mouth, Ali goes to sleep.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 1,
+  "before": "Many people are inside the big room.",
+  "after": "Max welcomes them at the door with a smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 2,
+  "before": "Everyone is very happy at the party.",
+  "after": "Many people from different countries are inside.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 3,
+  "before": "The women wear beautiful Chinese clothes.",
+  "after": "Two Chinese women make dumplings at a table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 4,
+  "before": "Max is a famous German person.",
+  "after": "Max was born in a small German town.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 5,
+  "before": "Hana has a great idea for games.",
+  "after": "Each parent brings a famous dish from their country.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 6,
+  "before": "We welcome you to join our group.",
+  "after": "Hana has an idea: a big dance for everyone.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-045",
+  "i": 7,
+  "before": "Every parent brings a child to the door.",
+  "after": "Every person in the room joins the dance.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 0,
+  "before": "Zoe and Raj study science in class.",
+  "after": "After science class, Zoe and Raj feel hungry.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 1,
+  "before": "They look at an old, green book.",
+  "after": "The special today is bread with meat and cheese.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 2,
+  "before": "Zoe wears her glasses to read.",
+  "after": "Raj pays for two plates at the counter.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 3,
+  "before": "Zoe reads the long words slowly.",
+  "after": "He carries them slowly to a long green table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 4,
+  "before": "Raj carries a very special lunch.",
+  "after": "An old policeman with white hair sits there.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 5,
+  "before": "The lunch has cheese and meat.",
+  "after": "His glasses fall on the floor.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 6,
+  "before": "Raj has short hair and kind eyes.",
+  "after": "Zoe picks them up for the kind man.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-046",
+  "i": 7,
+  "before": "Raj must pay for his food.",
+  "after": "“Thank you!” he calls, with a big smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 0,
+  "before": "It is a sunny Wednesday a.m.",
+  "after": "This Wednesday in December is Aiko's birthday.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 1,
+  "before": "The young girl wants to start cooking.",
+  "after": "Last week she was sixteen; today she is seventeen.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 2,
+  "before": "She puts a red strawberry on the table.",
+  "after": "At six a.m., she makes breakfast for her family.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 3,
+  "before": "The table is one metre long.",
+  "after": "Her new cooking pot is very useful.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 4,
+  "before": "She uses a new recipe today.",
+  "after": "She puts a bowl of strawberries on the table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 5,
+  "before": "Aiko is sixteen years old now.",
+  "after": "Her father Dan, a policeman, is two metres tall.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-047",
+  "i": 6,
+  "before": "She will be seventeen next December.",
+  "after": "Dan holds his birthday girl in his arms.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 0,
+  "before": "Ivan is a policeman with a beard.",
+  "after": "Maya and her husband Ivan go shopping.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 1,
+  "before": "He is a very good husband.",
+  "after": "Ivan is a real policeman with a long beard.",
+  "reason": "义项"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 2,
+  "before": "They like to go shopping together.",
+  "after": "They like the little shops on this street.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 3,
+  "before": "Maya finds a big brown box.",
+  "after": "Then a big box falls from a car.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 4,
+  "before": "The box has a real address.",
+  "after": "The address on it is thirty houses away.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 5,
+  "before": "They do not have any more time.",
+  "after": "Now it is raining, and the box is wet.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 6,
+  "before": "They see the rain fall down.",
+  "after": "Without any umbrellas, they carry it there.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-048",
+  "i": 7,
+  "before": "The wet street is very dark.",
+  "after": "They laugh: this is the best fun today.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 0,
+  "before": "Ben and Anna look at a large map.",
+  "after": "Ben and Anna are children in Britain.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 1,
+  "before": "They want to travel to many countries.",
+  "after": "They look at a big map of the world.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 2,
+  "before": "Ben wants to visit Japan and Sweden.",
+  "after": "They want to travel to many countries.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 3,
+  "before": "He also wants to see Switzerland.",
+  "after": "Ben wants to visit Japan and Sweden.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 4,
+  "before": "Anna wants to see Italy and Portugal.",
+  "after": "Anna likes Italy, Portugal and Switzerland.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 5,
+  "before": "They plan a trip to England in Britain.",
+  "after": "Their first trip goes west, across England.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 6,
+  "before": "The friendly children are afraid of the trip.",
+  "after": "Anna is a little afraid of flying.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-049",
+  "i": 7,
+  "before": "A driver can take them to the west.",
+  "after": "A friendly driver takes them there by car.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 0,
+  "before": "Sam is a small boy in the kitchen.",
+  "after": "On Christmas morning, Sam hears a terrible sound.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 1,
+  "before": "He hears a sound from the floor.",
+  "after": "Someone is in the kitchen near the fire.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 2,
+  "before": "Someone is in the kitchen with him.",
+  "after": "His mother Mia holds a single toy chicken.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 3,
+  "before": "He sees a single toy on the floor.",
+  "after": "The poor boy laughs and hugs the toy.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 4,
+  "before": "The toy is a small white chicken.",
+  "after": "It is hard, but he loves it so much.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 5,
+  "before": "It is so hard and not soft.",
+  "after": "Of all his gifts, he likes it most.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-050",
+  "i": 6,
+  "before": "Most toys are soft and nice.",
+  "after": "\"Please drink your milk now,\" says Mia.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 0,
+  "before": "Omar and Nina look at a big book.",
+  "after": "Omar and Nina read a big picture book.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 1,
+  "before": "The sunny weather makes them feel happy.",
+  "after": "One page shows snow and ice on a mountain.",
+  "reason": "画面"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 2,
+  "before": "One page shows a tall mountain.",
+  "after": "Next, a lion sleeps on the sunny grass.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 3,
+  "before": "They see a lion and a giraffe.",
+  "after": "A tall giraffe eats leaves from a tree.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 4,
+  "before": "A small bird sits on the grass.",
+  "after": "A little bird sits on the giraffe's head.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 5,
+  "before": "The green plant can grow very fast.",
+  "after": "In the rain, small plants grow very fast.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 6,
+  "before": "A dog runs in the cold rain.",
+  "after": "A dog sleeps by a warm fire at Christmas.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-051",
+  "i": 7,
+  "before": "White snow and blue ice look beautiful.",
+  "after": "Nina helps Omar understand the long words.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 0,
+  "before": "Rosa and Ali sit by the river.",
+  "after": "Ali and his wife Rosa sit by the river.",
+  "reason": "缺词"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 1,
+  "before": "They remember a very large elephant.",
+  "after": "They remember their trip to a hot country.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 2,
+  "before": "They saw the elephant during their trip.",
+  "after": "During the trip, they rode a big elephant.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 3,
+  "before": "They stay in the same small house.",
+  "after": "Rosa also rode a white horse one day.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 4,
+  "before": "They share one very big bed.",
+  "after": "Each night, they slept in the same small house.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 5,
+  "before": "Ali is the kind husband of Rosa.",
+  "after": "The house had only one big bed.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-052",
+  "i": 6,
+  "before": null,
+  "after": "Now they laugh and remember those happy days.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 0,
+  "before": "Kofi and his brother Max sit outside.",
+  "after": "Kofi and his brother Max sit in the park.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 1,
+  "before": "The evening air is very warm.",
+  "after": "The evening air is warm because the sun shines.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 2,
+  "before": "The air is warm because of the sun.",
+  "after": "Max's homework is very difficult today.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 3,
+  "before": "Max eats a big red apple.",
+  "after": "Kofi checks everything and finds the right answers.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 4,
+  "before": "He does not want other food now.",
+  "after": "Max's lunch bag includes two red apples.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 5,
+  "before": "English is more difficult than play.",
+  "after": "Max eats one apple, and Kofi eats the other.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 6,
+  "before": "Somebody helps him with everything now.",
+  "after": "Somebody on a horse comes into the park.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-053",
+  "i": 7,
+  "before": "The right answers include many words.",
+  "after": "The horse is much taller than Max.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 0,
+  "before": "Zoe and Raj go to a large university.",
+  "after": "On a rainy spring day, Zoe and Raj study.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 1,
+  "before": "It is a rainy day in the spring.",
+  "after": "They sit in the library of their university.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 2,
+  "before": "Raj studies the Spanish language at college.",
+  "after": "Raj learns the Spanish language at his college.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 3,
+  "before": "He wants to write in his big book.",
+  "after": "He must describe his home in Spanish.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 4,
+  "before": "He has a hundred pages to finish.",
+  "after": "He writes a hundred words in his book.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 5,
+  "before": "Raj is angry about a mistake.",
+  "after": "Raj makes a mistake and feels angry.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 6,
+  "before": "He uses an eraser to fix it.",
+  "after": "Zoe gives him her eraser with a smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-054",
+  "i": 7,
+  "before": "Zoe helps him describe words in a dictionary.",
+  "after": "Then she helps him with her dictionary.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 0,
+  "before": "Today is Dan's big birthday.",
+  "after": "Aiko comes to Dan's house for his birthday.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 1,
+  "before": "Aiko and Dan come into the kitchen.",
+  "after": "They wait for the cake at a garden table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 2,
+  "before": "They sit near a small wooden table.",
+  "after": "Aiko puts butter on warm bread for Dan.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 3,
+  "before": "Aiko puts butter on the bread.",
+  "after": "Just then, Finn the pig comes near them.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 4,
+  "before": "They eat all the small snacks.",
+  "after": "The hungry animal finds a carrot under the table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 5,
+  "before": "Dan finds a carrot under his chair.",
+  "after": "It eats all of the carrot very fast.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 6,
+  "before": "A small pig runs off the table.",
+  "after": "Then it pulls the bread off Dan's plate.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-055",
+  "i": 7,
+  "before": "They just want to close the door.",
+  "after": "Later, Dan closes the gate so it stays out.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 0,
+  "before": "Ivan is at a new club.",
+  "after": "Ivan's grandfather invites him to his club.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 1,
+  "before": "His grandfather walks slowly beside him.",
+  "after": "His grandfather has friends from many countries.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 2,
+  "before": "They invite a friendly American woman.",
+  "after": "Maya is an American woman with a kind face.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 3,
+  "before": "Maya is a kind Russian friend.",
+  "after": "Her son has a tiger on his shirt.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 4,
+  "before": "Everybody has a very big smile.",
+  "after": "A Russian man and his wife dance together.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 5,
+  "before": "The British police officer visits them.",
+  "after": "A British police officer tells a funny story.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-056",
+  "i": 6,
+  "before": "Her son plays with a tiger.",
+  "after": "Everybody laughs and gives him a big smile.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 0,
+  "before": "Ben and Anna see a lot of bright light.",
+  "after": "Ben and his wife Anna are at a party.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 1,
+  "before": "The room is very busy with many people.",
+  "after": "The house is busy and full of light.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 2,
+  "before": "Ben wants to talk to his wife, Anna.",
+  "after": "A lot of people talk and laugh inside.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 3,
+  "before": "He wants to say something very important.",
+  "after": "First, they look for a glass of wine.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 4,
+  "before": "He shares his personal news with her.",
+  "after": "They find red wine on a long table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 5,
+  "before": "First, they walk to the large table.",
+  "after": "Ben wants to say something personal to Anna.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 6,
+  "before": "They find a bottle of red wine.",
+  "after": "As they walk outside, the sky is cloudy.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-057",
+  "i": 7,
+  "before": "They look at the food on the table.",
+  "after": "Happy Anna runs to hug him by the flowers.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 1,
+  "before": "They look at the date on the calendar.",
+  "after": "A calendar with flowers is on the wall.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 2,
+  "before": "The next holiday is very soon.",
+  "after": "Lily's next school trip is on that date.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 3,
+  "before": "Lily wants some new blue pants.",
+  "after": "The student needs some new pants for it.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 4,
+  "before": "Which pair does she like more?",
+  "after": "Grandmother holds two pairs of pants on her arm.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 5,
+  "before": "A small flower is on the wall.",
+  "after": "Lily cannot decide which pair she likes more.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 6,
+  "before": "The student needs a clean toilet.",
+  "after": "She goes to the toilet to try them on.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-058",
+  "i": 7,
+  "before": "She moves her arm to point.",
+  "after": "They are very long, but Grandmother finds a way.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 0,
+  "before": "Omar and Nina go to the bookstore.",
+  "after": "Omar and Nina visit a small bookstore.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 1,
+  "before": "They see many young people there.",
+  "after": "They see many young people reading there.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 2,
+  "before": "A photo of a horse is there.",
+  "after": "Nina needs a book with horse photos.",
+  "reason": "画面"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 3,
+  "before": "They feel hungry two hours ago.",
+  "after": "She saw it at the library a week ago.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 4,
+  "before": "They walk away from the bookstore.",
+  "after": "Soon they are hungry, so they walk away.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 5,
+  "before": "Nina cooks in the large dining-room.",
+  "after": "At home, Omar cooks fish for dinner.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 6,
+  "before": "She puts an orange over the plate.",
+  "after": "Nina puts a light over the dining-room table.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-059",
+  "i": 7,
+  "before": "She answers a call near the food.",
+  "after": "Then she puts a bowl of oranges on it.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 0,
+  "before": "The weather is very good today.",
+  "after": "Rosa and Ali go out in good weather.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 1,
+  "before": "Rosa and Ali are out in the park.",
+  "after": "Ali wears his new blue shirt.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 2,
+  "before": "Ali wears a clean blue shirt.",
+  "after": "They follow a path to the park.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 3,
+  "before": "Ali gives Rosa a big salad.",
+  "after": "Ali gives Rosa a big bowl of salad.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 4,
+  "before": "They both sit inside a small tent.",
+  "after": "They both think the salad is great.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 5,
+  "before": "The salad is great and fresh.",
+  "after": "They do not want to miss French class.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 6,
+  "before": "They do not miss their lunch.",
+  "after": "So they run to the library behind the park.",
+  "reason": "通顺"
+ },
+ {
+  "scene_id": "A1-060",
+  "i": 7,
+  "before": "Ali sits behind Rosa twice today.",
+  "after": "Inside, they practise each French word twice.",
   "reason": "通顺"
  }
 ]

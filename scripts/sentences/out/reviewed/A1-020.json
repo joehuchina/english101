@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-020",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "full",
+  "happen",
+  "number",
+  "take",
+  "enjoy",
+  "january",
+  "hobby",
+  "stand",
+  "must",
+  "about",
+  "sandwich",
+  "slow",
+  "make",
+  "possible"
+ ],
+ "review_words": [
+  "chips",
+  "left",
+  "put",
+  "sunday"
+ ],
+ "title": "Sunday Sandwiches",
+ "title_zh": "星期天的三明治",
+ "setting": "A bright family kitchen on a cold winter day.",
+ "characters": [
+  {
+   "name": "Ali",
+   "look": "Ali, a young boy with short black hair and a blue shirt"
+  },
+  {
+   "name": "Rosa",
+   "look": "Rosa, a young girl with long brown hair and a yellow dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a slow Sunday in January.",
+   "zh": "这是一月里一个悠闲的星期天。",
+   "scene_prompt": "A quiet kitchen in winter, snow outside the window; Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow dress sit relaxed in pyjamas."
+  },
+  {
+   "en": "Making sandwiches is Rosa's favourite hobby.",
+   "zh": "做三明治是罗莎最喜欢的爱好。",
+   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow dress happily spreads butter on bread at the kitchen counter."
+  },
+  {
+   "en": "Today she makes a large number of them.",
+   "zh": "今天她做了一大堆三明治。",
+   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow dress stands proudly beside a tall pile of sandwiches."
+  },
+  {
+   "en": "Ali puts chips in his and enjoys it.",
+   "zh": "阿里往自己的三明治里放了薯片，吃得很开心。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt pushes crisps into his sandwich and takes a happy bite."
+  },
+  {
+   "en": "They stand by the window and talk about school.",
+   "zh": "他们站在窗边，聊着学校的事。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow dress stand by the window eating sandwiches and chatting."
+  },
+  {
+   "en": "They are full, so eating more is not possible.",
+   "zh": "他们吃饱了，再也吃不下了。",
+   "scene_prompt": "Ali, a young boy with short black hair and a blue shirt and Rosa, a young girl with long brown hair and a yellow dress hold their full bellies, a few sandwiches still on the plate."
+  },
+  {
+   "en": "Then something funny happens: the cat takes one!",
+   "zh": "接着发生了一件好笑的事：猫叼走了一个！",
+   "scene_prompt": "A gray cat jumps onto the table and runs off with a sandwich in its mouth."
+  },
+  {
+   "en": "Rosa laughs, \"Our cat must love sandwiches too!\"",
+   "zh": "罗莎笑着说：“我们的猫一定也爱吃三明治！”",
+   "scene_prompt": "Rosa, a young girl with long brown hair and a yellow dress laughs and points at the cat eating the sandwich while Ali, a young boy with short black hair and a blue shirt grins."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

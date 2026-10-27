@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-033",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "grey",
+  "much",
+  "can",
+  "hey",
+  "cola",
+  "shower",
+  "early",
+  "these",
+  "favourite",
+  "clock",
+  "downstairs",
+  "meal",
+  "chair",
+  "interested"
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "something",
+  "pet"
+ ],
+ "title": "Cola for Breakfast?",
+ "title_zh": "早餐喝可乐？",
+ "setting": "A family house: a bathroom upstairs and a kitchen downstairs.",
+ "characters": [
+  {
+   "name": "Ben",
+   "look": "Ben, a young boy with short brown hair and a blue t-shirt"
+  },
+  {
+   "name": "Anna",
+   "look": "Anna, a young girl with long blonde hair and a red sweater"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Ben wakes up early and looks at the clock.",
+   "zh": "本很早就醒了，看了看时钟。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue t-shirt sits up in bed and looks at a clock on the wall, early morning light outside."
+  },
+  {
+   "en": "He takes a warm shower and washes his head.",
+   "zh": "他洗了个热水澡，还洗了头。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue t-shirt stands under a warm shower and washes his hair with soap."
+  },
+  {
+   "en": "Then he runs downstairs to the kitchen.",
+   "zh": "然后他跑下楼去厨房。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue t-shirt runs down the stairs toward the kitchen."
+  },
+  {
+   "en": "\"Hey, Ben, your meal is ready!\" says Anna.",
+   "zh": "“嘿，本，你的饭好了！”安娜说。",
+   "scene_prompt": "Anna, a young girl with long blonde hair and a red sweater calls and waves to Ben, a young boy with short brown hair and a blue t-shirt from a kitchen table with breakfast on it."
+  },
+  {
+   "en": "Their grey pet cat sleeps on a chair.",
+   "zh": "他们家的灰色宠物猫睡在一把椅子上。",
+   "scene_prompt": "A grey cat sleeps on a kitchen chair next to Anna, a young girl with long blonde hair and a red sweater."
+  },
+  {
+   "en": "Ben is not interested in these eggs.",
+   "zh": "本对这些鸡蛋不感兴趣。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue t-shirt looks without interest at a plate of eggs on the table."
+  },
+  {
+   "en": "He wants something else: cola, his favourite drink.",
+   "zh": "他想要别的东西：可乐，他最喜欢的饮料。",
+   "scene_prompt": "Ben, a young boy with short brown hair and a blue t-shirt reaches for a bottle of cola on the table."
+  },
+  {
+   "en": "Anna says he can have some, but not much.",
+   "zh": "安娜说他可以喝一点，但不能喝很多。",
+   "scene_prompt": "Anna, a young girl with long blonde hair and a red sweater pours a little cola into a small glass for Ben, a young boy with short brown hair and a blue t-shirt."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

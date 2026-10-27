@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-034",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "never",
+  "middle",
+  "cool",
+  "september",
+  "easy",
+  "thing",
+  "anything",
+  "forty",
+  "chocolate",
+  "size",
+  "small",
+  "picnic",
+  "begin",
+  "maybe"
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "something",
+  "pet"
+ ],
+ "title": "A September Picnic",
+ "title_zh": "九月的野餐",
+ "setting": "A sunny park with green grass in September.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "Mia, a young girl with short brown hair and a yellow shirt"
+  },
+  {
+   "name": "Sam",
+   "look": "Sam, a young boy with glasses and a blue t-shirt"
+  },
+  {
+   "name": "Lily",
+   "look": "Lily, a young girl with long black hair and a red dress"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Mia and Sam begin a picnic in September.",
+   "zh": "九月，米娅和萨姆开始野餐。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt and Sam, a young boy with glasses and a blue t-shirt spread a picnic blanket on green grass in a park with a few early autumn leaves."
+  },
+  {
+   "en": "Mia brings forty small chocolates and cool drinks.",
+   "zh": "米娅带来了四十块小巧克力和清凉的饮料。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt opens a box full of small chocolates next to cold drinks on the blanket."
+  },
+  {
+   "en": "Sam sees something in the middle of the grass.",
+   "zh": "萨姆看见草地中间有个东西。",
+   "scene_prompt": "Sam, a young boy with glasses and a blue t-shirt points at something small in the middle of the grass."
+  },
+  {
+   "en": "Maybe it is a lost pet.",
+   "zh": "也许它是一只走丢的宠物。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt and Sam, a young boy with glasses and a blue t-shirt look curiously at a small animal shape in the grass."
+  },
+  {
+   "en": "It is a puppy the size of a shoe.",
+   "zh": "那是一只只有鞋子大小的小狗。",
+   "scene_prompt": "A tiny puppy, as small as a shoe, sits on the grass in front of Sam, a young boy with glasses and a blue t-shirt."
+  },
+  {
+   "en": "Lily runs over, too happy to say anything.",
+   "zh": "莉莉跑过来，高兴得说不出话。",
+   "scene_prompt": "Lily, a young girl with long black hair and a red dress runs across the grass toward the puppy with a big happy face."
+  },
+  {
+   "en": "She never wants to lose her puppy again.",
+   "zh": "她再也不想弄丢她的小狗了。",
+   "scene_prompt": "Lily, a young girl with long black hair and a red dress hugs the tiny puppy tightly."
+  },
+  {
+   "en": "Sharing chocolate with her is an easy thing.",
+   "zh": "和她分享巧克力是件很容易的事。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a yellow shirt and Sam, a young boy with glasses and a blue t-shirt give chocolates to Lily, a young girl with long black hair and a red dress on the picnic blanket, the puppy beside them."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

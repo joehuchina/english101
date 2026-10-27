@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-027",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "history",
+  "friday",
+  "feet",
+  "wash",
+  "sofa",
+  "rice",
+  "clean",
+  "name",
+  "often",
+  "it",
+  "baby",
+  "water",
+  "half",
+  "sorry"
+ ],
+ "review_words": [
+  "sock",
+  "holiday",
+  "france",
+  "aeroplane"
+ ],
+ "title": "A Friday Evening",
+ "title_zh": "一个星期五的晚上",
+ "setting": "A bright, clean family home: a kitchen and a living room with a sofa.",
+ "characters": [
+  {
+   "name": "Nina",
+   "look": "Nina, a girl of ten with long brown hair and a yellow shirt"
+  },
+  {
+   "name": "Omar",
+   "look": "her dad Omar, a tall man with short black hair and glasses"
+  },
+  {
+   "name": "Baby",
+   "look": "her baby brother, a chubby baby in a white onesie"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "On Friday evening, Nina cooks rice for dinner.",
+   "zh": "星期五晚上，妮娜煮米饭当晚餐。",
+   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt stirs a pot of rice on the stove in the evening."
+  },
+  {
+   "en": "She spills some water on the clean floor.",
+   "zh": "她把一些水洒在了干净的地板上。",
+   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt looks surprised as water splashes from a jug onto a shiny clean floor."
+  },
+  {
+   "en": "Nina is sorry, but Dad just smiles.",
+   "zh": "妮娜很抱歉，但爸爸只是笑了笑。",
+   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt looks sorry with her hands together while her dad Omar, a tall man with short black hair and glasses smiles kindly and holds a mop."
+  },
+  {
+   "en": "After dinner, Dad washes the baby's feet.",
+   "zh": "晚饭后，爸爸给宝宝洗脚。",
+   "scene_prompt": "her dad Omar, a tall man with short black hair and glasses gently washes the little feet of her baby brother, a chubby baby in a white onesie in a small bowl of water."
+  },
+  {
+   "en": "The baby often laughs when Nina says his name.",
+   "zh": "妮娜一叫宝宝的名字，他就常常咯咯笑。",
+   "scene_prompt": "her baby brother, a chubby baby in a white onesie laughs happily while Nina, a girl of ten with long brown hair and a yellow shirt leans in and calls to him."
+  },
+  {
+   "en": "Then Nina sits on the sofa with a book.",
+   "zh": "然后妮娜拿着一本书坐到沙发上。",
+   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt sits on a soft sofa in the living room, opening a book."
+  },
+  {
+   "en": "It is a history book about France.",
+   "zh": "这是一本关于法国历史的书。",
+   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt holds a book with an old French castle on the cover."
+  },
+  {
+   "en": "She reads half of it and dreams of holidays.",
+   "zh": "她读了一半，梦想着去那里度假。",
+   "scene_prompt": "Nina, a girl of ten with long brown hair and a yellow shirt on the sofa with a half-read book, a dream bubble showing a sunny holiday in France."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

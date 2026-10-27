@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-006",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "fire",
+  "sister",
+  "pizza",
+  "pair",
+  "yourself",
+  "last",
+  "listen",
+  "toothpaste",
+  "banana",
+  "menu",
+  "line",
+  "mister",
+  "door",
+  "forget"
+ ],
+ "review_words": [
+  "thursday",
+  "clothes",
+  "strong",
+  "month"
+ ],
+ "title": "Thursday at Mister Raj's Shop",
+ "title_zh": "星期四在拉吉先生的小店",
+ "setting": "A small, busy corner shop with a pizza oven and a food counter.",
+ "characters": [
+  {
+   "name": "Zoe",
+   "look": "Zoe, a young girl with short brown hair and a green shirt"
+  },
+  {
+   "name": "Lucy",
+   "look": "Lucy, her sister, a young girl with long blonde hair and a red sweater"
+  },
+  {
+   "name": "Mister Raj",
+   "look": "Mister Raj, a tall shopkeeper with glasses and a blue shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "On Thursday, Zoe and her sister Lucy go shopping.",
+   "zh": "星期四，佐伊和她的妹妹露西去买东西。",
+   "scene_prompt": "Zoe, a young girl with short brown hair and a green shirt and Lucy, her sister, a young girl with long blonde hair and a red sweater walk happily down a street with shopping bags."
+  },
+  {
+   "en": "Mister Raj opens the door of his shop.",
+   "zh": "拉吉先生打开了他小店的门。",
+   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt holds open the door of a small corner shop for Zoe, a young girl with short brown hair and a green shirt and Lucy, her sister, a young girl with long blonde hair and a red sweater."
+  },
+  {
+   "en": "A long line of people waits inside.",
+   "zh": "店里有一长队人在等着。",
+   "scene_prompt": "A long queue of customers stands inside a small, busy corner shop."
+  },
+  {
+   "en": "Lucy buys toothpaste and a pair of socks.",
+   "zh": "露西买了牙膏和一双袜子。",
+   "scene_prompt": "Lucy, her sister, a young girl with long blonde hair and a red sweater puts a tube of toothpaste and a pair of striped socks on the counter."
+  },
+  {
+   "en": "Zoe reads the menu and wants a pizza.",
+   "zh": "佐伊看了菜单，想要一个比萨饼。",
+   "scene_prompt": "Zoe, a young girl with short brown hair and a green shirt looks up at a picture menu with pizzas above the food counter."
+  },
+  {
+   "en": "Raj bakes it over a strong fire.",
+   "zh": "拉吉在旺火上烤比萨饼。",
+   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt slides a pizza into a brick oven with a big, bright fire."
+  },
+  {
+   "en": "\"Help yourself to the last banana,\" he says.",
+   "zh": "“最后一根香蕉你自己拿吧。”他说。",
+   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt smiles and points Zoe, a young girl with short brown hair and a green shirt to a basket with one last banana."
+  },
+  {
+   "en": "\"Listen, Zoe, do not forget your bag!\"",
+   "zh": "“听着，佐伊，别忘了你的包！”",
+   "scene_prompt": "Mister Raj, a tall shopkeeper with glasses and a blue shirt holds up a shopping bag and calls after Zoe, a young girl with short brown hair and a green shirt at the door, Lucy, her sister, a young girl with long blonde hair and a red sweater beside her."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

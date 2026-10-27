@@ -1,0 +1,82 @@
+{
+ "scene_id": "A1-011",
+ "level": "A1",
+ "topic": "health",
+ "targets": [
+  "body",
+  "nose",
+  "doctor",
+  "gym",
+  "hospital",
+  "sugar",
+  "thirsty",
+  "food",
+  "tired",
+  "tooth",
+  "relax",
+  "walking",
+  "wonderful"
+ ],
+ "review_words": [
+  "cut",
+  "wake",
+  "love",
+  "really"
+ ],
+ "title": "Omar Feels Better",
+ "title_zh": "奥马尔好起来了",
+ "setting": "A hospital room and a gym in the same town.",
+ "characters": [
+  {
+   "name": "Omar",
+   "look": "Omar, a young man with short black hair and a green T-shirt"
+  },
+  {
+   "name": "Nina",
+   "look": "Doctor Nina, a young woman doctor with long brown hair and a white coat"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "Omar wakes up and feels really tired.",
+   "zh": "奥马尔醒来，觉得真的很累。",
+   "scene_prompt": "Omar, a young man with short black hair and a green T-shirt sits up in bed, yawning and rubbing his eyes."
+  },
+  {
+   "en": "He goes to see a doctor at the hospital.",
+   "zh": "于是他去医院找医生看病。",
+   "scene_prompt": "Omar, a young man with short black hair and a green T-shirt walks into a bright hospital entrance."
+  },
+  {
+   "en": "The doctor checks his nose and his tooth.",
+   "zh": "医生检查了他的鼻子和牙齿。",
+   "scene_prompt": "Doctor Nina, a young woman doctor with long brown hair and a white coat looks at the nose and teeth of Omar, a young man with short black hair and a green T-shirt with a small light."
+  },
+  {
+   "en": "\"You eat too much sugar,\" the doctor says.",
+   "zh": "“你吃的糖太多了。”医生说。",
+   "scene_prompt": "Doctor Nina, a young woman doctor with long brown hair and a white coat points to a bowl of sugar and sweets while Omar, a young man with short black hair and a green T-shirt looks guilty."
+  },
+  {
+   "en": "Walking is good for your body, too.",
+   "zh": "散步对你的身体也有好处。",
+   "scene_prompt": "Omar, a young man with short black hair and a green T-shirt walks briskly along a park path."
+  },
+  {
+   "en": "Now Omar loves going to the gym.",
+   "zh": "现在奥马尔爱上了去健身房。",
+   "scene_prompt": "Omar, a young man with short black hair and a green T-shirt lifts light weights happily in a gym."
+  },
+  {
+   "en": "He is thirsty, so he drinks lots of water.",
+   "zh": "他口渴了，所以喝了很多水。",
+   "scene_prompt": "Omar, a young man with short black hair and a green T-shirt drinks from a big water bottle in the gym, sweating."
+  },
+  {
+   "en": "After good food, he relaxes and feels wonderful.",
+   "zh": "吃了健康的饭菜后，他放松下来，感觉好极了。",
+   "scene_prompt": "Omar, a young man with short black hair and a green T-shirt relaxes on a sofa with a smile after a meal of salad and fish."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

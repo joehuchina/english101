@@ -1,0 +1,83 @@
+{
+ "scene_id": "A1-008",
+ "level": "A1",
+ "topic": "nature",
+ "targets": [
+  "river",
+  "horse",
+  "elephant",
+  "rainy",
+  "winter",
+  "sun",
+  "spring",
+  "pig",
+  "animal",
+  "tiger",
+  "star",
+  "sky",
+  "flower",
+  "cloudy"
+ ],
+ "review_words": [
+  "clothes",
+  "let",
+  "use",
+  "minute"
+ ],
+ "title": "A Spring Day at the Zoo",
+ "title_zh": "春天的动物园",
+ "setting": "A zoo by a river, with a small farm corner.",
+ "characters": [
+  {
+   "name": "Sara",
+   "look": "Sara, a young girl with long brown hair and a yellow shirt"
+  },
+  {
+   "name": "Ivan",
+   "look": "Ivan, a young boy with short black hair and blue overalls"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a cloudy, rainy morning in spring.",
+   "zh": "这是一个多云下雨的春天早晨。",
+   "scene_prompt": "Sara, a young girl with long brown hair and a yellow shirt and Ivan, a young boy with short black hair and blue overalls in raincoats walk into a zoo under grey clouds and light rain, spring blossoms on the trees."
+  },
+  {
+   "en": "A baby elephant plays in the river.",
+   "zh": "一头小象在河里玩耍。",
+   "scene_prompt": "A baby elephant splashes happily in a shallow river."
+  },
+  {
+   "en": "This winter baby is now the zoo's star.",
+   "zh": "这头冬天出生的小象现在是动物园的明星。",
+   "scene_prompt": "Many visitors, with Sara, a young girl with long brown hair and a yellow shirt and Ivan, a young boy with short black hair and blue overalls, crowd around the baby elephant and cheer."
+  },
+  {
+   "en": "A tiger sleeps among the red flowers.",
+   "zh": "一只老虎睡在红色的花丛中。",
+   "scene_prompt": "A tiger sleeps peacefully among red flowers."
+  },
+  {
+   "en": "Ivan lets a little pig eat from his hand.",
+   "zh": "伊万让一只小猪从他手里吃东西。",
+   "scene_prompt": "Ivan, a young boy with short black hair and blue overalls holds out his hand and a little pink pig eats from it."
+  },
+  {
+   "en": "Sara sits on a brown horse for ten minutes.",
+   "zh": "萨拉在一匹棕色的马上坐了十分钟。",
+   "scene_prompt": "Sara, a young girl with long brown hair and a yellow shirt sits on a calm brown horse in a small paddock."
+  },
+  {
+   "en": "Then the sun comes out in the sky.",
+   "zh": "然后太阳在天空中出来了。",
+   "scene_prompt": "The sun breaks through the clouds in a bright sky over the zoo."
+  },
+  {
+   "en": "Sara and Ivan love every animal here.",
+   "zh": "萨拉和伊万喜爱这里的每一只动物。",
+   "scene_prompt": "Sara, a young girl with long brown hair and a yellow shirt and Ivan, a young boy with short black hair and blue overalls smile happily in front of the elephant, tiger, pig and horse."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

@@ -1,0 +1,78 @@
+{
+ "scene_id": "A1-035",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "enough",
+  "few",
+  "country",
+  "april",
+  "with",
+  "plate",
+  "saturday",
+  "brown",
+  "help",
+  "high",
+  "soup",
+  "big",
+  "hand",
+  "excited"
+ ],
+ "review_words": [
+  "africa",
+  "head",
+  "stop",
+  "night"
+ ],
+ "title": "Soup on Saturday Night",
+ "title_zh": "星期六晚上的汤",
+ "setting": "A warm kitchen with a high shelf of plates.",
+ "characters": [
+  {
+   "name": "Nina",
+   "look": "Nina, a young girl with long black hair and a yellow shirt"
+  },
+  {
+   "name": "Omar",
+   "look": "Omar, a young boy with short curly hair and a blue t-shirt"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "It is a cold Saturday night in April.",
+   "zh": "这是四月一个寒冷的星期六晚上。",
+   "scene_prompt": "A cozy kitchen at night, rain on the dark window."
+  },
+  {
+   "en": "Nina makes hot soup from her home country.",
+   "zh": "妮娜做了一道她家乡的热汤。",
+   "scene_prompt": "Nina, a young girl with long black hair and a yellow shirt stirs a pot of hot soup on the stove."
+  },
+  {
+   "en": "The plates are on a high shelf.",
+   "zh": "盘子放在高高的架子上。",
+   "scene_prompt": "Plates stand on a high kitchen shelf above Nina, a young girl with long black hair and a yellow shirt's head."
+  },
+  {
+   "en": "Omar helps her get a few big plates.",
+   "zh": "奥马尔帮她拿下几个大盘子。",
+   "scene_prompt": "Omar, a young boy with short curly hair and a blue t-shirt stands on a stool and takes a few big plates from the high shelf."
+  },
+  {
+   "en": "He hands her the brown plates with care.",
+   "zh": "他小心地把棕色的盘子递给她。",
+   "scene_prompt": "Omar, a young boy with short curly hair and a blue t-shirt carefully hands brown plates to Nina, a young girl with long black hair and a yellow shirt."
+  },
+  {
+   "en": "There is enough soup for everyone.",
+   "zh": "汤够每个人喝。",
+   "scene_prompt": "A big pot full of soup next to several filled brown plates on the table."
+  },
+  {
+   "en": "Omar is excited and cannot stop smiling.",
+   "zh": "奥马尔很兴奋，一直笑个不停。",
+   "scene_prompt": "Omar, a young boy with short curly hair and a blue t-shirt sits at the table with a plate of soup, smiling widely, Nina, a young girl with long black hair and a yellow shirt beside him."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}

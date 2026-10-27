@@ -1,0 +1,87 @@
+{
+ "scene_id": "A1-010",
+ "level": "A1",
+ "topic": "daily",
+ "targets": [
+  "october",
+  "room",
+  "rest",
+  "aunt",
+  "watch",
+  "sometimes",
+  "fine",
+  "card",
+  "start",
+  "life",
+  "finish",
+  "our",
+  "tomorrow",
+  "plan"
+ ],
+ "review_words": [
+  "let",
+  "o-clock",
+  "cut",
+  "wake"
+ ],
+ "title": "A Visit to Aunt Lily",
+ "title_zh": "看望莉莉姨妈",
+ "setting": "Aunt Lily's cozy room in her house, on an autumn afternoon.",
+ "characters": [
+  {
+   "name": "Mia",
+   "look": "Mia, a young girl with short brown hair and a red sweater"
+  },
+  {
+   "name": "Sam",
+   "look": "Sam, a young boy with blond hair and a blue shirt"
+  },
+  {
+   "name": "Aunt Lily",
+   "look": "Aunt Lily, a kind woman with long black hair and glasses"
+  }
+ ],
+ "sentences": [
+  {
+   "en": "In October, Mia and Sam visit their aunt.",
+   "zh": "十月，米娅和萨姆去看望他们的姨妈。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with blond hair and a blue shirt walk up to a house with orange autumn leaves on the ground."
+  },
+  {
+   "en": "Their aunt is resting in her sunny room.",
+   "zh": "他们的姨妈正在她阳光充足的房间里休息。",
+   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses rests in an armchair with a blanket in a sunny room."
+  },
+  {
+   "en": "She opens Mia's card and starts to smile.",
+   "zh": "她打开米娅的贺卡，开始露出笑容。",
+   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses opens a handmade greeting card and smiles, Mia, a young girl with short brown hair and a red sweater beside her."
+  },
+  {
+   "en": "\"I feel fine today,\" she says to them.",
+   "zh": "“我今天感觉很好。”她对他们说。",
+   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses talks cheerfully to Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with blond hair and a blue shirt."
+  },
+  {
+   "en": "She lets Sam cut the cake for everyone.",
+   "zh": "她让萨姆给大家切蛋糕。",
+   "scene_prompt": "Sam, a young boy with blond hair and a blue shirt cuts a round cake on a small table while Aunt Lily, a kind woman with long black hair and glasses watches."
+  },
+  {
+   "en": "When they finish, they watch birds from the window.",
+   "zh": "吃完以后，他们从窗户看鸟。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater, Sam, a young boy with blond hair and a blue shirt and Aunt Lily, a kind woman with long black hair and glasses look out of a window at birds in a tree, empty plates behind them."
+  },
+  {
+   "en": "Aunt Lily sometimes tells funny stories about her life.",
+   "zh": "莉莉姨妈有时会讲她生活中的趣事。",
+   "scene_prompt": "Aunt Lily, a kind woman with long black hair and glasses tells a story with lively hands while Mia, a young girl with short brown hair and a red sweater and Sam, a young boy with blond hair and a blue shirt laugh."
+  },
+  {
+   "en": "\"Our plan is to come back tomorrow,\" says Mia.",
+   "zh": "“我们打算明天再来。”米娅说。",
+   "scene_prompt": "Mia, a young girl with short brown hair and a red sweater hugs Aunt Lily, a kind woman with long black hair and glasses goodbye at the door, Sam, a young boy with blond hair and a blue shirt waving."
+  }
+ ],
+ "reviewed_by": "claude-opus-5-5"
+}
